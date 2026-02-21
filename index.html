@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SEO META TAGS — Copy these into Squarespace:
+       Pages > Page Settings > SEO tab for each field
+  ════════════════════════════════════════════════════════════════ -->
+  <title>Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective</title>
+  <meta name="description" content="Fresh, diverse corporate catering for 100–300 guests. 6 in-house chefs — sushi, Chinese, Mexican fusion & more. On-time delivery, $15–$25/person. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192." />
+  <meta name="keywords" content="corporate catering san jose, catering tech companies bay area, office catering palo alto, startup catering silicon valley, sushi catering corporate events, healthy catering mountain view sunnyvale, catering 100 people san jose" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.culinaryblock.com/" />
+
+  <!-- Open Graph (LinkedIn / Facebook preview) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Corporate Catering San Jose | Culinary Block Collective" />
+  <meta property="og:description" content="6 in-house chefs. 100–300 guests. $15–$25/person. On-time delivery for Bay Area tech teams." />
+  <meta property="og:url" content="https://www.culinaryblock.com/" />
+  <meta property="og:image" content="https://www.culinaryblock.com/images/og-hero.jpg" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SCHEMA MARKUP — Add to Squarespace:
+       Settings > Advanced > Code Injection > Header
+  ════════════════════════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["FoodEstablishment", "LocalBusiness"],
+    "name": "Culinary Block Collective",
+    "description": "Multi-chef corporate catering kitchen serving the Bay Area. Specializing in sushi, Chinese, Mexican fusion, American, and specialty cuisines for tech companies.",
+    "url": "https://www.culinaryblock.com",
+    "telephone": "+14085550192",
+    "email": "hello@culinaryblock.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Catering Way",
+      "addressLocality": "San Jose",
+      "addressRegion": "CA",
+      "postalCode": "95110",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.3382,
+      "longitude": -121.8863
+    },
+    "areaServed": ["San Jose", "Palo Alto", "Mountain View", "Sunnyvale", "Santa Clara"],
+    "servesCuisine": ["Japanese", "Chinese", "Mexican", "American", "Asian Fusion"],
+    "priceRange": "$15–$25 per person",
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "sameAs": [
+      "https://www.linkedin.com/company/culinary-block-collective",
+      "https://www.instagram.com/culinaryblock"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EAF2EB;
+      --gold:         #C9992A;
+      --gold-light:   #F0DFA0;
+      --lgold:        #FBF5E6;
+      --cream:        #FAF7F2;
+      --cream2:       #F3EDE4;
+      --border:       #E2D9CE;
+      --text:         #1C1814;
+      --muted:        #5C5349;
+      --white:        #FFFFFF;
+      --radius:       10px;
+      --shadow:       0 4px 32px rgba(43,28,12,0.10);
+      --shadow-lg:    0 12px 48px rgba(43,28,12,0.14);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* ── UTILITY ── */
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 800; font-size: 1.05rem; padding: 16px 32px;
+      border-radius: 50px; border: none; cursor: pointer;
+      box-shadow: 0 4px 18px rgba(212,160,23,0.35);
+      transition: transform .15s, box-shadow .15s;
+      white-space: nowrap;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(212,160,23,0.45); }
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid var(--green); color: var(--green);
+      font-weight: 700; font-size: 1rem; padding: 14px 28px;
+      border-radius: 50px; cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .btn-outline:hover { background: var(--green); color: var(--white); }
+    .section-label {
+      display: inline-block; font-size: 0.78rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--green); background: var(--lgreen);
+      padding: 4px 14px; border-radius: 50px; margin-bottom: 14px;
+    }
+    .section-title { font-family: var(--font-display); font-size: clamp(1.9rem, 4vw, 3rem); font-weight: 600; line-height: 1.15; letter-spacing: -0.01em; }
+    .section-sub { font-size: 1.05rem; color: var(--muted); margin-top: 10px; max-width: 600px; }
+
+    /* ── STICKY NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen); padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px; box-shadow: none;
+    }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo span { color: var(--gold); }
+    nav { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .nav-phone {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 8px 18px;
+      border-radius: 4px;
+    }
+    .nav-phone svg { width: 16px; height: 16px; }
+
+    /* ── HERO ── */
+    .hero {
+      background:
+        linear-gradient(to bottom, rgba(27,67,50,0.72) 0%, rgba(27,67,50,0.84) 100%),
+        url('https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1400&q=80&auto=format&fit=crop')
+        center/cover no-repeat;
+      padding: 100px 24px 88px;
+      position: relative; overflow: hidden;
+    }
+    .hero-inner { max-width: 760px; margin: 0 auto; text-align: center; position: relative; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(201,153,42,0.18); border: 1px solid rgba(201,153,42,0.45); color: var(--gold-light);
+      font-size: 0.78rem; font-weight: 500; letter-spacing: .10em;
+      text-transform: uppercase; padding: 6px 18px; border-radius: 50px; margin-bottom: 22px;
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 6vw, 4rem); font-weight: 700; font-style: italic;
+      color: var(--white); line-height: 1.1; margin-bottom: 20px;
+    }
+    .hero h1 em { color: var(--gold); font-style: normal; }
+    .hero-sub {
+      font-size: 1.15rem; color: rgba(255,255,255,0.82);
+      margin-bottom: 36px; line-height: 1.65;
+    }
+    .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .btn-hero-phone {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 900; font-size: 1.2rem; padding: 18px 36px;
+      border-radius: 50px; box-shadow: 0 6px 24px rgba(212,160,23,0.4);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .btn-hero-phone:hover { transform: translateY(-3px); box-shadow: 0 10px 32px rgba(212,160,23,0.5); }
+    .btn-hero-text {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 2px solid rgba(255,255,255,0.5); color: var(--white);
+      font-weight: 700; font-size: 1.05rem; padding: 17px 30px;
+      border-radius: 50px; transition: border-color .15s, background .15s;
+    }
+    .btn-hero-text:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+    .hero-trust {
+      margin-top: 36px; display: flex; gap: 0; justify-content: center;
+      flex-wrap: wrap;
+    }
+    .hero-trust-item {
+      display: flex; align-items: center;
+      color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 400;
+      padding: 0 16px; border-right: 1px solid rgba(255,255,255,0.2);
+    }
+    .hero-trust-item:last-child { border-right: none; }
+    .hero-trust-item .dot { display: none; }
+
+    /* ── SOCIAL PROOF STRIP ── */
+    .proof-strip {
+      background: var(--lgreen);
+      border-top: 1px solid #B7D4BF;
+      border-bottom: 1px solid #B7D4BF;
+      padding: 18px 24px;
+      text-align: center;
+    }
+    .proof-strip p {
+      font-size: 0.9rem; font-weight: 500; color: var(--dgreen); letter-spacing: 0.02em;
+    }
+    .proof-strip span { color: var(--green); font-weight: 700; }
+
+    /* ── SECTION GENERIC ── */
+    .section { padding: 72px 24px; }
+    .section-alt { background: var(--cream2); }
+    .section-dark { background: var(--dgreen); }
+    .section-center { text-align: center; }
+    .section-center .section-sub { margin: 10px auto 0; }
+
+    /* ── CHEF GRID ── */
+    .chef-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 18px; margin-top: 40px;
+    }
+    .chef-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1px solid var(--border); padding: 0 0 24px;
+      text-align: center; transition: transform .2s, box-shadow .2s;
+      position: relative; overflow: hidden;
+    }
+    .chef-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .chef-card::before { display: none; }
+    .chef-card-img { width: 100%; height: 160px; object-fit: cover; display: block; margin-bottom: 20px; }
+    .chef-icon { font-size: 2rem; margin: 20px 0 10px; }
+    .chef-card h3 { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--dgreen); margin: 0 20px 8px; }
+    .chef-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; margin: 0 20px; }
+    .chef-price {
+      display: inline-block; margin: 12px 20px 0;
+      background: var(--lgold); color: #7A5C0A;
+      font-size: 0.82rem; font-weight: 600;
+      padding: 4px 14px; border-radius: 50px;
+      border: 1px solid rgba(201,153,42,0.3);
+    }
+
+    /* ── PRICING ── */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 22px; margin-top: 40px;
+    }
+    .pricing-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 2px solid var(--border); padding: 32px 28px;
+      position: relative; transition: transform .2s, box-shadow .2s;
+    }
+    .pricing-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .pricing-card.featured {
+      border-color: var(--gold); background: var(--lgold);
+      box-shadow: 0 8px 40px rgba(201,153,42,0.18);
+    }
+    .pricing-card .featured-tag {
+      position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+      background: var(--green); color: var(--white);
+      font-size: 0.75rem; font-weight: 700; padding: 4px 16px;
+      border-radius: 50px; letter-spacing: .06em; white-space: nowrap;
+    }
+    .pricing-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--dgreen); }
+    .pricing-price { font-family: var(--font-display); font-size: 2.4rem; font-weight: 600; color: var(--dgreen); margin: 14px 0 4px; }
+    .pricing-price span { font-size: 1rem; font-weight: 500; color: var(--muted); }
+    .pricing-guests { font-size: 0.85rem; color: var(--muted); margin-bottom: 18px; }
+    .pricing-features { list-style: none; }
+    .pricing-features li {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: 0.9rem; color: var(--text); padding: 5px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .pricing-features li:last-child { border: none; }
+    .pricing-features li .check { color: var(--green); font-weight: 700; flex-shrink: 0; }
+
+    /* ── VALUE PROPS ── */
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 22px; margin-top: 40px;
+    }
+    .value-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1.5px solid var(--border); padding: 28px 22px;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .value-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+    .value-icon { font-size: 1.5rem; margin-bottom: 14px; }
+    .value-card h3 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--dgreen); margin-bottom: 8px; }
+    .value-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.55; }
+
+    /* ── HOW IT WORKS ── */
+    .steps { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 22px; margin-top: 40px; }
+    .step { text-align: center; padding: 24px 18px; }
+    .step-num {
+      width: 52px; height: 52px; border-radius: 50%;
+      background: transparent; border: 2px solid var(--gold); color: var(--gold);
+      font-family: var(--font-display); font-size: 1.6rem; font-weight: 600;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 16px;
+    }
+    .step h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; color: var(--white); margin-bottom: 8px; }
+    .step p { font-size: 0.875rem; color: rgba(255,255,255,0.72); }
+    .step-connector {
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.3); font-size: 1.5rem;
+    }
+
+    /* ── FAQ ── */
+    .faq-list { max-width: 720px; margin: 40px auto 0; }
+    .faq-item {
+      border-bottom: 1.5px solid var(--border); padding: 22px 0;
+    }
+    .faq-q {
+      font-size: 1rem; font-weight: 700; color: var(--dgreen);
+      cursor: pointer; display: flex; justify-content: space-between;
+      align-items: center; gap: 12px;
+    }
+    .faq-q::after { content: '+'; font-size: 1.4rem; color: var(--green); flex-shrink: 0; }
+    .faq-a {
+      font-size: 0.92rem; color: var(--muted); margin-top: 12px; line-height: 1.65;
+    }
+
+    /* ── PROMO BANNER ── */
+    .promo-banner {
+      background:
+        linear-gradient(135deg, rgba(180,130,20,0.88) 0%, rgba(100,60,5,0.84) 100%),
+        url('https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=1400&q=80&auto=format&fit=crop')
+        center/cover no-repeat;
+      padding: 60px 24px; text-align: center;
+    }
+    .promo-banner h2 { font-family: var(--font-display); font-size: clamp(1.7rem, 3.5vw, 2.4rem); font-weight: 600; color: var(--white); margin-bottom: 12px; }
+    .promo-banner p { font-size: 1.05rem; color: rgba(255,255,255,0.85); margin-bottom: 28px; }
+    .promo-offers {
+      display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px;
+    }
+    .promo-offer {
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+      backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      border-radius: var(--radius); padding: 20px 28px; text-align: center;
+      min-width: 180px;
+    }
+    .promo-offer .promo-num { font-family: var(--font-display); font-size: 2.2rem; font-weight: 700; color: var(--white); }
+    .promo-offer .promo-desc { font-size: 0.85rem; font-weight: 500; color: rgba(255,255,255,0.82); }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background:
+        linear-gradient(to bottom, rgba(27,67,50,0.88) 0%, rgba(13,33,24,0.94) 100%),
+        url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1400&q=80&auto=format&fit=crop')
+        center/cover no-repeat;
+      padding: 72px 24px; text-align: center;
+    }
+    .final-cta h2 { font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 600; font-style: italic; color: var(--white); margin-bottom: 14px; }
+    .final-cta p { font-size: 1.1rem; color: rgba(255,255,255,0.75); margin-bottom: 36px; }
+    .cta-contacts {
+      display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px;
+    }
+    .cta-phone-big {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 900; font-size: 1.4rem; padding: 20px 44px;
+      border-radius: 50px; box-shadow: 0 6px 28px rgba(212,160,23,0.4);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .cta-phone-big:hover { transform: translateY(-3px); box-shadow: 0 10px 36px rgba(212,160,23,0.55); }
+    .cta-text-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      border: 2px solid rgba(255,255,255,0.4); color: var(--white);
+      font-weight: 700; font-size: 1.15rem; padding: 19px 36px;
+      border-radius: 50px; transition: border-color .15s, background .15s;
+    }
+    .cta-text-btn:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+    .cta-note { font-size: 0.88rem; color: rgba(255,255,255,0.5); margin-top: 16px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0D2118; padding: 36px 24px; text-align: center;
+    }
+    .footer-inner { max-width: 800px; margin: 0 auto; }
+    .footer-logo { font-size: 1rem; font-weight: 800; color: var(--white); margin-bottom: 10px; }
+    .footer-logo span { color: var(--gold); }
+    .footer-links {
+      display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
+      margin: 14px 0; font-size: 0.88rem; color: rgba(255,255,255,0.55);
+    }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { font-size: 0.8rem; color: rgba(255,255,255,0.35); margin-top: 10px; }
+
+    /* ── PEOPLE OPS TWO-COLUMN ── */
+    .people-ops-layout {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start;
+    }
+    .people-ops-img-col { position: sticky; top: 80px; }
+    .people-ops-photo {
+      width: 100%; border-radius: var(--radius);
+      box-shadow: var(--shadow-lg); border: 3px solid var(--gold);
+    }
+    .people-ops-text-col { text-align: left; }
+    .people-ops-text-col .section-sub { margin: 10px 0 0; max-width: 100%; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .people-ops-layout { grid-template-columns: 1fr; }
+      .people-ops-img-col { position: static; }
+      .people-ops-text-col { text-align: center; }
+      .people-ops-text-col .section-sub { margin: 10px auto 0; }
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 64px 20px 56px; }
+      .section { padding: 52px 20px; }
+      .nav-logo { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════
+     STICKY NAV
+════════════════════════════════════════════════════════ -->
+<nav>
+  <div class="nav-logo">Culinary Block <span>Collective</span></div>
+  <a class="nav-phone" href="tel:+14085550192" aria-label="Call us">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+    </svg>
+    (408) 555-0192
+  </a>
+</nav>
+
+
+<!-- ══════════════════════════════════════════════════════
+     HERO — H1 contains primary keyword
+════════════════════════════════════════════════════════ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-inner">
+    <div class="hero-badge">✅ On-Time Delivery Guaranteed · Dietary Labeling on Every Item</div>
+    <h1>
+      Corporate Catering <em>San Jose</em> —<br/>
+      Reliable, Diverse, and Built for Tech Teams
+    </h1>
+    <p class="hero-sub">
+      On-time delivery guaranteed — or your next order is free.<br/>
+      Every item individually labeled for vegan, GF, and nut-free.<br/>
+      6 in-house chefs · 100–300 guests · $15–$25/person.
+    </p>
+    <div class="hero-ctas">
+      <a class="btn-hero-phone" href="tel:+14085550192">
+        📞 Call to Book &nbsp; (408) 555-0192
+      </a>
+      <a class="btn-hero-text" href="sms:+14085550192">
+        💬 Text Us a Menu Request
+      </a>
+    </div>
+    <div class="hero-trust">
+      <span class="hero-trust-item"><span class="dot"></span>Palo Alto</span>
+      <span class="hero-trust-item"><span class="dot"></span>San Jose</span>
+      <span class="hero-trust-item"><span class="dot"></span>Mountain View</span>
+      <span class="hero-trust-item"><span class="dot"></span>Sunnyvale</span>
+      <span class="hero-trust-item"><span class="dot"></span>Santa Clara</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PROOF STRIP
+════════════════════════════════════════════════════════ -->
+<div class="proof-strip" role="complementary">
+  <p>
+    Trusted by tech teams across Silicon Valley &nbsp;·&nbsp;
+    <span>On-time delivery or your next order is free</span> &nbsp;·&nbsp;
+    Every item individually labeled for dietary needs
+  </p>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CHEF LINEUP — keyword-rich headings
+════════════════════════════════════════════════════════ -->
+<section class="section section-center" id="menus" aria-labelledby="chefs-heading">
+  <div class="container">
+    <span class="section-label">Our Chefs</span>
+    <h2 class="section-title" id="chefs-heading">6 Specialized In-House Chefs.<br/>One Seamless Order.</h2>
+    <p class="section-sub">Mix and match cuisines for any event. Every chef is a specialist — not a generalist.</p>
+    <div class="chef-grid">
+      <article class="chef-card">
+        <img class="chef-card-img" src="https://images.unsplash.com/photo-1617196034099-58d2ea3f7f8f?w=600&h=300&auto=format&fit=crop&q=80" alt="Sushi platter with rolls and sashimi" loading="lazy" />
+        <h3>Sushi &amp; Japanese</h3>
+        <p>Rolls, sashimi, bento boxes, ramen, miso soup — authentic Japanese for corporate events.</p>
+        <span class="chef-price">$18–$25/person</span>
+      </article>
+      <article class="chef-card">
+        <img class="chef-card-img" src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&h=300&auto=format&fit=crop&q=80" alt="Chinese dim sum and Sichuan cuisine spread" loading="lazy" />
+        <h3>Chinese (Sichuan)</h3>
+        <p>Wok stir-fry, dumplings, noodles, spring rolls — bold Sichuan flavors your team will rave about.</p>
+        <span class="chef-price">$15–$22/person</span>
+      </article>
+      <article class="chef-card">
+        <img class="chef-card-img" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&h=300&auto=format&fit=crop&q=80" alt="Colorful Mexican taco and burrito spread" loading="lazy" />
+        <h3>Mexican Fusion</h3>
+        <p>Street tacos, elote, rice bowls, chips &amp; guac — vibrant, crowd-pleasing office catering.</p>
+        <span class="chef-price">$15–$20/person</span>
+      </article>
+      <article class="chef-card">
+        <img class="chef-card-img" src="https://images.unsplash.com/photo-1544025162-d76538d4d8a7?w=600&h=300&auto=format&fit=crop&q=80" alt="Smoked BBQ and American comfort food spread" loading="lazy" />
+        <h3>American</h3>
+        <p>Smoked BBQ, sliders, mac &amp; cheese, cornbread — comfort classics done right for team lunches.</p>
+        <span class="chef-price">$15–$20/person</span>
+      </article>
+      <article class="chef-card">
+        <img class="chef-card-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=300&auto=format&fit=crop&q=80" alt="Colorful healthy grain bowl with fresh vegetables" loading="lazy" />
+        <h3>Specialty &amp; Seasonal</h3>
+        <p>Dietary-forward global fusion — vegan, gluten-free, and allergen-conscious menus that shine.</p>
+        <span class="chef-price">$18–$25/person</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PRICING — structured for featured snippet
+════════════════════════════════════════════════════════ -->
+<section class="section section-alt section-center" id="pricing" aria-labelledby="pricing-heading">
+  <div class="container">
+    <span class="section-label">Pricing</span>
+    <h2 class="section-title" id="pricing-heading">Simple, Transparent Pricing.<br/>No Hidden Fees.</h2>
+    <p class="section-sub">Every price includes delivery, setup, dietary labeling, and a dedicated coordinator.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Box Lunch</h3>
+        <div class="pricing-price">$15–$18 <span>/ person</span></div>
+        <p class="pricing-guests">100–300 guests</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Custom grain bowls or salads</li>
+          <li><span class="check">✓</span> Fresh fruit &amp; dessert</li>
+          <li><span class="check">✓</span> Vegan &amp; GF options labeled</li>
+          <li><span class="check">✓</span> Individual packaging</li>
+          <li><span class="check">✓</span> On-time guaranteed</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured">
+        <div class="featured-tag">⭐ Most Popular</div>
+        <h3>Buffet Spread</h3>
+        <div class="pricing-price">$20–$25 <span>/ person</span></div>
+        <p class="pricing-guests">100–300 guests</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Hot mains + 3 sides</li>
+          <li><span class="check">✓</span> Soup or salad starter</li>
+          <li><span class="check">✓</span> Dessert included</li>
+          <li><span class="check">✓</span> Full dietary labeling</li>
+          <li><span class="check">✓</span> On-site coordinator option</li>
+          <li><span class="check">✓</span> Eco-compostable packaging</li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <h3>Mix &amp; Match</h3>
+        <div class="pricing-price">Custom <span>quote</span></div>
+        <p class="pricing-guests">150–300 guests</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Choose 2–3 chef cuisines</li>
+          <li><span class="check">✓</span> Perfect for diverse teams</li>
+          <li><span class="check">✓</span> Live chef station option</li>
+          <li><span class="check">✓</span> Branded signage included</li>
+          <li><span class="check">✓</span> Full white-glove service</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     MARCUS SECTION — HR / People Ops
+════════════════════════════════════════════════════════ -->
+<section class="section" id="people-ops" aria-labelledby="people-ops-heading">
+  <div class="container">
+    <div class="people-ops-layout">
+      <div class="people-ops-img-col">
+        <img class="people-ops-photo"
+             src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=620&auto=format&fit=crop&q=80"
+             alt="Diverse tech team sharing a catered lunch in a modern office"
+             loading="lazy" />
+      </div>
+      <div class="people-ops-text-col">
+    <span class="section-label">For HR &amp; People Ops Teams</span>
+    <h2 class="section-title" id="people-ops-heading">Catering Is a Retention Strategy.<br/>We Built a Program for That.</h2>
+    <p class="section-sub">CBC's recurring catering program gives HR and People Ops leaders a reliable, diverse, sustainable vendor they can put in the quarterly report — not just the lunch order.</p>
+    <div class="values-grid" style="margin-top:40px;">
+      <div class="value-card">
+        <div class="value-icon">📊</div>
+        <h3>Locked Per-Head Pricing</h3>
+        <p>Weekly recurring contracts with fixed per-head rates — built for quarterly budget forecasting and procurement review.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🌍</div>
+        <h3>5 Cuisines, One Vendor</h3>
+        <p>Sushi, Sichuan, Mexican fusion, American, and seasonal global menus that reflect your workforce's diversity — not just the majority.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🌱</div>
+        <h3>ESG-Reportable</h3>
+        <p>BPI-certified compostable packaging, carbon offset option, and a vendor sustainability summary ready for your internal reporting.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">📈</div>
+        <h3>Scales With Your Team</h3>
+        <p>Starts at 100 guests, scales to 400+. Your program grows with your company without renegotiating vendor terms.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🔒</div>
+        <h3>90-Day Review Clause</h3>
+        <p>No long-term lock-in pressure. Every recurring program includes a 90-day review so you stay in control.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">💼</div>
+        <h3>Proposal-Ready</h3>
+        <p>We provide a full program proposal with cost projections and our sustainability credentials — formatted for leadership or procurement review.</p>
+      </div>
+    </div>
+    <div style="margin-top:40px;">
+      <a class="btn-primary" href="mailto:hello@culinaryblock.com?subject=Recurring Catering Program Inquiry">
+        📋 Request a Program Proposal
+      </a>
+    </div>
+      </div><!-- /.people-ops-text-col -->
+    </div><!-- /.people-ops-layout -->
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     VALUE PROPS
+════════════════════════════════════════════════════════ -->
+<section class="section section-center" id="why-us" aria-labelledby="why-heading">
+  <div class="container">
+    <span class="section-label">Why Choose Us</span>
+    <h2 class="section-title" id="why-heading">The Corporate Catering Partner<br/>Bay Area Tech Teams Trust</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon">⏱️</div>
+        <h3>On-Time Delivery Guarantee</h3>
+        <p>If we're late, your next order is on us. We track every delivery via DoorDash for Business.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🏷️</div>
+        <h3>Individual Dietary Labeling</h3>
+        <p>Every item labeled — vegan, gluten-free, nut-free, dairy-free. Zero dietary complaints, guaranteed.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🌱</div>
+        <h3>Eco-First Packaging</h3>
+        <p>BPI-certified compostable containers. Carbon offsetting available. Great for your company's ESG goals.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">💰</div>
+        <h3>No Hidden Fees</h3>
+        <p>What you see is what you pay. No service surprises, no delivery gotchas. Transparent invoicing always.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">📞</div>
+        <h3>Real Human Support</h3>
+        <p>Call or text us directly. 24-hour quote response. A dedicated coordinator on every order.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🔄</div>
+        <h3>Recurring Contracts</h3>
+        <p>Weekly or bi-weekly standing orders? We love those. 5% discount for recurring accounts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     HOW IT WORKS
+════════════════════════════════════════════════════════ -->
+<section class="section section-dark section-center" aria-labelledby="how-heading">
+  <div class="container">
+    <span class="section-label" style="background:rgba(255,255,255,0.12);color:#B7E4C7;">How It Works</span>
+    <h2 class="section-title" id="how-heading" style="color:var(--white);">From Call to Catering<br/>in 3 Easy Steps</h2>
+    <div class="steps" style="margin-top:44px;">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Call or Text Us</h3>
+        <p>Tell us your date, guest count, dietary needs, and cuisine preferences. Takes 5 minutes.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Get Your Custom Quote</h3>
+        <p>We'll send a detailed, transparent quote within 24 hours. No guesswork. No hidden fees.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>We Deliver &amp; Wow</h3>
+        <p>Our chefs prep. We deliver on time. Every item labeled. Your team eats. You look like a hero.</p>
+      </div>
+    </div>
+    <div style="margin-top:44px;">
+      <a class="btn-hero-phone" href="tel:+14085550192">
+        📞 Call Now — (408) 555-0192
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PROMO BANNER
+════════════════════════════════════════════════════════ -->
+<section class="promo-banner" aria-label="Current promotions">
+  <div class="container">
+    <h2>Limited-Time Offers for New Corporate Accounts</h2>
+    <p>Limited to <strong>10 new corporate accounts per quarter</strong> — only 3 slots remaining. Lock in these perks before they're gone.</p>
+    <div class="promo-offers">
+      <div class="promo-offer">
+        <div class="promo-num">10%</div>
+        <div class="promo-desc">Off Your First Order</div>
+      </div>
+      <div class="promo-offer">
+        <div class="promo-num">Free</div>
+        <div class="promo-desc">Chef Tasting (10 slots/month)</div>
+      </div>
+      <div class="promo-offer">
+        <div class="promo-num">5%</div>
+        <div class="promo-desc">Recurring Account Discount</div>
+      </div>
+    </div>
+    <a class="btn-primary" href="tel:+14085550192">
+      📞 Claim Your Offer — Call (408) 555-0192
+    </a>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     FAQ — Structured for Google featured snippets
+════════════════════════════════════════════════════════ -->
+<section class="section section-alt" id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:8px;">
+      <span class="section-label">FAQ</span>
+      <h2 class="section-title" id="faq-heading">Questions About Our<br/>Corporate Catering</h2>
+    </div>
+    <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">How much does corporate catering in San Jose cost?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Culinary Block Collective offers corporate catering from $15–$25 per person for groups of 100–300. Box lunches start at $15/person, buffets range from $20–$25/person, and custom mix-and-match packages are available with a custom quote. All prices include delivery, setup, and dietary labeling with no hidden fees.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">What cuisines do you offer for corporate catering?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">We offer five specialized chef cuisines: Sushi &amp; Japanese, Chinese (Sichuan), Mexican Fusion, American BBQ &amp; comfort food, and Specialty/Seasonal globally inspired menus. You can choose one cuisine or mix multiple for larger events.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Do you accommodate dietary restrictions?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes — every single item is individually labeled for vegan, gluten-free, nut-free, and dairy-free options. We take dietary accuracy seriously: every order includes a full dietary breakdown sheet and individually labeled packaging.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">What areas do you serve for corporate catering?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">We deliver corporate catering across the Bay Area including San Jose, Palo Alto, Mountain View, Sunnyvale, and Santa Clara — within a 20-mile radius of our San Jose kitchen. Contact us for delivery to other locations.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">How far in advance do I need to book?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">We recommend booking at least 48 hours in advance for orders under 150 guests, and 5+ business days for larger events or custom mix-and-match orders. For recurring weekly accounts, a simple standing order is all you need — we handle the rest.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Do you offer discounts for recurring corporate catering orders?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes — we offer a 5% discount on all recurring weekly or bi-weekly catering contracts locked in for a minimum of 3 months. New clients also receive 10% off their first order. Slots are limited — contact us to check current availability.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Do you offer recurring weekly catering contracts for corporate accounts?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes — our recurring catering program is designed for HR and People Ops teams that want a reliable, consistent vendor. Programs include weekly or bi-weekly delivery cadence, locked per-head pricing for quarterly budget planning, a rotating multi-cuisine menu, and a 90-day review clause so you're never locked in long-term. A 3-month minimum applies, and recurring clients receive a 5% standing discount. We provide a formal program proposal with cost projections upon request.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Can you support our company's sustainability and ESG goals?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes — Culinary Block Collective uses BPI-certified compostable containers for all orders. We also offer a carbon offset add-on for recurring accounts. Upon request, we can provide a vendor sustainability summary formatted for internal ESG reporting or procurement review. This makes it straightforward to document your catering vendor as part of your company's sustainability commitments.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     FINAL CTA
+════════════════════════════════════════════════════════ -->
+<section class="final-cta" aria-label="Book your catering">
+  <div class="container">
+    <h2>Ready to Wow Your Team?<br/>Let's Talk Catering.</h2>
+    <p>Call or text us right now — we'll have a quote back to you within 24 hours.</p>
+
+    <!-- Primary CTAs: Phone + Text -->
+    <div class="cta-contacts">
+      <a class="cta-phone-big" href="tel:+14085550192">
+        📞 (408) 555-0192
+      </a>
+      <a class="cta-text-btn" href="sms:+14085550192?body=Hi! I'd like to get a catering quote for my team.">
+        💬 Text Us Your Order Details
+      </a>
+    </div>
+
+    <!-- Divider -->
+    <p style="color:rgba(255,255,255,0.3);margin:28px 0 20px;font-size:0.9rem;letter-spacing:.06em;text-transform:uppercase;">— or —</p>
+
+    <!-- Secondary CTAs: Quote Form + Program Proposal -->
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a class="btn-primary" href="mailto:hello@culinaryblock.com?subject=Quick Quote Request&body=Hi! I'd like a catering quote. Event date: ___ Guest count: ___ Cuisine preference: ___ Dietary needs: ___">
+        📋 Get a Quick Quote
+      </a>
+      <a style="display:inline-flex;align-items:center;gap:8px;border:2px solid var(--gold);color:var(--gold);font-weight:700;font-size:1rem;padding:14px 28px;border-radius:50px;transition:background .15s,color .15s;" href="mailto:hello@culinaryblock.com?subject=Recurring Catering Program Proposal Request&body=Hi! I'm interested in a recurring catering program proposal for my team. Company: ___ Team size: ___ Budget cycle: ___">
+        🏢 Request a Program Proposal
+      </a>
+    </div>
+
+    <p class="cta-note" style="margin-top:20px;">Or email us at hello@culinaryblock.com · We respond within 24 hours, Mon–Fri</p>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-inner">
+    <p class="footer-logo">Culinary Block <span>Collective</span></p>
+    <div class="footer-links">
+      <a href="#menus">Chef Menus</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="tel:+14085550192">(408) 555-0192</a>
+    </div>
+    <p style="font-size:0.82rem;color:rgba(255,255,255,0.4);">
+      Serving San Jose · Palo Alto · Mountain View · Sunnyvale · Santa Clara
+    </p>
+    <p class="footer-copy">© 2025 Culinary Block Collective · San Jose, CA · BPI-Certified Eco Packaging</p>
+  </div>
+</footer>
+
+</body>
+</html>
