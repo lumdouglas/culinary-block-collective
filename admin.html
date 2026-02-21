@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Admin — Culinary Block Collective</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EAF2EB;
+      --gold:         #C9992A;
+      --gold-light:   #F0DFA0;
+      --lgold:        #FBF5E6;
+      --cream:        #FAF7F2;
+      --cream2:       #F3EDE4;
+      --border:       #E2D9CE;
+      --text:         #1C1814;
+      --muted:        #5C5349;
+      --white:        #FFFFFF;
+      --radius:       10px;
+      --shadow:       0 4px 32px rgba(43,28,12,0.10);
+      --shadow-lg:    0 12px 48px rgba(43,28,12,0.14);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+      /* Cuisine colors */
+      --c-sushi:     #6366F1;
+      --c-chinese:   #EF4444;
+      --c-mexican:   #F97316;
+      --c-american:  #F59E0B;
+      --c-specialty: #22C55E;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen); padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; align-items: center; gap: 6px; }
+    .nav-link {
+      color: rgba(255,255,255,0.7); font-size: 0.88rem; font-weight: 500;
+      padding: 7px 14px; border-radius: 4px; transition: background .15s, color .15s;
+    }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+    .nav-link.active { background: rgba(255,255,255,0.12); color: var(--white); }
+
+    /* ── ADMIN LAYOUT ── */
+    .admin-wrapper { display: flex; min-height: calc(100vh - 62px); }
+
+    /* ── SIDEBAR ── */
+    .admin-sidebar {
+      width: 220px; background: var(--dgreen);
+      position: sticky; top: 62px; height: calc(100vh - 62px);
+      display: flex; flex-direction: column;
+      border-right: 1px solid rgba(255,255,255,0.06);
+      flex-shrink: 0;
+    }
+    .sidebar-section-label {
+      font-size: 0.65rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      color: rgba(255,255,255,0.3); padding: 20px 24px 8px;
+    }
+    .sidebar-nav-item {
+      display: flex; align-items: center; gap: 10px;
+      color: rgba(255,255,255,0.65); padding: 13px 24px;
+      cursor: pointer; font-size: 0.88rem; font-weight: 500;
+      transition: background .15s, color .15s, border-left .15s;
+      border-left: 3px solid transparent;
+      user-select: none;
+    }
+    .sidebar-nav-item:hover { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.9); }
+    .sidebar-nav-item.active {
+      color: var(--white); background: rgba(255,255,255,0.1);
+      border-left-color: var(--gold);
+    }
+    .sidebar-nav-item .icon { font-size: 1rem; width: 20px; text-align: center; }
+    .sidebar-footer {
+      margin-top: auto; padding: 16px 24px;
+      font-size: 0.72rem; color: rgba(255,255,255,0.25);
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    /* ── MAIN AREA ── */
+    .admin-main { flex: 1; padding: 36px; background: var(--cream); min-width: 0; }
+    .view-section { display: none; }
+    .view-section.active { display: block; }
+
+    /* ── PAGE HEADER ── */
+    .page-header { margin-bottom: 28px; }
+    .page-title { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--dgreen); line-height: 1.2; }
+    .page-sub { font-size: 0.9rem; color: var(--muted); margin-top: 4px; }
+
+    /* ── STAT CARDS ── */
+    .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px,1fr)); gap: 16px; margin-bottom: 32px; }
+    .stat-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1px solid var(--border); padding: 20px 22px;
+      box-shadow: var(--shadow);
+    }
+    .stat-card-label { font-size: 0.72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .stat-card-value { font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--dgreen); line-height: 1; }
+    .stat-card-sub { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+
+    /* ── TODAY'S ITEMS ── */
+    .today-section { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); padding: 24px; box-shadow: var(--shadow); }
+    .today-header { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--dgreen); margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .today-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 10px; }
+    .today-item {
+      padding: 10px 14px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--cream);
+      font-size: 0.85rem;
+    }
+    .today-item-name { font-weight: 600; color: var(--text); margin-bottom: 2px; }
+    .today-item-meta { font-size: 0.75rem; color: var(--muted); }
+
+    /* ── FILTERS BAR ── */
+    .filters-bar {
+      display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+      background: var(--white); border-radius: var(--radius);
+      border: 1px solid var(--border); padding: 16px 20px;
+      margin-bottom: 20px; box-shadow: var(--shadow);
+    }
+    .filter-group { display: flex; flex-direction: column; gap: 3px; }
+    .filter-label { font-size: 0.68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+    .filter-input, .filter-select {
+      font-family: var(--font-body); font-size: 0.85rem;
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 7px 10px; background: var(--cream); color: var(--text);
+      outline: none; transition: border-color .15s;
+    }
+    .filter-input:focus, .filter-select:focus { border-color: var(--green); }
+    .filter-input { min-width: 180px; }
+    .filter-select { min-width: 130px; }
+    .filter-results { margin-left: auto; font-size: 0.82rem; color: var(--muted); font-weight: 500; white-space: nowrap; align-self: flex-end; }
+    .btn-reset-filters {
+      font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+      background: none; border: 1px solid var(--border); border-radius: 6px;
+      padding: 7px 12px; cursor: pointer; color: var(--muted); align-self: flex-end;
+      transition: background .15s, color .15s;
+    }
+    .btn-reset-filters:hover { background: var(--cream2); color: var(--text); }
+
+    /* ── DATA TABLE ── */
+    .table-wrap { background: var(--white); border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; box-shadow: var(--shadow); }
+    .data-table { width: 100%; border-collapse: collapse; }
+    .data-table thead th {
+      background: var(--dgreen); color: var(--white); padding: 12px 16px;
+      font-family: var(--font-display); font-size: 0.9rem; font-weight: 600;
+      text-align: left; white-space: nowrap;
+    }
+    .data-table thead th:first-child { padding-left: 20px; }
+    .data-table tbody tr { border-bottom: 1px solid var(--border); transition: background .12s; }
+    .data-table tbody tr:last-child { border: none; }
+    .data-table tbody tr:hover { background: var(--lgold); }
+    .data-table td { padding: 11px 16px; font-size: 0.84rem; vertical-align: middle; }
+    .data-table td:first-child { padding-left: 20px; }
+    .col-name { font-weight: 600; color: var(--text); }
+    .col-desc { color: var(--muted); font-size: 0.78rem; max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .empty-state { text-align: center; padding: 48px 24px; color: var(--muted); }
+    .empty-state .empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .empty-state p { font-size: 0.9rem; }
+
+    /* ── BADGES ── */
+    .cuisine-badge {
+      display: inline-block; padding: 3px 10px; border-radius: 50px;
+      font-size: 0.72rem; font-weight: 700; white-space: nowrap;
+    }
+    .cuisine-sushi    { background: #EEF2FF; color: #3730A3; }
+    .cuisine-chinese  { background: #FEF2F2; color: #991B1B; }
+    .cuisine-mexican  { background: #FFF7ED; color: #9A3412; }
+    .cuisine-american { background: #FFFBEB; color: #92400E; }
+    .cuisine-specialty { background: #F0FDF4; color: #166534; }
+
+    .tier-badge {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.7rem; font-weight: 600; margin: 1px;
+      background: var(--lgreen); color: var(--dgreen);
+    }
+    .dietary-tag {
+      display: inline-block; padding: 2px 7px; border-radius: 4px;
+      font-size: 0.68rem; font-weight: 600; margin: 1px;
+      background: var(--cream2); color: var(--muted); border: 1px solid var(--border);
+    }
+    .days-display { font-size: 0.75rem; color: var(--muted); }
+
+    /* ── TOGGLE SWITCH ── */
+    .toggle-wrap { display: flex; align-items: center; gap: 6px; }
+    .toggle {
+      position: relative; display: inline-block; width: 36px; height: 20px;
+    }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle-slider {
+      position: absolute; cursor: pointer; inset: 0;
+      background: var(--border); border-radius: 20px; transition: .2s;
+    }
+    .toggle-slider::before {
+      content: ''; position: absolute;
+      width: 14px; height: 14px; left: 3px; bottom: 3px;
+      background: white; border-radius: 50%; transition: .2s;
+    }
+    .toggle input:checked + .toggle-slider { background: var(--green); }
+    .toggle input:checked + .toggle-slider::before { transform: translateX(16px); }
+
+    /* ── ACTION BUTTONS ── */
+    .action-btns { display: flex; gap: 6px; }
+    .btn-edit, .btn-delete {
+      font-family: var(--font-body); font-size: 0.78rem; font-weight: 600;
+      padding: 5px 12px; border-radius: 6px; border: none; cursor: pointer;
+      transition: background .15s, transform .1s;
+    }
+    .btn-edit { background: var(--lgold); color: #7A5C0A; }
+    .btn-edit:hover { background: #EDD99A; }
+    .btn-delete { background: #FEF2F2; color: #991B1B; }
+    .btn-delete:hover { background: #FECACA; }
+
+    /* ── FAB ── */
+    .fab {
+      position: fixed; bottom: 32px; right: 32px;
+      width: 56px; height: 56px; background: var(--gold);
+      border-radius: 50%; font-size: 1.6rem; cursor: pointer;
+      box-shadow: var(--shadow-lg); border: none;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--dgreen); transition: transform .15s, box-shadow .15s;
+      z-index: 50;
+    }
+    .fab:hover { transform: translateY(-3px); box-shadow: 0 16px 56px rgba(43,28,12,0.18); }
+
+    /* ── MODAL ── */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+      display: none; z-index: 200; overflow-y: auto;
+      padding: 20px;
+    }
+    .modal-overlay.open { display: block; }
+    .modal-box {
+      background: var(--cream); border-radius: var(--radius);
+      max-width: 620px; margin: 0 auto;
+      padding: 36px; box-shadow: var(--shadow-lg);
+    }
+    .modal-title { font-family: var(--font-display); font-size: 1.6rem; font-weight: 600; color: var(--dgreen); margin-bottom: 24px; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-group.full { grid-column: 1 / -1; }
+    .form-label { font-size: 0.78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+    .form-input, .form-select, .form-textarea {
+      font-family: var(--font-body); font-size: 0.9rem;
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 12px; background: var(--white); color: var(--text);
+      outline: none; transition: border-color .15s;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus { border-color: var(--green); }
+    .form-textarea { resize: vertical; min-height: 70px; }
+    .checkbox-group { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
+    .checkbox-pill {
+      display: flex; align-items: center; gap: 5px;
+      padding: 5px 12px; border-radius: 50px; border: 1px solid var(--border);
+      background: var(--white); cursor: pointer; font-size: 0.8rem; font-weight: 500;
+      transition: background .12s, border-color .12s;
+      user-select: none;
+    }
+    .checkbox-pill input { display: none; }
+    .checkbox-pill.checked { background: var(--lgreen); border-color: var(--green); color: var(--dgreen); font-weight: 700; }
+    .day-pill.checked { background: var(--lgold); border-color: var(--gold); color: #7A5C0A; font-weight: 700; }
+    .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--border); }
+    .btn-cancel {
+      font-family: var(--font-body); font-size: 0.9rem; font-weight: 600;
+      padding: 11px 22px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--white); color: var(--muted); cursor: pointer;
+      transition: background .15s;
+    }
+    .btn-cancel:hover { background: var(--cream2); }
+    .btn-save {
+      font-family: var(--font-body); font-size: 0.9rem; font-weight: 700;
+      padding: 11px 28px; border-radius: 8px; border: none;
+      background: var(--gold); color: var(--dgreen); cursor: pointer;
+      transition: transform .15s, box-shadow .15s;
+    }
+    .btn-save:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(201,153,42,0.35); }
+
+    /* ── TIER EDITOR ── */
+    .tier-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap: 20px; }
+    .tier-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1px solid var(--border); padding: 24px;
+      box-shadow: var(--shadow);
+    }
+    .tier-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+    .tier-card-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--dgreen); }
+    .tier-featured-badge { background: var(--gold); color: var(--dgreen); font-size: 0.7rem; font-weight: 700; padding: 3px 10px; border-radius: 50px; }
+    .price-row { display: flex; gap: 10px; }
+    .price-row .form-input { width: 80px; }
+    .features-list { margin-top: 14px; }
+    .feature-item { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+    .feature-item input[type="text"] {
+      flex: 1; font-family: var(--font-body); font-size: 0.84rem;
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 6px 10px; background: var(--cream); color: var(--text); outline: none;
+    }
+    .feature-item input[type="text"]:focus { border-color: var(--green); }
+    .btn-remove-feature {
+      background: none; border: none; cursor: pointer; color: var(--muted);
+      font-size: 1rem; padding: 2px 6px; border-radius: 4px; transition: color .12s, background .12s;
+    }
+    .btn-remove-feature:hover { color: #991B1B; background: #FEF2F2; }
+    .btn-add-feature {
+      font-family: var(--font-body); font-size: 0.8rem; font-weight: 600;
+      background: none; border: 1px dashed var(--border); border-radius: 6px;
+      padding: 6px 14px; cursor: pointer; color: var(--muted); width: 100%; margin-top: 6px;
+      transition: border-color .12s, color .12s;
+    }
+    .btn-add-feature:hover { border-color: var(--green); color: var(--green); }
+    .btn-save-tier {
+      font-family: var(--font-body); font-size: 0.84rem; font-weight: 700;
+      background: var(--gold); color: var(--dgreen); border: none;
+      border-radius: 8px; padding: 10px 20px; cursor: pointer; margin-top: 16px; width: 100%;
+      transition: transform .12s;
+    }
+    .btn-save-tier:hover { transform: translateY(-1px); }
+
+    /* ── DATA MANAGEMENT ── */
+    .data-mgmt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap: 20px; }
+    .data-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1px solid var(--border); padding: 24px; box-shadow: var(--shadow);
+    }
+    .data-card-title { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; color: var(--dgreen); margin-bottom: 8px; }
+    .data-card-desc { font-size: 0.84rem; color: var(--muted); margin-bottom: 16px; line-height: 1.5; }
+    .btn-action {
+      font-family: var(--font-body); font-size: 0.88rem; font-weight: 700;
+      padding: 11px 20px; border-radius: 8px; border: none; cursor: pointer; width: 100%;
+      transition: transform .12s, box-shadow .12s;
+    }
+    .btn-action:hover { transform: translateY(-1px); }
+    .btn-action.export { background: var(--dgreen); color: var(--white); }
+    .btn-action.import { background: var(--lgreen); color: var(--dgreen); }
+    .btn-action.danger  { background: #FEF2F2; color: #991B1B; }
+    .btn-action.danger:hover { background: #FECACA; }
+    .last-saved { font-size: 0.75rem; color: var(--muted); margin-top: 8px; text-align: center; }
+    #import-file { display: none; }
+
+    /* ── TOAST ── */
+    .toast {
+      position: fixed; bottom: 100px; right: 32px;
+      padding: 12px 24px; border-radius: var(--radius);
+      font-family: var(--font-body); font-size: 0.88rem; font-weight: 600;
+      display: none; z-index: 300; box-shadow: var(--shadow-lg);
+      animation: slideIn .25s ease;
+    }
+    .toast.success { background: var(--dgreen); color: var(--white); display: block; }
+    .toast.error   { background: #b91c1c; color: var(--white); display: block; }
+    @keyframes slideIn { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .admin-sidebar { display: none; }
+      .admin-main { padding: 20px; }
+      .form-grid { grid-template-columns: 1fr; }
+      .filters-bar { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Culinary Block <span>Collective</span></div>
+  <div class="nav-links">
+    <a class="nav-link" href="/">← Home</a>
+    <a class="nav-link" href="/calendar">📅 Calendar</a>
+    <a class="nav-link active" href="/admin">⚙️ Admin</a>
+  </div>
+</nav>
+
+<div class="admin-wrapper">
+
+  <!-- SIDEBAR -->
+  <aside class="admin-sidebar">
+    <div class="sidebar-section-label">Menu Management</div>
+    <div class="sidebar-nav-item active" data-view="dashboard">
+      <span class="icon">📊</span> Dashboard
+    </div>
+    <div class="sidebar-nav-item" data-view="items">
+      <span class="icon">🍽️</span> Menu Items
+    </div>
+    <div class="sidebar-nav-item" data-view="tiers">
+      <span class="icon">💰</span> Pricing Tiers
+    </div>
+    <div class="sidebar-section-label" style="margin-top:12px;">System</div>
+    <div class="sidebar-nav-item" data-view="data">
+      <span class="icon">🗄️</span> Data Management
+    </div>
+    <div class="sidebar-footer">
+      CBC Admin v1.0<br/>Data stored locally
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="admin-main">
+
+    <!-- ══ DASHBOARD ══ -->
+    <section id="view-dashboard" class="view-section active">
+      <div class="page-header">
+        <h1 class="page-title">Dashboard</h1>
+        <p class="page-sub" id="dashboard-date"></p>
+      </div>
+      <div class="stat-grid" id="stat-grid"></div>
+      <div class="today-section">
+        <div class="today-header">📅 Available Today</div>
+        <div class="today-list" id="today-list"></div>
+      </div>
+    </section>
+
+    <!-- ══ MENU ITEMS ══ -->
+    <section id="view-items" class="view-section">
+      <div class="page-header">
+        <h1 class="page-title">Menu Items</h1>
+        <p class="page-sub">Add, edit, and schedule all chef menu offerings.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters-bar">
+        <div class="filter-group">
+          <div class="filter-label">Search</div>
+          <input class="filter-input" type="text" id="f-search" placeholder="Name or description…" />
+        </div>
+        <div class="filter-group">
+          <div class="filter-label">Cuisine</div>
+          <select class="filter-select" id="f-cuisine">
+            <option value="">All Cuisines</option>
+            <option value="sushi">Sushi &amp; Japanese</option>
+            <option value="chinese">Chinese (Sichuan)</option>
+            <option value="mexican">Mexican Fusion</option>
+            <option value="american">American</option>
+            <option value="specialty">Specialty &amp; Seasonal</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <div class="filter-label">Tier</div>
+          <select class="filter-select" id="f-tier">
+            <option value="">All Tiers</option>
+            <option value="box_lunch">Box Lunch</option>
+            <option value="buffet">Buffet Spread</option>
+            <option value="mix_match">Mix &amp; Match</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <div class="filter-label">Dietary</div>
+          <select class="filter-select" id="f-dietary">
+            <option value="">Any Dietary</option>
+            <option value="vegan">Vegan</option>
+            <option value="gf">Gluten-Free</option>
+            <option value="nut_free">Nut-Free</option>
+            <option value="dairy_free">Dairy-Free</option>
+            <option value="halal">Halal</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <div class="filter-label">Status</div>
+          <select class="filter-select" id="f-active">
+            <option value="">All</option>
+            <option value="true">Active</option>
+            <option value="false">Inactive</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <div class="filter-label">Day Available</div>
+          <select class="filter-select" id="f-day">
+            <option value="">Any Day</option>
+            <option value="0">Sunday</option>
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+          </select>
+        </div>
+        <button class="btn-reset-filters" id="btn-reset-filters">Reset</button>
+        <div class="filter-results" id="filter-results"></div>
+      </div>
+
+      <!-- Table -->
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Cuisine</th>
+              <th>Tiers</th>
+              <th>Price/pp</th>
+              <th>Dietary</th>
+              <th>Available Days</th>
+              <th>Active</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="items-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ══ PRICING TIERS ══ -->
+    <section id="view-tiers" class="view-section">
+      <div class="page-header">
+        <h1 class="page-title">Pricing Tiers</h1>
+        <p class="page-sub">Edit tier definitions, pricing ranges, guest counts, and feature lists.</p>
+      </div>
+      <div class="tier-grid" id="tier-grid"></div>
+    </section>
+
+    <!-- ══ DATA MANAGEMENT ══ -->
+    <section id="view-data" class="view-section">
+      <div class="page-header">
+        <h1 class="page-title">Data Management</h1>
+        <p class="page-sub">Export, import, or reset your menu database.</p>
+      </div>
+      <div class="data-mgmt-grid">
+        <div class="data-card">
+          <div class="data-card-title">📤 Export Data</div>
+          <div class="data-card-desc">Download your entire menu database as a JSON file. Use this to back up your data or transfer it to another device.</div>
+          <button class="btn-action export" onclick="exportData()">Download JSON Backup</button>
+          <div class="last-saved" id="last-saved-label"></div>
+        </div>
+        <div class="data-card">
+          <div class="data-card-title">📥 Import Data</div>
+          <div class="data-card-desc">Restore from a previously exported JSON backup. This will <strong>overwrite</strong> all current data.</div>
+          <button class="btn-action import" onclick="document.getElementById('import-file').click()">Import from JSON</button>
+          <input type="file" id="import-file" accept=".json" onchange="importData(this)" />
+        </div>
+        <div class="data-card">
+          <div class="data-card-title">🔄 Reset to Defaults</div>
+          <div class="data-card-desc">Restore all menu items and pricing tiers to the original default data. This cannot be undone.</div>
+          <button class="btn-action danger" onclick="resetDefaults()">Reset to Defaults</button>
+        </div>
+        <div class="data-card">
+          <div class="data-card-title">📋 Database Stats</div>
+          <div class="data-card-desc" id="stats-summary">Loading…</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ADD/EDIT MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-box">
+    <h2 class="modal-title" id="modal-title">Add Menu Item</h2>
+    <input type="hidden" id="edit-id" />
+    <div class="form-grid">
+      <div class="form-group">
+        <label class="form-label">Item Name *</label>
+        <input class="form-input" type="text" id="f-name" placeholder="e.g. Salmon Roll" />
+      </div>
+      <div class="form-group">
+        <label class="form-label">Price Per Person ($) *</label>
+        <input class="form-input" type="number" id="f-price" min="0" step="0.5" placeholder="22" />
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Description</label>
+        <textarea class="form-textarea" id="f-desc" placeholder="Fresh salmon, avocado, cucumber…"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Cuisine *</label>
+        <select class="form-select" id="f-cuisine-modal">
+          <option value="">Select cuisine…</option>
+          <option value="sushi">Sushi &amp; Japanese</option>
+          <option value="chinese">Chinese (Sichuan)</option>
+          <option value="mexican">Mexican Fusion</option>
+          <option value="american">American</option>
+          <option value="specialty">Specialty &amp; Seasonal</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Sort Order</label>
+        <input class="form-input" type="number" id="f-sort" min="0" value="0" />
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Tiers (select all that apply)</label>
+        <div class="checkbox-group" id="tier-checks">
+          <label class="checkbox-pill" data-val="box_lunch"><input type="checkbox" /> Box Lunch</label>
+          <label class="checkbox-pill" data-val="buffet"><input type="checkbox" /> Buffet Spread</label>
+          <label class="checkbox-pill" data-val="mix_match"><input type="checkbox" /> Mix &amp; Match</label>
+        </div>
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Dietary Tags</label>
+        <div class="checkbox-group" id="dietary-checks">
+          <label class="checkbox-pill" data-val="vegan"><input type="checkbox" /> 🌱 Vegan</label>
+          <label class="checkbox-pill" data-val="gf"><input type="checkbox" /> 🌾 Gluten-Free</label>
+          <label class="checkbox-pill" data-val="nut_free"><input type="checkbox" /> 🥜 Nut-Free</label>
+          <label class="checkbox-pill" data-val="dairy_free"><input type="checkbox" /> 🥛 Dairy-Free</label>
+          <label class="checkbox-pill" data-val="halal"><input type="checkbox" /> ☪️ Halal</label>
+        </div>
+      </div>
+      <div class="form-group full">
+        <label class="form-label">Available Days</label>
+        <div class="checkbox-group" id="day-checks">
+          <label class="checkbox-pill day-pill" data-val="0"><input type="checkbox" /> Sun</label>
+          <label class="checkbox-pill day-pill" data-val="1"><input type="checkbox" /> Mon</label>
+          <label class="checkbox-pill day-pill" data-val="2"><input type="checkbox" /> Tue</label>
+          <label class="checkbox-pill day-pill" data-val="3"><input type="checkbox" /> Wed</label>
+          <label class="checkbox-pill day-pill" data-val="4"><input type="checkbox" /> Thu</label>
+          <label class="checkbox-pill day-pill" data-val="5"><input type="checkbox" /> Fri</label>
+          <label class="checkbox-pill day-pill" data-val="6"><input type="checkbox" /> Sat</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="btn-save" onclick="saveItem()">Save Item</button>
+    </div>
+  </div>
+</div>
+
+<!-- FAB -->
+<button class="fab" id="fab-btn" title="Add menu item" onclick="openModal(null)">+</button>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ══════════════════════════════════════════════
+// A — DATA LAYER
+// ══════════════════════════════════════════════
+const STORAGE_KEY = 'cbc_menu_data';
+
+const DEFAULT_DATA = {
+  items: [
+    // SUSHI
+    {id:'s1',name:'Salmon Roll',description:'Fresh salmon, avocado, cucumber wrapped in seasoned rice',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:22,dietary:['gf'],available_days:[1,2,3,4,5],active:true,sort_order:1},
+    {id:'s2',name:'Tuna Sashimi',description:'Premium sliced bluefin tuna, lightly seasoned',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:25,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
+    {id:'s3',name:'Bento Box',description:'Curated bento with rice, protein, pickled veg and sides',cuisine:'sushi',tiers:['box_lunch'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:3},
+    {id:'s4',name:'Miso Soup',description:'Traditional dashi-based miso with tofu and wakame',cuisine:'sushi',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['vegan','gf'],available_days:[1,2,3,4,5],active:true,sort_order:4},
+    {id:'s5',name:'Ramen',description:'Rich tonkotsu or shoyu broth with noodles, chashu and soft egg',cuisine:'sushi',tiers:['buffet'],price_per_person:20,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:5},
+    {id:'s6',name:'Shrimp Tempura Roll',description:'Crispy tempura shrimp, cucumber, avocado with spicy mayo',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:21,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
+    {id:'s7',name:'Edamame',description:'Steamed salted young soybeans — perfect starter',cuisine:'sushi',tiers:['box_lunch','buffet','mix_match'],price_per_person:4,dietary:['vegan','gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
+    // CHINESE
+    {id:'c1',name:'Wok Stir-Fry',description:'Seasonal vegetables and protein stir-fried in savory Sichuan sauce',cuisine:'chinese',tiers:['buffet','mix_match'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:1},
+    {id:'c2',name:'Pork Dumplings',description:'Handmade dumplings filled with pork and napa cabbage',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:16,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:2},
+    {id:'c3',name:'Lo Mein Noodles',description:'Stir-fried egg noodles with vegetables and choice of protein',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:15,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
+    {id:'c4',name:'Spring Rolls',description:'Crispy vegetable spring rolls with sweet chili dipping sauce',cuisine:'chinese',tiers:['box_lunch','buffet','mix_match'],price_per_person:14,dietary:['vegan','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
+    {id:'c5',name:'Kung Pao Chicken',description:'Classic Sichuan spiced chicken with peanuts and dried chilies',cuisine:'chinese',tiers:['buffet','mix_match'],price_per_person:20,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
+    {id:'c6',name:'Fried Rice',description:'Wok-fried jasmine rice with egg, vegetables, and soy sauce',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:14,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
+    {id:'c7',name:'Egg Drop Soup',description:'Silky egg-ribbon soup with ginger, scallions, and sesame',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:7,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
+    // MEXICAN
+    {id:'m1',name:'Street Tacos (Chicken)',description:'Grilled chicken thighs with salsa verde, cilantro, onion on corn tortilla',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:16,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
+    {id:'m2',name:'Street Tacos (Beef)',description:'Slow-braised carne asada with pico de gallo on corn tortilla',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:18,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
+    {id:'m3',name:'Elote',description:'Mexican street corn grilled and served with cotija, lime and chili',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:8,dietary:['gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
+    {id:'m4',name:'Rice Bowls',description:'Cilantro lime rice with black beans, pico, guac and choice of protein',cuisine:'mexican',tiers:['box_lunch'],price_per_person:15,dietary:['gf'],available_days:[1,2,3,4,5],active:true,sort_order:4},
+    {id:'m5',name:'Chips & Guac',description:'House-made tortilla chips with fresh avocado guacamole and salsa',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:7,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
+    {id:'m6',name:'Burrito Bar',description:'Build-your-own burritos with all toppings — feeds any crowd',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:6},
+    {id:'m7',name:'Horchata',description:'Chilled cinnamon-rice milk drink, house made',cuisine:'mexican',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['vegan','gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
+    {id:'m8',name:'Churros',description:'Fried dough pastry with cinnamon sugar and dulce de leche dip',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:6,dietary:['vegan'],available_days:[1,2,3,4,5],active:true,sort_order:8},
+    // AMERICAN
+    {id:'a1',name:'Smoked Brisket',description:'Low-and-slow smoked beef brisket with house BBQ sauce',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:22,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
+    {id:'a2',name:'BBQ Sliders',description:'Pulled pork or beef sliders with coleslaw on brioche buns',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:16,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:2},
+    {id:'a3',name:'Mac & Cheese',description:'Creamy five-cheese baked mac, crispy breadcrumb topping',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:13,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:3},
+    {id:'a4',name:'Cornbread',description:'Southern-style honey cornbread baked fresh, served warm',cuisine:'american',tiers:['box_lunch','buffet','mix_match'],price_per_person:5,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
+    {id:'a5',name:'Pulled Pork',description:'Smoked pulled pork shoulder with vinegar slaw and pickles',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:18,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
+    {id:'a6',name:'Coleslaw',description:'Creamy shredded cabbage and carrot slaw with apple cider dressing',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
+    {id:'a7',name:'Peach Cobbler',description:'Warm Southern peach cobbler with oat crumble and vanilla cream',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:8,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
+    // SPECIALTY
+    {id:'sp1',name:'Grain Bowl',description:'Quinoa and farro base with roasted chickpeas, greens and tahini dressing',cuisine:'specialty',tiers:['box_lunch'],price_per_person:18,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
+    {id:'sp2',name:'Roasted Veggie Platter',description:'Seasonal roasted vegetables with herb dips and pita',cuisine:'specialty',tiers:['box_lunch','buffet'],price_per_person:16,dietary:['vegan','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
+    {id:'sp3',name:'Vegan Curry',description:'Slow-simmered coconut curry with seasonal vegetables and brown rice',cuisine:'specialty',tiers:['buffet','mix_match'],price_per_person:18,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
+    {id:'sp4',name:'GF Pasta Salad',description:'Gluten-free rotini with cherry tomatoes, olives, basil and lemon vinaigrette',cuisine:'specialty',tiers:['box_lunch'],price_per_person:15,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
+    {id:'sp5',name:'Seasonal Soup',description:'Chef-driven seasonal soup, changes weekly — always vegan and GF',cuisine:'specialty',tiers:['box_lunch','buffet'],price_per_person:9,dietary:['vegan','gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
+    {id:'sp6',name:'Fruit Tart',description:'Buttery pastry shell with vanilla cream and fresh seasonal fruit',cuisine:'specialty',tiers:['buffet','mix_match'],price_per_person:10,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
+    {id:'sp7',name:'Hummus Platter',description:'House-made hummus, baba ganoush, tabbouleh, pita and crudités',cuisine:'specialty',tiers:['box_lunch','buffet','mix_match'],price_per_person:12,dietary:['vegan','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
+  ],
+  tiers: [
+    {id:'box_lunch',name:'Box Lunch',price_min:15,price_max:18,guest_min:100,guest_max:300,description:'Individual packaged meals — perfect for desk lunches and hybrid teams.',features:['Custom grain bowls or salads','Fresh fruit & dessert','Vegan & GF options labeled','Individual eco-packaging','On-time delivery guaranteed'],is_featured:false},
+    {id:'buffet',name:'Buffet Spread',price_min:20,price_max:25,guest_min:100,guest_max:300,description:'Full buffet service — abundant, communal, and crowd-pleasing.',features:['Hot mains + 3 sides','Soup or salad starter','Dessert included','Full dietary labeling','On-site coordinator option','Eco-compostable packaging'],is_featured:true},
+    {id:'mix_match',name:'Mix & Match',price_min:0,price_max:0,guest_min:150,guest_max:300,description:'Choose 2–3 cuisines for a diverse multi-chef spread.',features:['Choose 2–3 chef cuisines','Perfect for diverse teams','Live chef station option','Branded signage included','Full white-glove service'],is_featured:false},
+  ],
+  schedule: {},
+  last_updated: new Date().toISOString()
+};
+
+function getOrInitData() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) return JSON.parse(raw);
+  } catch(e) {}
+  saveData(DEFAULT_DATA);
+  return JSON.parse(JSON.stringify(DEFAULT_DATA));
+}
+
+function saveData(data) {
+  data.last_updated = new Date().toISOString();
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+}
+
+function generateId() {
+  return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+}
+
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ══════════════════════════════════════════════
+// B — NAVIGATION
+// ══════════════════════════════════════════════
+document.querySelectorAll('.sidebar-nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const view = item.dataset.view;
+    document.querySelectorAll('.sidebar-nav-item').forEach(i => i.classList.remove('active'));
+    document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+    item.classList.add('active');
+    document.getElementById('view-' + view).classList.add('active');
+    // Show/hide FAB only on items view
+    document.getElementById('fab-btn').style.display = view === 'items' ? 'flex' : 'none';
+    if (view === 'data') renderDataStats();
+    if (view === 'tiers') renderTiers();
+    if (view === 'items') renderTable();
+  });
+});
+
+// ══════════════════════════════════════════════
+// C — DASHBOARD
+// ══════════════════════════════════════════════
+const DAY_NAMES = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const CUISINE_LABELS = {sushi:'Sushi',chinese:'Chinese',mexican:'Mexican',american:'American',specialty:'Specialty'};
+
+function renderDashboard() {
+  const data = getOrInitData();
+  const today = new Date();
+  const todayDay = today.getDay();
+
+  // Date label
+  document.getElementById('dashboard-date').textContent =
+    today.toLocaleDateString('en-US', {weekday:'long', year:'numeric', month:'long', day:'numeric'});
+
+  // Stats
+  const active = data.items.filter(i => i.active);
+  const todayItems = data.items.filter(i => i.active && i.available_days.includes(todayDay));
+  const byCuisine = {};
+  ['sushi','chinese','mexican','american','specialty'].forEach(c => {
+    byCuisine[c] = data.items.filter(i => i.cuisine === c && i.active).length;
+  });
+
+  document.getElementById('stat-grid').innerHTML = `
+    <div class="stat-card">
+      <div class="stat-card-label">Total Items</div>
+      <div class="stat-card-value">${data.items.length}</div>
+      <div class="stat-card-sub">${active.length} active</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">Available Today</div>
+      <div class="stat-card-value">${todayItems.length}</div>
+      <div class="stat-card-sub">${DAY_NAMES[todayDay]}</div>
+    </div>
+    ${Object.entries(byCuisine).map(([c,n])=>`
+    <div class="stat-card">
+      <div class="stat-card-label">${CUISINE_LABELS[c]}</div>
+      <div class="stat-card-value">${n}</div>
+      <div class="stat-card-sub">active items</div>
+    </div>`).join('')}
+    <div class="stat-card">
+      <div class="stat-card-label">Pricing Tiers</div>
+      <div class="stat-card-value">${data.tiers.length}</div>
+      <div class="stat-card-sub">configured</div>
+    </div>
+  `;
+
+  // Today list
+  const tl = document.getElementById('today-list');
+  if (todayItems.length === 0) {
+    tl.innerHTML = '<div style="color:var(--muted);font-size:0.9rem;padding:12px 0;">No items scheduled for today.</div>';
+  } else {
+    tl.innerHTML = todayItems.map(i => `
+      <div class="today-item">
+        <div class="today-item-name">${escHtml(i.name)}</div>
+        <div class="today-item-meta">
+          <span class="cuisine-badge cuisine-${escHtml(i.cuisine)}">${CUISINE_LABELS[i.cuisine]||i.cuisine}</span>
+          $${i.price_per_person}/pp
+        </div>
+      </div>
+    `).join('');
+  }
+}
+
+// ══════════════════════════════════════════════
+// D — ITEMS TABLE
+// ══════════════════════════════════════════════
+const TIER_LABELS = {box_lunch:'Box Lunch', buffet:'Buffet', mix_match:'Mix & Match'};
+const DIETARY_LABELS = {vegan:'🌱 Vegan', gf:'🌾 GF', nut_free:'🥜 Nut-Free', dairy_free:'🥛 Dairy-Free', halal:'☪️ Halal'};
+
+function getFilters() {
+  return {
+    search: document.getElementById('f-search').value.toLowerCase(),
+    cuisine: document.getElementById('f-cuisine').value,
+    tier: document.getElementById('f-tier').value,
+    dietary: document.getElementById('f-dietary').value,
+    active: document.getElementById('f-active').value,
+    day: document.getElementById('f-day').value,
+  };
+}
+
+function renderTable() {
+  const data = getOrInitData();
+  const f = getFilters();
+
+  let items = data.items.filter(i => {
+    if (f.search && !i.name.toLowerCase().includes(f.search) && !i.description.toLowerCase().includes(f.search)) return false;
+    if (f.cuisine && i.cuisine !== f.cuisine) return false;
+    if (f.tier && !i.tiers.includes(f.tier)) return false;
+    if (f.dietary && !i.dietary.includes(f.dietary)) return false;
+    if (f.active !== '' && String(i.active) !== f.active) return false;
+    if (f.day !== '' && !i.available_days.includes(parseInt(f.day))) return false;
+    return true;
+  });
+
+  items.sort((a,b) => a.cuisine.localeCompare(b.cuisine) || a.sort_order - b.sort_order);
+  document.getElementById('filter-results').textContent = `${items.length} of ${data.items.length} items`;
+
+  const tbody = document.getElementById('items-tbody');
+  if (items.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="8"><div class="empty-state"><div class="empty-icon">🔍</div><p>No items match your filters.</p></div></td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = items.map(i => `
+    <tr>
+      <td>
+        <div class="col-name">${escHtml(i.name)}</div>
+        <div class="col-desc">${escHtml(i.description)}</div>
+      </td>
+      <td><span class="cuisine-badge cuisine-${escHtml(i.cuisine)}">${CUISINE_LABELS[i.cuisine]||i.cuisine}</span></td>
+      <td>${(i.tiers||[]).map(t=>`<span class="tier-badge">${TIER_LABELS[t]||t}</span>`).join(' ')}</td>
+      <td><strong>$${i.price_per_person}</strong></td>
+      <td>${(i.dietary||[]).map(d=>`<span class="dietary-tag">${DIETARY_LABELS[d]||d}</span>`).join('')}</td>
+      <td class="days-display">${formatDays(i.available_days)}</td>
+      <td>
+        <div class="toggle-wrap">
+          <label class="toggle">
+            <input type="checkbox" ${i.active?'checked':''} onchange="toggleActive('${i.id}',this.checked)" />
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </td>
+      <td>
+        <div class="action-btns">
+          <button class="btn-edit" onclick="openModal(${escHtml(JSON.stringify(i))})">Edit</button>
+          <button class="btn-delete" onclick="deleteItem('${i.id}')">Delete</button>
+        </div>
+      </td>
+    </tr>
+  `).join('');
+}
+
+// ══════════════════════════════════════════════
+// E — FILTER EVENTS
+// ══════════════════════════════════════════════
+['f-search','f-cuisine','f-tier','f-dietary','f-active','f-day'].forEach(id => {
+  document.getElementById(id).addEventListener('input', renderTable);
+  document.getElementById(id).addEventListener('change', renderTable);
+});
+document.getElementById('btn-reset-filters').addEventListener('click', () => {
+  ['f-search','f-cuisine','f-tier','f-dietary','f-active','f-day'].forEach(id => {
+    const el = document.getElementById(id);
+    el.tagName === 'INPUT' ? el.value = '' : el.value = '';
+  });
+  renderTable();
+});
+
+// ══════════════════════════════════════════════
+// F — CRUD
+// ══════════════════════════════════════════════
+function openModal(item) {
+  document.getElementById('modal-title').textContent = item ? 'Edit Menu Item' : 'Add Menu Item';
+  document.getElementById('edit-id').value = item ? item.id : '';
+  document.getElementById('f-name').value = item ? item.name : '';
+  document.getElementById('f-desc').value = item ? item.description : '';
+  document.getElementById('f-price').value = item ? item.price_per_person : '';
+  document.getElementById('f-cuisine-modal').value = item ? item.cuisine : '';
+  document.getElementById('f-sort').value = item ? item.sort_order : 0;
+
+  // Tier checkboxes
+  document.querySelectorAll('#tier-checks .checkbox-pill').forEach(pill => {
+    const val = pill.dataset.val;
+    const checked = item ? item.tiers.includes(val) : false;
+    pill.querySelector('input').checked = checked;
+    pill.classList.toggle('checked', checked);
+  });
+
+  // Dietary checkboxes
+  document.querySelectorAll('#dietary-checks .checkbox-pill').forEach(pill => {
+    const val = pill.dataset.val;
+    const checked = item ? item.dietary.includes(val) : false;
+    pill.querySelector('input').checked = checked;
+    pill.classList.toggle('checked', checked);
+  });
+
+  // Day checkboxes
+  document.querySelectorAll('#day-checks .checkbox-pill').forEach(pill => {
+    const val = parseInt(pill.dataset.val);
+    const checked = item ? item.available_days.includes(val) : [1,2,3,4,5].includes(val);
+    pill.querySelector('input').checked = checked;
+    pill.classList.toggle('checked', checked);
+  });
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+// Pill toggle interaction
+document.querySelectorAll('.checkbox-pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    const input = pill.querySelector('input');
+    input.checked = !input.checked;
+    pill.classList.toggle('checked', input.checked);
+  });
+});
+
+// Close on overlay click
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) closeModal();
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+function saveItem() {
+  const name = document.getElementById('f-name').value.trim();
+  const cuisine = document.getElementById('f-cuisine-modal').value;
+  const price = parseFloat(document.getElementById('f-price').value);
+
+  if (!name) { showToast('Item name is required.', 'error'); return; }
+  if (!cuisine) { showToast('Please select a cuisine.', 'error'); return; }
+  if (isNaN(price) || price < 0) { showToast('Please enter a valid price.', 'error'); return; }
+
+  const tiers = [...document.querySelectorAll('#tier-checks .checkbox-pill')]
+    .filter(p => p.querySelector('input').checked).map(p => p.dataset.val);
+  const dietary = [...document.querySelectorAll('#dietary-checks .checkbox-pill')]
+    .filter(p => p.querySelector('input').checked).map(p => p.dataset.val);
+  const days = [...document.querySelectorAll('#day-checks .checkbox-pill')]
+    .filter(p => p.querySelector('input').checked).map(p => parseInt(p.dataset.val));
+
+  const data = getOrInitData();
+  const editId = document.getElementById('edit-id').value;
+  const now = new Date().toISOString();
+
+  if (editId) {
+    const idx = data.items.findIndex(i => i.id === editId);
+    if (idx !== -1) {
+      data.items[idx] = { ...data.items[idx], name, description: document.getElementById('f-desc').value.trim(),
+        cuisine, tiers, price_per_person: price, dietary, available_days: days,
+        sort_order: parseInt(document.getElementById('f-sort').value)||0, updated_at: now };
+    }
+    showToast('Item updated!', 'success');
+  } else {
+    data.items.push({ id: generateId(), name, description: document.getElementById('f-desc').value.trim(),
+      cuisine, tiers, price_per_person: price, dietary, available_days: days,
+      active: true, sort_order: parseInt(document.getElementById('f-sort').value)||0,
+      created_at: now, updated_at: now });
+    showToast('Item added!', 'success');
+  }
+
+  saveData(data);
+  closeModal();
+  renderTable();
+  renderDashboard();
+}
+
+function deleteItem(id) {
+  if (!confirm('Delete this menu item? This cannot be undone.')) return;
+  const data = getOrInitData();
+  data.items = data.items.filter(i => i.id !== id);
+  saveData(data);
+  renderTable();
+  renderDashboard();
+  showToast('Item deleted.', 'success');
+}
+
+function toggleActive(id, active) {
+  const data = getOrInitData();
+  const item = data.items.find(i => i.id === id);
+  if (item) { item.active = active; item.updated_at = new Date().toISOString(); }
+  saveData(data);
+  renderDashboard();
+}
+
+// ══════════════════════════════════════════════
+// G — TIER EDITOR
+// ══════════════════════════════════════════════
+function renderTiers() {
+  const data = getOrInitData();
+  document.getElementById('tier-grid').innerHTML = data.tiers.map(tier => `
+    <div class="tier-card" id="tier-card-${tier.id}">
+      <div class="tier-card-header">
+        <div class="tier-card-title">${escHtml(tier.name)}</div>
+        ${tier.is_featured ? '<span class="tier-featured-badge">⭐ Most Popular</span>' : ''}
+      </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">Tier Name</label>
+        <input class="form-input" id="t-name-${tier.id}" value="${escHtml(tier.name)}" />
+      </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">Description</label>
+        <textarea class="form-textarea" id="t-desc-${tier.id}" style="min-height:56px;">${escHtml(tier.description)}</textarea>
+      </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">Price Range ($/person)</label>
+        <div class="price-row">
+          <input class="form-input" type="number" id="t-pmin-${tier.id}" value="${tier.price_min}" placeholder="Min" />
+          <span style="align-self:center;color:var(--muted);">–</span>
+          <input class="form-input" type="number" id="t-pmax-${tier.id}" value="${tier.price_max}" placeholder="Max (0=custom)" />
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:12px;">
+        <label class="form-label">Guest Range</label>
+        <div class="price-row">
+          <input class="form-input" type="number" id="t-gmin-${tier.id}" value="${tier.guest_min}" placeholder="Min" />
+          <span style="align-self:center;color:var(--muted);">–</span>
+          <input class="form-input" type="number" id="t-gmax-${tier.id}" value="${tier.guest_max}" placeholder="Max" />
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:4px;">
+        <label class="form-label">Features</label>
+        <div class="features-list" id="features-${tier.id}">
+          ${tier.features.map((f,i) => `
+            <div class="feature-item" id="fi-${tier.id}-${i}">
+              <input type="text" value="${escHtml(f)}" data-tier="${tier.id}" data-idx="${i}" />
+              <button class="btn-remove-feature" onclick="removeFeature('${tier.id}',${i})">×</button>
+            </div>
+          `).join('')}
+        </div>
+        <button class="btn-add-feature" onclick="addFeature('${tier.id}')">+ Add Feature</button>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-top:14px;">
+        <label class="toggle">
+          <input type="checkbox" id="t-feat-${tier.id}" ${tier.is_featured?'checked':''} />
+          <span class="toggle-slider"></span>
+        </label>
+        <span style="font-size:0.82rem;color:var(--muted);">Mark as "Most Popular"</span>
+      </div>
+      <button class="btn-save-tier" onclick="saveTier('${tier.id}')">Save Tier</button>
+    </div>
+  `).join('');
+}
+
+function addFeature(tierId) {
+  const data = getOrInitData();
+  const tier = data.tiers.find(t => t.id === tierId);
+  if (!tier) return;
+  tier.features.push('');
+  saveData(data);
+  renderTiers();
+}
+
+function removeFeature(tierId, idx) {
+  const data = getOrInitData();
+  const tier = data.tiers.find(t => t.id === tierId);
+  if (!tier) return;
+  tier.features.splice(idx, 1);
+  saveData(data);
+  renderTiers();
+}
+
+function saveTier(tierId) {
+  const data = getOrInitData();
+  const tier = data.tiers.find(t => t.id === tierId);
+  if (!tier) return;
+
+  tier.name = document.getElementById(`t-name-${tierId}`).value.trim() || tier.name;
+  tier.description = document.getElementById(`t-desc-${tierId}`).value.trim();
+  tier.price_min = parseFloat(document.getElementById(`t-pmin-${tierId}`).value) || 0;
+  tier.price_max = parseFloat(document.getElementById(`t-pmax-${tierId}`).value) || 0;
+  tier.guest_min = parseInt(document.getElementById(`t-gmin-${tierId}`).value) || 0;
+  tier.guest_max = parseInt(document.getElementById(`t-gmax-${tierId}`).value) || 0;
+  tier.is_featured = document.getElementById(`t-feat-${tierId}`).checked;
+
+  // Collect feature text inputs
+  const featureInputs = document.querySelectorAll(`#features-${tierId} input[type="text"]`);
+  tier.features = [...featureInputs].map(i => i.value.trim()).filter(Boolean);
+
+  saveData(data);
+  renderTiers();
+  showToast('Tier saved!', 'success');
+}
+
+// ══════════════════════════════════════════════
+// H — DATA MANAGEMENT
+// ══════════════════════════════════════════════
+function renderDataStats() {
+  const data = getOrInitData();
+  const active = data.items.filter(i => i.active).length;
+  const updated = data.last_updated ? new Date(data.last_updated).toLocaleString() : 'Never';
+  document.getElementById('stats-summary').innerHTML = `
+    <strong>${data.items.length}</strong> total items · <strong>${active}</strong> active<br/>
+    <strong>${data.tiers.length}</strong> pricing tiers<br/>
+    Last saved: ${updated}
+  `;
+  document.getElementById('last-saved-label').textContent = `Last saved: ${updated}`;
+}
+
+function exportData() {
+  const data = getOrInitData();
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `cbc-menu-backup-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('Backup downloaded!', 'success');
+}
+
+function importData(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const imported = JSON.parse(e.target.result);
+      if (!Array.isArray(imported.items) || !Array.isArray(imported.tiers)) {
+        showToast('Invalid backup file — missing items or tiers.', 'error');
+        return;
+      }
+      if (!confirm(`Import ${imported.items.length} items and ${imported.tiers.length} tiers? This will overwrite all current data.`)) return;
+      saveData(imported);
+      renderDashboard();
+      renderDataStats();
+      showToast('Data imported successfully!', 'success');
+    } catch(err) {
+      showToast('Could not parse JSON file.', 'error');
+    }
+  };
+  reader.readAsText(file);
+  input.value = '';
+}
+
+function resetDefaults() {
+  if (!confirm('Reset ALL menu data to defaults? This will overwrite everything and cannot be undone.')) return;
+  saveData(JSON.parse(JSON.stringify(DEFAULT_DATA)));
+  renderDashboard();
+  renderTable();
+  renderTiers();
+  renderDataStats();
+  showToast('Reset to defaults!', 'success');
+}
+
+// ══════════════════════════════════════════════
+// I — UTILITIES
+// ══════════════════════════════════════════════
+function formatDays(days) {
+  if (!days || days.length === 0) return '—';
+  if (days.length === 7) return 'Every day';
+  if (JSON.stringify([...days].sort()) === JSON.stringify([1,2,3,4,5])) return 'Mon–Fri';
+  return days.map(d => DAY_NAMES[d]).join(', ');
+}
+
+let toastTimer;
+function showToast(msg, type) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast ' + type;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.className = 'toast'; }, 3000);
+}
+
+// ══════════════════════════════════════════════
+// J — INIT
+// ══════════════════════════════════════════════
+// Initialize data if not exists
+getOrInitData();
+// Hide FAB initially (only shown in items view)
+document.getElementById('fab-btn').style.display = 'none';
+// Render dashboard on load
+renderDashboard();
+// Show FAB when items view is active (set in nav click handler above)
+// Make items view show FAB on load if sidebar isn't clicked
+document.querySelector('[data-view="dashboard"]').click();
+</script>
+</body>
+</html>
