@@ -230,6 +230,26 @@
       background: var(--lgold); color: #7A5C0A;
     }
 
+    /* ── BOOK BUTTON ── */
+    .panel-book-wrap {
+      padding: 16px 20px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--cream2);
+    }
+    .btn-book-date {
+      display: block; width: 100%; text-align: center;
+      background: var(--green); color: var(--white);
+      font-family: var(--font-body); font-size: 0.9rem; font-weight: 700;
+      padding: 13px 20px; border-radius: 8px;
+      text-decoration: none; letter-spacing: 0.02em;
+      transition: background .15s, transform .1s;
+    }
+    .btn-book-date:hover { background: var(--dgreen); transform: translateY(-1px); }
+    .btn-book-subtext {
+      text-align: center; font-size: 0.72rem; color: var(--muted);
+      margin-top: 7px;
+    }
+
     /* ── LEGEND ── */
     .legend {
       display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 16px;
@@ -653,6 +673,12 @@ function renderPanel(dateKey) {
       `;
     }).join('');
 
+  const friendlyDate = date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric', year:'numeric'});
+  const cuisineList = cuisines.map(c => CUISINE_COLORS[c]?.label || c).join(', ');
+  const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate}`);
+  const emailBody = encodeURIComponent(`Hi!\n\nI'd like to book catering for ${friendlyDate}.\n\nCuisine interest: ${cuisineList || 'TBD'}\nGuest count: \nTier (Box Lunch / Buffet / Mix & Match): \nDietary needs: \n\nLooking forward to hearing from you!`);
+  const bookHref = `mailto:hello@culinaryblock.com?subject=${emailSubject}&body=${emailBody}`;
+
   panel.innerHTML = `
     <div class="panel-header">
       <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
@@ -679,6 +705,10 @@ function renderPanel(dateKey) {
         ? `<div class="panel-empty"><div class="empty-icon">🔍</div>No items match these filters.</div>`
         : groupedHtml
       }
+    </div>
+    <div class="panel-book-wrap">
+      <a class="btn-book-date" href="${bookHref}">Book This Date →</a>
+      <div class="btn-book-subtext">Opens email · We reply within 24 hours</div>
     </div>
   `;
 }
