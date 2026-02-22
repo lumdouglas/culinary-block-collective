@@ -124,17 +124,66 @@
       background: var(--dgreen); padding: 0 24px;
       display: flex; align-items: center; justify-content: space-between;
       height: 62px; box-shadow: none;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
-    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; flex-shrink: 0; }
     .nav-logo span { color: var(--gold); }
-    nav { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .nav-links {
+      display: flex; align-items: center; gap: 2px;
+      margin: 0 16px;
+    }
+    .nav-link {
+      color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500;
+      padding: 6px 12px; border-radius: 4px; white-space: nowrap;
+      transition: background .15s, color .15s;
+    }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+    .nav-link.nav-link-cal {
+      color: var(--gold-light); border: 1px solid rgba(201,153,42,0.4);
+    }
+    .nav-link.nav-link-cal:hover { background: rgba(201,153,42,0.15); color: var(--gold); }
     .nav-phone {
-      display: flex; align-items: center; gap: 8px;
+      display: flex; align-items: center; gap: 8px; flex-shrink: 0;
       background: var(--gold); color: var(--dgreen);
       font-weight: 700; font-size: 0.95rem; padding: 8px 18px;
-      border-radius: 4px;
+      border-radius: 4px; transition: background .15s;
     }
+    .nav-phone:hover { background: #b8891e; }
     .nav-phone svg { width: 16px; height: 16px; }
+
+    /* ── HAMBURGER ── */
+    .nav-burger {
+      display: none; flex-direction: column; justify-content: center;
+      gap: 5px; background: none; border: none; cursor: pointer;
+      padding: 8px; margin-left: 8px;
+    }
+    .nav-burger span {
+      display: block; width: 22px; height: 2px;
+      background: rgba(255,255,255,0.85); border-radius: 2px;
+      transition: transform .2s, opacity .2s;
+    }
+    .nav-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-burger.open span:nth-child(2) { opacity: 0; }
+    .nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile drawer */
+    .nav-drawer {
+      display: none; position: fixed; top: 62px; left: 0; right: 0;
+      background: var(--dgreen); border-top: 1px solid rgba(255,255,255,0.1);
+      z-index: 99; padding: 12px 16px 20px; flex-direction: column; gap: 4px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    }
+    .nav-drawer.open { display: flex; }
+    .nav-drawer .nav-link {
+      padding: 10px 14px; font-size: 0.95rem; border-radius: 6px;
+    }
+    .nav-drawer .nav-phone-mob {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 12px 14px;
+      border-radius: 6px; margin-top: 8px; text-align: center;
+      justify-content: center;
+    }
 
     /* ── HERO ── */
     .hero {
@@ -404,6 +453,12 @@
       .people-ops-text-col { text-align: center; }
       .people-ops-text-col .section-sub { margin: 10px auto 0; }
     }
+    @media (max-width: 860px) {
+      .nav-links { display: none; }
+      .nav-burger { display: flex; }
+      .nav-phone { font-size: 0; padding: 8px 10px; border-radius: 4px; }
+      .nav-phone svg { width: 20px; height: 20px; }
+    }
     @media (max-width: 600px) {
       .hero { padding: 64px 20px 56px; }
       .section { padding: 52px 20px; }
@@ -418,13 +473,58 @@
 ════════════════════════════════════════════════════════ -->
 <nav>
   <div class="nav-logo">Culinary Block <span>Collective</span></div>
+
+  <!-- Desktop links -->
+  <div class="nav-links">
+    <a class="nav-link" href="#menus">Chef Menus</a>
+    <a class="nav-link" href="#pricing">Pricing</a>
+    <a class="nav-link" href="#people-ops">Recurring Program</a>
+    <a class="nav-link" href="#why-us">Why Us</a>
+    <a class="nav-link" href="#faq">FAQ</a>
+    <a class="nav-link nav-link-cal" href="/calendar">📅 Menu Calendar</a>
+  </div>
+
+  <!-- Phone CTA (desktop) + Hamburger (mobile) -->
   <a class="nav-phone" href="tel:+14085550192" aria-label="Call us">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
     </svg>
     (408) 555-0192
   </a>
+  <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<!-- Mobile drawer -->
+<div class="nav-drawer" id="nav-drawer">
+  <a class="nav-link" href="#menus"    onclick="closeDrawer()">Chef Menus</a>
+  <a class="nav-link" href="#pricing"  onclick="closeDrawer()">Pricing</a>
+  <a class="nav-link" href="#people-ops" onclick="closeDrawer()">Recurring Program</a>
+  <a class="nav-link" href="#why-us"   onclick="closeDrawer()">Why Us</a>
+  <a class="nav-link" href="#faq"      onclick="closeDrawer()">FAQ</a>
+  <a class="nav-link nav-link-cal" href="/calendar" onclick="closeDrawer()">📅 Menu Calendar</a>
+  <a class="nav-phone-mob" href="tel:+14085550192">📞 (408) 555-0192</a>
+</div>
+
+<script>
+  const burger = document.getElementById('nav-burger');
+  const drawer = document.getElementById('nav-drawer');
+  burger.addEventListener('click', () => {
+    const open = drawer.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+  });
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded', false);
+  }
+  // Close drawer on outside click
+  document.addEventListener('click', e => {
+    if (!burger.contains(e.target) && !drawer.contains(e.target)) closeDrawer();
+  });
+</script>
 
 
 <!-- ══════════════════════════════════════════════════════
