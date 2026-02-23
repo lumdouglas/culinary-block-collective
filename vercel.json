@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/calendar", "destination": "/calendar.html" },
+    { "source": "/admin",    "destination": "/admin.html" }
+  ]
+}
