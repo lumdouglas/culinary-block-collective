@@ -15,4 +15,19 @@
     <priority>0.8</priority>
   </url>
 
+
+  <!-- Chef John Alvarez · Mexican Fusion -->
+  <url>
+    <loc>https://www.culinaryblock.com/chef-john</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Unique Cuisine · Sushi & Japanese -->
+  <url>
+    <loc>https://www.culinaryblock.com/chef-unique-cuisine</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

@@ -1,7 +1,9 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/calendar", "destination": "/calendar.html" },
-    { "source": "/admin",    "destination": "/admin.html" }
+    { "source": "/calendar",             "destination": "/calendar.html" },
+    { "source": "/admin",                "destination": "/admin.html" },
+    { "source": "/chef-john",            "destination": "/chef-john.html" },
+    { "source": "/chef-unique-cuisine",  "destination": "/chef-unique-cuisine.html" }
   ]
 }
