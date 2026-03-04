@@ -4,6 +4,7 @@
     { "source": "/calendar",             "destination": "/calendar.html" },
     { "source": "/admin",                "destination": "/admin.html" },
     { "source": "/chef-john",            "destination": "/chef-john.html" },
-    { "source": "/chef-unique-cuisine",  "destination": "/chef-unique-cuisine.html" }
+    { "source": "/chef-unique-cuisine",  "destination": "/chef-unique-cuisine.html" },
+    { "source": "/chef-partner",         "destination": "/chef-partner.html" }
   ]
 }

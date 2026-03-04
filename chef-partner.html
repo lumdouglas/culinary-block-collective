@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Cook With Us | Chef Partner Program | Culinary Block Collective</title>
+  <meta name="description" content="Culinary Block commissary tenants: CBC brings you corporate catering orders from Bay Area tech companies. You cook. We sell. You keep 75%." />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EDF5EE;
+      --lgreen2:      #F2F9F3;
+      --gold:         #B8960C;
+      --gold-light:   #ECD97A;
+      --lgold:        #FAF4E1;
+      --cream:        #FAFAF8;
+      --cream2:       #F4F1EB;
+      --border:       #E5E0D8;
+      --text:         #1A1814;
+      --muted:        #6B6560;
+      --white:        #FFFFFF;
+      --radius:       8px;
+      --shadow:       0 2px 20px rgba(0,0,0,0.07);
+      --shadow-lg:    0 8px 48px rgba(0,0,0,0.11);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* ── UTILITY ── */
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+    .container-narrow { max-width: 720px; margin: 0 auto; padding: 0 32px; }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 14px 28px;
+      border-radius: 6px; border: none; cursor: pointer;
+      transition: transform .15s, background .15s;
+    }
+    .btn-primary:hover { transform: translateY(-1px); background: #a67e09; }
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1.5px solid var(--green); color: var(--green);
+      font-weight: 600; font-size: 0.95rem; padding: 13px 26px;
+      border-radius: 6px; cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .btn-outline:hover { background: var(--green); color: var(--white); }
+
+    .section-label {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--green); background: var(--lgreen);
+      padding: 5px 16px; border-radius: 2px; margin-bottom: 16px;
+    }
+    .section-title {
+      font-family: var(--font-display); font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 600; line-height: 1.12; letter-spacing: -0.01em; color: var(--dgreen);
+    }
+    .section-sub { font-size: 1.05rem; color: var(--muted); margin-top: 12px; line-height: 1.75; }
+    .section { padding: 96px 32px; }
+    .section-alt { background: var(--lgreen2); }
+    .section-dark { background: var(--dgreen); }
+    .section-gold { background: var(--lgold); }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--white);
+      padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 12px rgba(0,0,0,0.06);
+    }
+    .nav-logo {
+      font-family: var(--font-display); color: var(--dgreen);
+      font-weight: 600; font-size: 1.25rem; letter-spacing: .02em;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-badge {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--green);
+      background: var(--lgreen); padding: 4px 12px; border-radius: 2px;
+    }
+    .nav-phone {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--dgreen); color: var(--white);
+      font-weight: 600; font-size: 0.875rem; padding: 10px 20px;
+      border-radius: 6px; transition: background .15s;
+    }
+    .nav-phone:hover { background: var(--green); }
+    .nav-phone svg { width: 15px; height: 15px; fill: currentColor; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--dgreen) 0%, #0d2b1d 100%);
+      padding: 100px 32px 90px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(184,150,12,0.10) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner { max-width: 740px; margin: 0 auto; position: relative; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(184,150,12,0.15); border: 1px solid rgba(184,150,12,0.40);
+      color: var(--gold-light); font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+      padding: 6px 20px; border-radius: 2px; margin-bottom: 28px;
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6.5vw, 4.4rem); font-weight: 600; font-style: italic;
+      color: var(--white); line-height: 1.1; margin-bottom: 20px; letter-spacing: -0.01em;
+    }
+    .hero h1 em { color: var(--gold-light); font-style: italic; }
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.15rem); color: rgba(255,255,255,0.80);
+      line-height: 1.7; margin-bottom: 36px; max-width: 580px; margin-left: auto; margin-right: auto;
+    }
+    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-bottom: 48px; }
+    .hero-btn-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--white); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 14px 28px;
+      border-radius: 6px; transition: transform .15s;
+    }
+    .hero-btn-white:hover { transform: translateY(-1px); }
+    .hero-btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1.5px solid rgba(255,255,255,0.45); color: var(--white);
+      font-weight: 600; font-size: 0.95rem; padding: 13px 26px;
+      border-radius: 6px; transition: border-color .15s, background .15s;
+    }
+    .hero-btn-outline:hover { border-color: rgba(255,255,255,0.8); background: rgba(255,255,255,0.06); }
+    .hero-trust {
+      display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;
+      padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.12);
+    }
+    .hero-trust-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.82rem; color: rgba(255,255,255,0.65);
+    }
+    .hero-trust-item svg { width: 14px; height: 14px; color: var(--gold-light); flex-shrink: 0; }
+
+    /* ── INTRO ── */
+    .intro-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;
+    }
+    .intro-text p { color: var(--muted); line-height: 1.8; margin-top: 16px; }
+    .intro-text p + p { margin-top: 12px; }
+    .intro-text strong { color: var(--text); }
+    .intro-callout {
+      background: var(--lgold); border: 1px solid rgba(184,150,12,0.25);
+      border-radius: var(--radius); padding: 32px;
+    }
+    .intro-callout-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--gold); margin-bottom: 12px;
+    }
+    .intro-callout p { font-size: 1.05rem; color: var(--text); line-height: 1.75; }
+    .intro-callout strong { color: var(--dgreen); }
+
+    /* ── DIVISION OF LABOR ── */
+    .labor-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 48px;
+    }
+    .labor-col {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
+    }
+    .labor-col-head {
+      padding: 20px 28px; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+    }
+    .labor-col-head.chef { background: var(--dgreen); color: var(--gold-light); }
+    .labor-col-head.cbc  { background: var(--lgold); color: var(--gold); }
+    .labor-col ul { list-style: none; padding: 20px 28px; display: flex; flex-direction: column; gap: 14px; }
+    .labor-col ul li {
+      display: flex; align-items: flex-start; gap: 12px;
+      font-size: 0.95rem; color: var(--text); line-height: 1.5;
+    }
+    .labor-col ul li::before {
+      content: ''; display: block; width: 6px; height: 6px;
+      border-radius: 50%; flex-shrink: 0; margin-top: 7px;
+    }
+    .labor-col.chef-col ul li::before { background: var(--dgreen); }
+    .labor-col.cbc-col  ul li::before { background: var(--gold); }
+    .labor-note {
+      margin-top: 28px; padding: 18px 24px;
+      background: var(--lgreen); border-radius: var(--radius);
+      font-size: 0.92rem; color: var(--dgreen); line-height: 1.65;
+    }
+
+    /* ── MONEY ── */
+    .money-table-wrap { overflow-x: auto; margin-top: 40px; }
+    .money-table {
+      width: 100%; border-collapse: collapse;
+      font-size: 0.95rem; border-radius: var(--radius); overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .money-table thead tr { background: var(--dgreen); color: var(--white); }
+    .money-table th { padding: 16px 24px; text-align: left; font-weight: 600; font-size: 0.85rem; letter-spacing: .04em; }
+    .money-table td { padding: 16px 24px; border-bottom: 1px solid var(--border); background: var(--white); }
+    .money-table tbody tr:last-child td { border-bottom: none; }
+    .money-table .tier-name { font-weight: 600; color: var(--dgreen); }
+    .money-table .payout { font-weight: 700; color: var(--green); font-size: 1.05rem; }
+    .money-table .cbc-keep { color: var(--muted); }
+
+    .money-callouts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 28px; }
+    .money-callout {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 24px 28px; box-shadow: var(--shadow);
+    }
+    .money-callout-label { font-size: 0.78rem; font-weight: 700; letter-spacing: .10em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+    .money-callout-figure { font-family: var(--font-display); font-size: 2.2rem; font-weight: 600; color: var(--dgreen); line-height: 1; }
+    .money-callout-desc { font-size: 0.88rem; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+    .money-footer { margin-top: 20px; font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+    .money-footer strong { color: var(--text); }
+
+    /* ── ORDER FLOW ── */
+    .flow-steps { margin-top: 48px; display: flex; flex-direction: column; gap: 0; }
+    .flow-step {
+      display: flex; gap: 24px; padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .flow-step:last-child { border-bottom: none; }
+    .flow-num {
+      flex-shrink: 0; width: 40px; height: 40px;
+      background: var(--dgreen); color: var(--white);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-display); font-weight: 600; font-size: 1.1rem;
+      margin-top: 2px;
+    }
+    .flow-content { flex: 1; }
+    .flow-title { font-weight: 600; color: var(--dgreen); margin-bottom: 4px; }
+    .flow-desc { font-size: 0.92rem; color: var(--muted); line-height: 1.65; }
+    .flow-tag {
+      display: inline-block; font-size: 0.70rem; font-weight: 700; letter-spacing: .10em;
+      text-transform: uppercase; padding: 2px 8px; border-radius: 2px; margin-left: 8px;
+      vertical-align: middle;
+    }
+    .flow-tag.chef { background: var(--lgreen); color: var(--green); }
+    .flow-tag.cbc  { background: var(--lgold);  color: var(--gold);  }
+    .flow-tag.both { background: var(--cream2); color: var(--muted); }
+
+    /* ── WHY CARDS ── */
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 48px; }
+    .why-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 28px 28px 24px;
+      box-shadow: var(--shadow);
+    }
+    .why-icon {
+      width: 44px; height: 44px; background: var(--lgreen);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      margin-bottom: 16px;
+    }
+    .why-icon svg { width: 22px; height: 22px; color: var(--green); }
+    .why-title { font-weight: 700; color: var(--dgreen); margin-bottom: 8px; font-size: 0.97rem; }
+    .why-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.65; }
+
+    /* ── FAQ ── */
+    .faq-list { margin-top: 48px; display: flex; flex-direction: column; gap: 0; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-q {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 22px 0; cursor: pointer; gap: 16px;
+    }
+    .faq-q-text { font-weight: 600; font-size: 0.97rem; color: var(--dgreen); line-height: 1.4; }
+    .faq-chevron {
+      flex-shrink: 0; width: 20px; height: 20px; color: var(--muted);
+      transition: transform .2s;
+    }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-a {
+      display: none; padding: 0 0 22px;
+      font-size: 0.92rem; color: var(--muted); line-height: 1.75;
+    }
+    .faq-a strong { color: var(--text); }
+    .faq-item.open .faq-a { display: block; }
+
+    /* ── CTA DARK ── */
+    .cta-dark {
+      background: var(--dgreen);
+      padding: 96px 32px; text-align: center;
+    }
+    .cta-dark .section-label { background: rgba(255,255,255,0.12); color: var(--gold-light); }
+    .cta-dark .section-title { color: var(--white); }
+    .cta-dark .section-title em { color: var(--gold-light); }
+    .cta-dark .section-sub { color: rgba(255,255,255,0.70); margin-left: auto; margin-right: auto; }
+    .cta-contacts { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px; }
+    .cta-contact-item {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius); padding: 20px 28px; text-align: center;
+      min-width: 180px;
+    }
+    .cta-contact-label { font-size: 0.72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 6px; }
+    .cta-contact-value { color: var(--white); font-weight: 600; font-size: 0.97rem; }
+    .cta-contact-value a { color: var(--gold-light); }
+    .cta-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 40px; }
+    .btn-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--white); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 14px 28px;
+      border-radius: 6px; transition: transform .15s;
+    }
+    .btn-white:hover { transform: translateY(-1px); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1.5px solid rgba(255,255,255,0.35); color: var(--white);
+      font-weight: 600; font-size: 0.95rem; padding: 13px 26px;
+      border-radius: 6px; transition: border-color .15s, background .15s;
+    }
+    .btn-ghost:hover { border-color: rgba(255,255,255,0.7); background: rgba(255,255,255,0.06); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--text); color: rgba(255,255,255,0.5);
+      padding: 32px; text-align: center; font-size: 0.82rem;
+    }
+    footer a { color: rgba(255,255,255,0.65); }
+    footer a:hover { color: var(--white); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .section { padding: 64px 20px; }
+      .container { padding: 0 20px; }
+      .container-narrow { padding: 0 20px; }
+      .intro-grid { grid-template-columns: 1fr; gap: 40px; }
+      .labor-grid { grid-template-columns: 1fr; }
+      .money-callouts { grid-template-columns: 1fr; }
+      .hero { padding: 72px 20px 64px; }
+      .hero-ctas { flex-direction: column; align-items: center; }
+      nav { padding: 0 20px; }
+      .nav-badge { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo">Culinary Block <span>Collective</span></a>
+  <span class="nav-badge">Chef Partner Program</span>
+  <a href="tel:+14085550192" class="nav-phone">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.5 2.28 2 2 0 012.5.1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l.76-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    (408) 555-0192
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">For Culinary Block Commissary Tenants</div>
+    <h1>Cook great food.<br><em>We handle the rest.</em></h1>
+    <p class="hero-sub">CBC brings corporate catering orders from Bay Area tech companies directly to you. You prep, we sell, you keep 75% of every dollar. No sales. No invoicing. No client management.</p>
+    <div class="hero-ctas">
+      <a href="mailto:hello@culinaryblock.com?subject=Chef Partner Interest" class="hero-btn-white">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        Start the Conversation
+      </a>
+      <a href="tel:+14085550192" class="hero-btn-outline">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.5 2.28 2 2 0 012.5.1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l.76-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call or Text Doug
+      </a>
+    </div>
+    <div class="hero-trust">
+      <div class="hero-trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg>
+        75% payout on every order
+      </div>
+      <div class="hero-trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg>
+        50-box minimum per order
+      </div>
+      <div class="hero-trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg>
+        No obligation to take every order
+      </div>
+      <div class="hero-trust-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20,6 9,17 4,12"/></svg>
+        Built on the commissary we already share
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS CBC -->
+<section class="section">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-text">
+        <div class="section-label">What Is CBC</div>
+        <h2 class="section-title">Your food.<br>A new market.</h2>
+        <p>Culinary Block Collective is a corporate catering operation built on top of the Culinary Block commissary. I'm using the kitchen infrastructure we already share to sell your food to Bay Area tech companies.</p>
+        <p>The companies I'm targeting are <strong>50–300 person tech firms</strong> in the South Bay and Peninsula. Office managers and HR teams who need reliable, high-quality catering for team lunches, offsites, and recurring weekly orders.</p>
+        <p>This is a market that has money and orders consistently. They just need a trusted vendor who shows up on time with great food. That's where you come in.</p>
+      </div>
+      <div class="intro-callout">
+        <div class="intro-callout-label">The opportunity</div>
+        <p>Tech companies routinely spend <strong>$20–$30 per box</strong> on corporate catering. They order weekly. They order in volume. And they rarely switch vendors once they find one they trust.</p>
+        <p style="margin-top:16px;">Most of them have never had access to food at the quality level you cook. That gap is the opportunity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIVISION OF LABOR -->
+<section class="section section-alt">
+  <div class="container">
+    <div style="text-align:center; max-width:600px; margin:0 auto;">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-title">You cook. I sell.</h2>
+      <p class="section-sub">The division of responsibility is clear. You focus on what you're best at. I handle everything else.</p>
+    </div>
+    <div class="labor-grid">
+      <div class="labor-col chef-col">
+        <div class="labor-col-head chef">Your Responsibilities</div>
+        <ul>
+          <li>Prepare and package the food to spec</li>
+          <li>Maintain your quality and menu standards</li>
+          <li>Meet the delivery window provided</li>
+          <li>Communicate your availability in advance</li>
+          <li>Follow CBC labeling and packaging standards</li>
+        </ul>
+      </div>
+      <div class="labor-col cbc-col">
+        <div class="labor-col-head cbc">CBC's Responsibilities</div>
+        <ul>
+          <li>Find and close all corporate clients</li>
+          <li>Handle all quotes, contracts, and invoicing</li>
+          <li>Coordinate logistics and delivery timing</li>
+          <li>Help with box prep and staging when needed</li>
+          <li>Be the single point of contact for the client</li>
+        </ul>
+      </div>
+    </div>
+    <div class="labor-note">
+      You don't need to sell anything, answer client emails, or figure out pricing. I handle all of that. You just need to cook the food and have it ready.
+    </div>
+  </div>
+</section>
+
+<!-- HOW THE MONEY WORKS -->
+<section class="section">
+  <div class="container">
+    <div style="max-width:600px;">
+      <div class="section-label">The Split</div>
+      <h2 class="section-title">How the money works.</h2>
+      <p class="section-sub">Client pays $20–$30 per box. You receive 75% of every dollar collected. My 25% covers sales, branding, coordination, and logistics — so you don't have to.</p>
+    </div>
+    <div class="money-table-wrap">
+      <table class="money-table">
+        <thead>
+          <tr>
+            <th>Box Tier</th>
+            <th>Client Price</th>
+            <th>Your Payout (75%)</th>
+            <th>CBC Keeps (25%)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tier-name">Budget</td>
+            <td>$20 / box</td>
+            <td class="payout">$15.00</td>
+            <td class="cbc-keep">$5.00</td>
+          </tr>
+          <tr>
+            <td class="tier-name">Core</td>
+            <td>$25 / box</td>
+            <td class="payout">$18.75</td>
+            <td class="cbc-keep">$6.25</td>
+          </tr>
+          <tr>
+            <td class="tier-name">Premium</td>
+            <td>$30 / box</td>
+            <td class="payout">$22.50</td>
+            <td class="cbc-keep">$7.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="money-callouts">
+      <div class="money-callout">
+        <div class="money-callout-label">Single order · Core tier · 50 boxes</div>
+        <div class="money-callout-figure">$937<span style="font-size:1.4rem">.50</span></div>
+        <div class="money-callout-desc">To you — one prep session. No selling. No invoicing.</div>
+      </div>
+      <div class="money-callout">
+        <div class="money-callout-label">Weekly recurring · Core tier · 75 boxes</div>
+        <div class="money-callout-figure">$1,406<span style="font-size:1.4rem">/wk</span></div>
+        <div class="money-callout-desc">Recurring weekly contract. Before you've done any selling at all.</div>
+      </div>
+    </div>
+    <p class="money-footer">
+      <strong>Minimum order: 50 boxes.</strong> You tell me which tier(s) you want to offer, and I only send you orders that fit. Payment terms: Net 30 from service date. You are a contractor — you stay fully independent, set your own availability, and can pass on individual orders.
+    </p>
+  </div>
+</section>
+
+<!-- ORDER FLOW -->
+<section class="section section-alt">
+  <div class="container-narrow">
+    <div class="section-label">A Typical Order</div>
+    <h2 class="section-title">What it looks like from your side.</h2>
+    <p class="section-sub">No surprises. No chasing payments. No having to market yourself or build a pipeline.</p>
+    <div class="flow-steps">
+      <div class="flow-step">
+        <div class="flow-num">1</div>
+        <div class="flow-content">
+          <div class="flow-title">Inquiry comes in <span class="flow-tag cbc">CBC</span></div>
+          <div class="flow-desc">A tech company reaches out — say, 75 lunches for a Thursday all-hands. I field the inquiry, get the details, and check your availability.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">2</div>
+        <div class="flow-content">
+          <div class="flow-title">I confirm with you <span class="flow-tag both">Both</span></div>
+          <div class="flow-desc">Before quoting anything to the client, I confirm you can fulfill the date, guest count, dietary requirements, and box tier. You say yes or no — no pressure.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">3</div>
+        <div class="flow-content">
+          <div class="flow-title">Quote, confirm, collect <span class="flow-tag cbc">CBC</span></div>
+          <div class="flow-desc">I send the client a quote. They confirm. I collect payment. You don't handle any client communication or billing.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">4</div>
+        <div class="flow-content">
+          <div class="flow-title">You prep the order <span class="flow-tag chef">You</span></div>
+          <div class="flow-desc">You prepare the agreed number of boxes to spec — labeled, packaged, ready for handoff at the commissary within the confirmed delivery window.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">5</div>
+        <div class="flow-content">
+          <div class="flow-title">Staging and delivery <span class="flow-tag both">Both</span></div>
+          <div class="flow-desc">I help with box staging and coordination. Your team handles delivery. I'm on call for any day-of logistics questions and serve as the single point of contact for the client.</div>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">6</div>
+        <div class="flow-content">
+          <div class="flow-title">You get paid <span class="flow-tag cbc">CBC</span></div>
+          <div class="flow-desc">Within 30 days of the event, I pay your 75% share. Clean, consistent. No chasing invoices.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY THIS WORKS FOR YOU -->
+<section class="section">
+  <div class="container">
+    <div style="text-align:center; max-width:600px; margin:0 auto 48px;">
+      <div class="section-label">Why Partner With CBC</div>
+      <h2 class="section-title">The case for saying yes.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="why-title">Steady, predictable orders</div>
+        <div class="why-desc">Corporate clients book recurring — weekly lunches, monthly all-hands. Once we land an account, it's not a one-time thing. You can plan your prep around it.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="why-title">No sales overhead</div>
+        <div class="why-desc">You keep your time for cooking. I'm already doing outreach, building a pipeline, and managing client relationships. Your only job is to be available when orders come in.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <div class="why-title">Customers who can pay</div>
+        <div class="why-desc">Tech companies don't blink at $25–$30/box. This is a different customer than who you're competing for in the consumer market. Your margins stay intact.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+        </div>
+        <div class="why-title">You stay independent</div>
+        <div class="why-desc">Contractor, not employee. You set your menu, your tiers, your capacity limits. If you can't take a particular order, you say so. No penalty, no explanation needed.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <div class="why-title">A relationship we already have</div>
+        <div class="why-desc">You know the kitchen. You know me. This isn't a cold pitch from a stranger — it's an extension of an existing relationship with infrastructure you're already using.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div class="why-title">Additive, not competitive</div>
+        <div class="why-desc">Nothing changes with your existing customers. CBC orders are new — separate business on top of whatever you're already running. You grow without replacing anything.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-alt">
+  <div class="container-narrow">
+    <div class="section-label">Common Questions</div>
+    <h2 class="section-title">Questions you probably have.</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"Why 25%? That seems high."</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          Sales, operations, branding, coordination, and logistics aren't free. <strong>Most distributors and brokers take 30–40%.</strong> I'm taking 25% and doing substantially more than a distributor — I'm building the client relationships, handling every client touchpoint, and guaranteeing you get paid. You don't have to do any of that.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"Do I have to take every order you send me?"</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          No. You tell me your availability. I route orders accordingly. If you can't take a particular order, I find another chef or decline it. <strong>There's no minimum commitment and no penalty for passing.</strong> The goal is a long-term working relationship — that only works if the arrangement actually fits your schedule.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"What if an order gets cancelled?"</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          I'm working on a formal cancellation policy and will share the draft before we sign anything. The goal is to <strong>protect your prep time</strong> — if a client cancels inside a certain window, there should be a fee that covers your cost of prep already done. We'll define the specifics together.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"What if the client has special dietary requirements?"</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          I handle that conversation with the client. If their requirements are outside what you offer, we <strong>decline the order or route it to another chef</strong>. You never get a surprise requirement day-of — every dietary spec is confirmed with you before the order is accepted.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"What about my existing customers and business?"</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          Nothing changes. CBC orders are <strong>additive</strong> — new clients, new orders, completely separate from whatever you're doing now. You're a contractor, not exclusive to CBC. Your existing business stays yours.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-q-text">"What commitment am I making if I say yes?"</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a">
+          A simple conversation first — no contract yet. If it makes sense, we sign a contractor agreement that covers the basics: your tier(s), your capacity limits, payment terms, and the delivery protocol. <strong>You can take or pass on individual orders</strong> based on your schedule. It's a working partnership, not a lock-in.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-dark">
+  <div class="container-narrow">
+    <div class="section-label">Next Step</div>
+    <h2 class="section-title">Let's have a conversation.<br><em>Not a contract.</em></h2>
+    <p class="section-sub" style="margin-top:16px;">I want to know which tiers you'd offer, what your capacity looks like, and what would make this a no-brainer for you. Find me in the kitchen or reach out directly.</p>
+    <div class="cta-contacts">
+      <div class="cta-contact-item">
+        <div class="cta-contact-label">Email</div>
+        <div class="cta-contact-value"><a href="mailto:hello@culinaryblock.com">hello@culinaryblock.com</a></div>
+      </div>
+      <div class="cta-contact-item">
+        <div class="cta-contact-label">Phone / Text</div>
+        <div class="cta-contact-value"><a href="tel:+14085550192">(408) 555-0192</a></div>
+      </div>
+      <div class="cta-contact-item">
+        <div class="cta-contact-label">In Person</div>
+        <div class="cta-contact-value">Find Doug at the commissary</div>
+      </div>
+    </div>
+    <div class="cta-ctas">
+      <a href="mailto:hello@culinaryblock.com?subject=Chef Partner Interest — Let's Talk" class="btn-white">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+        Email Doug
+      </a>
+      <a href="tel:+14085550192" class="btn-ghost">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.5 2.28 2 2 0 012.5.1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l.76-.76a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call or Text
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    <a href="/">Culinary Block Collective</a> · 123 Catering Way, San Jose, CA ·
+    <a href="mailto:hello@culinaryblock.com">hello@culinaryblock.com</a>
+  </p>
+  <p style="margin-top:8px;">© 2025 Culinary Block LLC · All rights reserved</p>
+</footer>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(q => {
+    q.addEventListener('click', () => {
+      const item = q.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+</script>
+
+</body>
+</html>
