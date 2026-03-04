@@ -324,7 +324,11 @@
       color: var(--dgreen); margin: 0 0 4px; line-height: 1;
     }
     .pricing-price span { font-size: 1rem; font-weight: 400; color: var(--muted); font-family: var(--font-body); }
-    .pricing-guests { font-size: 0.82rem; color: var(--muted); margin-bottom: 22px; letter-spacing: .02em; }
+    .pricing-guests { font-size: 0.82rem; color: var(--muted); margin-bottom: 8px; letter-spacing: .02em; }
+    .pricing-sample {
+      font-size: 0.78rem; color: var(--green); font-weight: 500; font-style: italic;
+      margin-bottom: 22px; line-height: 1.5;
+    }
     .pricing-features { list-style: none; }
     .pricing-features li {
       display: flex; align-items: flex-start; gap: 10px;
@@ -361,6 +365,46 @@
     }
     .value-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
 
+    /* ── QUOTE FORM ── */
+    .quote-form {
+      margin-top: 40px; text-align: left;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 32px;
+      box-shadow: var(--shadow);
+    }
+    .form-row { display: flex; gap: 16px; margin-bottom: 16px; }
+    .form-group { flex: 1; display: flex; flex-direction: column; }
+    .form-group label {
+      font-size: 0.78rem; font-weight: 600; color: var(--dgreen);
+      margin-bottom: 6px; letter-spacing: .02em;
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      font-family: var(--font-body); font-size: 0.9rem;
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 10px 14px; background: var(--cream);
+      color: var(--text); outline: none; transition: border-color .15s;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      border-color: var(--green);
+    }
+    .form-group textarea { resize: vertical; }
+    .form-note {
+      text-align: center; font-size: 0.78rem; color: var(--muted); margin-top: 12px;
+    }
+    @media (max-width: 600px) {
+      .form-row { flex-direction: column; gap: 12px; }
+    }
+
+    /* ── CREDENTIALS BAR ── */
+    .credentials-bar {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;
+      margin-top: 40px; padding: 20px 24px;
+      background: var(--lgreen); border-radius: var(--radius); border: 1px solid #B7D4BF;
+    }
+    .credentials-bar span {
+      font-size: 0.82rem; font-weight: 500; color: var(--dgreen); white-space: nowrap;
+    }
+
     /* ── HOW IT WORKS ── */
     .steps {
       display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -388,6 +432,30 @@
     }
     .faq-q::after { content: '+'; font-size: 1.3rem; color: var(--green); flex-shrink: 0; font-weight: 300; }
     .faq-a { font-size: 0.9rem; color: var(--muted); margin-top: 12px; line-height: 1.7; }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px; margin-top: 40px;
+    }
+    .testimonial-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 24px;
+      text-align: left; position: relative;
+    }
+    .testimonial-stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 10px; letter-spacing: 2px; }
+    .testimonial-text {
+      font-size: 0.9rem; color: var(--text); line-height: 1.7;
+      font-style: italic; margin-bottom: 14px;
+    }
+    .testimonial-author { font-size: 0.78rem; font-weight: 600; color: var(--dgreen); }
+    .testimonial-role { font-size: 0.72rem; color: var(--muted); }
+    .testimonials-empty {
+      margin-top: 24px; padding: 32px; background: var(--lgreen);
+      border-radius: var(--radius); font-size: 0.9rem; color: var(--dgreen); line-height: 1.6;
+    }
+    .testimonial-submit-wrap { margin-top: 28px; }
+    .testimonial-form-wrap { max-width: 560px; margin: 0 auto; }
 
     /* ── PROMO BANNER ── */
     .promo-banner {
@@ -442,6 +510,21 @@
     .cta-text-btn:hover { border-color: rgba(255,255,255,0.7); background: rgba(255,255,255,0.06); }
     .cta-note { font-size: 0.82rem; color: rgba(255,255,255,0.4); margin-top: 18px; }
 
+    /* ── ROI CALLOUT ── */
+    .roi-callout {
+      display: flex; gap: 20px; flex-wrap: wrap; margin-top: 28px;
+      padding: 24px; background: var(--lgold); border: 1px solid rgba(184,150,12,0.25);
+      border-radius: var(--radius);
+    }
+    .roi-stat { flex: 1; min-width: 120px; text-align: center; }
+    .roi-num {
+      font-family: var(--font-display); font-size: 1.8rem; font-weight: 700;
+      color: var(--dgreen); line-height: 1;
+    }
+    .roi-label {
+      font-size: 0.75rem; color: var(--muted); margin-top: 4px; line-height: 1.4;
+    }
+
     /* ── PEOPLE OPS ── */
     .people-ops-layout {
       display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start;
@@ -452,6 +535,27 @@
     }
     .people-ops-text-col { text-align: left; }
     .people-ops-text-col .section-sub { margin: 12px 0 0; max-width: 100%; }
+
+    /* ── STICKY MOBILE CTA ── */
+    .sticky-cta {
+      display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 99;
+      background: var(--dgreen); padding: 10px 16px;
+      box-shadow: 0 -2px 16px rgba(0,0,0,0.2);
+    }
+    .sticky-cta-inner {
+      display: flex; gap: 10px; max-width: 500px; margin: 0 auto;
+    }
+    .sticky-cta a {
+      flex: 1; text-align: center; font-weight: 700; font-size: 0.85rem;
+      padding: 12px 8px; border-radius: 6px; transition: transform .1s;
+    }
+    .sticky-cta a:hover { transform: translateY(-1px); }
+    .sticky-cta-call { background: var(--white); color: var(--dgreen); }
+    .sticky-cta-quote { background: var(--gold); color: var(--dgreen); }
+    @media (max-width: 860px) {
+      .sticky-cta { display: block; }
+      footer { padding-bottom: 72px; }
+    }
 
     /* ── FOOTER ── */
     footer { background: #0D2118; padding: 44px 32px; text-align: center; }
@@ -501,6 +605,7 @@
     <a class="nav-link" href="#why-us">Why Us</a>
     <a class="nav-link" href="#faq">FAQ</a>
     <a class="nav-link nav-link-cal" href="/calendar">Menu Calendar</a>
+    <a class="nav-link" href="#quote" style="background:var(--lgold);color:var(--gold);font-weight:600;border-radius:4px;">Get a Quote</a>
   </div>
 
   <a class="nav-phone" href="tel:+14085550192" aria-label="Call us">
@@ -521,6 +626,7 @@
   <a class="nav-link" href="#why-us"     onclick="closeDrawer()">Why Us</a>
   <a class="nav-link" href="#faq"        onclick="closeDrawer()">FAQ</a>
   <a class="nav-link nav-link-cal" href="/calendar" onclick="closeDrawer()">Menu Calendar</a>
+  <a class="nav-link" href="#quote" onclick="closeDrawer()" style="font-weight:600;color:var(--gold);">Get a Quote</a>
   <a class="nav-phone-mob" href="tel:+14085550192">📞 (408) 555-0192</a>
 </div>
 
@@ -606,7 +712,7 @@
           <div class="chef-card-name">Billy &amp; Jaclyn Wong</div>
           <p>Rolls, sashimi, bento boxes, ramen, miso soup — authentic Japanese for corporate events.</p>
           <div class="chef-card-footer">
-            <div class="chef-price-tag">$25–$30 <span>/ box</span></div>
+            <div class="chef-price-tag">$25–$30 <span>/ guest</span></div>
             <a class="chef-cta-link" href="/chef-unique-cuisine">Full Menu →</a>
           </div>
         </div>
@@ -616,10 +722,9 @@
         <div class="chef-card-body">
           <div class="chef-cuisine-tag">Chinese (Sichuan)</div>
           <h3>Sichuan Kitchen</h3>
-          <div class="chef-card-name">Independent Chef Partner</div>
           <p>Wok stir-fry, dumplings, noodles, spring rolls — bold Sichuan flavors your team will rave about.</p>
           <div class="chef-card-footer">
-            <div class="chef-price-tag">$20–$25 <span>/ box</span></div>
+            <div class="chef-price-tag">$20–$25 <span>/ guest</span></div>
           </div>
         </div>
       </article>
@@ -631,7 +736,7 @@
           <div class="chef-card-name">Chef John Alvarez</div>
           <p>Modern moles, wood-fire meats, vibrant salsas — Michelin-trained craft for your team.</p>
           <div class="chef-card-footer">
-            <div class="chef-price-tag">$20–$25 <span>/ box</span></div>
+            <div class="chef-price-tag">$20–$25 <span>/ guest</span></div>
             <a class="chef-cta-link" href="/chef-john">Full Menu →</a>
           </div>
         </div>
@@ -641,10 +746,9 @@
         <div class="chef-card-body">
           <div class="chef-cuisine-tag">Specialty &amp; Seasonal</div>
           <h3>Global Fusion</h3>
-          <div class="chef-card-name">Independent Chef Partner</div>
           <p>Dietary-forward global fusion — vegan, gluten-free, and allergen-conscious menus that shine.</p>
           <div class="chef-card-footer">
-            <div class="chef-price-tag">$20–$25 <span>/ box</span></div>
+            <div class="chef-price-tag">$20–$25 <span>/ guest</span></div>
           </div>
         </div>
       </article>
@@ -654,67 +758,9 @@
 
 
 <!-- ══════════════════════════════════════════════════════
-     PRICING — transparent, structured for featured snippet
+     HR / PEOPLE OPS — Marcus section (moved up for visibility)
 ════════════════════════════════════════════════════════ -->
-<section class="section section-alt section-center" id="pricing" aria-labelledby="pricing-heading">
-  <div class="container">
-    <span class="section-label">Pricing</span>
-    <h2 class="section-title" id="pricing-heading">Real Prices. No Quote Required<br/>to Know What You'll Pay.</h2>
-    <p class="section-sub">All prices include delivery, dietary labeling, and a dedicated coordinator. No hidden fees — ever.</p>
-    <div class="pricing-grid">
-      <div class="pricing-card">
-        <h3>Standard Box</h3>
-        <p class="pricing-desc">Individual boxed meals. Great for weekly team lunches, onboarding days, and recurring orders.</p>
-        <div class="pricing-price">$20–$25 <span>/ box</span></div>
-        <p class="pricing-guests">50-box minimum</p>
-        <ul class="pricing-features">
-          <li><span class="check">✓</span> Individually boxed &amp; labeled per person</li>
-          <li><span class="check">✓</span> Full dietary labeling (vegan, GF, nut-free)</li>
-          <li><span class="check">✓</span> Dietary breakdown sheet included</li>
-          <li><span class="check">✓</span> BPI-certified compostable packaging</li>
-          <li><span class="check">✓</span> On-time delivery guarantee</li>
-        </ul>
-      </div>
-      <div class="pricing-card featured">
-        <div class="featured-tag">Most Popular</div>
-        <h3>Premium Box</h3>
-        <p class="pricing-desc">Elevated box format — more complex menus, premium packaging. Ideal for all-hands and client events.</p>
-        <div class="pricing-price">$25–$30 <span>/ box</span></div>
-        <p class="pricing-guests">50-box minimum</p>
-        <ul class="pricing-features">
-          <li><span class="check">✓</span> Everything in Standard Box</li>
-          <li><span class="check">✓</span> Premium menu items (sushi, Michelin-trained)</li>
-          <li><span class="check">✓</span> Branded packaging &amp; printed menu card</li>
-          <li><span class="check">✓</span> Serving utensils &amp; condiments included</li>
-          <li><span class="check">✓</span> On-site setup assistance available</li>
-          <li><span class="check">✓</span> Carbon offset option available</li>
-        </ul>
-      </div>
-      <div class="pricing-card">
-        <h3>Full-Service Event</h3>
-        <p class="pricing-desc">Buffet setup with 1–2 CBC staff on-site for setup, service, and breakdown. Product launches, all-hands, VIP events.</p>
-        <div class="pricing-price">Custom <span>quote</span></div>
-        <p class="pricing-guests">75+ guests</p>
-        <ul class="pricing-features">
-          <li><span class="check">✓</span> Everything in Premium Box</li>
-          <li><span class="check">✓</span> Chafing dishes &amp; insulated trays</li>
-          <li><span class="check">✓</span> On-site CBC staff (setup + breakdown)</li>
-          <li><span class="check">✓</span> Linen &amp; labeled buffet stations</li>
-          <li><span class="check">✓</span> Mix &amp; match 2–3 chef cuisines</li>
-        </ul>
-      </div>
-    </div>
-    <div class="pricing-note">
-      <strong>Why we publish prices when others won't:</strong> Most caterers hide pricing to qualify your budget before you see a number. We show prices upfront because you have a budget to manage and a team to feed — you shouldn't need a sales call to know if we're in range. If you need a custom quote for a large or complex event, we'll have one back to you within 24 hours.
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════
-     HR / PEOPLE OPS — Marcus section
-════════════════════════════════════════════════════════ -->
-<section class="section" id="people-ops" aria-labelledby="people-ops-heading">
+<section class="section section-alt" id="people-ops" aria-labelledby="people-ops-heading">
   <div class="container">
     <div class="people-ops-layout">
       <div class="people-ops-img-col">
@@ -727,6 +773,20 @@
         <span class="section-label">For HR &amp; People Ops Teams</span>
         <h2 class="section-title" id="people-ops-heading">Catering Is a Retention Strategy.<br/>We Built a Program for That.</h2>
         <p class="section-sub">CBC's recurring catering program gives HR and People Ops leaders a reliable, diverse, sustainable vendor they can put in the quarterly report — not just the lunch order.</p>
+        <div class="roi-callout">
+          <div class="roi-stat">
+            <div class="roi-num">$15K+</div>
+            <div class="roi-label">Avg. cost to replace one employee</div>
+          </div>
+          <div class="roi-stat">
+            <div class="roi-num">$25</div>
+            <div class="roi-label">Per-head weekly catering investment</div>
+          </div>
+          <div class="roi-stat">
+            <div class="roi-num">measurable</div>
+            <div class="roi-label">eNPS food satisfaction impact</div>
+          </div>
+        </div>
         <div class="values-grid" style="margin-top:40px;">
           <div class="value-card">
             <div class="value-icon">📊</div>
@@ -746,7 +806,7 @@
           <div class="value-card">
             <div class="value-icon">📈</div>
             <h3>Scales With Your Team</h3>
-            <p>Starts at 50 boxes, scales to 400+. Your program grows with your company without renegotiating vendor terms.</p>
+            <p>Starts at 50 guests, scales to 400+. Your program grows with your company without renegotiating vendor terms.</p>
           </div>
           <div class="value-card">
             <div class="value-icon">🔒</div>
@@ -771,9 +831,146 @@
 
 
 <!-- ══════════════════════════════════════════════════════
+     PRICING — transparent, structured for featured snippet
+════════════════════════════════════════════════════════ -->
+<section class="section section-center" id="pricing" aria-labelledby="pricing-heading">
+  <div class="container">
+    <span class="section-label">Pricing</span>
+    <h2 class="section-title" id="pricing-heading">Real Prices. No Quote Required<br/>to Know What You'll Pay.</h2>
+    <p class="section-sub">All prices include delivery, dietary labeling, and a dedicated coordinator. No hidden fees — ever.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Standard Box</h3>
+        <p class="pricing-desc">One box per guest. Great for weekly team lunches, onboarding days, and recurring orders.</p>
+        <div class="pricing-price">$20–$25 <span>/ guest</span></div>
+        <p class="pricing-guests">50-guest minimum</p>
+        <p class="pricing-sample">Sample box: Entree + side + garnish, individually packaged</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> One complete meal per person, boxed &amp; labeled</li>
+          <li><span class="check">✓</span> Full dietary labeling (vegan, GF, nut-free)</li>
+          <li><span class="check">✓</span> Dietary breakdown sheet included</li>
+          <li><span class="check">✓</span> BPI-certified compostable packaging</li>
+          <li><span class="check">✓</span> On-time delivery guarantee</li>
+        </ul>
+      </div>
+      <div class="pricing-card featured">
+        <div class="featured-tag">Most Popular</div>
+        <h3>Premium Box</h3>
+        <p class="pricing-desc">Elevated box format — more complex menus, premium packaging. Ideal for all-hands and client events.</p>
+        <div class="pricing-price">$25–$30 <span>/ guest</span></div>
+        <p class="pricing-guests">50-guest minimum</p>
+        <p class="pricing-sample">Sample box: Premium entree + two sides + dessert, branded packaging</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Everything in Standard Box</li>
+          <li><span class="check">✓</span> Premium menu items (sushi, Michelin-trained)</li>
+          <li><span class="check">✓</span> Branded packaging &amp; printed menu card</li>
+          <li><span class="check">✓</span> Serving utensils &amp; condiments included</li>
+          <li><span class="check">✓</span> On-site setup assistance available</li>
+          <li><span class="check">✓</span> Carbon offset option available</li>
+        </ul>
+      </div>
+      <div class="pricing-card">
+        <h3>Full-Service Event</h3>
+        <p class="pricing-desc">Buffet setup with 1–2 CBC staff on-site for setup, service, and breakdown. Product launches, all-hands, VIP events.</p>
+        <div class="pricing-price">Custom <span>quote</span></div>
+        <p class="pricing-guests">75+ guests · full buffet service</p>
+        <ul class="pricing-features">
+          <li><span class="check">✓</span> Everything in Premium Box</li>
+          <li><span class="check">✓</span> Chafing dishes &amp; insulated trays</li>
+          <li><span class="check">✓</span> On-site CBC staff (setup + breakdown)</li>
+          <li><span class="check">✓</span> Linen &amp; labeled buffet stations</li>
+          <li><span class="check">✓</span> Mix &amp; match 2–3 chef cuisines</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pricing-note">
+      <strong>Why we publish prices when others won't:</strong> Most caterers hide pricing to qualify your budget before you see a number. We show prices upfront because you have a budget to manage and a team to feed — you shouldn't need a sales call to know if we're in range. If you need a custom quote for a large or complex event, we'll have one back to you within 24 hours.
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     QUOTE REQUEST FORM
+════════════════════════════════════════════════════════ -->
+<section class="section section-alt section-center" id="quote" aria-labelledby="quote-heading">
+  <div class="container" style="max-width:680px;">
+    <span class="section-label">Get a Quote</span>
+    <h2 class="section-title" id="quote-heading">Tell Us About Your Event.<br/>Quote Back Within 24 Hours.</h2>
+    <p class="section-sub" style="margin:12px auto 0;">Fill out the basics and we'll get back to you with a detailed, transparent quote — no sales call required.</p>
+    <form class="quote-form" id="quote-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="q-name">Your Name</label>
+          <input type="text" id="q-name" required placeholder="Sarah Nguyen" />
+        </div>
+        <div class="form-group">
+          <label for="q-company">Company</label>
+          <input type="text" id="q-company" placeholder="Acme Corp" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="q-email">Email</label>
+          <input type="email" id="q-email" required placeholder="sarah@company.com" />
+        </div>
+        <div class="form-group">
+          <label for="q-phone">Phone (optional)</label>
+          <input type="tel" id="q-phone" placeholder="(408) 555-1234" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="q-date">Event Date</label>
+          <input type="date" id="q-date" required />
+        </div>
+        <div class="form-group">
+          <label for="q-guests">Guest Count</label>
+          <input type="number" id="q-guests" required min="50" placeholder="100" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="q-cuisine">Cuisine Preference</label>
+          <select id="q-cuisine">
+            <option value="">No preference</option>
+            <option value="Sushi / Japanese">Sushi / Japanese</option>
+            <option value="Chinese (Sichuan)">Chinese (Sichuan)</option>
+            <option value="Mexican Fusion">Mexican Fusion</option>
+            <option value="Mix & Match (multiple)">Mix &amp; Match (multiple)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="q-tier">Service Tier</label>
+          <select id="q-tier">
+            <option value="">Not sure yet</option>
+            <option value="Standard Box ($20-$25)">Standard Box ($20–$25)</option>
+            <option value="Premium Box ($25-$30)">Premium Box ($25–$30)</option>
+            <option value="Full-Service Event">Full-Service Event</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group" style="width:100%;">
+        <label for="q-dietary">Dietary Needs</label>
+        <input type="text" id="q-dietary" placeholder="e.g. 10 vegan, 5 gluten-free, 3 nut-free" />
+      </div>
+      <div class="form-group" style="width:100%;">
+        <label for="q-notes">Anything Else?</label>
+        <textarea id="q-notes" rows="3" placeholder="Special requests, recurring schedule, questions..."></textarea>
+      </div>
+      <button type="submit" class="btn-primary" style="width:100%;justify-content:center;padding:16px 28px;font-size:1rem;">
+        Send Quote Request
+      </button>
+      <p class="form-note">Opens your email client with details pre-filled. We respond within 24 hours, Mon–Fri.</p>
+    </form>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
      VALUE PROPS — Why Us
 ════════════════════════════════════════════════════════ -->
-<section class="section section-center" id="why-us" aria-labelledby="why-heading">
+<section class="section section-alt section-center" id="why-us" aria-labelledby="why-heading">
   <div class="container">
     <span class="section-label">Why Choose Us</span>
     <h2 class="section-title" id="why-heading">The Corporate Catering Partner<br/>Bay Area Tech Teams Trust</h2>
@@ -808,6 +1005,11 @@
         <h3>Recurring Contracts</h3>
         <p>Weekly or bi-weekly standing orders. Fixed per-box pricing, 5% recurring discount, 90-day review clause.</p>
       </div>
+    </div>
+    <div class="credentials-bar">
+      <span>🛡️ Every chef partner carries $1M general liability insurance</span>
+      <span>📋 Food safety logs maintained and available on request</span>
+      <span>📄 Signed contractor agreements on file for all partners</span>
     </div>
   </div>
 </section>
@@ -848,12 +1050,65 @@
 
 
 <!-- ══════════════════════════════════════════════════════
+     TESTIMONIALS + FEEDBACK SYSTEM
+════════════════════════════════════════════════════════ -->
+<section class="section section-center" id="testimonials" aria-labelledby="testimonials-heading">
+  <div class="container" style="max-width:900px;">
+    <span class="section-label">What Clients Say</span>
+    <h2 class="section-title" id="testimonials-heading">Real Feedback From<br/>the Teams We Serve</h2>
+    <div class="testimonials-grid" id="testimonials-grid">
+      <!-- Testimonials rendered by JS from localStorage -->
+    </div>
+    <div id="testimonials-empty" class="testimonials-empty">
+      <p>We're just getting started. After your first order, we'll ask for your honest feedback — and the best reviews appear right here.</p>
+    </div>
+    <div class="testimonial-submit-wrap">
+      <button class="btn-outline" id="btn-leave-feedback" type="button">Share Your Experience</button>
+    </div>
+    <div class="testimonial-form-wrap" id="testimonial-form-wrap" style="display:none;">
+      <form class="quote-form" id="testimonial-form" style="margin-top:24px;">
+        <h3 style="font-family:var(--font-display);font-size:1.2rem;font-weight:600;color:var(--dgreen);margin-bottom:16px;">Tell us how it went</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="t-name">Your Name</label>
+            <input type="text" id="t-name" required placeholder="Sarah N." />
+          </div>
+          <div class="form-group">
+            <label for="t-company">Company</label>
+            <input type="text" id="t-company" placeholder="Acme Corp" />
+          </div>
+        </div>
+        <div class="form-group" style="width:100%;">
+          <label for="t-role">Your Role</label>
+          <input type="text" id="t-role" placeholder="Office Manager" />
+        </div>
+        <div class="form-group" style="width:100%;">
+          <label for="t-text">Your Feedback</label>
+          <textarea id="t-text" rows="4" required placeholder="What stood out? How was the food, delivery, and overall experience?"></textarea>
+        </div>
+        <div class="form-group" style="width:100%;">
+          <label for="t-rating">Rating</label>
+          <select id="t-rating" required>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">Submit Feedback</button>
+        <p class="form-note">Your feedback may be displayed on this page after review. Thank you for helping us improve.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
      PROMO BANNER
 ════════════════════════════════════════════════════════ -->
 <section class="promo-banner" aria-label="Current promotions">
   <div class="container">
-    <h2>Limited-Time Offers for New Corporate Accounts</h2>
-    <p>Limited to 10 new corporate accounts per quarter — only 3 slots remaining. Lock in these perks before they're gone.</p>
+    <h2>Welcome Offers for New Corporate Accounts</h2>
+    <p>We want your first order to be risk-free. Here's what new accounts get.</p>
     <div class="promo-offers">
       <div class="promo-offer">
         <div class="promo-num">10%</div>
@@ -861,7 +1116,7 @@
       </div>
       <div class="promo-offer">
         <div class="promo-num">Free</div>
-        <div class="promo-desc">Chef Tasting (10 slots/month)</div>
+        <div class="promo-desc">Chef Tasting for Your Team</div>
       </div>
       <div class="promo-offer">
         <div class="promo-num">5%</div>
@@ -886,27 +1141,9 @@
     </div>
     <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <div class="faq-q" itemprop="name">How much does corporate catering in San Jose cost?</div>
-        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">Culinary Block Collective offers corporate catering from $20–$30 per box, with a 50-box minimum. Standard boxes start at $20–$25 (Sichuan, Mexican fusion) and premium boxes at $25–$30 (sushi/Japanese). Full-service attended events are custom-quoted. All prices include delivery, dietary labeling, and a dedicated coordinator — no hidden fees.</span>
-        </div>
-      </div>
-      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <div class="faq-q" itemprop="name">What cuisines do you offer for corporate catering?</div>
-        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">We partner with independent specialist chefs covering Sushi &amp; Japanese, Chinese (Sichuan), Mexican Fusion, and Specialty/Seasonal global menus. You can choose one cuisine or mix multiple for larger events.</span>
-        </div>
-      </div>
-      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="faq-q" itemprop="name">Do you accommodate dietary restrictions?</div>
         <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
           <span itemprop="text">Yes — every single item is individually labeled for vegan, gluten-free, nut-free, and dairy-free options. Every order includes a full dietary breakdown sheet with labeled packaging, so no one has to guess what they're eating.</span>
-        </div>
-      </div>
-      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <div class="faq-q" itemprop="name">What areas do you serve for corporate catering?</div>
-        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">We deliver across the Bay Area including San Jose, Palo Alto, Mountain View, Sunnyvale, and Santa Clara — within a 20-mile radius of our San Jose kitchen. Contact us for other locations.</span>
         </div>
       </div>
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -916,9 +1153,27 @@
         </div>
       </div>
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">How much does corporate catering in San Jose cost?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Culinary Block Collective offers corporate catering from $20–$30 per box (one box per guest), with a 50-guest minimum. Standard boxes start at $20–$25 (Sichuan, Mexican fusion) and premium boxes at $25–$30 (sushi/Japanese). Full-service attended events are custom-quoted. All prices include delivery, dietary labeling, and a dedicated coordinator — no hidden fees.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">What cuisines do you offer for corporate catering?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">We partner with independent specialist chefs covering Sushi &amp; Japanese, Chinese (Sichuan), Mexican Fusion, and Specialty/Seasonal global menus. You can choose one cuisine or mix multiple for larger events.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">What areas do you serve for corporate catering?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">We deliver across the Bay Area including San Jose, Palo Alto, Mountain View, Sunnyvale, and Santa Clara — within a 20-mile radius of our San Jose kitchen. Contact us for other locations.</span>
+        </div>
+      </div>
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="faq-q" itemprop="name">Do you offer discounts for recurring corporate catering orders?</div>
         <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">Yes — we offer a 5% discount on all recurring weekly or bi-weekly catering contracts locked in for a minimum of 3 months. New clients also receive 10% off their first order. Slots are limited — contact us to check current availability.</span>
+          <span itemprop="text">Yes — we offer a 5% discount on all recurring weekly or bi-weekly catering contracts locked in for a minimum of 3 months. New clients also receive 10% off their first order. Contact us to check current availability.</span>
         </div>
       </div>
       <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -978,6 +1233,14 @@
 </section>
 
 
+<!-- STICKY MOBILE CTA -->
+<div class="sticky-cta" id="sticky-cta">
+  <div class="sticky-cta-inner">
+    <a class="sticky-cta-call" href="tel:+14085550192">Call to Book</a>
+    <a class="sticky-cta-quote" href="#quote">Get a Quote</a>
+  </div>
+</div>
+
 <!-- ══════════════════════════════════════════════════════
      FOOTER
 ════════════════════════════════════════════════════════ -->
@@ -994,7 +1257,7 @@
     <p style="font-size:0.78rem;color:rgba(255,255,255,0.35);">
       Serving San Jose · Palo Alto · Mountain View · Sunnyvale · Santa Clara
     </p>
-    <p class="footer-copy">© 2025 Culinary Block Collective · San Jose, CA · BPI-Certified Eco Packaging</p>
+    <p class="footer-copy">© 2026 Culinary Block Collective · San Jose, CA · BPI-Certified Eco Packaging</p>
     <p style="margin-top:14px;font-size:0.72rem;">
       <a href="/admin" style="color:rgba(255,255,255,0.2);" onmouseover="this.style.color='rgba(255,255,255,0.5)'" onmouseout="this.style.color='rgba(255,255,255,0.2)'">Staff Admin</a>
       &nbsp;·&nbsp;
@@ -1002,6 +1265,135 @@
     </p>
   </div>
 </footer>
+
+<!-- Quote form mailto handler -->
+<script>
+document.getElementById('quote-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const name = document.getElementById('q-name').value;
+  const company = document.getElementById('q-company').value;
+  const email = document.getElementById('q-email').value;
+  const phone = document.getElementById('q-phone').value;
+  const date = document.getElementById('q-date').value;
+  const guests = document.getElementById('q-guests').value;
+  const cuisine = document.getElementById('q-cuisine').value;
+  const tier = document.getElementById('q-tier').value;
+  const dietary = document.getElementById('q-dietary').value;
+  const notes = document.getElementById('q-notes').value;
+
+  const subject = encodeURIComponent('Quote Request — ' + (company || name));
+  const body = encodeURIComponent(
+    'Hi! I\'d like a catering quote.\n\n' +
+    'Name: ' + name + '\n' +
+    'Company: ' + (company || 'N/A') + '\n' +
+    'Email: ' + email + '\n' +
+    'Phone: ' + (phone || 'N/A') + '\n\n' +
+    'Event Date: ' + (date || 'TBD') + '\n' +
+    'Guest Count: ' + (guests || 'TBD') + '\n' +
+    'Cuisine Preference: ' + (cuisine || 'No preference') + '\n' +
+    'Service Tier: ' + (tier || 'Not sure yet') + '\n' +
+    'Dietary Needs: ' + (dietary || 'None specified') + '\n\n' +
+    'Additional Notes:\n' + (notes || 'None') + '\n'
+  );
+
+  window.location.href = 'mailto:hello@culinaryblockcollective.com?subject=' + subject + '&body=' + body;
+});
+</script>
+
+<!-- FAQ accordion -->
+<script>
+document.querySelectorAll('.faq-q').forEach(function(q) {
+  q.addEventListener('click', function() {
+    const item = q.closest('.faq-item');
+    const wasOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(i) { i.classList.remove('open'); });
+    if (!wasOpen) item.classList.add('open');
+  });
+});
+</script>
+
+<!-- Testimonial feedback system -->
+<script>
+(function() {
+  var TKEY = 'cbc_testimonials';
+
+  function getTestimonials() {
+    try { return JSON.parse(localStorage.getItem(TKEY)) || []; }
+    catch(e) { return []; }
+  }
+
+  function saveTestimonials(arr) {
+    localStorage.setItem(TKEY, JSON.stringify(arr));
+  }
+
+  function renderTestimonials() {
+    var all = getTestimonials();
+    var approved = all.filter(function(t) { return t.approved; });
+    var grid = document.getElementById('testimonials-grid');
+    var empty = document.getElementById('testimonials-empty');
+
+    if (approved.length === 0) {
+      grid.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+
+    empty.style.display = 'none';
+    grid.innerHTML = approved.map(function(t) {
+      var stars = '';
+      for (var i = 0; i < parseInt(t.rating); i++) stars += '\u2605';
+      return '<div class="testimonial-card">' +
+        '<div class="testimonial-stars">' + stars + '</div>' +
+        '<div class="testimonial-text">\u201C' + escT(t.text) + '\u201D</div>' +
+        '<div class="testimonial-author">' + escT(t.name) + '</div>' +
+        '<div class="testimonial-role">' + escT(t.role || '') + (t.company ? ' at ' + escT(t.company) : '') + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  function escT(s) {
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Toggle feedback form
+  document.getElementById('btn-leave-feedback').addEventListener('click', function() {
+    var wrap = document.getElementById('testimonial-form-wrap');
+    wrap.style.display = wrap.style.display === 'none' ? 'block' : 'none';
+  });
+
+  // Submit feedback
+  document.getElementById('testimonial-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var t = {
+      name: document.getElementById('t-name').value,
+      company: document.getElementById('t-company').value,
+      role: document.getElementById('t-role').value,
+      text: document.getElementById('t-text').value,
+      rating: document.getElementById('t-rating').value,
+      date: new Date().toISOString(),
+      approved: false
+    };
+    var all = getTestimonials();
+    all.push(t);
+    saveTestimonials(all);
+    document.getElementById('testimonial-form').reset();
+    document.getElementById('testimonial-form-wrap').style.display = 'none';
+    alert('Thank you for your feedback! It will appear on the site after review.');
+  });
+
+  renderTestimonials();
+
+  // Expose for admin use: approve testimonials via console
+  // Usage: approveTestimonial(0) to approve the first pending testimonial
+  window.approveTestimonial = function(index) {
+    var all = getTestimonials();
+    if (all[index]) { all[index].approved = true; saveTestimonials(all); renderTestimonials(); }
+  };
+  window.listPendingTestimonials = function() {
+    return getTestimonials().map(function(t,i) { return i + ': ' + (t.approved ? '[APPROVED]' : '[PENDING]') + ' ' + t.name + ' — ' + t.text.substring(0,60); });
+  };
+})();
+</script>
 
 </body>
 </html>
