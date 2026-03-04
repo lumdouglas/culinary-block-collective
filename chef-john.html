@@ -118,9 +118,11 @@
     .course-subtitle { color: rgba(255,255,255,0.65); font-size: 0.75rem; margin-top: 2px; }
     .course-body { padding: 20px; }
     .course-items { list-style: none; }
-    .course-items li { padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; color: var(--text); display: flex; align-items: flex-start; gap: 8px; }
+    .course-items li { padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; color: var(--text); display: flex; align-items: flex-start; gap: 12px; }
     .course-items li:last-child { border-bottom: none; }
-    .course-items li::before { content: '›'; color: var(--mexican); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .course-items .item-photo { width: 68px; height: 68px; border-radius: 8px; object-fit: cover; flex-shrink: 0; }
+    .course-items .item-text { flex: 1; }
+    .course-items .item-name { font-weight: 600; display: block; }
     .course-items .item-desc { font-size: 0.75rem; color: var(--muted); display: block; margin-top: 2px; }
 
     /* Protein selector */
@@ -239,14 +241,26 @@
         </div>
         <div class="course-body">
           <ul class="course-items">
-            <li>Totopos &amp; Housemade Salsas
-              <span class="item-desc">Salsa verde tatemada, salsa roja, salsa macha</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=120&h=120&fit=crop&q=70" alt="Totopos & Housemade Salsas" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Totopos &amp; Housemade Salsas</span>
+                <span class="item-desc">Salsa verde tatemada, salsa roja, salsa macha</span>
+              </div>
             </li>
-            <li>Esquites Cup
-              <span class="item-desc">Street corn, cotija, lime, chile de árbol</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=120&h=120&fit=crop&q=70" alt="Esquites Cup" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Esquites Cup</span>
+                <span class="item-desc">Street corn, cotija, lime, chile de árbol</span>
+              </div>
             </li>
-            <li>Agua Fresca
-              <span class="item-desc">Seasonal fruit, hibiscus, or tamarind</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=120&h=120&fit=crop&q=70" alt="Agua Fresca" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Agua Fresca</span>
+                <span class="item-desc">Seasonal fruit, hibiscus, or tamarind</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -262,14 +276,26 @@
         </div>
         <div class="course-body">
           <ul class="course-items">
-            <li>Pozole Verde
-              <span class="item-desc">Hominy, tomatillo, pepitas, shredded cabbage</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=120&h=120&fit=crop&q=70" alt="Pozole Verde" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Pozole Verde</span>
+                <span class="item-desc">Hominy, tomatillo, pepitas, shredded cabbage</span>
+              </div>
             </li>
-            <li>Sopa de Lima
-              <span class="item-desc">Yucatán-style citrus broth, crispy tortilla strips</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?w=120&h=120&fit=crop&q=70" alt="Sopa de Lima" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Sopa de Lima</span>
+                <span class="item-desc">Yucatán-style citrus broth, crispy tortilla strips</span>
+              </div>
             </li>
-            <li>Crema de Elote
-              <span class="item-desc">Sweet corn bisque, crema, epazote oil</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=120&h=120&fit=crop&q=70" alt="Crema de Elote" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Crema de Elote</span>
+                <span class="item-desc">Sweet corn bisque, crema, epazote oil</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -285,20 +311,40 @@
         </div>
         <div class="course-body">
           <ul class="course-items">
-            <li>🍗 Pollo en Mole Negro
-              <span class="item-desc">Modern black mole, wood-fire roasted chicken, sesame</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=120&h=120&fit=crop&q=70" alt="Pollo en Mole Negro" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">🍗 Pollo en Mole Negro</span>
+                <span class="item-desc">Modern black mole, wood-fire roasted chicken, sesame</span>
+              </div>
             </li>
-            <li>🥩 Carnitas de Puerco
-              <span class="item-desc">Slow-braised pork, salsa verde, pickled red onion</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=120&h=120&fit=crop&q=70" alt="Carnitas de Puerco" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">🥩 Carnitas de Puerco</span>
+                <span class="item-desc">Slow-braised pork, salsa verde, pickled red onion</span>
+              </div>
             </li>
-            <li>🐟 Pescado a la Veracruzana
-              <span class="item-desc">Fish, olives, capers, tomato, bay leaf</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=120&h=120&fit=crop&q=70" alt="Pescado a la Veracruzana" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">🐟 Pescado a la Veracruzana</span>
+                <span class="item-desc">Fish, olives, capers, tomato, bay leaf</span>
+              </div>
             </li>
-            <li>🥩 Carne Asada
-              <span class="item-desc">Grilled beef, chimichurri verde, roasted salsa</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=120&h=120&fit=crop&q=70" alt="Carne Asada" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">🥩 Carne Asada</span>
+                <span class="item-desc">Grilled beef, chimichurri verde, roasted salsa</span>
+              </div>
             </li>
-            <li>🦐 Camarones al Ajillo
-              <span class="item-desc">Garlic-chili shrimp, butter, lime, Mexican oregano</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=120&h=120&fit=crop&q=70" alt="Camarones al Ajillo" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">🦐 Camarones al Ajillo</span>
+                <span class="item-desc">Garlic-chili shrimp, butter, lime, Mexican oregano</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -314,17 +360,33 @@
         </div>
         <div class="course-body">
           <ul class="course-items">
-            <li>Arroz Rojo
-              <span class="item-desc">Mexican red rice, tomato, garlic, fresh herbs</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=120&h=120&fit=crop&q=70" alt="Arroz Rojo" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Arroz Rojo</span>
+                <span class="item-desc">Mexican red rice, tomato, garlic, fresh herbs</span>
+              </div>
             </li>
-            <li>Frijoles de Olla
-              <span class="item-desc">Slow-cooked black or pinto beans, epazote</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1452195100486-9cc805987862?w=120&h=120&fit=crop&q=70" alt="Frijoles de Olla" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Frijoles de Olla</span>
+                <span class="item-desc">Slow-cooked black or pinto beans, epazote</span>
+              </div>
             </li>
-            <li>Ensalada de Nopales
-              <span class="item-desc">Cactus, tomato, queso fresco, cilantro, lime</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=120&h=120&fit=crop&q=70" alt="Ensalada de Nopales" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Ensalada de Nopales</span>
+                <span class="item-desc">Cactus, tomato, queso fresco, cilantro, lime</span>
+              </div>
             </li>
-            <li>Handmade Tortillas
-              <span class="item-desc">Corn or flour, pressed daily</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1514190051997-0f6f39ca5cde?w=120&h=120&fit=crop&q=70" alt="Handmade Tortillas" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Handmade Tortillas</span>
+                <span class="item-desc">Corn or flour, pressed daily</span>
+              </div>
             </li>
           </ul>
         </div>
@@ -340,14 +402,26 @@
         </div>
         <div class="course-body">
           <ul class="course-items">
-            <li>Tres Leches Cake
-              <span class="item-desc">Three-milk soak, whipped cream, seasonal fruit</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=120&h=120&fit=crop&q=70" alt="Tres Leches Cake" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Tres Leches Cake</span>
+                <span class="item-desc">Three-milk soak, whipped cream, seasonal fruit</span>
+              </div>
             </li>
-            <li>Churros con Chocolate
-              <span class="item-desc">Cinnamon sugar churros, dark chocolate dipping sauce</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=120&h=120&fit=crop&q=70" alt="Churros con Chocolate" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Churros con Chocolate</span>
+                <span class="item-desc">Cinnamon sugar churros, dark chocolate dipping sauce</span>
+              </div>
             </li>
-            <li>Arroz con Leche
-              <span class="item-desc">Mexican rice pudding, cinnamon, orange zest</span>
+            <li>
+              <img class="item-photo" src="https://images.unsplash.com/photo-1483137140003-ae073b395549?w=120&h=120&fit=crop&q=70" alt="Arroz con Leche" loading="lazy">
+              <div class="item-text">
+                <span class="item-name">Arroz con Leche</span>
+                <span class="item-desc">Mexican rice pudding, cinnamon, orange zest</span>
+              </div>
             </li>
           </ul>
         </div>
