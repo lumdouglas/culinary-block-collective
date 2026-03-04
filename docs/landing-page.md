@@ -2,7 +2,7 @@
 
 > **Source:** `CBC_Landing_Page_SEO.html` (live on Vercel) + `index.html`
 > **Purpose:** This doc captures all live copy for editing, iteration, and A/B testing without touching the HTML directly.
-> **Live URL:** culinaryblock.com
+> **Live URL:** culinaryblockcollective.com
 
 ---
 
@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–300 guests. Specialist independent chefs — sushi, Sichuan, Mexican fusion & more. On-time delivery, $20–$30/person. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
+`Fresh, diverse corporate catering for 50–300 guests. Independent specialist chefs — sushi, Sichuan, Mexican fusion & more. On-time delivery, $20–$30/box. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -44,7 +44,7 @@
 **Subheadline:**
 > CBC brings together the Bay Area's independent chef community — each chef a specialist
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
-> On-time guaranteed or your next order is free. Full dietary labeling. $20–$30/person. 50–300 guests.
+> On-time guaranteed or your next order is free. Full dietary labeling. $20–$30/box. 50–300 guests.
 
 **Primary CTA:** `📞 Call to Book  (408) 555-0192`
 **Secondary CTA:** `💬 Text Us a Menu Request`
@@ -67,11 +67,11 @@
 
 | Chef Card | Description | Price Tag |
 |---|---|---|
-| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Rolls, sashimi, bento boxes, and ramen made with the craft your team will taste the difference in. | $20–$25/person |
-| **Chinese (Sichuan)** | Real Sichuan technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | $20–$24/person |
-| **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Street tacos, elote, rice bowls — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | $20–$23/person |
-| **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | $20–$23/person |
-| **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | $20–$25/person |
+| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Rolls, sashimi, bento boxes, and ramen made with the craft your team will taste the difference in. | $25–$30/box |
+| **Chinese (Sichuan)** | Real Sichuan technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | $20–$25/box |
+| **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Street tacos, elote, rice bowls — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | $20–$25/box |
+| **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | $20–$25/box |
+| **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | $20–$30/box |
 
 ---
 
@@ -83,9 +83,9 @@
 
 | Package | Price | Guests | Key Features |
 |---|---|---|---|
-| **Box Lunch** | $20–$24/person | 50–300 | Custom grain bowls or salads, fresh fruit & dessert, vegan & GF labeled, individual packaging, delivery included |
-| **Buffet Spread** ⭐ Most Popular | $24–$30/person | 50–300 | Hot mains + 3 sides, soup or salad starter, dessert, full dietary labeling, on-site coordinator option, eco-compostable packaging |
-| **Mix & Match** | Custom quote | 150–300 | Choose 2–3 chef cuisines, perfect for diverse teams, live chef station option, branded signage, full white-glove service |
+| **Standard Box** | $20–$25/box | 50+ boxes | Custom grain bowls or salads, fresh fruit & dessert, vegan & GF labeled, individual packaging, delivery included |
+| **Premium Box** ⭐ Most Popular | $25–$30/box | 50+ boxes | Elevated menu, hot mains + sides, full dietary labeling, on-site coordinator option, eco-compostable packaging |
+| **Full-Service Event** | Custom quote | 75+ guests | Choose 2–3 chef cuisines, on-site CBC staff, live chef station option, branded signage, full white-glove service |
 
 ---
 
@@ -125,7 +125,7 @@
 | 🔒 | 90-Day Review Clause | No long-term lock-in pressure. Every recurring program includes a 90-day review so you stay in control. |
 | 💼 | Proposal-Ready | We provide a full program proposal with cost projections and our sustainability credentials — formatted for leadership or procurement review. |
 
-**CTA:** `📋 Request a Program Proposal` → `mailto:hello@culinaryblock.com?subject=Recurring Catering Program Inquiry`
+**CTA:** `📋 Request a Program Proposal` → `mailto:hello@culinaryblockcollective.com?subject=Recurring Catering Program Inquiry`
 
 ---
 
@@ -197,7 +197,7 @@
 **Primary CTA:** `📞 (408) 555-0192`
 **Secondary CTA:** `💬 Text Us Your Order Details`
 **Tertiary CTAs:** `📋 Get a Quick Quote` (email) · `🏢 Request a Program Proposal` (email)
-**Note:** Or email us at hello@culinaryblock.com · We respond within 24 hours, Mon–Fri
+**Note:** Or email us at hello@culinaryblockcollective.com · We respond within 24 hours, Mon–Fri
 
 ---
 
@@ -214,8 +214,8 @@
 | Channel | Details |
 |---|---|
 | Phone / Text | (408) 555-0192 |
-| Email | hello@culinaryblock.com |
-| Website | culinaryblock.com |
+| Email | hello@culinaryblockcollective.com |
+| Website | culinaryblockcollective.com |
 | LinkedIn | linkedin.com/company/culinary-block-collective |
-| Instagram | instagram.com/culinaryblock |
+| Instagram | instagram.com/culinaryblockcollective |
 | Hours | Mon–Fri, 8:00 AM – 6:00 PM |

@@ -677,7 +677,7 @@ function renderPanel(dateKey) {
   const cuisineList = cuisines.map(c => CUISINE_COLORS[c]?.label || c).join(', ');
   const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate}`);
   const emailBody = encodeURIComponent(`Hi!\n\nI'd like to book catering for ${friendlyDate}.\n\nCuisine interest: ${cuisineList || 'TBD'}\nGuest count: \nTier (Box Lunch / Buffet / Mix & Match): \nDietary needs: \n\nLooking forward to hearing from you!`);
-  const bookHref = `mailto:hello@culinaryblock.com?subject=${emailSubject}&body=${emailBody}`;
+  const bookHref = `mailto:hello@culinaryblockcollective.com?subject=${emailSubject}&body=${emailBody}`;
 
   panel.innerHTML = `
     <div class="panel-header">

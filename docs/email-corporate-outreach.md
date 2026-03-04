@@ -69,7 +69,7 @@ Worth a 15-minute call this week? Or text me directly at [phone] — happy to ke
 
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] · hello@culinaryblock.com · culinaryblock.com
+[Phone] · hello@culinaryblockcollective.com · culinaryblockcollective.com
 
 *P.S. — If you're currently locked into another vendor, no problem. Let me know when that contract renews and I'll reach back out closer to that date.*
 
@@ -146,7 +146,7 @@ Either way, happy to keep an intro call to 20 minutes.
 
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] · hello@culinaryblock.com · culinaryblock.com
+[Phone] · hello@culinaryblockcollective.com · culinaryblockcollective.com
 
 *P.S. — If your current vendor is under contract, ask me when it renews. I'll stay warm with relevant content and reach back out 60 days before renewal.*
 
@@ -185,7 +185,7 @@ The full 5-email cold outreach sequence lives in `docs/email-outreach.md`. Here'
 | Email 4 (Day 31) | `docs/email-outreach.md` | Still valid — update prices before sending |
 | Email 5 (Post-event) | `docs/email-outreach.md` | Still valid — no pricing in this one |
 
-> **Also needed:** Email 3 and Email 4 in `email-outreach.md` still reference `$15–$25/person` and `100–300 guests` — update those before the first real send. Email 3 specific menu prices (sushi $22, Mexican $18, American $20, Sichuan $19) are all below the new $20 floor and need correcting.
+> **✅ Pricing updated:** Email 3 and Email 4 in `email-outreach.md` have been updated to $20–$30/box pricing and 50-box minimums. Ready to use.
 
 ---
 

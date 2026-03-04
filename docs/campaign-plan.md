@@ -24,11 +24,11 @@ CBC is launching a 6-month brand awareness and sales growth campaign targeting t
 
 | Cuisine | Specialty | Price Range |
 |---|---|---|
-| Chinese (Sichuan) | Wok dishes, dumplings, stir-fry, noodles | $15–$22/person |
-| Sushi / Japanese | Rolls, sashimi, bento boxes, ramen | $18–$25/person |
-| Mexican Fusion | Tacos, bowls, elote, tamales | $15–$20/person |
-| American | BBQ, sandwiches, comfort classics, pub fare | $15–$20/person |
-| Specialty / Fusion | Dietary-forward, seasonal, global fusion | $18–$25/person |
+| Chinese (Sichuan) | Wok dishes, dumplings, stir-fry, noodles | $20–$25/box |
+| Sushi / Japanese | Rolls, sashimi, bento boxes, ramen | $25–$30/box |
+| Mexican Fusion | Tacos, bowls, elote, tamales | $20–$25/box |
+| American | BBQ, sandwiches, comfort classics, pub fare | $20–$25/box |
+| Specialty / Fusion | Dietary-forward, seasonal, global fusion | $20–$30/box |
 
 All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all cuisines.
 
@@ -43,7 +43,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 | Role | Office Manager / Executive Assistant / HR Coordinator |
 | Company Size | 50–300 employees (tech startups & mid-size firms) |
 | Location | Palo Alto, San Jose, Mountain View, Sunnyvale |
-| Budget | $15–$25/person; typical order $1,500–$7,500 |
+| Budget | $20–$30/box; 50-box minimum; typical order $1,000–$2,500 |
 | Events Booked | Team lunches, client dinners, product launches, all-hands |
 | Pain Points | Late deliveries, dietary errors, generic menus, hidden fees |
 | Priorities | Reliable vendor, dietary customization, sustainability, easy ordering |

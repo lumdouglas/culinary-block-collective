@@ -14,7 +14,7 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 
 **Core promise:** Fresh, dietary-friendly, eco-conscious meals delivered on time — with the culinary diversity a generic caterer can't offer.
 
-**Price point:** $20–$30/person — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster.
+**Price point:** $20–$30/box — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster.
 
 **Revenue target:** Break-even at 9 total orders; ~9% net margin at 6-month run rate (21 orders base scenario).
 
@@ -154,7 +154,7 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 - **Realistic conversion rate:** 2–3% from cold outreach; 20–30% from warm referrals and tasting event attendees
 - **Sales cycle:** 3–6 weeks from first contact to first paid order — pipeline must be built in month 1 for month 2+ revenue
 - **Sales Process:** LinkedIn/cold email → 24-hour quote response → Zoom consultation → custom quote → NPS follow-up → recurring upsell
-- **AOV Target:** ~$1,900 (80 guests × $22/person average + ~$100 in add-ons)
+- **AOV Target:** ~$1,900 (80 boxes × $22/box average + ~$100 in add-ons)
 - **Revenue Goal (6 months):** ~$40K gross across ~21 orders (base scenario — see Financial Projections)
 - **Upsell Path:** Juice/boba bundles, premium packaging, organic tier, Chef's Table upgrade
 
@@ -184,7 +184,7 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 
 | Assumption | Value | Notes |
 |---|---|---|
-| Average per-person price | $22 | Range $20–$30; conservative midpoint for modeling |
+| Average per-box price | $22 | Range $20–$30; conservative midpoint for modeling |
 | Average guest count | 80 | Minimum is 50; recurring clients scale to 100–150 |
 | Base AOV | $1,760 | 80 guests × $22 |
 | Add-ons per order | ~$100 | Juice/boba, premium packaging, etc. |
@@ -238,7 +238,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 
 ### Monthly Revenue Scenarios (At 3-Month Mark)
 
-*Illustrative only — actual CBC net per order depends on per-chef commission rates (TBD) and Tier 1 vs. Tier 2 order mix.*
+*Illustrative only — actual CBC net per order depends on Tier 1 vs. Tier 2 order mix. Commission is confirmed at 25%.*
 
 | Scenario | Orders/Month | Avg CBC Net/Order | Est. Monthly CBC Revenue |
 |---|---|---|---|

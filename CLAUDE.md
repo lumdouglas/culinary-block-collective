@@ -43,8 +43,6 @@ Branded packaging, chafing dishes or insulated trays, serving utensils, printed 
 | Mexican Fusion | $26/head | 100 | $2,600 |
 | Sushi / Japanese | $28/head | 100 | $2,800 |
 
-**CBC service kit cost per order:** ~$300–$375 (branded packaging, chafing dishes, utensils, labeling)
-
 **CBC service kit cost per order:** ~$300–$375 (branded packaging, chafing dishes, utensils, labeling). At 25% commission, monitor whether kit costs erode margin on smaller orders — may need a minimum box count or flat kit fee for very small events.
 
 ---
@@ -159,8 +157,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 ## Known Inconsistencies to Resolve
 
 - **Chef count** varies across docs (5, 6, or 7) — the correct answer is that the roster is dynamic based on commissary tenants. Any doc that states a fixed number needs a disclaimer.
-- **"10% commission" framing** in `CBC_Client_Avatars.md` is misleading — CBC is the operator retaining a negotiated commission, not a sales agent earning 10%. That passage needs reframing.
-- **Commission rate is now set at 25% (CBC) / 75% (chef)** — any docs referencing 20% or "per-chef negotiated" rates are outdated. Update `docs/business-plan.md` and `docs/menu-pricing.md` to reflect 25%. Chef agreements pending — see Pending Actions.
+- **Commission rate is confirmed at 25% (CBC) / 75% (chef)** — standard across all chefs. Chef agreements still pending signature — see Pending Actions.
 - **Two contractor agreement files** exist — the `Independent Contractor Agreement for Catering Services.docx` is the current version (includes tier flexibility); the `Contractor Agreement.docx` is the earlier draft.
 - **`cbc-sales.plugin`** is a Claude Code plugin (ZIP archive) with 6 slash commands: `/daily`, `/pipeline`, `/draft-email`, `/quote`, `/content-week`, `/scorecard`. To activate, extract the `commands/` folder into `.claude/commands/`. See `CBC_Sales/CBC_Cowork_Shortcuts_Setup.md` for full instructions.
 - **Scheduling is not available** — Claude Code has no native task scheduler. All plugin commands must be run manually. Gmail integration is planned but not yet implemented.
@@ -173,8 +170,6 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 2. **Chef profiles** → `docs/chef-profiles.md` — structure exists, needs Doug to fill in names, personalities, stories, and operational details for the 3 active chefs
 3. **Install the sales plugin** — extract `CBC_Sales/cbc-sales.plugin` into `.claude/commands/` to activate the 6 slash commands (see `CBC_Sales/CBC_Cowork_Shortcuts_Setup.md`)
 4. **Define client cancellation policy** — `docs/operations.md` Cancellation table has two `[TBD]` entries (client cancels 5+ days out; client cancels under 5 days); add to contracts when ready
-5. **Reframe "10% commission" passage** in `CBC_Client_Avatars.md` — CBC is the operator retaining 25%, not a sales agent
-6. **Update financial docs** — `docs/business-plan.md` and `docs/menu-pricing.md` still reference 20%; update to 25% once chef agreements are signed
 
 ---
 

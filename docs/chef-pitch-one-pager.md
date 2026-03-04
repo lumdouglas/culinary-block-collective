@@ -116,7 +116,7 @@ Let's talk. Find me in the kitchen or reach out directly:
 
 **Doug**
 Culinary Block LLC
-hello@culinaryblock.com
+hello@culinaryblockcollective.com
 (408) 555-0192
 
 ---

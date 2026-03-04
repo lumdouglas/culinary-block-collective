@@ -17,7 +17,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **Inbound channels:**
 - Phone / Text: (408) 555-0192 ← primary close channel
-- Email: hello@culinaryblock.com
+- Email: hello@culinaryblockcollective.com
 - Website quote form (Squarespace)
 - LinkedIn DM → redirected to phone/email
 
@@ -41,8 +41,8 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **How to build the quote:**
 1. Choose package based on guest count and context:
-   - Box Lunch ($15–$18/pp) — team lunches, onboarding, informal events
-   - Buffet Spread ($20–$25/pp) — all-hands, product launches, client dinners
+   - Standard Box ($20–25/box) — team lunches, onboarding, informal events
+   - Premium Box ($25–30/box) — all-hands, product launches, client dinners
    - Mix & Match — 150+ guests wanting 2+ cuisines (custom pricing)
 2. Apply per-person rate for chosen cuisine (see `docs/menu-pricing.md`)
 3. Add any relevant add-ons
@@ -277,7 +277,7 @@ Every order must meet:
 
 | Role | Contact / Tool |
 |---|---|
-| Client inbound | (408) 555-0192 · hello@culinaryblock.com |
+| Client inbound | (408) 555-0192 · hello@culinaryblockcollective.com |
 | CRM / pipeline | HubSpot (free) — stages: New Lead → Contacted → Quote Sent → Won → Recurring |
 | Quote generation | `/quote` command (cbc-sales plugin) or manual |
 | Delivery | Chef's team (primary) · Doug — coordination oversight + backup delivery at negotiated per-mile rate |

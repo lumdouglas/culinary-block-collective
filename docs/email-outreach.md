@@ -37,7 +37,7 @@ Our kitchen brings together specialized chefs under one roof:
 - American — BBQ, sliders, comfort classics
 - Specialty / Seasonal — dietary-forward, globally inspired menus
 
-We serve 100–300 guests, $15–$25/person, with full dietary labeling (vegan, GF, allergen-free).
+We serve 50–300 guests, $20–$30/box, with full dietary labeling (vegan, GF, allergen-free).
 
 We deliver on time. No hidden fees. No generic menus.
 
@@ -48,7 +48,7 @@ Would a quick 15-minute call this week work for you?
 Warmly,
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] | [Email] | culinaryblock.com
+[Phone] | [Email] | culinaryblockcollective.com
 
 *P.S. — We're offering a free chef tasting (limited to 10 slots this month) for new corporate partners. Book before spots fill: [Tasting Link]*
 
@@ -85,7 +85,7 @@ Is there a better time this week or next to connect?
 Best,
 [Your Name]
 Culinary Block Collective
-[Phone] | culinaryblock.com
+[Phone] | culinaryblockcollective.com
 
 > 💡 **Tip:** If you have a real testimonial or event photo from a recent client, add a brief one-liner reference here for credibility.
 
@@ -106,19 +106,19 @@ Third and final note — I'll keep it short.
 
 Attached are our chef menus for your review. Highlights for corporate catering:
 
-**SUSHI BENTO BOX LUNCH — $22/person**
+**SUSHI BENTO BOX LUNCH — $25–30/box**
 California rolls, edamame, miso soup, sesame salad, fresh fruit
 
-**MEXICAN FUSION TACO BAR — $18/person**
+**MEXICAN FUSION TACO BAR — $20–25/box**
 Chicken tinga, roasted veggie, elote, rice, beans, chips & salsa
 
-**AMERICAN BBQ SPREAD — $20/person**
+**AMERICAN BBQ SPREAD — $20–25/box**
 Smoked brisket, pulled jackfruit, coleslaw, mac & cheese, cornbread
 
-**SICHUAN DIM SUM BUFFET — $19/person**
+**SICHUAN DIM SUM BUFFET — $20–25/box**
 Dumplings, mapo tofu, garlic noodles, spring rolls, steamed veggies
 
-All menus serve 100–300 guests. Mix and match cuisines available.
+50-box minimum per order. Mix and match cuisines available.
 
 For new clients who book before [Date], we're offering **10% off your first order.**
 No catch — just our way of earning your trust.
@@ -127,7 +127,7 @@ Reply here or grab a 15-minute slot: [Calendly Link]
 
 Hope to earn a spot on your vendor list,
 [Your Name]
-Culinary Block Collective | culinaryblock.com
+Culinary Block Collective | culinaryblockcollective.com
 
 > 💡 **Tip:** Attach both the one-pager AND the full chef menu PDF to this email. This is your strongest email — don't skip the attachment.
 
@@ -150,7 +150,7 @@ I'm closing out my outreach to [Company] unless now is actually a better time to
 
 Quick version of who we are:
 - Specialized chefs: sushi, Chinese, Mexican fusion, American, specialty
-- Corporate catering for 100–300 people, $15–$25/person
+- Corporate catering for 50–300 people, $20–$30/box
 - On-time delivery, labeled packaging, transparent pricing
 - Free chef tasting available for corporate accounts (10 slots/month)
 
@@ -163,7 +163,7 @@ Either way, thanks for your time.
 
 [Your Name]
 Culinary Block Collective
-[Phone] | culinaryblock.com
+[Phone] | culinaryblockcollective.com
 
 > 💡 **Tip:** Keep this email short and pressure-free. The goal is a 'yes' or a 'not yet' — both are wins.
 
@@ -202,7 +202,7 @@ I'll send over a simple recurring order proposal if you'd like to explore that. 
 Thanks again, [First Name] — it was a pleasure working with you.
 
 [Your Name]
-Culinary Block Collective | culinaryblock.com
+Culinary Block Collective | culinaryblockcollective.com
 
 > 💡 **Tip:** This email is your best upsell opportunity. If the client responds positively, immediately schedule a call to lock in a recurring contract.
 

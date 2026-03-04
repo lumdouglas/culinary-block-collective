@@ -95,7 +95,7 @@ Lead with pain, not product. Sarah doesn't want to hear about your chef roster �
 
 | Revenue Type | Value |
 |---|---|
-| **Single Event Value** | $1,800–$4,500 (avg 150 guests × $15–$25/person + add-ons) |
+| **Single Event Value** | $1,875–$4,500 (75–150 boxes × $25/box avg + add-ons) |
 | **Annual One-Time Events** | 6–10 events/year = $12K–$40K annually |
 | **Recurring Contract Value** | $3,000–$6,000/month = $36K–$72K/year |
 | **Referral Value** | Sarah knows 3–6 other OMs in the Bay Area — 1 referral = $15K–$40K new revenue |
@@ -199,7 +199,7 @@ Marcus is a thought leader consumer. He reads LinkedIn articles, follows HR infl
 
 | Revenue Type | Value |
 |---|---|
-| **Single Event Value** | $3,000–$7,500 (avg 250 guests × $18–$25/person + premium add-ons) |
+| **Single Event Value** | $3,125–$7,500 (125–250 boxes × $25–$30/box + premium add-ons) |
 | **Weekly Recurring Contract** | $5,000–$12,000/month = $60K–$144K/year |
 | **Quarterly Program Value** | $15K–$35K per quarter including all event types |
 | **Referral Value** | Marcus is plugged into HR networks — 1 referral to a peer at another 200-person tech company = $60K+ annual contract |
@@ -242,4 +242,4 @@ CBC operates as the catering operator, retaining **25% of every order**. Every h
 
 ---
 
-*Culinary Block Collective · culinaryblock.com · hello@culinaryblock.com · (408) 555-0192*
+*Culinary Block Collective · culinaryblockcollective.com · hello@culinaryblockcollective.com · (408) 555-0192*
