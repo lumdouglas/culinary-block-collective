@@ -35,17 +35,50 @@
 
 ### 3. Operations & Legal (Week 1–2)
 
-- [ ] Define cancellation policy: client cancels 5+ business days out → [fill in]
-- [ ] Define cancellation policy: client cancels under 5 business days → [fill in]
+- [ ] Define cancellation policy: client cancels 5+ business days out → full deposit refund minus $150 admin fee
+- [ ] Define cancellation policy: client cancels under 5 business days → deposit non-refundable + ingredient costs if applicable
 - [ ] Add cancellation terms to client-facing contracts/quotes
-- [ ] Set up payment processing (Stripe, Square, or similar)
-- [ ] Update `docs/operations.md` with accepted payment methods
-- [ ] Create a standard client service agreement / terms of service
-- [ ] Confirm general liability insurance covers CBC catering events
+- [ ] Set up payment processing (Stripe recommended — supports invoicing, ACH, and card payments)
+- [ ] Update `docs/operations.md` with accepted payment methods ✅ Done
+- [ ] Create a standard client service agreement / terms of service (include: pricing, payment terms Net 15, deposit 50% at booking, cancellation, liability, dispute resolution)
 - [ ] Confirm food handler certifications are current for all chefs
 - [ ] Set up a dedicated CBC business email (e.g., orders@culinaryblockcollective.com)
 - [ ] Set up a business phone number or confirm the (408) 555-0192 line is active and goes to voicemail after hours
 - [ ] Build a quote/invoice template (PDF) with CBC branding, payment terms, cancellation policy
+- [ ] Create a client welcome email template (sent after booking confirmation with event details, what to expect, cancellation policy link)
+- [ ] Define late payment escalation process (Day 16 reminder → Day 22 second notice → Day 30 account hold → Day 45 collections)
+- [ ] Create a 3-question post-event feedback survey (food quality 1–5, delivery on time Y/N, what to change)
+- [ ] Define refund policy for quality complaints, labeling errors, and late delivery
+- [ ] Create an allergen/food safety incident protocol (response within 1 hour, insurer notified within 4 hours, written report within 24 hours)
+
+### 3a. Liability Insurance (Week 1 — CRITICAL)
+
+- [ ] Contact Culinary Block LLC's current insurer — ask whether existing CGL policy covers CBC's off-site catering operations
+- [ ] If not covered: get a quote for a separate Commercial General Liability (CGL) policy — $1M per occurrence / $2M aggregate
+- [ ] Get a quote for Product Liability coverage — $1M per occurrence (foodborne illness, allergic reaction, contamination)
+- [ ] If Doug delivers using a personal vehicle: add Hired & Non-Owned Auto rider — $1M combined single limit
+- [ ] Confirm Workers' Compensation coverage for any W-2 employees (Tier 2 on-site staff) — required by California law
+- [ ] Obtain a Certificate of Insurance (COI) for CBC — many corporate clients require this before booking
+- [ ] Set up a process to issue event-specific COIs on request (client named as additional insured)
+- [ ] Collect each chef's insurance certificate at onboarding — verify $1M product liability + $1M general liability
+- [ ] File chef insurance certificates in `CBC_Sales/07_Templates/Chef_Insurance/`
+- [ ] Set a calendar reminder to re-verify all insurance (CBC + chefs) annually
+
+### 3b. Bank Account & Payment Setup (Week 1)
+
+- [ ] Open a dedicated business checking account for CBC (separate from Culinary Block LLC and personal accounts)
+- [ ] Choose a bank that integrates with your bookkeeping tool (Chase or Wells Fargo for QuickBooks; most major banks for Wave)
+- [ ] Set up online banking and bill pay for chef payouts and vendor payments
+- [ ] Order business checks with CBC branding (backup method for chef payouts)
+- [ ] Set up a savings sub-account or reserve fund — target $2,000–$3,000 (1 month of operating expenses)
+- [ ] Create a Stripe account linked to the CBC business checking account
+- [ ] Enable Stripe Invoicing (branded invoices with "Pay Now" button — ACH or card)
+- [ ] Configure Stripe automatic payment reminders (Day 1, Day 8, Day 15)
+- [ ] Test the full payment flow: send a test invoice → pay it → confirm funds land in CBC checking
+- [ ] Collect each chef's banking details at onboarding (routing + account number for ACH payouts) — store securely
+- [ ] Choose a bookkeeping tool: QuickBooks Self-Employed ($15/mo) or Wave (free)
+- [ ] Set up chart of accounts: Revenue, COGS (chef payouts, packaging), Operating Expenses (tech, ads, insurance), Labor (Tier 2 staff)
+- [ ] Create a payout tracking system: Date, Chef, Event, Gross Revenue, Chef 75%, CBC 25%, Kit Cost, Net Margin
 
 ### 4. Website & Digital Presence (Week 2)
 
@@ -85,12 +118,14 @@
 
 ### 7. Financial & Administrative (Week 1)
 
-- [ ] Open a separate bank account for CBC (or confirm one exists)
-- [ ] Set up basic bookkeeping (QuickBooks, Wave, or spreadsheet) to track orders, commissions, expenses
-- [ ] Define the invoicing workflow: when invoices go out, payment terms (Net 15? Net 30?)
+- [ ] *(Bank account and bookkeeping setup — see Section 3b above)*
+- [ ] Define the invoicing workflow: invoice within 24 hours of event, payment terms Net 15, 50% deposit at booking
 - [ ] Calculate CBC service kit cost per order (~$300–375) and confirm margin at various order sizes
-- [ ] Determine minimum order threshold where CBC is profitable after kit costs
+- [ ] Determine minimum order threshold where CBC is profitable after kit costs (model: $475 commission per avg order minus ~$337 kit cost = ~$138 net on smallest orders — tight)
 - [ ] Set a monthly operating budget for the first 3 months (campaign plan says $1,400–$2,000 over 6 months)
+- [ ] Budget for insurance premiums — estimate $1,500–$3,000/year for CGL + product liability (get actual quotes in Week 1)
+- [ ] Plan for 1099-NEC issuance to chefs by January 31 of following year — set up tracking from event #1
+- [ ] Set aside 25–30% of CBC net profit for estimated quarterly taxes (federal + California)
 
 ### 8. Staffing & Logistics (Week 2–3)
 
@@ -118,31 +153,45 @@
 
 ### WEEK 1: Chef Alignment & Foundation (March 11–14)
 
-**Wednesday, March 11 — Chef Outreach + Financial Setup**
+**Wednesday, March 11 — Chef Outreach + Financial & Insurance Foundation**
 - [ ] Call/text all 3 chefs to schedule sit-down meetings this week
 - [ ] Draft a 1-page summary of the CBC model to share with chefs before the meeting (commission, pricing, what CBC handles, what chefs handle)
-- [ ] Confirm CBC bank account status — open one if needed
-- [ ] Review and finalize the Independent Contractor Agreement (ensure it reflects current pricing tiers)
-- [ ] Set up basic bookkeeping tracker (even a Google Sheet: Date, Client, Chef, Boxes, Revenue, Chef Payout, CBC Commission)
+- [ ] **BANK:** Open a dedicated CBC business checking account (or confirm one exists and is separate from Culinary Block LLC)
+- [ ] **BANK:** Set up online banking and bill pay on the new account
+- [ ] **INSURANCE:** Call Culinary Block LLC's current insurer — ask: "Does our existing CGL policy cover off-site corporate catering operations under the CBC brand, or do we need a separate policy/rider?"
+- [ ] **INSURANCE:** Request quotes for: CGL ($1M/$2M), Product Liability ($1M), Hired & Non-Owned Auto ($1M if Doug delivers with personal vehicle)
+- [ ] Review and finalize the Independent Contractor Agreement (ensure it reflects current pricing tiers, 50% deposit requirement, cancellation policy)
+- [ ] Set up basic bookkeeping tracker (even a Google Sheet: Date, Client, Chef, Boxes, Revenue, Chef Payout, CBC Commission, Kit Cost, Net Margin)
 
-**Thursday, March 12 — Chef Meeting #1 + Operations**
+**Thursday, March 12 — Chef Meeting #1 + Payment Systems**
 - [ ] Meet with Chef #1: present model, get feedback, discuss menu and pricing
-- [ ] Define cancellation policy terms (5+ days and under 5 days) — write them down
-- [ ] Research and select payment processor (Stripe recommended for invoicing)
+- [ ] **Collect Chef #1's insurance certificate** — verify $1M product liability + $1M general liability, confirm it covers off-site catering
+- [ ] **Collect Chef #1's banking details** for ACH payouts (routing + account number)
+- [ ] Define cancellation policy terms (5+ days and under 5 days) — finalized in `docs/operations.md`
+- [ ] **BANK:** Create a Stripe account linked to CBC checking account
+- [ ] **BANK:** Enable Stripe Invoicing — test with a sample invoice
 - [ ] Begin filling in `docs/chef-profiles.md` with Chef #1's details
 
-**Friday, March 13 — Chef Meeting #2 + Legal**
+**Friday, March 13 — Chef Meeting #2 + Insurance Finalization**
 - [ ] Meet with Chef #2: present model, get feedback, discuss menu and pricing
-- [ ] Set up Stripe (or chosen processor) account for CBC
-- [ ] Update `docs/operations.md` with cancellation policy and payment methods
+- [ ] **Collect Chef #2's insurance certificate** — verify coverage
+- [ ] **Collect Chef #2's banking details** for ACH payouts
+- [ ] **INSURANCE:** Review quotes received — select and bind CGL + Product Liability policies (target: policies active before first event)
+- [ ] **INSURANCE:** Obtain CBC Certificate of Insurance (COI) — you'll need this for corporate client quotes
+- [ ] Configure Stripe automatic payment reminders (Day 1, Day 8, Day 15)
+- [ ] Update `docs/operations.md` with cancellation policy and payment methods ✅ Already done
 - [ ] Fill in `docs/chef-profiles.md` with Chef #2's details
-- [ ] Confirm insurance coverage for catering events
 
-**Saturday, March 14 — Chef Meeting #3 + Admin**
+**Saturday, March 14 — Chef Meeting #3 + Admin Close-Out**
 - [ ] Meet with Chef #3: present model, get feedback, discuss menu and pricing
-- [ ] Fill in `docs/chef-profiles.md` with Chef #3's details
+- [ ] **Collect Chef #3's insurance certificate** — verify coverage
+- [ ] **Collect Chef #3's banking details** for ACH payouts
 - [ ] Collect W-9s and signed contracts from any chefs ready to sign
+- [ ] File all chef insurance certificates in `CBC_Sales/07_Templates/Chef_Insurance/`
 - [ ] Set up dedicated CBC email address if not done
+- [ ] **BANK:** Test full payment flow end-to-end: create test invoice in Stripe → pay it → confirm funds land in CBC checking
+- [ ] Choose bookkeeping tool (QuickBooks Self-Employed $15/mo or Wave free) and set up chart of accounts
+- [ ] Set a calendar reminder to re-verify all insurance (CBC + chefs) annually
 
 ---
 
@@ -294,8 +343,87 @@
 | First event goes poorly | That's what the dry run is for. Document and fix before real clients. |
 | Packaging costs eat margin | Monitor per-event kit cost (~$300–375). Consider flat kit fee or minimum box count for small orders. |
 | Chef can't handle volume | Stagger bookings across chefs. Never book a chef beyond their stated capacity. |
-| Client cancels last minute | Cancellation policy (defined in Week 1) protects CBC and chef. Enforce it. |
+| Client cancels last minute | 50% deposit at booking + cancellation policy protects CBC and chef. Enforce it. |
+| **No insurance in place at launch** | **BLOCKER.** Do not accept bookings without active CGL + product liability. One allergic reaction claim without coverage could end the business. |
+| **Client doesn't pay (Net 15)** | 50% deposit collected upfront limits exposure. Late payment escalation: reminder Day 16, second notice Day 22, account hold Day 30, collections Day 45. |
+| **Chef's insurance lapses** | Verify at onboarding + annual re-check. No CBC events without valid chef insurance. |
+| **Allergic reaction or foodborne illness** | Insurance + incident protocol (see `docs/operations.md`). Individual dietary labeling on every item is the #1 prevention. |
+| **Bank account not separated** | Commingling CBC revenue with personal or LLC funds creates tax and liability exposure. Open dedicated account in Week 1. |
 
 ---
 
-*This checklist was generated on March 11, 2026. Update it weekly as tasks are completed and new items emerge.*
+## End-to-End Order Lifecycle — Gap Analysis
+
+> Summary of 14 gaps found in the original `docs/operations.md` and fixes applied. Reference this when reviewing operational readiness.
+
+### Gaps Found & Fixed (updated in `docs/operations.md`)
+
+| # | Gap | Risk | Fix Applied |
+|---|---|---|---|
+| 1 | **No deposit required at booking** | Client no-shows cost chef ingredient money and CBC coordination time | Added 50% deposit at booking confirmation (Stage 3) |
+| 2 | **Payment methods listed as [TBD]** | Can't invoice clients without a payment method | Specified ACH, credit card (Stripe), check, wire transfer |
+| 3 | **No late payment policy** | Clients pay whenever they want — cash flow risk | Added escalation: Day 16 reminder → Day 22 notice → Day 30 hold → Day 45 collections |
+| 4 | **No financial reconciliation step** | CBC doesn't know actual margin per event | Added post-event reconciliation: actual vs. quoted guest count, kit cost, margin calculation |
+| 5 | **Cancellation policy had two [TBD] entries** | No protection if client cancels | Filled in: 5+ days = refund minus $150 fee; under 5 days = deposit non-refundable |
+| 6 | **No client welcome email after booking** | Client doesn't know what to expect on delivery day | Added welcome email step to Stage 3 with event details, what to expect, cancellation link |
+| 7 | **No dispute resolution process** | Complaints escalate with no playbook | Added 3-tier escalation (Low/Medium/High) with response times and resolution actions |
+| 8 | **No refund policy** | Every complaint is ad-hoc — inconsistent treatment | Added refund table: late delivery, wrong cuisine, quality issues, labeling errors |
+| 9 | **No allergen/food safety incident protocol** | Allergic reaction with no response plan = lawsuit risk | Added 5-step protocol: immediate response → chef investigation → insurer notification → incident report → corrective action |
+| 10 | **No structured feedback collection** | Post-event follow-up is informal — no data to improve | Added 3-question client survey, internal debrief checklist, chef feedback cadence |
+| 11 | **No feedback-to-action cycle** | Feedback collected but not acted on systematically | Added signal → action → timeline mapping for every feedback type |
+| 12 | **Website listed as Squarespace but runs on Vercel** | Inconsistency confuses ops team | Fixed reference to Vercel in Stage 1 |
+| 13 | **No insurance detail beyond "carry $1M"** | No guidance on policy types, where to get them, how to verify chefs | Added full Insurance Requirements section with CBC policies, chef verification, and COI process |
+| 14 | **No bank account or payment processing setup guide** | Money flows with no infrastructure | Added Bank Account & Payment Setup section with Stripe setup, chef payout process, bookkeeping |
+
+### The Complete Money Flow (Client → CBC → Chef)
+
+```
+CLIENT BOOKS EVENT
+    │
+    ├─→ 50% deposit collected at booking (Stripe invoice or ACH)
+    │   └─→ Funds land in CBC business checking account
+    │
+    ├─→ Event is executed (chef preps → CBC stages → delivery)
+    │
+    ├─→ CBC sends final invoice within 24 hours of event
+    │   └─→ Balance = quoted total − deposit already paid
+    │
+    ├─→ Client pays remaining 50% (Net 15 terms)
+    │   └─→ If late: Day 16 reminder → Day 22 second notice → Day 30 account hold
+    │
+    ├─→ CBC reconciles: actual guest count vs. quote, actual kit cost, actual margin
+    │
+    ├─→ CBC calculates chef payout: (order revenue after discounts) × 75%
+    │
+    ├─→ CBC pays chef (Net 30 from service date, or within 5 days of receiving full client payment — whichever is later)
+    │   └─→ ACH direct deposit + remittance summary
+    │
+    └─→ CBC retains 25% commission − kit cost − any Tier 2 staff cost = NET MARGIN
+        └─→ Log in bookkeeping tool, flag if margin < 15%
+```
+
+### The Complete Feedback Flow (Event → Improvement)
+
+```
+EVENT DELIVERED
+    │
+    ├─→ Within 48 hours: Send 3-question client feedback survey
+    │   ├─→ Score 4–5: Request Google review + testimonial + pitch recurring
+    │   └─→ Score 1–3: Call client, investigate with chef, offer credit, log corrective action
+    │
+    ├─→ Within 48 hours: Doug completes internal debrief checklist
+    │   └─→ On-time? Box count accurate? Labeling issues? Kit cost? Lessons learned?
+    │
+    ├─→ After first 3 events per chef, then monthly: Chef feedback check-in
+    │   └─→ "How did prep go? Anything we can improve?"
+    │
+    └─→ First Friday of each month: Monthly operational review
+        ├─→ Average satisfaction score
+        ├─→ Average margin per event
+        ├─→ Top 3 improvements for next month
+        └─→ Chef performance review (on-time rate, labeling, client feedback)
+```
+
+---
+
+*This checklist was generated on March 11, 2026, and updated with insurance, bank account, payment lifecycle, and end-to-end order audit on the same date. Update weekly as tasks are completed.*
