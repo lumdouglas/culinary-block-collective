@@ -26,6 +26,7 @@
 | **Min Order** | [e.g., 50 boxes] |
 | **Max Capacity** | [e.g., 200 guests comfortably] |
 | **Time at Commissary** | [How long have they been a Culinary Block tenant?] |
+| **Tasting Availability** | [e.g., Available second Tuesday of each month / Prefers Wednesday mornings / Needs 10-day notice] |
 
 ### Personality & Communication Style
 - **Overall vibe:** [e.g., Quiet and precise / Energetic and expressive / Business-minded / Artistic]
@@ -68,6 +69,7 @@
 | **Min Order** | [e.g., 50 boxes] |
 | **Max Capacity** | [e.g., 150 guests] |
 | **Time at Commissary** | [Duration] |
+| **Tasting Availability** | [e.g., Available second Tuesday of each month / Prefers Wednesday mornings / Needs 10-day notice] |
 
 ### Personality & Communication Style
 - **Overall vibe:** [e.g., Outgoing and entrepreneurial / Reserved and technical / Warm and family-oriented]
@@ -104,6 +106,7 @@
 | **Min Order** | [e.g., 50 boxes] |
 | **Max Capacity** | [e.g., 300 guests] |
 | **Time at Commissary** | [Duration] |
+| **Tasting Availability** | [e.g., Available second Tuesday of each month / Prefers Wednesday mornings / Needs 10-day notice] |
 
 ### Personality & Communication Style
 - **Overall vibe:** [e.g., Highly professional and systems-oriented / Creative and spontaneous / Community-focused]

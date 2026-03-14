@@ -5,10 +5,71 @@
 
 ---
 
+## Tasting Program
+
+> **Purpose:** Convert interested prospects into paying clients by letting them experience the food before committing. This is CBC's primary customer acquisition tool — not a nice-to-have.
+
+### How It Works
+
+A free tasting is offered to qualified corporate prospects (10–12 people, 2 cuisines of their choice, fully dietary-labeled, delivered to their office). Other caterers charge $300–500 for tastings. CBC's is free. The tasting eliminates the biggest buyer hesitations — food quality, dietary accuracy, professionalism — in a single event.
+
+**CBC's cost per tasting:** ~$60–100 in food/ingredient cost. Treated as a marketing expense — not recouped from the chef or from future commissions.
+
+### Scheduling
+
+- **Frequency:** One fixed tasting date per month to start. Add a second date only once tastings are being booked consistently (Month 2–3).
+- **Day:** Second Tuesday of each month (or a fixed date Doug sets at the start of each month). Communicate dates to chefs at the start of each month.
+- **Cuisine assignment:** Match the tasting chef to the prospect's expressed interest (e.g., if they opened the sushi email, assign the Japanese chef). Don't default to the same chef every time — rotate fairly.
+- **Lead time:** Confirm the tasting with the chef at least 7 days in advance.
+
+### Cost & Compensation Structure
+
+| Item | Who Bears It | Notes |
+|---|---|---|
+| Food/ingredient cost | **CBC pays** | Doug reimburses the chef directly for ingredients — not deducted from future commissions |
+| Chef prep time (approx. 1–2 hrs) | **Chef absorbs** | Framed as investment in winning a recurring account |
+| Delivery/logistics | **Doug handles** | Consistent with Doug's operational role on all orders |
+
+**Do not recoup the food cost from future commissions.** That creates a running tab and unnecessary friction before the relationship is established. The $60–100 is a straight marketing expense.
+
+### How to Present the Tasting to a Chef
+
+Present this as part of the original commission agreement conversation — not as a separate ask after the fact.
+
+> *"Here's how I generate your orders. When I have a company that's seriously interested but hasn't committed yet, I offer them a free tasting — 10–12 boxes, 2 cuisines, fully labeled. I cover the ingredient cost, you cook on a date we agree on in advance, and I handle all delivery and logistics. These tastings are how we land recurring accounts. Your time investment is roughly 2 hours once a month. The upside is a client ordering from you weekly or monthly."*
+
+**Likely questions and how to answer them:**
+
+| Their Question | Your Answer |
+|---|---|
+| "Who buys the ingredients?" | "I do — you cook, I cover the food cost." |
+| "What if they don't convert?" | "That's my risk. You still got the exposure and owe me nothing." |
+| "How often will you ask me to do this?" | "Once a month, on a day we set in advance. Never a surprise ask." |
+| "What's in it for me if it converts?" | Show them the math: 100 guests × $22/head × 75% = $1,650 per order to them. Weekly = $85,800/year. |
+
+### Chef's Responsibilities at a Tasting
+
+- Cook 10–12 boxes of their standard menu at their normal quality standard
+- Follow CBC's labeling and packaging standards (same as a paid order)
+- Hand off food at the commissary at the agreed time — Doug handles delivery from there
+- No client-facing contact required unless Doug arranges an introduction
+
+### After the Tasting
+
+- If the prospect wants to move forward: enter normal order lifecycle (Stage 1 → Booking)
+- If they're not ready: Doug follows up — chef has no further involvement
+- If they convert to recurring: notify the chef and confirm standing order cadence
+
+### Tasting Log
+
+Track every tasting in HubSpot as a separate deal with stage: **Tasting Scheduled / Tasting Completed / Converted / Not Converted.** Over time this tells you conversion rate per cuisine, per chef, and per prospect type — useful for deciding when to invest in more tastings.
+
+---
+
 ## The Full Order Lifecycle
 
 ```
-Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → Delivery → Post-Event → Payment
+[Tasting (optional)] → Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → Delivery → Post-Event → Payment
 ```
 
 ---
