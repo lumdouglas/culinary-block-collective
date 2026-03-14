@@ -13,46 +13,47 @@
 4. Attach the Culinary Block one-pager PDF to **Email 1** and **Email 3**
 5. If a prospect replies at any point — move them to the Quote Process immediately
 
+**Sequence strategy (Hormozi-informed):** A new corporate buyer must clear 6–7 belief hurdles before spending a dollar with an unknown caterer. This sequence is structured to collapse those hurdles one at a time — not to close in one move. Email 1 leads with proof-by-experience (tasting), Email 2 addresses the two biggest operational fears (reliability + dietary accuracy), Email 3 uses damaging admissions to build trust, and Email 4 gives a clean exit or re-entry. Don't rush straight to the close.
+
+**The free tasting is the primary CTA — not the discount.** Experiencing the food directly eliminates more belief hurdles in 30 minutes than any sequence of emails. Lead with it.
+
 ---
 
-## Email 1: The Chef Lineup Intro
+## Email 1: The Free Tasting Lead
 *Send: Day 1*
 
 **To:** [First Name] [Last Name], [Office Manager / HR Lead] at [Company]
 
-**Subject:** Your team deserves more than just pizza — [Company] catering, upgraded
+**Subject:** Free team lunch for [Company] — no commitment
 
 ---
 
 Hi [First Name],
 
-I'm [Your Name] from Culinary Block Collective — a multi-chef catering kitchen based in San Jose.
+I run Culinary Block Collective — a multi-chef catering kitchen in San Jose that works with Bay Area tech teams.
 
-Most corporate caterers in the Bay Area offer the same rotation of sandwiches and pizza. We do things differently.
+Most caterers expect you to commit before you've tasted anything. We do the opposite.
 
-Our kitchen brings together specialized chefs under one roof:
+**We're offering a free team tasting for [Company] — 10–12 people, two cuisines of your choice, fully labeled for dietary needs, delivered to your office.** Other caterers charge $300–500 for tastings. Ours is free because we'd rather let the food do the talking.
+
+Our chef roster covers:
 - Sushi & Japanese — rolls, bento boxes, ramen
 - Chinese (Sichuan) — wok dishes, dumplings, noodles
 - Mexican Fusion — street tacos, elote, rice bowls
 - American — BBQ, sliders, comfort classics
-- Specialty / Seasonal — dietary-forward, globally inspired menus
 
-We serve 50–300 guests, $20–$30/box, with full dietary labeling (vegan, GF, allergen-free).
+We serve 50–300 guests, $20–$30/box, with full dietary labeling (vegan, GF, allergen-free). Delivery on time. No hidden fees.
 
-We deliver on time. No hidden fees. No generic menus.
+I have [2–3] tasting slots open in the next few weeks. Want me to hold one for [Company]?
 
-I'd love to send over our chef menus and chat about [Company]'s next team lunch or event.
-
-Would a quick 15-minute call this week work for you?
-
-Warmly,
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] | [Email] | culinaryblockcollective.com
+[Phone] | culinaryblockcollective.com
 
-*P.S. — We're offering a free chef tasting (limited to 10 slots this month) for new corporate partners. Book before spots fill: [Tasting Link]*
-
-> 💡 **Tip:** Attach the Culinary Block one-pager PDF to this email for a strong first impression.
+> 💡 **Tips:**
+> - Set real tasting dates before sending — "I have slots on [Date 1] and [Date 2]" converts better than "limited slots available"
+> - Attach the one-pager PDF
+> - If a prospect replies asking for menus instead of booking the tasting, send menus AND offer the tasting again — don't let them skip the experience step
 
 ---
 
@@ -91,20 +92,24 @@ Culinary Block Collective
 
 ---
 
-## Email 3: The Menu Drop + Offer
+## Email 3: The Honest Menu Drop
 *Send: Day 10 (if no reply)*
 
 **To:** [Same contact]
 
-**Subject:** Menus + 10% off your first order — [Company]
+**Subject:** One honest note + menus — [Company]
 
 ---
 
 Hi [First Name],
 
-Third and final note — I'll keep it short.
+Last note — I'll be straight with you.
 
-Attached are our chef menus for your review. Highlights for corporate catering:
+We're not the biggest catering company in the Bay Area. We work with a small number of clients at a time. We don't have hundreds of five-star reviews yet.
+
+But here's what that means for you: when you call, you reach me directly. If something's off with an order, it gets fixed same-day — not routed through a ticket system. And our chefs are independent operators from a real commissary kitchen, not a catering line — there's a difference in the food.
+
+Attached are our menus. The most popular options for corporate catering:
 
 **SUSHI BENTO BOX LUNCH — $25–30/box**
 California rolls, edamame, miso soup, sesame salad, fresh fruit
@@ -118,18 +123,17 @@ Smoked brisket, pulled jackfruit, coleslaw, mac & cheese, cornbread
 **SICHUAN DIM SUM BUFFET — $20–25/box**
 Dumplings, mapo tofu, garlic noodles, spring rolls, steamed veggies
 
-50-box minimum per order. Mix and match cuisines available.
+50-box minimum. Mix and match cuisines available. Full dietary labeling on every box.
 
-For new clients who book before [Date], we're offering **10% off your first order.**
-No catch — just our way of earning your trust.
+The free tasting offer from my first email is still open if you want to experience it before committing. Otherwise, happy to send a custom quote for your next event.
 
-Reply here or grab a 15-minute slot: [Calendly Link]
-
-Hope to earn a spot on your vendor list,
 [Your Name]
-Culinary Block Collective | culinaryblockcollective.com
+Culinary Block Collective | culinaryblockcollective.com | [Phone]
 
-> 💡 **Tip:** Attach both the one-pager AND the full chef menu PDF to this email. This is your strongest email — don't skip the attachment.
+> 💡 **Tips:**
+> - The damaging admission ("We're not the biggest...") builds trust because you're saying it before they think it. Don't remove it — it's doing work.
+> - Attach both the one-pager AND the full chef menu PDF
+> - Keep the 10% discount in reserve — if they're warm but hesitating on price, offer it on the follow-up call rather than in the email. Scarcity and personal delivery of a discount converts better than a mass email offer.
 
 ---
 
@@ -210,10 +214,10 @@ Culinary Block Collective | culinaryblockcollective.com
 
 ## Sequence Summary
 
-| Email | Timing | Goal | Attachment |
-|---|---|---|---|
-| Email 1 — Chef Lineup Intro | Day 1 | Generate a reply / call | One-pager PDF |
-| Email 2 — Value Follow-Up | Day 4 (no reply) | Overcome dietary/reliability hesitation | None |
-| Email 3 — Menu Drop + Offer | Day 10 (no reply) | Trigger response with real menu + 10% discount | One-pager + Menu PDF |
-| Email 4 — Re-Engagement | Day 31 (no reply) | Get a yes or a "not now" | None |
-| Email 5 — Post-Event Upsell | 2 days after delivery | Get review + upsell recurring | None |
+| Email | Timing | Goal | Belief Hurdle Addressed | Attachment |
+|---|---|---|---|---|
+| Email 1 — Free Tasting Lead | Day 1 | Book a tasting (primary) or generate a reply | Food quality, dietary accuracy, professionalism — all resolved in one event | One-pager PDF |
+| Email 2 — Value Follow-Up | Day 4 (no reply) | Overcome reliability and dietary hesitation | Delivery timing, labeling accuracy, personal contact | None |
+| Email 3 — Honest Menu Drop | Day 10 (no reply) | Build trust via damaging admissions + menu evidence | Brand newness, unknown track record | One-pager + Menu PDF |
+| Email 4 — Re-Engagement | Day 31 (no reply) | Get a yes or a "not now" | — | None |
+| Email 5 — Post-Event Upsell | 2 days after delivery | Get review + upsell recurring | — | None |
