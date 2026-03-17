@@ -247,6 +247,40 @@ If Doug delivers on behalf of or in support of the chef's team, a per-mile deliv
 
 ---
 
+## Tasting Package Workflow
+
+> **Purpose:** The tasting package is a distinct product from a full catering order. It has its own booking flow, prep, and follow-up cadence. Always available to book on the website; fulfillment happens on scheduled days only.
+
+### Booking
+1. Client books via the website tasting calendar (specific days only — not open-ended)
+2. Log in HubSpot immediately — stage: **Tasting Booked**
+3. Confirm delivery address, time window, and on-site contact name + phone
+4. Charge tasting fee at booking (if applicable — see `docs/menu-pricing.md` for confirmed price)
+
+### Prep (Day Before)
+- [ ] Confirm which 2–3 cuisines are featured (coordinate with available chefs for that day)
+- [ ] Chef prepares 3–4 dishes per cuisine, 2–4 portions each — at-cost basis
+- [ ] Package in CBC standard compostable containers
+- [ ] Label every item individually (dietary labels — same standard as full orders)
+- [ ] Assemble printed menu card + "how to order" insert
+- [ ] Apply CBC branded sticker to box lid — use tamper-evident placement if box form factor supports it
+
+### Delivery
+- Delivered by Doug or chef's team within the confirmed time window
+- Delivery zone: South Bay / Peninsula (same as full orders)
+- Treat it like a real order — on-time, professional, no exceptions
+
+### Follow-Up (Critical — within 24 hours)
+1. Text or email the client: *"Hope you and the team enjoyed the tasting — what did you think?"*
+2. If positive: move directly to quote conversation — *"Ready to bring this to your whole team? I can have a quote to you today."*
+3. If no response within 48 hours: follow up once more — *"Just checking in on the tasting — happy to answer questions or put together a custom menu."*
+4. Apply tasting fee as credit on first full order invoice
+5. Move HubSpot stage: **Tasting Delivered** → **Quote Sent** (if they engage) or **Nurture** (if not yet ready)
+
+> **⚠️ The 72-hour post-tasting window is the highest-conversion moment in the sales funnel. A slow follow-up kills the conversion.** Do not wait more than 24 hours to reach out.
+
+---
+
 ## Cancellation & Change Policy
 
 | Scenario | Policy |

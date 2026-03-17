@@ -142,7 +142,7 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 
 | Offer | Details | Scarcity Driver |
 |---|---|---|
-| 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by June 30, 2025 |
+| 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by September 30, 2026 |
 | Free Chef Tasting | In-person at Culinary Block, up to 4 guests | 10 slots/month |
 | Recurring Account Bonus | 5% monthly discount for weekly/bi-weekly contracts | 3-month minimum |
 

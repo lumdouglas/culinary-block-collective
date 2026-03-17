@@ -160,7 +160,7 @@
 ## Promotions Banner
 
 **H2:** Limited-Time Offers for New Corporate Accounts
-**Subhead:** Limited to 10 new corporate accounts per quarter — only 3 slots remaining. Lock in these perks before they're gone.
+**Subhead:** We're selectively onboarding new corporate partners this quarter — capacity is limited. Lock in these perks before they're gone.
 
 | Offer | Description |
 |---|---|

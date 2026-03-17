@@ -77,7 +77,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 
 ### 3.3 Local Networking & Events
 - Attend 2 Bay Area tech networking events/month — bring branded tasting cards
-- Host a free tasting event at Culinary Block (invite 20 office managers, cap at 25 for scarcity)
+- Offer tasting package drop-offs to targeted Office Managers — delivered to their office on scheduled days, applied as credit toward first full order (replaces in-person tasting event concept)
 - Flyers at shared office parks, WeWork, and startup hubs in SJ/Palo Alto
 - Partner with 1 co-working space to cater a free "community lunch" for PR & word-of-mouth
 
@@ -88,7 +88,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 | Week 1 | LinkedIn + IG | Launch post: "Meet Our Chefs" intro carousel | Awareness & follows |
 | Week 2 | Instagram | Reel: Sushi chef rolling — "Your next team lunch" | Engagement & reach |
 | Week 3 | LinkedIn | Outreach campaign: 50 personalized DMs to Office Managers | Lead gen (5–10 replies) |
-| Week 4 | Email + IG | Email blast to collected contacts + IG promo for free tasting | List building + bookings |
+| Week 4 | Email + IG | Email blast to collected contacts + IG promo for tasting package | List building + bookings |
 
 *Use `/content-week` in the cbc-sales plugin to generate each week's posts automatically.*
 
@@ -99,7 +99,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 ### 4.1 Lead Generation Channels
 - **LinkedIn Sales Navigator:** Target 200 Bay Area tech firms/month; connect with 50 decision-makers/week
 - **Website Quote Form:** SEO-optimized landing page with instant quote tool
-- **Mailchimp Email Campaigns:** Build list via free tasting sign-ups and LinkedIn; target 500 contacts by month 3
+- **Mailchimp Email Campaigns:** Build list via tasting package bookings and LinkedIn; target 500 contacts by month 3
 - **Referral Program:** 10% credit for any client who refers a paying customer
 - **Google Business Profile:** Optimize with photos, menus, and review requests post-event
 
@@ -118,8 +118,8 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 
 | Offer | Details | Scarcity Driver |
 |---|---|---|
-| 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by June 30, 2025 |
-| Free Chef Tasting | In-person at Culinary Block for up to 4 guests | 10 slots/month |
+| 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by September 30, 2026 |
+| Tasting Package Drop-Off | 2–3 cuisines delivered to client's office; fee applied as credit toward first full order | Scheduled days only — limited slots |
 | Recurring Account Bonus | 5% monthly discount for weekly/bi-weekly contracts | 3-month minimum |
 
 ### 4.4 Upselling

@@ -69,6 +69,31 @@ San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles o
 
 ---
 
+## Tasting Package — "Meet the Chefs"
+
+> **Availability:** Always bookable on the CBC website. Available on specific scheduled days only — see site calendar for open dates. Designed to let corporate buyers try the food before committing to a full order.
+
+A drop-off sampler delivered directly to the client's office. Showcases 2–3 CBC cuisines side by side, in the same branded packaging used for real orders. This is the product, not a demo.
+
+**What's included:**
+- 2–3 cuisines, 3–4 dishes each, 2–4 portions per dish (enough for the OM + 1–2 colleagues)
+- Served in CBC's standard compostable containers
+- Individual dietary labels on every item
+- Printed menu card with chef names, dietary key, and a "how to order" insert
+- Branding via CBC sticker — applied to the box lid; functions as a tamper-evident seal on appropriate box form factors
+
+**Pricing:** [TBD — to be confirmed before launch] · Applied as a credit toward the client's first full order
+
+**Booking lead time:** 48 hours minimum
+
+**Delivery:** Same-day within confirmed time window (South Bay / Peninsula delivery zone — same as full orders)
+
+**Follow-up:** Doug sends a follow-up email or text within 24 hours of delivery. This window is critical — the 72-hour post-tasting period is the highest-conversion moment in the sales funnel.
+
+> **⚠️ Prerequisite:** Chef buy-in must be confirmed before tasting packages are offered. At least 2 chefs must be active and available before the tasting SKU goes live on the site.
+
+---
+
 ## Add-Ons & Upgrades
 
 | Add-On | Price | Notes |
