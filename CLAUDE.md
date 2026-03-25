@@ -15,13 +15,13 @@ CBC serves two distinct customer segments:
 1. **Chef Entrepreneurs / Food Business Operators** — micro food businesses and independent chefs already operating out of the Culinary Block commissary, who gain access to corporate catering gigs, professional infrastructure, and a branded sales channel they couldn't build on their own
 2. **Corporate Buyers in the Bay Area** — office managers and HR/People Ops directors at tech firms (50–300 employees) who need reliable, diverse, dietary-friendly catering
 
-**Business model:** CBC acts as the operator, retaining a **25% commission** on each order. Client-facing price is **$20–30/box** (tier depends on menu complexity and packaging). CBC charges the client; chefs receive 75% of the per-box rate. Two service tiers: **Tier 1 — Premium Drop-Off** (branded packaging, no on-site CBC staff) and **Tier 2 — Attended Service** (on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
+**Business model:** CBC acts as the operator, retaining a **25% commission** on each order. Client-facing price is **$20–30/box** (tier depends on menu complexity). CBC charges the client; chefs receive 75% of the per-box rate. Chefs provide their own box packaging; CBC creates dietary labels and handles delivery. Two service tiers: **Tier 1 — Premium Drop-Off** (no on-site CBC staff) and **Tier 2 — Attended Service** (on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
 **Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Sichuan, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
 
 **Client-facing price (per box):** $20–30/box. CBC commission: 25%. Chef payout: 75% of per-box price. Box tiers approximate: Budget ~$20 · Core ~$25 · Premium ~$30.
 
-⚠️ **Chef buy-in pending:** The 25% commission and $20–30/box pricing structure still needs to be presented and agreed to by each active chef. This is a priority action before launch. Key selling points: CBC handles all sales, client relationships, delivery logistics, and helps with box preparation/staging when needed — chefs focus on cooking.
+⚠️ **Chef buy-in pending:** The 25% commission and $20–30/box pricing structure still needs to be presented and agreed to by each active chef. This is a priority action before launch. Key selling points: CBC handles all sales, client relationships, dietary labeling, and delivery — chefs focus on cooking and boxing.
 
 ---
 
@@ -29,13 +29,13 @@ CBC serves two distinct customer segments:
 
 CBC operates **two service tiers**. **Commission is 25% (CBC) / 75% (chef)** — this is the standard rate across all chefs. Client price is $20–30/box depending on tier. Document confirmed rates per chef in `docs/chef-profiles.md` once agreements are signed.
 
-**Doug's operational role:** Doug will assist with box preparation and staging for delivery when needed to ensure on-time delivery and consistent quality. This is a key part of the value CBC provides to chefs — they don't have to manage the last-mile logistics alone.
+**Doug's operational role:** CBC (Doug) creates dietary labels and delivers food from the commissary to the client site. Doug assists with boxing only if needed (e.g., chef's team is running late). Chefs provide their own box packaging — CBC handles labeling and delivery. This is a key part of the value CBC provides to chefs — they don't have to manage sales, labeling compliance, or last-mile delivery.
 
 ---
 
 ### Tier 1 — Premium Drop-Off
 
-Branded packaging, chafing dishes or insulated trays, serving utensils, printed menu card, disposable plates and napkins. Client sets up and cleans up. No on-site CBC staff.
+Chef-provided box packaging, chafing dishes or insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC), disposable plates and napkins. CBC delivers. Client sets up and cleans up. No on-site CBC staff.
 
 | Chef / Cuisine | Per-Head Price | Minimum Guests | Minimum Order |
 |---|---|---|---|
@@ -43,7 +43,7 @@ Branded packaging, chafing dishes or insulated trays, serving utensils, printed 
 | Mexican Fusion | $26/head | 100 | $2,600 |
 | Sushi / Japanese | $28/head | 100 | $2,800 |
 
-**CBC service kit cost per order:** ~$300–$375 (branded packaging, chafing dishes, utensils, labeling). At 25% commission, monitor whether kit costs erode margin on smaller orders — may need a minimum box count or flat kit fee for very small events.
+**CBC service kit cost per order:** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle). Packaging is the chef's cost. At 25% commission, margins are healthier than when CBC supplied packaging.
 
 ---
 
@@ -166,7 +166,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 
 ## Docs That Need to Be Created / Actions Still Pending
 
-1. **Sell 25% commission + $20–30/box pricing to chefs** — present the model to each active chef and get sign-off before launch. Key pitch: CBC handles sales, client relationships, delivery logistics, and helps with box prep; chefs focus on cooking. ⚠️ **Priority before any outreach starts.**
+1. **Sell 25% commission + $20–30/box pricing to chefs** — present the model to each active chef and get sign-off before launch. Key pitch: CBC handles sales, client relationships, dietary labeling, and delivery; chefs focus on cooking and boxing. ⚠️ **Priority before any outreach starts.**
 2. **Chef profiles** → `docs/chef-profiles.md` — structure exists, needs Doug to fill in names, personalities, stories, and operational details for the 3 active chefs
 3. **Install the sales plugin** — extract `CBC_Sales/cbc-sales.plugin` into `.claude/commands/` to activate the 6 slash commands (see `CBC_Sales/CBC_Cowork_Shortcuts_Setup.md`)
 4. **Define client cancellation policy** — `docs/operations.md` Cancellation table has two `[TBD]` entries (client cancels 5+ days out; client cancels under 5 days); add to contracts when ready

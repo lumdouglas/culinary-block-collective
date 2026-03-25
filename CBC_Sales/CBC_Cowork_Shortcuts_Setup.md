@@ -147,7 +147,7 @@ All commands already know CBC's details — no setup needed:
 | Chef lineup | Sichuan · Sushi/Japanese · Mexican Fusion · American · Specialty/Seasonal |
 | New client offer | 10% off first order (book by June 30, 2025) |
 | Tasting offer | Free chef tasting · 10 slots/month |
-| Recurring discount | 5% off weekly/bi-weekly contracts |
+| Recurring contracts | Weekly/bi-weekly standing orders with fixed pricing |
 
 ---
 
