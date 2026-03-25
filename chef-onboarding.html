@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chef Onboarding | Culinary Block Collective</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EDF5EE;
+      --lgreen2:      #F2F9F3;
+      --gold:         #B8960C;
+      --gold-light:   #ECD97A;
+      --lgold:        #FAF4E1;
+      --cream:        #FAFAF8;
+      --cream2:       #F4F1EB;
+      --border:       #E5E0D8;
+      --text:         #1A1814;
+      --muted:        #6B6560;
+      --white:        #FFFFFF;
+      --radius:       8px;
+      --shadow:       0 2px 20px rgba(0,0,0,0.07);
+      --shadow-lg:    0 8px 48px rgba(0,0,0,0.11);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--white);
+      padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 12px rgba(0,0,0,0.06);
+    }
+    .nav-logo {
+      font-family: var(--font-display); color: var(--dgreen);
+      font-weight: 600; font-size: 1.25rem; letter-spacing: .02em;
+    }
+    .nav-logo span { color: var(--gold); }
+    .nav-back {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 0.875rem; font-weight: 500; color: var(--muted);
+      padding: 8px 14px; border-radius: 6px;
+      transition: color .15s, background .15s;
+      border: 1.5px solid var(--border); cursor: pointer;
+    }
+    .nav-back:hover { color: var(--dgreen); background: var(--lgreen2); border-color: var(--green); }
+
+    /* ── CONTAINER ── */
+    .container { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--dgreen) 0%, var(--green) 100%);
+      padding: 56px 24px 48px;
+      text-align: center;
+      color: var(--white);
+    }
+    .hero-badge {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--gold-light); background: rgba(255,255,255,0.12);
+      padding: 5px 16px; border-radius: 2px; margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 600; line-height: 1.12; letter-spacing: -0.01em;
+      margin-bottom: 14px;
+    }
+    .hero h1 em { color: var(--gold-light); font-style: italic; }
+    .hero p {
+      font-size: 1.05rem; color: rgba(255,255,255,0.82);
+      max-width: 540px; margin: 0 auto; line-height: 1.7;
+    }
+
+    /* ── PROGRESS ── */
+    .progress-wrap {
+      background: var(--white); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; position: sticky; top: 68px; z-index: 90;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .progress-inner { max-width: 760px; margin: 0 auto; }
+    .progress-steps {
+      display: flex; gap: 0; align-items: center;
+      overflow-x: auto; scrollbar-width: none;
+    }
+    .progress-steps::-webkit-scrollbar { display: none; }
+    .step-item {
+      display: flex; align-items: center; gap: 0;
+      flex-shrink: 0;
+    }
+    .step-dot {
+      display: flex; align-items: center; justify-content: center;
+      width: 28px; height: 28px; border-radius: 50%;
+      font-size: 0.72rem; font-weight: 700;
+      background: var(--cream2); color: var(--muted);
+      border: 2px solid var(--border);
+      transition: all .2s; cursor: default;
+    }
+    .step-dot.active { background: var(--gold); color: var(--dgreen); border-color: var(--gold); }
+    .step-dot.done { background: var(--green); color: var(--white); border-color: var(--green); }
+    .step-label {
+      font-size: 0.75rem; font-weight: 600; color: var(--muted);
+      margin-left: 7px; white-space: nowrap;
+      transition: color .2s;
+    }
+    .step-label.active { color: var(--dgreen); }
+    .step-sep {
+      width: 24px; height: 2px; background: var(--border);
+      margin: 0 8px; flex-shrink: 0;
+    }
+    .step-sep.done { background: var(--green); }
+
+    /* ── FORM SECTIONS ── */
+    .form-main { padding: 40px 0 80px; }
+
+    .section-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+      display: none;
+    }
+    .section-card.active { display: block; }
+
+    .card-header {
+      background: var(--lgreen2); border-bottom: 1px solid var(--border);
+      padding: 22px 28px;
+      display: flex; align-items: flex-start; gap: 14px;
+    }
+    .card-header-icon {
+      width: 40px; height: 40px; border-radius: 8px;
+      background: var(--green); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .card-header-text h2 {
+      font-family: var(--font-display); font-size: 1.35rem;
+      font-weight: 600; color: var(--dgreen); line-height: 1.2;
+    }
+    .card-header-text p {
+      font-size: 0.875rem; color: var(--muted); margin-top: 3px;
+    }
+
+    .card-body { padding: 28px; }
+
+    /* ── FIELD GROUPS ── */
+    .field-group { margin-bottom: 24px; }
+    .field-group:last-child { margin-bottom: 0; }
+
+    .field-row {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 560px) { .field-row { grid-template-columns: 1fr; } }
+
+    label {
+      display: block;
+      font-size: 0.875rem; font-weight: 600; color: var(--text);
+      margin-bottom: 6px;
+    }
+    label span.req { color: #C0392B; margin-left: 2px; }
+    label span.hint {
+      font-weight: 400; color: var(--muted); font-style: italic;
+      font-size: 0.8rem; display: block; margin-top: 2px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      font-family: var(--font-body); font-size: 0.925rem;
+      color: var(--text); background: var(--cream);
+      border: 1.5px solid var(--border); border-radius: var(--radius);
+      padding: 10px 14px;
+      transition: border-color .15s, box-shadow .15s;
+      -webkit-appearance: none;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="number"]:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(45,106,79,0.10);
+      background: var(--white);
+    }
+    input.error, select.error, textarea.error {
+      border-color: #C0392B;
+      box-shadow: 0 0 0 3px rgba(192,57,43,0.08);
+    }
+    textarea { resize: vertical; min-height: 90px; line-height: 1.6; }
+    textarea.tall { min-height: 120px; }
+    select { cursor: pointer; }
+
+    .char-count {
+      text-align: right; font-size: 0.75rem;
+      color: var(--muted); margin-top: 4px;
+    }
+    .char-count.warn { color: #C0392B; }
+
+    /* ── CHECKBOX / RADIO GROUPS ── */
+    .check-group, .radio-group {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 2px;
+    }
+    .check-item, .radio-item {
+      display: flex; align-items: center; gap: 8px;
+      background: var(--cream2); border: 1.5px solid var(--border);
+      border-radius: 6px; padding: 8px 14px; cursor: pointer;
+      transition: border-color .15s, background .15s;
+      user-select: none;
+    }
+    .check-item:hover, .radio-item:hover {
+      border-color: var(--green); background: var(--lgreen);
+    }
+    .check-item input[type="checkbox"],
+    .radio-item input[type="radio"] {
+      width: 16px; height: 16px; flex-shrink: 0;
+      accent-color: var(--green); cursor: pointer;
+    }
+    .check-item span, .radio-item span {
+      font-size: 0.875rem; font-weight: 500; color: var(--text);
+    }
+    .check-item:has(input:checked), .radio-item:has(input:checked) {
+      border-color: var(--green); background: var(--lgreen);
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+
+    /* ── FIELD NOTE ── */
+    .field-note {
+      background: var(--lgold); border: 1px solid var(--gold-light);
+      border-radius: 6px; padding: 10px 14px;
+      font-size: 0.82rem; color: #7A5C00; line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .field-note strong { color: #5A4000; }
+
+    /* ── NAV BUTTONS ── */
+    .form-nav {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-top: 32px; padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-family: var(--font-body);
+      font-weight: 700; font-size: 0.95rem; padding: 13px 28px;
+      border-radius: 6px; border: none; cursor: pointer;
+      transition: transform .15s, background .15s;
+    }
+    .btn-primary:hover { transform: translateY(-1px); background: #a67e09; }
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1.5px solid var(--border); color: var(--muted);
+      background: var(--white);
+      font-family: var(--font-body);
+      font-weight: 600; font-size: 0.95rem; padding: 12px 24px;
+      border-radius: 6px; cursor: pointer;
+      transition: border-color .15s, color .15s;
+    }
+    .btn-outline:hover { border-color: var(--green); color: var(--dgreen); }
+
+    /* ── ERROR MSG ── */
+    .error-msg {
+      font-size: 0.8rem; color: #C0392B; margin-top: 5px;
+      display: none;
+    }
+    .error-msg.visible { display: block; }
+
+    /* ── OUTPUT SECTION ── */
+    #output-section {
+      display: none;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-bottom: 40px;
+    }
+    .output-header {
+      background: var(--dgreen); padding: 24px 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .output-header h2 {
+      font-family: var(--font-display); font-size: 1.4rem;
+      font-weight: 600; color: var(--white);
+    }
+    .output-header p { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+    .output-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-copy, .btn-reset {
+      display: inline-flex; align-items: center; gap: 7px;
+      font-family: var(--font-body);
+      font-weight: 600; font-size: 0.875rem;
+      padding: 10px 18px; border-radius: 6px;
+      border: none; cursor: pointer; transition: all .15s;
+    }
+    .btn-copy {
+      background: var(--gold); color: var(--dgreen);
+    }
+    .btn-copy:hover { background: #a67e09; }
+    .btn-copy.copied { background: var(--green); color: var(--white); }
+    .btn-reset {
+      background: rgba(255,255,255,0.12); color: var(--white);
+      border: 1.5px solid rgba(255,255,255,0.25);
+    }
+    .btn-reset:hover { background: rgba(255,255,255,0.22); }
+
+    #md-output {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.82rem; line-height: 1.7;
+      color: var(--text); background: var(--cream);
+      padding: 24px 28px;
+      white-space: pre-wrap; word-break: break-word;
+      max-height: 520px; overflow-y: auto;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── TOAST ── */
+    #toast {
+      position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(80px);
+      background: var(--dgreen); color: var(--white);
+      font-size: 0.9rem; font-weight: 600;
+      padding: 12px 24px; border-radius: 30px;
+      box-shadow: var(--shadow-lg);
+      transition: transform .3s cubic-bezier(0.34,1.56,0.64,1);
+      z-index: 999; pointer-events: none;
+      display: flex; align-items: center; gap: 8px;
+    }
+    #toast.show { transform: translateX(-50%) translateY(0); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .card-body { padding: 20px; }
+      .card-header { padding: 18px 20px; }
+      .hero { padding: 40px 20px 36px; }
+      nav { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">Culinary Block <span>Collective</span></a>
+  <a href="index.html" class="nav-back">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    Back to site
+  </a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-badge">Chef Partner Onboarding</div>
+  <h1>Tell us your <em>story</em></h1>
+  <p>This helps us match you to the right events, write spotlight content that actually sounds like you, and make sure we're working together the right way.</p>
+</div>
+
+<!-- PROGRESS BAR -->
+<div class="progress-wrap">
+  <div class="progress-inner">
+    <div class="progress-steps" id="progress-steps">
+      <div class="step-item">
+        <div class="step-dot active" id="dot-1">1</div>
+        <span class="step-label active" id="lbl-1">Identity</span>
+      </div>
+      <div class="step-sep" id="sep-1"></div>
+      <div class="step-item">
+        <div class="step-dot" id="dot-2">2</div>
+        <span class="step-label" id="lbl-2">Working Together</span>
+      </div>
+      <div class="step-sep" id="sep-2"></div>
+      <div class="step-item">
+        <div class="step-dot" id="dot-3">3</div>
+        <span class="step-label" id="lbl-3">Your Story</span>
+      </div>
+      <div class="step-sep" id="sep-3"></div>
+      <div class="step-item">
+        <div class="step-dot" id="dot-4">4</div>
+        <span class="step-label" id="lbl-4">Content Angles</span>
+      </div>
+      <div class="step-sep" id="sep-4"></div>
+      <div class="step-item">
+        <div class="step-dot" id="dot-5">5</div>
+        <span class="step-label" id="lbl-5">Ops Details</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN FORM -->
+<div class="form-main">
+  <div class="container">
+
+    <!-- ── SECTION 1: IDENTITY ── -->
+    <div class="section-card active" id="section-1">
+      <div class="card-header">
+        <div class="card-header-icon">👤</div>
+        <div class="card-header-text">
+          <h2>Your Identity</h2>
+          <p>Basic info — who you are and what you make.</p>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class="field-group field-row">
+          <div>
+            <label for="chef-name">Full Name <span class="req">*</span></label>
+            <input type="text" id="chef-name" placeholder="e.g. Maria Chen" autocomplete="name" />
+            <div class="error-msg" id="err-chef-name">Please enter your name.</div>
+          </div>
+          <div>
+            <label for="business-name">Business Name</label>
+            <input type="text" id="business-name" placeholder="e.g. Chen's Kitchen LLC" />
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="cuisine">Cuisine / Food Style <span class="req">*</span>
+            <span class="hint">Be specific — not just "Asian" but "Sichuan Chinese" or "Japanese sushi & izakaya"</span>
+          </label>
+          <input type="text" id="cuisine" placeholder="e.g. Sushi & Japanese, Sichuan Chinese, Mexican Fusion…" />
+          <div class="error-msg" id="err-cuisine">Please describe your cuisine.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="signature-dishes">Signature Dishes <span class="req">*</span>
+            <span class="hint">List 3–5 specific items you're known for — the things that make people come back.</span>
+          </label>
+          <textarea id="signature-dishes" class="tall" placeholder="e.g.&#10;- Spicy mapo tofu&#10;- Dan dan noodles&#10;- Twice-cooked pork&#10;- House XO fried rice"></textarea>
+          <div class="error-msg" id="err-signature-dishes">Please list at least one signature dish.</div>
+        </div>
+
+        <div class="field-group">
+          <label>Price Tier(s) You Offer <span class="req">*</span>
+            <span class="hint">Client-facing price. You receive 75% of the per-box rate. Check all that apply.</span>
+          </label>
+          <div class="check-group">
+            <label class="check-item">
+              <input type="checkbox" name="tier" value="Budget ($20/box)" />
+              <span>Budget — $20/box</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="tier" value="Core ($25/box)" />
+              <span>Core — $25/box</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="tier" value="Premium ($30/box)" />
+              <span>Premium — $30/box</span>
+            </label>
+          </div>
+          <div class="error-msg" id="err-tier">Please select at least one price tier.</div>
+        </div>
+
+        <div class="field-group field-row">
+          <div>
+            <label for="min-order">Minimum Order <span class="req">*</span>
+              <span class="hint">Minimum number of boxes per event</span>
+            </label>
+            <input type="number" id="min-order" placeholder="e.g. 50" min="1" />
+            <div class="error-msg" id="err-min-order">Please enter a minimum order size.</div>
+          </div>
+          <div>
+            <label for="max-capacity">Max Capacity
+              <span class="hint">Largest number of guests you can comfortably serve</span>
+            </label>
+            <input type="number" id="max-capacity" placeholder="e.g. 250" min="1" />
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="time-at-commissary">How long have you been at Culinary Block? <span class="req">*</span></label>
+          <input type="text" id="time-at-commissary" placeholder="e.g. 2 years, since January 2023…" />
+          <div class="error-msg" id="err-time-at-commissary">Please answer this field.</div>
+        </div>
+
+        <div class="form-nav">
+          <span></span>
+          <button class="btn-primary" onclick="nextSection(1)">
+            Next — Working Together
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SECTION 2: WORKING TOGETHER ── -->
+    <div class="section-card" id="section-2">
+      <div class="card-header">
+        <div class="card-header-icon">🤝</div>
+        <div class="card-header-text">
+          <h2>Working Together</h2>
+          <p>How you like to operate, communicate, and what matters most to you.</p>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class="field-note">
+          <strong>Why we ask:</strong> We don't treat every chef the same. Your answers help us communicate with you the right way and send you events that actually fit your style — not just fill a slot.
+        </div>
+
+        <div class="field-group">
+          <label for="overall-vibe">How would you describe your overall vibe? <span class="req">*</span>
+            <span class="hint">Craft-obsessed, entrepreneurial, detail-oriented, laid-back, big-picture, family-first…</span>
+          </label>
+          <input type="text" id="overall-vibe" placeholder="Describe yourself in a few words — how your people would describe you." />
+          <div class="error-msg" id="err-overall-vibe">Please fill in this field.</div>
+        </div>
+
+        <div class="field-group">
+          <label>Preferred Way to Communicate <span class="req">*</span></label>
+          <div class="check-group">
+            <label class="check-item">
+              <input type="checkbox" name="comms" value="Text" />
+              <span>Text</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="comms" value="Phone call" />
+              <span>Phone call</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="comms" value="In person" />
+              <span>In person</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="comms" value="Email" />
+              <span>Email</span>
+            </label>
+          </div>
+          <div class="error-msg" id="err-comms">Please select at least one preference.</div>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="field-group">
+          <label for="motivates">What motivates you most in your food business? <span class="req">*</span>
+            <span class="hint">Pride in craft, growing a brand, consistent income, creative freedom, feeding people well…</span>
+          </label>
+          <textarea id="motivates" placeholder="Be honest — it helps us pitch events in a way that resonates with you."></textarea>
+          <div class="error-msg" id="err-motivates">Please fill in this field.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="cares-most">What do you care most about when taking on a catering event? <span class="req">*</span>
+            <span class="hint">Quality control, fair pay, getting credit publicly, menu ownership, reliable logistics, lead time…</span>
+          </label>
+          <textarea id="cares-most" placeholder="What makes a catering gig feel right vs. feel wrong?"></textarea>
+          <div class="error-msg" id="err-cares-most">Please fill in this field.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="avoid">What should we avoid when working with you?
+            <span class="hint">Last-minute changes, micromanaging the menu, undervaluing your time, unclear expectations…</span>
+          </label>
+          <textarea id="avoid" placeholder="What's made past catering experiences frustrating? We'd rather know now."></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="get-a-yes">What's the best way to get a "yes" from you on a new event?
+            <span class="hint">Show me the revenue math / give me lead time / let me own the menu / public recognition…</span>
+          </label>
+          <textarea id="get-a-yes" placeholder="What would make an opportunity feel like a no-brainer?"></textarea>
+        </div>
+
+        <div class="form-nav">
+          <button class="btn-outline" onclick="prevSection(2)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            Back
+          </button>
+          <button class="btn-primary" onclick="nextSection(2)">
+            Next — Your Story
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SECTION 3: THEIR STORY ── -->
+    <div class="section-card" id="section-3">
+      <div class="card-header">
+        <div class="card-header-icon">📖</div>
+        <div class="card-header-text">
+          <h2>Your Story</h2>
+          <p>Background, origin, what brought you here. This is the raw material for chef spotlight posts.</p>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class="field-note">
+          <strong>These answers fuel your spotlight content.</strong> When CBC posts about you on LinkedIn or Instagram, your story is what makes it human — not just a menu listing. Answer like you're talking to someone you just met at the commissary.
+        </div>
+
+        <div class="field-group">
+          <label for="grew-up">Where did you grow up, and how did food become your thing? <span class="req">*</span></label>
+          <textarea id="grew-up" class="tall" placeholder="e.g. I grew up in Chengdu, watching my grandmother cook for the whole neighborhood. I moved to the Bay in 2015 and couldn't find anything that tasted like home…"></textarea>
+          <div class="error-msg" id="err-grew-up">Please fill in this field.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="learned-cuisine">How did you learn your cuisine?
+            <span class="hint">Family, culinary school, self-taught, apprenticeship, travel…</span>
+          </label>
+          <textarea id="learned-cuisine" placeholder="e.g. Trained under my uncle for 6 years, then spent a year working in Osaka…"></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="why-culinary-block">What brought you to Culinary Block, and how long have you been running your food business?</label>
+          <textarea id="why-culinary-block" placeholder="e.g. I'd been operating out of a shared space in Oakland but wanted a more professional setup. A friend mentioned Culinary Block and I've been here 2 years now."></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="differentiator">What sets you apart from other caterers? <span class="req">*</span>
+            <span class="hint">What do you do that most caterers skip, cut corners on, or simply can't do?</span>
+          </label>
+          <textarea id="differentiator" class="tall" placeholder="e.g. I hand-roll every piece. I don't pre-make anything more than 30 minutes out. The fish comes from the same Japantown supplier I've used for 7 years."></textarea>
+          <div class="error-msg" id="err-differentiator">Please fill in this field.</div>
+        </div>
+
+        <div class="form-nav">
+          <button class="btn-outline" onclick="prevSection(3)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            Back
+          </button>
+          <button class="btn-primary" onclick="nextSection(3)">
+            Next — Content Angles
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SECTION 4: CONTENT ANGLES ── -->
+    <div class="section-card" id="section-4">
+      <div class="card-header">
+        <div class="card-header-icon">✍️</div>
+        <div class="card-header-text">
+          <h2>Content Angles</h2>
+          <p>What's interesting about you for a Bay Area tech audience.</p>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class="field-group">
+          <label for="craft-angle">The Craft Angle — What's technically impressive about what you do?
+            <span class="hint">What would make someone watching you cook say "I had no idea that's how this is made."</span>
+          </label>
+          <textarea id="craft-angle" placeholder="e.g. He rolls every piece of sushi by hand — no shortcuts, even for 200 people."></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="diversity-angle">The Diversity Angle — What makes your cuisine culturally distinctive?
+            <span class="hint">What does your food represent that most corporate catering doesn't even attempt?</span>
+          </label>
+          <textarea id="diversity-angle" placeholder="e.g. Authentic Sichuan — not Americanized takeout. The numbing spice is real."></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="human-angle">The Human Angle — What's the personal story that makes people root for you?
+            <span class="hint">This is the "built something from nothing" thread. What's your version of that?</span>
+          </label>
+          <textarea id="human-angle" placeholder="e.g. Built her business from a commissary kitchen — now feeding tech teams across the Bay."></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="best-visual">Most Photogenic Dish or Moment
+            <span class="hint">What's the one thing that photographs beautifully — what should our camera be pointing at?</span>
+          </label>
+          <input type="text" id="best-visual" placeholder="e.g. The salmon sashimi platter — the colors are unreal." />
+        </div>
+
+        <div class="field-group">
+          <label for="chef-quote">A Phrase or Quote in Your Voice <span class="req">*</span>
+            <span class="hint">Something you'd actually say — not polished marketing copy. Think off the cuff, real.</span>
+          </label>
+          <input type="text" id="chef-quote" placeholder="e.g. "If the sauce takes 3 hours, the sauce takes 3 hours."" />
+          <div class="error-msg" id="err-chef-quote">Please add a quote — even a rough one. We can shape it.</div>
+        </div>
+
+        <div class="form-nav">
+          <button class="btn-outline" onclick="prevSection(4)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            Back
+          </button>
+          <button class="btn-primary" onclick="nextSection(4)">
+            Next — Ops Details
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SECTION 5: OPS DETAILS ── -->
+    <div class="section-card" id="section-5">
+      <div class="card-header">
+        <div class="card-header-icon">⚙️</div>
+        <div class="card-header-text">
+          <h2>Operational Details</h2>
+          <p>Logistics — so we route the right events to you and never overcommit.</p>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class="field-group">
+          <label>Service Tier(s) You're Available For <span class="req">*</span>
+            <span class="hint">Tier 1 = Drop-off (no on-site CBC staff). Tier 2 = Attended service with on-site CBC staff.</span>
+          </label>
+          <div class="check-group">
+            <label class="check-item">
+              <input type="checkbox" name="service-tier" value="Tier 1 — Premium Drop-Off" />
+              <span>Tier 1 — Drop-Off</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" name="service-tier" value="Tier 2 — Attended Service" />
+              <span>Tier 2 — Attended Service</span>
+            </label>
+          </div>
+          <div class="error-msg" id="err-service-tier">Please select at least one service tier.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="lead-time">Minimum Lead Time Needed <span class="req">*</span>
+            <span class="hint">How many days advance notice do you need to take an event confidently?</span>
+          </label>
+          <input type="text" id="lead-time" placeholder="e.g. 5 business days, 1 week, 48 hours for small orders…" />
+          <div class="error-msg" id="err-lead-time">Please fill in this field.</div>
+        </div>
+
+        <div class="field-group">
+          <label>Available Days <span class="req">*</span></label>
+          <div class="check-group">
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Monday" /><span>Mon</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Tuesday" /><span>Tue</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Wednesday" /><span>Wed</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Thursday" /><span>Thu</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Friday" /><span>Fri</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Saturday" /><span>Sat</span></label>
+            <label class="check-item"><input type="checkbox" name="avail-days" value="Sunday" /><span>Sun</span></label>
+          </div>
+          <div class="error-msg" id="err-avail-days">Please select at least one available day.</div>
+        </div>
+
+        <div class="field-group">
+          <label for="large-events">Can you scale to 200+ guests?</label>
+          <div class="radio-group">
+            <label class="radio-item"><input type="radio" name="large-events" value="Yes" /><span>Yes</span></label>
+            <label class="radio-item"><input type="radio" name="large-events" value="Yes, with extra prep time" /><span>Yes, with extra prep time</span></label>
+            <label class="radio-item"><input type="radio" name="large-events" value="Max ~150 guests" /><span>Max ~150 guests</span></label>
+            <label class="radio-item"><input type="radio" name="large-events" value="No" /><span>No</span></label>
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="special-notes">Anything else Doug should know about routing events to you?
+            <span class="hint">Special equipment needs, cuisines you won't do, events you prefer, seasonal limitations…</span>
+          </label>
+          <textarea id="special-notes" placeholder="e.g. I can't do pork — all my menus are halal-friendly. Prefer events over 100 guests — small orders aren't worth the setup time for me."></textarea>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="field-note" style="background:#FEF6F6; border-color:#F5C6C6; color:#7A2020;">
+          <strong style="color:#5A1010;">📋 Cancellation Policy — Please Read</strong><br/>
+          As a CBC chef partner, a confirmed order is a commitment. Here's what happens if either side needs to cancel:<br/><br/>
+          <strong>If you need to cancel:</strong><br/>
+          • <strong>7+ days before the event</strong> — No penalty. CBC will find a replacement. Please give as much notice as possible so the client isn't impacted.<br/>
+          • <strong>Within 7 days of a confirmed order</strong> — A <strong>$250 cancellation fee</strong> is owed to CBC. Why: at this point CBC has confirmed to the client, allocated service kit materials, and may have turned down other bookings for that date. The fee covers those real costs.<br/><br/>
+          <strong>If the client cancels:</strong><br/>
+          • <strong>7+ days out</strong> — Client gets a full deposit refund. No impact to you — CBC rebooks the slot.<br/>
+          • <strong>Within 7 days</strong> — Client forfeits the 25% deposit (or CBC applies it as credit to a future order). You don't receive a payment for that order, but you also owe nothing.<br/>
+          • <strong>Within 72 hours</strong> — Client is charged <strong>50% of the order total</strong>. CBC keeps 25% (the deposit). You receive <strong>25% of the order value</strong> to cover your food and ingredient costs.<br/><br/>
+          These policies exist to protect you as much as Doug. Your time and ingredients have real value. Questions? Ask Doug before you sign.
+        </div>
+
+        <div class="form-nav">
+          <button class="btn-outline" onclick="prevSection(5)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            Back
+          </button>
+          <button class="btn-primary" onclick="generateProfile()">
+            Generate My Profile
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 11 20 20 14 11z"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── OUTPUT ── -->
+    <div id="output-section">
+      <div class="output-header">
+        <div>
+          <h2>Profile Ready — Copy to Markdown</h2>
+          <p>Paste this block directly into docs/chef-profiles.md</p>
+        </div>
+        <div class="output-actions">
+          <button class="btn-copy" id="copy-btn" onclick="copyMarkdown()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy Markdown
+          </button>
+          <button class="btn-reset" onclick="resetForm()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-4"/></svg>
+            New Chef
+          </button>
+        </div>
+      </div>
+      <pre id="md-output"></pre>
+    </div>
+
+  </div><!-- /container -->
+</div><!-- /form-main -->
+
+<!-- TOAST -->
+<div id="toast">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 11 20 20 14 11z"/></svg>
+  Copied to clipboard!
+</div>
+
+<script>
+  // ── STATE ──
+  let currentSection = 1;
+  const TOTAL = 5;
+
+  // ── VALIDATION MAP ──
+  const validators = {
+    1: () => {
+      let ok = true;
+      ok = requireField('chef-name',     'err-chef-name')     && ok;
+      ok = requireField('cuisine',       'err-cuisine')       && ok;
+      ok = requireField('signature-dishes', 'err-signature-dishes') && ok;
+      ok = requireChecks('tier',         'err-tier')          && ok;
+      ok = requireField('min-order',     'err-min-order')     && ok;
+      ok = requireField('time-at-commissary', 'err-time-at-commissary') && ok;
+      return ok;
+    },
+    2: () => {
+      let ok = true;
+      ok = requireField('overall-vibe',  'err-overall-vibe')  && ok;
+      ok = requireChecks('comms',        'err-comms')         && ok;
+      ok = requireField('motivates',     'err-motivates')     && ok;
+      ok = requireField('cares-most',    'err-cares-most')    && ok;
+      return ok;
+    },
+    3: () => {
+      let ok = true;
+      ok = requireField('grew-up',       'err-grew-up')       && ok;
+      ok = requireField('differentiator','err-differentiator')&& ok;
+      return ok;
+    },
+    4: () => {
+      return requireField('chef-quote', 'err-chef-quote');
+    },
+    5: () => {
+      let ok = true;
+      ok = requireChecks('service-tier', 'err-service-tier') && ok;
+      ok = requireField('lead-time',     'err-lead-time')    && ok;
+      ok = requireChecks('avail-days',   'err-avail-days')   && ok;
+      return ok;
+    }
+  };
+
+  function requireField(id, errId) {
+    const el = document.getElementById(id);
+    const val = el.value.trim();
+    const err = document.getElementById(errId);
+    if (!val) {
+      el.classList.add('error');
+      err.classList.add('visible');
+      return false;
+    }
+    el.classList.remove('error');
+    err.classList.remove('visible');
+    return true;
+  }
+
+  function requireChecks(name, errId) {
+    const checked = document.querySelectorAll(`input[name="${name}"]:checked`);
+    const err = document.getElementById(errId);
+    if (checked.length === 0) {
+      err.classList.add('visible');
+      return false;
+    }
+    err.classList.remove('visible');
+    return true;
+  }
+
+  // ── NAVIGATION ──
+  function nextSection(from) {
+    if (!validators[from]()) {
+      // scroll to first error
+      const firstErr = document.querySelector(`#section-${from} .error, #section-${from} .error-msg.visible`);
+      if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+    showSection(from + 1);
+  }
+
+  function prevSection(from) {
+    showSection(from - 1);
+  }
+
+  function showSection(n) {
+    document.getElementById(`section-${currentSection}`).classList.remove('active');
+    document.getElementById(`section-${n}`).classList.add('active');
+    currentSection = n;
+    updateProgress();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function updateProgress() {
+    for (let i = 1; i <= TOTAL; i++) {
+      const dot = document.getElementById(`dot-${i}`);
+      const lbl = document.getElementById(`lbl-${i}`);
+      const sep = document.getElementById(`sep-${i}`);
+      dot.classList.remove('active', 'done');
+      lbl.classList.remove('active');
+      if (sep) sep.classList.remove('done');
+
+      if (i < currentSection) {
+        dot.classList.add('done');
+        dot.innerHTML = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 13 4 9"/></svg>`;
+        if (sep) sep.classList.add('done');
+      } else if (i === currentSection) {
+        dot.classList.add('active');
+        dot.textContent = i;
+        lbl.classList.add('active');
+      } else {
+        dot.textContent = i;
+      }
+    }
+  }
+
+  // ── HELPERS ──
+  function val(id) {
+    const el = document.getElementById(id);
+    return el ? el.value.trim() : '';
+  }
+  function checks(name) {
+    return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(c => c.value);
+  }
+  function radio(name) {
+    const el = document.querySelector(`input[name="${name}"]:checked`);
+    return el ? el.value : '—';
+  }
+  function fmt(v) { return v || '—'; }
+
+  // ── GENERATE MARKDOWN ──
+  function generateProfile() {
+    if (!validators[5]()) {
+      const firstErr = document.querySelector('#section-5 .error, #section-5 .error-msg.visible');
+      if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    const name        = val('chef-name');
+    const biz         = val('business-name');
+    const cuisine     = val('cuisine');
+    const dishes      = val('signature-dishes');
+    const tiers       = checks('tier').join(', ') || '—';
+    const minOrder    = val('min-order');
+    const maxCap      = val('max-capacity');
+    const tenure      = val('time-at-commissary');
+    const vibe        = val('overall-vibe');
+    const comms       = checks('comms').join(' / ') || '—';
+    const motivates   = val('motivates');
+    const caresMost   = val('cares-most');
+    const avoid       = val('avoid');
+    const getYes      = val('get-a-yes');
+    const grewUp      = val('grew-up');
+    const learnedCuisine = val('learned-cuisine');
+    const whyCB       = val('why-culinary-block');
+    const differentiator = val('differentiator');
+    const craftAngle  = val('craft-angle');
+    const divAngle    = val('diversity-angle');
+    const humanAngle  = val('human-angle');
+    const bestVisual  = val('best-visual');
+    const quote       = val('chef-quote');
+    const serviceTiers = checks('service-tier').join(', ') || '—';
+    const leadTime    = val('lead-time');
+    const availDays   = checks('avail-days').join(', ') || '—';
+    const largeEvents = radio('large-events');
+    const notes       = val('special-notes');
+
+    const dishLines = dishes.split('\n')
+      .map(l => l.trim().replace(/^[-•*]\s*/, ''))
+      .filter(Boolean)
+      .map(l => `- ${l}`)
+      .join('\n');
+
+    const md = `## Chef — ${name}${biz ? ` (${biz})` : ''}
+
+### Identity
+| Field | Detail |
+|---|---|
+| **Name** | ${name} |
+| **Business** | ${fmt(biz)} |
+| **Cuisine** | ${cuisine} |
+| **Signature Dishes** | See below |
+| **Price Tier(s)** | ${tiers} |
+| **Min Order** | ${minOrder} boxes |
+| **Max Capacity** | ${fmt(maxCap)} guests |
+| **Time at Commissary** | ${tenure} |
+
+**Signature Dishes:**
+${dishLines}
+
+---
+
+### Personality & Communication Style
+- **Overall vibe:** ${vibe}
+- **How they prefer to communicate:** ${comms}
+- **What motivates them:** ${motivates}
+- **What they care about most:** ${caresMost}
+- **What to avoid saying to them:** ${fmt(avoid)}
+- **Best way to get a yes:** ${fmt(getYes)}
+
+---
+
+### Their Story
+> ${grewUp}${learnedCuisine ? `\n>\n> **How they learned their craft:** ${learnedCuisine}` : ''}${whyCB ? `\n>\n> **Why Culinary Block:** ${whyCB}` : ''}
+>
+> **What sets them apart:** ${differentiator}
+
+---
+
+### Content Angles for Spotlight Posts
+
+- **Hook 1 — The craft angle:** ${fmt(craftAngle)}
+- **Hook 2 — The diversity angle:** ${fmt(divAngle)}
+- **Hook 3 — The human angle:** ${fmt(humanAngle)}
+- **Best visual:** ${fmt(bestVisual)}
+- **Quote or phrase they'd actually say:** "${fmt(quote)}"
+
+### Sample Spotlight Post Draft
+> *[Draft to be written using the angles above — assign to Claude with this profile.]*
+
+---
+
+### Operational Details
+| Field | Detail |
+|---|---|
+| **Service Tier(s)** | ${serviceTiers} |
+| **Min Lead Time** | ${leadTime} |
+| **Available Days** | ${availDays} |
+| **Can Scale to 200+ Guests** | ${largeEvents} |
+| **Special Notes** | ${fmt(notes)} |
+
+---
+`;
+
+    document.getElementById('md-output').textContent = md;
+    const out = document.getElementById('output-section');
+    out.style.display = 'block';
+    setTimeout(() => out.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+  }
+
+  // ── COPY ──
+  function copyMarkdown() {
+    const text = document.getElementById('md-output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('copy-btn');
+      btn.classList.add('copied');
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 11 20 20 14 11z"/></svg> Copied!`;
+      showToast();
+      setTimeout(() => {
+        btn.classList.remove('copied');
+        btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy Markdown`;
+      }, 2500);
+    });
+  }
+
+  function showToast() {
+    const t = document.getElementById('toast');
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2800);
+  }
+
+  // ── RESET ──
+  function resetForm() {
+    document.querySelectorAll('input[type="text"], input[type="email"], input[type="number"], textarea, select')
+      .forEach(el => el.value = '');
+    document.querySelectorAll('input[type="checkbox"], input[type="radio"]')
+      .forEach(el => el.checked = false);
+    document.querySelectorAll('.error').forEach(el => el.classList.remove('error'));
+    document.querySelectorAll('.error-msg.visible').forEach(el => el.classList.remove('visible'));
+    document.getElementById('output-section').style.display = 'none';
+    showSection(1);
+    currentSection = 1;
+    updateProgress();
+  }
+
+  // ── CLEAR ERRORS ON INPUT ──
+  document.addEventListener('input', function(e) {
+    if (e.target.matches('input, textarea, select')) {
+      e.target.classList.remove('error');
+      const parent = e.target.closest('.field-group');
+      if (parent) {
+        const err = parent.querySelector('.error-msg');
+        if (err) err.classList.remove('visible');
+      }
+    }
+  });
+  document.addEventListener('change', function(e) {
+    if (e.target.matches('input[type="checkbox"], input[type="radio"]')) {
+      const name = e.target.getAttribute('name');
+      const errId = {
+        tier: 'err-tier',
+        comms: 'err-comms',
+        'service-tier': 'err-service-tier',
+        'avail-days': 'err-avail-days'
+      }[name];
+      if (errId) document.getElementById(errId).classList.remove('visible');
+    }
+  });
+</script>
+</body>
+</html>
