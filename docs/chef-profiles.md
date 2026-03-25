@@ -14,18 +14,20 @@
 
 ---
 
-## Chef 1 — [Name]
+## Chef 1 — Unique Cuisine Sushi
 
 ### Identity
 | Field | Detail |
 |---|---|
-| **Name** | [Chef's name] |
-| **Cuisine** | [e.g., Sushi & Japanese] |
-| **Signature Dishes** | [3–5 specific items they're known for] |
-| **Price Tier(s)** | [Budget $20 / Core $25 / Premium $30 (client-facing) — which do they offer? Chef receives 75% of per-box price.] |
-| **Min Order** | [e.g., 50 boxes] |
-| **Max Capacity** | [e.g., 200 guests comfortably] |
-| **Time at Commissary** | [How long have they been a Culinary Block tenant?] |
+| **Name** | Unique Cuisine Sushi |
+| **Cuisine** | Sushi & Japanese |
+| **Service Format** | Buffet only (no individual boxes) |
+| **Menu** | Rice · Chicken teriyaki · Tofu teriyaki · Edamame · Chicken gyoza · Vegetable gyoza · 4-piece assorted sushi (CA roll, spicy tuna roll, shrimp tempura roll, avocado cucumber roll) |
+| **Tier 1 Price** | $30/person · Chef $22.50 · CBC $7.50 |
+| **Tier 2 Price** | $38/person · Chef $22.50 (food only) · CBC retains staffing premium + $7.50 commission |
+| **Min Order** | 50 guests / $1,500 |
+| **Max Capacity** | 500 guests |
+| **Time at Commissary** | [TBD] |
 
 ### Personality & Communication Style
 - **Overall vibe:** [e.g., Quiet and precise / Energetic and expressive / Business-minded / Artistic]
@@ -134,7 +136,7 @@
 
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
-| Sushi / Japanese | [Chef name] | [Any notes on their capacity or style] |
+| Sushi / Japanese | Unique Cuisine Sushi | Buffet only · $30/person T1 · $38/person T2 · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
 | [Cuisine 2] | [Chef name] | [Notes] |
 | [Cuisine 3] | [Chef name] | [Notes] |
 | Large event 200+ | [Chef name(s)] | [Who can scale, who has a 75-box minimum, etc.] |

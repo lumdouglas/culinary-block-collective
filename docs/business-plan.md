@@ -40,7 +40,7 @@ Local competitors (e.g., Fraiche Catering, Handheld Catering) offer similar even
 
 | Pain Point | CBC Solution |
 |---|---|
-| Late deliveries | On-time guarantee — next order free if late |
+| Late deliveries | On-time guarantee — order not staged and ready for client team = 10% off next order |
 | Dietary errors | Every item individually labeled (vegan, GF, nut-free) |
 | Hidden fees | Transparent pricing, no invoice surprises |
 | Generic menus | 5+ specialized chef cuisines per order |
@@ -63,7 +63,7 @@ Local competitors (e.g., Fraiche Catering, Handheld Catering) offer similar even
 CBC operates two service tiers. **Commission is 25% (CBC) / 75% (chef)** — standard rate across all chefs. Client-facing price is $20–30/box.
 
 #### Tier 1 — Premium Drop-Off
-Branded packaging, chafing dishes/insulated trays, serving utensils, printed menu card, disposable plates and napkins. Client handles setup and cleanup. No on-site CBC staff.
+Chef-provided box packaging, chafing dishes/insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC), disposable plates and napkins. CBC delivers. Client handles setup and cleanup. No on-site CBC staff.
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
@@ -71,9 +71,9 @@ Branded packaging, chafing dishes/insulated trays, serving utensils, printed men
 | Mexican Fusion | $26/person | 100 | $2,600 |
 | Sushi / Japanese | $28/person | 100 | $2,800 |
 
-**CBC service kit cost:** ~$300–$375/order (packaging, chafing dishes, utensils, dietary labeling materials)
+**CBC service kit cost:** ~$50–$100/order (dietary labels, printed menu cards, delivery fuel/vehicle). Packaging is the chef's cost.
 
-**Margin note:** Commission is 25%. At this rate, monitor whether the service kit cost (~$300–$375/order) erodes margin on smaller orders. May need a minimum box count or flat kit fee for very small events.
+**Margin note:** Commission is 25%. With packaging shifted to the chef, CBC's per-order costs are significantly lower, improving margins on all order sizes.
 
 #### Tier 2 — Attended Service
 Everything in Tier 1 plus 1–2 on-site CBC staff for setup, buffet maintenance, and cleanup. Proper linen and labeled stations.
@@ -96,7 +96,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 2–3 cuisines, 150–300 guests, live chef station option. Custom quote.
 
 ### Premium Add-Ons
-- Compostable containers: $0.02/unit cost; $0.03/unit as customer-facing add-on (BPI-certified)
+- Premium Compostable Packaging upgrade: +$3/person (BPI-certified — replaces chef's standard packaging)
 - Premium utensils: $2/person
 - Buffet setup/coordinator: $100–$150/event
 - Organic ingredient tier: +15% on food cost
@@ -115,7 +115,9 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 
 **Revenue split per order:** 25% CBC / 75% chef — uniform across all chefs. Document agreed pricing tier(s) per chef in `docs/chef-profiles.md`.
 
-**Delivery:** Chef's team is primary; Doug assists with box preparation, staging, and delivery oversight to ensure on-time delivery and quality. Not a separate line item on client invoices.
+**Packaging:** Chef provides their own boxes and containers. CBC creates and applies dietary labels.
+
+**Delivery:** CBC delivers from commissary to client site. Doug assists with boxing only if needed. Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
 
 ### Event Types
 - Weekly/bi-weekly recurring team lunches
@@ -144,7 +146,7 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 |---|---|---|
 | 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by September 30, 2026 |
 | Free Chef Tasting | In-person at Culinary Block, up to 4 guests | 10 slots/month |
-| Recurring Account Bonus | 5% monthly discount for weekly/bi-weekly contracts | 3-month minimum |
+| Recurring Contracts | Weekly/bi-weekly standing orders with fixed pricing, rotating menus, 90-day review | 3-month minimum |
 
 ---
 
@@ -165,9 +167,9 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 | Area | Approach |
 |---|---|
 | Kitchen | Culinary Block commissary (existing facility) |
-| Delivery | Chef's team (primary); Doug assists with box prep, staging, and coordination. Funded within chef's 75% share; no separate CBC cost |
-| Staff | Chef-tenants as independent contractors; 1 part-time packaging/labeling coordinator |
-| Packaging | BPI-certified compostable containers — WebstaurantStore (~$0.02/unit) |
+| Delivery | CBC (Doug) picks up from commissary, labels, and delivers to client site. Funded within CBC's 25% commission |
+| Staff | Chef-tenants as independent contractors; Doug as primary delivery/labeling coordinator |
+| Packaging | Chef provides their own boxes/containers · CBC provides dietary labels and menu cards |
 | Ingredients | Local farms for organic tier (+10–15% food cost) |
 | Order minimum | 50 boxes per order |
 | Service radius | San Jose and surrounding South Bay (radius confirmed per chef at onboarding) |
@@ -215,26 +217,26 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | **CBC Gross Revenue (25%)** | $39,900 × 25% | **$9,975** |
 | | | |
 | *CBC Operating Costs:* | | |
-| Packaging & labeling | ~$10/order × 21 | $210 |
+| Labeling, menu cards & delivery | ~$75/order × 21 | $1,575 |
 | Tech stack (months 1–6) | $134/month × 6 | $804 |
 | LinkedIn Sales Navigator | $79/month × 6 | $474 |
 | LinkedIn Ads (months 3–6 only) | $150/month × 4 | $600 |
 | Networking & tasting events | Est. | $300 |
-| **Total CBC Costs** | | **$2,388** |
+| **Total CBC Costs** | | **$3,753** |
 | | | |
-| **CBC Net Profit** | | **$7,587** |
-| **Net Margin (on total revenue)** | | **19.0%** |
-| **CBC Gross Margin (on 25% slice)** | | **76.1%** |
+| **CBC Net Profit** | | **$6,222** |
+| **Net Margin (on total revenue)** | | **15.6%** |
+| **CBC Gross Margin (on 25% slice)** | | **62.4%** |
 
-*Note: Delivery is handled by the chef's team and funded within the chef's 75% revenue share. Doug assists with box prep and staging when needed at no additional client cost.*
+*Note: Chef provides box packaging at their own cost. CBC handles dietary labeling and delivery from commissary to client, funded within CBC's 25% commission. Doug assists with boxing only if needed.*
 
 ### Scenario Range
 
 | Scenario | Orders | Gross Revenue | CBC Net | Margin |
 |---|---|---|---|---|
-| Conservative | 12 | $22,800 | $3,312 | 14.5% |
-| **Base** | **21** | **$39,900** | **$7,587** | **19.0%** |
-| Optimistic | 30 | $57,000 | $11,862 | 20.8% |
+| Conservative | 12 | $22,800 | $1,947 | 8.5% |
+| **Base** | **21** | **$39,900** | **$6,222** | **15.6%** |
+| Optimistic | 30 | $57,000 | $9,497 | 16.7% |
 
 ### Monthly Revenue Scenarios (At 3-Month Mark)
 
@@ -255,13 +257,13 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | Item | Value |
 |---|---|
 | Fixed costs per month (tech + LinkedIn Nav) | $213 |
-| Variable cost per order (packaging only — delivery via chef) | ~$10 |
+| Variable cost per order (labeling + delivery — packaging via chef) | ~$75 |
 | CBC revenue per order (25% × $1,900) | ~$475 |
-| **Contribution margin per order** | **$465** |
+| **Contribution margin per order** | **$400** |
 | **Monthly break-even** | **1 order/month** |
-| **Lifetime break-even (6-month fixed costs)** | **6 orders total** |
+| **Lifetime break-even (6-month fixed costs)** | **7 orders total** |
 
-*At 6 total orders, CBC covers all fixed costs. Every order beyond 6 contributes ~$465 to profit. With ads running (months 3–6), monthly break-even remains 1 order.*
+*At 7 total orders, CBC covers all fixed costs. Every order beyond 7 contributes ~$400 to profit. With ads running (months 3–6), monthly break-even remains 1 order.*
 
 ---
 
@@ -278,7 +280,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | LinkedIn Ads (months 3–6) | +$150 | Paid awareness |
 | **Subtotal (months 3–6)** | **$284** | |
 
-*Delivery is handled by the chef's team — no cost to CBC.*
+*Delivery is handled by CBC — funded within the 25% commission.*
 
 ---
 
@@ -287,8 +289,8 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | Risk | Mitigation |
 |---|---|
 | Low lead conversion (<2%) | Increase LinkedIn ad spend; A/B test subject lines; prioritize tasting event pipeline over cold outreach |
-| Delivery reliability | Chef's team is responsible for delivery; confirm capacity per order at chef onboarding. Doug delivers as fallback if chef team is unavailable |
-| High ingredient costs | Bulk-purchase containers; negotiate farm contracts quarterly |
+| Delivery reliability | CBC handles delivery directly; Doug is primary driver. Backup delivery coordinator needed if Doug is unavailable |
+| High ingredient costs | Chef absorbs ingredient and packaging costs; negotiate farm contracts quarterly |
 | Chef cancellations | $250 cancellation fee within 7-day window; maintain at least one backup option per active cuisine type |
 | Long sales cycle (3–6 weeks) | Build pipeline aggressively in month 1 — first revenue won't arrive until month 2 regardless of outreach start date |
 | Revenue model still being validated | AOV and conversion assumptions should be reviewed at 30-day mark against actual results |

@@ -191,7 +191,7 @@ If it went well, we'd be grateful if you'd leave us a quick Google review: [Goog
 
 A couple of things that might be useful for your next event:
 
-**RECURRING CATERING ACCOUNTS** — 5% discount for weekly or bi-weekly bookings. Great for all-hands lunches or standing team meals.
+**RECURRING CATERING ACCOUNTS** — Weekly or bi-weekly standing orders with fixed pricing and rotating menus. Great for all-hands lunches or standing team meals.
 
 **JUICE & BOBA ADD-ON** — $12/pack. Popular addition for afternoon meetings.
 

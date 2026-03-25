@@ -57,7 +57,7 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 | Product launch / celebration | Company milestone, visible to leadership | Tier 2 — Attended Service |
 
 **Outreach messaging by event type:**
-- **Tier 1 lead (recurring/team meals):** Value and convenience — *"Lock in weekly catering on autopilot. Fixed per-head pricing, 5% off for standing orders, zero admin week to week."*
+- **Tier 1 lead (recurring/team meals):** Value and convenience — *"Lock in weekly catering on autopilot. Fixed per-head pricing, rotating menus, zero admin week to week."*
 - **Tier 2 lead (events that matter):** Impression and experience — *"When the CEO or a client is in the room, the food is part of the statement. Our attended service handles setup, the buffet, and cleanup — you just show up."*
 
 ---
@@ -86,9 +86,9 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 
 - ✓ Multiple specialized cuisines (Sichuan, sushi, Mexican fusion, American, and more) in one order — no more generic menus, team excitement is back
 - ✓ Every item individually labeled (vegan, GF, nut-free) — dietary incident risk eliminated
-- ✓ On-time delivery guarantee — if we're late, next order is free
+- ✓ On-time delivery guarantee — if food isn't staged and ready for your team, next order is 10% off
 - ✓ Transparent pricing — no hidden fees, no invoice surprises
-- ✓ Recurring account setup — weekly order locked in, 5% discount, zero admin every week
+- ✓ Recurring account setup — weekly order locked in, fixed pricing, zero admin every week
 - ✓ Single point of contact — one phone call, one text, one human who knows her account
 
 ### Objections & How to Handle Them
@@ -106,7 +106,7 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 > Offer a single-event trial with the 10% first-order discount. No commitment required.
 
 **"You sound like every other vendor who promised reliability — how are you actually different?"**
-> Don't respond with more claims. Respond with proof: the delivery guarantee is written into every order (late = next order free), there's a named single point of contact who knows her account, and she can text the same number at 8am the morning of an event. Offer a reference call with a client who had a vendor failure before switching to CBC.
+> Don't respond with more claims. Respond with proof: the delivery guarantee is written into every order (late = food not staged and ready for your team = 10% off your next order), there's a named single point of contact who knows her account, and she can text the same number at 8am the morning of an event. Offer a reference call with a client who had a vendor failure before switching to CBC.
 
 **"We sometimes need catering on 48 hours notice — can you actually do that?"**
 > Yes — for orders under 150 guests, CBC's minimum booking window is 48 hours. That's the answer. Confirm it directly and don't hedge.
@@ -116,7 +116,7 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 **Channel Priority: LinkedIn DM → Email → Phone**
 
 Lead with pain, not product. The hook that converts:
-> *"You've heard 'reliable' before. We back ours with a guarantee: if we're late, your next order is free."*
+> *"You've heard 'reliable' before. We back ours with a guarantee: if your food isn't staged and ready for your team, you get 10% off your next order — in writing, every order."*
 
 - **Email 1:** Reliability + dietary labeling promise — her two biggest fears
 - **Follow-up:** Real menu examples (Sichuan dim sum buffet, sushi bento boxes) to spark team excitement

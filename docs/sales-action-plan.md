@@ -151,8 +151,8 @@ Run this every weekday morning. Non-negotiable.
 **Goal:** 5 recurring weekly or bi-weekly accounts by Day 90.
 
 - After every completed order: send Email 5 (post-event thank you + recurring offer) within 48 hours
-- Call top 3 clients personally — not email. Script: *"We loved catering for your team. Have you thought about a standing weekly order? We'll lock in your rate and you'd save 5% every month."*
-- Create a 'Recurring Catering Proposal' — one-page PDF: weekly menu rotation, locked pricing, 5% discount, no cancellation fee for 30 days
+- Call top 3 clients personally — not email. Script: *"We loved catering for your team. Have you thought about a standing weekly order? We'll lock in your rate with fixed pricing and rotating menus."*
+- Create a 'Recurring Catering Proposal' — one-page PDF: weekly menu rotation, locked pricing, 90-day review clause, no cancellation fee for 30 days
 - Offer 3-month minimum — enough to build routine, low enough to feel safe
 
 ### Referral Machine
@@ -228,7 +228,7 @@ Run this every weekday morning. Non-negotiable.
 > "Hey [Name] — just checking in on the quote I sent for [Company]. Happy to adjust the menu or pricing if anything didn't fit. Should I hold that delivery slot or release it?"
 
 **Post-Event Recurring Offer:**
-> "Hi [Name]! Hope the team loved the food today. We have a recurring catering program — 5% off for weekly/bi-weekly orders. Want me to put together a standing order proposal for [Company]?"
+> "Hi [Name]! Hope the team loved the food today. We have a recurring catering program — fixed pricing, rotating menus, 90-day review clause. Want me to put together a standing order proposal for [Company]?"
 
 ---
 

@@ -16,21 +16,21 @@ CBC offers two service tiers. The same independent specialist chefs power both.
 #### Tier 1 — Premium Drop-Off
 *Best for: weekly team lunches, recurring orders, everyday team meals.*
 
-Branded packaging, chafing dishes or insulated trays, serving utensils, printed menu card, and disposable plates and napkins. Client handles setup and cleanup. No on-site CBC staff.
+Chef-provided box packaging, chafing dishes or insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC), and disposable plates and napkins. CBC delivers. Client handles setup and cleanup. No on-site CBC staff.
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
 | **Chinese (Sichuan)** | $22/person | 75 | $1,650 |
 | **Mexican Fusion** | $26/person | 100 | $2,600 |
-| **Sushi / Japanese** | $28/person | 100 | $2,800 |
+| **Sushi / Japanese** | $30/person | 50 | $1,500 |
 
 **What's included in Tier 1:**
-- ✓ Branded packaging & disposable serving ware
+- ✓ Chef-provided box packaging & disposable serving ware
 - ✓ Chafing dishes or insulated delivery trays
 - ✓ Serving utensils
-- ✓ Printed menu card with dietary key
-- ✓ Individual item dietary labeling (vegan, GF, nut-free, dairy-free)
-- ✓ Delivery by chef's team
+- ✓ Printed menu card with dietary key (CBC)
+- ✓ Individual item dietary labeling — vegan, GF, nut-free, dairy-free (CBC)
+- ✓ Delivery by CBC
 - ✗ On-site CBC staff (client sets up and cleans up)
 - ✗ Linen or upgraded station presentation
 
@@ -45,7 +45,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffe
 |---|---|---|---|
 | **Chinese (Sichuan)** | $38/person | 75 | $2,850 |
 | **Mexican Fusion** | $44/person | 100 | $4,400 |
-| **Sushi / Japanese** | $48/person | 100 | $4,800 |
+| **Sushi / Japanese** | $38/person | 50 | $1,900 |
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
 - ✓ 1–2 on-site CBC staff (setup, buffet maintenance, cleanup)
@@ -108,11 +108,11 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 ---
 
-## Recurring Account Discounts
+## Recurring Contracts
 
-| Program | Discount | Minimum Commitment |
+| Program | Details | Minimum Commitment |
 |---|---|---|
-| Weekly or bi-weekly contract | 5% off all orders | 3 months |
+| Weekly or bi-weekly contract | Fixed per-box pricing, rotating menus, 90-day review clause | 3 months |
 | First-order (new clients) | 10% off | One-time |
 
 Recurring contracts include:
@@ -120,6 +120,8 @@ Recurring contracts include:
 - Rotating multi-cuisine menu
 - 90-day review clause (no long-term lock-in)
 - Formal program proposal with quarterly cost projections available on request
+
+> **⚠️ Future addition:** A 5% recurring account discount is planned but not active at launch. Will be introduced once orders are flowing and chef agreements are confirmed. Discuss with each chef at onboarding so they're aware it's coming — the discount would be applied to the customer total first, then the 75/25 split applies to the discounted amount (both chef and CBC absorb proportionally).
 
 ---
 
@@ -129,7 +131,7 @@ Recurring contracts include:
 
 | Cuisine | Specialty Dishes | Tier 1 Price | Tier 2 Price |
 |---|---|---|---|
-| **Sushi & Japanese** | Rolls, sashimi, bento boxes, ramen, miso soup | $28/person (100-person min) | $48/person (100-person min) |
+| **Sushi & Japanese** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
 | **Chinese (Sichuan)** | Wok stir-fry, dumplings, noodles, spring rolls | $22/person (75-person min) | $38/person (75-person min) |
 | **Mexican Fusion** | Street tacos, elote, rice bowls, chips & guac | $26/person (100-person min) | $44/person (100-person min) |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
@@ -159,9 +161,11 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 **Revenue split:** 25% CBC / 75% chef — standard across all chefs. Document agreed tier(s) per chef in `docs/chef-profiles.md` once agreements are signed.
 
-**Delivery:** Chef's team is primary. Doug assists with box preparation and staging to ensure on-time delivery and quality. Delivery is funded within the chef's 75% revenue share — not a separate line item on client invoices.
+**Packaging:** Chef provides their own boxes and containers. CBC creates and applies dietary labels, prints menu cards.
 
-**Recurring account discount:** The 5% recurring discount is applied to the customer total first. The 75/25 split then applies to the discounted amount — both chef and CBC absorb the discount proportionally.
+**Delivery:** CBC delivers from commissary to client site. Doug assists with boxing only if needed (e.g., chef is behind schedule). Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
+
+**Recurring account discount (future):** A 5% recurring discount is planned but not active at launch. When introduced, it will be applied to the customer total first, then the 75/25 split applies to the discounted amount — both chef and CBC absorb proportionally.
 
 **Payment terms:** Net 30 from service date.
 
@@ -183,7 +187,7 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Trigger | Upsell |
 |---|---|
-| First event booked | Offer recurring contract + 5% discount |
+| First event booked | Offer recurring contract (fixed pricing, rotating menus) |
 | Large event (200+ guests) | Add second cuisine + Chef's Table |
 | HR/People Ops buyer | ESG package (carbon offset + sustainability summary) |
 | Any order | Juice & Boba bundle at checkout |

@@ -52,7 +52,7 @@ Hi [First Name],
 
 Here's the thing about corporate catering in the Bay Area: every vendor calls themselves reliable — right up until the food shows up wrong at a 120-person all-hands.
 
-Culinary Block Collective is different in one specific way: our on-time delivery guarantee is in writing. **If we're late, your next order is free.**
+Culinary Block Collective is different in one specific way: our on-time delivery guarantee is in writing. **If your food isn't staged and ready for your team at the agreed time, your next order is automatically 10% off.**
 
 We're a San Jose-based catering operation built around independent specialist chefs — each one trained in their cuisine specifically, not a generalist covering every station. Your team gets sushi from a sushi chef, Sichuan from a Sichuan chef. Food people actually get excited about.
 
@@ -137,7 +137,7 @@ We work with People Ops and HR leaders at Bay Area tech companies to build recur
 - Every item individually labeled (vegan, GF, nut-free, dairy-free) — zero allergy incidents
 - Fixed per-head pricing for clean quarterly budget forecasting — no invoice variation
 - Scales from 100 to 300 guests as your team grows
-- On-time delivery guaranteed in writing — if we're late, your next order is free
+- On-time delivery guaranteed in writing — if food isn't staged and ready for your team, your next order is 10% off
 - 90-day review clause on all recurring contracts — no long-term lock-in pressure
 
 I can send a formal program overview with quarterly cost projections — formatted for leadership or procurement review — or we can start with a free tasting, framed as a culture experience for your team, not a sales demo.
@@ -195,12 +195,12 @@ These are the claims that convert. Use them specifically, not vaguely:
 
 | Claim | How to say it |
 |---|---|
-| Delivery guarantee | "If we're late, your next order is free — that's in writing on every order." |
+| Delivery guarantee | "If your food isn't staged and ready for your team at the agreed time, your next order is 10% off — that's in writing on every order." |
 | Specialist chefs | "A sushi chef who only makes sushi. A Sichuan chef who only makes Sichuan." |
 | 48-hour booking | "Under 150 guests, we can turn around an order in 48 hours." |
 | Dietary labeling | "Every individual item labeled — not just 'vegan option available.'" |
 | Pricing | "$20–$30/person all-in — delivery, setup, and labeling included. No hidden fees." |
 | Minimum | "We start at 50 guests — no forcing you to overbuy." |
 | Single contact | "Text the same number before, during, and after every event." |
-| Recurring discount | "5% off all orders on a weekly or bi-weekly standing order." |
+| Recurring contracts | "Fixed pricing and rotating menus on a weekly or bi-weekly standing order." |
 | First-order offer | "10% off your first order for new corporate accounts." |

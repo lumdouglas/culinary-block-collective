@@ -44,7 +44,7 @@
 **Subheadline:**
 > CBC brings together the Bay Area's independent chef community — each chef a specialist
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
-> On-time guaranteed or your next order is free. Full dietary labeling. $20–$30/box. 50–300 guests.
+> Food staged and ready for your team — guaranteed. Full dietary labeling. $20–$30/box. 50–300 guests.
 
 **Primary CTA:** `📞 Call to Book  (408) 555-0192`
 **Secondary CTA:** `💬 Text Us a Menu Request`
@@ -55,7 +55,7 @@
 
 ## Social Proof Strip
 
-> Trusted by tech teams across Silicon Valley · **On-time delivery or your next order is free** · Every item individually labeled for dietary needs
+> Trusted by tech teams across Silicon Valley · **Food staged and ready for your team — or 10% off your next order** · Every item individually labeled for dietary needs
 
 ---
 
@@ -98,7 +98,7 @@
 | | **Tier 1 — Premium Drop-Off** | **Tier 2 — Attended Service** |
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
-| **What's included** | Branded packaging, chafing dishes, serving utensils, printed menu card, dietary labels, delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, buffet maintenance, and cleanup |
+| **What's included** | Chef-prepared packaging, chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, buffet maintenance, and cleanup |
 | **Starting price** | From $22/person | From $38/person |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
@@ -136,12 +136,12 @@
 
 | Icon | Title | Body |
 |---|---|---|
-| ⏱️ | On-Time Delivery Guarantee | If we're late, your next order is on us. Our chefs confirm delivery status before every event — no last-minute surprises. |
+| ⏱️ | On-Time Delivery Guarantee | Your order will be staged and ready for your team at the agreed time. If it's not, your next order is automatically 10% off — no questions asked. |
 | 🏷️ | Individual Dietary Labeling | Every item labeled — vegan, gluten-free, nut-free, dairy-free. Zero dietary complaints, guaranteed. |
 | 🌱 | Eco-First Packaging | BPI-certified compostable containers. Carbon offsetting available. Great for your company's ESG goals. |
 | 💰 | No Hidden Fees | What you see is what you pay. No service surprises, no delivery gotchas. Transparent invoicing always. |
 | 📞 | Real Human Support | Call or text us directly. 24-hour quote response. A dedicated coordinator on every order. |
-| 🔄 | Recurring Contracts | Weekly or bi-weekly standing orders? We love those. 5% discount for recurring accounts. |
+| 🔄 | Recurring Contracts | Weekly or bi-weekly standing orders? We love those. Fixed per-box pricing, rotating menus, 90-day review clause. |
 
 ---
 
@@ -151,7 +151,7 @@
 
 1. **Call or Text Us** — Tell us your date, guest count, dietary needs, and cuisine preferences. Takes 5 minutes.
 2. **Get Your Custom Quote** — We'll send a detailed, transparent quote within 24 hours. No guesswork. No hidden fees.
-3. **We Deliver & Wow** — Our chefs prep. We deliver on time. Every item labeled. Your team eats. You look like a hero.
+3. **We Deliver & Wow** — Our chefs prep and package. We label every item and deliver on time. Your team eats. You look like a hero.
 
 **CTA:** `📞 Call Now — (408) 555-0192`
 
@@ -166,7 +166,7 @@
 |---|---|
 | **10%** | Off Your First Order |
 | **Free** | Chef Tasting (10 slots/month) |
-| **5%** | Recurring Account Discount |
+| **🔄** | Recurring Contracts Available |
 
 **CTA:** `📞 Claim Your Offer — Call (408) 555-0192`
 
@@ -183,8 +183,7 @@
 | Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |
 | How far in advance do I need to book? | 48 hours for under 150 guests; 5+ business days for larger or custom orders. Recurring accounts need no per-event lead time. |
-| Do you offer discounts for recurring orders? | 5% off weekly/bi-weekly contracts (3-month minimum). New clients get 10% off first order. |
-| Do you offer recurring weekly contracts? | Yes — full program with fixed per-head pricing, rotating menus, 90-day review clause, 5% discount. Proposal available on request. |
+| Do you offer recurring catering contracts? | Yes — weekly or bi-weekly programs with locked per-box pricing, rotating menus, and a 90-day review clause. New clients get 10% off first order. Proposal available on request. |
 | Can you support our ESG goals? | Yes — BPI-certified compostable packaging, carbon offset add-on, sustainability summary for internal reporting. |
 
 ---

@@ -1,7 +1,7 @@
 # CBC Operations — Order Fulfillment Workflow
 
 > **Purpose:** How an order moves from first inquiry to delivery, payment, and follow-up. Reference this when coordinating events, onboarding a new chef, or troubleshooting any stage of the process.
-> **Responsibility split:** Chefs own food prep and delivery (established catering businesses with their own teams). CBC owns sales, packaging, labeling, coordination, and invoicing. Doug assists with box preparation and staging when needed to ensure on-time delivery and quality, and provides backup delivery capacity at a negotiated per-mile rate.
+> **Responsibility split:** Chefs own food prep and box packaging (established catering businesses with their own containers and supplies). CBC owns sales, dietary labeling, delivery, coordination, and invoicing. Doug assists with boxing only if needed (e.g., chef's team is running late) to ensure on-time delivery.
 
 ---
 
@@ -67,14 +67,21 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 ## Stage 3 — Booking Confirmation
 
 **Once client says yes:**
-1. Confirm in writing (text or email) — date, guest count, cuisine, delivery address, time window
-2. Collect delivery details:
+1. Collect **25% deposit** before confirming the order — deposit is required to hold the date and trigger chef assignment. No deposit = no confirmed booking.
+   - Deposit covers CBC's commission and hard costs (service kit, coordination) in the event of a late cancellation
+   - Deposit is applied to the final invoice at time of payment
+   - Communicate clearly: *"To lock in your date and get the chef scheduled, I'll send a deposit invoice for 25% — the rest is due within 24 hours after the event."*
+2. Confirm in writing (text or email) — date, guest count, cuisine, delivery address, time window, **and cancellation policy**
+3. Collect delivery details:
    - Exact address + floor/suite/building access instructions
    - Parking/loading dock info
    - Onsite contact name and phone number
    - Setup requirements (tables, serving area, etc.)
-3. Move HubSpot stage to: **Won**
-4. Create event entry — log all delivery details
+4. Move HubSpot stage to: **Won**
+5. Create event entry — log all delivery details
+
+**Cancellation policy language to include in every booking confirmation:**
+> *"A 25% deposit is required to confirm your booking — it holds your date and chef, and is applied to your final invoice. If you need to cancel more than 7 days before your event, your deposit is fully refunded. Cancellations within 7 days forfeit the deposit, but we're happy to apply it as a credit toward a future order. For cancellations within 72 hours, a fee of 50% of the total order value applies (the deposit covers the first half, and an additional 25% is invoiced). These terms protect our independent chef partners who begin purchasing ingredients and allocating kitchen time as soon as your booking is confirmed."*
 
 **Lead time requirements:**
 | Order Size | Minimum Booking Window |
@@ -101,14 +108,16 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **Chef responsibilities (per contractor agreement):**
 - Menu prep, ingredient sourcing, cooking
+- Providing box packaging (chef supplies their own containers and serving ware)
 - Maintaining food safety logs and temperature control
-- Handing off food at commissary at agreed time in proper containers
-- Following CBC's labeling and packaging standards
+- Handing off boxed food at commissary at agreed time, ready for labeling and delivery
 
 **CBC responsibilities:**
-- Packaging into compostable containers (WebstaurantStore, ~$0.02/unit)
-- Applying individual dietary labels to every item
-- Coordinating delivery with the chef's team — confirming handoff time, delivery window, and on-site contact details
+- Creating and applying individual dietary labels to every item
+- Printing menu cards and dietary breakdown sheets
+- Delivering food from commissary to client site within the confirmed delivery window
+- Coordinating delivery logistics — confirming delivery window, route, and on-site contact details
+- Assisting with boxing only if needed (e.g., chef's team is running late or behind schedule)
 - On-site setup if included in the quote
 
 **⚠️ Chef cancellation policy:** If a chef cancels within 7 days of a confirmed order, they owe CBC a $250 fee. Maintain at least one backup option per cuisine type in case of cancellation.
@@ -122,41 +131,47 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 **CBC ops checklist (day before or morning of event):**
 
 - [ ] Confirm chef is on track — brief check-in text
+- [ ] Confirm chef's boxes/packaging are ready and sufficient for order size
 - [ ] Confirm delivery address and access details with onsite contact
-- [ ] Confirm delivery window, route, and driver with chef's team
-- [ ] Compostable containers and packaging materials are stocked
+- [ ] Confirm delivery route and timing — CBC delivers
 - [ ] Label stock is ready (vegan, GF, nut-free, dairy-free labels)
-- [ ] Delivery coordinator is briefed on event details
+- [ ] Printed menu card and dietary breakdown sheet are prepared
+- [ ] Delivery vehicle and coordinator are briefed on event details
 
-**Packaging standards (non-negotiable):**
-- Every individual item gets a dietary label
-- No unlabeled items leave the kitchen — zero exceptions
-- BPI-certified compostable containers only
-- Branded napkins included (if premium packaging was ordered)
+**Labeling standards (non-negotiable — CBC responsibility):**
+- Every individual item gets a dietary label (applied by CBC after chef handoff)
+- No unlabeled items leave the commissary — zero exceptions
 - Full dietary breakdown sheet included with every order (one sheet listing all items + their labels)
+
+**Packaging standards (chef responsibility):**
+- Chef provides their own boxes, containers, and serving ware
+- Packaging must be food-safe and presentable for corporate clients
+- Branded napkins included (if premium packaging was ordered as an add-on)
 
 ---
 
 ## Stage 6 — Delivery
 
-**Delivery method:** Chef's team. The chefs operating through Culinary Block are established catering business owners with their own delivery teams and existing commercial delivery operations. Delivery terms are confirmed with each chef at onboarding and documented in their contractor agreement.
+**Delivery method:** CBC (Doug or CBC delivery coordinator). CBC picks up labeled, boxed food from the commissary and delivers to the client site. This gives CBC full control over the client experience from kitchen to door.
 
-**Doug's role:** Box preparation and staging assistance when needed to ensure on-time delivery and quality. Coordination oversight on every order. Available as backup delivery driver at a negotiated per-mile rate when the chef's team is unavailable or needs support.
+**Doug's role:** Primary delivery coordinator. Applies labels at the commissary, loads the vehicle, and delivers. Assists with boxing only if needed (e.g., chef's team is behind schedule). Coordination oversight on every order.
 
-**Chef delivery responsibilities (per delivery SOP — see Chef Delivery Protocol below):**
-- Transport food from commissary to client site within the confirmed delivery window
-- Maintain safe food temperature from kitchen to handoff
+**CBC delivery responsibilities (per delivery SOP — see Delivery Protocol below):**
+- Pick up boxed food from chef at commissary at the agreed handoff time
+- Apply dietary labels and include menu card / dietary breakdown sheet
+- Transport food to client site within the confirmed delivery window
+- Maintain safe food temperature from commissary to client
 - Count all boxes against the order before loading — no short deliveries
 - Confirm arrival and setup with the on-site contact
-- Report any delays or issues to Doug immediately — never let the client find out first
+- Report any delays or issues to the client proactively — never let them find out on their own
 
-**Doug's coordination responsibilities:**
-- Confirm delivery window, route, and driver with chef's team the day before
-- Be reachable by phone throughout the delivery window
-- Serve as the client-facing point of contact for any day-of questions
-- Confirm delivery completion with the on-site contact after handoff
+**Chef's handoff responsibilities:**
+- Have all food boxed in their own packaging and ready at the agreed handoff time
+- Maintain safe food temperature from kitchen through handoff
+- Provide a manifest of all items and quantities for label matching
+- Alert Doug immediately if they will be late on handoff — CBC may need to assist with boxing
 
-**On-time delivery guarantee:** If delivery arrives outside the confirmed window, the client's next order is free. Log any late delivery immediately in HubSpot with reason.
+**On-time delivery guarantee:** "Late" is defined as the order not being staged and ready for the client's team at the agreed service time. If that occurs, the client automatically receives 10% off their next order. Log any late delivery immediately in HubSpot with reason.
 
 **If something goes wrong day-of:**
 - Wrong item or missing box: Call the chef immediately, assess if a replacement can be made
@@ -172,7 +187,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 2. Text the client: *"Hope the team loved the food — any feedback for us?"*
 3. Request a Google review: *"Would you mind leaving us a quick Google review? Here's the link: [link]"*
 4. If feedback is positive: pitch recurring contract immediately
-   - *"We have a standing order program — 5% off weekly or bi-weekly bookings. Want me to put together a proposal?"*
+   - *"We have a standing order program — fixed per-box pricing, rotating menus, 90-day review clause. Want me to put together a proposal?"*
 5. Log all feedback in HubSpot notes
 
 **NPS / satisfaction signals to watch:**
@@ -199,33 +214,35 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 ---
 
-## Chef Delivery Protocol
+## CBC Delivery Protocol
 
-> **Purpose:** Standard operating procedures for every chef delivering a CBC order. These are the minimum requirements that protect the on-time delivery guarantee and the CBC brand. Doug reviews this with each chef at onboarding and enforces it on every order.
+> **Purpose:** Standard operating procedures for every CBC delivery. These are the minimum requirements that protect the on-time delivery guarantee and the CBC brand. Doug reviews the chef handoff expectations with each chef at onboarding.
 
-### Pre-Delivery (Day Before)
-- [ ] Confirm delivery window with Doug by end of day
-- [ ] Confirm driver name and contact number with Doug
-- [ ] Confirm vehicle capacity is sufficient for the order size
-- [ ] Review delivery address, floor/suite, parking, and loading dock details
+### Chef Handoff (Day Before)
+- [ ] Chef confirms food will be boxed and ready at the agreed handoff time
+- [ ] Chef confirms item count and manifest for label matching
+- [ ] Doug confirms delivery route, vehicle capacity, and timing
 
-### Day of Delivery
+### Chef Handoff (Day Of)
+- [ ] Chef has all food boxed in their own packaging and ready at handoff time
+- [ ] Chef provides manifest of all items and quantities
+- [ ] If chef is running late on boxing: Doug assists with boxing to protect the delivery window
+
+### CBC Delivery (Day Of)
+- [ ] Apply dietary labels to every item at the commissary
+- [ ] Include printed menu card and full dietary breakdown sheet
 - [ ] Count all boxes against the order manifest before loading — short deliveries are not acceptable
-- [ ] Confirm all items are labeled and the full dietary breakdown sheet is included
 - [ ] Depart with enough time to arrive **15 minutes before** the confirmed delivery window
-- [ ] Text Doug when the vehicle is loaded and en route: *"[Order name] loaded, en route, ETA [time]"*
-- [ ] Text Doug when food is handed off to the on-site contact: *"[Order name] delivered and confirmed at [time]"*
+- [ ] Text/confirm with on-site contact when en route with ETA
+- [ ] Confirm delivery and handoff with on-site contact upon arrival
 
 ### If Something Goes Wrong
-- **Running late:** Call Doug immediately — not after arrival. Doug contacts the client proactively. Never let the client find out on their own.
-- **Access issue (parking, loading dock, locked entrance):** Call the on-site contact first, then text Doug.
-- **Missing or damaged item:** Call Doug immediately. Doug assesses whether a replacement is possible and communicates with the client.
+- **Chef handoff late:** Doug assists with boxing if feasible. If the delay threatens the delivery window, call the client proactively with an updated ETA.
+- **Access issue (parking, loading dock, locked entrance):** Call the on-site contact first.
+- **Missing or damaged item:** Assess whether a replacement can be sourced from the chef. Communicate with the client immediately.
 
-### On-Time Guarantee — Chef's Responsibility
-The CBC on-time delivery guarantee (late = client's next order free) is backed by the chef's delivery. A late delivery triggered by the chef's team may be factored into future order negotiations. Doug will discuss any delivery failures directly with the chef within 24 hours.
-
-### Doug's Backup Delivery Rate
-If Doug delivers on behalf of or in support of the chef's team, a per-mile delivery fee is charged to the order at a rate negotiated with the chef at onboarding. This rate is documented in the contractor agreement.
+### On-Time Guarantee
+The CBC on-time delivery guarantee (late = order not staged and ready for the client's team at the agreed time → client receives 10% off next order) is backed by CBC's delivery. A late chef handoff that causes a late delivery will be discussed directly with the chef within 24 hours and may be factored into future order negotiations.
 
 ---
 
@@ -241,8 +258,8 @@ If Doug delivers on behalf of or in support of the chef's team, a per-mile deliv
 
 **Weekly recurring rhythm (CBC side):**
 - Monday: Confirm this week's order is on track with chef
-- Day before: Packaging and labeling prep
-- Delivery day: Standard delivery flow
+- Day before: Labeling prep (labels, menu card, dietary breakdown sheet)
+- Delivery day: Pick up from chef, label, deliver — standard delivery flow
 - Post-delivery: Quick text check-in with client
 
 ---
@@ -260,13 +277,13 @@ If Doug delivers on behalf of or in support of the chef's team, a per-mile deliv
 ### Prep (Day Before)
 - [ ] Confirm which 2–3 cuisines are featured (coordinate with available chefs for that day)
 - [ ] Chef prepares 3–4 dishes per cuisine, 2–4 portions each — at-cost basis
-- [ ] Package in CBC standard compostable containers
+- [ ] Chef packages in their own containers (same as full orders)
 - [ ] Label every item individually (dietary labels — same standard as full orders)
 - [ ] Assemble printed menu card + "how to order" insert
 - [ ] Apply CBC branded sticker to box lid — use tamper-evident placement if box form factor supports it
 
 ### Delivery
-- Delivered by Doug or chef's team within the confirmed time window
+- Delivered by CBC (Doug) within the confirmed time window
 - Delivery zone: South Bay / Peninsula (same as full orders)
 - Treat it like a real order — on-time, professional, no exceptions
 
@@ -283,14 +300,44 @@ If Doug delivers on behalf of or in support of the chef's team, a per-mile deliv
 
 ## Cancellation & Change Policy
 
+### Client Cancellation
+
+| Window | Penalty | Deposit Treatment | Reason |
+|---|---|---|---|
+| 7+ days before event | No fee | Deposit fully refunded | Chef hasn't ordered ingredients yet; slot can be rebooked |
+| Within 7 days (but more than 72 hours) | Forfeit 25% deposit | Deposit forfeited — OR applied as credit toward a future order (client's choice) | Chef may have begun planning; deposit covers CBC's coordination costs |
+| Within 72 hours | 50% of total order value | Deposit (25%) retained by CBC + additional 25% invoiced (goes to chef for food costs) | Chef has purchased ingredients and prepped; loss is unrecoverable |
+
+**Penalty split — client cancellations:**
+> The 25% deposit equals CBC's full commission on the order. For 7-day cancellations, **CBC keeps the deposit** (or applies it as credit to a future order at the client's request) — the chef receives nothing but also owes nothing. For 72-hour cancellations, the total fee is 50% of the order value: **CBC retains the 25% deposit** to cover lost commission and coordination costs, and the **additional 25% invoiced goes directly to the chef** to cover food and ingredient costs already incurred. This structure ensures the chef is compensated for real prep work while CBC covers its operational losses.
+
+### Chef Cancellation
+
+| Window | Penalty | CBC Response |
+|---|---|---|
+| 7+ days before event | No fee | Find replacement chef; rebook slot |
+| Within 7 days of confirmed order | $250 fee owed to CBC | Execute Chef Cancellation Response Protocol (below) |
+
+**⚠️ Chef Cancellation Response Protocol:**
+When a chef cancels within 7 days, execute in this priority order:
+
+1. **Don't tell the client yet** — assess options first (target: resolution within 2 hours)
+2. **Step 1 — Find a replacement within the commissary.** Contact other CBC chefs or Culinary Block tenants who can cover the cuisine and volume with the available lead time. This is the best outcome — same collective, minimal client disruption.
+3. **Step 2 — Offer a cuisine substitution.** If same-cuisine replacement isn't available, identify the best available alternative and call the client: *"We have a situation on our end — Chef [X] is unavailable. We can offer [Alternative Cuisine] from Chef [Y] at the same price, or we can reschedule. Which works better for you?"* Frame it as a proactive solution, not an apology.
+4. **Step 3 — Source externally.** If no internal replacement exists, identify a reliable external caterer who can fulfill the order. Doug absorbs any margin hit — the client price does not change. Use sparingly; this erodes the CBC brand premise.
+5. **Step 4 — Reschedule.** Offer to move the event date if the client has flexibility. Offer a 10% discount on the rescheduled order as goodwill.
+6. **Step 5 — Cancel with full refund + compensation.** Last resort. Full deposit refund + a credit equal to 10% of the order toward a future booking. Log in HubSpot. Follow up within 48 hours.
+
+> **Rule:** The client should never feel like the cancellation is their problem. Doug owns the resolution — not the chef, not the client.
+
+### Other Change Scenarios
+
 | Scenario | Policy |
 |---|---|
-| Client cancels 5+ business days before event | [TBD — define and add to contracts] |
-| Client cancels under 5 business days | [TBD — define and add to contracts] |
-| Client reduces guest count | Adjust invoice; check if still above chef's 50-box minimum |
-| Chef cancels 7+ days before event | Find replacement; no fee |
-| Chef cancels within 7 days of confirmed order | $250 cancellation fee owed to CBC |
-| CBC cancels (rare) | Full refund + credit toward future order |
+| Client reduces guest count (5+ days out) | Adjust invoice; confirm still above chef's minimum box count |
+| Client reduces guest count (under 5 days) | Invoice at original count if chef has already purchased for that quantity |
+| Client changes cuisine (5+ days out) | Accommodate if available chef can fulfill; no fee |
+| CBC cancels (rare — weather, emergency) | Full deposit refund + 15% credit toward future order |
 
 ---
 
@@ -314,9 +361,9 @@ Every order must meet:
 | Client inbound | (408) 555-0192 · hello@culinaryblockcollective.com |
 | CRM / pipeline | HubSpot (free) — stages: New Lead → Contacted → Quote Sent → Won → Recurring |
 | Quote generation | `/quote` command (cbc-sales plugin) or manual |
-| Delivery | Chef's team (primary) · Doug — coordination oversight + backup delivery at negotiated per-mile rate |
+| Delivery | CBC (Doug or CBC coordinator) — picks up from commissary, labels, and delivers to client |
 | Delivery tracking | Trello delivery checklist (day-of) |
-| Packaging supplier | WebstaurantStore (~$0.02/container) |
+| Packaging | Chef provides their own boxes/containers · CBC provides dietary labels and menu cards |
 | Chef profiles & contacts | `docs/chef-profiles.md` |
 | Pricing reference | `docs/menu-pricing.md` |
 | Email templates | `docs/email-outreach.md` |

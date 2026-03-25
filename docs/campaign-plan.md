@@ -120,7 +120,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 |---|---|---|
 | 10% First-Order Discount | Applied to first order of 100+ guests | Valid for bookings by September 30, 2026 |
 | Tasting Package Drop-Off | 2–3 cuisines delivered to client's office; fee applied as credit toward first full order | Scheduled days only — limited slots |
-| Recurring Account Bonus | 5% monthly discount for weekly/bi-weekly contracts | 3-month minimum |
+| Recurring Contracts | Weekly/bi-weekly standing orders with fixed pricing, rotating menus, 90-day review | 3-month minimum |
 
 ### 4.4 Upselling
 - Juice & Boba Bundles: $12/pack — at checkout and in follow-up emails

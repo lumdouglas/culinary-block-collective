@@ -97,7 +97,7 @@ If it makes sense, we sign a simple contractor agreement and I start sending you
 Sales, ops, branding, coordination, and logistics aren't free. Most distributors and brokers take 30–40%. I'm taking 25% and doing substantially more work than a distributor — I'm building the client relationships, handling every touchpoint, and guaranteeing you get paid.
 
 **"What if an order gets cancelled?"**
-Working on a cancellation policy — I'll share the draft before we sign anything. My goal is to protect your prep time.
+We have a clear policy. If a client cancels 7+ days out, no impact to you. Within 7 days, CBC keeps the deposit — you owe nothing. Within 72 hours, you receive 25% of the order value to cover food costs. Your prep time has real value and the policy protects it.
 
 **"What if the client has dietary requirements or wants customizations?"**
 I handle that conversation. If it's outside what you offer, we decline or route to another chef. You never get a surprise requirement day-of.
