@@ -59,9 +59,9 @@ She books catering 6–12 times per year for recurring events (monthly all-hands
 
 - ✓ 5 specialized chef cuisines in one order — no more generic menus, team excitement is back
 - ✓ Every item individually labeled (vegan, GF, nut-free) — dietary incident risk eliminated
-- ✓ On-time delivery guarantee — if we're late, next order is free
+- ✓ On-time delivery guarantee — if food isn't staged and ready for your team, next order is 10% off
 - ✓ Transparent pricing — no hidden fees, no invoice surprises
-- ✓ Recurring account setup — weekly order locked in, 5% discount, zero admin every week
+- ✓ Recurring account setup — weekly order locked in, fixed pricing, zero admin every week
 - ✓ Single point of contact — one phone call, one text, one human who knows her account
 
 ### Objections & How to Handle Them
