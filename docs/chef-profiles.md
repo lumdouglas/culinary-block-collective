@@ -16,16 +16,18 @@
 
 ## Chef 1 — Unique Cuisine Sushi
 
+> **Positioning note:** Unique is positioned as a Premium/add-on partner. Do not lead with Unique in standard outreach — feature as a premium sushi option or third cuisine for mix-and-match events.
+
 ### Identity
 | Field | Detail |
 |---|---|
 | **Name** | Unique Cuisine Sushi |
 | **Cuisine** | Sushi & Japanese |
-| **Service Format** | Buffet only (no individual boxes) |
+| **Service Format** | Spread format only (no individual boxes) |
 | **Menu** | Rice · Chicken teriyaki · Tofu teriyaki · Edamame · Chicken gyoza · Vegetable gyoza · 4-piece assorted sushi (CA roll, spicy tuna roll, shrimp tempura roll, avocado cucumber roll) |
-| **Tier 1 Price** | $30/person · Chef $22.50 · CBC $7.50 |
-| **Tier 2 Price** | $38/person · Chef $22.50 (food only) · CBC retains staffing premium + $7.50 commission |
-| **Min Order** | 50 guests / $1,500 |
+| **Premium Tier** | $40/person · Chef $32 (80%) · CBC $8 (20%) · 50-person min · max 500 guests · Spread format only |
+| **Attended Service** | $48/person (Premium + $8/person for CBC on-site staff) |
+| **Min Order** | 50 guests / $2,000 |
 | **Max Capacity** | 500 guests |
 | **Time at Commissary** | [TBD] |
 
@@ -136,7 +138,7 @@
 
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
-| Sushi / Japanese | Unique Cuisine Sushi | Buffet only · $30/person T1 · $38/person T2 · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
+| Sushi / Japanese | Unique Cuisine Sushi | Premium tier only ($40/person) · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · Attended Service: $48/person · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
 | [Cuisine 2] | [Chef name] | [Notes] |
 | [Cuisine 3] | [Chef name] | [Notes] |
 | Large event 200+ | [Chef name(s)] | [Who can scale, who has a 75-box minimum, etc.] |

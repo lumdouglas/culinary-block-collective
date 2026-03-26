@@ -194,7 +194,7 @@ Run this every weekday morning. Non-negotiable.
 2. "How many people are you expecting?"
 3. "Do you have a date in mind, or are you still planning?"
 4. "Any dietary restrictions I should know about — vegan, gluten-free, allergies?"
-5. "What's your rough budget per person — are you thinking box lunches or a full buffet spread?"
+5. "What's your rough budget per person — are you thinking box lunches or a full self-serve spread?"
 
 **The Close:**
 > "Perfect — based on what you've told me, I'd recommend [OPTION]. That comes out to about $[PRICE] total for [GUEST COUNT] guests. I can hold a delivery slot for you if you want to move forward today — what do you think?"

@@ -280,7 +280,7 @@ nav{background:var(--g-dark);display:flex;align-items:center;justify-content:spa
           </div>
           <div class="menu-option" id="fmt-buf" onclick="selectFormat('buffet')" style="padding:10px;text-align:center">
             <div style="font-size:1.2rem">🍽️</div>
-            <div style="font-weight:700;font-size:.85rem;margin-top:4px">Buffet Tray</div>
+            <div style="font-weight:700;font-size:.85rem;margin-top:4px">Chef's Spread Tray</div>
             <div style="font-size:.72rem;color:var(--muted)">Shared family style</div>
           </div>
         </div>
@@ -597,7 +597,7 @@ function updateSummary() {
       tierLabel=`Box Lunch · ${selectedTier.charAt(0).toUpperCase()+selectedTier.slice(1)}`;
       ppRange=TIER_PRICES[selectedTier];
     } else if(selectedFormat==='buffet' && selectedSize) {
-      tierLabel=`Buffet · ${SIZE_NAMES[selectedSize]}`;
+      tierLabel=`Chef's Spread · ${SIZE_NAMES[selectedSize]}`;
       ppRange=SIZE_PRICES[selectedSize];
     }
     document.getElementById('sum-tier').textContent=tierLabel;

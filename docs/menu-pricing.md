@@ -13,10 +13,10 @@ CBC offers two service tiers. The same independent specialist chefs power both.
 
 ---
 
-#### Tier 1 — Drop-Off Buffet
+#### Tier 1 — Drop-Off Spread
 *Best for: weekly team lunches, recurring orders, everyday team meals.*
 
-Chef sets up a full buffet with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), and dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff. **Buffet service only — no individual box meals.**
+Chef sets up a full Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), and dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff. Prepared for your guest count, self-serve style. **Spread format only — no individual box meals.**
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
@@ -25,7 +25,7 @@ Chef sets up a full buffet with chafing dishes, insulated trays, serving utensil
 | **Sushi / Japanese (Unique)** | $30/person | 50 | $1,500 |
 
 **What's included in Tier 1:**
-- ✓ Full buffet with chafing dishes & serving ware
+- ✓ Full Chef's Spread with chafing dishes & serving ware
 - ✓ Serving utensils
 - ✓ Printed menu card with dietary key (CBC)
 - ✓ Individual item dietary labeling — vegan, GF, nut-free, dairy-free (CBC)
@@ -35,10 +35,30 @@ Chef sets up a full buffet with chafing dishes, insulated trays, serving utensil
 
 ---
 
+---
+
+#### Premium Tier — Drop-Off Spread
+*For events where the food is the centerpiece. $40/person.*
+
+Full Chef's Spread with premium proteins or expanded sushi selection. Prepared for your guest count, self-serve style. Same Drop-Off format as Tier 1 but elevated ingredients.
+
+| Chef | Offering | Min. Guests | Min. Order |
+|---|---|---|---|
+| **Five Course · Chef John** | Premium proteins — wagyu beef, whole fish, jumbo shrimp, seasonal market cuts. Full five-course spread. | 50 | $2,000 |
+| **Unique Cuisine · Sushi** | Full sushi spread — expanded roll selection, teriyaki mains, gyoza, edamame, rice. | 50 | $2,000 |
+
+**Commission notes:**
+- Five Course: 25% standard. Chef gets $30/person, CBC gets $10/person.
+- Unique Cuisine: 20% agreed. Chef gets $32/person, CBC gets $8/person.
+
+**Attended Service on Premium:** +$8/person = $48/person total.
+
+---
+
 #### Tier 2 — Attended Service
 *Best for: client-facing events, all-hands meetings, onboarding days, milestone celebrations.*
 
-Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffet, and clean up. Proper linen and labeled stations.
+Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the stations, and clean up. Proper linen and labeled stations.
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
@@ -47,7 +67,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffe
 | **Sushi / Japanese (Unique)** | $38/person | 50 | $1,900 |
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
-- ✓ 1–2 on-site CBC staff (setup, buffet maintenance, cleanup)
+- ✓ 1–2 on-site CBC staff (setup, station maintenance, cleanup)
 - ✓ Proper linen and labeled stations
 - ✓ Elevated presentation and event floor management
 
@@ -102,7 +122,7 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 | Organic Ingredient Tier | +15% on food cost | "Clean eating" positioning |
 | Carbon Offset | $50/event | ESG-reportable; vendor sustainability summary provided |
 | Chef's Table / Live Station | +$150/event | On-site chef for VIP events |
-| Buffet Setup Coordinator | $100–$150/event | On-site coordination for large events |
+| Station Setup Coordinator | $100–$150/event | On-site coordination for large events |
 | Premium Utensils | +$2/person | |
 
 ---
@@ -128,11 +148,11 @@ Recurring contracts include:
 
 > **Note:** The roster changes as chef-tenants rotate through the Culinary Block commissary. Update this section as chefs join or leave. The numbers below reflect current active chefs and their customer-facing price ranges.
 
-| Cuisine | Specialty Dishes | Tier 1 Price | Tier 2 Price |
+| Cuisine | Specialty Dishes | Standard Drop-Off Price | Attended Service Price |
 |---|---|---|---|
-| **Sushi & Japanese** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
+| **Sushi & Japanese (Unique)** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $40/person Premium · 50-person min ($2,000) · max 500 guests · Spread format only | $48/person · 50-person min ($2,400) · CBC-staffed · 2 staff for 100–200 guests |
 | **Chinese · Kivi** | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person · 50-person min | $33–$38/person · 50-person min |
-| **Mexican Fusion · Five Course** | Modern moles, wood-fire proteins, salsas, sides, dessert | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) |
+| **Mexican Fusion · Five Course** | Modern moles, wood-fire proteins, salsas, sides, dessert | $30/person Standard · $40/person Premium · 50-person min ($1,500–$2,000) · max 500 guests | $38/person Standard · $48/person Premium · 50-person min |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |
 | **Vietnamese** *(when available)* | Pho, banh mi, rice noodle bowls | TBD — confirm at booking | TBD |
@@ -146,13 +166,13 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ---
 
-## Buffet Pricing Model
+## Spread Pricing Model
 
-*All service is buffet-style. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$30/person. CBC retains 25%; chef receives 75%.*
+*All service is self-serve spread format. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$30/person (Standard) or $40/person (Premium). CBC retains 25%; chef receives 75%.*
 
 | Chef / Cuisine | T1 Client Price | Chef Payout (75%) | CBC Commission (25%) |
 |---|---|---|---|
-| **Unique · Sushi & Japanese** | $30/person | $22.50 | $7.50 |
+| **Unique · Sushi & Japanese** | $40/person (Premium) | $32 | $8 |
 | **Five Course · Mexican Fusion** | $30/person | $22.50 | $7.50 |
 | **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 | $6.25–$7.50 |
 
@@ -160,7 +180,7 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 **Revenue split:** 25% CBC / 75% chef — standard across all chefs. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
 
-**Packaging:** Chef provides their own serving ware and chafing dishes for the buffet. CBC creates and applies dietary labels, prints menu cards.
+**Packaging:** Chef provides their own serving ware and chafing dishes for the spread. CBC creates and applies dietary labels, prints menu cards.
 
 **Delivery:** CBC delivers from commissary to client site. Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
 
@@ -174,12 +194,12 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Scenario | Guests | Format | Est. Revenue |
 |---|---|---|---|
-| Engineering weekly lunch | 75–100 | Buffet · Tier 1 | $1,875–$3,000 |
-| Monthly all-hands | 150 | Buffet · Tier 1 | $3,750–$4,500 |
-| All-hands (attended) | 150 | Buffet · Tier 2 | $4,950–$5,700 |
-| VIP client event | 50–75 | Buffet · Tier 2 + Chef's Table | $1,900–$2,850 |
+| Engineering weekly lunch | 75–100 | Chef's Spread · Drop-Off | $1,875–$3,000 |
+| Monthly all-hands | 150 | Chef's Spread · Drop-Off | $3,750–$4,500 |
+| All-hands (attended) | 150 | Chef's Spread · Attended | $4,950–$5,700 |
+| VIP client event | 50–75 | Chef's Spread · Attended + Chef's Table | $1,900–$2,850 |
 | Product launch | 200 | Mix & Match (2 cuisines) | $6,000–$7,600 |
-| Recurring weekly contract | 150/week | Buffet · Tier 1 | $3,750–$4,500/week |
+| Recurring weekly contract | 150/week | Chef's Spread · Drop-Off | $3,750–$4,500/week |
 
 ---
 

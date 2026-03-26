@@ -76,7 +76,7 @@ Chef-provided box packaging, chafing dishes/insulated trays, serving utensils, p
 **Margin note:** Commission is 25%. With packaging shifted to the chef, CBC's per-order costs are significantly lower, improving margins on all order sizes.
 
 #### Tier 2 — Attended Service
-Everything in Tier 1 plus 1–2 on-site CBC staff for setup, buffet maintenance, and cleanup. Proper linen and labeled stations.
+Everything in Tier 1 plus 1–2 on-site CBC staff for setup, station maintenance, and cleanup. Proper linen and labeled stations.
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
@@ -98,7 +98,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 ### Premium Add-Ons
 - Premium Compostable Packaging upgrade: +$3/person (BPI-certified — replaces chef's standard packaging)
 - Premium utensils: $2/person
-- Buffet setup/coordinator: $100–$150/event
+- Station setup/coordinator: $100–$150/event
 - Organic ingredient tier: +15% on food cost
 - Carbon offsetting: $50/event
 - Juice & Boba bundles: $12/pack

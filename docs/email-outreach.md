@@ -115,7 +115,7 @@ Chicken tinga, roasted veggie, elote, rice, beans, chips & salsa
 **AMERICAN BBQ SPREAD — $20–25/box**
 Smoked brisket, pulled jackfruit, coleslaw, mac & cheese, cornbread
 
-**CHINESE DIM SUM BUFFET — $20–25/box**
+**CHINESE DIM SUM SPREAD — $20–25/box**
 Dumplings, mapo tofu, garlic noodles, spring rolls, steamed veggies
 
 50-box minimum per order. Mix and match cuisines available.

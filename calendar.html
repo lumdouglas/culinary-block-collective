@@ -333,7 +333,7 @@
       <select class="ctrl-select" id="ctrl-tier">
         <option value="">All Tiers</option>
         <option value="box_lunch">Box Lunch</option>
-        <option value="buffet">Buffet</option>
+        <option value="buffet">Chef's Spread</option>
         <option value="mix_match">Mix &amp; Match</option>
       </select>
     </div>
@@ -411,7 +411,7 @@ const DEFAULT_DATA = {
   ],
   tiers: [
     {id:'box_lunch',name:'Box Lunch',price_min:15,price_max:18,guest_min:100,guest_max:300,description:'Individual packaged meals.',features:['Custom grain bowls or salads','Fresh fruit & dessert','Vegan & GF options labeled','Individual eco-packaging','On-time delivery guaranteed'],is_featured:false},
-    {id:'buffet',name:'Buffet Spread',price_min:20,price_max:25,guest_min:100,guest_max:300,description:'Full buffet service.',features:['Hot mains + 3 sides','Soup or salad starter','Dessert included','Full dietary labeling','On-site coordinator option','Eco-compostable packaging'],is_featured:true},
+    {id:'buffet',name:"Chef's Spread",price_min:20,price_max:25,guest_min:100,guest_max:300,description:'Full self-serve spread, prepared for your guest count.',features:['Hot mains + 3 sides','Soup or salad starter','Dessert included','Full dietary labeling','On-site coordinator option','Eco-compostable packaging'],is_featured:true},
     {id:'mix_match',name:'Mix & Match',price_min:0,price_max:0,guest_min:150,guest_max:300,description:'Choose 2–3 cuisines.',features:['Choose 2–3 chef cuisines','Perfect for diverse teams','Live chef station option','Branded signage included','Full white-glove service'],is_featured:false},
   ],
   schedule: {},
@@ -446,7 +446,7 @@ const CUISINE_COLORS = {
   specialty: { bg: '#F0FDF4', text: '#166534', dot: '#22C55E', label: 'Specialty' },
 };
 
-const TIER_LABELS = { box_lunch: 'Box Lunch', buffet: 'Buffet', mix_match: 'Mix & Match' };
+const TIER_LABELS = { box_lunch: 'Box Lunch', buffet: "Chef's Spread", mix_match: 'Mix & Match' };
 const DIETARY_LABELS = { vegan:'🌱 Vegan', gf:'🌾 GF', nut_free:'🥜 Nut-Free', dairy_free:'🥛 Dairy-Free', halal:'☪️ Halal' };
 const DAY_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -706,7 +706,7 @@ function renderPanel(dateKey) {
   const friendlyDate = date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric', year:'numeric'});
   const cuisineList = cuisines.map(c => CUISINE_COLORS[c]?.label || c).join(', ');
   const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate}`);
-  const emailBody = encodeURIComponent(`Hi!\n\nI'd like to book catering for ${friendlyDate}.\n\nCuisine interest: ${cuisineList || 'TBD'}\nGuest count: \nTier (Box Lunch / Buffet / Mix & Match): \nDietary needs: \n\nLooking forward to hearing from you!`);
+  const emailBody = encodeURIComponent(`Hi!\n\nI'd like to book catering for ${friendlyDate}.\n\nCuisine interest: ${cuisineList || 'TBD'}\nGuest count: \nTier (Box Lunch / Chef's Spread / Mix & Match): \nDietary needs: \n\nLooking forward to hearing from you!`);
   const bookHref = `mailto:hello@culinaryblockcollective.com?subject=${emailSubject}&body=${emailBody}`;
 
   panel.innerHTML = `
@@ -717,7 +717,7 @@ function renderPanel(dateKey) {
         <select class="panel-filter-select" id="panel-tier-filter" onchange="renderPanel('${dateKey}')">
           <option value="">All Tiers</option>
           <option value="box_lunch" ${panelTier==='box_lunch'?'selected':''}>Box Lunch</option>
-          <option value="buffet" ${panelTier==='buffet'?'selected':''}>Buffet</option>
+          <option value="buffet" ${panelTier==='buffet'?'selected':''}>Chef's Spread</option>
           <option value="mix_match" ${panelTier==='mix_match'?'selected':''}>Mix &amp; Match</option>
         </select>
         <select class="panel-filter-select" id="panel-dietary-filter" onchange="renderPanel('${dateKey}')">

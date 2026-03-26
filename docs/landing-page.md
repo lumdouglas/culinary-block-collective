@@ -98,7 +98,7 @@
 | | **Tier 1 — Premium Drop-Off** | **Tier 2 — Attended Service** |
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
-| **What's included** | Chef-prepared packaging, chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, buffet maintenance, and cleanup |
+| **What's included** | Chef-prepared packaging, chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
 | **Starting price** | From $22/person | From $38/person |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
@@ -178,7 +178,7 @@
 
 | Question | Answer Summary |
 |---|---|
-| How much does corporate catering in San Jose cost? | $20–$30/person for 50–300 guests. Box lunches from $20, buffets from $24. All-in pricing including delivery — no hidden fees. |
+| How much does corporate catering in San Jose cost? | $25–$40/person for 50–500 guests. Standard drop-off spread from $25, Premium spread at $40. All-in pricing including delivery — no hidden fees. |
 | What cuisines do you offer? | Sushi & Japanese, Chinese, Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
 | Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. Food safety labels with consume-by times on all items per California food safety standards. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |

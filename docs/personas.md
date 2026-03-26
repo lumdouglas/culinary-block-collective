@@ -58,7 +58,7 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 
 **Outreach messaging by event type:**
 - **Tier 1 lead (recurring/team meals):** Value and convenience — *"Lock in weekly catering on autopilot. Fixed per-head pricing, rotating menus, zero admin week to week."*
-- **Tier 2 lead (events that matter):** Impression and experience — *"When the CEO or a client is in the room, the food is part of the statement. Our attended service handles setup, the buffet, and cleanup — you just show up."*
+- **Tier 2 lead (events that matter):** Impression and experience — *"When the CEO or a client is in the room, the food is part of the statement. Our attended service handles setup, the spread, and cleanup — you just show up."*
 
 ---
 
@@ -119,7 +119,7 @@ Lead with pain, not product. The hook that converts:
 > *"You've heard 'reliable' before. We back ours with a guarantee: if your food isn't staged and ready for your team, you get 10% off your next order — in writing, every order."*
 
 - **Email 1:** Reliability + dietary labeling promise — her two biggest fears
-- **Follow-up:** Real menu examples (Chinese dim sum buffet, sushi bento boxes) to spark team excitement
+- **Follow-up:** Real menu examples (Chinese dim sum spread, sushi spread) to spark team excitement
 - **Offer:** Free chef tasting — low-risk, high-impact
 - **Close:** Recurring account proposal — "one less thing to manage every week"
 
