@@ -54,7 +54,7 @@ Here's the thing about corporate catering in the Bay Area: every vendor calls th
 
 Culinary Block Collective is different in one specific way: our on-time delivery guarantee is in writing. **If your food isn't staged and ready for your team at the agreed time, your next order is automatically 10% off.**
 
-We're a San Jose-based catering operation built around independent specialist chefs — each one trained in their cuisine specifically, not a generalist covering every station. Your team gets sushi from a sushi chef, Sichuan from a Sichuan chef. Food people actually get excited about.
+We're a San Jose-based catering operation built around independent specialist chefs — each one trained in their cuisine specifically, not a generalist covering every station. Your team gets sushi from a sushi chef, Chinese from a Chinese chef. Food people actually get excited about.
 
 **What that means for [Company]:**
 - Multiple specialized cuisines in one seamless order — 50 to 300 guests
@@ -82,7 +82,7 @@ Culinary Block Collective | San Jose, CA
 | `[Company]` | HubSpot lead record | Use in subject + body |
 | `[First Name]` | LinkedIn / HubSpot | Always use — "Hi there" tanks open rates |
 | Guest count reference | Company size from LinkedIn | If they're 50–80 people, adjust "120-person" reference downward so it feels real |
-| Cuisine mention | Their LinkedIn or company culture page | If they post about specific cultures on their team, name a matching cuisine ("We have a Sichuan specialist on our roster — not a lot of caterers in the Bay can say that") |
+| Cuisine mention | Their LinkedIn or company culture page | If they post about specific cultures on their team, name a matching cuisine ("We have a Chinese cuisine specialist on our roster — not a lot of caterers in the Bay can say that") |
 | Pain reference | Prior vendor reviews on Google/Yelp if visible | Reference their city: "We work with a lot of teams in Mountain View" |
 
 ---
@@ -129,7 +129,7 @@ Hi [First Name],
 
 We built Culinary Block Collective to fix that.
 
-We work with People Ops and HR leaders at Bay Area tech companies to build recurring catering programs around **independent specialist chefs** — Sichuan, sushi, Mexican fusion, American comfort, and more — because a diverse team deserves food that represents them, not food built for the median palate.
+We work with People Ops and HR leaders at Bay Area tech companies to build recurring catering programs around **independent specialist chefs** — Chinese, sushi/Japanese, Mexican fusion, American comfort, and more — because a diverse team deserves food that represents them, not food built for the median palate.
 
 **What a CBC program looks like for [Company]:**
 - Multiple specialist-chef cuisines in one order — food that shows up in eNPS food satisfaction scores
@@ -196,7 +196,7 @@ These are the claims that convert. Use them specifically, not vaguely:
 | Claim | How to say it |
 |---|---|
 | Delivery guarantee | "If your food isn't staged and ready for your team at the agreed time, your next order is 10% off — that's in writing on every order." |
-| Specialist chefs | "A sushi chef who only makes sushi. A Sichuan chef who only makes Sichuan." |
+| Specialist chefs | "A sushi chef who only makes sushi. A Chinese chef who only makes Chinese." |
 | 48-hour booking | "Under 150 guests, we can turn around an order in 48 hours." |
 | Dietary labeling | "Every individual item labeled — not just 'vegan option available.'" |
 | Pricing | "$20–$30/person all-in — delivery, setup, and labeling included. No hidden fees." |

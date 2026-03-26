@@ -24,7 +24,7 @@ CBC is launching a 6-month brand awareness and sales growth campaign targeting t
 
 | Cuisine | Specialty | Price Range |
 |---|---|---|
-| Chinese (Sichuan) | Wok dishes, dumplings, stir-fry, noodles | $20–$25/box |
+| Chinese | Wok dishes, dumplings, stir-fry, noodles | $20–$25/box |
 | Sushi / Japanese | Rolls, sashimi, bento boxes, ramen | $25–$30/box |
 | Mexican Fusion | Tacos, bowls, elote, tamales | $20–$25/box |
 | American | BBQ, sandwiches, comfort classics, pub fare | $20–$25/box |

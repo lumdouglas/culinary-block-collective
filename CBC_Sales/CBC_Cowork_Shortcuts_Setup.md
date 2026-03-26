@@ -144,7 +144,7 @@ All commands already know CBC's details — no setup needed:
 | Email | hello@culinaryblockcollective.com |
 | Website | culinaryblockcollective.com |
 | Pricing | $15–$25/person · 100–300 guests |
-| Chef lineup | Sichuan · Sushi/Japanese · Mexican Fusion · American · Specialty/Seasonal |
+| Chef lineup | Chinese · Sushi/Japanese · Mexican Fusion · American · Specialty/Seasonal |
 | New client offer | 10% off first order (book by June 30, 2025) |
 | Tasting offer | Free chef tasting · 10 slots/month |
 | Recurring contracts | Weekly/bi-weekly standing orders with fixed pricing |

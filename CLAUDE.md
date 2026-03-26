@@ -4,7 +4,7 @@
 
 I'm Doug, an entrepreneur with an EE/systems background and 8 years of IP operations experience. I also run **Culinary Block LLC**, a commercial kitchen commissary in California supporting 20+ micro food businesses.
 
-**Culinary Block Collective (CBC)** is a new venture layered on top of the commissary — a corporate catering operation that connects the commissary's independent chef-tenants to Bay Area tech companies that need reliable, diverse, high-quality catering.
+**Culinary Block Collective (CBC)** is a new venture layered on top of the commissary — a corporate catering operation that connects the commissary's independent chef-tenants to Bay Area tech companies that need reliable, diverse, high-quality catering. CBC operates as **Culinary Block Collective LLC**, a separate entity fully owned by Doug.
 
 ---
 
@@ -15,9 +15,9 @@ CBC serves two distinct customer segments:
 1. **Chef Entrepreneurs / Food Business Operators** — micro food businesses and independent chefs already operating out of the Culinary Block commissary, who gain access to corporate catering gigs, professional infrastructure, and a branded sales channel they couldn't build on their own
 2. **Corporate Buyers in the Bay Area** — office managers and HR/People Ops directors at tech firms (50–300 employees) who need reliable, diverse, dietary-friendly catering
 
-**Business model:** CBC acts as the operator, retaining a **25% commission** on each order. Client-facing price is **$20–30/box** (tier depends on menu complexity). CBC charges the client; chefs receive 75% of the per-box rate. Chefs provide their own box packaging; CBC creates dietary labels and handles delivery. Two service tiers: **Tier 1 — Premium Drop-Off** (no on-site CBC staff) and **Tier 2 — Attended Service** (on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
+**Business model:** CBC acts as the operator, retaining a **25% commission** on each order. Client-facing price is **$20–30/box** (tier depends on menu complexity). CBC charges the client and collects applicable **sales tax**; chefs receive 75% of the per-box rate (sales tax is not deducted from chef payout). Chefs provide their own box packaging; CBC creates dietary labels, **food safety labels** (with consume-by times per FDA Food Code), and handles delivery. Two service tiers: **Tier 1 — Premium Drop-Off** (no on-site CBC staff) and **Tier 2 — Attended Service** (on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
-**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Sichuan, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
+**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
 
 **Client-facing price (per box):** $20–30/box. CBC commission: 25%. Chef payout: 75% of per-box price. Box tiers approximate: Budget ~$20 · Core ~$25 · Premium ~$30.
 
@@ -29,7 +29,7 @@ CBC serves two distinct customer segments:
 
 CBC operates **two service tiers**. **Commission is 25% (CBC) / 75% (chef)** — this is the standard rate across all chefs. Client price is $20–30/box depending on tier. Document confirmed rates per chef in `docs/chef-profiles.md` once agreements are signed.
 
-**Doug's operational role:** CBC (Doug) creates dietary labels and delivers food from the commissary to the client site. Doug assists with boxing only if needed (e.g., chef's team is running late). Chefs provide their own box packaging — CBC handles labeling and delivery. This is a key part of the value CBC provides to chefs — they don't have to manage sales, labeling compliance, or last-mile delivery.
+**Doug's operational role:** CBC (Doug) creates dietary labels and food safety labels (with consume-by times), collects sales tax from clients, and delivers food from the commissary to the client site. Doug assists with boxing only if needed (e.g., chef's team is running late). Chefs provide their own box packaging — CBC handles labeling, food safety compliance, sales tax, and delivery. CBC also reimburses chefs for food costs from tasting sessions. Corporate clients must acknowledge food safety labels (consume-by times) in writing before each event. This is a key part of the value CBC provides to chefs — they don't have to manage sales, labeling compliance, tax collection, or last-mile delivery.
 
 ---
 
@@ -39,7 +39,7 @@ Chef-provided box packaging, chafing dishes or insulated trays, serving utensils
 
 | Chef / Cuisine | Per-Head Price | Minimum Guests | Minimum Order |
 |---|---|---|---|
-| Chinese (Sichuan) | $22/head | 75 | $1,650 |
+| Chinese | $22/head | 75 | $1,650 |
 | Mexican Fusion | $26/head | 100 | $2,600 |
 | Sushi / Japanese | $28/head | 100 | $2,800 |
 
@@ -53,7 +53,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffe
 
 | Chef / Cuisine | Per-Head Price | Minimum Guests | Minimum Order |
 |---|---|---|---|
-| Chinese (Sichuan) | $38/head | 75 | $2,850 |
+| Chinese | $38/head | 75 | $2,850 |
 | Mexican Fusion | $44/head | 100 | $4,400 |
 | Sushi / Japanese | $48/head | 100 | $4,800 |
 

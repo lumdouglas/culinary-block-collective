@@ -64,7 +64,7 @@
 | Field | Detail |
 |---|---|
 | **Name** | [Chef's name] |
-| **Cuisine** | [e.g., Sichuan / Mexican Fusion / American BBQ] |
+| **Cuisine** | [e.g., Chinese / Mexican Fusion / American BBQ] |
 | **Signature Dishes** | [3–5 specific items] |
 | **Price Tier(s)** | [Budget $20 / Core $25 / Premium $30 (client-facing). Chef receives 75% of per-box price.] |
 | **Min Order** | [e.g., 50 boxes] |

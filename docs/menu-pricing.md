@@ -20,7 +20,7 @@ Chef-provided box packaging, chafing dishes or insulated trays, serving utensils
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese (Sichuan)** | $22/person | 75 | $1,650 |
+| **Chinese** | $22/person | 75 | $1,650 |
 | **Mexican Fusion** | $26/person | 100 | $2,600 |
 | **Sushi / Japanese** | $30/person | 50 | $1,500 |
 
@@ -43,7 +43,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffe
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese (Sichuan)** | $38/person | 75 | $2,850 |
+| **Chinese** | $38/person | 75 | $2,850 |
 | **Mexican Fusion** | $44/person | 100 | $4,400 |
 | **Sushi / Japanese** | $38/person | 50 | $1,900 |
 
@@ -132,7 +132,7 @@ Recurring contracts include:
 | Cuisine | Specialty Dishes | Tier 1 Price | Tier 2 Price |
 |---|---|---|---|
 | **Sushi & Japanese** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese (Sichuan)** | Wok stir-fry, dumplings, noodles, spring rolls | $22/person (75-person min) | $38/person (75-person min) |
+| **Chinese** | Wok stir-fry, dumplings, noodles, spring rolls | $22/person (75-person min) | $38/person (75-person min) |
 | **Mexican Fusion** | Street tacos, elote, rice bowls, chips & guac | $26/person (100-person min) | $44/person (100-person min) |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |

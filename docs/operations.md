@@ -71,7 +71,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
    - Deposit covers CBC's commission and hard costs (service kit, coordination) in the event of a late cancellation
    - Deposit is applied to the final invoice at time of payment
    - Communicate clearly: *"To lock in your date and get the chef scheduled, I'll send a deposit invoice for 25% — the rest is due within 24 hours after the event."*
-2. Confirm in writing (text or email) — date, guest count, cuisine, delivery address, time window, **and cancellation policy**
+2. Confirm in writing (text or email) — date, guest count, cuisine, delivery address, time window, **cancellation policy**, and **food safety acknowledgment** (client must confirm they will honor consume-by labels)
 3. Collect delivery details:
    - Exact address + floor/suite/building access instructions
    - Parking/loading dock info
@@ -114,11 +114,14 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **CBC responsibilities:**
 - Creating and applying individual dietary labels to every item
+- Creating and applying food safety labels with "Consume By" times (4-hour window per FDA Food Code for temperature-controlled foods held outside safe temp range)
 - Printing menu cards and dietary breakdown sheets
+- Collecting applicable sales tax from the corporate client (sales tax is CBC's responsibility — not deducted from chef payout)
 - Delivering food from commissary to client site within the confirmed delivery window
 - Coordinating delivery logistics — confirming delivery window, route, and on-site contact details
 - Assisting with boxing only if needed (e.g., chef's team is running late or behind schedule)
 - On-site setup if included in the quote
+- Reimbursing chefs for food costs from tasting sessions (chef submits itemized receipt within 7 days)
 
 **⚠️ Chef cancellation policy:** If a chef cancels within 7 days of a confirmed order, they owe CBC a $250 fee. Maintain at least one backup option per cuisine type in case of cancellation.
 
@@ -140,8 +143,13 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **Labeling standards (non-negotiable — CBC responsibility):**
 - Every individual item gets a dietary label (applied by CBC after chef handoff)
+- Every item also gets a food safety label stating: item name, date/time of preparation or packaging, and a "Consume By" time (maximum 4 hours from the time food leaves temperature control, per FDA Food Code and California food safety regulations)
 - No unlabeled items leave the commissary — zero exceptions
 - Full dietary breakdown sheet included with every order (one sheet listing all items + their labels)
+
+**Food safety label — client confirmation requirement:**
+- Before every event, the corporate client must acknowledge in writing (email or signed form) that they will: (a) communicate consume-by times to their guests, (b) discard any food not consumed by the labeled time, and (c) not hold CBC or the chef liable for food consumed after the stated consume-by time
+- This confirmation is a prerequisite for delivery — no confirmation, no delivery
 
 **Packaging standards (chef responsibility):**
 - Chef provides their own boxes, containers, and serving ware
@@ -158,7 +166,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **CBC delivery responsibilities (per delivery SOP — see Delivery Protocol below):**
 - Pick up boxed food from chef at commissary at the agreed handoff time
-- Apply dietary labels and include menu card / dietary breakdown sheet
+- Apply dietary labels and food safety labels (with consume-by times) and include menu card / dietary breakdown sheet
 - Transport food to client site within the confirmed delivery window
 - Maintain safe food temperature from commissary to client
 - Count all boxes against the order before loading — no short deliveries

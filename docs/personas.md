@@ -84,7 +84,7 @@ Sarah books for both everyday and high-stakes events. The service tier she needs
 
 ### What CBC Offers Sarah
 
-- ✓ Multiple specialized cuisines (Sichuan, sushi, Mexican fusion, American, and more) in one order — no more generic menus, team excitement is back
+- ✓ Multiple specialized cuisines (Chinese, sushi/Japanese, Mexican fusion, American, and more) in one order — no more generic menus, team excitement is back
 - ✓ Every item individually labeled (vegan, GF, nut-free) — dietary incident risk eliminated
 - ✓ On-time delivery guarantee — if food isn't staged and ready for your team, next order is 10% off
 - ✓ Transparent pricing — no hidden fees, no invoice surprises
@@ -119,7 +119,7 @@ Lead with pain, not product. The hook that converts:
 > *"You've heard 'reliable' before. We back ours with a guarantee: if your food isn't staged and ready for your team, you get 10% off your next order — in writing, every order."*
 
 - **Email 1:** Reliability + dietary labeling promise — her two biggest fears
-- **Follow-up:** Real menu examples (Sichuan dim sum buffet, sushi bento boxes) to spark team excitement
+- **Follow-up:** Real menu examples (Chinese dim sum buffet, sushi bento boxes) to spark team excitement
 - **Offer:** Free chef tasting — low-risk, high-impact
 - **Close:** Recurring account proposal — "one less thing to manage every week"
 

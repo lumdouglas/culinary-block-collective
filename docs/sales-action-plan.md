@@ -62,7 +62,7 @@ Everything in this plan serves one outcome: **consistent, growing revenue from B
 
 **Wednesday — LinkedIn DM Push**
 - Message 25 new connections directly — 2 sentences: what you do + 1 specific hook
-- *"Hi [Name] — we do diverse chef catering for tech teams in the Bay Area (sushi, Sichuan, Mexican fusion). Curious if [Company] uses external caterers for team lunches?"*
+- *"Hi [Name] — we do diverse chef catering for tech teams in the Bay Area (sushi/Japanese, Chinese, Mexican fusion). Curious if [Company] uses external caterers for team lunches?"*
 
 **Friday — Free Tasting Invite**
 - Send personal invite to the 5 most engaged prospects for the free chef tasting
@@ -211,7 +211,7 @@ Run this every weekday morning. Non-negotiable.
 
 *(Wait for yes)*
 
-> "We're a corporate catering kitchen in San Jose — we have in-house chefs, everything from sushi and Chinese to Mexican fusion and BBQ. We work with a lot of tech teams in [their city], usually for team lunches and product launches. Do you ever use outside caterers for your office events?"
+> "We're a corporate catering kitchen in San Jose — we have in-house chefs, everything from sushi/Japanese and Chinese to Mexican fusion and BBQ. We work with a lot of tech teams in [their city], usually for team lunches and product launches. Do you ever use outside caterers for your office events?"
 
 **If Yes:** "Great — what does that usually look like for you? How many people, how often?" → Go to discovery questions.
 

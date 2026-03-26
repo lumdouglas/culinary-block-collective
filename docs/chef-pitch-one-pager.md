@@ -115,7 +115,7 @@ Nothing changes. This is additive — new clients, new orders, separate from wha
 Let's talk. Find me in the kitchen or reach out directly:
 
 **Doug**
-Culinary Block LLC
+Culinary Block Collective LLC
 hello@culinaryblockcollective.com
 (408) 555-0192
 

@@ -32,7 +32,7 @@ Most corporate caterers in the Bay Area offer the same rotation of sandwiches an
 
 Our kitchen brings together specialized chefs under one roof:
 - Sushi & Japanese — rolls, bento boxes, ramen
-- Chinese (Sichuan) — wok dishes, dumplings, noodles
+- Chinese — wok dishes, dumplings, noodles
 - Mexican Fusion — street tacos, elote, rice bowls
 - American — BBQ, sliders, comfort classics
 - Specialty / Seasonal — dietary-forward, globally inspired menus
@@ -115,7 +115,7 @@ Chicken tinga, roasted veggie, elote, rice, beans, chips & salsa
 **AMERICAN BBQ SPREAD — $20–25/box**
 Smoked brisket, pulled jackfruit, coleslaw, mac & cheese, cornbread
 
-**SICHUAN DIM SUM BUFFET — $20–25/box**
+**CHINESE DIM SUM BUFFET — $20–25/box**
 Dumplings, mapo tofu, garlic noodles, spring rolls, steamed veggies
 
 50-box minimum per order. Mix and match cuisines available.
@@ -149,7 +149,7 @@ I know inboxes get busy — totally get it.
 I'm closing out my outreach to [Company] unless now is actually a better time to connect.
 
 Quick version of who we are:
-- Specialized chefs: sushi, Chinese, Mexican fusion, American, specialty
+- Specialized chefs: sushi/Japanese, Chinese, Mexican fusion, American, specialty
 - Corporate catering for 50–300 people, $20–$30/box
 - On-time delivery, labeled packaging, transparent pricing
 - Free chef tasting available for corporate accounts (10 slots/month)

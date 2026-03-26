@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–300 guests. Independent specialist chefs — sushi, Sichuan, Mexican fusion & more. On-time delivery, $20–$30/box. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
+`Fresh, diverse corporate catering for 50–300 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $20–$30/box. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -68,7 +68,7 @@
 | Chef Card | Description | Price Tag |
 |---|---|---|
 | **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Rolls, sashimi, bento boxes, and ramen made with the craft your team will taste the difference in. | $25–$30/box |
-| **Chinese (Sichuan)** | Real Sichuan technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | $20–$25/box |
+| **Chinese** | Real Chinese technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | $20–$25/box |
 | **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Street tacos, elote, rice bowls — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | $20–$25/box |
 | **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | $20–$25/box |
 | **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | $20–$30/box |
@@ -119,7 +119,7 @@
 | Icon | Title | Body |
 |---|---|---|
 | 📊 | Locked Per-Head Pricing | Weekly recurring contracts with fixed per-head rates — built for quarterly budget forecasting and procurement review. |
-| 🌍 | 5 Cuisines, One Vendor | Sushi, Sichuan, Mexican fusion, American, and seasonal global menus that reflect your workforce's diversity — not just the majority. |
+| 🌍 | 5 Cuisines, One Vendor | Sushi, Chinese, Mexican fusion, American, and seasonal global menus that reflect your workforce's diversity — not just the majority. |
 | 🌱 | ESG-Reportable | BPI-certified compostable packaging, carbon offset option, and a vendor sustainability summary ready for your internal reporting. |
 | 📈 | Scales With Your Team | Starting at 75–100 guests (varies by cuisine), scaling to 400+. Your program grows with your company without renegotiating vendor terms. |
 | 🔒 | 90-Day Review Clause | No long-term lock-in pressure. Every recurring program includes a 90-day review so you stay in control. |
@@ -179,8 +179,8 @@
 | Question | Answer Summary |
 |---|---|
 | How much does corporate catering in San Jose cost? | $20–$30/person for 50–300 guests. Box lunches from $20, buffets from $24. All-in pricing including delivery — no hidden fees. |
-| What cuisines do you offer? | Sushi & Japanese, Chinese (Sichuan), Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
-| Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. |
+| What cuisines do you offer? | Sushi & Japanese, Chinese, Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
+| Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. Food safety labels with consume-by times on all items per California food safety standards. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |
 | How far in advance do I need to book? | 48 hours for under 150 guests; 5+ business days for larger or custom orders. Recurring accounts need no per-event lead time. |
 | Do you offer recurring catering contracts? | Yes — weekly or bi-weekly programs with locked per-box pricing, rotating menus, and a 90-day review clause. New clients get 10% off first order. Proposal available on request. |

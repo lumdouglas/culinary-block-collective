@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Culinary Block Collective (CBC) is a San Jose-based corporate catering operation layered on top of the existing Culinary Block commissary kitchen. CBC leverages the commissary's roster of independent chef-tenants — specialists in sushi, Sichuan, Vietnamese, pub fare, bakery, juices, and boba — to offer premium, customizable, multi-cuisine catering to Bay Area tech companies.
+Culinary Block Collective (CBC) is a San Jose-based corporate catering operation layered on top of the existing Culinary Block commissary kitchen. CBC leverages the commissary's roster of independent chef-tenants — specialists in sushi/Japanese, Chinese, Vietnamese, pub fare, bakery, juices, and boba — to offer premium, customizable, multi-cuisine catering to Bay Area tech companies.
 
 **Target clients:** Tech startups and mid-size firms (50–300 employees) in Palo Alto, San Jose, Mountain View, and Sunnyvale.
 
@@ -67,7 +67,7 @@ Chef-provided box packaging, chafing dishes/insulated trays, serving utensils, p
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Chinese (Sichuan) | $22/person | 75 | $1,650 |
+| Chinese | $22/person | 75 | $1,650 |
 | Mexican Fusion | $26/person | 100 | $2,600 |
 | Sushi / Japanese | $28/person | 100 | $2,800 |
 
@@ -80,7 +80,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff for setup, buffet maintenance,
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Chinese (Sichuan) | $38/person | 75 | $2,850 |
+| Chinese | $38/person | 75 | $2,850 |
 | Mexican Fusion | $44/person | 100 | $4,400 |
 | Sushi / Japanese | $48/person | 100 | $4,800 |
 

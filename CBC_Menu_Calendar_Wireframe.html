@@ -205,7 +205,7 @@ nav{background:var(--g-dark);display:flex;align-items:center;justify-content:spa
     <!-- LEGEND -->
     <div class="legend">
       <span style="font-size:.75rem;font-weight:600;color:var(--g-dark);margin-right:4px">Chef Key:</span>
-      <div class="legend-item"><div class="legend-dot" style="background:#FFF0EB;border:1px solid #C0440A"></div>Sichuan</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#FFF0EB;border:1px solid #C0440A"></div>Chinese</div>
       <div class="legend-item"><div class="legend-dot" style="background:#EBF0FF;border:1px solid #2845A8"></div>Sushi/Japanese</div>
       <div class="legend-item"><div class="legend-dot" style="background:#FFF8EB;border:1px solid #9B5800"></div>Mexican Fusion</div>
       <div class="legend-item"><div class="legend-dot" style="background:#F5EBFF;border:1px solid #6B2E9B"></div>American</div>
@@ -232,7 +232,7 @@ nav{background:var(--g-dark);display:flex;align-items:center;justify-content:spa
     <!-- FILTERS -->
     <div class="filters">
       <div class="pill active" onclick="toggleFilter(this,'all')">All Chefs</div>
-      <div class="pill" onclick="toggleFilter(this,'chinese')">🥢 Sichuan</div>
+      <div class="pill" onclick="toggleFilter(this,'chinese')">🥢 Chinese</div>
       <div class="pill" onclick="toggleFilter(this,'sushi')">🍱 Sushi/Japanese</div>
       <div class="pill" onclick="toggleFilter(this,'mexican')">🌮 Mexican Fusion</div>
       <div class="pill" onclick="toggleFilter(this,'american')">🍖 American</div>
@@ -384,7 +384,7 @@ nav{background:var(--g-dark);display:flex;align-items:center;justify-content:spa
 <script>
 // ── DATA ──────────────────────────────────────────────────────────────────
 const CHEFS = {
-  chinese:   {name:"Sichuan Kitchen",   icon:"🥢", cls:"chip-chinese",  days:[1,4],   color:"#C0440A"},
+  chinese:   {name:"Kivi's Kitchen",   icon:"🥢", cls:"chip-chinese",  days:[1,4],   color:"#C0440A"},
   sushi:     {name:"Sushi & Japanese",  icon:"🍱", cls:"chip-sushi",    days:[2,5],   color:"#2845A8"},
   mexican:   {name:"Mexican Fusion",    icon:"🌮", cls:"chip-mexican",  days:[3,6],   color:"#9B5800"},
   american:  {name:"American BBQ",      icon:"🍖", cls:"chip-american", days:[4,0],   color:"#6B2E9B"},
@@ -392,7 +392,7 @@ const CHEFS = {
 };
 
 const SAMPLE_MENUS = {
-  chinese:   ["Sichuan Dan Dan Noodles","Pork & Cabbage Dumplings","Mapo Tofu","Garlic Bok Choy","Vegetable Spring Rolls"],
+  chinese:   ["Dan Dan Noodles","Pork & Cabbage Dumplings","Mapo Tofu","Garlic Bok Choy","Vegetable Spring Rolls"],
   sushi:     ["Salmon Avocado Roll","California Bento Box","Spicy Tuna Nigiri","Edamame & Miso Soup","Seasonal Sashimi Plate"],
   mexican:   ["Chicken Tinga Tacos","Elote Street Corn","Black Bean & Rice Bowl","Chips, Guac & Salsa","Horchata"],
   american:  ["Smoked Brisket Platter","Pulled Jackfruit Slider","Mac & Cheese","Coleslaw & Cornbread","Banana Pudding"],

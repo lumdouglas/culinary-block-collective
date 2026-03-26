@@ -56,7 +56,7 @@
     .hero {
       background:
         linear-gradient(135deg, rgba(27,67,50,0.85) 0%, rgba(99,102,241,0.55) 100%),
-        url('/images/sushi-platter.jpg') center/cover no-repeat;
+        url('/images/sushi-chicken-teriyaki.jpg') center/cover no-repeat;
       min-height: 480px; display: flex; align-items: center;
       padding: 64px 24px;
     }
@@ -128,7 +128,11 @@
     /* Photo strip */
     .photo-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 40px; }
     .photo-strip img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
+    .photo-strip img.photo-main { aspect-ratio: 4/3; }
     @media (max-width: 640px) { .photo-strip { grid-template-columns: repeat(2, 1fr); } }
+
+    /* Pricing badge */
+    .price-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--sushi-light); border: 1px solid var(--sushi); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--sushi); margin-bottom: 24px; }
 
     /* ── BOOK ── */
     .book-section { background: linear-gradient(135deg, #6366F1 0%, #1B4332 100%); padding: 72px 24px; text-align: center; }
@@ -164,7 +168,7 @@
   <div class="hero-inner">
     <span class="hero-label">Sushi &amp; Japanese · Independent Chef Partner</span>
     <h1>Unique Cuisine<br/><em>Billy &amp; Jaclyn Wong</em></h1>
-    <p class="hero-sub">A family-built sushi team where every member brings their own distinct talents — and everyone is proud to be part of it. Authentic Japanese for Bay Area corporate events.</p>
+    <p class="hero-sub">A family-built team serving a buffet of teriyaki, sushi rolls, gyoza, and sides — crafted fresh for Bay Area corporate events. 50–500 guests. $30/person.</p>
     <div class="hero-ctas">
       <a class="btn-primary" href="mailto:hello@culinaryblockcollective.com?subject=Book Unique Cuisine — Sushi &amp; Japanese&body=Hi! I'd like to book Unique Cuisine for corporate catering.%0A%0AEvent date: %0AGuest count: %0ASushi preferences: %0ADietary needs: %0A">Book This Team →</a>
       <a class="btn-ghost" href="#menu">View Full Menu</a>
@@ -179,10 +183,10 @@
       <div class="bio-photo-wrap">
         <img class="bio-photo" src="/images/chef-unique-cuisine.jpg" alt="Billy and Jaclyn Wong — Unique Cuisine" />
         <div class="sushi-gallery" style="margin-top:12px;">
-          <img src="/images/sushi-platter.jpg" alt="Sushi platter by Unique Cuisine" />
-          <img src="/images/sushi-rolls-closeup.jpg" alt="Sushi rolls close up" />
-          <img src="/images/sushi-boxes-crab.jpg" alt="Packaged sushi boxes" />
-          <img src="/images/sushi-salmon-scale.jpg" alt="Sushi prepared at scale" />
+          <img src="/images/sushi-tofu-teriyaki.jpg" alt="Tofu teriyaki by Unique Cuisine" />
+          <img src="/images/sushi-chicken-teriyaki.jpg" alt="Chicken teriyaki by Unique Cuisine" />
+          <img src="/images/sushi-rolls-edamame.jpg" alt="Sushi rolls and edamame" />
+          <img src="/images/sushi-rolls-closeup.jpg" alt="Assorted sushi rolls close up" />
         </div>
       </div>
       <div class="bio-content">
@@ -206,9 +210,9 @@
             <p>Each team member brings their own expertise — rolls, sashimi, presentation, logistics.</p>
           </div>
           <div class="value-chip">
-            <div class="icon">📦</div>
-            <h4>Corporate-Ready Packaging</h4>
-            <p>Individual boxes, clear labeling, event-scale preparation. Ready for 100–300 guests.</p>
+            <div class="icon">🍽️</div>
+            <h4>Buffet-Ready at Any Scale</h4>
+            <p>Chafing dishes, serving ware, and CBC dietary labels. Scales from 50 to 500 guests.</p>
           </div>
           <div class="value-chip">
             <div class="icon">🌱</div>
@@ -225,30 +229,33 @@
 <section class="section section-alt" id="menu">
   <div class="container">
     <div class="menu-header">
-      <span class="menu-intro-badge">Full Menu</span>
-      <h2>Sushi &amp; Japanese Corporate Menu</h2>
-      <p>Mix and match from rolls, sashimi, bento boxes, and Japanese sides. Built for 100–300 guests at $18–$25/person.</p>
+      <span class="menu-intro-badge">Buffet Menu</span>
+      <h2>Sushi &amp; Japanese Buffet</h2>
+      <p>Buffet service only — all items served family-style with chafing dishes. Every guest gets teriyaki, sushi rolls, gyoza, and sides in one seamless spread.</p>
+      <div style="margin-top:16px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <span class="price-badge">Tier 1 Drop-Off &nbsp;·&nbsp; $30/person</span>
+        <span class="price-badge">Tier 2 Attended &nbsp;·&nbsp; $38/person</span>
+        <span class="price-badge">50 guests min &nbsp;·&nbsp; 500 guests max</span>
+      </div>
     </div>
 
     <div class="menu-categories">
+
       <div class="menu-cat">
         <div class="menu-cat-header">
-          <h3>🍱 Bento Box Sets</h3>
-          <p>Individual boxes — perfect for corporate box lunch programs</p>
+          <h3>🍗 Teriyaki Mains</h3>
+          <p>Served warm in chafing dishes — the centerpiece of the buffet</p>
         </div>
         <div class="menu-cat-body">
           <ul class="menu-items">
-            <li>Salmon Teriyaki Bento
-              <span class="item-desc">Grilled salmon, steamed rice, edamame, pickled ginger, miso soup</span>
+            <li>Chicken Teriyaki <span class="tag">🌾 GF</span>
+              <span class="item-desc">Grilled chicken glazed with house teriyaki sauce</span>
             </li>
-            <li>Chicken Katsu Bento
-              <span class="item-desc">Panko chicken cutlet, tonkatsu sauce, cabbage slaw, steamed rice</span>
+            <li>Tofu Teriyaki <span class="tag">🌱 Vegan</span> <span class="tag">🌾 GF</span>
+              <span class="item-desc">Pan-seared tofu in house teriyaki glaze — hearty and satisfying</span>
             </li>
-            <li>Tofu Teriyaki Bento <span class="tag">🌱 Vegan</span>
-              <span class="item-desc">Glazed tofu, steamed vegetables, rice, sesame seeds</span>
-            </li>
-            <li>California Bento <span class="tag">🌾 GF Option</span>
-              <span class="item-desc">California rolls, edamame, seaweed salad, soy ginger dressing</span>
+            <li>Steamed White Rice <span class="tag">🌱 Vegan</span> <span class="tag">🌾 GF</span>
+              <span class="item-desc">Fluffy steamed rice served alongside both teriyaki options</span>
             </li>
           </ul>
         </div>
@@ -256,28 +263,22 @@
 
       <div class="menu-cat">
         <div class="menu-cat-header">
-          <h3>🍣 Signature Rolls</h3>
-          <p>Handcrafted by the Unique Cuisine team daily</p>
+          <h3>🍣 Assorted Sushi Rolls</h3>
+          <p>4-piece assorted selection · handcrafted fresh by the team</p>
         </div>
         <div class="menu-cat-body">
           <ul class="menu-items">
+            <li>California Roll
+              <span class="item-desc">Imitation crab, avocado, cucumber, sesame seeds</span>
+            </li>
             <li>Spicy Tuna Roll
               <span class="item-desc">Tuna, sriracha mayo, cucumber, sesame, green onion</span>
             </li>
-            <li>Salmon Avocado Roll <span class="tag">🌾 GF</span>
-              <span class="item-desc">Fresh salmon, ripe avocado, cucumber, tobiko</span>
+            <li>Shrimp Tempura Roll
+              <span class="item-desc">Crispy shrimp tempura, avocado, cucumber, eel sauce drizzle</span>
             </li>
-            <li>Dragon Roll
-              <span class="item-desc">Shrimp tempura, eel sauce, avocado top, sesame</span>
-            </li>
-            <li>Rainbow Roll
-              <span class="item-desc">California inside, topped with tuna, salmon, yellowtail, avocado</span>
-            </li>
-            <li>Vegetable Roll <span class="tag">🌱 Vegan</span>
-              <span class="item-desc">Avocado, cucumber, pickled daikon, sesame, ume plum</span>
-            </li>
-            <li>Crab &amp; Mango Roll
-              <span class="item-desc">Imitation or real crab, fresh mango, cream cheese, crunch</span>
+            <li>Avocado Cucumber Roll <span class="tag">🌱 Vegan</span>
+              <span class="item-desc">Fresh avocado and cucumber, sesame seeds, light soy</span>
             </li>
           </ul>
         </div>
@@ -285,70 +286,39 @@
 
       <div class="menu-cat">
         <div class="menu-cat-header">
-          <h3>🐟 Sashimi Platters</h3>
-          <p>Fresh-sliced, beautifully arranged for buffet or family-style</p>
+          <h3>🥟 Gyoza &amp; Sides</h3>
+          <p>Pan-fried to order — perfect alongside the main buffet</p>
         </div>
         <div class="menu-cat-body">
           <ul class="menu-items">
-            <li>Salmon Sashimi <span class="tag">🌾 GF</span>
-              <span class="item-desc">Premium Atlantic salmon, thinly sliced, shiso, daikon</span>
+            <li>Chicken Gyoza
+              <span class="item-desc">Pan-fried chicken dumplings with ponzu dipping sauce</span>
             </li>
-            <li>Tuna Sashimi <span class="tag">🌾 GF</span>
-              <span class="item-desc">Ahi tuna, clean and bright, wasabi, pickled ginger</span>
-            </li>
-            <li>Yellowtail Sashimi <span class="tag">🌾 GF</span>
-              <span class="item-desc">Hamachi, yuzu soy, jalapeño, micro cilantro</span>
-            </li>
-            <li>Mixed Sashimi Platter
-              <span class="item-desc">Chef's selection, 4–6 varieties, beautifully plated</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="menu-cat">
-        <div class="menu-cat-header">
-          <h3>🥢 Japanese Sides &amp; Starters</h3>
-          <p>Round out the meal with Japanese classics</p>
-        </div>
-        <div class="menu-cat-body">
-          <ul class="menu-items">
-            <li>Miso Soup <span class="tag">🌱 Vegan Option</span>
-              <span class="item-desc">Dashi or kombu broth, tofu, wakame, green onion</span>
+            <li>Vegetable Gyoza <span class="tag">🌱 Vegan</span>
+              <span class="item-desc">Pan-fried vegetable dumplings with ponzu dipping sauce</span>
             </li>
             <li>Edamame <span class="tag">🌱 Vegan</span> <span class="tag">🌾 GF</span>
-              <span class="item-desc">Salted or seasoned with chili-garlic or yuzu</span>
-            </li>
-            <li>Gyoza (Pot Stickers)
-              <span class="item-desc">Pan-fried pork or vegetable, ponzu dipping sauce</span>
-            </li>
-            <li>Seaweed Salad <span class="tag">🌱 Vegan</span>
-              <span class="item-desc">Wakame, sesame oil, rice vinegar, sesame seeds</span>
-            </li>
-            <li>Agedashi Tofu <span class="tag">🌱 Vegan Option</span>
-              <span class="item-desc">Lightly fried tofu, dashi broth, grated daikon, bonito</span>
-            </li>
-            <li>Ramen Cups
-              <span class="item-desc">Tonkotsu or shoyu broth, chashu, nori, soft-boiled egg</span>
+              <span class="item-desc">Lightly salted steamed edamame</span>
             </li>
           </ul>
         </div>
       </div>
+
     </div>
 
     <!-- Photo strip -->
     <div class="photo-strip">
-      <img src="/images/sushi-platter.jpg" alt="Unique Cuisine sushi platter" />
-      <img src="/images/sushi-rolls-closeup.jpg" alt="Sushi rolls close up" />
-      <img src="/images/sushi-boxes-variety.jpg" alt="Sushi box variety" />
-      <img src="/images/sushi-salmon-scale.jpg" alt="Salmon rolls at scale" />
+      <img src="/images/sushi-chicken-teriyaki.jpg" alt="Chicken teriyaki by Unique Cuisine" />
+      <img src="/images/sushi-tofu-teriyaki.jpg" alt="Tofu teriyaki by Unique Cuisine" />
+      <img src="/images/sushi-rolls-edamame.jpg" alt="Assorted sushi rolls and edamame" />
+      <img src="/images/sushi-platter.jpg" alt="Sushi platter" />
     </div>
 
     <div style="margin-top:32px; background:var(--lgreen); border-radius:var(--radius); padding:20px 24px; display:flex; gap:16px; align-items:flex-start;">
       <span style="font-size:1.4rem; flex-shrink:0;">🌱</span>
       <div>
         <div style="font-weight:700; font-size:0.9rem; color:var(--dgreen); margin-bottom:4px;">Vegan, gluten-free &amp; allergen-labeled across the full menu</div>
-        <div style="font-size:0.82rem; color:var(--muted);">Every item is individually labeled. Dietary accommodations built into every order — not an afterthought. Mention your team's needs when booking and Unique Cuisine will tailor accordingly.</div>
+        <div style="font-size:0.82rem; color:var(--muted);">Every item is individually labeled by CBC at delivery. The buffet includes multiple vegan and GF options built in — tofu teriyaki, avocado cucumber roll, edamame, and vegetable gyoza are all vegan. Mention any additional dietary needs when booking.</div>
       </div>
     </div>
   </div>
@@ -358,7 +328,7 @@
 <section class="book-section">
   <div class="container">
     <h2>Book Unique Cuisine for Your Team</h2>
-    <p>Available for one-time corporate events and recurring weekly programs. 100–300 guests. Billy &amp; Jaclyn will reply within 24 hours.</p>
+    <p>Available for one-time events and recurring weekly programs. 50–500 guests. $30/person drop-off · $38/person attended. Billy &amp; Jaclyn will reply within 24 hours.</p>
     <div class="book-ctas">
       <a class="btn-primary" href="mailto:hello@culinaryblockcollective.com?subject=Book Unique Cuisine — Sushi &amp; Japanese&body=Hi! I'd like to book Unique Cuisine for corporate catering.%0A%0AEvent date: %0AGuest count: %0ASushi preferences / menu style: %0ADietary needs: %0ACompany: %0A">📧 Email to Book</a>
       <a class="btn-ghost" href="tel:+14085550192">📞 (408) 555-0192</a>

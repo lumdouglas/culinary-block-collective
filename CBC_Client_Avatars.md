@@ -87,7 +87,7 @@ Lead with pain, not product. Sarah doesn't want to hear about your chef roster �
 > *"Your team deserves more than just pizza — and you deserve a caterer who makes your job easier, not harder."*
 
 - **Email 1:** Lead with reliability + dietary labeling promise — her two biggest fears
-- **Follow-up:** Include a real menu (Sichuan dim sum buffet, sushi bento boxes) to spark team excitement
+- **Follow-up:** Include a real menu (Chinese dim sum buffet, sushi bento boxes) to spark team excitement
 - **Offer:** Free chef tasting — low-risk, high-impact way to get her physically engaged with the product
 - **Close:** Recurring account proposal — frame it as 'one less thing to manage every week'
 
