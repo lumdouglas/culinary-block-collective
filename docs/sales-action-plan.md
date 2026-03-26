@@ -16,7 +16,7 @@ Everything in this plan serves one outcome: **consistent, growing revenue from B
 |---|---|---|
 | Paying clients | 5–8 | 15+ |
 | Recurring contracts | 1–2 | 5+ |
-| Avg Order Value | $550+ | $700+ |
+| Avg Order Value | $2,000+ | $2,500+ |
 | Revenue | $10K–$15K | $28K–$35K |
 | Leads in pipeline | 30+ | 75+ |
 
@@ -152,7 +152,7 @@ Run this every weekday morning. Non-negotiable.
 
 - After every completed order: send Email 5 (post-event thank you + recurring offer) within 48 hours
 - Call top 3 clients personally — not email. Script: *"We loved catering for your team. Have you thought about a standing weekly order? We'll lock in your rate with fixed pricing and rotating menus."*
-- Create a 'Recurring Catering Proposal' — one-page PDF: weekly menu rotation, locked pricing, 90-day review clause, no cancellation fee for 30 days
+- Create a 'Recurring Catering Proposal' — one-page PDF: weekly menu rotation, locked per-head pricing, 90-day review clause, no cancellation fee for 30 days
 - Offer 3-month minimum — enough to build routine, low enough to feel safe
 
 ### Referral Machine
@@ -171,7 +171,7 @@ Run this every weekday morning. Non-negotiable.
 - Track calls using CallRail — pause anything that doesn't drive a call within 2 weeks
 
 **Instagram Reels**
-- 2 Reels/week: food prep, delivery unboxing, happy team photos
+- 2 Reels/week: food prep, spread setup, happy team photos
 - Location tags: #SanJoseCatering #BayAreaCatering #TechLunch #SiliconValleyFood
 - Giveaway: "Tag an office manager who deserves great catering — winner gets a free tasting for their team"
 
@@ -194,7 +194,7 @@ Run this every weekday morning. Non-negotiable.
 2. "How many people are you expecting?"
 3. "Do you have a date in mind, or are you still planning?"
 4. "Any dietary restrictions I should know about — vegan, gluten-free, allergies?"
-5. "What's your rough budget per person — are you thinking box lunches or a full self-serve spread?"
+5. "What's your rough budget per person — are you thinking a standard spread or premium with upgraded proteins?"
 
 **The Close:**
 > "Perfect — based on what you've told me, I'd recommend [OPTION]. That comes out to about $[PRICE] total for [GUEST COUNT] guests. I can hold a delivery slot for you if you want to move forward today — what do you think?"
@@ -222,13 +222,13 @@ Run this every weekday morning. Non-negotiable.
 ### Text Message Templates
 
 **First Text to a Warm Lead (LinkedIn → Text):**
-> "Hi [Name]! It's [Your Name] from Culinary Block — we connected on LinkedIn. We do diverse chef catering for tech teams in the Bay Area ($20–$30/box, 50-box minimum). Would love to send over our menus. Mind if I text them to you?"
+> "Hi [Name]! It's [Your Name] from Culinary Block — we connected on LinkedIn. We do diverse chef catering for tech teams in the Bay Area ($25–$40/person, Chef's Spread format, 50-guest minimum). Would love to send over our menus. Mind if I text them to you?"
 
 **Quote Follow-Up (Sent quote 2 days ago, no reply):**
 > "Hey [Name] — just checking in on the quote I sent for [Company]. Happy to adjust the menu or pricing if anything didn't fit. Should I hold that delivery slot or release it?"
 
 **Post-Event Recurring Offer:**
-> "Hi [Name]! Hope the team loved the food today. We have a recurring catering program — fixed pricing, rotating menus, 90-day review clause. Want me to put together a standing order proposal for [Company]?"
+> "Hi [Name]! Hope the team loved the food today. We have a recurring catering program — fixed per-head pricing, rotating menus, 90-day review clause. Want me to put together a standing order proposal for [Company]?"
 
 ---
 

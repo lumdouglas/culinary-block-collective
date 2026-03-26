@@ -166,7 +166,7 @@ Culinary Block Collective | San Jose, CA
 
 ### What Not to Do — Template B
 
-- **Don't pitch the price per person first.** Marcus thinks in quarterly budget, not per-box price.
+- **Don't pitch the price per person first.** Marcus thinks in quarterly budget, not per-head price.
 - **Don't send the full menu.** Send a program proposal instead — it matches how he thinks.
 - **Don't start with the delivery guarantee.** That's a Sarah hook. Marcus leads with culture and ROI.
 - **Don't use "we're reliable."** Substantiate it: "On-time delivery guaranteed in writing" is the same thing, said credibly.
@@ -181,11 +181,11 @@ The full 5-email cold outreach sequence lives in `docs/email-outreach.md`. Here'
 |---|---|---|
 | **Email 1** | This file (Template A or B) | **Replaces** the Email 1 body in `email-outreach.md` — updated tone, pricing, chef positioning |
 | Email 2 (Day 4) | `docs/email-outreach.md` | Still valid — reliability + dietary labeling follow-up |
-| Email 3 (Day 10) | `docs/email-outreach.md` | Still valid — but update prices to $20–$30/person before sending |
-| Email 4 (Day 31) | `docs/email-outreach.md` | Still valid — update prices before sending |
+| Email 3 (Day 10) | `docs/email-outreach.md` | Still valid — prices updated to spread format ($25–$40/person) |
+| Email 4 (Day 31) | `docs/email-outreach.md` | Still valid — prices updated to spread format |
 | Email 5 (Post-event) | `docs/email-outreach.md` | Still valid — no pricing in this one |
 
-> **✅ Pricing updated:** Email 3 and Email 4 in `email-outreach.md` have been updated to $20–$30/box pricing and 50-box minimums. Ready to use.
+> **✅ Pricing updated (2026-03):** All emails in `email-outreach.md` have been updated to spread format pricing ($25–$40/person, 50-guest minimum). No individual box meals — Chef's Spread format only.
 
 ---
 

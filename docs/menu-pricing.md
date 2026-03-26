@@ -1,7 +1,7 @@
 # CBC Menu & Pricing Reference
 
 > **Status:** Pre-launch — chef roster is dynamic based on current Culinary Block commissary tenants. Update this file when chefs join or leave.
-> **Last reviewed:** Feb 2026
+> **Last reviewed:** 2026-03
 
 ---
 
@@ -22,7 +22,6 @@ Chef sets up a full Chef's Spread with chafing dishes, insulated trays, serving 
 |---|---|---|---|
 | **Chinese (Kivi)** | $25–$30/person | 50 | $1,250–$1,500 |
 | **Mexican Fusion (Five Course)** | $30/person | 50 | $1,500 |
-| **Sushi / Japanese (Unique)** | $30/person | 50 | $1,500 |
 
 **What's included in Tier 1:**
 - ✓ Full Chef's Spread with chafing dishes & serving ware
@@ -63,8 +62,11 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the stati
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
 | **Chinese (Kivi)** | $33–$38/person | 50 | $1,650–$1,900 |
-| **Mexican Fusion (Five Course)** | $38/person | 50 | $1,900 |
-| **Sushi / Japanese (Unique)** | $38/person | 50 | $1,900 |
+| **Mexican Fusion (Five Course) Standard** | $38/person | 50 | $1,900 |
+| **Mexican Fusion (Five Course) Premium** | $48/person | 50 | $2,400 |
+| **Sushi / Japanese (Unique) Premium** | $48/person | 50 | $2,400 |
+
+*Note: Unique Cuisine operates at Premium tier only ($40 base + $8 attended = $48). There is no Standard tier for Unique.*
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
 - ✓ 1–2 on-site CBC staff (setup, station maintenance, cleanup)
@@ -96,10 +98,10 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 **What's included:**
 - 2–3 cuisines, 3–4 dishes each, 2–4 portions per dish (enough for the OM + 1–2 colleagues)
-- Served in CBC's standard compostable containers
+- Served in CBC's standard compostable containers (tasting package only — full orders use chef-provided spread serving ware)
 - Individual dietary labels on every item
 - Printed menu card with chef names, dietary key, and a "how to order" insert
-- Branding via CBC sticker — applied to the box lid; functions as a tamper-evident seal on appropriate box form factors
+- Branding via CBC sticker — applied to the container lid; functions as a tamper-evident seal on appropriate container form factors
 
 **Pricing:** [TBD — to be confirmed before launch] · Applied as a credit toward the client's first full order
 
@@ -109,7 +111,7 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 **Follow-up:** Doug sends a follow-up email or text within 24 hours of delivery. This window is critical — the 72-hour post-tasting period is the highest-conversion moment in the sales funnel.
 
-> **⚠️ Prerequisite:** Chef buy-in must be confirmed before tasting packages are offered. At least 2 chefs must be active and available before the tasting SKU goes live on the site.
+> **Prerequisite:** At least 2 chefs must be active and available before the tasting SKU goes live on the site. Kivi and Five Course formal agreements still pending sign-off.
 
 ---
 
@@ -131,7 +133,7 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 | Program | Details | Minimum Commitment |
 |---|---|---|
-| Weekly or bi-weekly contract | Fixed per-box pricing, rotating menus, 90-day review clause | 3 months |
+| Weekly or bi-weekly contract | Fixed per-head pricing, rotating menus, 90-day review clause | 3 months |
 | First-order (new clients) | 10% off | One-time |
 
 Recurring contracts include:
@@ -140,7 +142,7 @@ Recurring contracts include:
 - 90-day review clause (no long-term lock-in)
 - Formal program proposal with quarterly cost projections available on request
 
-> **⚠️ Future addition:** A 5% recurring account discount is planned but not active at launch. Will be introduced once orders are flowing and chef agreements are confirmed. Discuss with each chef at onboarding so they're aware it's coming — the discount would be applied to the customer total first, then the 75/25 split applies to the discounted amount (both chef and CBC absorb proportionally).
+> **⚠️ Future addition:** A 5% recurring account discount is planned but not active at launch. Will be introduced once orders are flowing and chef agreements are confirmed. Discuss with each chef at onboarding so they're aware it's coming — the discount would be applied to the customer total first, then the chef/CBC split applies to the discounted amount (both chef and CBC absorb proportionally).
 
 ---
 
@@ -170,15 +172,16 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 *All service is self-serve spread format. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$30/person (Standard) or $40/person (Premium). CBC retains 25%; chef receives 75%.*
 
-| Chef / Cuisine | T1 Client Price | Chef Payout (75%) | CBC Commission (25%) |
+| Chef / Cuisine | Client Price | Chef Payout | CBC Commission |
 |---|---|---|---|
-| **Unique · Sushi & Japanese** | $40/person (Premium) | $32 | $8 |
-| **Five Course · Mexican Fusion** | $30/person | $22.50 | $7.50 |
-| **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 | $6.25–$7.50 |
+| **Unique · Sushi & Japanese** | $40/person (Premium only) | $32 (80%) | $8 (20%) |
+| **Five Course · Mexican Fusion (Standard)** | $30/person | $22.50 (75%) | $7.50 (25%) |
+| **Five Course · Mexican Fusion (Premium)** | $40/person | $30.00 (75%) | $10.00 (25%) |
+| **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) |
 
 **Minimum order:** 50 guests.
 
-**Revenue split:** 25% CBC / 75% chef — standard across all chefs. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
+**Revenue split:** 25% CBC / 75% chef — standard for Kivi and Five Course. **Unique Cuisine exception: 20% CBC / 80% chef** (negotiated). Commission details are internal — not for client-facing materials. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
 
 **Packaging:** Chef provides their own serving ware and chafing dishes for the spread. CBC creates and applies dietary labels, prints menu cards.
 

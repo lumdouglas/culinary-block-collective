@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–300 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $20–$30/box. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
+`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $25–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -44,7 +44,7 @@
 **Subheadline:**
 > CBC brings together the Bay Area's independent chef community — each chef a specialist
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
-> Food staged and ready for your team — guaranteed. Full dietary labeling. $20–$30/box. 50–300 guests.
+> Food staged and ready for your team — guaranteed. Full dietary labeling. $25–$40/person. 50–500 guests.
 
 **Primary CTA:** `📞 Call to Book  (408) 555-0192`
 **Secondary CTA:** `💬 Text Us a Menu Request`
@@ -67,11 +67,11 @@
 
 | Chef Card | Description | Price Tag |
 |---|---|---|
-| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Rolls, sashimi, bento boxes, and ramen made with the craft your team will taste the difference in. | $25–$30/box |
-| **Chinese** | Real Chinese technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | $20–$25/box |
-| **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Street tacos, elote, rice bowls — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | $20–$25/box |
-| **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | $20–$25/box |
-| **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | $20–$30/box |
+| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Full sushi spread, teriyaki mains, gyoza, and edamame made with the craft your team will taste the difference in. | From $40/person |
+| **Chinese** | Real Chinese technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | From $25/person |
+| **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Modern moles, wood-fire proteins, salsas, sides — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | From $30/person |
+| **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | TBD |
+| **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | TBD |
 
 ---
 
@@ -83,9 +83,10 @@
 
 | Package | Price | Guests | Key Features |
 |---|---|---|---|
-| **Standard Box** | $20–$25/box | 50+ boxes | Custom grain bowls or salads, fresh fruit & dessert, vegan & GF labeled, individual packaging, delivery included |
-| **Premium Box** ⭐ Most Popular | $25–$30/box | 50+ boxes | Elevated menu, hot mains + sides, full dietary labeling, on-site coordinator option, eco-compostable packaging |
-| **Full-Service Event** | Custom quote | 75+ guests | Choose 2–3 chef cuisines, on-site CBC staff, live chef station option, branded signage, full white-glove service |
+| **Standard Drop-Off Spread** | $25–$30/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
+| **Premium Drop-Off Spread** ⭐ Most Popular | $40/person | 50+ guests | Elevated Chef's Spread — premium proteins or full sushi spread, full dietary labeling, delivery included |
+| **Attended Service** | +$8/person | 50+ guests | Everything in Drop-Off Spread plus 1–2 on-site CBC staff — setup, station maintenance, and cleanup |
+| **Custom / Mix & Match** | Custom quote | 150+ guests | Choose 2–3 chef cuisines, live chef station option, branded signage |
 
 ---
 
@@ -95,11 +96,11 @@
 **H2:** Two Ways to Cater. Same Chef Quality at Every Level.
 **Subhead:** Choose the format that fits your event. The food comes from the same independent specialist chefs either way.
 
-| | **Tier 1 — Premium Drop-Off** | **Tier 2 — Attended Service** |
+| | **Tier 1 — Drop-Off Spread** | **Tier 2 — Attended Service** |
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
-| **What's included** | Chef-prepared packaging, chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
-| **Starting price** | From $22/person | From $38/person |
+| **What's included** | Chef's Spread with chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
+| **Starting price** | From $25/person | Add $8/person to any tier |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
 > Regardless of tier, the food comes from Michelin-caliber and specialty chefs. The difference is who handles the room.
@@ -121,7 +122,7 @@
 | 📊 | Locked Per-Head Pricing | Weekly recurring contracts with fixed per-head rates — built for quarterly budget forecasting and procurement review. |
 | 🌍 | 5 Cuisines, One Vendor | Sushi, Chinese, Mexican fusion, American, and seasonal global menus that reflect your workforce's diversity — not just the majority. |
 | 🌱 | ESG-Reportable | BPI-certified compostable packaging, carbon offset option, and a vendor sustainability summary ready for your internal reporting. |
-| 📈 | Scales With Your Team | Starting at 75–100 guests (varies by cuisine), scaling to 400+. Your program grows with your company without renegotiating vendor terms. |
+| 📈 | Scales With Your Team | Starting at 50 guests across all cuisines, scaling to 500. Your program grows with your company without renegotiating vendor terms. |
 | 🔒 | 90-Day Review Clause | No long-term lock-in pressure. Every recurring program includes a 90-day review so you stay in control. |
 | 💼 | Proposal-Ready | We provide a full program proposal with cost projections and our sustainability credentials — formatted for leadership or procurement review. |
 
@@ -141,7 +142,7 @@
 | 🌱 | Eco-First Packaging | BPI-certified compostable containers. Carbon offsetting available. Great for your company's ESG goals. |
 | 💰 | No Hidden Fees | What you see is what you pay. No service surprises, no delivery gotchas. Transparent invoicing always. |
 | 📞 | Real Human Support | Call or text us directly. 24-hour quote response. A dedicated coordinator on every order. |
-| 🔄 | Recurring Contracts | Weekly or bi-weekly standing orders? We love those. Fixed per-box pricing, rotating menus, 90-day review clause. |
+| 🔄 | Recurring Contracts | Weekly or bi-weekly standing orders? We love those. Fixed per-head pricing, rotating menus, 90-day review clause. |
 
 ---
 
@@ -151,7 +152,7 @@
 
 1. **Call or Text Us** — Tell us your date, guest count, dietary needs, and cuisine preferences. Takes 5 minutes.
 2. **Get Your Custom Quote** — We'll send a detailed, transparent quote within 24 hours. No guesswork. No hidden fees.
-3. **We Deliver & Wow** — Our chefs prep and package. We label every item and deliver on time. Your team eats. You look like a hero.
+3. **We Deliver & Wow** — Our chefs prep and set up the spread. We label every item and deliver on time. Your team eats. You look like a hero.
 
 **CTA:** `📞 Call Now — (408) 555-0192`
 
@@ -178,12 +179,12 @@
 
 | Question | Answer Summary |
 |---|---|
-| How much does corporate catering in San Jose cost? | $25–$40/person for 50–500 guests. Standard drop-off spread from $25, Premium spread at $40. All-in pricing including delivery — no hidden fees. |
+| How much does corporate catering in San Jose cost? | $25–$40/person for 50–500 guests. Standard Drop-Off Spread from $25/person, Premium Spread at $40/person, Attended Service adds $8/person. All-in pricing including delivery — no hidden fees. |
 | What cuisines do you offer? | Sushi & Japanese, Chinese, Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
 | Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. Food safety labels with consume-by times on all items per California food safety standards. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |
 | How far in advance do I need to book? | 48 hours for under 150 guests; 5+ business days for larger or custom orders. Recurring accounts need no per-event lead time. |
-| Do you offer recurring catering contracts? | Yes — weekly or bi-weekly programs with locked per-box pricing, rotating menus, and a 90-day review clause. New clients get 10% off first order. Proposal available on request. |
+| Do you offer recurring catering contracts? | Yes — weekly or bi-weekly programs with locked per-head pricing, rotating menus, and a 90-day review clause. New clients get 10% off first order. Proposal available on request. |
 | Can you support our ESG goals? | Yes — BPI-certified compostable packaging, carbon offset add-on, sustainability summary for internal reporting. |
 
 ---

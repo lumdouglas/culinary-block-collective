@@ -66,11 +66,11 @@
 | Field | Detail |
 |---|---|
 | **Name** | [Chef's name] |
-| **Cuisine** | [e.g., Chinese / Mexican Fusion / American BBQ] |
+| **Cuisine** | [e.g., Chinese / Mexican Fusion] |
 | **Signature Dishes** | [3–5 specific items] |
-| **Price Tier(s)** | [Budget $20 / Core $25 / Premium $30 (client-facing). Chef receives 75% of per-box price.] |
-| **Min Order** | [e.g., 50 boxes] |
-| **Max Capacity** | [e.g., 150 guests] |
+| **Price Tier(s)** | [Standard $25–$30/person · Premium $40/person (if applicable). Chef receives 75% of per-guest price.] |
+| **Min Order** | 50 guests |
+| **Max Capacity** | [e.g., 500 guests] |
 | **Time at Commissary** | [Duration] |
 
 ### Personality & Communication Style
@@ -104,9 +104,9 @@
 | **Name** | [Chef's name] |
 | **Cuisine** | [Cuisine] |
 | **Signature Dishes** | [3–5 specific items] |
-| **Price Tier(s)** | [Budget $20 / Core $25 / Premium $30 (client-facing). Chef receives 75% of per-box price.] |
-| **Min Order** | [e.g., 50 boxes] |
-| **Max Capacity** | [e.g., 300 guests] |
+| **Price Tier(s)** | [Standard $25–$30/person · Premium $40/person (if applicable). Chef receives 75% of per-guest price.] |
+| **Min Order** | 50 guests |
+| **Max Capacity** | [e.g., 500 guests] |
 | **Time at Commissary** | [Duration] |
 
 ### Personality & Communication Style
@@ -141,8 +141,8 @@
 | Sushi / Japanese | Unique Cuisine Sushi | Premium tier only ($40/person) · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · Attended Service: $48/person · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
 | [Cuisine 2] | [Chef name] | [Notes] |
 | [Cuisine 3] | [Chef name] | [Notes] |
-| Large event 200+ | [Chef name(s)] | [Who can scale, who has a 75-box minimum, etc.] |
-| Premium / VIP event | [Chef name] | [Who offers the Premium $20 tier?] |
+| Large event 200+ | [Chef name(s)] | [Who can scale — all active chefs support up to 500 guests] |
+| Premium / VIP event | [Chef name] | [Who offers the Premium $40/person tier? Five Course and Unique Cuisine.] |
 | Last-minute order | [Chef name] | [Who is most flexible on lead time?] |
 | Mix & Match (2 cuisines) | [Chef A + Chef B] | [Which pairings work well together logistically?] |
 
@@ -156,3 +156,4 @@
 - [e.g., All three built their businesses out of the Culinary Block commissary — origin story]
 - [e.g., Shared value: X]
 - [What makes the three of them together a stronger pitch than any one alone?]
+- **Commission rates vary — Unique Cuisine is 20% (negotiated exception), all other chefs are 25% standard. Commission details are internal — not for client-facing materials.**

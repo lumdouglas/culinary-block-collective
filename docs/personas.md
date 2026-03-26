@@ -127,8 +127,8 @@ Lead with pain, not product. The hook that converts:
 
 | Revenue Type | Value |
 |---|---|
-| Single Event | $3,000–$4,500 (avg 150 guests × $20–$30/person + add-ons) |
-| Annual One-Time Events | 6–10 events/year = $12K–$40K annually |
+| Single Event | $4,500–$6,000 (avg 150 guests × $30–$40/person + add-ons) |
+| Annual One-Time Events | 6–10 events/year = $18K–$60K annually |
 | Recurring Contract | $3,000–$6,000/month = $36K–$72K/year |
 | Referral Value | Sarah knows 3–6 other OMs — 1 referral = $15K–$40K new revenue |
 | Upsell Potential | Juice & Boba add-ons, premium packaging, Chef's Table for VIP events |
@@ -238,7 +238,7 @@ Marcus is a thought leader consumer. He respects vendors who understand the Peop
 
 | Revenue Type | Value |
 |---|---|
-| Single Event | $5,000–$7,500 (avg 250 guests × $20–$30/person + premium add-ons) |
+| Single Event | $7,500–$10,000 (avg 250 guests × $30–$40/person + premium add-ons) |
 | Weekly Recurring Contract | $5,000–$12,000/month = $60K–$144K/year |
 | Quarterly Program Value | $15K–$35K per quarter including all event types |
 | Referral Value | 1 referral to a peer at a 200-person tech company = $60K+ annual contract |

@@ -19,45 +19,44 @@ That's where you come in.
 
 | Your Responsibilities | My Responsibilities |
 |---|---|
-| Prepare and package the food to spec | Find and close the clients |
+| Prepare the food and provide your own serving ware (chafing dishes, serving utensils, containers) | Find and close the clients |
 | Maintain your quality and menu standards | Handle all sales, quotes, and invoicing |
-| Meet the delivery window I give you | Coordinate logistics and delivery timing |
-| Let me know your availability in advance | Help with box prep and staging when needed |
+| Meet the delivery window I give you | Create and apply dietary labels and food safety labels |
+| Let me know your availability in advance | Handle delivery from commissary to client site |
 | | Be the single point of contact for clients |
 
-You don't need to sell anything, answer client emails, or figure out pricing. I handle all of that. You just need to cook the food and have it ready.
+You don't need to sell anything, answer client emails, or figure out pricing. I handle all of that. You cook the food and provide the serving ware — I label it, load it, and deliver it.
 
 ---
 
 ## How the Money Works
 
-**Client pays $20–$30 per box.** You receive **75%** of every dollar collected.
+**Client pays $25–$40 per guest.** You receive **75%** of every dollar collected (commission rates are negotiated per chef — final rate confirmed in your contractor agreement).
 
-| Box Tier | Client Price | Your Payout (75%) | CBC Keeps (25%) |
+| Spread Tier | Client Price | Your Payout (75%) | CBC Keeps (25%) |
 |---|---|---|---|
-| Budget | $20/box | $15.00 | $5.00 |
-| Core | $25/box | $18.75 | $6.25 |
-| Premium | $30/box | $22.50 | $7.50 |
+| Standard Drop-Off | $25–$30/person | $18.75–$22.50 | $6.25–$7.50 |
+| Premium Drop-Off | $40/person | $30.00 | $10.00 |
 
-**Minimum order: 50 boxes.**
+**Minimum order: 50 guests.**
 
-So a single 50-box order at the Core tier = **$937.50 to you** for one prep session.
+So a single 80-guest order at $30/person = **$1,800 to you** for one prep session.
 
-A recurring weekly order of 75 boxes at Core tier = **$1,406/week** — before you've done any selling, any invoicing, or any client management.
+A recurring weekly order of 100 guests at $30/person = **$2,250/week** — before you've done any selling, any invoicing, or any client management.
 
-My 25% covers: sales operations, client relationships, branding, website, coordination, and logistics support. That's the trade.
+My 25% covers: sales operations, client relationships, dietary labeling, food safety labeling, branding, website, coordination, and delivery. That's the trade.
 
 ---
 
 ## What a Typical Order Looks Like
 
-1. I get an inquiry from a tech company — say, 75 lunches for a Thursday all-hands
+1. I get an inquiry from a tech company — say, 75 guests for a Thursday all-hands
 2. I confirm you're available and can fulfill it
-3. I send the client a quote, they confirm and pay
-4. You prep 75 boxes to the agreed spec, packaged and labeled
-5. We coordinate staging and delivery — I help with box prep and handoff when needed
-6. Food gets delivered, client is happy
-7. I pay you your 75% within [X] days of invoice
+3. I send the client a quote, they confirm and pay a 25% deposit
+4. You prep the spread to the agreed spec — food ready in your chafing dishes and serving ware at the commissary at the agreed handoff time
+5. I apply dietary and food safety labels, load your serving ware, and deliver to the client site
+6. Food is set up as a Chef's Spread — client's team serves themselves
+7. I pay you your percentage within Net 30 from service date
 
 No surprises. No chasing payments. No having to market yourself or build a sales pipeline.
 
@@ -69,7 +68,7 @@ No surprises. No chasing payments. No having to market yourself or build a sales
 
 **No sales overhead.** You keep your time for cooking. I'm already doing outreach and building a client pipeline.
 
-**Your food gets in front of people who can pay for it.** Tech companies don't blink at $25/box. This is a different customer than the one you're competing for in the consumer market.
+**Your food gets in front of people who can pay for it.** Tech companies don't blink at $30–$40/person. This is a different customer than the one you're competing for in the consumer market.
 
 **You stay independent.** You're a contractor, not an employee. You set your menu, your tiers, your capacity limits. If you can't take a particular order, you say so — no penalty.
 
@@ -82,8 +81,8 @@ No surprises. No chasing payments. No having to market yourself or build a sales
 A conversation. Not a contract yet — a conversation.
 
 I want to know:
-- Which box tier(s) do you want to offer? (Budget / Core / Premium)
-- What's your realistic capacity per order? (min/max boxes)
+- Which spread tier(s) do you want to offer? (Standard $25–$30/person · Premium $40/person)
+- What's your realistic capacity per order? (min/max guests)
 - What lead time do you need?
 - What would make this a no-brainer for you?
 

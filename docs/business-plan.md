@@ -2,7 +2,7 @@
 
 > **Source:** `Business plan.docx` (converted to markdown)
 > **Status:** Draft — pricing and model details are still being validated
-> **Last updated:** 2026-02
+> **Last updated:** 2026-03
 
 ---
 
@@ -14,7 +14,7 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 
 **Core promise:** Fresh, dietary-friendly, eco-conscious meals delivered on time — with the culinary diversity a generic caterer can't offer.
 
-**Price point:** $20–$30/box — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster.
+**Price point:** $25–$40/person (Standard and Premium Chef's Spread tiers) — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster. Service is Chef's Spread (self-serve station) format only — no individual box meals.
 
 **Revenue target:** Break-even at 9 total orders; ~9% net margin at 6-month run rate (21 orders base scenario).
 
@@ -23,7 +23,7 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 ## Market Analysis
 
 ### Target Market
-Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $20–$30/person for corporate catering.
+Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $25–$40/person for corporate catering.
 
 ### Market Size
 - Bay Area catering market: ~$1.2B annually
@@ -60,34 +60,47 @@ Local competitors (e.g., Fraiche Catering, Handheld Catering) offer similar even
 
 ### Service Tiers & Per-Chef Pricing
 
-CBC operates two service tiers. **Commission is 25% (CBC) / 75% (chef)** — standard rate across all chefs. Client-facing price is $20–30/box.
+CBC operates two service tiers plus a Premium price point. **All service is Chef's Spread (self-serve station) format — no individual box meals.** Commission is 25% (CBC) / 75% (chef) standard; Unique Cuisine exception is 20%/80%.
 
-#### Tier 1 — Premium Drop-Off
-Chef-provided box packaging, chafing dishes/insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC), disposable plates and napkins. CBC delivers. Client handles setup and cleanup. No on-site CBC staff.
+#### Standard Drop-Off Spread (Tier 1)
+Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff.
 
-| Cuisine | Per-Head Price | Min. Guests | Min. Order |
+| Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Chinese | $22/person | 75 | $1,650 |
-| Mexican Fusion | $26/person | 100 | $2,600 |
-| Sushi / Japanese | $28/person | 100 | $2,800 |
+| Kivi's Kitchen · Chinese | $25–$30/person | 50 | $1,250–$1,500 |
+| Five Course Provision · Mexican Fusion | $30/person | 50 | $1,500 |
 
-**CBC service kit cost:** ~$50–$100/order (dietary labels, printed menu cards, delivery fuel/vehicle). Packaging is the chef's cost.
+**CBC service kit cost:** ~$50–$100/order (dietary labels, printed menu cards, delivery fuel/vehicle). Chef provides serving ware and chafing dishes.
 
-**Margin note:** Commission is 25%. With packaging shifted to the chef, CBC's per-order costs are significantly lower, improving margins on all order sizes.
+#### Premium Drop-Off Spread
+Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off format, elevated ingredients.
 
-#### Tier 2 — Attended Service
-Everything in Tier 1 plus 1–2 on-site CBC staff for setup, station maintenance, and cleanup. Proper linen and labeled stations.
-
-| Cuisine | Per-Head Price | Min. Guests | Min. Order |
+| Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Chinese | $38/person | 75 | $2,850 |
-| Mexican Fusion | $44/person | 100 | $4,400 |
-| Sushi / Japanese | $48/person | 100 | $4,800 |
+| Five Course · Mexican Fusion (Chef John) | $40/person | 50 | $2,000 |
+| Unique Cuisine · Sushi & Japanese | $40/person | 50 | $2,000 |
+
+**Commission notes:**
+- Five Course (Premium): 25% standard. Chef gets $30/person, CBC gets $10/person.
+- Unique Cuisine: 20% (negotiated exception). Chef gets $32/person, CBC gets $8/person.
+
+#### Attended Service (Tier 2)
+Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$8/person** on top of Standard or Premium price.
+
+| Chef / Cuisine | Standard + Attended | Premium + Attended |
+|---|---|---|
+| Kivi · Chinese | $33–$38/person | — |
+| Five Course · Mexican Fusion | $38/person | $48/person |
+| Unique Cuisine · Sushi | — | $48/person |
+
+**Attended staffing:** Doug solo under 100 guests · 2 staff 100–200 guests · confirm 200+
 
 **CBC staff cost:** $30/hr fully loaded (taxes + workers comp) · Billed to client at $35–$45/hr
 **Staff contribution per event (2 staff × 4 hrs):** $40–$120 above labor cost, on top of commission
 
-**Strategic note:** Tier 2 is the margin engine. Target mix should shift toward Tier 2 as client relationships mature. Commission: 25% CBC / 75% chef (same as Tier 1). Staff billings are additional CBC revenue on top of commission.
+**Strategic note:** Tier 2 is the margin engine. Target mix should shift toward Tier 2 as client relationships mature. Staff billings are additional CBC revenue on top of commission.
+
+**Min. guests across all chefs:** 50. **Max:** 500 guests.
 
 #### Coming Soon
 Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
@@ -96,28 +109,29 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 2–3 cuisines, 150–300 guests, live chef station option. Custom quote.
 
 ### Premium Add-Ons
-- Premium Compostable Packaging upgrade: +$3/person (BPI-certified — replaces chef's standard packaging)
+- Premium Compostable Packaging upgrade: +$3/person (BPI-certified)
 - Premium utensils: $2/person
 - Station setup/coordinator: $100–$150/event
 - Organic ingredient tier: +15% on food cost
 - Carbon offsetting: $50/event
 - Juice & Boba bundles: $12/pack
 
-### Box Pricing Model
+### Spread Pricing Model
 
-Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
+Client-facing price is $25–$30/person (Standard) or $40/person (Premium). Commission varies by chef.
 
-| Tier | Client Price (per box) | Chef Payout (75%) | CBC Commission (25%) |
+| Chef / Cuisine | Client Price | Chef Payout | CBC Commission |
 |---|---|---|---|
-| Budget | $20/box | $15.00 | $5.00 |
-| Core | $25/box | $18.75 | $6.25 |
-| Premium | $30/box | $22.50 | $7.50 |
+| Kivi · Chinese (Standard) | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) |
+| Five Course · Mexican Fusion (Standard) | $30/person | $22.50 (75%) | $7.50 (25%) |
+| Five Course · Mexican Fusion (Premium) | $40/person | $30.00 (75%) | $10.00 (25%) |
+| Unique Cuisine · Sushi (Premium) | $40/person | $32.00 (80%) | $8.00 (20%) |
 
-**Revenue split per order:** 25% CBC / 75% chef — uniform across all chefs. Document agreed pricing tier(s) per chef in `docs/chef-profiles.md`.
+**Revenue split per order:** 25% CBC / 75% chef standard; Unique Cuisine is 20%/80% (negotiated). Document agreed rates per chef in `docs/chef-profiles.md`.
 
-**Packaging:** Chef provides their own boxes and containers. CBC creates and applies dietary labels.
+**Packaging:** Chef provides their own serving ware and chafing dishes for the spread. CBC creates and applies dietary labels.
 
-**Delivery:** CBC delivers from commissary to client site. Doug assists with boxing only if needed. Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
+**Delivery:** CBC delivers from commissary to client site. Delivery is funded within CBC's commission — not a separate line item on client invoices.
 
 ### Event Types
 - Weekly/bi-weekly recurring team lunches
@@ -156,7 +170,7 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 - **Realistic conversion rate:** 2–3% from cold outreach; 20–30% from warm referrals and tasting event attendees
 - **Sales cycle:** 3–6 weeks from first contact to first paid order — pipeline must be built in month 1 for month 2+ revenue
 - **Sales Process:** LinkedIn/cold email → 24-hour quote response → Zoom consultation → custom quote → NPS follow-up → recurring upsell
-- **AOV Target:** ~$1,900 (80 boxes × $22/box average + ~$100 in add-ons)
+- **AOV Target:** ~$2,500 (80 guests × $30/person conservative midpoint + ~$100 in add-ons)
 - **Revenue Goal (6 months):** ~$40K gross across ~21 orders (base scenario — see Financial Projections)
 - **Upsell Path:** Juice/boba bundles, premium packaging, organic tier, Chef's Table upgrade
 
@@ -167,11 +181,11 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 | Area | Approach |
 |---|---|
 | Kitchen | Culinary Block commissary (existing facility) |
-| Delivery | CBC (Doug) picks up from commissary, labels, and delivers to client site. Funded within CBC's 25% commission |
+| Delivery | CBC (Doug) picks up from commissary, labels, and delivers to client site. Funded within CBC's commission |
 | Staff | Chef-tenants as independent contractors; Doug as primary delivery/labeling coordinator |
-| Packaging | Chef provides their own boxes/containers · CBC provides dietary labels and menu cards |
+| Packaging | Chef provides serving ware and chafing dishes for spread service · CBC provides dietary labels and menu cards |
 | Ingredients | Local farms for organic tier (+10–15% food cost) |
-| Order minimum | 50 boxes per order |
+| Order minimum | 50 guests per order |
 | Service radius | San Jose and surrounding South Bay (radius confirmed per chef at onboarding) |
 
 *Full order workflow: see `docs/operations.md`*
@@ -180,17 +194,17 @@ Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.
 
 ## Financial Projections (6-Month)
 
-> All projections use **25% CBC commission / 75% chef**. This is the confirmed standard rate.
+> All projections use **25% CBC commission / 75% chef** as the standard rate. Unique Cuisine is 20%/80% (exception) — modeled at 25% for conservative simplicity; actual CBC revenue on Unique orders is slightly lower.
 
 ### Pricing & Volume Assumptions
 
 | Assumption | Value | Notes |
 |---|---|---|
-| Average per-box price | $22 | Range $20–$30; conservative midpoint for modeling |
+| Average per-person price | $30 | Conservative Standard midpoint; range $25–$40 |
 | Average guest count | 80 | Minimum is 50; recurring clients scale to 100–150 |
-| Base AOV | $1,760 | 80 guests × $22 |
+| Base AOV | $2,400 | 80 guests × $30 |
 | Add-ons per order | ~$100 | Juice/boba, premium packaging, etc. |
-| **Modeled AOV** | **$1,900** | Rounded |
+| **Modeled AOV** | **$2,500** | Rounded |
 
 ### Order Volume Ramp
 
@@ -212,9 +226,9 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 
 | Item | Calculation | Amount |
 |---|---|---|
-| **Gross Revenue** | 21 orders × $1,900 | **$39,900** |
-| Chef payouts (75%) | $39,900 × 75% | $29,925 |
-| **CBC Gross Revenue (25%)** | $39,900 × 25% | **$9,975** |
+| **Gross Revenue** | 21 orders × $2,500 | **$52,500** |
+| Chef payouts (avg ~75%) | $52,500 × 75% | $39,375 |
+| **CBC Gross Revenue (~25%)** | $52,500 × 25% | **$13,125** |
 | | | |
 | *CBC Operating Costs:* | | |
 | Labeling, menu cards & delivery | ~$75/order × 21 | $1,575 |
@@ -224,31 +238,31 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | Networking & tasting events | Est. | $300 |
 | **Total CBC Costs** | | **$3,753** |
 | | | |
-| **CBC Net Profit** | | **$6,222** |
-| **Net Margin (on total revenue)** | | **15.6%** |
-| **CBC Gross Margin (on 25% slice)** | | **62.4%** |
+| **CBC Net Profit** | | **$9,372** |
+| **Net Margin (on total revenue)** | | **17.8%** |
+| **CBC Gross Margin (on 25% slice)** | | **71.5%** |
 
-*Note: Chef provides box packaging at their own cost. CBC handles dietary labeling and delivery from commissary to client, funded within CBC's 25% commission. Doug assists with boxing only if needed.*
+*Note: Chef provides serving ware and chafing dishes at their own cost. CBC handles dietary labeling and delivery from commissary to client, funded within CBC's commission.*
 
 ### Scenario Range
 
 | Scenario | Orders | Gross Revenue | CBC Net | Margin |
 |---|---|---|---|---|
-| Conservative | 12 | $22,800 | $1,947 | 8.5% |
-| **Base** | **21** | **$39,900** | **$6,222** | **15.6%** |
-| Optimistic | 30 | $57,000 | $9,497 | 16.7% |
+| Conservative | 12 | $30,000 | $4,197 | 14.0% |
+| **Base** | **21** | **$52,500** | **$9,372** | **17.8%** |
+| Optimistic | 30 | $75,000 | $14,997 | 20.0% |
 
 ### Monthly Revenue Scenarios (At 3-Month Mark)
 
-*Illustrative only — actual CBC net per order depends on Tier 1 vs. Tier 2 order mix. Commission is confirmed at 25%.*
+*Illustrative only — actual CBC net per order depends on Standard vs. Premium and Tier 1 vs. Tier 2 mix. Commission is 25% standard (20% for Unique Cuisine).*
 
 | Scenario | Orders/Month | Avg CBC Net/Order | Est. Monthly CBC Revenue |
 |---|---|---|---|
-| Bear | 4 | ~$250 | ~$1,000 |
-| Base | 8 | ~$500 | ~$4,000 |
-| Bull | 15 | ~$750 | ~$11,250 |
+| Bear | 4 | ~$375 | ~$1,500 |
+| Base | 8 | ~$625 | ~$5,000 |
+| Bull | 15 | ~$875 | ~$13,125 |
 
-*Bear case: mostly Tier 1 box orders at lower volume. Bull case: majority Tier 2 attended service orders at scale, commission + staff billing spread. All figures are illustrative and based on 25% commission.*
+*Bear case: mostly Standard Drop-Off spreads at lower volume. Bull case: majority Attended Service Premium orders at scale, commission + staff billing spread. All figures are illustrative.*
 
 ---
 

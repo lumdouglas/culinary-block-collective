@@ -17,20 +17,20 @@ CBC is launching a 6-month brand awareness and sales growth campaign targeting t
 - Build brand visibility across LinkedIn, Instagram, and local business networks
 - Generate 100+ qualified leads from tech firms with 50–300 employees
 - Convert 10–15 clients into paying catering contracts within 6 months
-- Achieve an Average Order Value (AOV) of $550+ per event
+- Achieve an Average Order Value (AOV) of $2,400+ per event
 - Secure at least 5 recurring weekly or monthly accounts by month 6
 
 ### Chef Lineup — Our Differentiator
 
 | Cuisine | Specialty | Price Range |
 |---|---|---|
-| Chinese | Wok dishes, dumplings, stir-fry, noodles | $20–$25/box |
-| Sushi / Japanese | Rolls, sashimi, bento boxes, ramen | $25–$30/box |
-| Mexican Fusion | Tacos, bowls, elote, tamales | $20–$25/box |
-| American | BBQ, sandwiches, comfort classics, pub fare | $20–$25/box |
-| Specialty / Fusion | Dietary-forward, seasonal, global fusion | $20–$30/box |
+| Chinese (Kivi) | Wok dishes, dumplings, stir-fry, noodles | $25–$30/person (Standard Drop-Off Spread) |
+| Mexican Fusion (Five Course) | Modern moles, wood-fire proteins, salsas, sides | $30/person Standard · $40/person Premium |
+| Sushi / Japanese (Unique) | Sushi rolls, teriyaki, gyoza, edamame, rice | $40/person (Premium only) |
+| American | BBQ, sandwiches, comfort classics, pub fare | TBD |
+| Specialty / Fusion | Dietary-forward, seasonal, global fusion | TBD |
 
-All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all cuisines.
+All service is Chef's Spread (self-serve station) format — no individual box meals. Min 50 guests, max 500. Vegan, GF, and allergen-labeled options across all cuisines.
 
 ---
 
@@ -43,7 +43,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 | Role | Office Manager / Executive Assistant / HR Coordinator |
 | Company Size | 50–300 employees (tech startups & mid-size firms) |
 | Location | Palo Alto, San Jose, Mountain View, Sunnyvale |
-| Budget | $20–$30/box; 50-box minimum; typical order $1,000–$2,500 |
+| Budget | $25–$40/person; 50-guest minimum; typical order $1,500–$3,000 |
 | Events Booked | Team lunches, client dinners, product launches, all-hands |
 | Pain Points | Late deliveries, dietary errors, generic menus, hidden fees |
 | Priorities | Reliable vendor, dietary customization, sustainability, easy ordering |
@@ -155,7 +155,7 @@ All menus: 100–300 guests. Vegan, GF, and allergen-labeled options across all 
 | Canva Pro | $15 | Marketing materials, menus, social graphics |
 | **TOTAL (est.)** | **~$234–$334/mo** | **~$1,400–$2,000 over 6 months** |
 
-*Delivery handled by chef teams as part of their service — no fixed subscription cost to CBC.*
+*Delivery handled by CBC (Doug) — funded within CBC's commission. No separate delivery subscription cost.*
 
 ---
 

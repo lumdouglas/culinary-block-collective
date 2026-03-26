@@ -31,13 +31,13 @@ I'm [Your Name] from Culinary Block Collective — a multi-chef catering kitchen
 Most corporate caterers in the Bay Area offer the same rotation of sandwiches and pizza. We do things differently.
 
 Our kitchen brings together specialized chefs under one roof:
-- Sushi & Japanese — rolls, bento boxes, ramen
+- Sushi & Japanese — sushi rolls, teriyaki, gyoza, edamame
 - Chinese — wok dishes, dumplings, noodles
 - Mexican Fusion — street tacos, elote, rice bowls
 - American — BBQ, sliders, comfort classics
 - Specialty / Seasonal — dietary-forward, globally inspired menus
 
-We serve 50–300 guests, $20–$30/box, with full dietary labeling (vegan, GF, allergen-free).
+We serve 50–500 guests, $25–$40/person (Chef's Spread format), with full dietary labeling (vegan, GF, allergen-free).
 
 We deliver on time. No hidden fees. No generic menus.
 
@@ -106,19 +106,16 @@ Third and final note — I'll keep it short.
 
 Attached are our chef menus for your review. Highlights for corporate catering:
 
-**SUSHI BENTO BOX LUNCH — $25–30/box**
-California rolls, edamame, miso soup, sesame salad, fresh fruit
+**SUSHI & JAPANESE SPREAD — $40/person**
+Sushi rolls (CA roll, spicy tuna, shrimp tempura, avocado cucumber), chicken & tofu teriyaki, gyoza, edamame, rice
 
-**MEXICAN FUSION TACO BAR — $20–25/box**
-Chicken tinga, roasted veggie, elote, rice, beans, chips & salsa
+**MEXICAN FUSION SPREAD — $30/person (Standard) · $40/person (Premium)**
+Modern moles, wood-fire proteins, salsas, sides — Standard or Premium with wagyu beef, whole fish, or jumbo shrimp
 
-**AMERICAN BBQ SPREAD — $20–25/box**
-Smoked brisket, pulled jackfruit, coleslaw, mac & cheese, cornbread
+**CHINESE SPREAD — $25–$30/person**
+Wok stir-fry, dumplings, noodles, spring rolls, bold layered flavors
 
-**CHINESE DIM SUM SPREAD — $20–25/box**
-Dumplings, mapo tofu, garlic noodles, spring rolls, steamed veggies
-
-50-box minimum per order. Mix and match cuisines available.
+50-guest minimum per order. Mix and match cuisines available. All spreads in self-serve Chef's Spread format.
 
 For new clients who book before [Date], we're offering **10% off your first order.**
 No catch — just our way of earning your trust.
@@ -150,8 +147,8 @@ I'm closing out my outreach to [Company] unless now is actually a better time to
 
 Quick version of who we are:
 - Specialized chefs: sushi/Japanese, Chinese, Mexican fusion, American, specialty
-- Corporate catering for 50–300 people, $20–$30/box
-- On-time delivery, labeled packaging, transparent pricing
+- Corporate catering for 50–500 guests, $25–$40/person (Chef's Spread format)
+- On-time delivery, dietary labeling on every item, transparent pricing
 - Free chef tasting available for corporate accounts (10 slots/month)
 
 If catering ever comes up — even months from now — I'd love to be on your radar.
@@ -191,7 +188,7 @@ If it went well, we'd be grateful if you'd leave us a quick Google review: [Goog
 
 A couple of things that might be useful for your next event:
 
-**RECURRING CATERING ACCOUNTS** — Weekly or bi-weekly standing orders with fixed pricing and rotating menus. Great for all-hands lunches or standing team meals.
+**RECURRING CATERING ACCOUNTS** — Weekly or bi-weekly standing orders with fixed per-head pricing and rotating menus. Great for all-hands lunches or standing team meals.
 
 **JUICE & BOBA ADD-ON** — $12/pack. Popular addition for afternoon meetings.
 
