@@ -13,20 +13,19 @@ CBC offers two service tiers. The same independent specialist chefs power both.
 
 ---
 
-#### Tier 1 — Premium Drop-Off
+#### Tier 1 — Drop-Off Buffet
 *Best for: weekly team lunches, recurring orders, everyday team meals.*
 
-Chef-provided box packaging, chafing dishes or insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC), and disposable plates and napkins. CBC delivers. Client handles setup and cleanup. No on-site CBC staff.
+Chef sets up a full buffet with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), and dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff. **Buffet service only — no individual box meals.**
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese** | $22/person | 75 | $1,650 |
-| **Mexican Fusion** | $26/person | 100 | $2,600 |
-| **Sushi / Japanese** | $30/person | 50 | $1,500 |
+| **Chinese (Kivi)** | $25–$30/person | 50 | $1,250–$1,500 |
+| **Mexican Fusion (Five Course)** | $30/person | 50 | $1,500 |
+| **Sushi / Japanese (Unique)** | $30/person | 50 | $1,500 |
 
 **What's included in Tier 1:**
-- ✓ Chef-provided box packaging & disposable serving ware
-- ✓ Chafing dishes or insulated delivery trays
+- ✓ Full buffet with chafing dishes & serving ware
 - ✓ Serving utensils
 - ✓ Printed menu card with dietary key (CBC)
 - ✓ Individual item dietary labeling — vegan, GF, nut-free, dairy-free (CBC)
@@ -43,9 +42,9 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the buffe
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese** | $38/person | 75 | $2,850 |
-| **Mexican Fusion** | $44/person | 100 | $4,400 |
-| **Sushi / Japanese** | $38/person | 50 | $1,900 |
+| **Chinese (Kivi)** | $33–$38/person | 50 | $1,650–$1,900 |
+| **Mexican Fusion (Five Course)** | $38/person | 50 | $1,900 |
+| **Sushi / Japanese (Unique)** | $38/person | 50 | $1,900 |
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
 - ✓ 1–2 on-site CBC staff (setup, buffet maintenance, cleanup)
@@ -132,8 +131,8 @@ Recurring contracts include:
 | Cuisine | Specialty Dishes | Tier 1 Price | Tier 2 Price |
 |---|---|---|---|
 | **Sushi & Japanese** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese** | Wok stir-fry, dumplings, noodles, spring rolls | $22/person (75-person min) | $38/person (75-person min) |
-| **Mexican Fusion** | Street tacos, elote, rice bowls, chips & guac | $26/person (100-person min) | $44/person (100-person min) |
+| **Chinese · Kivi** | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person · 50-person min | $33–$38/person · 50-person min |
+| **Mexican Fusion · Five Course** | Modern moles, wood-fire proteins, salsas, sides, dessert | $30/person · 50-person min ($1,500) · max 500 guests | $38/person · 50-person min ($1,900) |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |
 | **Vietnamese** *(when available)* | Pho, banh mi, rice noodle bowls | TBD — confirm at booking | TBD |
@@ -147,23 +146,23 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ---
 
-## Box Pricing Model
+## Buffet Pricing Model
 
-*Client-facing price is $20–30/box. CBC retains 25%; chef receives 75%.*
+*All service is buffet-style. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$30/person. CBC retains 25%; chef receives 75%.*
 
-| Tier | Client Price (per box) | Chef Payout (75%) | CBC Commission (25%) |
+| Chef / Cuisine | T1 Client Price | Chef Payout (75%) | CBC Commission (25%) |
 |---|---|---|---|
-| **Budget** | $20/box | $15.00 | $5.00 |
-| **Core** | $25/box | $18.75 | $6.25 |
-| **Premium** | $30/box | $22.50 | $7.50 |
+| **Unique · Sushi & Japanese** | $30/person | $22.50 | $7.50 |
+| **Five Course · Mexican Fusion** | $30/person | $22.50 | $7.50 |
+| **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 | $6.25–$7.50 |
 
-**Minimum order:** 50 boxes per order (negotiated down from some chefs' default 75-box minimum).
+**Minimum order:** 50 guests.
 
-**Revenue split:** 25% CBC / 75% chef — standard across all chefs. Document agreed tier(s) per chef in `docs/chef-profiles.md` once agreements are signed.
+**Revenue split:** 25% CBC / 75% chef — standard across all chefs. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
 
-**Packaging:** Chef provides their own boxes and containers. CBC creates and applies dietary labels, prints menu cards.
+**Packaging:** Chef provides their own serving ware and chafing dishes for the buffet. CBC creates and applies dietary labels, prints menu cards.
 
-**Delivery:** CBC delivers from commissary to client site. Doug assists with boxing only if needed (e.g., chef is behind schedule). Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
+**Delivery:** CBC delivers from commissary to client site. Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
 
 **Recurring account discount (future):** A 5% recurring discount is planned but not active at launch. When introduced, it will be applied to the customer total first, then the 75/25 split applies to the discounted amount — both chef and CBC absorb proportionally.
 
@@ -175,11 +174,12 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Scenario | Guests | Format | Est. Revenue |
 |---|---|---|---|
-| Engineering weekly lunch | 75–100 | Box lunch | $1,500–$2,400 |
-| Monthly all-hands | 150 | Buffet | $3,600–$4,500 |
-| VIP client dinner | 50–75 | Buffet + Chef's Table | $1,350–$2,400 |
-| Product launch | 200 | Mix & Match (2 cuisines) | $4,800–$6,000 |
-| Recurring weekly contract | 150/week | Box lunch | $3,000–$3,600/week |
+| Engineering weekly lunch | 75–100 | Buffet · Tier 1 | $1,875–$3,000 |
+| Monthly all-hands | 150 | Buffet · Tier 1 | $3,750–$4,500 |
+| All-hands (attended) | 150 | Buffet · Tier 2 | $4,950–$5,700 |
+| VIP client event | 50–75 | Buffet · Tier 2 + Chef's Table | $1,900–$2,850 |
+| Product launch | 200 | Mix & Match (2 cuisines) | $6,000–$7,600 |
+| Recurring weekly contract | 150/week | Buffet · Tier 1 | $3,750–$4,500/week |
 
 ---
 
