@@ -23,7 +23,15 @@ CBC serves two distinct customer segments:
 - **Option 1 — CBC Standard Commission:** CBC sets the client-facing price at established tier rates. Chef receives a fixed % of that price (standard: 75% chef / 25% CBC; negotiated exception: 80% chef / 20% CBC for Unique Cuisine). Simple and predictable for chefs who don't want to manage pricing.
 - **Option 2 — Chef-Declared Base + CBC Markup:** Chef declares their per-person food price (covering their food cost, labor, and margin). CBC applies a negotiated markup % on top to arrive at the client-facing price. Standard markup: 33% above chef price (equivalent to CBC keeping ~25% of the client price). Markup % is negotiable (e.g., 25% markup ≈ 20% of client price). Best for chefs with established cost structures who need their food margin protected. Example: Chef declares $32/person → CBC adds 33% → Client pays ~$42.50 → CBC earns ~$10.50/person.
 
-**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Italian, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
+**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Italian, modern Mexican, breakfast, Vietnamese, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
+
+**Five Course Provisions (Chef John) — active concepts:**
+- *The Tortilla Theory* — Modern Mexican · $32–$38/person declared · choice of 2 mains (al pastor, tinga, carnitas, cochinita pibil, chile verde), 3 sides, 3 salsas, chips & tortillas · Add-ons: +$5/guest
+- *A Little Pasta Table* — Italian · $32–$38/person declared · choice of 2 mains (chicken parm, piccata, creamy tomato pasta, penne alfredo), 3 sides · Add-ons: +$5/guest
+- *The Morning Shift* — Breakfast · $23–$28/person declared · choice of 2 burrito or sandwich options (one category per day) + salsas & condiments · ⚠️ Handheld format — see format note below · Add-ons: +$5/guest
+- All concepts: 100-guest minimum at lower price / 50-guest minimum at higher price
+
+**⚠️ Morning Shift format note:** The Morning Shift is a handheld breakfast (burritos/sandwiches) — individual items, not a chafing dish spread. This may conflict with CBC's current "spread format only" service model. Resolve with Chef John before adding this to client-facing offerings: either (a) clarify that individual handheld drop-off is an acceptable format exception for breakfast, or (b) convert it to a breakfast station spread. Update service model docs and contractor agreement accordingly once decided.
 
 **Client-facing price (per person):** Varies by chef pricing option and cuisine — roughly $25–$50/person depending on chef's declared price or tier, plus +$8/person for Attended Service. Commission details are internal only — never share split percentages with clients.
 

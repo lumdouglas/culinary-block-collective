@@ -161,7 +161,15 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 ## Add-Ons & Upgrades
 
-| Add-On | Price | Notes |
+### Chef-Specific Add-Ons
+
+**Five Course Provisions — all concepts:** +$5/guest (chef-declared) → ~$6.65/guest to client at 33% markup. Examples may include premium protein upgrades, extra mains, guacamole, premium sauces, or expanded sides. Specific add-on items TBD per concept — confirm with Chef John before quoting.
+
+> Add-on pricing follows the same markup structure as the base price. If the chef is on Option 2, CBC marks up the add-on at the same negotiated rate.
+
+### CBC Add-Ons
+
+| Add-On | Client Price | Notes |
 |---|---|---|
 | Juice & Boba Bundle | $12/pack | Upsell during checkout and follow-up emails |
 | Premium Compostable Packaging | +$3/person | BPI-certified, branded napkins |
@@ -194,11 +202,13 @@ Recurring contracts include:
 
 > **Note:** The roster changes as chef-tenants rotate through the Culinary Block commissary. Update this section as chefs join or leave. The numbers below reflect current active chefs and their customer-facing price ranges.
 
-| Cuisine | Specialty Dishes | Standard Drop-Off Price | Attended Service Price |
-|---|---|---|---|
-| **Sushi & Japanese (Unique)** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $40/person Premium · 50-person min ($2,000) · max 500 guests · Spread format only | $48/person · 50-person min ($2,400) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese · Kivi** | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person · 50-person min | $33–$38/person · 50-person min |
-| **Mexican Fusion · Five Course** | Modern moles, wood-fire proteins, salsas, sides, dessert | $30/person Standard · $40/person Premium · 50-person min ($1,500–$2,000) · max 500 guests | $38/person Standard · $48/person Premium · 50-person min |
+| Cuisine / Concept | Chef | Specialty Dishes | Client Price | Attended Service |
+|---|---|---|---|---|
+| **Sushi & Japanese** | Unique Cuisine | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $40/person (Option 1 · 20% exception) · 50-person min | $48/person · CBC-staffed |
+| **Chinese** | Kivi's Kitchen | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person (Option 1) · 50-person min | $33–$38/person |
+| **Mexican — Tortilla Theory** | Five Course Provisions | Pollo al pastor, chicken tinga, cochinita pibil, carnitas, chile verde · choice of 2 mains, 3 sides, 3 salsas, chips & tortillas | $32/person declared (100+ guests) · $38/person (50–99) → ~$42.50–$50.50 client (Option 2) | TBD |
+| **Italian — Pasta Table** | Five Course Provisions | Chicken parmesan, chicken piccata, creamy tomato basil pasta, penne alfredo · choice of 2 mains, 3 sides | $32/person declared (100+ guests) · $38/person (50–99) → ~$42.50–$50.50 client (Option 2) | TBD |
+| **Breakfast — Morning Shift** | Five Course Provisions | Breakfast burritos or sandwiches (select 2): bacon/egg/cheddar, sausage/egg/potato, chorizo/egg/cheese, vegetarian, California burrito · salsas & condiments | $23/person declared (100+ guests) · $28/person (50–99) → ~$30.60–$37.25 client (Option 2) | N/A — drop-off only |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |
 | **Vietnamese** *(when available)* | Pho, banh mi, rice noodle bowls | TBD — confirm at booking | TBD |
@@ -227,10 +237,15 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ### Option 2 Chefs (Chef-Declared Base + CBC Markup)
 
-| Chef / Cuisine | Chef Declared Price | CBC Markup | Client Price | CBC Earns |
+| Chef / Concept | Chef Declared Price | CBC Markup | Client Price | CBC Earns |
 |---|---|---|---|---|
 | **Five Course · Italian (Pasta Table)** | $32/person (100+ guests) | 33% | ~$42.50/person | ~$10.50/person |
 | **Five Course · Italian (Pasta Table)** | $38/person (50–99 guests) | 33% | ~$50.50/person | ~$12.50/person |
+| **Five Course · Mexican (Tortilla Theory)** | $32/person (100+ guests) | 33% | ~$42.50/person | ~$10.50/person |
+| **Five Course · Mexican (Tortilla Theory)** | $38/person (50–99 guests) | 33% | ~$50.50/person | ~$12.50/person |
+| **Five Course · Breakfast (Morning Shift)** | $23/person (100+ guests) | 33% | ~$30.60/person | ~$7.60/person |
+| **Five Course · Breakfast (Morning Shift)** | $28/person (50–99 guests) | 33% | ~$37.25/person | ~$9.25/person |
+| **Add-ons (all Five Course concepts)** | $5/guest (chef-declared) | 33% | ~$6.65/guest | ~$1.65/guest |
 | *Any chef on Option 2* | Chef-declared | Negotiated (25–33%) | Chef price × (1 + markup) | Markup amount |
 
 **Minimum order:** 50 guests across all chefs and pricing options.
