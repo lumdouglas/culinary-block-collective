@@ -17,11 +17,15 @@ CBC serves two distinct customer segments:
 1. **Chef Entrepreneurs / Food Business Operators** — micro food businesses and independent chefs already operating out of the Culinary Block commissary, who gain access to corporate catering gigs, professional infrastructure, and a branded sales channel they couldn't build on their own
 2. **Corporate Buyers in the Bay Area** — office managers and HR/People Ops directors at tech firms (50–300 employees) who need reliable, diverse, dietary-friendly catering
 
-**Business model:** CBC acts as the operator, retaining a **25% commission** on each order (20% for Unique Cuisine — negotiated exception). Client-facing price is **$25–$40/person** depending on cuisine and tier. Service is **Chef's Spread (self-serve station) format only — no individual box meals.** CBC charges the client and collects applicable **sales tax**; chefs receive their agreed percentage of the per-person rate (sales tax is not deducted from chef payout). Chefs provide their own serving ware and chafing dishes for the spread; CBC creates dietary labels, **food safety labels** (with consume-by times per FDA Food Code), and handles delivery. Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
+**Business model:** CBC acts as the operator and controls the client relationship, invoicing, sales tax collection, delivery, labeling, and food safety compliance. Chefs are independent contractors who provide food and their own serving ware. CBC earns its margin through one of two pricing structures negotiated at chef onboarding (see *Chef Pricing Structure Options* below). Service is **Chef's Spread (self-serve station) format only — no individual box meals.** Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
-**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
+**Chef Pricing Structure Options (internal — not client-facing):**
+- **Option 1 — CBC Standard Commission:** CBC sets the client-facing price at established tier rates. Chef receives a fixed % of that price (standard: 75% chef / 25% CBC; negotiated exception: 80% chef / 20% CBC for Unique Cuisine). Simple and predictable for chefs who don't want to manage pricing.
+- **Option 2 — Chef-Declared Base + CBC Markup:** Chef declares their per-person food price (covering their food cost, labor, and margin). CBC applies a negotiated markup % on top to arrive at the client-facing price. Standard markup: 33% above chef price (equivalent to CBC keeping ~25% of the client price). Markup % is negotiable (e.g., 25% markup ≈ 20% of client price). Best for chefs with established cost structures who need their food margin protected. Example: Chef declares $32/person → CBC adds 33% → Client pays ~$42.50 → CBC earns ~$10.50/person.
 
-**Client-facing price (per person):** $25–$30/person (Standard) · $40/person (Premium) · +$8/person for Attended Service. Commission: 25% CBC / 75% chef standard; Unique Cuisine exception: 20% CBC / 80% chef.
+**Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Italian, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
+
+**Client-facing price (per person):** Varies by chef pricing option and cuisine — roughly $25–$50/person depending on chef's declared price or tier, plus +$8/person for Attended Service. Commission details are internal only — never share split percentages with clients.
 
 ---
 
@@ -39,12 +43,13 @@ CBC operates **two service tiers** plus a **Premium** price point. All service i
 
 Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff.
 
-| Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
-|---|---|---|---|
-| Kivi's Kitchen · Chinese | $25–$30/person | 50 | $1,250–$1,500 |
-| Five Course Provision · Mexican Fusion | $30/person | 50 | $1,500 |
+| Chef / Cuisine | Pricing Option | Client-Facing Price | Min. Guests | Min. Order |
+|---|---|---|---|---|
+| Kivi's Kitchen · Chinese | Option 1 (CBC Standard) | $25–$30/person | 50 | $1,250–$1,500 |
+| Five Course Provision · Mexican Fusion | Option 1 or Option 2 (TBD at signing) | $30/person (Option 1) · TBD (Option 2) | 50 | $1,500+ |
+| Five Course Provision · Italian (Pasta Table) | Option 2 (Chef-Declared) | Chef declares $32–$38 → Client ~$42–$50/person | 50–100 | $2,100–$5,000 |
 
-**CBC service kit cost per order:** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle). Chef provides serving ware. At 25% commission, margins are healthy.
+**CBC service kit cost per order:** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle). Chef provides serving ware. CBC's margin is funded within its commission or markup — never a separate client line item.
 
 ---
 
@@ -52,13 +57,15 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 
 Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off format, elevated ingredients.
 
-| Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
-|---|---|---|---|
-| Five Course · Mexican Fusion (Chef John) | $40/person | 50 | $2,000 |
-| Unique Cuisine · Sushi & Japanese | $40/person | 50 | $2,000 |
+| Chef / Cuisine | Pricing Option | Client-Facing Price | Min. Guests | Min. Order |
+|---|---|---|---|---|
+| Five Course · Mexican Fusion (Chef John) | Option 1 or Option 2 (TBD) | $40/person (Option 1) · TBD (Option 2) | 50 | $2,000+ |
+| Five Course · Italian (Pasta Table) | Option 2 (Chef-Declared) | ~$42–$50/person (based on $32–$38 declared) | 50–100 | $2,100–$5,000 |
+| Unique Cuisine · Sushi & Japanese | Option 1 (20% exception) | $40/person | 50 | $2,000 |
 
-**Commission notes:**
-- Five Course (Premium): 25% standard. Chef gets $30/person, CBC gets $10/person.
+**Commission / margin notes:**
+- Five Course Option 1: 25% standard. Chef gets $30/person, CBC gets $10/person.
+- Five Course Option 2: Chef declares base price; CBC applies 33% markup (or negotiated %). Chef keeps declared price, CBC keeps the markup.
 - Unique Cuisine: **20% (negotiated exception)**. Chef gets $32/person, CBC gets $8/person.
 
 ---
@@ -84,13 +91,26 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 ---
 
-### Commission Summary
+### Commission / Margin Summary
+
+Two pricing structures are available. The structure for each chef is locked in at the time of contractor agreement signing.
+
+**Option 1 — CBC Standard Commission** (CBC sets client price, chef gets a % of it)
 
 | Chef | Commission | Chef Payout | CBC Gets |
 |---|---|---|---|
-| Kivi's Kitchen | 25% standard | 75% | 25% |
-| Five Course Provision | 25% standard | 75% | 25% |
-| Unique Cuisine | **20% (exception)** | **80%** | 20% |
+| Kivi's Kitchen | 25% standard | 75% of client price | 25% of client price |
+| Five Course Provision (if Option 1) | 25% standard | 75% of client price | 25% of client price |
+| Unique Cuisine | **20% (negotiated exception)** | **80%** of client price | 20% of client price |
+
+**Option 2 — Chef-Declared Base + CBC Markup** (Chef sets food price, CBC marks it up)
+
+| Chef | Chef Declared Price | CBC Markup | Client Price | CBC Earns |
+|---|---|---|---|---|
+| Five Course · Italian (Pasta Table) | $32–$38/person | 33% (standard) | ~$42–$50/person | ~$10–$12/person |
+| Any chef (negotiable) | Chef-set | 25–33% | Chef price × multiplier | Markup amount |
+
+> **Internal only — never share split percentages or markup % with clients.**
 
 ---
 

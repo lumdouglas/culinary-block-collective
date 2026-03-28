@@ -215,11 +215,26 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 - Accepted payment methods: [TBD — update when payment processing is set up]
 
 ### Chef / Contractor Payment
-- **Revenue split:** Chef 75% / CBC 25% standard; Unique Cuisine exception: Chef 80% / CBC 20%
+
+Each chef is on one of two pricing structures, locked in at contractor agreement signing. Confirm the chef's structure before calculating their payment.
+
+**Option 1 — CBC Standard Commission:**
+- Chef receives a fixed % of the total client invoice (excluding sales tax and Attended Service staff billing)
+- Standard: Chef 75% / CBC 25% · Unique Cuisine exception: Chef 80% / CBC 20%
+- Calculate: `Chef payout = (guest count × per-person client price) × chef %`
+
+**Option 2 — Chef-Declared Base + CBC Markup:**
+- Chef receives their declared per-person price × guest count, in full
+- CBC keeps the markup (difference between client price and chef declared price)
+- Calculate: `Chef payout = guest count × chef's declared per-person price`
+- Calculate: `CBC margin = guest count × (client price − chef declared price)`
+
+**Both options:**
+- Attended Service (+$8/person Tier 2 billing) is always CBC revenue — not paid to chef regardless of option
+- Sales tax collected from client is CBC's — never deducted from chef payout
 - **Payment terms:** Net 30 from service date
-- Calculate chef payment: (total order revenue) × chef's agreed percentage (75% or 80% for Unique)
-- Chef sets their own minimum revenue threshold per order — confirm before booking
 - Chef is responsible for their own taxes, benefits, and overhead
+- Minimum revenue threshold per order: confirm with each chef at onboarding and log in HubSpot
 
 ---
 

@@ -5,6 +5,50 @@
 
 ---
 
+## Chef Pricing Structure Options
+
+> **Internal reference — not for client-facing materials.**
+
+CBC supports two pricing structures, negotiated with each chef at onboarding and locked in the contractor agreement.
+
+---
+
+### Option 1 — CBC Standard Commission
+
+CBC sets the client-facing price at established tier rates. Chef receives a fixed % of that client price. CBC's delivery, labeling, and coordination costs are funded within its commission — no separate line items on the client invoice.
+
+- **Standard split:** Chef 75% / CBC 25%
+- **Negotiated exception (Unique Cuisine):** Chef 80% / CBC 20%
+- **Best for:** Chefs who want simple, predictable payouts and don't want to manage their own pricing structure
+
+| Client Price | Chef % | Chef Earns | CBC Earns |
+|---|---|---|---|
+| $30/person | 75% | $22.50 | $7.50 |
+| $40/person | 75% | $30.00 | $10.00 |
+| $40/person | 80% (Unique) | $32.00 | $8.00 |
+
+---
+
+### Option 2 — Chef-Declared Base Price + CBC Markup
+
+Chef declares their per-person food price (covering their food cost, labor, and margin). CBC applies a negotiated markup % on top to arrive at the client-facing price. Chef is paid their declared price in full; CBC keeps the markup amount. Delivery, labeling, and coordination are CBC's responsibility, funded from within the markup.
+
+- **Standard markup:** 33% above chef's declared price (equivalent to CBC keeping ~25% of the client price)
+- **Negotiated markup:** Can vary — minimum ~25% above chef price to cover CBC's costs
+- **Best for:** Chefs with established food businesses and defined cost structures who need their food margin protected
+
+| Chef Declared Price | CBC Markup % | Client-Facing Price | CBC Earns |
+|---|---|---|---|
+| $32/person | 33% | ~$42.50/person | ~$10.50/person |
+| $38/person | 33% | ~$50.50/person | ~$12.50/person |
+| $32/person | 25% | $40.00/person | $8.00/person |
+
+**Formula:** Client price = Chef declared price × (1 + markup %)
+
+> **Note:** Option 2 client prices will typically be higher than Option 1 Standard tier prices. Position these as Premium or Specialty offerings.
+
+---
+
 ## Customer-Facing Pricing
 
 ### Service Tiers
@@ -170,7 +214,9 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ## Spread Pricing Model
 
-*All service is self-serve spread format. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$30/person (Standard) or $40/person (Premium). CBC retains 25%; chef receives 75%.*
+*All service is self-serve spread format. Individual box meals are not currently offered (may be added later). Client-facing price depends on which pricing structure the chef is on (see Chef Pricing Structure Options above).*
+
+### Option 1 Chefs (CBC Standard Commission)
 
 | Chef / Cuisine | Client Price | Chef Payout | CBC Commission |
 |---|---|---|---|
@@ -179,15 +225,23 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 | **Five Course · Mexican Fusion (Premium)** | $40/person | $30.00 (75%) | $10.00 (25%) |
 | **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) |
 
-**Minimum order:** 50 guests.
+### Option 2 Chefs (Chef-Declared Base + CBC Markup)
 
-**Revenue split:** 25% CBC / 75% chef — standard for Kivi and Five Course. **Unique Cuisine exception: 20% CBC / 80% chef** (negotiated). Commission details are internal — not for client-facing materials. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
+| Chef / Cuisine | Chef Declared Price | CBC Markup | Client Price | CBC Earns |
+|---|---|---|---|---|
+| **Five Course · Italian (Pasta Table)** | $32/person (100+ guests) | 33% | ~$42.50/person | ~$10.50/person |
+| **Five Course · Italian (Pasta Table)** | $38/person (50–99 guests) | 33% | ~$50.50/person | ~$12.50/person |
+| *Any chef on Option 2* | Chef-declared | Negotiated (25–33%) | Chef price × (1 + markup) | Markup amount |
+
+**Minimum order:** 50 guests across all chefs and pricing options.
+
+**Pricing structure:** Locked in at contractor agreement signing — internal only, never share split details or markup % with clients. Tier 2 attended service (+$8/person) is always CBC revenue on top of the chef's payout, regardless of which option the chef is on.
 
 **Packaging:** Chef provides their own serving ware and chafing dishes for the spread. CBC creates and applies dietary labels, prints menu cards.
 
-**Delivery:** CBC delivers from commissary to client site. Delivery is funded within CBC's 25% commission — not a separate line item on client invoices.
+**Delivery:** CBC delivers from commissary to client site. Delivery costs are funded within CBC's commission or markup — never a separate line item on client invoices.
 
-**Recurring account discount (future):** A 5% recurring discount is planned but not active at launch. When introduced, it will be applied to the customer total first, then the 75/25 split applies to the discounted amount — both chef and CBC absorb proportionally.
+**Recurring account discount (future):** A 5% recurring discount is planned but not active at launch. For Option 1 chefs: discount applied to client total first, then the split applies to the discounted amount. For Option 2 chefs: discount reduces the client price first; CBC absorbs it from the markup.
 
 **Payment terms:** Net 30 from service date.
 
