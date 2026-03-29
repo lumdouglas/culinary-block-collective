@@ -218,25 +218,27 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 Each chef's pricing basis is locked in the contractor agreement. Confirm which basis applies before calculating payment. When in doubt, check `docs/menu-pricing.md` → Internal Pricing Reference.
 
-**CBC Standard (Kivi, Unique Cuisine):**
-- Chef receives a fixed % of the client-facing price (excluding sales tax and Attended Service billing)
-- Kivi: 75% · Unique Cuisine: 80%
-- `Chef payout = (guest count × per-person client price) × chef %`
+**How chef payment works (all chefs):**
+- Chef declares their per-head price at onboarding — this is what they receive per guest, per order
+- Doug sets the client-facing price at 20–25% above the chef's price (CBC's discretion)
+- Chef is paid their declared price × guest count, in full
+- CBC keeps the difference between client price and chef price — this covers delivery, labeling, coordination, and profit
+- No separate delivery, service, or processing fees are ever billed to the client
 
-**Chef-Declared + CBC Markup (Five Course Provisions):**
-- Chef receives their declared per-person price × guest count, in full
-- CBC keeps the difference (client price − chef declared price)
-- `Chef payout = guest count × chef's declared per-person price`
-- `CBC margin = guest count × (client price − chef declared price)`
+`Chef payout = guest count × chef's per-head price`
+`CBC margin = guest count × (client price − chef per-head price)`
 
-**All chefs — universal rules:**
-- Attended Service (+$8/person) is always 100% CBC revenue — never shared with the chef
-- Sales tax is CBC's — never deducted from chef payout
-- Add-ons: calculated at the same basis as the base price (CBC Standard: chef gets their %; Chef-Declared: chef gets declared add-on price, CBC keeps markup)
+**Attended Service (+$8/person):** Always 100% CBC revenue — stacked on top of the Tier 1 client price, not shared with the chef.
+
+**Add-ons:** Calculated the same way — chef declares the add-on price, Doug marks it up 20–25%, client pays the marked-up price, chef receives the declared add-on price.
+
+**Universal rules:**
+- Sales tax is CBC's — collected from the client, never deducted from chef payout
 - **Payment terms:** Net 30 from service date
 - Chef is responsible for their own taxes, benefits, and overhead
+- Chef and client prices are confirmed in the contractor agreement and the booking confirmation respectively
 
-**New chef variations:** If a chef proposes a pricing arrangement outside CBC Standard, Doug reviews and approves before the agreement is signed. Evaluate against: client price competitiveness, CBC margin floor, logistics fit, and quoting consistency. Approved variations are added to `docs/menu-pricing.md` and this file.
+**Adding a new chef:** Get their per-head price for each concept. Doug reviews and sets the client-facing price before the agreement is signed. Minimum markup is 20% — below that, CBC's operational costs (delivery, labeling, coordination) aren't covered. Document the agreed prices in `docs/menu-pricing.md`.
 
 ---
 

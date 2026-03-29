@@ -19,15 +19,16 @@ CBC serves two distinct customer segments:
 
 **Business model:** CBC acts as the operator and controls the client relationship, invoicing, sales tax collection, delivery, labeling, and food safety compliance. Chefs are independent contractors who provide food and their own serving ware. CBC earns its margin through the **CBC Standard pricing model** — chefs may propose variations, which are evaluated case-by-case and locked in the contractor agreement (see *Chef Pricing Structure* in `docs/menu-pricing.md`). Service is **Chef's Spread (self-serve station) format only — no individual box meals.** Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
-**CBC Standard (internal — not client-facing):** CBC sets client-facing price at tier rates. Chef receives 75% of client price; CBC retains 25%. Negotiated exception: Unique Cuisine at 80/20. Approved variation: Five Course Provisions uses chef-declared base prices with a 33% CBC markup applied on top (chef keeps declared price, CBC keeps the markup). Any new chef pricing variation must be reviewed and approved by Doug before the agreement is signed — evaluated on client price competitiveness, CBC margin floor, logistics fit, and quoting consistency.
+**CBC Standard (internal — not client-facing):** Chef declares their per-head price (what they need to receive). Doug sets the client-facing price at his discretion — targeting a 20–25% markup above what the chef is paid. That markup covers delivery, labeling, coordination, and CBC's margin. No separate delivery, service, or processing fees are ever added to the client invoice — everything is baked into the client price. Any new chef's pricing must be reviewed by Doug before the agreement is signed.
 
 **Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Italian, modern Mexican, breakfast, Vietnamese, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
 
 **Five Course Provisions (Chef John) — active concepts:**
-- *The Tortilla Theory* — Modern Mexican · $32–$38/person declared · choice of 2 mains (al pastor, tinga, carnitas, cochinita pibil, chile verde), 3 sides, 3 salsas, chips & tortillas · Add-ons: +$5/guest
-- *A Little Pasta Table* — Italian · $32–$38/person declared · choice of 2 mains (chicken parm, piccata, creamy tomato pasta, penne alfredo), 3 sides · Add-ons: +$5/guest
-- *The Morning Shift* — Breakfast · $23–$28/person declared · choice of 2 burrito or sandwich options (one category per day) + salsas & condiments · ⚠️ Handheld format — see format note below · Add-ons: +$5/guest
-- All concepts: 100-guest minimum at lower price / 50-guest minimum at higher price
+- *The Tortilla Theory* — Modern Mexican · Chef price: $32 (100+ guests) / $38 (50–99 guests) · choice of 2 mains (al pastor, tinga, carnitas, cochinita pibil, chile verde), 3 sides, 3 salsas, chips & tortillas · Add-ons: +$5/guest chef price
+- *A Little Pasta Table* — Italian · Chef price: $32 (100+ guests) / $38 (50–99 guests) · choice of 2 mains (chicken parm, piccata, creamy tomato pasta, penne alfredo), 3 sides · Add-ons: +$5/guest chef price
+- *The Morning Shift* — Breakfast · Chef price: $23 (100+ guests) / $28 (50–99 guests) · choice of 2 burrito or sandwich options (one category per day) + salsas & condiments · ⚠️ Handheld format — see format note below · Add-ons: +$5/guest chef price
+- All concepts: 100-guest minimum at lower chef price / 50-guest minimum at higher chef price
+- Client-facing price: Doug sets at 20–25% above chef price at his discretion (see commission summary below)
 
 **⚠️ Morning Shift format note:** The Morning Shift is a handheld breakfast (burritos/sandwiches) — individual items, not a chafing dish spread. This may conflict with CBC's current "spread format only" service model. Resolve with Chef John before adding this to client-facing offerings: either (a) clarify that individual handheld drop-off is an acceptable format exception for breakfast, or (b) convert it to a breakfast station spread. Update service model docs and contractor agreement accordingly once decided.
 
@@ -52,9 +53,9 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 | Concept / Cuisine | Chef | Client-Facing Price | Min. Guests | Min. Order |
 |---|---|---|---|---|
 | Chinese | Kivi's Kitchen | $25–$30/person | 50 | $1,250–$1,500 |
-| Breakfast — Morning Shift ⚠️ | Five Course Provisions | ~$30.60/person (100+) · ~$37.25/person (50–99) | 50 | $1,530–$1,863 |
-| Mexican — Tortilla Theory | Five Course Provisions | ~$42.50/person (100+) · ~$50.50/person (50–99) | 50 | $2,125–$2,525 |
-| Italian — Pasta Table | Five Course Provisions | ~$42.50/person (100+) · ~$50.50/person (50–99) | 50 | $2,125–$2,525 |
+| Breakfast — Morning Shift ⚠️ | Five Course Provisions | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | 50 | $1,400–$1,750 |
+| Mexican — Tortilla Theory | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
+| Italian — Pasta Table | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | Sushi & Japanese | Unique Cuisine | $40/person | 50 | $2,000 |
 
 > ⚠️ Morning Shift is handheld format — do not quote until format exception is resolved with Chef John.
@@ -70,8 +71,8 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 | Concept / Cuisine | Chef | Tier 2 Price |
 |---|---|---|
 | Chinese | Kivi's Kitchen | $33–$38/person |
-| Mexican — Tortilla Theory | Five Course Provisions | ~$50.50/person (100+) · ~$58.50/person (50–99) |
-| Italian — Pasta Table | Five Course Provisions | ~$50.50/person (100+) · ~$58.50/person (50–99) |
+| Mexican — Tortilla Theory | Five Course Provisions | ~$46–$48/person (100+) · ~$54–$56/person (50–99) |
+| Italian — Pasta Table | Five Course Provisions | ~$46–$48/person (100+) · ~$54–$56/person (50–99) |
 | Sushi & Japanese | Unique Cuisine | $48/person |
 
 **Attended staffing:**
@@ -89,15 +90,17 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 > **Internal only — never share split percentages or markup % with clients.** Pricing basis is locked at contractor signing.
 
-| Concept / Cuisine | Chef | Client Price | Chef Receives | CBC Earns | Basis |
+| Concept / Cuisine | Chef | Chef Price | Client Price (Doug sets) | CBC Earns | Markup |
 |---|---|---|---|---|---|
-| Chinese | Kivi's Kitchen | $25–$30/person | $18.75–$22.50 | $6.25–$7.50 | CBC Standard (75/25) |
-| Sushi & Japanese | Unique Cuisine | $40/person | $32 | $8 | CBC Standard (80/20 exception) |
-| Mexican — Tortilla Theory | Five Course | ~$42.50 (100+) · ~$50.50 (50–99) | $32 · $38 | ~$10.50 · ~$12.50 | Chef-declared + 33% markup |
-| Italian — Pasta Table | Five Course | ~$42.50 (100+) · ~$50.50 (50–99) | $32 · $38 | ~$10.50 · ~$12.50 | Chef-declared + 33% markup |
-| Breakfast — Morning Shift ⚠️ | Five Course | ~$30.60 (100+) · ~$37.25 (50–99) | $23 · $28 | ~$7.60 · ~$9.25 | Chef-declared + 33% markup |
-| Add-ons (Five Course concepts) | Five Course | ~$6.65/guest | $5/guest | ~$1.65/guest | Chef-declared + 33% markup |
-| Attended Service (all chefs) | — | +$8/person | $0 | +$8/person | 100% CBC revenue |
+| Chinese | Kivi's Kitchen | ~$20–$24/person | $25–$30/person | ~$5–$6/person | ~20–25% |
+| Sushi & Japanese | Unique Cuisine | $32/person | $40/person | $8/person | 25% |
+| Mexican — Tortilla Theory | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
+| Italian — Pasta Table | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
+| Breakfast — Morning Shift ⚠️ | Five Course | $23 (100+) · $28 (50–99) | ~$28–$29 · ~$34–$35 | ~$5–$6 · ~$6–$7 | 20–25% |
+| Add-ons (Five Course concepts) | Five Course | $5/guest | ~$6–$6.25/guest | ~$1–$1.25/guest | 20–25% |
+| Attended Service (all chefs) | — | — | +$8/person | +$8/person | 100% CBC |
+
+> Doug sets the exact client price within the 20–25% markup range based on event context, client relationship, and market conditions. Chef price is internal — never shared with clients.
 
 ---
 

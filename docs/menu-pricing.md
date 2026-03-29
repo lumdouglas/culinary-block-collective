@@ -15,22 +15,22 @@
 
 ### CBC Standard
 
-CBC sets the client-facing price at established tier rates. Chef receives 75% of the client-facing price; CBC retains 25%. CBC funds delivery, labeling, and coordination from within its 25% — never a separate client line item.
+Chef declares their per-head price (what they need to receive per guest). Doug sets the client-facing price at his discretion, targeting a **20–25% markup** above what the chef is paid. That markup is CBC's total margin — it covers delivery, labeling, coordination, and profit. No separate delivery, service, or processing fees are ever added to the client invoice.
 
-- **Standard split:** Chef 75% / CBC 25%
-- **Negotiated exception:** Chef 80% / CBC 20% (currently: Unique Cuisine only)
+**Formula:** Client price = Chef price × (1 + markup %), where markup is 20–25% at Doug's discretion.
 
-### Approved Variations
+**Examples:**
+| Chef Price | 20% Markup | 25% Markup |
+|---|---|---|
+| $20/person | $24 | $25 |
+| $23/person | $27.60 | $28.75 |
+| $28/person | $33.60 | $35 |
+| $32/person | $38.40 | $40 |
+| $38/person | $45.60 | $47.50 |
 
-When a chef's established food cost structure doesn't fit the standard split, CBC reviews the proposal against four criteria: (1) client-facing price remains competitive in the Bay Area market, (2) CBC earns a minimum workable margin per order, (3) logistics and labeling complexity doesn't increase, (4) the arrangement can be quoted and sold consistently. If approved, the variation is documented here and locked in the contractor agreement.
+Doug may adjust within the 20–25% range based on event context, client relationship, market conditions, and competitive positioning. Chef prices are internal — never shared with clients.
 
-**Currently approved:**
-- **Unique Cuisine** — 80/20 split (negotiated at onboarding)
-- **Five Course Provisions (Chef John)** — Chef declares per-concept food price; CBC applies 33% markup to arrive at the client-facing price. Chef receives declared price in full; CBC keeps the markup. Applies to all three active Five Course concepts.
-
-**Formula for chef-declared pricing:** Client price = Chef declared price × 1.33
-
-> Any chef can propose a variation. Doug evaluates and decides before the agreement is signed. Unapproved variations don't get quoted or marketed.
+> Any new chef pricing must be reviewed by Doug before the agreement is signed. Evaluate on: client price competitiveness, CBC margin floor (~20% minimum), logistics fit, and quoting consistency.
 
 ---
 
@@ -50,9 +50,9 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 | Concept / Cuisine | Chef | Client Price | Min. Guests | Min. Order |
 |---|---|---|---|---|
 | **Chinese** | Kivi's Kitchen | $25–$30/person | 50 | $1,250–$1,500 |
-| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | ~$30.60/person (100+) · ~$37.25/person (50–99) | 50 | $1,530–$1,863 |
-| **Mexican — Tortilla Theory** | Five Course Provisions | ~$42.50/person (100+) · ~$50.50/person (50–99) | 50 | $2,125–$2,525 |
-| **Italian — Pasta Table** | Five Course Provisions | ~$42.50/person (100+) · ~$50.50/person (50–99) | 50 | $2,125–$2,525 |
+| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | 50 | $1,400–$1,750 |
+| **Mexican — Tortilla Theory** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
+| **Italian — Pasta Table** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | **Sushi & Japanese** | Unique Cuisine | $40/person | 50 | $2,000 |
 
 > ⚠️ Morning Shift is handheld format (burritos/sandwiches). Format exception requires sign-off — do not quote until resolved with Chef John. See CLAUDE.md for details.
@@ -75,8 +75,8 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain stations,
 | Concept / Cuisine | Chef | Tier 1 Base | Attended (Tier 2) | Min. Guests |
 |---|---|---|---|---|
 | **Chinese** | Kivi's Kitchen | $25–$30/person | $33–$38/person | 50 |
-| **Mexican — Tortilla Theory** | Five Course Provisions | ~$42.50–$50.50/person | ~$50.50–$58.50/person | 50 |
-| **Italian — Pasta Table** | Five Course Provisions | ~$42.50–$50.50/person | ~$50.50–$58.50/person | 50 |
+| **Mexican — Tortilla Theory** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +$8/person on top of Tier 1 | 50 |
+| **Italian — Pasta Table** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +$8/person on top of Tier 1 | 50 |
 | **Sushi & Japanese** | Unique Cuisine | $40/person | $48/person | 50 |
 
 *Morning Shift does not offer Attended Service — drop-off only.*
@@ -177,9 +177,9 @@ Recurring contracts include:
 |---|---|---|---|---|---|
 | **Chinese** | Kivi's Kitchen | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person | TBD | $33–$38/person |
 | **Sushi & Japanese** | Unique Cuisine | Sushi rolls, teriyaki, gyoza, edamame, rice | $40/person | TBD | $48/person |
-| **Mexican — Tortilla Theory** | Five Course Provisions | Pollo al pastor, chicken tinga, cochinita pibil, carnitas, chile verde · 2 mains, 3 sides, 3 salsas, chips & tortillas | ~$42.50/person (100+) · ~$50.50/person (50–99) | +~$6.65/guest | TBD |
-| **Italian — Pasta Table** | Five Course Provisions | Chicken parm, piccata, creamy tomato basil pasta, penne alfredo · 2 mains, 3 sides, garlic bread | ~$42.50/person (100+) · ~$50.50/person (50–99) | +~$6.65/guest | TBD |
-| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | Breakfast burritos or sandwiches (select 2): bacon/egg/cheddar, sausage/egg/potato, chorizo/egg/cheese, vegetarian, California burrito · salsas & condiments | ~$30.60/person (100+) · ~$37.25/person (50–99) | +~$6.65/guest | Drop-off only |
+| **Mexican — Tortilla Theory** | Five Course Provisions | Pollo al pastor, chicken tinga, cochinita pibil, carnitas, chile verde · 2 mains, 3 sides, 3 salsas, chips & tortillas | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +~$6–$6.25/guest | TBD |
+| **Italian — Pasta Table** | Five Course Provisions | Chicken parm, piccata, creamy tomato basil pasta, penne alfredo · 2 mains, 3 sides, garlic bread | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +~$6–$6.25/guest | TBD |
+| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | Breakfast burritos or sandwiches (select 2): bacon/egg/cheddar, sausage/egg/potato, chorizo/egg/cheese, vegetarian, California burrito · salsas & condiments | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | +~$6–$6.25/guest | Drop-off only |
 
 > ⚠️ Morning Shift uses handheld format (individual burritos/sandwiches). Requires format exception approval before quoting — see CLAUDE.md.
 
@@ -204,16 +204,18 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ### Current Chef Payouts per Order
 
-| Concept / Cuisine | Chef | Client Price | Chef Receives | CBC Earns | Pricing Basis |
+| Concept / Cuisine | Chef | Chef Price | Client Price (Doug sets) | CBC Earns | Markup |
 |---|---|---|---|---|---|
-| **Chinese** | Kivi | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) | CBC Standard |
-| **Sushi & Japanese** | Unique Cuisine | $40/person | $32 (80%) | $8 (20%) | CBC Standard — negotiated exception |
-| **Tortilla Theory** | Five Course | ~$42.50/person (100+) · ~$50.50 (50–99) | $32 (100+) · $38 (50–99) | ~$10.50 · ~$12.50 | Chef-declared + 33% markup |
-| **Pasta Table** | Five Course | ~$42.50/person (100+) · ~$50.50 (50–99) | $32 (100+) · $38 (50–99) | ~$10.50 · ~$12.50 | Chef-declared + 33% markup |
-| **Morning Shift** ⚠️ | Five Course | ~$30.60/person (100+) · ~$37.25 (50–99) | $23 (100+) · $28 (50–99) | ~$7.60 · ~$9.25 | Chef-declared + 33% markup |
-| **Add-ons (Five Course)** | Five Course | ~$6.65/guest | $5/guest | ~$1.65/guest | Chef-declared + 33% markup |
+| **Chinese** | Kivi | ~$20–$24/person | $25–$30/person | ~$5–$6/person | ~20–25% |
+| **Sushi & Japanese** | Unique Cuisine | $32/person | $40/person | $8/person | 25% |
+| **Tortilla Theory** | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
+| **Pasta Table** | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
+| **Morning Shift** ⚠️ | Five Course | $23 (100+) · $28 (50–99) | ~$28–$29 · ~$34–$35 | ~$5–$6 · ~$6–$7 | 20–25% |
+| **Add-ons (Five Course)** | Five Course | $5/guest | ~$6–$6.25/guest | ~$1–$1.25/guest | 20–25% |
 
-**Attended Service (+$8/person):** Always 100% CBC revenue — not shared with chef regardless of pricing basis.
+**Attended Service (+$8/person):** Always 100% CBC revenue — not shared with chef, stacked on top of the Tier 1 client price.
+
+> Chef prices are internal — never share with clients. Doug sets the client price within the 20–25% markup range. No separate delivery, service, or processing fees are added to the client invoice.
 
 **Minimum order:** 50 guests.
 
@@ -231,13 +233,13 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Scenario | Guests | Concept | Format | Est. Client Revenue | CBC Earns |
 |---|---|---|---|---|---|
-| Morning team breakfast | 100 | Morning Shift | Drop-Off | ~$3,060 | ~$760 |
-| Weekly engineering lunch | 100 | Chinese (Kivi) | Drop-Off | $2,500–$3,000 | $625–$750 |
-| Weekly engineering lunch | 100 | Tortilla Theory | Drop-Off | ~$4,250 | ~$1,050 |
-| Monthly all-hands | 150 | Tortilla Theory | Drop-Off | ~$6,375 | ~$1,575 |
-| All-hands with service | 150 | Tortilla Theory | Attended | ~$7,575 | ~$2,775 |
-| Product launch | 200 | Mix & Match (2 cuisines) | Drop-Off | $8,500–$10,000 | $2,100–$2,500 |
-| Recurring weekly contract | 100/week | Tortilla Theory | Drop-Off | ~$4,250/week | ~$1,050/week |
+| Morning team breakfast | 100 | Morning Shift | Drop-Off | ~$2,800–$2,900 | ~$500–$600 |
+| Weekly engineering lunch | 100 | Chinese (Kivi) | Drop-Off | $2,500–$3,000 | ~$500–$600 |
+| Weekly engineering lunch | 100 | Tortilla Theory | Drop-Off | ~$3,800–$4,000 | ~$600–$800 |
+| Monthly all-hands | 150 | Tortilla Theory | Drop-Off | ~$5,700–$6,000 | ~$900–$1,200 |
+| All-hands with service | 150 | Tortilla Theory | Attended | ~$6,900–$7,200 | ~$2,100–$2,400 |
+| Product launch | 200 | Mix & Match (2 cuisines) | Drop-Off | ~$7,600–$8,000 | ~$1,200–$1,600 |
+| Recurring weekly contract | 100/week | Tortilla Theory | Drop-Off | ~$3,800–$4,000/week | ~$600–$800/week |
 | VIP client event | 50 | Sushi · Attended | Attended | $2,400 | $800 |
 
 > Revenue figures are estimates. CBC's actual margin on attended events is higher due to the full $8/person attended premium going to CBC.
