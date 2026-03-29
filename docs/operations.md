@@ -216,25 +216,27 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 ### Chef / Contractor Payment
 
-Each chef is on one of two pricing structures, locked in at contractor agreement signing. Confirm the chef's structure before calculating their payment.
+Each chef's pricing basis is locked in the contractor agreement. Confirm which basis applies before calculating payment. When in doubt, check `docs/menu-pricing.md` → Internal Pricing Reference.
 
-**Option 1 — CBC Standard Commission:**
-- Chef receives a fixed % of the total client invoice (excluding sales tax and Attended Service staff billing)
-- Standard: Chef 75% / CBC 25% · Unique Cuisine exception: Chef 80% / CBC 20%
-- Calculate: `Chef payout = (guest count × per-person client price) × chef %`
+**CBC Standard (Kivi, Unique Cuisine):**
+- Chef receives a fixed % of the client-facing price (excluding sales tax and Attended Service billing)
+- Kivi: 75% · Unique Cuisine: 80%
+- `Chef payout = (guest count × per-person client price) × chef %`
 
-**Option 2 — Chef-Declared Base + CBC Markup:**
+**Chef-Declared + CBC Markup (Five Course Provisions):**
 - Chef receives their declared per-person price × guest count, in full
-- CBC keeps the markup (difference between client price and chef declared price)
-- Calculate: `Chef payout = guest count × chef's declared per-person price`
-- Calculate: `CBC margin = guest count × (client price − chef declared price)`
+- CBC keeps the difference (client price − chef declared price)
+- `Chef payout = guest count × chef's declared per-person price`
+- `CBC margin = guest count × (client price − chef declared price)`
 
-**Both options:**
-- Attended Service (+$8/person Tier 2 billing) is always CBC revenue — not paid to chef regardless of option
-- Sales tax collected from client is CBC's — never deducted from chef payout
+**All chefs — universal rules:**
+- Attended Service (+$8/person) is always 100% CBC revenue — never shared with the chef
+- Sales tax is CBC's — never deducted from chef payout
+- Add-ons: calculated at the same basis as the base price (CBC Standard: chef gets their %; Chef-Declared: chef gets declared add-on price, CBC keeps markup)
 - **Payment terms:** Net 30 from service date
 - Chef is responsible for their own taxes, benefits, and overhead
-- Minimum revenue threshold per order: confirm with each chef at onboarding and log in HubSpot
+
+**New chef variations:** If a chef proposes a pricing arrangement outside CBC Standard, Doug reviews and approves before the agreement is signed. Evaluate against: client price competitiveness, CBC margin floor, logistics fit, and quoting consistency. Approved variations are added to `docs/menu-pricing.md` and this file.
 
 ---
 
