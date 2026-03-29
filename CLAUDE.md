@@ -26,11 +26,9 @@ CBC serves two distinct customer segments:
 **Five Course Provisions (Chef John) — active concepts:**
 - *The Tortilla Theory* — Modern Mexican · Chef price: $32 (100+ guests) / $38 (50–99 guests) · choice of 2 mains (al pastor, tinga, carnitas, cochinita pibil, chile verde), 3 sides, 3 salsas, chips & tortillas · Add-ons: +$5/guest chef price
 - *A Little Pasta Table* — Italian · Chef price: $32 (100+ guests) / $38 (50–99 guests) · choice of 2 mains (chicken parm, piccata, creamy tomato pasta, penne alfredo), 3 sides · Add-ons: +$5/guest chef price
-- *The Morning Shift* — Breakfast · Chef price: $23 (100+ guests) / $28 (50–99 guests) · choice of 2 burrito or sandwich options (one category per day) + salsas & condiments · ⚠️ Handheld format — see format note below · Add-ons: +$5/guest chef price
+- *The Morning Shift* — Breakfast · Chef price: $23 (100+ guests) / $28 (50–99 guests) · choice of 2 burrito or sandwich options (one category per day) + salsas & condiments · Add-ons: +$5/guest chef price · **Not at launch — planned future offering**
 - All concepts: 100-guest minimum at lower chef price / 50-guest minimum at higher chef price
 - Client-facing price: Doug sets at 20–25% above chef price at his discretion (see commission summary below)
-
-**⚠️ Morning Shift format note:** The Morning Shift is a handheld breakfast (burritos/sandwiches) — individual items, not a chafing dish spread. This may conflict with CBC's current "spread format only" service model. Resolve with Chef John before adding this to client-facing offerings: either (a) clarify that individual handheld drop-off is an acceptable format exception for breakfast, or (b) convert it to a breakfast station spread. Update service model docs and contractor agreement accordingly once decided.
 
 **Client-facing price (per person):** Varies by chef pricing option and cuisine — roughly $25–$50/person depending on chef's declared price or tier, plus +$8/person for Attended Service. Commission details are internal only — never share split percentages with clients.
 
@@ -53,7 +51,6 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 | Concept / Cuisine | Chef | Client-Facing Price | Min. Guests | Min. Order |
 |---|---|---|---|---|
 | Chinese | Kivi's Kitchen | $25–$30/person | 50 | $1,250–$1,500 |
-| Breakfast — Morning Shift ⚠️ | Five Course Provisions | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | 50 | $1,400–$1,750 |
 | Mexican — Tortilla Theory | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | Italian — Pasta Table | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | Sushi & Japanese | Unique Cuisine | $40/person | 50 | $2,000 |
@@ -96,7 +93,6 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 | Sushi & Japanese | Unique Cuisine | $32/person | $40/person | $8/person | 25% |
 | Mexican — Tortilla Theory | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
 | Italian — Pasta Table | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
-| Breakfast — Morning Shift ⚠️ | Five Course | $23 (100+) · $28 (50–99) | ~$28–$29 · ~$34–$35 | ~$5–$6 · ~$6–$7 | 20–25% |
 | Add-ons (Five Course concepts) | Five Course | $5/guest | ~$6–$6.25/guest | ~$1–$1.25/guest | 20–25% |
 | Attended Service (all chefs) | — | — | +$8/person | +$8/person | 100% CBC |
 
@@ -105,6 +101,8 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 ---
 
 ### Coming Soon
+
+Breakfast — Morning Shift (Five Course) · ~$28–$35/person · pending format sign-off with Chef John before launch
 
 Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 

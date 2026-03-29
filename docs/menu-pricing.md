@@ -50,12 +50,9 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 | Concept / Cuisine | Chef | Client Price | Min. Guests | Min. Order |
 |---|---|---|---|---|
 | **Chinese** | Kivi's Kitchen | $25–$30/person | 50 | $1,250–$1,500 |
-| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | 50 | $1,400–$1,750 |
 | **Mexican — Tortilla Theory** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | **Italian — Pasta Table** | Five Course Provisions | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | 50 | $1,900–$2,400 |
 | **Sushi & Japanese** | Unique Cuisine | $40/person | 50 | $2,000 |
-
-> ⚠️ Morning Shift is handheld format (burritos/sandwiches). Format exception requires sign-off — do not quote until resolved with Chef John. See CLAUDE.md for details.
 
 **What's included in Tier 1:**
 - ✓ Full Chef's Spread (or approved format) with serving ware
@@ -179,7 +176,7 @@ Recurring contracts include:
 | **Sushi & Japanese** | Unique Cuisine | Sushi rolls, teriyaki, gyoza, edamame, rice | $40/person | TBD | $48/person |
 | **Mexican — Tortilla Theory** | Five Course Provisions | Pollo al pastor, chicken tinga, cochinita pibil, carnitas, chile verde · 2 mains, 3 sides, 3 salsas, chips & tortillas | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +~$6–$6.25/guest | TBD |
 | **Italian — Pasta Table** | Five Course Provisions | Chicken parm, piccata, creamy tomato basil pasta, penne alfredo · 2 mains, 3 sides, garlic bread | ~$38–$40/person (100+) · ~$46–$48/person (50–99) | +~$6–$6.25/guest | TBD |
-| **Breakfast — Morning Shift** ⚠️ | Five Course Provisions | Breakfast burritos or sandwiches (select 2): bacon/egg/cheddar, sausage/egg/potato, chorizo/egg/cheese, vegetarian, California burrito · salsas & condiments | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | +~$6–$6.25/guest | Drop-off only |
+| **Breakfast — Morning Shift** *(coming soon)* | Five Course Provisions | Breakfast burritos or sandwiches (select 2): bacon/egg/cheddar, sausage/egg/potato, chorizo/egg/cheese, vegetarian, California burrito · salsas & condiments | ~$28–$29/person (100+) · ~$34–$35/person (50–99) | +~$6–$6.25/guest | Drop-off only |
 
 > ⚠️ Morning Shift uses handheld format (individual burritos/sandwiches). Requires format exception approval before quoting — see CLAUDE.md.
 
@@ -187,6 +184,7 @@ Recurring contracts include:
 
 | Cuisine | Notes |
 |---|---|
+| **Breakfast — Morning Shift** (Five Course) | Hot breakfast drop-off · burritos or sandwiches · ~$28–$35/person client price · pending format confirmation with Chef John before launch |
 | **Vietnamese** | Pho, banh mi, rice noodle bowls — price TBD at onboarding |
 | **American / Comfort** | BBQ, sliders, mac & cheese — price TBD |
 | **Bakery** | Pastries, breads, dessert trays — breakfast/add-on format, ~$15–$20/person |
@@ -210,7 +208,7 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 | **Sushi & Japanese** | Unique Cuisine | $32/person | $40/person | $8/person | 25% |
 | **Tortilla Theory** | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
 | **Pasta Table** | Five Course | $32 (100+) · $38 (50–99) | ~$38–$40 · ~$46–$48 | ~$6–$8 · ~$8–$10 | 20–25% |
-| **Morning Shift** ⚠️ | Five Course | $23 (100+) · $28 (50–99) | ~$28–$29 · ~$34–$35 | ~$5–$6 · ~$6–$7 | 20–25% |
+| **Morning Shift** *(coming soon)* | Five Course | $23 (100+) · $28 (50–99) | ~$28–$29 · ~$34–$35 | ~$5–$6 · ~$6–$7 | 20–25% |
 | **Add-ons (Five Course)** | Five Course | $5/guest | ~$6–$6.25/guest | ~$1–$1.25/guest | 20–25% |
 
 **Attended Service (+$8/person):** Always 100% CBC revenue — not shared with chef, stacked on top of the Tier 1 client price.
@@ -233,7 +231,6 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Scenario | Guests | Concept | Format | Est. Client Revenue | CBC Earns |
 |---|---|---|---|---|---|
-| Morning team breakfast | 100 | Morning Shift | Drop-Off | ~$2,800–$2,900 | ~$500–$600 |
 | Weekly engineering lunch | 100 | Chinese (Kivi) | Drop-Off | $2,500–$3,000 | ~$500–$600 |
 | Weekly engineering lunch | 100 | Tortilla Theory | Drop-Off | ~$3,800–$4,000 | ~$600–$800 |
 | Monthly all-hands | 150 | Tortilla Theory | Drop-Off | ~$5,700–$6,000 | ~$900–$1,200 |
