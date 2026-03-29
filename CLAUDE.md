@@ -224,6 +224,16 @@ When I start a session without a specific task, ask: *"What are we working on to
 
 ---
 
+## Working Norms
+
+- **Plan first:** For any task with 3+ steps, write a checklist to `tasks/todo.md` before starting. Mark items complete as you go.
+- **Self-correction log:** After any correction from Doug, add a rule to `tasks/lessons.md` to prevent repeating the mistake.
+- **Verify before done:** Before finalizing any client-facing or chef-facing content, cross-check pricing and commission details against `CLAUDE.md` and `docs/menu-pricing.md`.
+- **Parallel research:** Use subagents to analyze multiple docs simultaneously rather than sequentially.
+- **No invented details:** Never fill in chef names, prices, or policies from imagination — ask Doug if the source doc is missing the info.
+
+---
+
 ## Key Context
 
 - I'm building CBC alongside running the existing Culinary Block LLC commissary — time is limited
