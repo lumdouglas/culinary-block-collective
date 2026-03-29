@@ -21,11 +21,67 @@ market in the South Bay Area (San Jose, Santa Clara, Sunnyvale, Mountain View,
 Palo Alto, Cupertino, Redwood City, and surrounding cities in Santa Clara and
 San Mateo counties).
 
-IMPORTANT SCOPE: We are a small-scale catering collective operating out of a
-commercial kitchen commissary. We serve self-serve Chef's Spread format (chafing
-dishes, stations) — NOT individual boxed meals. Our price range is $25–$48/person.
-Minimum 50 guests per order. We need to understand the market segment we're
-entering, NOT the market we can't compete in.
+IMPORTANT SCOPE: We need to understand the market segment we're entering, NOT
+the market we can't compete in. Read our business model below before researching.
+
+---
+
+## OUR BUSINESS MODEL — CULINARY BLOCK COLLECTIVE (CBC)
+
+CBC is a corporate catering operation based in San Jose, CA, layered on top of
+an existing commercial kitchen commissary (Culinary Block LLC) that houses 20+
+independent chef-tenants. CBC is NOT a restaurant and NOT a catering platform —
+it is an operator that curates, sells, and delivers catering using the
+commissary's roster of independent chefs.
+
+**How it works:**
+- CBC handles all client-facing operations: sales, quoting, dietary labeling,
+  food safety labels (with consume-by times per FDA Food Code), delivery, and
+  invoicing
+- Chefs focus on cooking and provide their own serving ware and chafing dishes
+- CBC charges the client and collects applicable sales tax; chefs receive their
+  agreed payout percentage (sales tax is not deducted from chef payout)
+- Commission: 25% CBC / 75% chef (standard); one chef at 20% CBC / 80% chef
+  (negotiated exception)
+
+**Service format:** Chef's Spread (self-serve stations with chafing dishes) ONLY
+— no individual boxed meals
+
+**Two service tiers:**
+- Tier 1 — Drop-Off Spread: CBC delivers, client handles cleanup. No on-site
+  staff. $25–$40/person depending on cuisine and tier.
+- Tier 2 — Attended Service: On-site CBC staff for setup, station maintenance,
+  and breakdown. +$8/person on top of Tier 1 price. This is the margin engine.
+
+**Pricing:** $25–$30/person (Standard) · $40/person (Premium) · +$8/person
+(Attended Service). Total range: $25–$48/person.
+
+**Minimums:** 50 guests per order · $1,250–$2,000 minimum order value
+
+**Current chef roster (dynamic — changes with commissary tenants):**
+- Chinese cuisine: $25–$30/person
+- Mexican Fusion: $30/person (Standard), $40/person (Premium)
+- Sushi / Japanese: $40/person (Premium only)
+- Coming soon: cold-pressed juice, tacos, Thai — pricing TBD
+
+**Target clients:** Tech companies with 50–300 employees in the South Bay.
+Office managers and HR/People Ops directors who book team lunches, all-hands
+catering, client dinners, and product launch events.
+
+**Key differentiators:**
+- Multi-cuisine diversity from independent specialist chefs under one operation
+- Commissary-based = lower overhead than a standalone catering company
+- Every item individually labeled for dietary needs (vegan, GF, nut-free, etc.)
+- On-time guarantee (10% off next order if food isn't staged and ready)
+- Transparent pricing with no hidden fees
+
+**Stage:** Pre-launch. Infrastructure built, no active outreach or paying
+clients yet. Break-even target: 9 orders.
+
+**What we need from this research:** Validate our pricing, identify the right
+company size to target, understand order frequency and seasonality, map the
+competitive landscape we're entering, and surface any risks or opportunities
+we haven't considered.
 
 ---
 
