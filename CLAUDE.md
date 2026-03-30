@@ -231,6 +231,7 @@ When I start a session without a specific task, ask: *"What are we working on to
 - **Verify before done:** Before finalizing any client-facing or chef-facing content, cross-check pricing and commission details against `CLAUDE.md` and `docs/menu-pricing.md`.
 - **Parallel research:** Use subagents to analyze multiple docs simultaneously rather than sequentially.
 - **No invented details:** Never fill in chef names, prices, or policies from imagination — ask Doug if the source doc is missing the info.
+- **Concise responses:** Be as brief as possible. No filler phrases, no preamble, no restating what Doug said. Cut pleasantries. Lead with the answer or action.
 
 ---
 
