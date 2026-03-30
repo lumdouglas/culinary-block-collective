@@ -140,8 +140,8 @@ All commands already know CBC's details — no setup needed:
 
 | Field | Value |
 |---|---|
-| Phone / Text | (408) 555-0192 |
-| Email | hello@culinaryblockcollective.com |
+| Phone / Text | (415) 699-4397 |
+| Email | culinaryblockcatering@gmail.com |
 | Website | culinaryblockcollective.com |
 | Pricing | $15–$25/person · 100–300 guests |
 | Chef lineup | Chinese · Sushi/Japanese · Mexican Fusion · American · Specialty/Seasonal |

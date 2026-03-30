@@ -60,29 +60,49 @@
 
 ---
 
-## Chef 2 — [Name]
+## Chef 2 — Chef John (Five Course Provision)
+
+> **Commission: 12% CBC / 88% Chef John** — CBC is sales-only. Chef John handles all delivery, staging, dietary labeling, food safety labeling, and client-facing fulfillment. CC processing fees (~3%) absorbed by chef from his 88% share. Performance escalator: adjusts to 15% CBC if collected sales exceed $15K in any rolling 30-day period. Non-compete: 12–18 months on CBC-introduced clients.
 
 ### Identity
 | Field | Detail |
 |---|---|
-| **Name** | [Chef's name] |
-| **Cuisine** | [e.g., Chinese / Mexican Fusion] |
-| **Signature Dishes** | [3–5 specific items] |
-| **Price Tier(s)** | [Standard $25–$30/person · Premium $40/person (if applicable). Chef receives 75% of per-guest price.] |
+| **Name** | Chef John · Five Course Provision |
+| **Cuisine** | Mexican Fusion + Italian |
+| **Concepts** | **The Tortilla Theory** (Modern Mexican) · **A Little Pasta Table** (Italian Lunch) |
+| **Signature Dishes** | Mexican: Pollo al Pastor, Chicken Tinga, Carnitas, Cochinita Pibil, salsas, sides, churros, tres leches · Italian: Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides · Premium (both): steak, salmon, short rib ragù |
+| **Price Tier(s)** | Standard $34/person (Chef gets $29.92, CBC gets $4.08) · Premium $40/person (Chef gets $35.20, CBC gets $4.80) · Plus $150/order Coordination & Service Fee (CBC revenue, not subject to commission split) |
+| **Commission** | **12% CBC / 88% chef** (negotiated sales-only agent rate — performance escalator to 15% CBC if collected sales exceed $15K in any rolling 30-day period) |
 | **Min Order** | 50 guests |
-| **Max Capacity** | [e.g., 500 guests] |
-| **Time at Commissary** | [Duration] |
+| **Max Capacity** | 500 guests |
+| **Time at Commissary** | [TBD — confirm with John] |
+
+### Operational Details (Unique to Chef John)
+| Responsibility | Owner |
+|---|---|
+| Food prep, ingredient sourcing, cooking | Chef John |
+| Serving ware (chafing dishes, utensils) | Chef John |
+| Dietary labeling | Chef John |
+| Food safety labeling (consume-by times) | Chef John |
+| Menu cards / dietary breakdown sheets | Chef John |
+| Delivery to client site | Chef John |
+| Staging / setup at client site | Chef John |
+| Sales, marketing, client acquisition | CBC |
+| Invoicing & payment collection | CBC (CBC remains billing entity) |
+| Deposit collection | CBC |
+| CC processing fees (~3%) | Deducted from Chef John's 88% share before payout (chef absorbs, not CBC) |
+| Late delivery credit (10% off next order) | Deducted from Chef John's payout |
 
 ### Personality & Communication Style
-- **Overall vibe:** [e.g., Outgoing and entrepreneurial / Reserved and technical / Warm and family-oriented]
-- **How they prefer to communicate:** [Text / Call / In person / Email]
-- **What motivates them:** [e.g., Building a brand, consistent income, recognition, autonomy]
-- **What they care about most:** [e.g., Fair pay, creative input, not being overcommitted]
-- **What to avoid saying to them:** [e.g., Last-minute asks / Ambiguous instructions / Lowering their standards]
-- **Best way to get a yes:** [e.g., Show the revenue math / Give them ownership of a menu / Public recognition]
+- **Overall vibe:** [TBD — Doug to fill in]
+- **How they prefer to communicate:** [TBD]
+- **What motivates them:** [TBD — but negotiated hard on commission, values autonomy and keeping control of fulfillment]
+- **What they care about most:** [TBD]
+- **What to avoid saying to them:** [TBD]
+- **Best way to get a yes:** [TBD]
 
 ### Their Story
-> [Background, origin, how they came to CBC, what drives them]
+> [TBD — Doug to fill in background, origin, how they came to CBC, what drives them]
 
 ### Content Angles for Spotlight Posts
 - **Hook 1 — The craft angle:** [What's technically impressive about what they do?]
@@ -139,12 +159,13 @@
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
 | Sushi / Japanese | Unique Cuisine Sushi | Premium tier only ($40/person) · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · Attended Service: $48/person · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
-| [Cuisine 2] | [Chef name] | [Notes] |
-| [Cuisine 3] | [Chef name] | [Notes] |
-| Large event 200+ | [Chef name(s)] | [Who can scale — all active chefs support up to 500 guests] |
-| Premium / VIP event | [Chef name] | [Who offers the Premium $40/person tier? Five Course and Unique Cuisine.] |
-| Last-minute order | [Chef name] | [Who is most flexible on lead time?] |
-| Mix & Match (2 cuisines) | [Chef A + Chef B] | [Which pairings work well together logistically?] |
+| Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Standard $34/person · Premium $40/person · 12% commission · **Chef handles all delivery/staging/labeling** — CBC is sales-only · $150/order service fee · 50-person min · max 500 guests |
+| Italian | Chef John · Five Course Provision | **A Little Pasta Table** — Standard $34/person · Premium $40/person · 12% commission · same fulfillment model as Mexican · $150/order service fee · 50-person min · max 500 guests |
+| Chinese | Kivi's Kitchen | Standard $25–$30/person · 25% commission · CBC handles delivery/labeling · 50-person min |
+| Large event 200+ | All active chefs | All support up to 500 guests · For Chef John orders, chef handles delivery; for Kivi, CBC delivers |
+| Premium / VIP event | Chef John or Unique Cuisine | Both offer $40/person Premium tier · Different commission and fulfillment models |
+| Last-minute order | [TBD — confirm who is most flexible on lead time] | |
+| Mix & Match (2 cuisines) | [TBD — confirm which pairings work logistically] | Note: mixed orders with Chef John + Kivi require coordinating two different delivery models |
 
 ---
 
@@ -156,4 +177,4 @@
 - [e.g., All three built their businesses out of the Culinary Block commissary — origin story]
 - [e.g., Shared value: X]
 - [What makes the three of them together a stronger pitch than any one alone?]
-- **Commission rates vary — Unique Cuisine is 20% (negotiated exception), all other chefs are 25% standard. Commission details are internal — not for client-facing materials.**
+- **Commission rates vary by chef — Chef John (Five Course) is 12% CBC / 88% chef (sales-only, chef handles fulfillment; CC fees deducted from chef's share; escalator to 15% above $15K/rolling 30 days); Kivi is 25% CBC / 75% chef (standard, CBC handles delivery/labeling); Unique Cuisine is 20% CBC / 80% chef (negotiated exception). A $150/order Coordination & Service Fee applies to all orders — CBC revenue, not subject to commission split. Commission rates and the service fee breakdown are internal — not for client-facing materials.**

@@ -3,7 +3,7 @@
 
 > **Purpose:** Updated cold outreach templates reflecting CBC's current positioning, pricing, and tone. These replace the Email 1 body copy in `docs/email-outreach.md` and should be used in its place. Emails 2–5 in the existing sequence remain valid as follow-ups.
 >
-> **Pricing:** $20–$30/person · **Minimum:** 50 guests · **Booking window:** 48 hours (under 150 guests)
+> **Pricing:** $25–$40/person · **Minimum:** 50 guests · **Booking window:** 48 hours (under 150 guests)
 >
 > **Attach to every Email 1:** `CBC_Sales_One_Pager_v2.pdf`
 >
@@ -61,7 +61,7 @@ We're a San Jose-based catering operation built around independent specialist ch
 - Every item individually labeled (vegan, GF, nut-free, dairy-free)
 - 48-hour booking turnaround for orders under 150 guests
 - One point of contact who knows your account — text us at 8am the morning of and you'll get a human
-- $20–$30/person, all-in — delivery, setup, and full dietary labeling included. No invoice surprises.
+- $25–$40/person, all-in — delivery, setup, and full dietary labeling included. No invoice surprises.
 
 We're booking **free tastings** for new corporate accounts this month — no commitment, just food. A handful of slots remain.
 
@@ -69,7 +69,7 @@ Worth a 15-minute call this week? Or text me directly at [phone] — happy to ke
 
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] · hello@culinaryblockcollective.com · culinaryblockcollective.com
+[Phone] · culinaryblockcatering@gmail.com · culinaryblockcollective.com
 
 *P.S. — If you're currently locked into another vendor, no problem. Let me know when that contract renews and I'll reach back out closer to that date.*
 
@@ -146,7 +146,7 @@ Either way, happy to keep an intro call to 20 minutes.
 
 [Your Name]
 Culinary Block Collective | San Jose, CA
-[Phone] · hello@culinaryblockcollective.com · culinaryblockcollective.com
+[Phone] · culinaryblockcatering@gmail.com · culinaryblockcollective.com
 
 *P.S. — If your current vendor is under contract, ask me when it renews. I'll stay warm with relevant content and reach back out 60 days before renewal.*
 
@@ -199,7 +199,7 @@ These are the claims that convert. Use them specifically, not vaguely:
 | Specialist chefs | "A sushi chef who only makes sushi. A Chinese chef who only makes Chinese." |
 | 48-hour booking | "Under 150 guests, we can turn around an order in 48 hours." |
 | Dietary labeling | "Every individual item labeled — not just 'vegan option available.'" |
-| Pricing | "$20–$30/person all-in — delivery, setup, and labeling included. No hidden fees." |
+| Pricing | "$25–$40/person all-in — delivery, setup, and labeling included. No hidden fees." *(Internal note: A $150 Coordination & Service Fee appears on every quote. The fee is disclosed at quote stage, so "all-in" and "no hidden fees" are still accurate in outreach — the fee is never a post-quote surprise. No change to email copy required.)* |
 | Minimum | "We start at 50 guests — no forcing you to overbuy." |
 | Single contact | "Text the same number before, during, and after every event." |
 | Recurring contracts | "Fixed pricing and rotating menus on a weekly or bi-weekly standing order." |

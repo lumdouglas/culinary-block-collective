@@ -145,17 +145,20 @@ All service is Chef's Spread (self-serve station) format — no individual box m
 
 ## 6. Budget & Technology Stack
 
-| Tool / Channel | Monthly Cost | Purpose |
-|---|---|---|
-| LinkedIn Sales Navigator | $79 | Lead targeting & outreach |
-| Squarespace Commerce | $27 | Website & online ordering |
-| Mailchimp (Essentials) | $13 | Email campaigns & automation |
-| LinkedIn Ads (boosted posts) | $100–200 | Paid awareness |
-| HubSpot CRM | Free | Lead & pipeline tracking |
-| Canva Pro | $15 | Marketing materials, menus, social graphics |
-| **TOTAL (est.)** | **~$234–$334/mo** | **~$1,400–$2,000 over 6 months** |
+| Tool / Channel | Monthly Cost | Purpose | Status |
+|---|---|---|---|
+| LinkedIn Sales Navigator | $79 | Lead targeting & outreach | Active |
+| HubSpot CRM | Free | Lead & pipeline tracking | Active |
+| Vercel | Free | Website hosting | Active |
+| LinkedIn Ads (boosted posts) | $100–200 | Paid awareness | Planned (months 3–6) |
+| ~~Squarespace Commerce~~ | ~~$27~~ | ~~Website & online ordering~~ | Dropped — site on Vercel |
+| ~~Canva Pro~~ | ~~$15~~ | ~~Marketing materials~~ | Dropped — using Claude |
+| ~~Mailchimp (Essentials)~~ | ~~$13~~ | ~~Email campaigns~~ | Deferred until 50+ contacts |
+| **TOTAL (months 1–2)** | **$79/mo** | **Sales Navigator only** | |
+| **TOTAL (months 3–6)** | **$179–$279/mo** | **+ LinkedIn Ads** | |
+| **6-month total** | | **~$870–$1,270** | |
 
-*Delivery handled by CBC (Doug) — funded within CBC's commission. No separate delivery subscription cost.*
+*Delivery varies by chef: Chef John handles his own delivery (CBC is sales-only at 12% commission + $150/order service fee). For Kivi/standard-terms chefs, delivery is handled by CBC (Doug), funded within CBC's 25% commission. No separate delivery subscription cost.*
 
 ---
 
@@ -176,6 +179,6 @@ All service is Chef's Spread (self-serve station) format — no individual box m
 | Risk | Mitigation |
 |---|---|
 | Low lead conversion (<5%) | Increase LinkedIn ad spend to $200/month; A/B test subject lines |
-| Delivery issues | Chef Delivery Protocol (see `docs/operations.md`) enforced at onboarding; pre-event day-before confirmation required; Doug available as backup delivery at negotiated per-mile rate |
+| Delivery issues | For Chef John: chef handles delivery — late delivery credit comes from chef's payout per contract. For Kivi/standard: CBC Delivery Protocol (see `docs/operations.md`) enforced at onboarding; pre-event day-before confirmation required |
 | High food costs | Bulk-purchase containers; renegotiate farm suppliers quarterly |
 | Low social engagement | A/B test post types (Reels vs. carousels); 2 micro-influencer posts/month |

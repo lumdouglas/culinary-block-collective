@@ -242,4 +242,4 @@ CBC operates as the catering operator, retaining **25% of every order**. Every h
 
 ---
 
-*Culinary Block Collective · culinaryblockcollective.com · hello@culinaryblockcollective.com · (408) 555-0192*
+*Culinary Block Collective · culinaryblockcollective.com · culinaryblockcatering@gmail.com · (415) 699-4397*

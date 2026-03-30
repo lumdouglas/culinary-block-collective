@@ -30,10 +30,10 @@ Everything in this plan serves one outcome: **consistent, growing revenue from B
 **Goal:** Website live, phone trackable, CRM loaded, first 25 leads identified.
 
 **Monday–Tuesday: Sales Infrastructure**
-- Add call tracking to Squarespace — use CallRail ($45/mo) or Google Call Tracking
 - Set up HubSpot CRM (free) — pipeline stages: New Lead → Contacted → Quote Sent → Won → Recurring
-- Install Google Analytics 4 on Squarespace (Settings > Advanced > Code Injection)
 - Set up Google Business Profile at business.google.com — drives local SEO and direct calls
+- Website is live on Vercel — confirm Google Analytics 4 is installed
+- Consider call tracking (CallRail $45/mo or Google Call Tracking) once call volume justifies it
 
 **Wednesday–Thursday: Load First 25 Leads**
 - LinkedIn Sales Navigator filter: Job Title = 'Office Manager' OR 'Executive Assistant' OR 'HR' | Location: Bay Area | Company size: 50–500
@@ -76,7 +76,7 @@ Everything in this plan serves one outcome: **consistent, growing revenue from B
 - Send Email 3 (menu drop + 10% offer) to all non-responders
 - For anyone who replied: send a custom quote within 2 hours — **speed to quote is your biggest conversion lever**
 - Book free Zoom consultations for interested prospects — use Calendly (free)
-- Set up Squarespace booking form fields: Date, Guest Count, Cuisine Preference, Dietary Needs, Budget, Best time to call
+- Confirm website booking/quote form includes fields: Date, Guest Count, Cuisine Preference, Dietary Needs, Budget, Best time to call
 
 ---
 
@@ -116,9 +116,9 @@ Run this every weekday morning. Non-negotiable.
 - Post a Google Business update weekly — copy from LinkedIn post (2 min)
 - After every completed order: text client — *"Would you mind leaving us a Google review? [link]"*
 
-**Squarespace SEO Setup**
-- Install landing page HTML meta tags into each page's SEO settings
-- Copy Schema JSON from `CBC_Landing_Page_SEO.html` into Settings > Advanced > Code Injection
+**Website SEO Setup (Vercel)**
+- Confirm landing page HTML meta tags are present on all pages
+- Confirm Schema JSON from `CBC_Landing_Page_SEO.html` is embedded
 - Page title formula: `[Service] [City] | Culinary Block Collective`
 - Add city-specific landing pages: `/catering-san-jose`, `/catering-palo-alto`, `/catering-mountain-view`
 - Write 3 blog posts (300+ words each) targeting long-tail keywords:
@@ -167,7 +167,7 @@ Run this every weekday morning. Non-negotiable.
 
 **LinkedIn Paid Ads**
 - Sponsored Content: $200/month, targeting Office Managers + HR at 50–500 person tech companies in Bay Area
-- Ad creative: chef photo + "Your team's favorite lunch caterer — call (408) 555-0192"
+- Ad creative: chef photo + "Your team's favorite lunch caterer — call (415) 699-4397"
 - Track calls using CallRail — pause anything that doesn't drive a call within 2 weeks
 
 **Instagram Reels**

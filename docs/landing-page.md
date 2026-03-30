@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $25–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (408) 555-0192.`
+`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $25–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (415) 699-4397.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -28,7 +28,7 @@
 ## Navigation
 
 **Logo:** Culinary Block *Collective*
-**Nav CTA:** 📞 (408) 555-0192 *(sticky, always visible)*
+**Nav CTA:** 📞 (415) 699-4397 *(sticky, always visible)*
 
 ---
 
@@ -46,7 +46,7 @@
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
 > Food staged and ready for your team — guaranteed. Full dietary labeling. $25–$40/person. 50–500 guests.
 
-**Primary CTA:** `📞 Call to Book  (408) 555-0192`
+**Primary CTA:** `📞 Call to Book  (415) 699-4397`
 **Secondary CTA:** `💬 Text Us a Menu Request`
 
 **Trust Bar:** Palo Alto · San Jose · Mountain View · Sunnyvale · Santa Clara
@@ -81,6 +81,10 @@
 **H2:** Simple, Transparent Pricing. No Hidden Fees.
 **Subhead:** Every price includes delivery, setup, dietary labeling, and a dedicated coordinator.
 
+> **Internal note (2026-03-26):** A $150 Coordination & Service Fee is charged on every invoice. **Decision: do not display on the website.** The fee is disclosed on every quote from day one — never a post-quote surprise. "No Hidden Fees" messaging is accurate and intentional. Do not add the fee to the pricing table or FAQ.
+
+
+
 | Package | Price | Guests | Key Features |
 |---|---|---|---|
 | **Standard Drop-Off Spread** | $25–$30/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
@@ -105,7 +109,7 @@
 
 > Regardless of tier, the food comes from Michelin-caliber and specialty chefs. The difference is who handles the room.
 
-**CTA:** `📞 Ask Us Which Tier Fits Your Event — (408) 555-0192`
+**CTA:** `📞 Ask Us Which Tier Fits Your Event — (415) 699-4397`
 
 ---
 
@@ -126,7 +130,7 @@
 | 🔒 | 90-Day Review Clause | No long-term lock-in pressure. Every recurring program includes a 90-day review so you stay in control. |
 | 💼 | Proposal-Ready | We provide a full program proposal with cost projections and our sustainability credentials — formatted for leadership or procurement review. |
 
-**CTA:** `📋 Request a Program Proposal` → `mailto:hello@culinaryblockcollective.com?subject=Recurring Catering Program Inquiry`
+**CTA:** `📋 Request a Program Proposal` → `mailto:culinaryblockcatering@gmail.com?subject=Recurring Catering Program Inquiry`
 
 ---
 
@@ -154,7 +158,7 @@
 2. **Get Your Custom Quote** — We'll send a detailed, transparent quote within 24 hours. No guesswork. No hidden fees.
 3. **We Deliver & Wow** — Our chefs prep and set up the spread. We label every item and deliver on time. Your team eats. You look like a hero.
 
-**CTA:** `📞 Call Now — (408) 555-0192`
+**CTA:** `📞 Call Now — (415) 699-4397`
 
 ---
 
@@ -169,7 +173,7 @@
 | **Free** | Chef Tasting (10 slots/month) |
 | **🔄** | Recurring Contracts Available |
 
-**CTA:** `📞 Claim Your Offer — Call (408) 555-0192`
+**CTA:** `📞 Claim Your Offer — Call (415) 699-4397`
 
 ---
 
@@ -194,16 +198,16 @@
 **H2:** Ready to Wow Your Team? Let's Talk Catering.
 **Subhead:** Call or text us right now — we'll have a quote back to you within 24 hours.
 
-**Primary CTA:** `📞 (408) 555-0192`
+**Primary CTA:** `📞 (415) 699-4397`
 **Secondary CTA:** `💬 Text Us Your Order Details`
 **Tertiary CTAs:** `📋 Get a Quick Quote` (email) · `🏢 Request a Program Proposal` (email)
-**Note:** Or email us at hello@culinaryblockcollective.com · We respond within 24 hours, Mon–Fri
+**Note:** Or email us at culinaryblockcatering@gmail.com · We respond within 24 hours, Mon–Fri
 
 ---
 
 ## Footer
 
-**Links:** Chef Menus · Pricing · Why Us · FAQ · (408) 555-0192
+**Links:** Chef Menus · Pricing · Why Us · FAQ · (415) 699-4397
 **Tagline:** Serving San Jose · Palo Alto · Mountain View · Sunnyvale · Santa Clara
 **Copyright:** © 2025 Culinary Block Collective · San Jose, CA · BPI-Certified Eco Packaging
 
@@ -213,8 +217,8 @@
 
 | Channel | Details |
 |---|---|
-| Phone / Text | (408) 555-0192 |
-| Email | hello@culinaryblockcollective.com |
+| Phone / Text | (415) 699-4397 |
+| Email | culinaryblockcatering@gmail.com |
 | Website | culinaryblockcollective.com |
 | LinkedIn | linkedin.com/company/culinary-block-collective |
 | Instagram | instagram.com/culinaryblockcollective |

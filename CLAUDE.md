@@ -1,6 +1,6 @@
 # Culinary Block Collective — Project Context for Claude
 
-> **Last updated: 2026-03**
+> **Last updated: 2026-03-30**
 
 ## Who I Am
 
@@ -17,11 +17,11 @@ CBC serves two distinct customer segments:
 1. **Chef Entrepreneurs / Food Business Operators** — micro food businesses and independent chefs already operating out of the Culinary Block commissary, who gain access to corporate catering gigs, professional infrastructure, and a branded sales channel they couldn't build on their own
 2. **Corporate Buyers in the Bay Area** — office managers and HR/People Ops directors at tech firms (50–300 employees) who need reliable, diverse, dietary-friendly catering
 
-**Business model:** CBC acts as the operator, retaining a **25% commission** on each order (20% for Unique Cuisine — negotiated exception). Client-facing price is **$25–$40/person** depending on cuisine and tier. Service is **Chef's Spread (self-serve station) format only — no individual box meals.** CBC charges the client and collects applicable **sales tax**; chefs receive their agreed percentage of the per-person rate (sales tax is not deducted from chef payout). Chefs provide their own serving ware and chafing dishes for the spread; CBC creates dietary labels, **food safety labels** (with consume-by times per FDA Food Code), and handles delivery. Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
+**Business model:** CBC acts as a sales and marketing agent, connecting chefs to corporate clients and retaining a **commission on each order that varies by chef** (see Commission Summary below) plus a flat **$150 Coordination & Service Fee** charged to the client on every invoice (covers deposit collection, client communication, scheduling, dietary coordination, and order management — CBC revenue, not subject to the commission split). Client-facing price is **$25–$40/person** depending on cuisine and tier, plus the $150 service fee per order. Service is **Chef's Spread (self-serve station) format only — no individual box meals.** CBC charges the client and collects applicable **sales tax**; chefs receive their agreed percentage of the per-person rate (sales tax is not deducted from chef payout). **Operational responsibilities vary by chef agreement** — some chefs handle their own delivery, staging, and labeling; for others, CBC handles these. Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
 **Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
 
-**Client-facing price (per person):** $25–$30/person (Standard) · $40/person (Premium) · +$8/person for Attended Service. Commission: 25% CBC / 75% chef standard; Unique Cuisine exception: 20% CBC / 80% chef.
+**Client-facing price (per person):** $25–$34/person (Standard) · $40/person (Premium) · +$8/person for Attended Service. Commission varies by chef — see Commission Summary below.
 
 ---
 
@@ -31,20 +31,25 @@ CBC serves two distinct customer segments:
 
 CBC operates **two service tiers** plus a **Premium** price point. All service is **Chef's Spread (self-serve station) format** — no individual box meals.
 
-**Doug's operational role:** CBC (Doug) creates dietary labels and food safety labels (with consume-by times), collects sales tax from clients, and delivers food from the commissary to the client site. Chefs provide their own serving ware and chafing dishes for the spread — CBC handles labeling, food safety compliance, sales tax, and delivery. CBC also reimburses chefs for food costs from tasting sessions. Corporate clients must acknowledge food safety labels (consume-by times) in writing before each event.
+**Doug's operational role:** Varies by chef agreement.
+
+- **Chef John (Five Course Provision):** CBC is **sales-only**. Chef John handles all delivery, staging, dietary labeling, food safety labeling, and client-facing fulfillment. CBC handles sales, marketing, client acquisition, website, CRM, deposit collection, and invoicing. **Chef John absorbs credit card processing fees (~3%) — deducted from his 88% share before payout.**
+- **Kivi's Kitchen / other chefs on standard terms:** CBC (Doug) creates dietary labels and food safety labels (with consume-by times), collects sales tax from clients, and delivers food from the commissary to the client site. Chefs provide their own serving ware and chafing dishes for the spread — CBC handles labeling, food safety compliance, sales tax, and delivery.
+
+CBC also reimburses chefs for food costs from tasting sessions. Corporate clients must acknowledge food safety labels (consume-by times) in writing before each event.
 
 ---
 
 ### Standard Drop-Off Spread (Tier 1)
 
-Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff.
+Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card, dietary labels. Delivery and labeling responsibilities vary by chef (see Doug's operational role above). Client handles cleanup. No on-site CBC staff.
 
 | Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
 | Kivi's Kitchen · Chinese | $25–$30/person | 50 | $1,250–$1,500 |
-| Five Course Provision · Mexican Fusion | $30/person | 50 | $1,500 |
+| Five Course Provision · Mexican Fusion + Italian | $34/person | 50 | $1,700 |
 
-**CBC service kit cost per order:** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle). Chef provides serving ware. At 25% commission, margins are healthy.
+**CBC service kit cost per order (Kivi / standard-terms chefs):** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle). **Chef John orders:** CBC cost is ~$10–15 (coordination only — chef handles all fulfillment).
 
 ---
 
@@ -57,9 +62,11 @@ Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off for
 | Five Course · Mexican Fusion (Chef John) | $40/person | 50 | $2,000 |
 | Unique Cuisine · Sushi & Japanese | $40/person | 50 | $2,000 |
 
-**Commission notes:**
-- Five Course (Premium): 25% standard. Chef gets $30/person, CBC gets $10/person.
+**Commission notes (internal — not for client-facing materials):**
+- Five Course / Chef John (Standard): **12% CBC / 88% chef**. Chef gets $29.92/person, CBC gets $4.08/person. Chef handles all fulfillment. CC fees (~3%) deducted from chef's 88% before payout.
+- Five Course / Chef John (Premium): **12% CBC / 88% chef**. Chef gets $35.20/person, CBC gets $4.80/person. Chef handles all fulfillment.
 - Unique Cuisine: **20% (negotiated exception)**. Chef gets $32/person, CBC gets $8/person.
+- **All orders (all chefs):** $150 Coordination & Service Fee charged to client — CBC revenue, not subject to commission split. Appears as a line item on every client invoice.
 
 ---
 
@@ -70,7 +77,7 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
 | Kivi · Chinese | $33–$38/person | — |
-| Five Course · Mexican Fusion | $38/person | $48/person |
+| Five Course · Mexican Fusion + Italian | $42/person | $48/person |
 | Unique Cuisine · Sushi | — | $48/person |
 
 **Attended staffing:**
@@ -80,17 +87,21 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 **CBC staff cost:** $30/hr fully loaded (taxes + workers comp) · Billed to client at $35–$45/hr. Staff billings are CBC revenue on top of commission. Tier 2 is the margin engine — target mix should shift toward Tier 2 as client relationships mature.
 
+**Note:** Attended Service for Chef John orders requires separate arrangement — Chef John handles his own delivery and staging, so Tier 2 staffing must be coordinated explicitly.
+
 **Min. guests across all chefs:** 50. **Max:** 500 guests.
 
 ---
 
 ### Commission Summary
 
-| Chef | Commission | Chef Payout | CBC Gets |
-|---|---|---|---|
-| Kivi's Kitchen | 25% standard | 75% | 25% |
-| Five Course Provision | 25% standard | 75% | 25% |
-| Unique Cuisine | **20% (exception)** | **80%** | 20% |
+> **Commission rates and operational responsibilities vary by chef.** Do not discuss commission rates publicly or in client-facing materials.
+
+| Chef | Commission | Chef Payout | CBC Gets | Fulfillment |
+|---|---|---|---|---|
+| Five Course Provision (Chef John) | **12%** (+$150/order service fee) | **88%** (net of ~3% CC fees) | **12% commission + $150 service fee** | **Chef handles delivery, staging, labeling** |
+| Kivi's Kitchen | 25% standard | 75% | 25% | CBC handles delivery, labeling |
+| Unique Cuisine | **20% (exception)** | **80%** | 20% | CBC handles delivery, labeling |
 
 ---
 
@@ -130,6 +141,32 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 ```
 /
 ├── CLAUDE.md                                        ← This file
+├── .cursorrules  → .agents/rules/global-logic.md   ← Symlink: Cursor loads core project truths on every session
+├── .clauderules  → .agents/rules/global-logic.md   ← Symlink: Claude loads core project truths on every session
+│
+├── .agents/                                         ← SINGLE SOURCE OF TRUTH for all AI tooling
+│   ├── rules/                                       ← Project-wide rules loaded by all AI tools
+│   │   ├── global-logic.md                          ← Immutable truths: entity structure, tech stack, core constraints
+│   │   ├── pricing-and-commissions.md               ← All pricing tiers, commission splits, quote rules (INTERNAL)
+│   │   ├── brand-voice.md                           ← Tone, persona messaging, language do's/don'ts
+│   │   ├── operations.md                            ← Service format, chef responsibilities, food safety, cancellation
+│   │   └── sales.md                                 ← Outreach sequence, SLAs, pipeline stages, scripts
+│   ├── skills/                                      ← All AI skills live here (symlinked into each tool below)
+│   │   ├── analytics-tracking/SKILL.md
+│   │   ├── autoresearch/SKILL.md
+│   │   ├── cbc-content-creator/SKILL.md
+│   │   ├── cbc-doc-auditor/SKILL.md
+│   │   ├── cbc-lead-pipeline/SKILL.md
+│   │   ├── cbc-quote-builder/SKILL.md
+│   │   ├── cbc-site-editor/SKILL.md
+│   │   ├── conversion-web-editing/SKILL.md
+│   │   ├── outbound-sales-execution/SKILL.md
+│   │   └── the-interviewer/SKILL.md
+│   └── personas/                                    ← AI behavior personas (empty — ready for use)
+│
+├── .cursor/skills  → .agents/skills                 ← Symlink
+├── .claude/skills  → .agents/skills                 ← Symlink
+├── .antigravity/skills  → .agents/skills            ← Symlink
 │
 ├── docs/                                            ← PRIMARY REFERENCE DOCS (markdown, Claude-readable)
 │   ├── business-plan.md                             ← Full business plan: market, financials, ops, risks
@@ -140,7 +177,12 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 │   ├── sales-action-plan.md                         ← 30/60/90 day playbook, scripts, weekly checklist
 │   ├── campaign-plan.md                             ← 6-month brand awareness + lead gen campaign with KPIs
 │   ├── chef-profiles.md                             ← The 3 active chefs: personality, story, content angles, event routing
-│   └── operations.md                                ← Full order lifecycle: inquiry → quote → chef assignment → delivery → invoicing
+│   ├── operations.md                                ← Full order lifecycle: inquiry → quote → chef assignment → delivery → invoicing
+│
+├── docs/vendors/contract-agreements/               ← Vendor agreements (PDF + markdown source)
+│   ├── Vendor_Agreement_Kivi_Chinese.pdf
+│   ├── Vendor_Agreement_Unique_Cuisine_Sushi.pdf
+│   └── Vendor_Agreement_Five_Course_Chef_John.md   ← DRAFT — needs attorney review before presenting to John
 │
 ├── — Source Files (originals — not directly readable by Claude) —
 ├── Business plan.docx                               ← Source for docs/business-plan.md
@@ -187,7 +229,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 ## Known Inconsistencies to Resolve
 
 - **Chef count** varies across docs (5, 6, or 7) — the correct answer is that the roster is dynamic based on commissary tenants. Any doc that states a fixed number needs a disclaimer.
-- **Unique Cuisine commission is 20% (negotiated exception)** — all other chefs (Kivi, Five Course) are 25% standard. Do not discuss commission rates publicly or in client-facing materials.
+- **Commission rates vary by chef:** Five Course (Chef John) is **12% CBC / 88% chef** (sales-only, chef handles fulfillment; CC fees absorbed by chef from his 88%; performance escalator to 15% if collected sales exceed $15K in any rolling 30-day period). Kivi is 25%/75% standard (CBC handles delivery/labeling). Unique Cuisine is 20%/80% (negotiated exception). A flat **$150/order Coordination & Service Fee** is charged to all clients — CBC revenue, not subject to commission split. Do not discuss commission rates or the service fee split publicly or in client-facing materials.
 - **Two contractor agreement files** exist — the `Independent Contractor Agreement for Catering Services.docx` is the current version (includes tier flexibility); the `Contractor Agreement.docx` is the earlier draft.
 - **`cbc-sales.plugin`** is a Claude Code plugin (ZIP archive) with 6 slash commands: `/daily`, `/pipeline`, `/draft-email`, `/quote`, `/content-week`, `/scorecard`. To activate, extract the `commands/` folder into `.claude/commands/`. See `CBC_Sales/CBC_Cowork_Shortcuts_Setup.md` for full instructions.
 - **Scheduling is not available** — Claude Code has no native task scheduler. All plugin commands must be run manually. Gmail integration is planned but not yet implemented.
@@ -196,7 +238,8 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 
 ## Docs That Need to Be Created / Actions Still Pending
 
-1. **Kivi and Five Course formal sign-off** — Unique Cuisine is confirmed at 20%/$40/person. Kivi (Chinese) and Five Course Provision (Mexican Fusion) still need formal written agreements signed before launch. Present the model to each: CBC handles sales, client relationships, dietary labeling, and delivery; chefs focus on cooking and providing spread serving ware.
+1. **Kivi formal sign-off** — Unique Cuisine is confirmed at 20%/$40/person. Chef John (Five Course) agreed terms: 12% commission (escalator to 15% above $15K/rolling 30 days), $34–$40/person client price, chef handles all fulfillment, CC fees deducted from chef's 88%. Kivi (Chinese) still needs formal written agreement signed before launch at 25% standard terms.
+1. **Chef John contractor agreement** — Draft new agreement reflecting: 12% CBC commission (with performance escalator to 15% if collected sales exceed $15K in any rolling 30-day period), $150/order Coordination & Service Fee (client-billed, CBC revenue), chef-handled fulfillment (delivery, staging, labeling), non-compete clause (12–18 months on CBC-introduced clients), delivery guarantee liability (late delivery credit deducted from chef's payout), CC fee absorption by chef (~3% from his 88%), 30-day performance review, and payment terms (Net 30, CBC remains billing entity). Get attorney review before presenting.
 2. **Chef profiles** → `docs/chef-profiles.md` — structure exists, needs Doug to fill in names, personalities, stories, and operational details for the 3 active chefs
 3. **Install the sales plugin** — extract `CBC_Sales/cbc-sales.plugin` into `.claude/commands/` to activate the 6 slash commands (see `CBC_Sales/CBC_Cowork_Shortcuts_Setup.md`)
 4. **Define client cancellation policy** — `docs/operations.md` Cancellation table has two `[TBD]` entries (client cancels 5+ days out; client cancels under 5 days); add to contracts when ready
@@ -231,3 +274,4 @@ When I start a session without a specific task, ask: *"What are we working on to
 - Brand tone: professional but warm, community-oriented, chef-forward
 - Business model is still being validated — pricing and service packages may evolve
 - Tools: **Claude Code**, Cursor AI, HubSpot (free), Vercel, Gmail
+- AI rules + skills are centralized in `.agents/` and symlinked into each tool — edit there, not in tool-specific directories

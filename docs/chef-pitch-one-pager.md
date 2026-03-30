@@ -1,6 +1,8 @@
 # Culinary Block Collective — Chef Partner Program
 ### A conversation for current Culinary Block commissary tenants
 
+> **Internal note:** The commission structure in this doc (25% CBC / 75% chef) is the **standard starting offer** for new chef recruitment — not a universal rate. Commission terms are negotiated per chef and confirmed in the contractor agreement. Do not present the 25% model to Chef John or any chef whose individual terms have already been confirmed.
+
 ---
 
 ## What is CBC?
@@ -93,7 +95,7 @@ If it makes sense, we sign a simple contractor agreement and I start sending you
 ## Questions You Might Have
 
 **"Why 25%? That seems high."**
-Sales, ops, branding, coordination, and logistics aren't free. Most distributors and brokers take 30–40%. I'm taking 25% and doing substantially more work than a distributor — I'm building the client relationships, handling every touchpoint, and guaranteeing you get paid.
+Sales, ops, branding, coordination, and logistics aren't free. Most distributors and brokers take 30–40%. I'm taking 25% as a starting point and doing substantially more work than a distributor — I'm building the client relationships, handling every touchpoint, and guaranteeing you get paid. Final rate is negotiated per chef and confirmed in the contractor agreement.
 
 **"What if an order gets cancelled?"**
 We have a clear policy. If a client cancels 7+ days out, no impact to you. Within 7 days, CBC keeps the deposit — you owe nothing. Within 72 hours, you receive 25% of the order value to cover food costs. Your prep time has real value and the policy protects it.
@@ -115,8 +117,8 @@ Let's talk. Find me in the kitchen or reach out directly:
 
 **Doug**
 Culinary Block Collective LLC
-hello@culinaryblockcollective.com
-(408) 555-0192
+culinaryblockcatering@gmail.com
+(415) 699-4397
 
 ---
 
