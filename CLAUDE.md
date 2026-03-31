@@ -235,6 +235,22 @@ When I start a session without a specific task, ask: *"What are we working on to
 
 ---
 
+## Development Standards (Vercel / Next.js)
+
+- **Parallelize awaits:** Never `await` independent async calls sequentially. Use `Promise.all()` so unrelated fetches run in parallel. Per [Vercel React Best Practices (2026)](https://vercel.com/blog/introducing-react-best-practices) — sequential awaits are the most common avoidable latency source.
+  ```ts
+  // Bad — sequential, doubles wait time
+  const menu = await getMenu();
+  const chefs = await getChefs();
+
+  // Good — parallel
+  const [menu, chefs] = await Promise.all([getMenu(), getChefs()]);
+  ```
+- **Lazy state initialization:** Wrap expensive `useState` initializers in a callback so they only run once, not on every render.
+- **Keep compute close to data:** Deploy functions in the same region as your database to avoid roundtrip latency.
+
+---
+
 ## Key Context
 
 - I'm building CBC alongside running the existing Culinary Block LLC commissary — time is limited
