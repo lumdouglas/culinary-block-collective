@@ -51,7 +51,7 @@
     .nav-links { display: flex; align-items: center; gap: 4px; }
     .nav-link { color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500; padding: 6px 12px; border-radius: 4px; transition: background .15s, color .15s; }
     .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
-    .nav-phone { display: flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
+    .nav-phone { display: flex; align-items: center; gap: 8px; color: var(--gold); font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
     @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
 
     /* ── HERO ── */
@@ -99,7 +99,7 @@
     .bio-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
     .bio-gallery img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
     .bio-content h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 700; color: var(--dgreen); line-height: 1.12; margin-bottom: 8px; }
-    .bio-content .tagline { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: var(--loulan); margin-bottom: 24px; }
+    .bio-content .tagline { font-family: var(--font-body); font-style: italic; font-size: 1.15rem; color: var(--loulan); margin-bottom: 24px; }
     .bio-text p { color: var(--muted); line-height: 1.8; margin-bottom: 16px; font-size: 0.95rem; }
     .bio-highlight {
       background: var(--loulan-light); border-left: 4px solid var(--loulan);
@@ -149,7 +149,7 @@
     .menu-set-header { padding: 20px 24px 12px; border-bottom: 1px solid var(--border); }
     .set-tag { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
     .set-tag.sea { background: var(--green); }
-    .menu-set-header h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--dgreen); line-height: 1.2; margin-bottom: 4px; }
+    .menu-set-header h3 { font-family: var(--font-body); font-size: 1.35rem; font-weight: 700; color: var(--dgreen); line-height: 1.2; margin-bottom: 4px; }
     .menu-set-header .set-sub { font-size: 0.78rem; color: var(--muted); }
     .menu-set-body { padding: 20px 24px; flex: 1; }
     .set-items { list-style: none; }

@@ -49,7 +49,7 @@
     .nav-links { display: flex; align-items: center; gap: 4px; }
     .nav-link { color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500; padding: 6px 12px; border-radius: 4px; transition: background .15s, color .15s; }
     .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
-    .nav-phone { display: flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
+    .nav-phone { display: flex; align-items: center; gap: 8px; color: var(--gold); font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
     @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
 
     /* ── HERO ── */
@@ -63,7 +63,7 @@
     .hero-inner { max-width: 800px; margin: 0 auto; }
     .hero-label { display: inline-block; background: var(--sushi); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; margin-bottom: 16px; }
     .hero h1 { font-family: var(--font-display); font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 700; color: var(--white); line-height: 1.1; margin-bottom: 16px; }
-    .hero h1 em { font-style: italic; color: var(--gold-light); }
+    .hero h1 em { font-style: italic; color: var(--white); }
     .hero-sub { color: rgba(255,255,255,0.88); font-size: 1.05rem; max-width: 580px; margin-bottom: 28px; line-height: 1.65; }
     .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
     .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.95rem; padding: 13px 28px; border-radius: 50px; transition: background .15s; }
@@ -93,11 +93,11 @@
       box-shadow: var(--shadow-lg);
     }
     .bio-photo-placeholder span { font-size: 3rem; }
-    .bio-photo-placeholder p { font-family: var(--font-display); font-size: 1.1rem; font-weight: 600; text-align: center; padding: 0 16px; }
+    .bio-photo-placeholder p { font-family: var(--font-body); font-size: 1.1rem; font-weight: 600; text-align: center; padding: 0 16px; }
     .sushi-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
     .sushi-gallery img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
     .bio-content h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--dgreen); line-height: 1.15; margin-bottom: 8px; }
-    .bio-content .tagline { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: var(--sushi); margin-bottom: 24px; }
+    .bio-content .tagline { font-family: var(--font-body); font-style: italic; font-size: 1.15rem; color: var(--sushi); margin-bottom: 24px; }
     .bio-text p { color: var(--muted); line-height: 1.8; margin-bottom: 16px; font-size: 0.95rem; }
     .bio-highlight { background: var(--sushi-light); border-left: 4px solid var(--sushi); padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 24px 0; font-style: italic; color: var(--text); font-size: 0.95rem; line-height: 1.7; }
     .values-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; }
