@@ -127,6 +127,9 @@
     .menu-header h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 700; color: var(--dgreen); margin-bottom: 8px; }
     .menu-header p { color: var(--muted); font-size: 0.95rem; max-width: 600px; margin: 0 auto; }
     .menu-badge { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; margin-bottom: 12px; }
+    .menu-downloads { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+    .menu-download-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 6px 14px; text-decoration: none; transition: background 0.15s; }
+    .menu-download-link:hover { background: var(--loulan-mid); }
     .price-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
     .price-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); }
 
@@ -355,6 +358,11 @@
         <span class="price-badge">White rice included</span>
         <span class="price-badge">Brown rice +$1 / person</span>
         <span class="price-badge">50 guests min · 500 max</span>
+      </div>
+      <div class="menu-downloads">
+        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Chinese Cuisine.pdf" target="_blank">📄 Chinese Menu PDF</a>
+        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Southeast Asian cuisine.pdf" target="_blank">📄 Southeast Asian Menu PDF</a>
+        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Western Style Cuisine.pdf" target="_blank">📄 Western Style Menu PDF</a>
       </div>
     </div>
 
