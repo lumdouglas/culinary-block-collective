@@ -2,7 +2,7 @@
 ### Independent Contractor Agreement for Catering Services
 
 > **STATUS: DRAFT — FOR ATTORNEY REVIEW BEFORE PRESENTATION**
-> Key items flagged for attorney: §10 non-solicitation enforceability under CA B&P §16600; §4 CC fee deduction compliance; payment timeline under CA contractor law.
+> Key items flagged for attorney: §10 non-solicitation enforceability under CA B&P §16600; §4 payment timeline under CA contractor law.
 
 ---
 
@@ -10,7 +10,7 @@
 |---|---|
 | **Client (CBC)** | Culinary Block Collective LLC |
 | **Contact** | Doug — doug@culinaryblockcollective.com |
-| **Contractor** | Chef John — Five Course Provision (Mexican Fusion) |
+| **Contractor** | Chef John Alvarez — Five Course Provision (Mexican Fusion + Italian) |
 | **Business** | _____________________ |
 
 This Agreement outlines the terms under which the Contractor provides catering services through Culinary Block Collective ("CBC"), a limited liability company wholly owned by Doug, to CBC's corporate clients.
@@ -19,13 +19,20 @@ This Agreement outlines the terms under which the Contractor provides catering s
 
 ## 1. Services
 
-- Contractor shall prepare and provide Mexican Fusion cuisine in a Chef's Spread (self-serve buffet) format for corporate catering orders arranged by CBC. Service format: Chef's Spread only. Individual boxed meals are not included under this Agreement at this time.
+**Contractor Responsibilities (food and production):**
+- Contractor shall prepare Mexican Fusion and Italian cuisine in a Chef's Spread (self-serve) format for corporate catering orders arranged by CBC. Service format: Chef's Spread only. Individual boxed meals are not included under this Agreement at this time.
+- Contractor shall prepare and package all food items, clearly identifying each item by name for CBC's labeling process, and have all items ready for CBC pickup at the agreed staging time.
 - Contractor shall meet dietary needs (e.g., vegan, gluten-free) as specified on the Contractor's submitted menu for each order.
 - Contractor shall adhere to all applicable health and safety standards, local regulations, and California food safety requirements.
-- Contractor is responsible for providing their own serving equipment, chafing dishes, platters, serving utensils, and spread setup materials.
-- **Contractor is responsible for all fulfillment**, including: dietary labeling, food safety labeling (with consume-by times per California food safety regulations and the FDA Food Code), printed menu cards, delivery to the client site, staging of the Chef's Spread at the client site, and maintaining safe food temperatures from preparation through client service.
+- Contractor is responsible for providing their own serving equipment, chafing dishes, platters, serving utensils, and all spread materials needed for client-site staging.
+- Contractor shall maintain proper food temperatures from preparation through CBC pickup, ensuring all items are packaged in food-safe, temperature-appropriate containers.
+
+**CBC Responsibilities (delivery, setup, and client logistics):**
+- CBC shall pick up all food items from the Contractor's kitchen at the agreed staging time and deliver them to the client site.
+- CBC shall affix dietary labels and food safety labels (with consume-by times per California food safety regulations and the FDA Food Code) to all food items.
+- CBC shall stage the Chef's Spread at the client site, including placement of chafing dishes, printed menu cards, and dietary breakdown sheets.
 - CBC is responsible for sales, marketing, client acquisition, invoicing, deposit collection, and communicating all event details to the Contractor. CBC is the sole billing entity — all client payments flow through CBC.
-- Service is available for lunch and dinner. Delivery window is coordinated with CBC per order.
+- Service is available for lunch and dinner. Pickup time is coordinated with CBC per order.
 
 ---
 
@@ -33,51 +40,70 @@ This Agreement outlines the terms under which the Contractor provides catering s
 
 | **Parameter** | **Value** |
 |---|---|
-| Service Format | Chef's Spread (self-serve buffet) only |
+| Service Format | Chef's Spread (self-serve) only |
 | Minimum Order | 50 persons per event |
 | Maximum Capacity | 500 persons per event |
-| Standard Per-Person Price | $34.00 per person |
-| Premium Per-Person Price | $40.00 per person (elevated proteins — wagyu beef, whole fish, jumbo shrimp, seasonal market cuts) |
-| Delivery Window | Coordinated with CBC per order |
+| Contractor's Per-Person Food Price — Standard | $_____.00 per person *(to be agreed — see §4)* |
+| Contractor's Per-Person Food Price — Premium | $_____.00 per person (elevated proteins — wagyu beef, whole fish, jumbo shrimp, seasonal market cuts) *(to be agreed — see §4)* |
+| Base Menu Composition | 2 mains · 3 sides · 3 salsas · full condiment set |
+| Add-On: Additional Main | +$3.00–$5.00 per guest (protein-dependent — see §3) |
+| Pickup Window | Coordinated with CBC per order |
 | Meals Available | Lunch and Dinner |
 | Tasting Availability | Once per week (by appointment) |
 
 ---
 
-## 3. Menu Control & Scheduling
+## 3. Menu Structure & Add-Ons
 
-- Contractor shall submit menu options and available dates to CBC in advance of each service period.
-- Menu submissions must include item descriptions, pricing tier (Standard or Premium), and any dietary accommodations offered.
-- Changes to a submitted menu require CBC's written approval with a minimum of seven (7) days' notice.
-- Contractor may update their menu or available dates at any time, provided no outstanding confirmed orders are affected.
+- The standard base menu shall include: choice of two (2) mains, choice of three (3) sides, choice of three (3) salsas, and a full condiment set. This constitutes the base offering at Contractor's standard per-person food price.
+- Contractor may offer additional mains as an upsell at +$3.00–$5.00 per guest depending on protein selection. Contractor shall communicate the applicable add-on rate to CBC at the time of menu submission for each event.
+- Contractor may propose other upsells (premium sauces, specialty proteins, etc.) for CBC to present to clients. All add-on pricing must be submitted to CBC in writing before inclusion in any client quote.
+- Menu changes require CBC's written approval with a minimum of seven (7) days' notice, unless no confirmed orders are affected.
+- Contractor may update available dates and menu options at any time, provided no outstanding confirmed orders are affected.
+- CBC and Contractor agree to discuss volume-based menu rotations and preferential pricing for recurring client accounts once consistent booking frequency is established.
 
 ---
 
 ## 4. Compensation
 
-Revenue split on all orders:
+**Contractor's food price:**
 
-| **Party** | **Share** |
+| **Item** | **Rate** |
 |---|---|
-| **Contractor (Chef John)** | 85% of per-person client price |
-| **CBC** | 15% of per-person client price (commission) |
+| Standard Chef's Spread (per person) | $_____.00 *(to be agreed)* |
+| Premium Chef's Spread (per person) | $_____.00 *(to be agreed)* |
+| Add-On: Additional Main (per person) | +$3.00–$5.00 *(protein-dependent, per §3)* |
 
-- Client-facing price: $34.00 per person (Standard Chef's Spread) or $40.00 per person (Premium Chef's Spread).
-- CBC handles all client billing and collection of applicable sales tax. Contractor receives 85% of the per-person price charged to the client (excluding sales tax), multiplied by the confirmed guest count, less any applicable credit card processing fees (see below).
-- **Credit card processing fees:** Credit card and ACH processing fees incurred by CBC for client payments are deducted from Contractor's 85% share before disbursement. Standard processing rate is approximately 3% of collected revenue. CBC will itemize all processing fees on each payment summary. CBC will not add surcharges to client invoices for payment processing.
-- Minimum order: 50 persons. Contractor may specify a minimum revenue threshold per order, communicated to CBC before order confirmation.
+- Contractor's per-person food price is fixed for each confirmed event. CBC does not take a commission from Contractor's food revenue.
+- CBC separately charges the client a Delivery & Setup Fee and a Coordination Fee (see below). These are CBC revenue and do not affect Contractor's payout.
+- Contractor's total payout for each event: Contractor's per-person food price × confirmed guest count, plus any approved add-ons.
+- Sales tax: CBC is responsible for collecting and remitting all applicable sales tax from corporate clients. Sales tax is not included in the per-person food price and is not deducted from Contractor's compensation.
 - Payment to Contractor shall be made within thirty (30) days of the service date (Net 30).
 - Contractor is responsible for their own taxes, benefits, and insurance.
-- Sales tax: CBC is responsible for collecting and remitting all applicable sales tax from corporate clients. Sales tax is not included in the per-person price and is not deducted from Contractor's compensation.
 
-**Example — 50 guests, Premium order:**
+**CBC's fee structure (client-facing — for reference):**
+
+CBC charges the client separately for delivery, setup, and coordination. These fees are CBC's revenue and do not affect Contractor's payout:
+
+| **CBC Fee** | **Range** |
+|---|---|
+| Delivery & On-Site Setup | $250–$400 per event (scales with guest count and distance) |
+| Coordination & Service Fee | 12–15% of food subtotal |
+
+**Example — 100 guests, Standard order at $28.00/person:**
 
 | | |
 |---|---|
-| Client pays (50 × $40) | $2,000.00 |
-| Less CBC commission (15%) | − $300.00 |
-| Less CC processing (~3%) | − $57.00 |
-| **Contractor receives** | **$1,643.00** |
+| Contractor food revenue (100 × $28.00) | $2,800.00 |
+| CBC Delivery & Setup fee (client-billed) | $300.00 |
+| CBC Coordination fee (12% × $2,800) | $336.00 |
+| **Total client invoice** | **$3,436.00 ($34.36/person)** |
+| **Contractor receives** | **$2,800.00** |
+| **CBC receives** | **$636.00** |
+
+**Volume-based booking fee (deferred):**
+
+Once CBC-introduced bookings reach a consistent volume (to be defined by mutual agreement), the parties agree to negotiate a per-booking introduction fee to CBC. Options under consideration: (a) $1.00–$2.50 per guest per completed booking, or (b) $100–$300 per completed booking based on cover count. This provision becomes active only by written amendment signed by both parties.
 
 ---
 
@@ -99,13 +125,13 @@ CBC manages all client cancellation policies and fees. The cancellation scenario
 |---|---|
 | Client cancels 7+ days before event | No impact — Contractor owes nothing and receives no payment |
 | Client cancels within 7 days (more than 72 hours out) | No impact — Contractor owes nothing and receives no payment |
-| Client cancels within 72 hours of event date | Contractor receives 25% of total order value as reimbursement for food and ingredient costs already incurred |
+| Client cancels within 72 hours of event date | Contractor receives 25% of total food order value as reimbursement for food and ingredient costs already incurred |
 
-For cancellations within 72 hours, CBC retains the client deposit to cover its lost commission, and the additional 25% reimbursement to the Contractor is invoiced separately to the client. Contractor is made whole for prep costs; CBC covers its coordination losses from the deposit.
+For cancellations within 72 hours, CBC retains the client deposit to cover its lost fees, and the 25% food cost reimbursement to the Contractor is invoiced separately to the client.
 
 **On-Time Delivery Guarantee — Client Credits:**
 
-CBC offers corporate clients a guarantee that food will be staged and ready for their team at the agreed service time. If an order is late, the client receives 10% off their next order. Because Contractor handles all delivery and staging under this Agreement, **the cost of any such client credit is deducted from Contractor's payout for the applicable order**. CBC will notify Contractor in writing of any late delivery claim within forty-eight (48) hours of the event. Contractor may dispute a claim in writing within seven (7) days.
+CBC offers corporate clients a guarantee that food will be staged and ready at the agreed service time. If an order is late, the client receives 10% off their next order. Because CBC is responsible for delivery and staging under this Agreement, **late delivery credits are a CBC cost and are not deducted from Contractor's payout**, except where the delay was caused by Contractor's failure to have food ready at the agreed pickup time. In that case, CBC will notify Contractor in writing of the claim within forty-eight (48) hours of the event. Contractor may dispute the claim in writing within seven (7) days.
 
 **Contractor Cancellation:**
 
@@ -116,21 +142,22 @@ CBC offers corporate clients a guarantee that food will be staged and ready for 
 
 ## 7. Food Safety Labeling & Time/Temperature Compliance
 
-- Contractor is responsible for affixing food safety labels to all food items. Labels must include a "Consume By" time calculated in accordance with California food safety regulations and the FDA Food Code, which require that ready-to-eat, temperature-controlled food held outside of safe temperature range (below 41°F or above 135°F) must be consumed or discarded within four (4) hours of preparation or removal from temperature control.
-- Each food safety label must state: the item name, the date and time of preparation or packaging, and the consume-by time (no more than 4 hours from the time the food leaves temperature control).
-- Contractor is responsible for individual dietary labels on every item (vegan, GF, nut-free, dairy-free, and other applicable designations), and for printed menu cards and dietary breakdown sheets accompanying each order.
-- CBC requires all corporate clients to acknowledge and confirm the food safety labeling policy in writing prior to each event. Specifically, clients must agree to: (a) communicate consume-by times to their guests, (b) discard any food not consumed by the stated time, and (c) not hold CBC or the Contractor liable for food consumed after the labeled consume-by time. CBC will provide Contractor with a copy of each client's acknowledgment on request.
-- Contractor is responsible for maintaining safe food temperatures from preparation through delivery and staging at the client site. Contractor's food safety responsibility extends through the point at which the spread is staged and ready for the client's team.
+- Contractor is responsible for maintaining safe food temperatures from preparation through CBC pickup. Contractor's food safety responsibility extends through the point at which all food items are transferred to CBC at the agreed pickup location.
+- All items must be packaged in food-safe, temperature-appropriate containers and clearly identified by item name at the time of CBC pickup.
+- CBC is responsible for affixing food safety labels to all items prior to client delivery. Labels must include a "Consume By" time calculated in accordance with California food safety regulations and the FDA Food Code, which require that ready-to-eat, temperature-controlled food held outside of safe temperature range (below 41°F or above 135°F) must be consumed or discarded within four (4) hours of preparation or removal from temperature control.
+- CBC is responsible for dietary labels on every item (vegan, GF, nut-free, dairy-free, and other applicable designations), and for printed menu cards and dietary breakdown sheets accompanying each order.
+- CBC requires all corporate clients to acknowledge and confirm the food safety labeling policy in writing prior to each event. Specifically, clients must agree to: (a) communicate consume-by times to their guests, (b) discard any food not consumed by the stated time, and (c) not hold CBC or the Contractor liable for food consumed after the labeled consume-by time.
 
 ---
 
 ## 8. Liability, Insurance & Food Safety
 
-- Contractor warrants that all food provided is prepared in accordance with applicable health and safety standards and is safe for consumption through delivery and staging at the client site.
-- Contractor assumes full liability for claims arising from food preparation, ingredients, allergen disclosure, delivery, and staging.
-- Contractor shall follow safe handling procedures including maintaining proper food temperatures, using clean utensils, adhering to health regulations, and ensuring proper labeling of ingredients and allergens.
+- Contractor warrants that all food provided is prepared in accordance with applicable health and safety standards and is safe for consumption through the point of CBC pickup.
+- Contractor assumes full liability for claims arising from food preparation, ingredients, allergen content, and temperature control through CBC pickup.
+- CBC assumes full liability for claims arising from delivery, staging, dietary labeling, and on-site setup.
+- Contractor shall follow safe handling procedures including maintaining proper food temperatures, using clean utensils, adhering to health regulations, and ensuring food is properly packaged and identified at pickup.
 - Contractor shall maintain logs of safe handling procedures, available to CBC upon request.
-- Contractor shall carry product liability and general liability insurance with a minimum of $1,000,000 each. CBC shall carry general liability insurance ($1,000,000 minimum) for liabilities arising from CBC's sales and client-facing activities.
+- Contractor shall carry product liability and general liability insurance with a minimum of $1,000,000 each. CBC shall carry general liability insurance ($1,000,000 minimum) for liabilities arising from CBC's delivery, labeling, and client-facing activities.
 - CBC reserves the right to inspect Contractor's kitchen and records at reasonable times.
 - CBC may terminate this Agreement immediately if Contractor fails to comply with food safety or record-keeping requirements.
 
@@ -138,14 +165,14 @@ CBC offers corporate clients a guarantee that food will be staged and ready for 
 
 ## 9. Indemnification
 
-- Contractor shall indemnify and hold CBC harmless from claims related to Contractor's performance, breaches, negligence, or willful misconduct — including claims arising from food preparation, delivery, staging, or labeling — except where CBC is solely responsible.
-- CBC shall indemnify and hold Contractor harmless from claims related to CBC's performance, breaches, negligence, or willful misconduct — including claims arising from CBC's sales, marketing, or client relationship activities — except where Contractor is solely responsible.
+- Contractor shall indemnify and hold CBC harmless from claims related to food preparation, ingredients, allergen content, or temperature control through the point of CBC pickup — except where CBC is solely responsible.
+- CBC shall indemnify and hold Contractor harmless from claims related to CBC's delivery, labeling, staging, sales, marketing, or client relationship activities — except where Contractor is solely responsible.
 
 ---
 
 ## 10. Confidentiality & Non-Solicitation
 
-- Confidential Information includes, but is not limited to: client lists, contact information, pricing, order volumes, commission rates, and business strategies.
+- Confidential Information includes, but is not limited to: client lists, contact information, pricing, order volumes, and business strategies.
 - Contractor shall not use Confidential Information for purposes other than performing services under this Agreement.
 - For twelve (12) months following termination, if Contractor provides catering services directly to any CBC client first introduced through CBC's sales and marketing activities, using Confidential Information obtained through this Agreement, Contractor shall pay CBC 15% of revenue received from such services during that period.
 - Nothing in this section restricts Contractor from serving clients independently sourced without CBC's involvement, operating Contractor's existing catering business, or marketing Contractor's services generally.
@@ -190,7 +217,7 @@ This Agreement constitutes the entire understanding between the parties, superse
 
 | **CULINARY BLOCK COLLECTIVE LLC** | **CONTRACTOR** |
 |---|---|
-| (Client) | (Chef John — Five Course Provision) |
+| (Client) | (Chef John Alvarez — Five Course Provision) |
 | | |
 | | |
 | Signature | Signature |

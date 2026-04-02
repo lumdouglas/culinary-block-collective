@@ -4,38 +4,39 @@
 
 ---
 
+## Pricing Framework
+
+CBC receives each chef's per-guest menu price as its cost basis. CBC adds its commission margin to arrive at the client-facing advertised price. The client sees a **single per-guest line item** — no separate service or coordination fees. Add-ons (attended service, juice/boba bundle, etc.) are the only additional charges.
+
+**Example:** Unique Cuisine's per-guest menu price to CBC is $24. CBC's advertised client price is $30. CBC margin = $6/person.
+
+---
+
 ## Client-Facing Pricing
 
 ### Tier 1 — Standard Drop-Off Spread
 
-| Chef / Cuisine | Per-Person Price | Min Guests | Min Order |
-|---|---|---|---|
-| Kivi's Kitchen · Chinese | $25–$30/person | 50 | $1,250–$1,500 |
-| Five Course Provision · Mexican Fusion + Italian | $34/person | 50 | $1,700 |
+| Chef / Cuisine | Chef Price (to CBC) | Client Price | Min Guests | Min Order |
+|---|---|---|---|---|
+| Kivi's Kitchen · Chinese | $18.75–$22.50/person | $25–$30/person | 50 | $1,250–$1,500 |
+| Five Course Provision · Mexican Fusion + Italian | ~$30/person | $34/person | 50 | $1,700 |
 
 ### Tier 1 — Premium Drop-Off Spread
 
-| Chef / Cuisine | Per-Person Price | Min Guests | Min Order |
-|---|---|---|---|
-| Five Course · Mexican Fusion (premium proteins) | $40/person | 50 | $2,000 |
-| Unique Cuisine · Sushi & Japanese | $40/person | 50 | $2,000 |
+| Chef / Cuisine | Chef Price (to CBC) | Client Price | Min Guests | Min Order |
+|---|---|---|---|---|
+| Five Course · Mexican Fusion (premium proteins) | ~$35/person | $40/person | 50 | $2,000 |
+| Unique Cuisine · Sushi & Japanese | $24/person | $30/person | 50 | $1,500 |
 
 ### Tier 2 — Attended Service
 
-Add **+$8/person** on top of any Standard or Premium price.
+Add **+$8/person** on top of any Standard or Premium client price.
 
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
 | Kivi · Chinese | $33–$38/person | — |
 | Five Course · Mexican Fusion + Italian | $42/person | $48/person |
-| Unique Cuisine · Sushi | — | $48/person |
-
-### Coordination & Service Fee
-
-- **$150 flat fee** on every order, every client, no exceptions
-- Listed as a separate line item on every quote from day one — never hidden, never introduced post-quote
-- Covers: deposit collection, client communication, scheduling, dietary coordination, order management
-- CBC revenue — not subject to commission split with any chef
+| Unique Cuisine · Sushi | — | $38/person |
 
 ### Add-Ons
 
@@ -89,22 +90,24 @@ Add **+$8/person** on top of any Standard or Premium price.
 
 - **CBC: 20% / Chef: 80%** (negotiated exception — do not use as benchmark for other chefs)
 - CBC handles delivery, labeling, food safety compliance
+- Chef's menu price to CBC: **$24/person**. CBC's client price: **$30/person**.
 
 | Price Point | Chef Gets | CBC Gets |
 |---|---|---|
-| $40/person (Premium) | $32.00 | $8.00 |
+| $30/person (Premium Drop-Off) | $24.00 | $6.00 |
 
 ---
 
 ## Quote Building Rules
 
-1. Per-person rate × guest count = food subtotal
-2. Add applicable add-ons
+1. Per-person rate × guest count = food subtotal (single line item for client)
+2. Add applicable add-ons (attended service +$8/pp, juice/boba bundle, premium packaging, etc.)
 3. Apply 10% first-order discount if new client (100+ guests only; valid through 2026-09-30)
-4. Add **$150 Coordination & Service Fee** as a separate line item
-5. Sales tax collected by CBC on top of total — chefs are not taxed on their payout
-6. Quote valid for **14 days**
-7. Turnaround: **24 hours max**
+4. Sales tax collected by CBC on top of total — chefs are not taxed on their payout
+5. Quote valid for **14 days**
+6. Turnaround: **24 hours max**
+
+> No separate coordination or service fee. CBC's margin is built into the per-guest price. Every quote should reinforce: one price, no surprises.
 
 ## Deposit Rules
 

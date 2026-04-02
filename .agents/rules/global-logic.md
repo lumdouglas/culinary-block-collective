@@ -36,9 +36,10 @@ These are the non-negotiable facts about this project. Do not deviate from these
 ## Pricing — Core Numbers
 
 - Standard Drop-Off: **$25–$34/person** depending on cuisine
-- Premium Drop-Off: **$40/person**
+- Premium Drop-Off: **$30–$40/person** depending on cuisine (Unique Cuisine: $30; Five Course: $40)
 - Attended Service (Tier 2): **+$8/person** on top of any tier
-- **$150 Coordination & Service Fee** on every single order — non-negotiable, listed as a line item on every quote from day one
+- **No separate service or coordination fee** — CBC's margin is built into the per-guest price
+- Client receives a **single per-guest line item** (plus any add-ons they choose)
 
 ---
 
@@ -46,10 +47,17 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 - Commission rates **vary by chef** and are **strictly internal**
 - Never discuss, hint at, or disclose commission rates in client-facing materials
+- **Pricing model:** CBC receives each chef's per-guest price as cost, marks up to arrive at client price
 - Chef John (Five Course): 12% CBC / 88% chef
 - Kivi's Kitchen: 25% CBC / 75% chef
-- Unique Cuisine: 20% CBC / 80% chef (negotiated exception)
-- The $150/order service fee is CBC revenue — not subject to commission split
+- Unique Cuisine: chef price $24 → client price $30 (CBC gets $6/person = 20%)
+
+---
+
+## Regulatory Compliance
+
+- **AB 660 (California):** Effective July 1, 2026. Requires individual dietary and food safety labeling. CBC's existing protocol already meets the standard — first-mover advantage over smaller operators who will scramble to comply.
+- **Santa Clara Catering Permit:** Required before any client-facing activity. ~$282+ fee; requires commissary agreement + SOPs + inspection. **Must be filed before launch.**
 
 ---
 

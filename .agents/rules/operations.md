@@ -11,6 +11,21 @@
 
 ---
 
+## Regulatory Prerequisites (Must Complete Before Launch)
+
+### Santa Clara Catering Permit
+- **Required** before any client-facing catering activity in Santa Clara County
+- Fee: ~$282+ · Requires: commissary agreement, SOPs, health department inspection
+- **Action: File application immediately — this is a legal prerequisite, not optional**
+
+### AB 660 Compliance (Effective July 1, 2026)
+- California law requiring individual dietary and food safety labeling on all catered items
+- CBC's existing labeling protocol (per-item dietary tags + consume-by times) already meets the standard
+- Maintain compliance on every order from day one — zero unlabeled items leave the commissary
+- This is a first-mover sales advantage: most competitors will not be compliant on day one
+
+---
+
 ## Fulfillment Responsibilities by Chef
 
 ### Chef John (Five Course Provision) — Chef Handles All Fulfillment

@@ -116,39 +116,95 @@
 
 ---
 
-## Chef 3 — [Name]
+## Chef 3 — Chef Kun · Loulan (楼兰)
+
+> **Note:** Loulan is the Chinese chef on the CBC roster. If prior docs reference "Kivi's Kitchen" for Chinese cuisine, Loulan/Chef Kun is the correct current name. Update any references accordingly.
 
 ### Identity
 | Field | Detail |
 |---|---|
-| **Name** | [Chef's name] |
-| **Cuisine** | [Cuisine] |
-| **Signature Dishes** | [3–5 specific items] |
-| **Price Tier(s)** | [Standard $25–$30/person · Premium $40/person (if applicable). Chef receives 75% of per-guest price.] |
-| **Min Order** | 50 guests |
-| **Max Capacity** | [e.g., 500 guests] |
-| **Time at Commissary** | [Duration] |
+| **Name** | Chef Kun · Loulan (楼兰) |
+| **Brand Story** | Named after Loulan (楼兰/樓蘭), the legendary Silk Road oasis city in Xinjiang — a historic East-West crossroads. The name reflects Chef Kun's range across Chinese, Southeast Asian, and global cuisines. |
+| **Cuisine** | Chinese (primary) · Southeast Asian (secondary) |
+| **Menu Format** | 5-item sets · White rice included · Brown rice +$1/person |
+| **Set A — "The Silk Road Classic"** | Braised Beef with Daikon · Sweet & Sour Meatballs · Stir-fried Shrimp & Eggs · Mapo Tofu (V) · Garlic Broccoli (V/GF) |
+| **Set B — "Bold & Aromatic"** | Cumin Beef Stir-fry (Xinjiang) · Three Cup Chicken · Sichuan Spicy Fish · Stir-fried Mixed Veg (V/GF) · Cucumber Salad (V/GF) |
+| **Set C — "Silk Road Southeast"** | Beef Rendang · Lemongrass Curry Chicken · Thai Herb Shrimp · Garlic Vegetables (V/GF) · Mango Salad (V/GF) |
+| **Price** | $30/person flat · Chef receives 75% · CBC 25% |
+| **Min Order** | 50 guests / $1,500 |
+| **Max Capacity** | 500 guests |
+| **Time at Commissary** | [TBD — confirm with Chef Kun] |
+
+### CBC Menu Offerings (Selected for Corporate Fit)
+
+> **Selection rationale:** These dishes were chosen from Chef Kun's full menu based on what resonates with Bay Area tech teams — accessible but authentic, dietary-friendly, and photogenic at a spread format. Western-style menu not included (overlap with Chef John). Full menu available on request.
+
+**Chinese Spread — Recommended Items**
+
+| Dish | Notes |
+|---|---|
+| Braised Beef with Daikon (红烧牛腩) | Hearty anchor protein, crowd-pleaser |
+| Sweet & Sour Pork Ribs (糖醋排骨) | Universally loved, accessible |
+| Three Cup Chicken (三杯鸡) | Taiwanese classic, aromatic |
+| Sichuan Spicy Chicken (辣子鸡丁) | Bold, distinctive — teams remember it |
+| Mapo Tofu (麻婆豆腐) | Vegetarian-friendly anchor |
+| Garlic Broccoli (蒜蓉西蓝花) | Vegan · GF · clean label |
+| Stir-fried Seasonal Vegetables (炒时蔬) | Vegan · GF · rotating base |
+| Cucumber Salad (拍黄瓜) | Light, refreshing — balances heavier proteins |
+
+**Southeast Asian Spread — Recommended Items**
+
+| Dish | Notes |
+|---|---|
+| Beef Rendang | Malaysian classic — rich, slow-cooked, memorable |
+| Lemongrass Curry Chicken | Thai-inspired, accessible heat level |
+| Coconut Curry Shrimp | Premium protein option |
+| Chicken Satay Skewers | Visual centerpiece, crowd favorite |
+| Mango Salad | Fresh, vegan · GF — strong dietary-friendly option |
+| Garlic Broccoli / Stir-Fried Vegetables | Vegan · GF base |
+
+**Not Recommended for CBC Spread (reason)**
+- Western-style menu (BBQ, Burgers, Pasta, Tacos) — overlaps with Chef John's Mexican Fusion + Italian offering; positions Loulan as redundant rather than distinctive
 
 ### Personality & Communication Style
-- **Overall vibe:** [e.g., Highly professional and systems-oriented / Creative and spontaneous / Community-focused]
-- **How they prefer to communicate:** [Text / Call / In person / Email]
-- **What motivates them:** [e.g., Scaling their operation, proving themselves, supporting their family, craft]
-- **What they care about most:** [e.g., Reliability of orders, being featured publicly, menu control]
-- **What to avoid saying to them:** [e.g., Changing orders last minute / Undervaluing their tier]
-- **Best way to get a yes:** [e.g., Steady recurring work / Let them set the terms / Give credit publicly]
+- **Overall vibe:** [TBD — Doug to fill in based on working relationship]
+- **How they prefer to communicate:** [TBD]
+- **What motivates them:** Professional culinary background, high-volume confidence, consistent quality — likely motivated by steady recurring corporate contracts and exposure to a new client segment
+- **What they care about most:** [TBD]
+- **What to avoid saying to them:** [TBD]
+- **Best way to get a yes:** [TBD]
 
 ### Their Story
-> [Background, origin, how they came to CBC, what drives them]
+
+Chef Kun is a seasoned culinary professional with international experience, having served as an Assistant Executive Chef with Norwegian Cruise Line. With a strong background in high-volume kitchen operations and diverse global cuisines, Chef Kun specializes in delivering consistent, high-quality meals tailored for corporate dining. His approach combines authentic flavors with efficient execution, ensuring every meal is both satisfying and reliable for teams of all sizes.
+
+His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (楼兰) in Xinjiang — a legendary crossroads of East-West trade during the Han Dynasty. The name is a natural fit: Chef Kun's repertoire spans authentic Chinese, Southeast Asian, and international cuisine, reflecting the same spirit of culinary exchange that made Loulan legendary.
 
 ### Content Angles for Spotlight Posts
-- **Hook 1 — The craft angle:** [Technical or artistic differentiator]
-- **Hook 2 — The diversity angle:** [Cultural or culinary distinctiveness]
-- **Hook 3 — The human angle:** [Personal story]
-- **Best visual:** [Most photogenic dish or moment]
-- **Quote or phrase they'd actually say:** [Their voice]
+
+- **Hook 1 — The craft angle:** "He cooked for thousands at sea — feeding a 150-person tech team is Tuesday for Chef Kun. Norwegian Cruise Line trained him for scale. Your all-hands is where that shows."
+- **Hook 2 — The diversity angle:** "Loulan is named after a legendary Silk Road city where East met West. Chef Kun's menu does the same — authentic Chinese and Southeast Asian in one spread, at a Bay Area all-hands that actually reflects your team."
+- **Hook 3 — The human angle:** "From cruise ship kitchens to a commissary in the Bay Area — Chef Kun built Loulan from the ground up. Every catering order is another step toward something that's fully his."
+- **Best visual:** A full Sichuan Spicy Chicken or Beef Rendang station at a spread — deep color, steam, labeled chafing dishes.
+- **Quote or phrase they'd actually say:** [TBD — ask Chef Kun directly for a quote in his voice]
 
 ### Sample Spotlight Post Draft
-> [Draft goes here once chef details are filled in]
+
+**LinkedIn — 150 words, Chef Kun spotlight:**
+
+> Most corporate caterers play it safe. Chef Kun doesn't.
+>
+> Before joining the Culinary Block Collective, he spent years as an Assistant Executive Chef with Norwegian Cruise Line — cooking for thousands of guests, daily, across a dozen cuisines.
+>
+> Now he brings that same precision to Bay Area tech teams under his brand, **Loulan (楼兰)** — named after the legendary Silk Road city where East met West.
+>
+> His Chinese and Southeast Asian spreads aren't fusion approximations. They're Sichuan Spicy Chicken and Beef Rendang made the way they're supposed to be made — by someone who's cooked them hundreds of times for crowds that notice the difference.
+>
+> At Culinary Block Collective, we feature Chef Kun as part of our rotating chef lineup for corporate lunches across the Bay Area.
+>
+> If your team is still doing pizza Fridays, we should talk.
+>
+> 🔗 culinaryblock.co
 
 ---
 
@@ -161,11 +217,12 @@
 | Sushi / Japanese | Unique Cuisine Sushi | Premium tier only ($40/person) · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · Attended Service: $48/person · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
 | Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Standard $34/person · Premium $40/person · 12% commission · **Chef handles all delivery/staging/labeling** — CBC is sales-only · $150/order service fee · 50-person min · max 500 guests |
 | Italian | Chef John · Five Course Provision | **A Little Pasta Table** — Standard $34/person · Premium $40/person · 12% commission · same fulfillment model as Mexican · $150/order service fee · 50-person min · max 500 guests |
-| Chinese | Kivi's Kitchen | Standard $25–$30/person · 25% commission · CBC handles delivery/labeling · 50-person min |
-| Large event 200+ | All active chefs | All support up to 500 guests · For Chef John orders, chef handles delivery; for Kivi, CBC delivers |
+| Chinese | Chef Kun · Loulan (楼兰) | Standard $25–$30/person · 25% commission · CBC handles delivery/labeling · 50-person min |
+| Southeast Asian | Chef Kun · Loulan (楼兰) | Same pricing/commission as Chinese · Beef Rendang, Lemongrass Curry, Satay — strong diversity angle for Marcus avatar · Pair with Chinese for a multi-region Asian spread |
+| Large event 200+ | All active chefs | All support up to 500 guests · For Chef John orders, chef handles delivery; for Chef Kun (Loulan), CBC delivers |
 | Premium / VIP event | Chef John or Unique Cuisine | Both offer $40/person Premium tier · Different commission and fulfillment models |
 | Last-minute order | [TBD — confirm who is most flexible on lead time] | |
-| Mix & Match (2 cuisines) | [TBD — confirm which pairings work logistically] | Note: mixed orders with Chef John + Kivi require coordinating two different delivery models |
+| Mix & Match (2 cuisines) | [TBD — confirm which pairings work logistically] | Note: mixed orders with Chef John + Chef Kun require coordinating two different delivery models |
 
 ---
 
@@ -177,4 +234,4 @@
 - [e.g., All three built their businesses out of the Culinary Block commissary — origin story]
 - [e.g., Shared value: X]
 - [What makes the three of them together a stronger pitch than any one alone?]
-- **Commission rates vary by chef — Chef John (Five Course) is 12% CBC / 88% chef (sales-only, chef handles fulfillment; CC fees deducted from chef's share; escalator to 15% above $15K/rolling 30 days); Kivi is 25% CBC / 75% chef (standard, CBC handles delivery/labeling); Unique Cuisine is 20% CBC / 80% chef (negotiated exception). A $150/order Coordination & Service Fee applies to all orders — CBC revenue, not subject to commission split. Commission rates and the service fee breakdown are internal — not for client-facing materials.**
+- **Commission rates vary by chef — Chef John (Five Course) is 12% CBC / 88% chef (sales-only, chef handles fulfillment; CC fees deducted from chef's share; escalator to 15% above $15K/rolling 30 days); Chef Kun / Loulan is 25% CBC / 75% chef (standard, CBC handles delivery/labeling); Unique Cuisine is 20% CBC / 80% chef (negotiated exception). Commission rates are internal — not for client-facing materials.**

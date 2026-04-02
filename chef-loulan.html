@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loulan · Chef Kun | Chinese &amp; Southeast Asian | Culinary Block Collective</title>
+  <meta name="description" content="Meet Chef Kun of Loulan — former Norwegian Cruise Line Assistant Executive Chef bringing authentic Chinese and Southeast Asian cuisine to Bay Area corporate catering. $30/person · 50–500 guests." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.culinaryblockcollective.com/chef-loulan" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:         #2D6A4F;
+      --dgreen:        #1B4332;
+      --lgreen:        #EAF2EB;
+      --gold:          #C9992A;
+      --gold-light:    #F0DFA0;
+      --lgold:         #FBF5E6;
+      --cream:         #FAF7F2;
+      --cream2:        #F3EDE4;
+      --border:        #E2D9CE;
+      --text:          #1C1814;
+      --muted:         #5C5349;
+      --white:         #FFFFFF;
+      --loulan:        #C4622D;
+      --loulan-dark:   #9B4520;
+      --loulan-light:  #FBF0E8;
+      --loulan-mid:    #F5D5C0;
+      --radius:        10px;
+      --shadow:        0 4px 32px rgba(43,28,12,0.10);
+      --shadow-lg:     0 12px 48px rgba(43,28,12,0.14);
+      --font-display:  'Cormorant Garamond', Georgia, serif;
+      --font-body:     'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen); padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; align-items: center; gap: 4px; }
+    .nav-link { color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500; padding: 6px 12px; border-radius: 4px; transition: background .15s, color .15s; }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+    .nav-phone { display: flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
+    @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
+
+    /* ── HERO ── */
+    .hero {
+      background:
+        linear-gradient(135deg, rgba(27,67,50,0.88) 0%, rgba(155,69,32,0.70) 100%),
+        url('/images/loulan/IMG_3014.jpeg') center/cover no-repeat;
+      min-height: 500px; display: flex; align-items: center;
+      padding: 72px 24px;
+    }
+    .hero-inner { max-width: 820px; margin: 0 auto; }
+    .hero-label { display: inline-flex; align-items: center; gap: 8px; background: var(--loulan); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 5px 14px; border-radius: 4px; margin-bottom: 18px; }
+    .hero h1 { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 700; color: var(--white); line-height: 1.08; margin-bottom: 8px; }
+    .hero h1 em { font-style: italic; color: var(--gold-light); }
+    .hero-chinese { font-family: var(--font-display); font-size: clamp(1.1rem, 2vw, 1.5rem); color: rgba(255,255,255,0.55); letter-spacing: .15em; margin-bottom: 20px; }
+    .hero-sub { color: rgba(255,255,255,0.88); font-size: 1.05rem; max-width: 600px; margin-bottom: 32px; line-height: 1.7; }
+    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.95rem; padding: 13px 28px; border-radius: 50px; transition: background .15s; }
+    .btn-primary:hover { background: #b8891e; }
+    .btn-ghost { display: inline-flex; align-items: center; gap: 8px; border: 2px solid rgba(255,255,255,0.5); color: var(--white); font-weight: 600; font-size: 0.95rem; padding: 12px 24px; border-radius: 50px; transition: border-color .15s, background .15s; }
+    .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+    /* ── SILK ROAD BADGE ── */
+    .silk-road-banner {
+      background: linear-gradient(90deg, var(--dgreen) 0%, var(--loulan-dark) 100%);
+      padding: 14px 24px; text-align: center;
+    }
+    .silk-road-banner p { color: rgba(255,255,255,0.85); font-size: 0.82rem; letter-spacing: .04em; }
+    .silk-road-banner strong { color: var(--gold-light); }
+
+    /* ── SECTIONS ── */
+    .section { padding: 72px 24px; }
+    .section-alt { background: var(--cream2); }
+    .container { max-width: 1080px; margin: 0 auto; }
+    .section-label { display: inline-block; background: var(--loulan-light); color: var(--loulan); font-size: 0.7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; }
+
+    /* ── BIO ── */
+    .bio-grid { display: grid; grid-template-columns: 320px 1fr; gap: 56px; align-items: start; }
+    .bio-photo-wrap { position: sticky; top: 80px; }
+    .bio-photo {
+      width: 100%; border-radius: 12px; object-fit: cover;
+      aspect-ratio: 3/4; box-shadow: var(--shadow-lg);
+      border: 4px solid var(--white);
+    }
+    .bio-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+    .bio-gallery img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
+    .bio-content h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 700; color: var(--dgreen); line-height: 1.12; margin-bottom: 8px; }
+    .bio-content .tagline { font-family: var(--font-display); font-style: italic; font-size: 1.15rem; color: var(--loulan); margin-bottom: 24px; }
+    .bio-text p { color: var(--muted); line-height: 1.8; margin-bottom: 16px; font-size: 0.95rem; }
+    .bio-highlight {
+      background: var(--loulan-light); border-left: 4px solid var(--loulan);
+      padding: 16px 20px; border-radius: 0 8px 8px 0;
+      margin: 24px 0; font-style: italic; color: var(--text); font-size: 0.95rem; line-height: 1.7;
+    }
+    .credential-row { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+    .credential { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; display: flex; align-items: center; gap: 10px; }
+    .credential .icon { font-size: 1.4rem; flex-shrink: 0; }
+    .credential .cred-text { font-size: 0.78rem; color: var(--muted); line-height: 1.4; }
+    .credential .cred-text strong { color: var(--text); display: block; font-size: 0.82rem; }
+    .values-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; }
+    .value-chip { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+    .value-chip .icon { font-size: 1.4rem; margin-bottom: 8px; }
+    .value-chip h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
+    .value-chip p { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
+    @media (max-width: 860px) {
+      .bio-grid { grid-template-columns: 1fr; }
+      .bio-photo-wrap { position: static; max-width: 300px; }
+      .values-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── MENU ── */
+    .menu-header { text-align: center; margin-bottom: 48px; }
+    .menu-header h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 700; color: var(--dgreen); margin-bottom: 8px; }
+    .menu-header p { color: var(--muted); font-size: 0.95rem; max-width: 600px; margin: 0 auto; }
+    .menu-badge { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; margin-bottom: 12px; }
+    .price-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+    .price-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); }
+
+    /* Set tabs */
+    .set-tabs { display: flex; gap: 8px; justify-content: center; margin-bottom: 32px; flex-wrap: wrap; }
+    .set-tab { padding: 8px 20px; border-radius: 50px; border: 2px solid var(--border); font-size: 0.85rem; font-weight: 600; color: var(--muted); cursor: pointer; transition: all .15s; background: var(--white); }
+    .set-tab.active, .set-tab:hover { border-color: var(--loulan); color: var(--loulan); background: var(--loulan-light); }
+
+    /* Menu set cards */
+    .menu-sets { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 28px; }
+    .menu-set {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 14px; overflow: hidden; box-shadow: var(--shadow);
+      display: flex; flex-direction: column;
+    }
+    .menu-set-photo { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+    .menu-set-header { padding: 20px 24px 12px; border-bottom: 1px solid var(--border); }
+    .set-tag { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
+    .set-tag.sea { background: var(--green); }
+    .menu-set-header h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--dgreen); line-height: 1.2; margin-bottom: 4px; }
+    .menu-set-header .set-sub { font-size: 0.78rem; color: var(--muted); }
+    .menu-set-body { padding: 20px 24px; flex: 1; }
+    .set-items { list-style: none; }
+    .set-items li {
+      padding: 9px 0; border-bottom: 1px solid var(--border);
+      font-size: 0.88rem; color: var(--text);
+      display: flex; align-items: flex-start; gap: 8px;
+    }
+    .set-items li:last-child { border-bottom: none; }
+    .set-items li::before { content: '›'; color: var(--loulan); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .set-items .item-name { flex: 1; }
+    .set-items .item-zh { font-size: 0.75rem; color: var(--muted); display: block; margin-top: 1px; font-style: italic; }
+    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    .tag-v { background: var(--lgreen); color: var(--dgreen); }
+    .tag-gf { background: #FEF3C7; color: #92400E; }
+    .menu-set-footer { padding: 14px 24px; background: var(--loulan-light); border-top: 1px solid var(--loulan-mid); font-size: 0.78rem; color: var(--loulan-dark); display: flex; align-items: center; gap: 8px; }
+    .menu-set-footer span { font-size: 1rem; }
+
+    /* Rice note */
+    .rice-note {
+      background: var(--white); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 20px 24px; margin-top: 32px;
+      display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start;
+    }
+    .rice-note .rice-icon { font-size: 2rem; }
+    .rice-note h4 { font-size: 0.9rem; font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
+    .rice-note p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+    .rice-note .rice-options { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+    .rice-option { display: inline-flex; align-items: center; gap: 6px; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 0.78rem; font-weight: 600; color: var(--text); }
+    .rice-option .price { color: var(--loulan); font-weight: 700; }
+
+    /* ── PHOTO GRID ── */
+    .photo-section { padding: 0 24px 72px; }
+    .photo-section-title { text-align: center; margin-bottom: 24px; }
+    .photo-section-title h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 2.5vw, 2.2rem); font-weight: 700; color: var(--dgreen); }
+    .photo-section-title p { color: var(--muted); font-size: 0.88rem; margin-top: 4px; }
+    .photo-grid {
+      max-width: 1080px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto;
+      gap: 10px;
+    }
+    .photo-grid img { width: 100%; border-radius: 10px; object-fit: cover; aspect-ratio: 1; display: block; }
+    .photo-grid img.wide { grid-column: span 2; aspect-ratio: 2/1; }
+    @media (max-width: 700px) {
+      .photo-grid { grid-template-columns: repeat(2, 1fr); }
+      .photo-grid img.wide { grid-column: span 2; }
+    }
+
+    /* ── DIETARY BANNER ── */
+    .dietary-banner {
+      background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px;
+      display: flex; gap: 16px; align-items: flex-start; margin-top: 32px;
+    }
+    .dietary-banner .db-icon { font-size: 1.6rem; flex-shrink: 0; }
+    .dietary-banner h4 { font-weight: 700; font-size: 0.9rem; color: var(--dgreen); margin-bottom: 4px; }
+    .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── BOOK ── */
+    .book-section {
+      background: linear-gradient(135deg, var(--loulan-dark) 0%, var(--dgreen) 100%);
+      padding: 80px 24px; text-align: center;
+    }
+    .book-section h2 { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    .book-section p { color: rgba(255,255,255,0.82); font-size: 0.95rem; max-width: 540px; margin: 0 auto 32px; line-height: 1.7; }
+    .book-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .book-detail-row { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px; }
+    .book-detail { color: rgba(255,255,255,0.7); font-size: 0.82rem; display: flex; align-items: center; gap: 6px; }
+    .book-detail strong { color: var(--gold-light); }
+
+    /* ── FOOTER ── */
+    footer { background: var(--dgreen); padding: 32px 24px; text-align: center; }
+    .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+    .footer-links a { color: rgba(255,255,255,0.55); font-size: 0.82rem; transition: color .15s; }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { color: rgba(255,255,255,0.3); font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">Culinary Block <span>Collective</span></a>
+  <div class="nav-links">
+    <a class="nav-link" href="/#menus">← All Partners</a>
+    <a class="nav-link" href="/#pricing">Pricing</a>
+    <a class="nav-link" href="/calendar">📅 Menu Calendar</a>
+  </div>
+  <a class="nav-phone" href="tel:+14156994397">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    (415) 699-4397
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-label">Chinese &amp; Southeast Asian · Independent Chef Partner</span>
+    <h1>Loulan<br/><em>Chef Kun</em></h1>
+    <p class="hero-chinese">楼兰 · Named for the Ancient Silk Road</p>
+    <p class="hero-sub">Authentic Chinese and Southeast Asian cuisine from a former Norwegian Cruise Line Assistant Executive Chef. High-volume precision, deep flavors, built for teams that want something real. $30/person · 50–500 guests.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Loulan — Chef Kun&body=Hi! I'd like to book Loulan (Chef Kun) for corporate catering.%0A%0AEvent date: %0AGuest count: %0ACuisine preference (Chinese / Southeast Asian): %0ADietary needs: %0ACompany: %0A">Book Chef Kun →</a>
+      <a class="btn-ghost" href="#menu">View Menu Sets</a>
+    </div>
+  </div>
+</section>
+
+<!-- SILK ROAD BANNER -->
+<div class="silk-road-banner">
+  <p>Named after <strong>Loulan (楼兰)</strong> — the legendary Silk Road oasis city in Xinjiang where East met West during the Han Dynasty. A crossroads of culture. A lost civilization. A name worth carrying forward.</p>
+</div>
+
+<!-- BIO -->
+<section class="section">
+  <div class="container">
+    <div class="bio-grid">
+      <div class="bio-photo-wrap">
+        <img class="bio-photo" src="/images/loulan/chef-kun-portrait.jpg" alt="Chef Kun of Loulan — culinary professional and former Norwegian Cruise Line Assistant Executive Chef" />
+        <div class="bio-gallery" style="margin-top:12px;">
+          <img src="/images/loulan/IMG_1332.jpeg" alt="Loulan braised beef with potato and scallion" />
+          <img src="/images/loulan/IMG_1936.jpeg" alt="Loulan sweet and sour meatballs" />
+          <img src="/images/loulan/IMG_3106.jpeg" alt="Loulan Southeast Asian herb shrimp" />
+          <img src="/images/loulan/IMG_3542.jpeg" alt="Loulan Southeast Asian chicken" />
+        </div>
+      </div>
+
+      <div class="bio-content">
+        <span class="section-label">Meet Chef Kun</span>
+        <h2>Cruise Ship Kitchens. Silk Road Flavors.</h2>
+        <p class="tagline">"Consistent, high-quality meals tailored for corporate dining."</p>
+
+        <div class="bio-text">
+          <p>Chef Kun is a seasoned culinary professional with international experience behind him — including a role as Assistant Executive Chef with Norwegian Cruise Line, where feeding thousands of guests daily across diverse global cuisines is just Tuesday. He brings that same infrastructure thinking to every corporate spread: no chaos, no shortcuts, just reliable execution at scale.</p>
+
+          <div class="bio-highlight">
+            "His approach combines authentic flavors with efficient execution, ensuring every meal is both satisfying and reliable for teams of all sizes."
+          </div>
+
+          <p>Under his brand Loulan — named after the legendary ancient Silk Road city that once connected China to the world — Chef Kun offers two distinct cuisine styles: Chinese and Southeast Asian. Both menus are built from his deep experience with regional cooking, not approximations. The cumin beef is Xinjiang. The rendang is Malaysian. The three cup chicken is Taiwanese. He doesn't flatten the world into a single "Asian" category.</p>
+
+          <p>Chef Kun operates out of the Culinary Block commissary in the Bay Area, and his food is delivered, labeled, and staged by the CBC team. Every item comes with individual dietary labels. Every spread is ready before your team walks in.</p>
+        </div>
+
+        <div class="credential-row">
+          <div class="credential">
+            <div class="icon">🚢</div>
+            <div class="cred-text">
+              <strong>Norwegian Cruise Line</strong>
+              Assistant Executive Chef · High-volume international kitchens
+            </div>
+          </div>
+          <div class="credential">
+            <div class="icon">🌏</div>
+            <div class="cred-text">
+              <strong>Chinese &amp; Southeast Asian</strong>
+              Authentic regional cuisines — not fusion approximations
+            </div>
+          </div>
+          <div class="credential">
+            <div class="icon">👥</div>
+            <div class="cred-text">
+              <strong>50–500 Guests</strong>
+              Scale-ready from team lunch to company all-hands
+            </div>
+          </div>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-chip">
+            <div class="icon">🎯</div>
+            <h4>Built for Scale</h4>
+            <p>Norwegian Cruise Line trains for volume. Chef Kun brings that discipline to every order — 50 or 500 guests, same standard.</p>
+          </div>
+          <div class="value-chip">
+            <div class="icon">🌶️</div>
+            <h4>Regionally Authentic</h4>
+            <p>Xinjiang cumin beef. Malaysian rendang. Sichuan spicy fish. Not a pan-Asian approximation — real regional dishes.</p>
+          </div>
+          <div class="value-chip">
+            <div class="icon">🌱</div>
+            <h4>Dietary-Inclusive</h4>
+            <p>Every set includes vegan and GF options built in. CBC labels all items individually at delivery — no guesswork for your team.</p>
+          </div>
+          <div class="value-chip">
+            <div class="icon">🗺️</div>
+            <h4>The Silk Road Spirit</h4>
+            <p>Loulan was where cultures met and traded. The menu reflects that — one spread, multiple culinary traditions, one cohesive experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="section section-alt" id="menu">
+  <div class="container">
+    <div class="menu-header">
+      <span class="menu-badge">Chef's Spread Menu</span>
+      <h2>Choose Your Spread</h2>
+      <p>Each set is 5 signature dishes served self-serve style with chafing dishes, serving ware, and CBC dietary labels. Steamed white rice included with every set.</p>
+      <div class="price-row">
+        <span class="price-badge">$30 / person</span>
+        <span class="price-badge">White rice included</span>
+        <span class="price-badge">Brown rice +$1 / person</span>
+        <span class="price-badge">50 guests min · 500 max</span>
+      </div>
+    </div>
+
+    <div class="menu-sets">
+
+      <!-- SET A: Classic Chinese -->
+      <div class="menu-set">
+        <img class="menu-set-photo" src="/images/loulan/IMG_1332.jpeg" alt="Loulan Classic Chinese spread — braised beef" />
+        <div class="menu-set-header">
+          <span class="set-tag">Chinese</span>
+          <h3>The Silk Road Classic</h3>
+          <p class="set-sub">Crowd-pleasing Chinese comfort food with strong vegan and GF options built in</p>
+        </div>
+        <div class="menu-set-body">
+          <ul class="set-items">
+            <li>
+              <div class="item-name">
+                Braised Beef with Daikon
+                <span class="item-zh">红烧牛腩</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Sweet &amp; Sour Meatballs
+                <span class="item-zh">糖醋丸子 · Pork with bell peppers &amp; onion</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Stir-fried Shrimp &amp; Scrambled Eggs
+                <span class="item-zh">滑蛋虾仁 · With mushroom, tomato &amp; green bean</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Mapo Tofu <span class="tag tag-v">Vegan</span>
+                <span class="item-zh">麻婆豆腐 · Silken tofu in savory spiced sauce</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Garlic Broccoli <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
+                <span class="item-zh">蒜蓉西蓝花</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-set-footer">
+          <span>🍚</span> Served with steamed white rice · Brown rice +$1/person
+        </div>
+      </div>
+
+      <!-- SET B: Bold & Aromatic -->
+      <div class="menu-set">
+        <img class="menu-set-photo" src="/images/loulan/IMG_3014.jpeg" alt="Loulan cumin beef stir-fry — Xinjiang-style" />
+        <div class="menu-set-header">
+          <span class="set-tag">Chinese · Xinjiang-Inspired</span>
+          <h3>Bold &amp; Aromatic</h3>
+          <p class="set-sub">Bolder flavors rooted in northwestern Chinese cuisine — cumin, chili, and slow-braised depth</p>
+        </div>
+        <div class="menu-set-body">
+          <ul class="set-items">
+            <li>
+              <div class="item-name">
+                Cumin Beef Stir-fry <span class="tag tag-gf">GF</span>
+                <span class="item-zh">铁板孜然牛肉 · Xinjiang-style, sesame &amp; scallion</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Three Cup Chicken
+                <span class="item-zh">三杯鸡 · Taiwanese classic — soy, sesame oil &amp; rice wine</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Sichuan Spicy Fish
+                <span class="item-zh">水煮鱼 · Fish fillet in chili broth, mushroom &amp; scallion</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Stir-fried Mixed Vegetables <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
+                <span class="item-zh">炒合菜 · Seasonal vegetables, wok-tossed</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Cucumber Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
+                <span class="item-zh">拍黄瓜 · Smashed cucumber with garlic &amp; chili oil</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-set-footer">
+          <span>🍚</span> Served with steamed white rice · Brown rice +$1/person
+        </div>
+      </div>
+
+      <!-- SET C: Southeast Asian -->
+      <div class="menu-set">
+        <img class="menu-set-photo" src="/images/loulan/IMG_3106.jpeg" alt="Loulan Southeast Asian herb shrimp with lime and peppers" />
+        <div class="menu-set-header">
+          <span class="set-tag sea">Southeast Asian</span>
+          <h3>The Silk Road Southeast</h3>
+          <p class="set-sub">Thai, Malaysian &amp; Vietnamese-inspired — bold aromatics, coconut, fresh herbs, bright contrast</p>
+        </div>
+        <div class="menu-set-body">
+          <ul class="set-items">
+            <li>
+              <div class="item-name">
+                Beef Rendang <span class="tag tag-gf">GF</span>
+                <span class="item-zh">仁当牛肉 · Malaysian slow-braised, coconut &amp; lemongrass</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Lemongrass Curry Chicken
+                <span class="item-zh">香茅咖喱鸡 · Thai-inspired, fragrant &amp; mildly spiced</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Thai Herb Shrimp <span class="tag tag-gf">GF</span>
+                <span class="item-zh">香辣虾 · Lime, chili, fresh herbs &amp; red pepper</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Stir-fried Vegetables with Garlic <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
+                <span class="item-zh">蒜蓉时蔬 · Rotating seasonal vegetables</span>
+              </div>
+            </li>
+            <li>
+              <div class="item-name">
+                Mango Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
+                <span class="item-zh">芒果沙拉 · Fresh mango, lime dressing, herbs</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-set-footer">
+          <span>🍚</span> Served with steamed white rice · Brown rice +$1/person
+        </div>
+      </div>
+
+    </div><!-- /menu-sets -->
+
+    <!-- Rice note -->
+    <div class="rice-note">
+      <div class="rice-icon">🍚</div>
+      <div>
+        <h4>Rice Options</h4>
+        <p>Steamed white rice is included with every set — served in a separate chafing dish, buffet-style. Brown rice is available as an upgrade.</p>
+        <div class="rice-options">
+          <span class="rice-option">Steamed White Rice <span class="price">Included</span></span>
+          <span class="rice-option">Brown Rice Upgrade <span class="price">+$1 / person</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dietary banner -->
+    <div class="dietary-banner">
+      <div class="db-icon">🌱</div>
+      <div>
+        <h4>Every item individually labeled at delivery</h4>
+        <p>CBC labels all dishes with dietary tags — Vegan, Vegetarian, Gluten-Free, and allergen callouts — before your team arrives. Every set includes built-in vegan and GF options. Additional dietary needs? Note them when booking and Chef Kun will confirm accommodations.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PHOTO GRID -->
+<section class="photo-section">
+  <div class="photo-section-title">
+    <span class="section-label">From the Kitchen</span>
+    <h2>The Food Speaks</h2>
+    <p>Every tray prepared by Chef Kun — made fresh, delivered at scale.</p>
+  </div>
+  <div class="photo-grid">
+    <img class="wide" src="/images/loulan/IMG_4551.jpeg" alt="Loulan Sichuan fish in chili oil with mushrooms" />
+    <img src="/images/loulan/IMG_1276.jpeg" alt="Loulan stir-fried shrimp with scrambled eggs and vegetables" />
+    <img src="/images/loulan/IMG_1936.jpeg" alt="Loulan sweet and sour meatballs with bell peppers" />
+    <img src="/images/loulan/IMG_1859.jpeg" alt="Loulan braised pork with pickled cabbage" />
+    <img src="/images/loulan/IMG_4570.jpeg" alt="Loulan sliced beef in broth with scallions" />
+    <img src="/images/loulan/IMG_1334.jpeg" alt="Loulan sliced braised beef arranged on greens" />
+    <img src="/images/loulan/IMG_3542.jpeg" alt="Loulan Southeast Asian chicken with potatoes and peppers" />
+  </div>
+</section>
+
+<!-- BOOK -->
+<section class="book-section">
+  <div class="container">
+    <h2>Book Loulan for Your Team</h2>
+    <div class="book-detail-row">
+      <span class="book-detail"><strong>$30</strong> per person</span>
+      <span class="book-detail"><strong>50</strong> guest minimum</span>
+      <span class="book-detail"><strong>500</strong> guest maximum</span>
+      <span class="book-detail">Reply within <strong>24 hours</strong></span>
+    </div>
+    <p>Tell us your event date, guest count, and cuisine preference — Chinese or Southeast Asian. We'll confirm Chef Kun's availability and send a quote.</p>
+    <div class="book-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Loulan — Chef Kun&body=Hi! I'd like to book Loulan (Chef Kun) for corporate catering.%0A%0AEvent date: %0AGuest count: %0ACuisine preference (Chinese / Southeast Asian / Either): %0ADietary needs or restrictions: %0ACompany and location: %0A">📧 Email to Book</a>
+      <a class="btn-ghost" href="tel:+14156994397">📞 (415) 699-4397</a>
+      <a class="btn-ghost" href="/calendar">📅 Check Availability</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/#menus">All Chef Partners</a>
+    <a href="/chef-john">Chef John · Mexican Fusion &amp; Italian</a>
+    <a href="/chef-unique-cuisine">Unique Cuisine · Sushi &amp; Japanese</a>
+    <a href="/calendar">Menu Calendar</a>
+    <a href="mailto:culinaryblockcatering@gmail.com">culinaryblockcatering@gmail.com</a>
+  </div>
+  <div class="footer-copy">© 2025 Culinary Block Collective · Loulan is an independent culinary partner, not an employee of Culinary Block Collective.</div>
+</footer>
+
+</body>
+</html>

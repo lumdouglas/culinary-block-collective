@@ -6,15 +6,17 @@
 
 ### Persona A — Sarah (Office Manager / Workplace Ops)
 - Title: Office Manager, Executive Assistant, Workplace Ops Coordinator
-- Company: Series B–C tech firms, 75–200 employees
+- Company: Series B–C tech firms, **100–200 employees** (sweet spot validated by market research)
 - Pain: reliability failures, day-of surprises, wasted morning managing the caterer
-- Lead angle: on-time guarantee, dietary accuracy, transparent pricing
+- Lead angle: on-time guarantee, dietary accuracy, transparent pricing, AB 660 compliance
 
 ### Persona B — Marcus (HR Director / Head of People)
 - Title: HR Director, Head of People, VP People Ops
-- Company: Series C–D or post-IPO tech firms, 150–300 employees
+- Company: Series C–D or post-IPO tech firms, **150–250 employees**
 - Pain: food culture not reflecting team diversity, ESG gaps, eNPS drag
-- Lead angle: specialist chefs, diverse cuisines, sustainability, culture-forward program
+- Lead angle: specialist chefs, diverse cuisines, sustainability, culture-forward program, AB 660 compliance
+
+**Targeting notes:** Sweet spot is **100–200 employees** ordering for Anchor Days (Tue–Thu). Firms under 75 rarely hit the 50-guest minimum. Firms 250+ often have managed dining. Do not waste outreach on sub-75 or post-IPO 500+ firms.
 
 **Geographic focus:** Palo Alto, San Jose, Mountain View, Sunnyvale, Santa Clara
 
@@ -37,11 +39,33 @@
 
 | Touch | Timing | Content |
 |---|---|---|
-| Email 1 | Day 0 | Persona-specific template + CBC_Sales_One_Pager_v2.pdf attachment |
-| Email 2 | Day 4 | Reliability + dietary labeling follow-up |
-| Email 3 | Day 10 | Menu drop + 10% first-order offer |
+| Email 1 | Day 0 | Persona-specific template + CBC_Sales_One_Pager_v2.pdf + AB 660 compliance line |
+| Email 2 | Day 4 | Reliability + dietary labeling follow-up + "AB 660 ready before the July deadline" |
+| Email 3 | Day 10 | Menu drop + 10% first-order offer + Anchor Day hook ("Lock in your Tuesday spread") |
 | Email 4 | Day 31 | Re-engagement (TBD) |
-| Email 5 | Post-event | Thank you + recurring contract offer |
+| Email 5 | Post-event | Thank you + referral ask + recurring contract offer |
+
+### AB 660 Regulatory Wedge (use in every outbound touch)
+
+California AB 660 takes effect July 1, 2026 — requiring individual dietary and food safety labeling on all catered items. CBC is already compliant. Use this in every outbound email, quote, cold call, and tasting follow-up:
+
+> **"We're AB 660-compliant before the July 2026 deadline — is your current vendor?"**
+
+Position CBC as the safe, de-risked choice. Buyers at regulated tech firms will respond to compliance certainty.
+
+### Anchor Day Language (use in Email 3, quotes, follow-ups)
+
+Research confirms 80%+ of office catering orders land on Tuesday–Thursday. Use time-limited slot language:
+
+> **"Lock in your Tuesday spread for the quarter — Tue/Wed/Thu slots fill fast in South Bay."**
+
+### Inbound Discovery Script (Ask All 5)
+
+1. "What's the occasion — team lunch, client dinner, all-hands, or something else?"
+2. "How many people are you expecting?"
+3. "Do you have a date in mind, or are you still planning?"
+4. "Any dietary restrictions I should know about — vegan, gluten-free, allergies?"
+5. "What's your rough budget per person — standard spread or premium with upgraded proteins?"
 
 ---
 
@@ -55,14 +79,6 @@
 6. In-person — tech networking, WeWork flyers
 
 ---
-
-## Inbound Discovery Script (Ask All 5)
-
-1. "What's the occasion — team lunch, client dinner, all-hands, or something else?"
-2. "How many people are you expecting?"
-3. "Do you have a date in mind, or are you still planning?"
-4. "Any dietary restrictions I should know about — vegan, gluten-free, allergies?"
-5. "What's your rough budget per person — standard spread or premium with upgraded proteins?"
 
 ## Outbound Cold Call Opening
 
@@ -79,6 +95,26 @@
 - **10% discount** on first order of 100+ guests
 - Valid for bookings by **September 30, 2026**
 - Free Chef Tasting available (10 slots/month, in-person at Culinary Block, up to 4 guests)
+
+---
+
+## Referral Program (Priority Sales Motion)
+
+Research confirms referral CAC is <$500 vs. $800–$2K for cold outreach. Referrals drive ~65% of discovery. This is the primary growth engine — not an afterthought.
+
+### Post-Delivery Referral Ask (Execute After Every Successful Order)
+
+**Script:**
+> "We're really glad the event went well. Quick ask — do you know any other Office Managers or People Ops folks at other Bay Area tech companies who deal with the same catering headaches? If you refer someone who books their first order, we'll apply a **$100 credit** to your next order."
+
+**Process:**
+1. Send thank-you email within 48 hours of delivery
+2. Include referral ask with specific incentive ($100 credit per converted referral)
+3. Ask for a specific person ("Do you know someone at [Company X]?") — not a generic ask
+4. Log referral source and outcome in HubSpot
+5. If referral books, apply $100 credit to referrer's next invoice
+
+**Incentive terms:** $100 credit applied to referrer's next order when the referred account completes their first order. No cap on referrals per account. Credits do not expire.
 
 ---
 
