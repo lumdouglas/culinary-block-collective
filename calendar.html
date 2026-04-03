@@ -492,7 +492,7 @@
       <span class="filter-label">Filter:</span>
       <select class="ctrl-select" id="ctrl-cuisine">
         <option value="">All Cuisines</option>
-        <option value="chef_john">Chef John (Mexican / Italian)</option>
+        <option value="chef_john">Chef John (Mexican / Mediterranean / Italian)</option>
         <option value="chinese">Chef Kun — Chinese</option>
         <option value="sushi">Unique Cuisine — Sushi</option>
       </select>
@@ -507,7 +507,7 @@
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing: <strong>$30–$34/person</strong> (Drop-Off Spread) · <strong>$40/person</strong> (Premium) · <strong>+$8/person</strong> for Attended Service. 50-person minimum. <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing: <strong>$25–$34/person</strong> (Drop-Off Spread) · <strong>$40/person</strong> (Premium) · <strong>+$8/person</strong> for Attended Service. 50-person minimum. <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -545,6 +545,7 @@ const CHEFS = [
     available_days: [1,2,3,4,5],
     concepts: [
       { name: 'The Tortilla Theory', cuisine: 'Mexican Fusion', tag: 'mexican', description: 'Al pastor, chicken tinga, carnitas, salsa station, churros & tres leches' },
+      { name: 'Mediterranean Grill & Grain', cuisine: 'Mediterranean', tag: 'mediterranean', description: 'Grilled proteins, grain salads, roasted veg, hummus, pita, and mezze spreads' },
       { name: 'A Little Pasta Table', cuisine: 'Italian', tag: 'italian', description: 'Chicken parm, pasta bolognese, basil pesto pasta, penne alfredo, garlic bread' },
     ],
     tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$34/person', min_guests: 50, min_order: '$1,700' },
@@ -562,7 +563,7 @@ const CHEFS = [
     concepts: [
       { name: 'Loulan Chinese Kitchen', cuisine: 'Chinese & SE Asian', tag: 'chinese', description: 'Wok stir-fry, dumplings, noodles, spring rolls, fried rice (white rice included)' },
     ],
-    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$30/person', min_guests: 50, min_order: '$1,500' },
+    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$25/person', min_guests: 50, min_order: '$1,250' },
     premium: null,
     profile_url: '/chef-loulan',
   },
@@ -826,10 +827,6 @@ function renderPanel(dateKey) {
             </div>
             <div class="chef-pricing-min">${chef.tier1.min_guests}-person min · ${escHtml(chef.tier1.min_order)} min order</div>
             ${premiumHtml}
-          </div>
-          <div class="chef-cta-group">
-            <a class="chef-cta-email" href="${mailtoHref}">Get a Quote →</a>
-            <a class="chef-cta-phone" href="tel:+14156994397">(415) 699-4397</a>
           </div>
         </div>
       </div>
