@@ -12,19 +12,20 @@
     :root {
       --green:        #2D6A4F;
       --dgreen:       #1B4332;
-      --lgreen:       #EAF2EB;
+      --lgreen:       #EDF5EE;
+      --lgreen2:      #F2F9F3;
       --gold:         #C9992A;
-      --gold-light:   #F0DFA0;
-      --lgold:        #FBF5E6;
-      --cream:        #FAF7F2;
-      --cream2:       #F3EDE4;
-      --border:       #E2D9CE;
-      --text:         #1C1814;
-      --muted:        #5C5349;
+      --gold-light:   #ECD97A;
+      --lgold:        #FAF4E1;
+      --cream:        #FAFAF8;
+      --cream2:       #F4F1EB;
+      --border:       #E5E0D8;
+      --text:         #1A1814;
+      --muted:        #6B6560;
       --white:        #FFFFFF;
-      --radius:       10px;
-      --shadow:       0 4px 32px rgba(43,28,12,0.10);
-      --shadow-lg:    0 12px 48px rgba(43,28,12,0.14);
+      --radius:       8px;
+      --shadow:       0 2px 20px rgba(0,0,0,0.07);
+      --shadow-lg:    0 8px 48px rgba(0,0,0,0.11);
       --font-display: 'Cormorant Garamond', Georgia, serif;
       --font-body:    'Inter', system-ui, sans-serif;
     }
@@ -32,31 +33,65 @@
     body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
     a { color: inherit; text-decoration: none; }
 
-    /* ── NAV (unified with homepage) ── */
+    /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 100;
-      background: var(--white); padding: 0 24px;
+      background: var(--white);
+      padding: 0 32px;
       display: flex; align-items: center; justify-content: space-between;
-      height: 68px; border-bottom: 1px solid var(--border);
+      height: 68px;
+      border-bottom: 1px solid var(--border);
       box-shadow: 0 1px 12px rgba(0,0,0,0.06);
     }
-    .nav-logo { font-family: var(--font-display); color: var(--dgreen); font-weight: 600; font-size: 1.25rem; letter-spacing: .02em; }
-    .nav-logo span { color: var(--gold); }
-    .nav-links { display: flex; align-items: center; gap: 6px; }
-    .nav-link {
-      color: var(--muted); font-size: 0.88rem; font-weight: 500;
-      padding: 7px 14px; border-radius: 4px; transition: background .15s, color .15s;
+    .nav-logo {
+      font-family: var(--font-display); color: var(--dgreen);
+      font-weight: 600; font-size: 1.25rem; letter-spacing: .02em; flex-shrink: 0;
     }
-    .nav-link:hover { background: #F2F9F3; color: var(--dgreen); }
-    .nav-link.active { background: #EAF2EB; color: var(--dgreen); font-weight: 600; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; align-items: center; gap: 2px; margin: 0 16px; }
+    .nav-link {
+      color: var(--muted); font-size: 0.875rem; font-weight: 500;
+      padding: 6px 12px; border-radius: 4px;
+      transition: color .15s, background .15s;
+    }
+    .nav-link:hover { color: var(--dgreen); background: var(--lgreen2); }
+    .nav-link-cal { color: var(--green); font-weight: 600; }
     .nav-phone {
+      display: flex; align-items: center; gap: 8px; flex-shrink: 0;
+      color: var(--gold);
+      font-family: var(--font-body); font-weight: 700; font-size: 0.875rem; padding: 10px 20px;
+      border-radius: 6px; transition: color .15s;
+    }
+    .nav-phone:hover { color: #b8891e; }
+    .nav-phone svg { width: 15px; height: 15px; }
+
+    /* ── HAMBURGER ── */
+    .nav-burger {
+      display: none; flex-direction: column; justify-content: center;
+      gap: 5px; background: none; border: none; cursor: pointer; padding: 8px;
+    }
+    .nav-burger span {
+      display: block; width: 22px; height: 2px;
+      background: var(--dgreen); border-radius: 2px;
+      transition: transform .2s, opacity .2s;
+    }
+    .nav-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-burger.open span:nth-child(2) { opacity: 0; }
+    .nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .nav-drawer {
+      display: none; position: fixed; top: 68px; left: 0; right: 0;
+      background: var(--white); border-top: 1px solid var(--border);
+      z-index: 99; padding: 12px 16px 20px; flex-direction: column; gap: 4px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+    }
+    .nav-drawer.open { display: flex; }
+    .nav-drawer .nav-link { padding: 10px 14px; font-size: 0.95rem; border-radius: 6px; }
+    .nav-drawer .nav-phone-mob {
       display: flex; align-items: center; gap: 8px;
       background: var(--dgreen); color: var(--white);
-      font-weight: 600; font-size: 0.875rem; padding: 10px 20px;
-      border-radius: 6px; transition: background .15s;
+      font-weight: 600; font-size: 0.95rem; padding: 12px 14px;
+      border-radius: 6px; margin-top: 8px; justify-content: center;
     }
-    .nav-phone:hover { background: #2D6A4F; }
-    .nav-phone svg { width: 15px; height: 15px; }
 
     /* ── CALENDAR WRAPPER ── */
     .cal-page { max-width: 1440px; margin: 0 auto; padding: 24px 24px 60px; }
@@ -239,6 +274,52 @@
       background: var(--lgold); color: #7A5C0A;
     }
 
+    /* ── WEEKEND CELL ── */
+    .cal-cell.weekend { background: var(--cream2); cursor: default; }
+    .cal-cell.weekend:hover { background: var(--cream2); }
+    .cal-cell.weekend .cal-date-num { opacity: 0.4; }
+
+    /* ── CHEF CARD (panel) ── */
+    .chef-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); margin-bottom: 14px; overflow: hidden;
+    }
+    .chef-card-header { padding: 12px 14px 10px; background: var(--cream); }
+    .chef-card-name { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--dgreen); }
+    .chef-card-biz { font-size: 0.75rem; color: var(--muted); margin-top: 1px; }
+    .chef-card-body { padding: 12px 14px 14px; }
+    .chef-concept { margin-bottom: 10px; }
+    .chef-concept-tag {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.63rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+    .chef-concept-name { display: block; font-weight: 700; font-size: 0.88rem; color: var(--text); }
+    .chef-concept-desc { font-size: 0.75rem; color: var(--muted); line-height: 1.4; margin-top: 2px; }
+    .chef-pricing {
+      background: var(--lgreen); border-radius: 6px; padding: 10px 12px; margin: 10px 0 0;
+    }
+    .chef-pricing-row { display: flex; align-items: baseline; justify-content: space-between; }
+    .chef-pricing-label { font-size: 0.74rem; font-weight: 600; color: var(--dgreen); }
+    .chef-pricing-price { font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; color: var(--dgreen); }
+    .chef-pricing-min { font-size: 0.68rem; color: var(--muted); margin-top: 2px; }
+    .chef-pricing-divider { border: none; border-top: 1px solid rgba(45,106,79,0.15); margin: 8px 0; }
+    .chef-cta-group { display: flex; gap: 8px; margin-top: 12px; }
+    .chef-cta-email {
+      flex: 1; text-align: center; padding: 10px 12px;
+      background: var(--green); color: var(--white);
+      font-family: var(--font-body); font-size: 0.82rem; font-weight: 700;
+      border-radius: 6px; text-decoration: none; transition: background .15s;
+    }
+    .chef-cta-email:hover { background: var(--dgreen); }
+    .chef-cta-phone {
+      padding: 10px 12px; border: 1.5px solid var(--green);
+      color: var(--green); font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+      border-radius: 6px; text-decoration: none; white-space: nowrap;
+      transition: background .15s, color .15s;
+    }
+    .chef-cta-phone:hover { background: var(--green); color: var(--white); }
+
     /* ── BOOK BUTTON ── */
     .panel-book-wrap {
       padding: 16px 20px 20px;
@@ -275,7 +356,46 @@
     .legend-item { display: flex; align-items: center; gap: 5px; font-size: 0.75rem; color: var(--muted); }
     .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
 
+    /* ── PAGE HEADER ── */
+    .cal-header {
+      background: var(--cream2);
+      border-bottom: 1px solid var(--border);
+      padding: 36px 32px 32px;
+    }
+    .cal-header-inner { max-width: 1440px; margin: 0 auto; }
+    .cal-header .section-label {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--green); background: var(--lgreen);
+      padding: 4px 14px; border-radius: 2px; margin-bottom: 12px;
+    }
+    .cal-header h1 {
+      font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 600; color: var(--dgreen); line-height: 1.15; margin-bottom: 10px;
+    }
+    .cal-header-sub {
+      font-size: 0.95rem; color: var(--muted); line-height: 1.65;
+      max-width: 560px; margin-bottom: 20px;
+    }
+    .btn-cal-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-family: var(--font-body); font-weight: 700; font-size: 0.9rem;
+      padding: 11px 22px; border-radius: 6px; text-decoration: none;
+      transition: background .15s, transform .1s;
+    }
+    .btn-cal-cta:hover { background: #a67e09; transform: translateY(-1px); }
+    @media (max-width: 640px) {
+      .cal-header { padding: 24px 16px 20px; }
+    }
+
     /* ── RESPONSIVE ── */
+    @media (max-width: 860px) {
+      .nav-links { display: none; }
+      .nav-burger { display: flex; }
+      .nav-phone { font-size: 0; padding: 9px 12px; border-radius: 6px; }
+      .nav-phone svg { width: 18px; height: 18px; }
+    }
     @media (max-width: 1000px) {
       .cal-body { grid-template-columns: 1fr; }
       .cal-panel { position: static; max-height: none; }
@@ -294,19 +414,67 @@
 <!-- NAV -->
 <nav>
   <a href="/" class="nav-logo">Culinary Block <span>Collective</span></a>
+
   <div class="nav-links">
-    <a class="nav-link" href="/">Home</a>
     <a class="nav-link" href="/#menus">Chef Menus</a>
     <a class="nav-link" href="/#pricing">Pricing</a>
-    <a class="nav-link active" href="/calendar">Menu Calendar</a>
+    <a class="nav-link" href="/#faq">FAQ</a>
+    <a class="nav-link nav-link-cal" href="/calendar">Menu Calendar</a>
+    <a class="nav-link" href="/#quote" style="background:var(--lgold);color:var(--gold);font-weight:600;border-radius:4px;">Get a Quote</a>
   </div>
+
   <a class="nav-phone" href="tel:+14156994397" aria-label="Call us">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
     </svg>
     (415) 699-4397
   </a>
+  <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
+
+<div class="nav-drawer" id="nav-drawer">
+  <a class="nav-link" href="/#menus"   onclick="closeDrawer()">Chef Menus</a>
+  <a class="nav-link" href="/#pricing" onclick="closeDrawer()">Pricing</a>
+  <a class="nav-link" href="/#faq"     onclick="closeDrawer()">FAQ</a>
+  <a class="nav-link nav-link-cal" href="/calendar" onclick="closeDrawer()">Menu Calendar</a>
+  <a class="nav-link" href="/#quote" onclick="closeDrawer()" style="font-weight:600;color:var(--gold);">Get a Quote</a>
+  <a class="nav-phone-mob" href="tel:+14156994397">📞 (415) 699-4397</a>
+</div>
+
+<script>
+  const burger = document.getElementById('nav-burger');
+  const drawer = document.getElementById('nav-drawer');
+  burger.addEventListener('click', () => {
+    const open = drawer.classList.toggle('open');
+    burger.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open);
+  });
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded', false);
+  }
+  document.addEventListener('click', e => {
+    if (!burger.contains(e.target) && !drawer.contains(e.target)) closeDrawer();
+  });
+</script>
+
+<!-- PAGE HEADER -->
+<div class="cal-header">
+  <div class="cal-header-inner">
+    <div class="section-label">Menu Availability</div>
+    <h1>Chef Roster &amp; Availability</h1>
+    <p class="cal-header-sub">Browse by week or month to see which chef-partners are available. Every weekday has chefs available — click any day to explore.</p>
+    <a class="btn-cal-cta" href="tel:+14156994397">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+      Book a Tasting
+    </a>
+  </div>
+</div>
 
 <div class="cal-page">
 
@@ -324,24 +492,22 @@
       <span class="filter-label">Filter:</span>
       <select class="ctrl-select" id="ctrl-cuisine">
         <option value="">All Cuisines</option>
-        <option value="sushi">Sushi</option>
-        <option value="chinese">Chinese</option>
-        <option value="mexican">Mexican</option>
-        <option value="american">American</option>
-        <option value="specialty">Specialty</option>
+        <option value="chef_john">Chef John (Mexican / Italian)</option>
+        <option value="chinese">Chef Kun — Chinese</option>
+        <option value="sushi">Unique Cuisine — Sushi</option>
       </select>
       <select class="ctrl-select" id="ctrl-tier">
         <option value="">All Tiers</option>
-        <option value="box_lunch">Box Lunch</option>
-        <option value="buffet">Chef's Spread</option>
-        <option value="mix_match">Mix &amp; Match</option>
+        <option value="tier1_dropoff">Tier 1 — Drop-Off</option>
+        <option value="premium">Premium</option>
+        <option value="tier2_attended">Tier 2 — Attended</option>
       </select>
     </div>
   </div>
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    Prices shown are per-item starting points. Your box is built from these items — final per-guest price is <strong>$20–$30/box</strong> depending on selections. <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing: <strong>$30–$34/person</strong> (Drop-Off Spread) · <strong>$40/person</strong> (Premium) · <strong>+$8/person</strong> for Attended Service. 50-person minimum. <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -366,66 +532,56 @@
 
 <script>
 // ══════════════════════════════════════════════
-// A — SHARED DATA LAYER (read-only)
+// A — CHEF DATA
 // ══════════════════════════════════════════════
-const STORAGE_KEY = 'cbc_menu_data';
-
-const DEFAULT_DATA = {
-  items: [
-    {id:'s1',name:'Salmon Roll',description:'Fresh salmon, avocado, cucumber wrapped in seasoned rice',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:22,dietary:['gf'],available_days:[1,2,3,4,5],active:true,sort_order:1},
-    {id:'s2',name:'Tuna Sashimi',description:'Premium sliced bluefin tuna, lightly seasoned',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:25,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
-    {id:'s3',name:'Bento Box',description:'Curated bento with rice, protein, pickled veg and sides',cuisine:'sushi',tiers:['box_lunch'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:3},
-    {id:'s4',name:'Miso Soup',description:'Traditional dashi-based miso with tofu and wakame',cuisine:'sushi',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['vegan','gf'],available_days:[1,2,3,4,5],active:true,sort_order:4},
-    {id:'s5',name:'Ramen',description:'Rich tonkotsu or shoyu broth with noodles, chashu and soft egg',cuisine:'sushi',tiers:['buffet'],price_per_person:20,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:5},
-    {id:'s6',name:'Shrimp Tempura Roll',description:'Crispy tempura shrimp, cucumber, avocado with spicy mayo',cuisine:'sushi',tiers:['buffet','mix_match'],price_per_person:21,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
-    {id:'s7',name:'Edamame',description:'Steamed salted young soybeans — perfect starter',cuisine:'sushi',tiers:['box_lunch','buffet','mix_match'],price_per_person:4,dietary:['vegan','gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
-    {id:'c1',name:'Wok Stir-Fry',description:'Seasonal vegetables and protein stir-fried in savory Chinese sauce',cuisine:'chinese',tiers:['buffet','mix_match'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:1},
-    {id:'c2',name:'Pork Dumplings',description:'Handmade dumplings filled with pork and napa cabbage',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:16,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:2},
-    {id:'c3',name:'Lo Mein Noodles',description:'Stir-fried egg noodles with vegetables and choice of protein',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:15,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
-    {id:'c4',name:'Spring Rolls',description:'Crispy vegetable spring rolls with sweet chili dipping sauce',cuisine:'chinese',tiers:['box_lunch','buffet','mix_match'],price_per_person:14,dietary:['vegan','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
-    {id:'c5',name:'Kung Pao Chicken',description:'Classic spiced chicken with peanuts and dried chilies',cuisine:'chinese',tiers:['buffet','mix_match'],price_per_person:20,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
-    {id:'c6',name:'Fried Rice',description:'Wok-fried jasmine rice with egg, vegetables, and soy sauce',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:14,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
-    {id:'c7',name:'Egg Drop Soup',description:'Silky egg-ribbon soup with ginger, scallions, and sesame',cuisine:'chinese',tiers:['box_lunch','buffet'],price_per_person:7,dietary:['dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
-    {id:'m1',name:'Street Tacos (Chicken)',description:'Grilled chicken thighs with salsa verde, cilantro, onion on corn tortilla',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:16,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
-    {id:'m2',name:'Street Tacos (Beef)',description:'Slow-braised carne asada with pico de gallo on corn tortilla',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:18,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
-    {id:'m3',name:'Elote',description:'Mexican street corn grilled and served with cotija, lime and chili',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:8,dietary:['gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
-    {id:'m4',name:'Rice Bowls',description:'Cilantro lime rice with black beans, pico, guac and choice of protein',cuisine:'mexican',tiers:['box_lunch'],price_per_person:15,dietary:['gf'],available_days:[1,2,3,4,5],active:true,sort_order:4},
-    {id:'m5',name:'Chips & Guac',description:'House-made tortilla chips with fresh avocado guacamole and salsa',cuisine:'mexican',tiers:['box_lunch','buffet','mix_match'],price_per_person:7,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
-    {id:'m6',name:'Burrito Bar',description:'Build-your-own burritos with all toppings — feeds any crowd',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:18,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:6},
-    {id:'m7',name:'Horchata',description:'Chilled cinnamon-rice milk drink, house made',cuisine:'mexican',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['vegan','gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
-    {id:'m8',name:'Churros',description:'Fried dough pastry with cinnamon sugar and dulce de leche dip',cuisine:'mexican',tiers:['buffet','mix_match'],price_per_person:6,dietary:['vegan'],available_days:[1,2,3,4,5],active:true,sort_order:8},
-    {id:'a1',name:'Smoked Brisket',description:'Low-and-slow smoked beef brisket with house BBQ sauce',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:22,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
-    {id:'a2',name:'BBQ Sliders',description:'Pulled pork or beef sliders with coleslaw on brioche buns',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:16,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:2},
-    {id:'a3',name:'Mac & Cheese',description:'Creamy five-cheese baked mac, crispy breadcrumb topping',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:13,dietary:[],available_days:[1,2,3,4,5],active:true,sort_order:3},
-    {id:'a4',name:'Cornbread',description:'Southern-style honey cornbread baked fresh, served warm',cuisine:'american',tiers:['box_lunch','buffet','mix_match'],price_per_person:5,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
-    {id:'a5',name:'Pulled Pork',description:'Smoked pulled pork shoulder with vinegar slaw and pickles',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:18,dietary:['gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
-    {id:'a6',name:'Coleslaw',description:'Creamy shredded cabbage and carrot slaw with apple cider dressing',cuisine:'american',tiers:['box_lunch','buffet'],price_per_person:5,dietary:['gf','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
-    {id:'a7',name:'Peach Cobbler',description:'Warm Southern peach cobbler with oat crumble and vanilla cream',cuisine:'american',tiers:['buffet','mix_match'],price_per_person:8,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
-    {id:'sp1',name:'Grain Bowl',description:'Quinoa and farro base with roasted chickpeas, greens and tahini dressing',cuisine:'specialty',tiers:['box_lunch'],price_per_person:18,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:1},
-    {id:'sp2',name:'Roasted Veggie Platter',description:'Seasonal roasted vegetables with herb dips and pita',cuisine:'specialty',tiers:['box_lunch','buffet'],price_per_person:16,dietary:['vegan','nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:2},
-    {id:'sp3',name:'Vegan Curry',description:'Slow-simmered coconut curry with seasonal vegetables and brown rice',cuisine:'specialty',tiers:['buffet','mix_match'],price_per_person:18,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:3},
-    {id:'sp4',name:'GF Pasta Salad',description:'Gluten-free rotini with cherry tomatoes, olives, basil and lemon vinaigrette',cuisine:'specialty',tiers:['box_lunch'],price_per_person:15,dietary:['vegan','gf','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:4},
-    {id:'sp5',name:'Seasonal Soup',description:'Chef-driven seasonal soup, changes weekly — always vegan and GF',cuisine:'specialty',tiers:['box_lunch','buffet'],price_per_person:9,dietary:['vegan','gf','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:5},
-    {id:'sp6',name:'Fruit Tart',description:'Buttery pastry shell with vanilla cream and fresh seasonal fruit',cuisine:'specialty',tiers:['buffet','mix_match'],price_per_person:10,dietary:['nut_free'],available_days:[1,2,3,4,5],active:true,sort_order:6},
-    {id:'sp7',name:'Hummus Platter',description:'House-made hummus, baba ganoush, tabbouleh, pita and crudités',cuisine:'specialty',tiers:['box_lunch','buffet','mix_match'],price_per_person:12,dietary:['vegan','nut_free','dairy_free'],available_days:[1,2,3,4,5],active:true,sort_order:7},
-  ],
-  tiers: [
-    {id:'box_lunch',name:'Box Lunch',price_min:15,price_max:18,guest_min:100,guest_max:300,description:'Individual packaged meals.',features:['Custom grain bowls or salads','Fresh fruit & dessert','Vegan & GF options labeled','Individual eco-packaging','On-time delivery guaranteed'],is_featured:false},
-    {id:'buffet',name:"Chef's Spread",price_min:20,price_max:25,guest_min:100,guest_max:300,description:'Full self-serve spread, prepared for your guest count.',features:['Hot mains + 3 sides','Soup or salad starter','Dessert included','Full dietary labeling','On-site coordinator option','Eco-compostable packaging'],is_featured:true},
-    {id:'mix_match',name:'Mix & Match',price_min:0,price_max:0,guest_min:150,guest_max:300,description:'Choose 2–3 cuisines.',features:['Choose 2–3 chef cuisines','Perfect for diverse teams','Live chef station option','Branded signage included','Full white-glove service'],is_featured:false},
-  ],
-  schedule: {},
-  last_updated: new Date().toISOString()
-};
-
-function getOrInitData() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch(e) {}
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(DEFAULT_DATA));
-  return JSON.parse(JSON.stringify(DEFAULT_DATA));
-}
+const CHEFS = [
+  {
+    id: 'chef_john',
+    name: 'Chef John',
+    business: 'Five Course Provision',
+    dot: '#D97706',
+    bg: '#FFF7ED',
+    text: '#9A3412',
+    available_days: [1,2,3,4,5],
+    concepts: [
+      { name: 'The Tortilla Theory', cuisine: 'Mexican Fusion', tag: 'mexican', description: 'Al pastor, chicken tinga, carnitas, salsa station, churros & tres leches' },
+      { name: 'A Little Pasta Table', cuisine: 'Italian', tag: 'italian', description: 'Chicken parm, pasta bolognese, basil pesto pasta, penne alfredo, garlic bread' },
+    ],
+    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$34/person', min_guests: 50, min_order: '$1,700' },
+    premium: { label: 'Premium Drop-Off', price: '$40/person', min_guests: 50, min_order: '$2,000' },
+    profile_url: '/chef-john',
+  },
+  {
+    id: 'chef_kun',
+    name: 'Chef Kun',
+    business: 'Loulan Chinese Kitchen',
+    dot: '#EF4444',
+    bg: '#FEF2F2',
+    text: '#991B1B',
+    available_days: [1,2,3,4,5],
+    concepts: [
+      { name: 'Loulan Chinese Kitchen', cuisine: 'Chinese & SE Asian', tag: 'chinese', description: 'Wok stir-fry, dumplings, noodles, spring rolls, fried rice (white rice included)' },
+    ],
+    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$30/person', min_guests: 50, min_order: '$1,500' },
+    premium: null,
+    profile_url: '/chef-loulan',
+  },
+  {
+    id: 'unique_cuisine',
+    name: 'Unique Cuisine',
+    business: 'Unique Cuisine',
+    dot: '#6366F1',
+    bg: '#EEF2FF',
+    text: '#3730A3',
+    available_days: [1,2,3,4,5],
+    concepts: [
+      { name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi', description: 'Assorted rolls, teriyaki, gyoza, edamame, steamed rice' },
+    ],
+    tier1: { label: 'Premium Drop-Off', price: '$30/person', min_guests: 50, min_order: '$1,500' },
+    premium: null,
+    profile_url: '/chef-unique-cuisine',
+  },
+];
 
 function escHtml(s) {
   return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -438,16 +594,6 @@ let currentDate = new Date();
 let selectedDateKey = null;
 let viewMode = 'month';
 
-const CUISINE_COLORS = {
-  sushi:     { bg: '#EEF2FF', text: '#3730A3', dot: '#6366F1', label: 'Sushi' },
-  chinese:   { bg: '#FEF2F2', text: '#991B1B', dot: '#EF4444', label: 'Chinese' },
-  mexican:   { bg: '#FFF7ED', text: '#9A3412', dot: '#F97316', label: 'Mexican' },
-  american:  { bg: '#FFFBEB', text: '#92400E', dot: '#F59E0B', label: 'American' },
-  specialty: { bg: '#F0FDF4', text: '#166534', dot: '#22C55E', label: 'Specialty' },
-};
-
-const TIER_LABELS = { box_lunch: 'Box Lunch', buffet: "Chef's Spread", mix_match: 'Mix & Match' };
-const DIETARY_LABELS = { vegan:'🌱 Vegan', gf:'🌾 GF', nut_free:'🥜 Nut-Free', dairy_free:'🥛 Dairy-Free', halal:'☪️ Halal' };
 const DAY_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
@@ -471,28 +617,16 @@ function isToday(date) {
   return date.getFullYear()===now.getFullYear() && date.getMonth()===now.getMonth() && date.getDate()===now.getDate();
 }
 
-function getItemsForDate(dateKey, filterCuisine, filterTier) {
-  const data = getOrInitData();
+function getChefsForDate(dateKey, filterCuisine) {
   const date = parseDateKey(dateKey);
-  const dayOfWeek = date.getDay();
-
-  let items;
-  // Check schedule override first
-  if (data.schedule && data.schedule[dateKey] && data.schedule[dateKey].length > 0) {
-    const ids = new Set(data.schedule[dateKey]);
-    items = data.items.filter(i => i.active && ids.has(i.id));
-  } else {
-    items = data.items.filter(i => i.active && i.available_days.includes(dayOfWeek));
+  const dow = date.getDay();
+  if (dow === 0 || dow === 6) return [];
+  let chefs = CHEFS.filter(c => c.available_days.includes(dow));
+  if (filterCuisine) {
+    // filterCuisine may be a chef id (e.g. 'chef_john') or a concept tag (e.g. 'chinese', 'sushi')
+    chefs = chefs.filter(c => c.id === filterCuisine || c.concepts.some(co => co.tag === filterCuisine));
   }
-
-  if (filterCuisine) items = items.filter(i => i.cuisine === filterCuisine);
-  if (filterTier) items = items.filter(i => i.tiers.includes(filterTier));
-  return items;
-}
-
-function getCuisinesForDate(dateKey, filterCuisine, filterTier) {
-  const items = getItemsForDate(dateKey, filterCuisine, filterTier);
-  return [...new Set(items.map(i => i.cuisine))];
+  return chefs;
 }
 
 // ══════════════════════════════════════════════
@@ -500,7 +634,6 @@ function getCuisinesForDate(dateKey, filterCuisine, filterTier) {
 // ══════════════════════════════════════════════
 function renderMonth() {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
-  const filterTier = document.getElementById('ctrl-tier').value;
   const today = new Date();
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
@@ -523,18 +656,16 @@ function renderMonth() {
     const d = daysInPrevMonth - firstDay + 1 + i;
     const date = new Date(year, month-1, d);
     const key = formatDateKey(date);
-    const cuisines = getCuisinesForDate(key, filterCuisine, filterTier);
-    const count = getItemsForDate(key, filterCuisine, filterTier).length;
-    html += renderCell(date, key, cuisines, count, true);
+    const chefs = getChefsForDate(key, filterCuisine);
+    html += renderCell(date, key, chefs, true);
   }
 
   // Current month cells
   for (let d = 1; d <= daysInMonth; d++) {
     const date = new Date(year, month, d);
     const key = formatDateKey(date);
-    const cuisines = getCuisinesForDate(key, filterCuisine, filterTier);
-    const count = getItemsForDate(key, filterCuisine, filterTier).length;
-    html += renderCell(date, key, cuisines, count, false);
+    const chefs = getChefsForDate(key, filterCuisine);
+    html += renderCell(date, key, chefs, false);
   }
 
   // Trailing empty cells (next month)
@@ -543,29 +674,32 @@ function renderMonth() {
   for (let i = 1; i <= trailingCells; i++) {
     const date = new Date(year, month+1, i);
     const key = formatDateKey(date);
-    const cuisines = getCuisinesForDate(key, filterCuisine, filterTier);
-    const count = getItemsForDate(key, filterCuisine, filterTier).length;
-    html += renderCell(date, key, cuisines, count, true);
+    const chefs = getChefsForDate(key, filterCuisine);
+    html += renderCell(date, key, chefs, true);
   }
 
   document.getElementById('cal-grid-wrap').innerHTML = `<div class="cal-grid">${html}</div>`;
 }
 
-function renderCell(date, key, cuisines, count, otherMonth) {
+function renderCell(date, key, chefs, otherMonth) {
+  const isWeekend = date.getDay() === 0 || date.getDay() === 6;
   const todayClass = isToday(date) ? ' today' : '';
   const selectedClass = key === selectedDateKey ? ' selected' : '';
   const otherClass = otherMonth ? ' other-month' : '';
+  const weekendClass = (isWeekend && !otherMonth) ? ' weekend' : '';
   const todayPill = isToday(date) ? '<span class="today-pill">TODAY</span>' : '';
-  const dots = cuisines.slice(0,5).map(c =>
-    `<div class="cal-dot" style="background:${CUISINE_COLORS[c]?.dot||'#999'};" title="${CUISINE_COLORS[c]?.label||c}"></div>`
+  const dots = chefs.map(c =>
+    `<div class="cal-dot" style="background:${c.dot};" title="${escHtml(c.name)}"></div>`
   ).join('');
-  const countLabel = count > 0 ? `<div class="cal-item-count">${count} item${count!==1?'s':''}</div>` : '';
+  const subline = chefs.length > 0
+    ? `<div class="cal-item-count">${chefs.length} chef${chefs.length!==1?'s':''} available</div>`
+    : (!otherMonth && isWeekend ? `<div class="cal-item-count" style="opacity:0.4;">Weekend</div>` : '');
 
   return `
-    <div class="cal-cell${todayClass}${selectedClass}${otherClass}" onclick="selectDay('${key}')">
+    <div class="cal-cell${todayClass}${selectedClass}${otherClass}${weekendClass}" onclick="selectDay('${key}')">
       <div class="cal-date-num">${date.getDate()} ${todayPill}</div>
       ${dots ? `<div class="cal-dots">${dots}</div>` : ''}
-      ${countLabel}
+      ${subline}
     </div>
   `;
 }
@@ -575,7 +709,6 @@ function renderCell(date, key, cuisines, count, otherMonth) {
 // ══════════════════════════════════════════════
 function renderWeek() {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
-  const filterTier = document.getElementById('ctrl-tier').value;
 
   // Find Sunday of current week
   const day = currentDate.getDay();
@@ -593,18 +726,19 @@ function renderWeek() {
     const date = new Date(sunday);
     date.setDate(sunday.getDate() + i);
     const key = formatDateKey(date);
+    const isWeekend = date.getDay() === 0 || date.getDay() === 6;
     const todayClass = isToday(date) ? ' today' : '';
     const selectedClass = key === selectedDateKey ? ' selected' : '';
-    const items = getItemsForDate(key, filterCuisine, filterTier);
+    const chefs = getChefsForDate(key, filterCuisine);
 
-    const itemsHtml = items.length === 0
-      ? `<div class="week-empty">No items</div>`
-      : items.slice(0,8).map(item => `
+    const itemsHtml = chefs.length === 0
+      ? `<div class="week-empty">${isWeekend ? 'Weekend' : 'No chefs'}</div>`
+      : chefs.map(c => `
           <div class="week-item">
-            <div class="week-dot" style="background:${CUISINE_COLORS[item.cuisine]?.dot||'#999'};"></div>
-            <div class="week-item-name">${escHtml(item.name)}</div>
+            <div class="week-dot" style="background:${c.dot};"></div>
+            <div class="week-item-name">${escHtml(c.name)}</div>
           </div>
-        `).join('') + (items.length > 8 ? `<div class="week-empty">+${items.length-8} more</div>` : '');
+        `).join('');
 
     html += `
       <div class="week-col${todayClass}${selectedClass}" onclick="selectDay('${key}')">
@@ -632,113 +766,83 @@ function selectDay(dateKey) {
 }
 
 function renderPanel(dateKey) {
-  const panelTier = document.getElementById('panel-tier-filter') ? document.getElementById('panel-tier-filter').value : '';
-  const panelDietary = document.getElementById('panel-dietary-filter') ? document.getElementById('panel-dietary-filter').value : '';
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
-
   const date = parseDateKey(dateKey);
-  const items = getItemsForDate(dateKey, filterCuisine, '');
-
-  // Apply panel-level filters
-  let filtered = items;
-  if (panelTier) filtered = filtered.filter(i => i.tiers.includes(panelTier));
-  if (panelDietary) filtered = filtered.filter(i => i.dietary.includes(panelDietary));
-
-  const dateStr = date.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'});
-  const cuisines = [...new Set(filtered.map(i => i.cuisine))];
-
+  const isWeekend = date.getDay() === 0 || date.getDay() === 6;
+  const chefs = getChefsForDate(dateKey, filterCuisine);
   const panel = document.getElementById('cal-panel');
+  const friendlyDate = date.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'});
 
-  if (items.length === 0) {
+  if (isWeekend || chefs.length === 0) {
     panel.innerHTML = `
       <div class="panel-header">
         <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-        <div class="panel-meta">No items scheduled</div>
+        <div class="panel-meta">${isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
       </div>
       <div class="panel-body">
         <div class="panel-empty">
-          <div class="empty-icon">🌙</div>
-          No menu items available this day.<br/>
-          <a href="/admin" style="color:var(--green);font-weight:600;font-size:0.85rem;">Go to Admin to schedule items →</a>
+          <div class="empty-icon">${isWeekend ? '🌴' : '🔍'}</div>
+          ${isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
         </div>
       </div>
     `;
     return;
   }
 
-  // Group filtered items by cuisine
-  const grouped = {};
-  filtered.forEach(item => {
-    if (!grouped[item.cuisine]) grouped[item.cuisine] = [];
-    grouped[item.cuisine].push(item);
-  });
+  const chefsHtml = chefs.map(chef => {
+    const conceptsHtml = chef.concepts.map(c => `
+      <div class="chef-concept">
+        <span class="chef-concept-tag" style="background:${chef.bg};color:${chef.text};">${escHtml(c.cuisine)}</span>
+        <span class="chef-concept-name">${escHtml(c.name)}</span>
+        <div class="chef-concept-desc">${escHtml(c.description)}</div>
+      </div>
+    `).join('');
 
-  const cuisineOrder = ['sushi','chinese','mexican','american','specialty'];
-  const groupedHtml = cuisineOrder
-    .filter(c => grouped[c] && grouped[c].length > 0)
-    .map(c => {
-      const col = CUISINE_COLORS[c] || {};
-      const cItems = grouped[c];
-      return `
-        <div class="panel-cuisine-section">
-          <div class="panel-cuisine-header">
-            <div class="panel-cuisine-dot" style="background:${col.dot||'#999'};"></div>
-            ${col.label || c}
-            <span class="panel-cuisine-count">${cItems.length} item${cItems.length!==1?'s':''}</span>
-          </div>
-          ${cItems.map(item => `
-            <div class="panel-item">
-              <div class="panel-item-top">
-                <div class="panel-item-name">${escHtml(item.name)}</div>
-                <div class="panel-item-price">$${item.price_per_person}<span style="font-size:0.7rem;font-weight:400;color:var(--muted);font-family:var(--font-body);">/pp</span></div>
-              </div>
-              ${item.description ? `<div class="panel-item-desc">${escHtml(item.description)}</div>` : ''}
-              <div class="panel-item-tags">
-                ${item.dietary.map(d=>`<span class="tag-dietary">${DIETARY_LABELS[d]||d}</span>`).join('')}
-                ${item.tiers.map(t=>`<span class="tag-tier">${TIER_LABELS[t]||t}</span>`).join('')}
-              </div>
-            </div>
-          `).join('')}
+    const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate} – ${chef.name}`);
+    const emailBody = encodeURIComponent(`Hi!\n\nI'd like to get a quote for catering on ${friendlyDate}.\n\nChef: ${chef.name} (${chef.business})\nGuest count: \nService tier: \nDietary needs: \n\nLooking forward to hearing from you!`);
+    const mailtoHref = `mailto:culinaryblockcatering@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+
+    const premiumHtml = chef.premium ? `
+      <hr class="chef-pricing-divider"/>
+      <div class="chef-pricing-row">
+        <span class="chef-pricing-label">${escHtml(chef.premium.label)}</span>
+        <span class="chef-pricing-price">${escHtml(chef.premium.price)}</span>
+      </div>
+      <div class="chef-pricing-min">${chef.premium.min_guests}-person min · ${escHtml(chef.premium.min_order)} min order</div>
+    ` : '';
+
+    return `
+      <div class="chef-card">
+        <div class="chef-card-header" style="border-left:4px solid ${chef.dot};">
+          <div class="chef-card-name">${escHtml(chef.name)}</div>
+          <div class="chef-card-biz">${escHtml(chef.business)}</div>
         </div>
-      `;
-    }).join('');
-
-  const friendlyDate = date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric', year:'numeric'});
-  const cuisineList = cuisines.map(c => CUISINE_COLORS[c]?.label || c).join(', ');
-  const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate}`);
-  const emailBody = encodeURIComponent(`Hi!\n\nI'd like to book catering for ${friendlyDate}.\n\nCuisine interest: ${cuisineList || 'TBD'}\nGuest count: \nTier (Box Lunch / Chef's Spread / Mix & Match): \nDietary needs: \n\nLooking forward to hearing from you!`);
-  const bookHref = `mailto:culinaryblockcatering@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+        <div class="chef-card-body">
+          ${conceptsHtml}
+          <div class="chef-pricing">
+            <div class="chef-pricing-row">
+              <span class="chef-pricing-label">${escHtml(chef.tier1.label)}</span>
+              <span class="chef-pricing-price">${escHtml(chef.tier1.price)}</span>
+            </div>
+            <div class="chef-pricing-min">${chef.tier1.min_guests}-person min · ${escHtml(chef.tier1.min_order)} min order</div>
+            ${premiumHtml}
+          </div>
+          <div class="chef-cta-group">
+            <a class="chef-cta-email" href="${mailtoHref}">Get a Quote →</a>
+            <a class="chef-cta-phone" href="tel:+14156994397">(415) 699-4397</a>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
 
   panel.innerHTML = `
     <div class="panel-header">
       <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-      <div class="panel-meta">${filtered.length} item${filtered.length!==1?'s':''} · ${cuisines.length} cuisine${cuisines.length!==1?'s':''}</div>
-      <div class="panel-filters">
-        <select class="panel-filter-select" id="panel-tier-filter" onchange="renderPanel('${dateKey}')">
-          <option value="">All Tiers</option>
-          <option value="box_lunch" ${panelTier==='box_lunch'?'selected':''}>Box Lunch</option>
-          <option value="buffet" ${panelTier==='buffet'?'selected':''}>Chef's Spread</option>
-          <option value="mix_match" ${panelTier==='mix_match'?'selected':''}>Mix &amp; Match</option>
-        </select>
-        <select class="panel-filter-select" id="panel-dietary-filter" onchange="renderPanel('${dateKey}')">
-          <option value="">Any Dietary</option>
-          <option value="vegan" ${panelDietary==='vegan'?'selected':''}>🌱 Vegan</option>
-          <option value="gf" ${panelDietary==='gf'?'selected':''}>🌾 GF</option>
-          <option value="nut_free" ${panelDietary==='nut_free'?'selected':''}>🥜 Nut-Free</option>
-          <option value="dairy_free" ${panelDietary==='dairy_free'?'selected':''}>🥛 Dairy-Free</option>
-          <option value="halal" ${panelDietary==='halal'?'selected':''}>☪️ Halal</option>
-        </select>
-      </div>
+      <div class="panel-meta">${chefs.length} chef${chefs.length!==1?'s':''} available</div>
     </div>
     <div class="panel-body">
-      ${filtered.length === 0
-        ? `<div class="panel-empty"><div class="empty-icon">🔍</div>No items match these filters.</div>`
-        : groupedHtml
-      }
-    </div>
-    <div class="panel-book-wrap">
-      <a class="btn-book-date" href="${bookHref}">Book This Date →</a>
-      <div class="btn-book-subtext">Opens email · We reply within 24 hours</div>
+      ${chefsHtml}
     </div>
   `;
 }
@@ -755,10 +859,10 @@ function setView(mode) {
 }
 
 function renderLegend() {
-  document.getElementById('legend').innerHTML = Object.entries(CUISINE_COLORS).map(([key,col]) =>
+  document.getElementById('legend').innerHTML = CHEFS.map(chef =>
     `<div class="legend-item">
-      <div class="legend-dot" style="background:${col.dot};"></div>
-      ${col.label}
+      <div class="legend-dot" style="background:${chef.dot};"></div>
+      ${escHtml(chef.name)} &mdash; ${escHtml(chef.concepts.map(c => c.cuisine).join(' / '))}
     </div>`
   ).join('');
 }
@@ -799,16 +903,10 @@ document.getElementById('ctrl-cuisine').addEventListener('change', () => {
   if (selectedDateKey) renderPanel(selectedDateKey);
 });
 
-document.getElementById('ctrl-tier').addEventListener('change', () => {
-  if (viewMode === 'month') renderMonth();
-  else renderWeek();
-  if (selectedDateKey) renderPanel(selectedDateKey);
-});
 
 // ══════════════════════════════════════════════
 // H — INIT
 // ══════════════════════════════════════════════
-getOrInitData();
 renderLegend();
 renderMonth();
 // Auto-select today
