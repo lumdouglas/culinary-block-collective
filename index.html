@@ -303,7 +303,7 @@
     .chef-card p { font-size: 1rem; font-style: italic; color: var(--muted); line-height: 1.7; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--border); }
     .chef-card-footer {
       display: flex; align-items: center; justify-content: space-between;
-      padding-top: 14px; border-top: 1px solid var(--border);
+      padding-top: 14px;
     }
     .chef-price-tag {
       font-family: var(--font-body); font-size: 1.1rem; font-weight: 600; color: var(--dgreen);
@@ -311,13 +311,23 @@
     .chef-price-tag span {
       font-size: 0.75rem; font-family: var(--font-body); font-weight: 400; color: var(--muted);
     }
-    .chef-cta-link {
-      font-size: 0.78rem; font-weight: 600; color: var(--green);
-      letter-spacing: .04em; text-transform: uppercase;
-      border-bottom: 1px solid currentColor; padding-bottom: 1px;
-      transition: color .15s;
+    .chef-card-actions {
+      display: flex; gap: 8px; margin-top: 14px;
     }
-    .chef-cta-link:hover { color: var(--dgreen); }
+    .chef-btn-profile {
+      flex: 1; text-align: center;
+      font-size: 0.8rem; font-weight: 600; color: var(--dgreen);
+      border: 1.5px solid var(--border); border-radius: 6px;
+      padding: 9px 10px; transition: border-color .15s, background .15s; text-decoration: none;
+    }
+    .chef-btn-profile:hover { border-color: var(--green); background: var(--lgreen2); }
+    .chef-btn-menu {
+      flex: 1; text-align: center;
+      font-size: 0.8rem; font-weight: 700; color: var(--dgreen);
+      background: var(--lgold); border: 1.5px solid var(--gold-light);
+      border-radius: 6px; padding: 9px 10px; transition: background .15s, border-color .15s; text-decoration: none;
+    }
+    .chef-btn-menu:hover { background: #F0DFA0; border-color: var(--gold); }
 
     /* ── PRICING ── */
     .pricing-grid {
@@ -493,7 +503,7 @@
   <div class="nav-logo">Culinary Block <span>Collective</span></div>
 
   <div class="nav-links">
-    <a class="nav-link" href="#menus">Chef Menus</a>
+    <a class="nav-link" href="#menus">Our Chefs</a>
     <a class="nav-link" href="#pricing">Pricing</a>
     <a class="nav-link" href="#faq">FAQ</a>
     <a class="nav-link nav-link-cal" href="/calendar">Menu Calendar</a>
@@ -512,7 +522,7 @@
 </nav>
 
 <div class="nav-drawer" id="nav-drawer">
-  <a class="nav-link" href="#menus"   onclick="closeDrawer()">Chef Menus</a>
+  <a class="nav-link" href="#menus"   onclick="closeDrawer()">Our Chefs</a>
   <a class="nav-link" href="#pricing" onclick="closeDrawer()">Pricing</a>
   <a class="nav-link" href="#faq"     onclick="closeDrawer()">FAQ</a>
   <a class="nav-link nav-link-cal" href="/calendar" onclick="closeDrawer()">Menu Calendar</a>
@@ -603,7 +613,10 @@
           <p>Wok stir-fry, dumplings, noodles, spring rolls — bold Chinese flavors your team will rave about.</p>
           <div class="chef-card-footer">
             <div class="chef-price-tag">$25 <span>/ guest</span></div>
-            <a class="chef-cta-link" href="/chef-loulan">Full Menu →</a>
+          </div>
+          <div class="chef-card-actions">
+            <a class="chef-btn-profile" href="/chef-loulan">Meet Chef Kun</a>
+            <a class="chef-btn-menu" href="/chef-loulan-menu">View Menu →</a>
           </div>
         </div>
       </article>
@@ -617,7 +630,10 @@
           <p>Three elevated concepts — Mediterranean grill, handmade Italian pasta, or modern Mexican — Michelin-trained craft for your team.</p>
           <div class="chef-card-footer">
             <div class="chef-price-tag">from $38 <span>/ guest</span></div>
-            <a class="chef-cta-link" href="/chef-john">Full Menu →</a>
+          </div>
+          <div class="chef-card-actions">
+            <a class="chef-btn-profile" href="/chef-john">Meet Chef John</a>
+            <a class="chef-btn-menu" href="/chef-john-menu">View Menu →</a>
           </div>
         </div>
       </article>
@@ -631,7 +647,10 @@
           <p>Full sushi spread — assorted rolls, chicken &amp; tofu teriyaki, gyoza, edamame, rice. Our premium Japanese option for events where sushi is the centerpiece.</p>
           <div class="chef-card-footer">
             <div class="chef-price-tag">$30 <span>/ guest</span></div>
-            <a class="chef-cta-link" href="/chef-unique-cuisine">Full Menu →</a>
+          </div>
+          <div class="chef-card-actions">
+            <a class="chef-btn-profile" href="/chef-unique-cuisine">Meet the Team</a>
+            <a class="chef-btn-menu" href="/chef-unique-cuisine-menu">View Menu →</a>
           </div>
         </div>
       </article>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unique Cuisine Full Menu · Sushi &amp; Japanese | Culinary Block Collective</title>
+  <meta name="description" content="Full menu for Unique Cuisine (Billy &amp; Jaclyn Wong) — sushi rolls, chicken &amp; tofu teriyaki, gyoza, edamame, and more. Premium Japanese spread for Bay Area corporate events. $30/person." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.culinaryblockcollective.com/chef-unique-cuisine-menu" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EAF2EB;
+      --gold:         #C9992A;
+      --gold-light:   #F0DFA0;
+      --lgold:        #FBF5E6;
+      --cream:        #FAF7F2;
+      --cream2:       #F3EDE4;
+      --border:       #E2D9CE;
+      --text:         #1C1814;
+      --muted:        #5C5349;
+      --white:        #FFFFFF;
+      --sushi:        #6366F1;
+      --sushi-light:  #EEF2FF;
+      --sushi-dark:   #4338CA;
+      --radius:       10px;
+      --shadow:       0 4px 32px rgba(43,28,12,0.10);
+      --shadow-lg:    0 12px 48px rgba(43,28,12,0.14);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen); padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; align-items: center; gap: 4px; }
+    .nav-link { color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500; padding: 6px 12px; border-radius: 4px; transition: background .15s, color .15s; }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+    .nav-link-back { color: var(--gold-light); font-weight: 600; }
+    .nav-phone { display: flex; align-items: center; gap: 8px; color: var(--gold); font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
+    @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
+
+    /* ── MENU HERO ── */
+    .menu-hero {
+      background:
+        linear-gradient(135deg, rgba(27,67,50,0.88) 0%, rgba(99,102,241,0.55) 100%),
+        url('/images/unique-cuisine/sushi-chicken-teriyaki.jpg') center/cover no-repeat;
+      padding: 52px 24px 48px;
+    }
+    .menu-hero-inner { max-width: 860px; margin: 0 auto; }
+    .hero-breadcrumb { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+    .hero-breadcrumb a { color: rgba(255,255,255,0.55); font-size: 0.8rem; font-weight: 500; transition: color .15s; }
+    .hero-breadcrumb a:hover { color: var(--white); }
+    .hero-breadcrumb span { color: rgba(255,255,255,0.3); font-size: 0.8rem; }
+    .menu-hero-badge { display: inline-block; background: var(--sushi); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; margin-bottom: 14px; }
+    .menu-hero h1 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 700; color: var(--white); line-height: 1.1; margin-bottom: 12px; }
+    .menu-hero h1 em { font-style: italic; color: var(--white); }
+    .menu-hero-sub { color: rgba(255,255,255,0.82); font-size: 0.95rem; max-width: 640px; margin-bottom: 28px; line-height: 1.65; }
+    .menu-hero-meta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
+    .meta-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 5px 14px; font-size: 0.8rem; font-weight: 600; color: rgba(255,255,255,0.9); }
+    .menu-hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.9rem; padding: 12px 24px; border-radius: 50px; transition: background .15s; }
+    .btn-primary:hover { background: #b8891e; }
+    .btn-ghost { display: inline-flex; align-items: center; gap: 8px; border: 2px solid rgba(255,255,255,0.45); color: var(--white); font-weight: 600; font-size: 0.9rem; padding: 11px 22px; border-radius: 50px; transition: border-color .15s, background .15s; }
+    .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+    /* ── SECTION NAV ── */
+    .section-nav {
+      background: var(--white); border-bottom: 1px solid var(--border);
+      padding: 0 24px; position: sticky; top: 62px; z-index: 90;
+    }
+    .section-nav-inner { max-width: 860px; margin: 0 auto; display: flex; gap: 0; overflow-x: auto; }
+    .section-tab {
+      display: flex; align-items: center; gap: 8px;
+      padding: 16px 20px; font-size: 0.85rem; font-weight: 600; color: var(--muted);
+      border-bottom: 2px solid transparent; white-space: nowrap; text-decoration: none;
+      transition: color .15s, border-color .15s;
+    }
+    .section-tab:hover { color: var(--sushi); border-color: var(--sushi); }
+
+    /* ── SECTIONS ── */
+    .section { padding: 64px 24px; }
+    .section-alt { background: var(--cream2); }
+    .container { max-width: 860px; margin: 0 auto; }
+
+    /* ── PRICE BADGES ── */
+    .price-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 40px; }
+    .price-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--sushi-light); border: 1px solid var(--sushi); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--sushi); }
+
+    /* ── MENU CATEGORIES ── */
+    .menu-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-bottom: 40px; }
+    .menu-cat { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .menu-cat-header { background: linear-gradient(135deg, #6366F1, #4338CA); padding: 18px 20px; }
+    .menu-cat-header h3 { color: var(--white); font-weight: 700; font-size: 1rem; }
+    .menu-cat-header p { color: rgba(255,255,255,0.7); font-size: 0.75rem; margin-top: 3px; }
+    .menu-cat-body { padding: 20px; }
+    .menu-items { list-style: none; }
+    .menu-items li {
+      padding: 10px 0; border-bottom: 1px solid var(--border);
+      font-size: 0.88rem; color: var(--text);
+      display: flex; align-items: flex-start; gap: 8px;
+    }
+    .menu-items li:last-child { border-bottom: none; }
+    .menu-items li::before { content: '›'; color: var(--sushi); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .menu-items .item-name { flex: 1; font-weight: 600; }
+    .menu-items .item-desc { font-size: 0.75rem; color: var(--muted); display: block; margin-top: 2px; font-weight: 400; }
+    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    .tag-v { background: var(--lgreen); color: var(--dgreen); }
+    .tag-gf { background: #FEF3C7; color: #92400E; }
+
+    /* ── WHAT'S INCLUDED ── */
+    .included-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
+    .included-item { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; display: flex; gap: 12px; align-items: flex-start; }
+    .included-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .included-item h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); margin-bottom: 3px; }
+    .included-item p { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
+
+    /* ── PHOTO STRIP ── */
+    .photo-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 40px; }
+    .photo-strip img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
+    @media (max-width: 640px) { .photo-strip { grid-template-columns: repeat(2, 1fr); } }
+
+    /* ── DIETARY BANNER ── */
+    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; margin-top: 32px; }
+    .dietary-banner .db-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .dietary-banner h4 { font-size: 0.88rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
+    .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── PRICING SUMMARY ── */
+    .pricing-summary { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .pricing-summary-header { background: linear-gradient(135deg, #6366F1, var(--dgreen)); padding: 20px 28px; }
+    .pricing-summary-header h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--white); }
+    .pricing-summary-header p { color: rgba(255,255,255,0.7); font-size: 0.82rem; margin-top: 4px; }
+    .pricing-rows { padding: 4px 0; }
+    .pricing-row { display: flex; align-items: center; justify-content: space-between; padding: 16px 28px; border-bottom: 1px solid var(--border); }
+    .pricing-row:last-child { border-bottom: none; }
+    .pricing-row-label { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+    .pricing-row-sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .pricing-row-price { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--sushi-dark); white-space: nowrap; }
+    .pricing-row-price span { font-family: var(--font-body); font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 2px; }
+
+    /* ── BOOK ── */
+    .book-section { background: linear-gradient(135deg, #6366F1 0%, var(--dgreen) 100%); padding: 64px 24px; text-align: center; }
+    .book-section h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    .book-section p { color: rgba(255,255,255,0.8); font-size: 0.95rem; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
+    .book-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--dgreen); padding: 32px 24px; text-align: center; border-top: 1px solid rgba(255,255,255,0.08); }
+    .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+    .footer-links a { color: rgba(255,255,255,0.55); font-size: 0.82rem; transition: color .15s; }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { color: rgba(255,255,255,0.3); font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">Culinary Block <span>Collective</span></a>
+  <div class="nav-links">
+    <a class="nav-link nav-link-back" href="/chef-unique-cuisine">← Chef Profile</a>
+    <a class="nav-link" href="/#menus">All Partners</a>
+    <a class="nav-link" href="/#pricing">Pricing</a>
+    <a class="nav-link" href="/calendar">📅 Calendar</a>
+  </div>
+  <a class="nav-phone" href="tel:+14156994397">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    (415) 699-4397
+  </a>
+</nav>
+
+<!-- MENU HERO -->
+<div class="menu-hero">
+  <div class="menu-hero-inner">
+    <div class="hero-breadcrumb">
+      <a href="/#menus">All Chefs</a>
+      <span>/</span>
+      <a href="/chef-unique-cuisine">Unique Cuisine</a>
+      <span>/</span>
+      <span style="color:rgba(255,255,255,0.7);">Full Menu</span>
+    </div>
+    <span class="menu-hero-badge">Premium Spread Menu</span>
+    <h1>Unique Cuisine<br/><em>Full Menu</em></h1>
+    <p class="menu-hero-sub">A premium sushi and Japanese spread — assorted rolls, teriyaki mains, gyoza, and sides. Fully self-serve, every item labeled. The centerpiece option for events where the food makes a statement.</p>
+    <div class="menu-hero-meta">
+      <span class="meta-chip">$30 / person (Drop-Off)</span>
+      <span class="meta-chip">$38 / person (Attended)</span>
+      <span class="meta-chip">50–500 guests</span>
+      <span class="meta-chip">Dietary labels on every item</span>
+    </div>
+    <div class="menu-hero-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Unique Cuisine — Sushi %26 Japanese&body=Hi! I'd like to book Unique Cuisine for corporate catering.%0A%0AEvent date: %0AGuest count: %0ASushi preferences / menu style: %0ADietary needs: %0ACompany: %0A">Book This Team →</a>
+      <a class="btn-ghost" href="/chef-unique-cuisine">← Meet the Team</a>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION NAV -->
+<div class="section-nav">
+  <div class="section-nav-inner">
+    <a class="section-tab" href="#teriyaki">Teriyaki Mains</a>
+    <a class="section-tab" href="#sushi-rolls">Sushi Rolls</a>
+    <a class="section-tab" href="#sides">Gyoza &amp; Sides</a>
+    <a class="section-tab" href="#pricing-summary">Pricing</a>
+  </div>
+</div>
+
+<!-- MENU SECTION -->
+<section class="section" id="menu">
+  <div class="container">
+
+    <div class="price-row">
+      <span class="price-badge">Drop-Off Spread · $30/person</span>
+      <span class="price-badge">Attended Spread · $38/person</span>
+      <span class="price-badge">50 guests min · 500 max</span>
+    </div>
+
+    <!-- WHAT'S INCLUDED -->
+    <div style="margin-bottom:40px;">
+      <div style="font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); margin-bottom:16px;">Every Spread Includes</div>
+      <div class="included-grid">
+        <div class="included-item">
+          <div class="included-icon">🍣</div>
+          <div>
+            <h4>Assorted Sushi Rolls</h4>
+            <p>4-piece assorted selection per guest, handcrafted fresh by the team</p>
+          </div>
+        </div>
+        <div class="included-item">
+          <div class="included-icon">🍗</div>
+          <div>
+            <h4>Teriyaki Mains</h4>
+            <p>Chicken &amp; Tofu teriyaki, served warm in chafing dishes with steamed rice</p>
+          </div>
+        </div>
+        <div class="included-item">
+          <div class="included-icon">🥟</div>
+          <div>
+            <h4>Gyoza</h4>
+            <p>Pan-fried chicken and vegetable dumplings with ponzu dipping sauce</p>
+          </div>
+        </div>
+        <div class="included-item">
+          <div class="included-icon">🥬</div>
+          <div>
+            <h4>Edamame</h4>
+            <p>Lightly salted steamed edamame — vegan, gluten-free, crowd-pleasing</p>
+          </div>
+        </div>
+        <div class="included-item">
+          <div class="included-icon">🏷️</div>
+          <div>
+            <h4>CBC Dietary Labels</h4>
+            <p>Every item individually labeled — Vegan, GF, allergens — before your team arrives</p>
+          </div>
+        </div>
+        <div class="included-item">
+          <div class="included-icon">🍽️</div>
+          <div>
+            <h4>Chafing Dishes &amp; Serving Ware</h4>
+            <p>Full self-serve station setup — ready when your team walks in</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MENU CATEGORIES -->
+    <div class="menu-categories">
+
+      <div class="menu-cat" id="teriyaki">
+        <div class="menu-cat-header">
+          <h3>🍗 Teriyaki Mains</h3>
+          <p>Served warm in chafing dishes — the centerpiece of the spread</p>
+        </div>
+        <div class="menu-cat-body">
+          <ul class="menu-items">
+            <li>
+              <div>
+                <span class="item-name">Chicken Teriyaki <span class="tag tag-gf">GF</span></span>
+                <span class="item-desc">Grilled chicken glazed with house teriyaki sauce</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Tofu Teriyaki <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span>
+                <span class="item-desc">Pan-seared tofu in house teriyaki glaze — hearty and satisfying</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Steamed White Rice <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span>
+                <span class="item-desc">Fluffy steamed rice served alongside both teriyaki options</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-cat" id="sushi-rolls">
+        <div class="menu-cat-header">
+          <h3>🍣 Assorted Sushi Rolls</h3>
+          <p>4-piece assorted selection · handcrafted fresh by the team</p>
+        </div>
+        <div class="menu-cat-body">
+          <ul class="menu-items">
+            <li>
+              <div>
+                <span class="item-name">California Roll</span>
+                <span class="item-desc">Imitation crab, avocado, cucumber, sesame seeds</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Spicy Tuna Roll</span>
+                <span class="item-desc">Tuna, sriracha mayo, cucumber, sesame, green onion</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Shrimp Tempura Roll</span>
+                <span class="item-desc">Crispy shrimp tempura, avocado, cucumber, eel sauce drizzle</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Avocado Cucumber Roll <span class="tag tag-v">Vegan</span></span>
+                <span class="item-desc">Fresh avocado and cucumber, sesame seeds, light soy</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-cat" id="sides">
+        <div class="menu-cat-header">
+          <h3>🥟 Gyoza &amp; Sides</h3>
+          <p>Pan-fried to order — perfect alongside the main spread</p>
+        </div>
+        <div class="menu-cat-body">
+          <ul class="menu-items">
+            <li>
+              <div>
+                <span class="item-name">Chicken Gyoza</span>
+                <span class="item-desc">Pan-fried chicken dumplings with ponzu dipping sauce</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Vegetable Gyoza <span class="tag tag-v">Vegan</span></span>
+                <span class="item-desc">Pan-fried vegetable dumplings with ponzu dipping sauce</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="item-name">Edamame <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span>
+                <span class="item-desc">Lightly salted steamed edamame</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PHOTO STRIP -->
+    <div class="photo-strip">
+      <img src="/images/unique-cuisine/sushi-chicken-teriyaki.jpg" alt="Chicken teriyaki by Unique Cuisine" />
+      <img src="/images/unique-cuisine/sushi-tofu-teriyaki.jpg" alt="Tofu teriyaki by Unique Cuisine" />
+      <img src="/images/unique-cuisine/sushi-rolls-edamame.jpg" alt="Assorted sushi rolls and edamame" />
+      <img src="/images/unique-cuisine/sushi-platter.jpg" alt="Sushi platter" />
+    </div>
+
+    <div class="dietary-banner">
+      <div class="db-icon">🌱</div>
+      <div>
+        <h4>Vegan, gluten-free &amp; allergen-labeled across the full menu</h4>
+        <p>Every item is individually labeled by CBC at delivery. The spread includes multiple vegan and GF options built in — tofu teriyaki, avocado cucumber roll, edamame, and vegetable gyoza are all vegan. Mention any additional dietary needs when booking.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING SUMMARY -->
+<section class="section section-alt" id="pricing-summary">
+  <div class="container">
+    <div class="pricing-summary">
+      <div class="pricing-summary-header">
+        <h3>Pricing at a Glance</h3>
+        <p>All prices per person · Full spread format · 50–500 guests</p>
+      </div>
+      <div class="pricing-rows">
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Drop-Off Spread (Tier 1)</div>
+            <div class="pricing-row-sub">Full spread delivered &amp; set up — self-serve, client handles cleanup</div>
+          </div>
+          <div class="pricing-row-price">$30 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Attended Service (Tier 2)</div>
+            <div class="pricing-row-sub">On-site CBC staff — setup, station management &amp; breakdown</div>
+          </div>
+          <div class="pricing-row-price">$38 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Minimum Order</div>
+            <div class="pricing-row-sub">50 guests minimum · 500 guests maximum</div>
+          </div>
+          <div class="pricing-row-price">$1,500 <span>min</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section class="book-section">
+  <div class="container">
+    <h2>Book Unique Cuisine for Your Team</h2>
+    <p>$30/person · 50–500 guests · Reply within 24 hours. Billy &amp; Jaclyn will confirm availability and menu details promptly.</p>
+    <div class="book-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Unique Cuisine — Sushi %26 Japanese&body=Hi! I'd like to book Unique Cuisine for corporate catering.%0A%0AEvent date: %0AGuest count: %0ASushi preferences / menu style: %0ADietary needs: %0ACompany: %0A">📧 Email to Book</a>
+      <a class="btn-ghost" href="tel:+14156994397">📞 (415) 699-4397</a>
+      <a class="btn-ghost" href="/calendar">📅 Check Menu Calendar</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/chef-unique-cuisine">Unique Cuisine — Profile</a>
+    <a href="/#menus">All Chef Partners</a>
+    <a href="/chef-john-menu">Chef John Menu</a>
+    <a href="/chef-loulan-menu">Loulan Menu</a>
+    <a href="/calendar">Menu Calendar</a>
+    <a href="mailto:culinaryblockcatering@gmail.com">culinaryblockcatering@gmail.com</a>
+  </div>
+  <div class="footer-copy">© 2025 Culinary Block Collective · Unique Cuisine is an independent culinary partner, not an employee of Culinary Block Collective.</div>
+</footer>
+
+</body>
+</html>

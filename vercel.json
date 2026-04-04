@@ -1,10 +1,14 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/calendar",             "destination": "/calendar.html" },
-    { "source": "/admin",                "destination": "/admin.html" },
-    { "source": "/chef-john",            "destination": "/chef-john.html" },
-    { "source": "/chef-unique-cuisine",  "destination": "/chef-unique-cuisine.html" },
-    { "source": "/chef-partner",         "destination": "/chef-partner.html" }
+    { "source": "/calendar",                    "destination": "/calendar.html" },
+    { "source": "/admin",                       "destination": "/admin.html" },
+    { "source": "/chef-john",                   "destination": "/chef-john.html" },
+    { "source": "/chef-john-menu",              "destination": "/chef-john-menu.html" },
+    { "source": "/chef-loulan",                 "destination": "/chef-loulan.html" },
+    { "source": "/chef-loulan-menu",            "destination": "/chef-loulan-menu.html" },
+    { "source": "/chef-unique-cuisine",         "destination": "/chef-unique-cuisine.html" },
+    { "source": "/chef-unique-cuisine-menu",    "destination": "/chef-unique-cuisine-menu.html" },
+    { "source": "/chef-partner",                "destination": "/chef-partner.html" }
   ]
 }
