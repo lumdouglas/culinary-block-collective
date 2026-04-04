@@ -137,6 +137,19 @@
     .protein-chip { display: flex; align-items: center; gap: 7px; background: var(--white); border: 2px solid var(--border); border-radius: 50px; padding: 8px 18px; font-size: 0.85rem; font-weight: 600; color: var(--text); }
     .protein-chip .icon { font-size: 1.1rem; }
 
+    /* ── CONCEPT PREVIEW CARDS ── */
+    .concept-cards { display: flex; flex-direction: column; gap: 14px; margin-bottom: 36px; }
+    .concept-card { display: grid; grid-template-columns: 200px 1fr; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); text-decoration: none; color: inherit; transition: box-shadow .15s, transform .15s; }
+    .concept-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-1px); }
+    .concept-card-photo { width: 100%; height: 100%; object-fit: cover; min-height: 156px; display: block; }
+    .concept-card-body { padding: 18px 22px; display: flex; flex-direction: column; }
+    .concept-card-badge { display: inline-flex; align-items: center; font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; width: fit-content; }
+    .concept-card-body h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--dgreen); margin-bottom: 8px; line-height: 1.2; }
+    .concept-card-dishes { list-style: none; display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+    .concept-card-dishes li { font-size: 0.75rem; color: var(--muted); background: var(--cream2); padding: 3px 9px; border-radius: 50px; border: 1px solid var(--border); }
+    .concept-card-link { font-size: 0.8rem; font-weight: 700; margin-top: auto; }
+    @media (max-width: 600px) { .concept-card { grid-template-columns: 1fr; } .concept-card-photo { height: 170px; } }
+
     /* ── BOOK SECTION ── */
     .book-section { background: linear-gradient(135deg, var(--dgreen) 0%, #2D6A4F 100%); padding: 72px 24px; text-align: center; }
     .book-section h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
@@ -216,11 +229,40 @@
       <h2>Five Course Provision</h2>
       <p>Choose your concept: <strong>The Tortilla Theory</strong> (Modern Mexican), <strong>A Little Pasta Table</strong> (Italian), or <strong>Grill &amp; Grain</strong> (Mediterranean). All are full Chef's Spreads, self-serve style. From $38/person · 50–500 guests.</p>
     </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-bottom:36px;">
-      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and rice — The Tortilla Theory" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad and orzo — A Little Pasta Table" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki — Grill & Grain" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
+    <div class="concept-cards">
+      <a class="concept-card" href="/chef-john-menu#tortilla-theory">
+        <img class="concept-card-photo" src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and rice" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--mexican-light);color:var(--mexican);">Concept 1 · Modern Mexican</span>
+          <h3>The Tortilla Theory</h3>
+          <ul class="concept-card-dishes">
+            <li>Pollo al Pastor</li><li>Carnitas</li><li>Cochinita Pibil</li><li>Chicken Tinga</li><li>Spanish Rice</li><li>Black Beans</li><li>Mexican Street Corn</li><li>Beef Birria +</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--mexican);">Browse Full Menu →</span>
+        </div>
+      </a>
+      <a class="concept-card" href="/chef-john-menu#pasta-table">
+        <img class="concept-card-photo" src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad and orzo" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--italian-light);color:var(--italian);">Concept 2 · Italian</span>
+          <h3>A Little Pasta Table</h3>
+          <ul class="concept-card-dishes">
+            <li>Chicken Parmesan</li><li>Chicken Piccata</li><li>Pasta Bolognese</li><li>Pesto Pasta</li><li>Caesar Salad</li><li>Lemon Orzo</li><li>Garlic Bread</li><li>Short Rib Ragù +</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--italian);">Browse Full Menu →</span>
+        </div>
+      </a>
+      <a class="concept-card" href="/chef-john-menu#grill-grain">
+        <img class="concept-card-photo" src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--med-light);color:var(--med);">Concept 3 · Mediterranean</span>
+          <h3>Grill &amp; Grain</h3>
+          <ul class="concept-card-dishes">
+            <li>Grilled Chicken Shawarma</li><li>Beef Kofta</li><li>Falafel</li><li>Tabbouleh</li><li>Saffron Rice</li><li>Tzatziki</li><li>Warm Pita</li><li>Lamb Kofta +</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--med);">Browse Full Menu →</span>
+        </div>
+      </a>
     </div>
     <div style="text-align:center;">
       <a href="/chef-john-menu" style="display:inline-flex;align-items:center;gap:10px;background:var(--dgreen);color:var(--white);font-weight:700;font-size:1rem;padding:16px 36px;border-radius:50px;text-decoration:none;transition:background .15s;" onmouseover="this.style.background='#2D6A4F'" onmouseout="this.style.background='var(--dgreen)'">Browse the Full Menu — All Three Concepts →</a>

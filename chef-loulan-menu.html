@@ -13,27 +13,26 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --green:         #2D6A4F;
-      --dgreen:        #1B4332;
-      --lgreen:        #EAF2EB;
-      --gold:          #C9992A;
-      --gold-light:    #F0DFA0;
-      --lgold:         #FBF5E6;
-      --cream:         #FAF7F2;
-      --cream2:        #F3EDE4;
-      --border:        #E2D9CE;
-      --text:          #1C1814;
-      --muted:         #5C5349;
-      --white:         #FFFFFF;
-      --loulan:        #C4622D;
-      --loulan-dark:   #9B4520;
-      --loulan-light:  #FBF0E8;
-      --loulan-mid:    #F5D5C0;
-      --radius:        10px;
-      --shadow:        0 4px 32px rgba(43,28,12,0.10);
-      --shadow-lg:     0 12px 48px rgba(43,28,12,0.14);
-      --font-display:  'Cormorant Garamond', Georgia, serif;
-      --font-body:     'Inter', system-ui, sans-serif;
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EAF2EB;
+      --gold:         #C9992A;
+      --gold-light:   #F0DFA0;
+      --lgold:        #FBF5E6;
+      --cream:        #FAF7F2;
+      --cream2:       #F3EDE4;
+      --border:       #E2D9CE;
+      --text:         #1C1814;
+      --muted:        #5C5349;
+      --white:        #FFFFFF;
+      --loulan:       #C4622D;
+      --loulan-dark:  #9B4520;
+      --loulan-light: #FBF0E8;
+      --loulan-mid:   #F5D5C0;
+      --radius:       10px;
+      --shadow:       0 4px 32px rgba(43,28,12,0.10);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
     }
     html { scroll-behavior: smooth; }
     body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
@@ -80,95 +79,93 @@
     .btn-ghost { display: inline-flex; align-items: center; gap: 8px; border: 2px solid rgba(255,255,255,0.45); color: var(--white); font-weight: 600; font-size: 0.9rem; padding: 11px 22px; border-radius: 50px; transition: border-color .15s, background .15s; }
     .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
 
-    /* ── SET NAV ── */
-    .set-nav {
+    /* ── CONCEPT NAV ── */
+    .concept-nav {
       background: var(--white); border-bottom: 1px solid var(--border);
       padding: 0 24px; position: sticky; top: 62px; z-index: 90;
     }
-    .set-nav-inner { max-width: 860px; margin: 0 auto; display: flex; gap: 0; overflow-x: auto; }
-    .set-tab {
+    .concept-nav-inner { max-width: 860px; margin: 0 auto; display: flex; gap: 0; overflow-x: auto; }
+    .concept-tab {
       display: flex; align-items: center; gap: 8px;
       padding: 16px 20px; font-size: 0.85rem; font-weight: 600; color: var(--muted);
-      border-bottom: 2px solid transparent; white-space: nowrap; text-decoration: none;
-      transition: color .15s, border-color .15s;
+      border-bottom: 2px solid transparent; white-space: nowrap;
+      transition: color .15s, border-color .15s; text-decoration: none;
     }
-    .set-tab:hover { color: var(--loulan); border-color: var(--loulan); }
+    .concept-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .dot-classic { background: var(--loulan); }
+    .dot-bold { background: var(--loulan-dark); }
+    .dot-sea { background: var(--green); }
+    .concept-tab.classic:hover { color: var(--loulan); border-color: var(--loulan); }
+    .concept-tab.bold:hover { color: var(--loulan-dark); border-color: var(--loulan-dark); }
+    .concept-tab.sea:hover { color: var(--green); border-color: var(--green); }
+    .concept-tab.pricing:hover { color: var(--dgreen); border-color: var(--dgreen); }
 
     /* ── SECTIONS ── */
     .section { padding: 64px 24px; }
     .section-alt { background: var(--cream2); }
     .container { max-width: 860px; margin: 0 auto; }
 
-    /* ── DOWNLOAD LINKS ── */
-    .menu-downloads { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
-    .menu-download-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 7px 14px; transition: background .15s; }
-    .menu-download-link:hover { background: var(--loulan-mid); }
+    /* ── CONCEPT HEADER ── */
+    .concept-header { margin-bottom: 32px; padding: 24px 28px; border-radius: 0 var(--radius) var(--radius) 0; }
+    .concept-header.classic { background: var(--loulan-light); border-left: 4px solid var(--loulan); }
+    .concept-header.bold { background: #F5EBE4; border-left: 4px solid var(--loulan-dark); }
+    .concept-header.sea { background: var(--lgreen); border-left: 4px solid var(--green); }
+    .concept-num { font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
+    .concept-num.classic { color: var(--loulan); }
+    .concept-num.bold { color: var(--loulan-dark); }
+    .concept-num.sea { color: var(--green); }
+    .concept-header h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
+    .concept-header p { font-size: 0.88rem; color: var(--muted); }
 
-    /* ── PRICE ROW ── */
-    .price-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 40px; }
-    .price-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); }
-
-    /* ── MENU SET CARDS ── */
-    .menu-sets { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; margin-bottom: 32px; }
-    .menu-set {
-      background: var(--white); border: 1px solid var(--border);
-      border-radius: 14px; overflow: hidden; box-shadow: var(--shadow);
-      display: flex; flex-direction: column;
-    }
-    .menu-set-photo { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
-    .menu-set-header { padding: 20px 24px 12px; border-bottom: 1px solid var(--border); }
-    .set-tag { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; }
-    .set-tag.sea { background: var(--green); }
-    .menu-set-header h3 { font-family: var(--font-body); font-size: 1.25rem; font-weight: 700; color: var(--dgreen); line-height: 1.2; margin-bottom: 4px; }
-    .menu-set-header .set-sub { font-size: 0.78rem; color: var(--muted); }
-    .menu-set-body { padding: 20px 24px; flex: 1; }
-    .set-items { list-style: none; }
-    .set-items li {
-      padding: 10px 0; border-bottom: 1px solid var(--border);
-      font-size: 0.88rem; color: var(--text);
-      display: flex; align-items: flex-start; gap: 8px;
-    }
-    .set-items li:last-child { border-bottom: none; }
-    .set-items li::before { content: '›'; color: var(--loulan); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
-    .set-items .item-name { flex: 1; }
-    .set-items .item-zh { font-size: 0.75rem; color: var(--muted); display: block; margin-top: 2px; font-style: italic; }
-    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    /* ── SET CONTENT BOX ── */
+    .set-box { border-radius: var(--radius); padding: 28px 32px; margin-bottom: 28px; }
+    .set-box.classic { background: var(--loulan-light); border: 1px solid rgba(196,98,45,0.22); }
+    .set-box.bold { background: #F5EBE4; border: 1px solid rgba(155,69,32,0.2); }
+    .set-box.sea { background: var(--lgreen); border: 1px solid rgba(45,106,79,0.2); }
+    .set-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 20px; }
+    .set-label.classic { color: var(--loulan); }
+    .set-label.bold { color: var(--loulan-dark); }
+    .set-label.sea { color: var(--green); }
+    .dish-list { list-style: none; }
+    .dish-list li { padding: 13px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
+    .dish-list li:last-child { border-bottom: none; }
+    .dish-bullet { font-weight: 700; flex-shrink: 0; margin-top: 1px; font-size: 1rem; }
+    .dish-bullet.classic { color: var(--loulan); }
+    .dish-bullet.bold { color: var(--loulan-dark); }
+    .dish-bullet.sea { color: var(--green); }
+    .dish-content { flex: 1; }
+    .dish-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .dish-zh { font-size: 0.78rem; color: var(--muted); margin-top: 3px; font-style: italic; }
+    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 5px; vertical-align: middle; }
     .tag-v { background: var(--lgreen); color: var(--dgreen); }
     .tag-gf { background: #FEF3C7; color: #92400E; }
-    .menu-set-footer { padding: 14px 24px; background: var(--loulan-light); border-top: 1px solid var(--loulan-mid); font-size: 0.78rem; color: var(--loulan-dark); display: flex; align-items: center; gap: 8px; }
-    .menu-set-footer span { font-size: 1rem; }
+
+    /* ── CONCEPT DIVIDER ── */
+    .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
 
     /* ── RICE NOTE ── */
     .rice-note {
       background: var(--white); border: 1px solid var(--border); border-radius: var(--radius);
-      padding: 20px 24px; margin-top: 8px;
+      padding: 20px 24px; margin-bottom: 32px;
       display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start;
     }
-    .rice-note .rice-icon { font-size: 2rem; }
+    .rice-icon { font-size: 2rem; }
     .rice-note h4 { font-size: 0.9rem; font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
     .rice-note p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
     .rice-options { display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
     .rice-option { display: inline-flex; align-items: center; gap: 6px; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 0.78rem; font-weight: 600; color: var(--text); }
     .rice-option .price { color: var(--loulan); font-weight: 700; }
 
+    /* ── MENU DOWNLOADS ── */
+    .menu-downloads { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
+    .menu-download-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.82rem; font-weight: 600; color: var(--loulan-dark); background: var(--loulan-light); border: 1px solid var(--loulan-mid); border-radius: 6px; padding: 7px 14px; transition: background .15s; }
+    .menu-download-link:hover { background: var(--loulan-mid); }
+
     /* ── DIETARY BANNER ── */
-    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; margin-top: 32px; }
+    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; margin-bottom: 40px; }
     .dietary-banner .db-icon { font-size: 1.5rem; flex-shrink: 0; }
     .dietary-banner h4 { font-size: 0.88rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
     .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
-
-    /* ── PHOTO GRID ── */
-    .photo-section { padding: 0 24px 64px; }
-    .photo-section-title { text-align: center; margin-bottom: 24px; }
-    .photo-section-title h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 2.5vw, 2.2rem); font-weight: 700; color: var(--dgreen); }
-    .photo-section-title p { color: var(--muted); font-size: 0.88rem; margin-top: 4px; }
-    .photo-grid {
-      max-width: 860px; margin: 0 auto;
-      display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;
-    }
-    .photo-grid img { width: 100%; border-radius: 10px; object-fit: cover; aspect-ratio: 1; display: block; }
-    .photo-grid img.wide { grid-column: span 2; aspect-ratio: 2/1; }
-    @media (max-width: 700px) { .photo-grid { grid-template-columns: repeat(2, 1fr); } .photo-grid img.wide { grid-column: span 2; } }
 
     /* ── PRICING SUMMARY ── */
     .pricing-summary { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
@@ -184,12 +181,9 @@
     .pricing-row-price span { font-family: var(--font-body); font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 2px; }
 
     /* ── BOOK ── */
-    .book-section {
-      background: linear-gradient(135deg, var(--loulan-dark) 0%, var(--dgreen) 100%);
-      padding: 64px 24px; text-align: center;
-    }
+    .book-section { background: linear-gradient(135deg, var(--loulan-dark) 0%, var(--dgreen) 100%); padding: 64px 24px; text-align: center; }
     .book-section h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
-    .book-section p { color: rgba(255,255,255,0.82); font-size: 0.95rem; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
+    .book-section p { color: rgba(255,255,255,0.8); font-size: 0.95rem; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
     .book-detail-row { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 28px; }
     .book-detail { color: rgba(255,255,255,0.7); font-size: 0.82rem; display: flex; align-items: center; gap: 6px; }
     .book-detail strong { color: var(--gold-light); }
@@ -230,7 +224,7 @@
       <span>/</span>
       <span style="color:rgba(255,255,255,0.7);">Full Menu</span>
     </div>
-    <span class="menu-hero-badge">Chef's Spread Menu</span>
+    <span class="menu-hero-badge">Three Curated Spreads</span>
     <h1>Loulan<br/><em>Full Menu</em></h1>
     <p class="menu-hero-zh">楼兰 · Named for the Ancient Silk Road</p>
     <p class="menu-hero-sub">Three curated spreads — Classic Chinese, Bold &amp; Aromatic, and Southeast Asian. Each set is 5 signature dishes, served self-serve style with white rice included.</p>
@@ -247,170 +241,216 @@
   </div>
 </div>
 
-<!-- SET NAV -->
-<div class="set-nav">
-  <div class="set-nav-inner">
-    <a class="set-tab" href="#silk-road-classic">The Silk Road Classic</a>
-    <a class="set-tab" href="#bold-aromatic">Bold &amp; Aromatic</a>
-    <a class="set-tab" href="#silk-road-southeast">Silk Road Southeast</a>
+<!-- CONCEPT NAV -->
+<div class="concept-nav">
+  <div class="concept-nav-inner">
+    <a class="concept-tab classic" href="#silk-road-classic"><span class="concept-dot dot-classic"></span>The Silk Road Classic</a>
+    <a class="concept-tab bold" href="#bold-aromatic"><span class="concept-dot dot-bold"></span>Bold &amp; Aromatic</a>
+    <a class="concept-tab sea" href="#silk-road-southeast"><span class="concept-dot dot-sea"></span>Silk Road Southeast</a>
+    <a class="concept-tab pricing" href="#pricing-summary" style="margin-left:auto;">Pricing</a>
   </div>
 </div>
 
-<!-- MENU SECTION -->
-<section class="section">
+<!-- ══════════════════════════════════
+     SET 1: THE SILK ROAD CLASSIC
+═══════════════════════════════════ -->
+<section class="section" id="silk-road-classic">
   <div class="container">
 
-    <div style="margin-bottom:32px;">
-      <div class="price-row">
-        <span class="price-badge">$30 / person</span>
-        <span class="price-badge">White rice included</span>
-        <span class="price-badge">Brown rice +$1 / person</span>
-        <span class="price-badge">50 guests min · 500 max</span>
-      </div>
-      <div class="menu-downloads">
-        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Chinese Cuisine.pdf" target="_blank">📄 Chinese Menu PDF</a>
-        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Southeast Asian cuisine.pdf" target="_blank">📄 Southeast Asian Menu PDF</a>
-        <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Western Style Cuisine.pdf" target="_blank">📄 Western Style Menu PDF</a>
-      </div>
+    <div class="concept-header classic">
+      <div class="concept-num classic">Set 1 · Chinese</div>
+      <h2>The Silk Road Classic</h2>
+      <p>Crowd-pleasing Chinese comfort food · 5 signature dishes · Strong vegan &amp; GF options built in</p>
     </div>
 
-    <div class="menu-sets">
+    <div class="set-box classic">
+      <div class="set-label classic">5 Signature Dishes · Included in every order</div>
+      <ul class="dish-list">
+        <li>
+          <span class="dish-bullet classic">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Braised Beef with Daikon</div>
+            <div class="dish-zh">红烧牛腩 · Slow-braised until tender in house sauce</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet classic">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Sweet &amp; Sour Meatballs</div>
+            <div class="dish-zh">糖醋丸子 · Pork with bell peppers &amp; onion</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet classic">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Stir-fried Shrimp &amp; Scrambled Eggs</div>
+            <div class="dish-zh">滑蛋虾仁 · With mushroom, tomato &amp; green bean</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet classic">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Mapo Tofu <span class="tag tag-v">Vegan</span></div>
+            <div class="dish-zh">麻婆豆腐 · Silken tofu in savory spiced sauce</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet classic">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Garlic Broccoli <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">蒜蓉西蓝花 · Wok-tossed with garlic</div>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-      <!-- SET A -->
-      <div class="menu-set" id="silk-road-classic">
-        <img class="menu-set-photo" src="/images/loulan/IMG_1332.jpeg" alt="Loulan Classic Chinese spread — braised beef" />
-        <div class="menu-set-header">
-          <span class="set-tag">Chinese</span>
-          <h3>The Silk Road Classic</h3>
-          <p class="set-sub">Crowd-pleasing Chinese comfort food with strong vegan and GF options built in</p>
-        </div>
-        <div class="menu-set-body">
-          <ul class="set-items">
-            <li>
-              <div class="item-name">
-                Braised Beef with Daikon
-                <span class="item-zh">红烧牛腩</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Sweet &amp; Sour Meatballs
-                <span class="item-zh">糖醋丸子 · Pork with bell peppers &amp; onion</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Stir-fried Shrimp &amp; Scrambled Eggs
-                <span class="item-zh">滑蛋虾仁 · With mushroom, tomato &amp; green bean</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Mapo Tofu <span class="tag tag-v">Vegan</span>
-                <span class="item-zh">麻婆豆腐 · Silken tofu in savory spiced sauce</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Garlic Broccoli <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
-                <span class="item-zh">蒜蓉西蓝花</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-set-footer"><span>🍚</span> Served with steamed white rice · Brown rice +$1/person</div>
-      </div>
+  </div>
+</section>
 
-      <!-- SET B -->
-      <div class="menu-set" id="bold-aromatic">
-        <img class="menu-set-photo" src="/images/loulan/IMG_3014.jpeg" alt="Loulan cumin beef stir-fry — Xinjiang-style" />
-        <div class="menu-set-header">
-          <span class="set-tag">Chinese · Xinjiang-Inspired</span>
-          <h3>Bold &amp; Aromatic</h3>
-          <p class="set-sub">Bolder flavors rooted in northwestern Chinese cuisine — cumin, chili, and slow-braised depth</p>
-        </div>
-        <div class="menu-set-body">
-          <ul class="set-items">
-            <li>
-              <div class="item-name">
-                Cumin Beef Stir-fry <span class="tag tag-gf">GF</span>
-                <span class="item-zh">铁板孜然牛肉 · Xinjiang-style, sesame &amp; scallion</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Three Cup Chicken
-                <span class="item-zh">三杯鸡 · Taiwanese classic — soy, sesame oil &amp; rice wine</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Sichuan Spicy Fish
-                <span class="item-zh">水煮鱼 · Fish fillet in chili broth, mushroom &amp; scallion</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Stir-fried Mixed Vegetables <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
-                <span class="item-zh">炒合菜 · Seasonal vegetables, wok-tossed</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Cucumber Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
-                <span class="item-zh">拍黄瓜 · Smashed cucumber with garlic &amp; chili oil</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-set-footer"><span>🍚</span> Served with steamed white rice · Brown rice +$1/person</div>
-      </div>
+<!-- Photos: Silk Road Classic -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
+  <img src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Braised beef, moo shu pork and cucumber salad" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+  <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu, spring rolls and minced pork combo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+</div>
 
-      <!-- SET C -->
-      <div class="menu-set" id="silk-road-southeast">
-        <img class="menu-set-photo" src="/images/loulan/IMG_3106.jpeg" alt="Loulan Southeast Asian herb shrimp" />
-        <div class="menu-set-header">
-          <span class="set-tag sea">Southeast Asian</span>
-          <h3>The Silk Road Southeast</h3>
-          <p class="set-sub">Thai, Malaysian &amp; Vietnamese-inspired — bold aromatics, coconut, fresh herbs, bright contrast</p>
-        </div>
-        <div class="menu-set-body">
-          <ul class="set-items">
-            <li>
-              <div class="item-name">
-                Beef Rendang <span class="tag tag-gf">GF</span>
-                <span class="item-zh">仁当牛肉 · Malaysian slow-braised, coconut &amp; lemongrass</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Lemongrass Curry Chicken
-                <span class="item-zh">香茅咖喱鸡 · Thai-inspired, fragrant &amp; mildly spiced</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Thai Herb Shrimp <span class="tag tag-gf">GF</span>
-                <span class="item-zh">香辣虾 · Lime, chili, fresh herbs &amp; red pepper</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Stir-fried Vegetables with Garlic <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
-                <span class="item-zh">蒜蓉时蔬 · Rotating seasonal vegetables</span>
-              </div>
-            </li>
-            <li>
-              <div class="item-name">
-                Mango Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span>
-                <span class="item-zh">芒果沙拉 · Fresh mango, lime dressing, herbs</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="menu-set-footer"><span>🍚</span> Served with steamed white rice · Brown rice +$1/person</div>
-      </div>
+<hr class="concept-divider" />
 
+<!-- ══════════════════════════════════
+     SET 2: BOLD & AROMATIC
+═══════════════════════════════════ -->
+<section class="section section-alt" id="bold-aromatic">
+  <div class="container">
+
+    <div class="concept-header bold">
+      <div class="concept-num bold">Set 2 · Chinese · Xinjiang-Inspired</div>
+      <h2>Bold &amp; Aromatic</h2>
+      <p>Bolder flavors rooted in northwestern Chinese cuisine · 5 signature dishes · Cumin, chili, and slow-braised depth</p>
+    </div>
+
+    <div class="set-box bold">
+      <div class="set-label bold">5 Signature Dishes · Included in every order</div>
+      <ul class="dish-list">
+        <li>
+          <span class="dish-bullet bold">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Cumin Beef Stir-fry <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">铁板孜然牛肉 · Xinjiang-style, sesame &amp; scallion</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet bold">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Three Cup Chicken</div>
+            <div class="dish-zh">三杯鸡 · Taiwanese classic — soy, sesame oil &amp; rice wine</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet bold">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Sichuan Spicy Fish</div>
+            <div class="dish-zh">水煮鱼 · Fish fillet in chili broth, mushroom &amp; scallion</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet bold">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Stir-fried Mixed Vegetables <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">炒合菜 · Seasonal vegetables, wok-tossed</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet bold">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Cucumber Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">拍黄瓜 · Smashed cucumber with garlic &amp; chili oil</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Photos: Bold & Aromatic -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
+  <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+  <img src="/images/loulan/grilled_cumin_lamb_eggplant_1775316743039.jpg" alt="Grilled cumin lamb with eggplant — Xinjiang style" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+</div>
+
+<hr class="concept-divider" />
+
+<!-- ══════════════════════════════════
+     SET 3: SILK ROAD SOUTHEAST
+═══════════════════════════════════ -->
+<section class="section" id="silk-road-southeast">
+  <div class="container">
+
+    <div class="concept-header sea">
+      <div class="concept-num sea">Set 3 · Southeast Asian</div>
+      <h2>The Silk Road Southeast</h2>
+      <p>Thai, Malaysian &amp; Vietnamese-inspired · 5 signature dishes · Bold aromatics, coconut, fresh herbs, bright contrast</p>
+    </div>
+
+    <div class="set-box sea">
+      <div class="set-label sea">5 Signature Dishes · Included in every order</div>
+      <ul class="dish-list">
+        <li>
+          <span class="dish-bullet sea">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Beef Rendang <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">仁当牛肉 · Malaysian slow-braised, coconut &amp; lemongrass</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet sea">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Lemongrass Curry Chicken</div>
+            <div class="dish-zh">香茅咖喱鸡 · Thai-inspired, fragrant &amp; mildly spiced</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet sea">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Thai Herb Shrimp <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">香辣虾 · Lime, chili, fresh herbs &amp; red pepper</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet sea">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Stir-fried Vegetables with Garlic <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">蒜蓉时蔬 · Rotating seasonal vegetables</div>
+          </div>
+        </li>
+        <li>
+          <span class="dish-bullet sea">›</span>
+          <div class="dish-content">
+            <div class="dish-name">Mango Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            <div class="dish-zh">芒果沙拉 · Fresh mango, lime dressing, herbs</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- Photos: Silk Road Southeast -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
+  <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+  <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+</div>
+
+<!-- ══════════════════════════════════
+     RICE NOTE + DIETARY + PRICING
+═══════════════════════════════════ -->
+<section class="section section-alt" id="pricing-summary">
+  <div class="container">
+
+    <div class="menu-downloads">
+      <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Chinese Cuisine.pdf" target="_blank">📄 Chinese Menu PDF</a>
+      <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Southeast Asian cuisine.pdf" target="_blank">📄 Southeast Asian Menu PDF</a>
+      <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Western Style Cuisine.pdf" target="_blank">📄 Western Style Menu PDF</a>
     </div>
 
     <div class="rice-note">
@@ -433,31 +473,6 @@
       </div>
     </div>
 
-  </div>
-</section>
-
-<!-- PHOTO GRID -->
-<section class="photo-section">
-  <div class="photo-section-title">
-    <span style="display:inline-block; background:var(--loulan-light); color:var(--loulan); font-size:0.7rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:3px 10px; border-radius:4px; margin-bottom:10px;">From the Kitchen</span>
-    <h2>The Food Speaks</h2>
-    <p>Every tray prepared by Chef Kun — made fresh, delivered at scale.</p>
-  </div>
-  <div class="photo-grid">
-    <img class="wide" src="/images/loulan/IMG_4551.jpeg" alt="Loulan Sichuan fish in chili oil with mushrooms" />
-    <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu" />
-    <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" />
-    <img src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Braised beef, moo shu pork and cucumber salad" />
-    <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu, spring rolls and minced pork" />
-    <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish" />
-    <img src="/images/loulan/grilled_cumin_lamb_eggplant_1775316743039.jpg" alt="Grilled cumin lamb with eggplant — Xinjiang style" />
-    <img src="/images/loulan/IMG_3542.jpeg" alt="Loulan Southeast Asian chicken with potatoes" />
-  </div>
-</section>
-
-<!-- PRICING SUMMARY -->
-<section class="section section-alt">
-  <div class="container">
     <div class="pricing-summary">
       <div class="pricing-summary-header">
         <h3>Pricing at a Glance</h3>
@@ -466,7 +481,7 @@
       <div class="pricing-rows">
         <div class="pricing-row">
           <div>
-            <div class="pricing-row-label">Any Menu Set — Standard</div>
+            <div class="pricing-row-label">Any Menu Set — Drop-Off Spread</div>
             <div class="pricing-row-sub">Chinese or Southeast Asian · White rice included</div>
           </div>
           <div class="pricing-row-price">$30 <span>/ person</span></div>
@@ -480,8 +495,8 @@
         </div>
         <div class="pricing-row">
           <div>
-            <div class="pricing-row-label">Attended Service Add-On</div>
-            <div class="pricing-row-sub">On-site CBC staff · setup, stations &amp; breakdown</div>
+            <div class="pricing-row-label">Attended Service (Tier 2)</div>
+            <div class="pricing-row-sub">On-site CBC staff · setup, station management &amp; breakdown</div>
           </div>
           <div class="pricing-row-price">+$8 <span>/ person</span></div>
         </div>
@@ -494,6 +509,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </section>
 

@@ -209,6 +209,19 @@
     .dietary-banner h4 { font-weight: 700; font-size: 0.9rem; color: var(--dgreen); margin-bottom: 4px; }
     .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
 
+    /* ── CONCEPT PREVIEW CARDS ── */
+    .concept-cards { display: flex; flex-direction: column; gap: 14px; margin-bottom: 36px; }
+    .concept-card { display: grid; grid-template-columns: 200px 1fr; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); text-decoration: none; color: inherit; transition: box-shadow .15s, transform .15s; }
+    .concept-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-1px); }
+    .concept-card-photo { width: 100%; height: 100%; object-fit: cover; min-height: 156px; display: block; }
+    .concept-card-body { padding: 18px 22px; display: flex; flex-direction: column; }
+    .concept-card-badge { display: inline-flex; align-items: center; font-size: 0.66rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; padding: 3px 9px; border-radius: 4px; margin-bottom: 8px; width: fit-content; }
+    .concept-card-body h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--dgreen); margin-bottom: 8px; line-height: 1.2; }
+    .concept-card-dishes { list-style: none; display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+    .concept-card-dishes li { font-size: 0.75rem; color: var(--muted); background: var(--cream2); padding: 3px 9px; border-radius: 50px; border: 1px solid var(--border); }
+    .concept-card-link { font-size: 0.8rem; font-weight: 700; margin-top: auto; }
+    @media (max-width: 600px) { .concept-card { grid-template-columns: 1fr; } .concept-card-photo { height: 170px; } }
+
     /* ── BOOK ── */
     .book-section {
       background: linear-gradient(135deg, var(--loulan-dark) 0%, var(--dgreen) 100%);
@@ -355,17 +368,40 @@
       <h2>Three Curated Spreads</h2>
       <p>The Silk Road Classic (Chinese), Bold &amp; Aromatic (Xinjiang-inspired), and The Silk Road Southeast (Thai, Malaysian &amp; Vietnamese). Each set is 5 signature dishes — steamed white rice included. $30/person.</p>
     </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-bottom:36px;">
-      <img src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Braised beef, moo shu pork and cucumber salad by Loulan" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu by Chef Kun" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish combo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-    </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-bottom:36px;">
-      <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu, spring rolls and minced pork combo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/grilled_cumin_lamb_eggplant_1775316743039.jpg" alt="Grilled cumin lamb with eggplant — Xinjiang style" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/IMG_4551.jpeg" alt="Loulan Sichuan fish in chili oil" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/loulan/IMG_3542.jpeg" alt="Loulan Southeast Asian chicken" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
+    <div class="concept-cards">
+      <a class="concept-card" href="/chef-loulan-menu#silk-road-classic">
+        <img class="concept-card-photo" src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Loulan Classic Chinese spread — braised beef and moo shu pork" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--loulan-light);color:var(--loulan);">Set 1 · Chinese</span>
+          <h3>The Silk Road Classic</h3>
+          <ul class="concept-card-dishes">
+            <li>Braised Beef with Daikon</li><li>Sweet &amp; Sour Meatballs</li><li>Stir-fried Shrimp &amp; Eggs</li><li>Mapo Tofu</li><li>Garlic Broccoli</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--loulan);">Browse Full Menu →</span>
+        </div>
+      </a>
+      <a class="concept-card" href="/chef-loulan-menu#bold-aromatic">
+        <img class="concept-card-photo" src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu by Chef Kun" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--loulan-light);color:var(--loulan-dark);">Set 2 · Chinese · Xinjiang-Inspired</span>
+          <h3>Bold &amp; Aromatic</h3>
+          <ul class="concept-card-dishes">
+            <li>Cumin Beef Stir-fry</li><li>Three Cup Chicken</li><li>Sichuan Spicy Fish</li><li>Stir-fried Vegetables</li><li>Cucumber Salad</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--loulan-dark);">Browse Full Menu →</span>
+        </div>
+      </a>
+      <a class="concept-card" href="/chef-loulan-menu#silk-road-southeast">
+        <img class="concept-card-photo" src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Loulan Southeast Asian chicken and fish" loading="lazy" />
+        <div class="concept-card-body">
+          <span class="concept-card-badge" style="background:var(--lgreen);color:var(--green);">Set 3 · Southeast Asian</span>
+          <h3>The Silk Road Southeast</h3>
+          <ul class="concept-card-dishes">
+            <li>Beef Rendang</li><li>Lemongrass Curry Chicken</li><li>Thai Herb Shrimp</li><li>Stir-fried Vegetables</li><li>Mango Salad</li>
+          </ul>
+          <span class="concept-card-link" style="color:var(--green);">Browse Full Menu →</span>
+        </div>
+      </a>
     </div>
     <div style="text-align:center;">
       <a href="/chef-loulan-menu" style="display:inline-flex;align-items:center;gap:10px;background:var(--loulan-dark);color:var(--white);font-weight:700;font-size:1rem;padding:16px 36px;border-radius:50px;text-decoration:none;transition:background .15s;" onmouseover="this.style.background='var(--loulan)'" onmouseout="this.style.background='var(--loulan-dark)'">Browse All Three Menu Sets →</a>
