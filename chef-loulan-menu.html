@@ -122,10 +122,15 @@
     .set-box.classic { background: var(--loulan-light); border: 1px solid rgba(196,98,45,0.22); }
     .set-box.bold { background: #F5EBE4; border: 1px solid rgba(155,69,32,0.2); }
     .set-box.sea { background: var(--lgreen); border: 1px solid rgba(45,106,79,0.2); }
-    .set-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 20px; }
-    .set-label.classic { color: var(--loulan); }
-    .set-label.bold { color: var(--loulan-dark); }
-    .set-label.sea { color: var(--green); }
+    /* ── UNIFIED BOX HEADER ── */
+    .set-price-row { display:flex; align-items:baseline; justify-content:space-between; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
+    .set-price { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--dgreen); line-height:1; }
+    .set-price sub { font-family:var(--font-body); font-size:0.72rem; font-weight:400; color:var(--muted); }
+    .set-meta { font-size:0.78rem; color:var(--muted); font-weight:500; }
+    .set-summary-line { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
+    .set-summary-line.classic { color: var(--loulan); }
+    .set-summary-line.bold { color: var(--loulan-dark); }
+    .set-summary-line.sea { color: var(--green); }
     .dish-list { list-style: none; }
     .dish-list li { padding: 13px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
     .dish-list li:last-child { border-bottom: none; }
@@ -264,7 +269,11 @@
     </div>
 
     <div class="set-box classic">
-      <div class="set-label classic">5 Signature Dishes · Included in every order</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Drop-Off · Min 50 guests</span>
+      </div>
+      <div class="set-summary-line classic">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet classic">›</span>
@@ -328,7 +337,11 @@
     </div>
 
     <div class="set-box bold">
-      <div class="set-label bold">5 Signature Dishes · Included in every order</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Drop-Off · Min 50 guests</span>
+      </div>
+      <div class="set-summary-line bold">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet bold">›</span>
@@ -392,7 +405,11 @@
     </div>
 
     <div class="set-box sea">
-      <div class="set-label sea">5 Signature Dishes · Included in every order</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Drop-Off · Min 50 guests</span>
+      </div>
+      <div class="set-summary-line sea">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet sea">›</span>

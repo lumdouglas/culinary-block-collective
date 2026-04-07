@@ -121,8 +121,13 @@
     /* ── SET CONTENT BOX ── */
     .set-box { border-radius: var(--radius); padding: 28px 32px; margin-bottom: 28px; }
     .set-box.sushi { background: var(--sushi-light); border: 1px solid rgba(99,102,241,0.2); }
-    .set-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 20px; }
-    .set-label.sushi { color: var(--sushi-dark); }
+    /* ── UNIFIED BOX HEADER ── */
+    .set-price-row { display:flex; align-items:baseline; justify-content:space-between; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
+    .set-price { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--dgreen); line-height:1; }
+    .set-price sub { font-family:var(--font-body); font-size:0.72rem; font-weight:400; color:var(--muted); }
+    .set-meta { font-size:0.78rem; color:var(--muted); font-weight:500; }
+    .set-summary-line { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
+    .set-summary-line.sushi { color: var(--sushi-dark); }
     .dish-list { list-style: none; }
     .dish-list li { padding: 13px 0; border-bottom: 1px solid rgba(99,102,241,0.1); display: flex; align-items: flex-start; gap: 10px; }
     .dish-list li:last-child { border-bottom: none; }
@@ -223,56 +228,6 @@
   </div>
 </div>
 
-<!-- WHAT'S INCLUDED BAND -->
-<div class="included-band">
-  <div class="included-band-inner">
-    <div class="included-label">Every Spread Includes</div>
-    <div class="included-grid">
-      <div class="included-item">
-        <div class="included-icon">🍣</div>
-        <div>
-          <h4>Assorted Sushi Rolls</h4>
-          <p>4-piece assorted selection per guest, handcrafted fresh by the team</p>
-        </div>
-      </div>
-      <div class="included-item">
-        <div class="included-icon">🍗</div>
-        <div>
-          <h4>Teriyaki Mains</h4>
-          <p>Chicken &amp; Tofu teriyaki, served warm in chafing dishes with steamed rice</p>
-        </div>
-      </div>
-      <div class="included-item">
-        <div class="included-icon">🥟</div>
-        <div>
-          <h4>Gyoza</h4>
-          <p>Pan-fried chicken and vegetable dumplings with ponzu dipping sauce</p>
-        </div>
-      </div>
-      <div class="included-item">
-        <div class="included-icon">🥬</div>
-        <div>
-          <h4>Edamame</h4>
-          <p>Lightly salted steamed edamame — vegan, gluten-free, crowd-pleasing</p>
-        </div>
-      </div>
-      <div class="included-item">
-        <div class="included-icon">🏷️</div>
-        <div>
-          <h4>CBC Dietary Labels</h4>
-          <p>Every item individually labeled — Vegan, GF, allergens — before your team arrives</p>
-        </div>
-      </div>
-      <div class="included-item">
-        <div class="included-icon">🍽️</div>
-        <div>
-          <h4>Chafing Dishes &amp; Serving Ware</h4>
-          <p>Full self-serve station setup — ready when your team walks in</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- ══════════════════════════════════
      TERIYAKI MAINS
@@ -287,7 +242,11 @@
     </div>
 
     <div class="set-box sushi">
-      <div class="set-label sushi">Served warm · Chafing dishes · White rice included</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Full spread · Min 50 guests</span>
+      </div>
+      <div class="set-summary-line sushi">Teriyaki mains · white rice · chafing dishes</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet">›</span>
@@ -337,7 +296,11 @@
     </div>
 
     <div class="set-box sushi">
-      <div class="set-label sushi">4 pieces per guest · Handcrafted fresh</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Full spread · included in every order</span>
+      </div>
+      <div class="set-summary-line sushi">4 pieces per guest · handcrafted fresh</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet">›</span>
@@ -394,7 +357,11 @@
     </div>
 
     <div class="set-box sushi">
-      <div class="set-label sushi">Pan-fried to order</div>
+      <div class="set-price-row">
+        <span class="set-price">$30<sub>/person</sub></span>
+        <span class="set-meta">Full spread · included in every order</span>
+      </div>
+      <div class="set-summary-line sushi">Pan-fried to order · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet">›</span>

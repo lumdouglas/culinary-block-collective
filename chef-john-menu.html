@@ -120,15 +120,21 @@
     .concept-header h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
     .concept-header p { font-size: 0.88rem; color: var(--muted); }
 
+    /* ── UNIFIED BOX HEADER ── */
+    .set-price-row { display:flex; align-items:baseline; justify-content:space-between; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
+    .set-price { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--dgreen); line-height:1; }
+    .set-price sub { font-family:var(--font-body); font-size:0.72rem; font-weight:400; color:var(--muted); }
+    .set-meta { font-size:0.78rem; color:var(--muted); font-weight:500; }
+    .set-summary-line { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
+    .set-summary-line.mexican { color: var(--mexican); }
+    .set-summary-line.italian { color: var(--italian); }
+    .set-summary-line.med { color: var(--med); }
+
     /* ── SELECTION BOX ── */
     .selection-box { border-radius: var(--radius); padding: 28px 32px; margin-bottom: 28px; }
     .selection-box.mexican { background: var(--mexican-light); border: 1px solid rgba(249,115,22,0.25); }
     .selection-box.italian { background: var(--italian-light); border: 1px solid rgba(181,69,27,0.2); }
     .selection-box.med { background: var(--med-light); border: 1px solid rgba(27,107,138,0.2); }
-    .selection-box h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
-    .selection-box h3.mexican { color: var(--mexican); }
-    .selection-box h3.italian { color: var(--italian); }
-    .selection-box h3.med { color: var(--med); }
     .selection-box > p { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; line-height: 1.6; }
     .selection-group { margin-top: 18px; }
     .selection-group-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 10px; }
@@ -228,6 +234,7 @@
     <a class="concept-tab mexican" href="#tortilla-theory"><span class="concept-dot dot-mexican"></span>The Tortilla Theory</a>
     <a class="concept-tab italian" href="#pasta-table"><span class="concept-dot dot-italian"></span>A Little Pasta Table</a>
     <a class="concept-tab med" href="#grill-grain"><span class="concept-dot dot-med"></span>Grill &amp; Grain</a>
+    <a class="concept-tab pricing" href="#pricing-summary" style="margin-left:auto;">Pricing</a>
   </div>
 </div>
 
@@ -244,8 +251,11 @@
     </div>
 
     <div class="selection-box mexican">
-      <h3 class="mexican">$38/person (100+ guests) · $46/person (50–99 guests)</h3>
-      <p>Choose 2 mains and 3 sides. Includes tortilla chips, warm tortillas, and a full condiment set — chipotle lime crema, pickled jalapeños &amp; carrots, pickled red onions, cotija cheese, lime wedges. Vegan and GF options available.</p>
+      <div class="set-price-row">
+        <span class="set-price">$38<sub>/person</sub></span>
+        <span class="set-meta">100+ guests · $46 for 50–99</span>
+      </div>
+      <div class="set-summary-line mexican">Choose 2 mains · 3 sides · 2 salsas · chips, tortillas &amp; condiment set</div>
 
       <div class="selection-group">
         <div class="selection-group-label">Mains — select 2</div>
@@ -309,11 +319,11 @@
 </section>
 
     <!-- Food Photos: Tortilla Theory -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:48px;">
-      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/chile_lime_shrimp_street_corn_slaw.jpg" alt="Chile lime shrimp with street corn and slaw" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
-      <img src="/images/five-course-provisions/beef_birria_black_beans_quinoa_salad.jpg" alt="Beef birria with black beans and quinoa salad" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" />
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
+      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+      <img src="/images/five-course-provisions/chile_lime_shrimp_street_corn_slaw.jpg" alt="Chile lime shrimp with street corn and slaw" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+      <img src="/images/five-course-provisions/beef_birria_black_beans_quinoa_salad.jpg" alt="Beef birria with black beans and quinoa salad" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
     </div>
 
 <hr class="concept-divider" />
@@ -331,8 +341,11 @@
     </div>
 
     <div class="selection-box italian">
-      <h3 class="italian">$38/person (100+ guests) · $46/person (50–99 guests)</h3>
-      <p>Choose 2 mains and 3 sides. Includes garlic bread and a full condiment set — parmesan, chili flakes, olive oil, balsamic glaze. Vegan and GF options available on request.</p>
+      <div class="set-price-row">
+        <span class="set-price">$38<sub>/person</sub></span>
+        <span class="set-meta">100+ guests · $46 for 50–99</span>
+      </div>
+      <div class="set-summary-line italian">Choose 2 mains · 3 sides · garlic bread · parmesan &amp; condiment set</div>
 
       <div class="selection-group">
         <div class="selection-group-label">Mains — select 2</div>
@@ -374,7 +387,7 @@
 </section>
 
     <!-- Food Photos: Pasta Table -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:48px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
       <img src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad and lemon orzo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
       <img src="/images/five-course-provisions/chef-john-action.jpg" alt="Chef John Alvarez preparing Five Course Provision" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
     </div>
@@ -394,8 +407,11 @@
     </div>
 
     <div class="selection-box med">
-      <h3 class="med">$46/person (100+ guests) · $50/person (50–99 guests)</h3>
-      <p>Grilled proteins, seasonal salads, and bright herb grains — served with warm pita, flatbread, pickled onions &amp; cucumber, marinated olives, crumbled feta, and lemon wedges. Vegan and GF options available.</p>
+      <div class="set-price-row">
+        <span class="set-price">$46<sub>/person</sub></span>
+        <span class="set-meta">100+ guests · $50 for 50–99</span>
+      </div>
+      <div class="set-summary-line med">Choose 2 mains · 3 sides · 2 sauces · warm pita, flatbread &amp; mezze set</div>
 
       <div class="selection-group">
         <div class="selection-group-label">Mains — select 2</div>
@@ -461,7 +477,7 @@
 </section>
 
     <!-- Food Photos: Grill & Grain -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-bottom:16px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
       <img src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
       <img src="/images/five-course-provisions/harissa_salmon_saffron_rice_hummus.jpg" alt="Harissa roasted salmon with saffron rice and hummus" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
     </div>
@@ -469,7 +485,7 @@
 <!-- ══════════════════════════════════
      DIETARY + PRICING SUMMARY
 ═══════════════════════════════════ -->
-<section class="section section-alt">
+<section class="section section-alt" id="pricing-summary">
   <div class="container">
 
     <div class="dietary-banner" style="margin-bottom:40px;">
