@@ -9,6 +9,9 @@
     { "source": "/chef-loulan-menu",            "destination": "/chef-loulan-menu.html" },
     { "source": "/chef-unique-cuisine",         "destination": "/chef-unique-cuisine.html" },
     { "source": "/chef-unique-cuisine-menu",    "destination": "/chef-unique-cuisine-menu.html" },
-    { "source": "/chef-partner",                "destination": "/chef-partner.html" }
+    { "source": "/chef-partner",                "destination": "/chef-partner.html" },
+    { "source": "/programs",                    "destination": "/programs.html" },
+    { "source": "/proposal-corporate",          "destination": "/proposal-corporate.html" },
+    { "source": "/proposal-event",              "destination": "/proposal-event.html" }
   ]
 }

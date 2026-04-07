@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corporate Program Proposal — Culinary Block Collective</title>
+  <!-- PRIVATE TEMPLATE — not in sitemap, not in nav -->
+  <!-- HOW TO USE:
+       1. Ctrl+F for "[" to find all placeholders and fill in client details
+       2. File → Print → Save as PDF (use "Letter" size, Background graphics ON)
+       3. Email the PDF to the client
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --green:       #2D6A4F;
+      --dgreen:      #1B4332;
+      --lgreen:      #EDF5EE;
+      --lgreen2:     #F2F9F3;
+      --gold:        #B8960C;
+      --lgold:       #FAF4E1;
+      --cream:       #FAFAF8;
+      --cream2:      #F4F1EB;
+      --border:      #E5E0D8;
+      --text:        #1A1814;
+      --muted:       #6B6560;
+      --white:       #FFFFFF;
+      --radius:      8px;
+      --font-display:'Cormorant Garamond', Georgia, serif;
+      --font-body:   'Inter', system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--white); line-height: 1.6; }
+    a { color: var(--green); }
+
+    .page-wrap { max-width: 820px; margin: 0 auto; padding: 48px 48px 64px; }
+
+    /* ── HEADER ── */
+    .proposal-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding-bottom: 24px; border-bottom: 2px solid var(--dgreen); margin-bottom: 36px;
+    }
+    .logo { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; color: var(--dgreen); line-height: 1.2; }
+    .logo span { color: var(--gold); }
+    .logo-sub { font-family: var(--font-body); font-size: 0.72rem; color: var(--muted); font-weight: 400; margin-top: 3px; }
+    .proposal-meta { text-align: right; font-size: 0.78rem; color: var(--muted); line-height: 1.9; }
+    .proposal-meta strong { color: var(--text); display: inline-block; min-width: 90px; }
+
+    /* ── TITLE ── */
+    .proposal-title { margin-bottom: 40px; }
+    .proposal-type {
+      font-size: 0.68rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+      color: var(--green); background: var(--lgreen);
+      display: inline-block; padding: 5px 14px; border-radius: 2px; margin-bottom: 12px;
+    }
+    .proposal-title h1 {
+      font-family: var(--font-display); font-size: 2.8rem; font-weight: 600;
+      color: var(--dgreen); line-height: 1.08;
+    }
+    .proposal-title p { font-size: 0.95rem; color: var(--muted); margin-top: 12px; line-height: 1.7; max-width: 580px; }
+
+    /* ── SECTIONS ── */
+    .section { margin-bottom: 40px; }
+    .section-title {
+      font-family: var(--font-display); font-size: 1.3rem; font-weight: 600;
+      color: var(--dgreen); margin-bottom: 14px;
+      padding-bottom: 8px; border-bottom: 1.5px solid var(--border);
+    }
+    .section-num { color: var(--gold); margin-right: 6px; }
+
+    /* ── DETAILS GRID ── */
+    .details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .detail-item { background: var(--cream2); border-radius: 6px; padding: 13px 16px; }
+    .detail-label { font-size: 0.66rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .detail-value { font-size: 0.9rem; font-weight: 600; color: var(--dgreen); }
+    .detail-value.ph { color: #C0392B; font-style: italic; font-weight: 400; }
+
+    /* ── TABLE ── */
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 0.875rem; }
+    th {
+      background: var(--dgreen); color: var(--white);
+      font-size: 0.68rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      padding: 9px 13px; text-align: left;
+    }
+    td { padding: 9px 13px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr.total-row td { font-weight: 700; background: var(--lgreen2); color: var(--dgreen); border-top: 1.5px solid var(--green); }
+    tr.addon-row td { font-size: 0.82rem; color: var(--muted); }
+    .table-note { font-size: 0.72rem; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+
+    /* ── CHECKLIST ── */
+    .check-list { list-style: none; }
+    .check-list li {
+      display: flex; gap: 10px; padding: 7px 0;
+      font-size: 0.875rem; border-bottom: 1px solid var(--border);
+    }
+    .check-list li:last-child { border: none; }
+    .check { color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+    /* ── ESG BLOCK ── */
+    .esg-block {
+      background: var(--lgreen2); border: 1px solid #B7D4BF;
+      border-radius: var(--radius); padding: 24px;
+    }
+    .esg-block h4 { font-family: var(--font-display); font-size: 1.1rem; color: var(--dgreen); margin-bottom: 10px; }
+    .esg-block p { font-size: 0.875rem; color: var(--text); line-height: 1.7; margin-bottom: 10px; }
+    .esg-block p:last-child { margin-bottom: 0; color: var(--muted); font-size: 0.75rem; }
+
+    /* ── ROI BOX ── */
+    .roi-box {
+      background: var(--lgold); border: 1px solid rgba(184,150,12,0.25);
+      border-radius: var(--radius); padding: 18px 22px; margin-top: 14px;
+    }
+    .roi-box p { font-size: 0.875rem; color: var(--dgreen); line-height: 1.7; }
+
+    /* ── TERMS ── */
+    .terms-list { list-style: none; }
+    .terms-list li {
+      display: flex; gap: 12px; align-items: flex-start;
+      font-size: 0.875rem; padding: 9px 0; border-bottom: 1px solid var(--border);
+    }
+    .terms-list li:last-child { border: none; }
+    .term-label { font-weight: 700; color: var(--dgreen); min-width: 150px; flex-shrink: 0; }
+
+    /* ── STEPS ── */
+    .steps-list { counter-reset: step; list-style: none; }
+    .steps-list li {
+      counter-increment: step; display: flex; gap: 16px;
+      padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 0.875rem;
+    }
+    .steps-list li:last-child { border: none; }
+    .steps-list li::before {
+      content: counter(step);
+      display: flex; align-items: center; justify-content: center;
+      width: 26px; height: 26px; border-radius: 50%;
+      background: var(--dgreen); color: var(--white);
+      font-size: 0.72rem; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+    }
+
+    /* ── SIGNATURE ── */
+    .sig-block {
+      margin-top: 40px; padding-top: 28px; border-top: 1px solid var(--border);
+      display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+    }
+    .sig-line { border-bottom: 1px solid var(--text); margin-top: 44px; }
+    .sig-label { font-size: 0.72rem; color: var(--muted); margin-top: 6px; line-height: 1.6; }
+
+    /* ── PAGE BREAK HINT ── */
+    .page-break { border: none; border-top: 2px dashed var(--border); margin: 48px 0; }
+    .page-break-label {
+      text-align: center; font-size: 0.68rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase; color: var(--border);
+      margin-top: -11px; background: var(--white); display: inline-block;
+      padding: 0 12px; position: relative; left: 50%; transform: translateX(-50%);
+    }
+
+    /* ── PRINT TOOLBAR (screen only) ── */
+    .toolbar {
+      position: fixed; top: 20px; right: 20px;
+      display: flex; gap: 10px; z-index: 100;
+    }
+    .toolbar a, .toolbar button {
+      font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+      padding: 10px 18px; border-radius: 6px; cursor: pointer;
+      text-decoration: none; display: inline-flex; align-items: center;
+    }
+    .toolbar-back { background: var(--cream2); color: var(--text); border: 1px solid var(--border); }
+    .toolbar-print { background: var(--dgreen); color: var(--white); border: none; }
+    .toolbar-print:hover { background: var(--green); }
+
+    /* ── PRINT STYLES ── */
+    @media print {
+      .toolbar { display: none !important; }
+      .page-break { display: none; }
+      .page-break-label { display: none; }
+      .page-wrap { padding: 0; max-width: none; }
+      .section { page-break-inside: avoid; }
+      .proposal-header { page-break-after: avoid; }
+      .esg-block { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .roi-box { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      tr.total-row td { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .detail-item { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .steps-list li::before { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .ph { color: var(--text) !important; font-style: normal !important; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="toolbar-back" href="/">← Back to Site</a>
+  <button class="toolbar-print" onclick="window.print()">Save as PDF &nbsp;↓</button>
+</div>
+
+<div class="page-wrap">
+
+  <!-- HEADER -->
+  <header class="proposal-header">
+    <div>
+      <div class="logo">Culinary Block <span>Collective</span></div>
+      <div class="logo-sub">culinaryblockcatering@gmail.com &nbsp;·&nbsp; (415) 699-4397</div>
+    </div>
+    <div class="proposal-meta">
+      <div><strong>Prepared for:</strong> <span class="ph">[Company Name]</span></div>
+      <div><strong>Attention:</strong> <span class="ph">[Contact Name, Title]</span></div>
+      <div><strong>Date:</strong> <span class="ph">[Date]</span></div>
+      <div><strong>Valid for:</strong> 30 days from date above</div>
+    </div>
+  </header>
+
+  <!-- TITLE -->
+  <div class="proposal-title">
+    <div class="proposal-type">Corporate Catering Program Proposal</div>
+    <h1>Catering as a<br/>Culture Strategy</h1>
+    <p>A recurring catering program for HR and People Ops teams — specialist chefs, locked pricing, ESG-reportable, and built to scale with your headcount.</p>
+  </div>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 1 — PROPOSED PROGRAM
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">1.</span> Proposed Program</h2>
+    <div class="details-grid">
+      <div class="detail-item">
+        <div class="detail-label">Frequency</div>
+        <div class="detail-value ph">[Weekly / Bi-Weekly / Monthly]</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Est. Guests per Event</div>
+        <div class="detail-value ph">[X guests]</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Cuisine Rotation</div>
+        <div class="detail-value ph">[e.g. Chinese & SE Asian · Sushi, alternating]</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Service Tier</div>
+        <div class="detail-value ph">[Drop-Off Spread / Attended Spread]</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Proposed Start</div>
+        <div class="detail-value ph">[Start Date]</div>
+      </div>
+      <div class="detail-item">
+        <div class="detail-label">Serviceware</div>
+        <div class="detail-value ph">[Standard / + Compostable Plates & Utensils]</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 2 — PRICING & QUARTERLY PROJECTION
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">2.</span> Pricing &amp; Quarterly Projection</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Line Item</th>
+          <th>Rate</th>
+          <th>Events / Qtr</th>
+          <th>Guests</th>
+          <th>Qtr Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="ph">[Chef / Cuisine — e.g. Loulan · Chef Kun, Chinese & SE Asian]</span></td>
+          <td class="ph">[$XX/person]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[$X,XXX]</td>
+        </tr>
+        <tr>
+          <td><span class="ph">[Chef / Cuisine — e.g. Unique Cuisine Sushi]</span> (alternating)</td>
+          <td class="ph">[$XX/person]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[$X,XXX]</td>
+        </tr>
+        <tr class="addon-row">
+          <td>+ Attended Service — on-site CBC staff, setup &amp; breakdown (optional)</td>
+          <td>+$8/person</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[$X,XXX]</td>
+        </tr>
+        <tr class="addon-row">
+          <td>+ Compostable Plates &amp; Utensils — BPI-certified, replaces all single-use plastic (optional)</td>
+          <td>+$2/person</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[X]</td>
+          <td class="ph">[$X,XXX]</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="4">Estimated Quarterly Investment</td>
+          <td class="ph">[$X,XXX]</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="table-note">Per-guest pricing locked for program term. All pricing includes delivery, dietary labeling on every item, printed menu cards, and a dedicated coordinator. Sales tax collected separately and remitted per California law.</p>
+  </div>
+
+
+  <hr class="page-break" /><span class="page-break-label">Page 2</span>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 3 — WHAT'S INCLUDED
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">3.</span> What's Included — Every Event</h2>
+    <ul class="check-list">
+      <li><span class="check">✓</span> Chef's Spread with chafing dishes, insulated trays, and serving utensils — set up and ready on arrival</li>
+      <li><span class="check">✓</span> Individual dietary label on every single item — vegan, gluten-free, nut-free, dairy-free clearly marked</li>
+      <li><span class="check">✓</span> Food safety labels with consume-by times on all items — fully AB 660 compliant before the July 2026 California deadline</li>
+      <li><span class="check">✓</span> Printed menu card and full dietary breakdown sheet for your team</li>
+      <li><span class="check">✓</span> On-time delivery guarantee — 10% credit toward next order if we're late</li>
+      <li><span class="check">✓</span> Dedicated CBC coordinator — one point of contact for every event, no managing multiple vendors</li>
+      <li><span class="check">✓</span> Rotating multi-cuisine calendar — new chef or cuisine each cycle, shared monthly in advance</li>
+      <li><span class="check">✓</span> Standing order setup — zero per-event admin once the program is confirmed</li>
+    </ul>
+  </div>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 4 — SUSTAINABILITY & ESG
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">4.</span> Sustainability &amp; ESG</h2>
+    <div class="esg-block">
+      <h4>Vendor Sustainability Summary</h4>
+      <p>Culinary Block Collective works exclusively with independent chef-operators preparing food out of a licensed commercial commissary kitchen in San Jose, CA. Standard packaging is BPI-certified compostable. Chefs prepare food in small batches to order — minimizing excess production and waste.</p>
+      <p><strong>Compostable Plates &amp; Utensils (+$2/person add-on):</strong> For clients with zero-landfill goals or ESG reporting requirements, CBC offers BPI-certified compostable plates, napkins, and utensil sets on any order. This replaces all single-use plastic serviceware with certified compostable alternatives — available as a standing add-on to your program or on a per-event basis.</p>
+      <p><strong>Carbon Offset Option:</strong> Available on request. CBC can source a verified carbon offset covering your program's estimated delivery emissions. Contact us for current offset pricing.</p>
+      <p>This summary may be used in internal ESG or sustainability reporting. For a formal vendor ESG attestation letter, contact culinaryblockcatering@gmail.com.</p>
+    </div>
+    <div class="roi-box">
+      <p><strong>Inclusion &amp; Representation:</strong> CBC's rotating roster spans Chinese &amp; Southeast Asian, Japanese (sushi), Mediterranean, Italian, and Mexican cuisines — each prepared by a dedicated specialist chef. A rotating multi-cuisine program is a visible, recurring statement of workforce representation, not just a lunch benefit.</p>
+    </div>
+  </div>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 5 — ROI FRAMING
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">5.</span> The Business Case</h2>
+    <ul class="check-list">
+      <li><span class="check">→</span> Average cost to replace one employee: <strong>$15,000–$20,000</strong> (recruiting, onboarding, lost productivity). Weekly catering at $25–$30/person is a measurable, visible retention investment relative to that baseline.</li>
+      <li><span class="check">→</span> Food satisfaction is a consistent top-5 driver in employee engagement surveys for tech companies with 50–300 employees. A diverse, high-quality rotating menu keeps the program fresh — not just "catering again."</li>
+      <li><span class="check">→</span> A recurring program with locked pricing and a 90-day review clause gives you predictable quarterly spend — one line item, no invoice surprises, no per-event negotiation.</li>
+      <li><span class="check">→</span> ESG-reportable vendor selection (BPI packaging, compostable serviceware, carbon offset option) supports existing sustainability commitments without adding operational overhead.</li>
+    </ul>
+  </div>
+
+
+  <hr class="page-break" /><span class="page-break-label">Page 3</span>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 6 — PROGRAM TERMS
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">6.</span> Program Terms</h2>
+    <ul class="terms-list">
+      <li><span class="term-label">Minimum Term</span> 3 months (one quarter), renewable quarterly</li>
+      <li><span class="term-label">Review Clause</span> 90-day review built in — adjust guest count, cuisine mix, service tier, or add-ons at each review with no penalty</li>
+      <li><span class="term-label">Pricing Lock</span> Per-guest rate fixed for the program term; renegotiated at renewal only</li>
+      <li><span class="term-label">Billing</span> Net 30 from event date. CBC is the billing entity — one invoice per event or consolidated monthly. Sales tax collected separately and remitted to the state</li>
+      <li><span class="term-label">Individual Event Cancel</span> Cancel any single event with 7+ days notice at no charge. Within 7 days: 25% fee. Within 72 hours: 50% fee</li>
+      <li><span class="term-label">Program Cancellation</span> Cancel the program with 30 days written notice after the minimum 3-month term. No long-term lock-in</li>
+      <li><span class="term-label">Guest Count Range</span> 50–500 guests per event. Confirmed 48 hours before each event</li>
+      <li><span class="term-label">Deposit</span> 25% deposit to confirm program start date; applied to first event invoice</li>
+    </ul>
+  </div>
+
+
+  <!-- ─────────────────────────────────────────
+       SECTION 7 — NEXT STEPS
+  ───────────────────────────────────────── -->
+  <div class="section">
+    <h2 class="section-title"><span class="section-num">7.</span> Next Steps</h2>
+    <ol class="steps-list">
+      <li>
+        <div>
+          <strong>Free chef tasting</strong> — taste dishes from your 2–3 shortlisted cuisines before committing. No obligation, no cost. Call or text <strong>(415) 699-4397</strong> or email <strong>culinaryblockcatering@gmail.com</strong> to schedule.
+        </div>
+      </li>
+      <li>
+        <div><strong>Confirm program details</strong> — finalize frequency, guest count, cuisine rotation, service tier, and add-ons. CBC sends a final program agreement within 48 hours of confirmation.</div>
+      </li>
+      <li>
+        <div><strong>Sign program agreement &amp; submit deposit</strong> — simple service agreement covering pricing, terms, and cancellation. 25% deposit confirms your start date.</div>
+      </li>
+      <li>
+        <div><strong>Receive standing order calendar</strong> — CBC sends your first quarter's cuisine rotation and event dates. You're done until the 90-day review.</div>
+      </li>
+    </ol>
+  </div>
+
+
+  <!-- SIGNATURE -->
+  <div class="sig-block">
+    <div>
+      <div class="sig-line"></div>
+      <div class="sig-label">Doug — Culinary Block Collective LLC</div>
+      <div class="sig-label">culinaryblockcatering@gmail.com · (415) 699-4397</div>
+      <div class="sig-label">Date: _______________</div>
+    </div>
+    <div>
+      <div class="sig-line"></div>
+      <div class="sig-label"><span class="ph">[Client Name, Title]</span></div>
+      <div class="sig-label"><span class="ph">[Company Name]</span></div>
+      <div class="sig-label">Date: _______________</div>
+    </div>
+  </div>
+
+</div><!-- /page-wrap -->
+</body>
+</html>
