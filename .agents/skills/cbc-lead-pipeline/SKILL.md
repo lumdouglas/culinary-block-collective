@@ -21,8 +21,8 @@ against these files.
 
 | File | Path | Purpose |
 |---|---|---|
-| LinkedIn leads | `CBC_Sales/01_Leads/LinkedIn_Leads_CBC.csv` | Raw prospect list from LinkedIn Sales Navigator |
-| HubSpot pipeline | `CBC_Sales/02_Pipeline/HubSpot_Pipeline_CBC.csv` | Active deals with stage tracking |
+| LinkedIn leads | `CBC_Sales/leads/LinkedIn_Leads_CBC.csv` | Raw prospect list from LinkedIn Sales Navigator |
+| HubSpot pipeline | `CBC_Sales/pipeline/HubSpot_Pipeline_CBC.csv` | Active deals with stage tracking |
 
 ---
 
@@ -94,14 +94,15 @@ markdown table sorted by staleness (most overdue first) with columns:
 
 ```
 CBC_Sales/
-├── 01_Leads/          ← LinkedIn exports. Never delete rows — archive stale leads.
-├── 02_Pipeline/       ← HubSpot exports. Source of truth for deal stages.
-├── 03_Emails_Drafts/  ← Ready-to-send email drafts. Naming: YYYY-MM-DD_FirstName_LastName_TouchN.docx
-├── 04_Quotes/         ← Quote PDFs and vendor agreements
-├── 05_Content/        ← LinkedIn posts, Instagram captions
-├── 06_Reports/        ← Weekly scorecards
-├── 07_Templates/      ← Master email templates, menus, one-pager
-├── 08_Completed/      ← Sent emails, closed deals, archive
+├── leads/             ← LinkedIn exports. Never delete rows — archive stale leads.
+├── pipeline/          ← HubSpot exports. Source of truth for deal stages.
+├── outreach/          ← Ready-to-send email drafts. Naming: YYYY-MM-DD_FirstName_LastName_TouchN.docx
+├── quotes/            ← Quote PDFs and vendor agreements
+├── content/           ← LinkedIn posts, Instagram captions
+├── reports/           ← Weekly scorecards
+├── templates/         ← Master email templates, menus, one-pager
+├── completed/         ← Sent emails, closed deals, archive
+└── setup/             ← cbc-sales.plugin + CBC_Cowork_Shortcuts_Setup.md
 ```
 
 Each subfolder has a `README.txt` with naming conventions. Follow them exactly.
@@ -136,6 +137,10 @@ When adding a lead to the pipeline:
 ---
 
 ## ICP Quick Reference
+
+> When classifying or prioritizing a prospect, also consult:
+> - `docs/om-identification-field-guide.md` — classify the OM into one of 5 subtypes; add subtype to Profile Notes
+> - `docs/cbc-personas-deep-dossier.md` — tone and pain-point reference for Sarah (OM) and Marcus (HR)
 
 **Primary buyer:** Office managers, executive assistants, HR/Culture leads, facilities managers
 

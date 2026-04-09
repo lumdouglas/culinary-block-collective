@@ -128,6 +128,8 @@ Save output to `CBC_Sales/05_Content/` with naming: `YYYY-MM-DD_content_week.md`
 
 ## Target Audience Context
 
+> Before writing any copy targeted at office managers or HR leads, consult `docs/cbc-personas-deep-dossier.md` for tone calibration — especially the first-person monologue sections. Use it to pressure-test subject lines, hooks, and CTAs against what Sarah/Marcus actually think and fear. `docs/personas.md` is the structured reference card; the dossier is the psychological layer.
+
 The reader of CBC's LinkedIn content is likely:
 - An office manager or EA at a Bay Area tech company (50–500 employees)
 - Someone who books catering 1–4x per month

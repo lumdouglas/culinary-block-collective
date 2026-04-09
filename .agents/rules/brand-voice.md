@@ -10,7 +10,7 @@
 
 ## Core Trust Badges (Use in All Marketing)
 
-> "On-Time Delivery Guaranteed · Every Item Dietary-Labeled · Independent Specialist Chefs"
+> "On-Time Delivery Guaranteed · Every Item Dietary-Labeled · Compostable Tableware Included · Independent Specialist Chefs"
 
 ---
 

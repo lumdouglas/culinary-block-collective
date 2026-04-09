@@ -13,6 +13,18 @@ description: >
 
 # Outbound Sales Execution
 
+## Reference docs — read before drafting any outreach
+
+Before writing a cold email, LinkedIn DM, or follow-up for a prospect, read these in order:
+
+1. `docs/om-identification-field-guide.md` — classify the prospect into one of 5 OM subtypes using their LinkedIn profile or prior reply (Veteran Operator, Promoted EA, Accidental OM, Workplace Experience Builder, OM/HR Hybrid)
+2. `docs/om-outreach-templates.md` — pull the subtype-specific email sequence and LinkedIn DM; personalize bracketed fields; do not send generic templates
+3. `docs/cbc-personas-deep-dossier.md` — tone calibration; confirms what Sarah/Marcus actually fear, value, and ignore; use this to pressure-test subject lines and opening lines before sending
+
+The generic sequence templates later in this skill are starting points. The subtype-specific templates in `om-outreach-templates.md` take precedence when the prospect has been classified.
+
+---
+
 Doug runs CBC (Culinary Block Collective), a catering platform connecting chef entrepreneurs with Bay Area
 corporate clients on a commission model. The outbound motion targets: corporate office managers, executive
 assistants, event coordinators, HR / culture leads, and facilities managers at mid-to-large tech companies,

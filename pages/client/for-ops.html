@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catering for Office Managers | Culinary Block Collective</title>
+  <meta name="description" content="Corporate catering that doesn't require babysitting. On-time guarantee, individual dietary labels, AB 660 compliant. $25–$40/person. Serving Bay Area tech teams." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EDF5EE;
+      --lgreen2:      #F2F9F3;
+      --gold:         #C9992A;
+      --gold-hover:   #a67e09;
+      --lgold:        #FAF4E1;
+      --cream:        #FAF7F2;
+      --cream2:       #F4F1EB;
+      --border:       #E5E0D8;
+      --text:         #1A1814;
+      --muted:        #6B6560;
+      --white:        #FFFFFF;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── STICKY HEADER ── */
+    .lp-header {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 32px; height: 60px;
+    }
+    .lp-logo {
+      font-family: var(--font-display); color: var(--white);
+      font-weight: 600; font-size: 1.15rem; letter-spacing: .02em;
+    }
+    .lp-logo span { color: var(--gold); }
+    .lp-phone {
+      display: flex; align-items: center; gap: 8px;
+      color: var(--gold); font-weight: 700; font-size: 0.9rem;
+    }
+    .lp-phone svg { width: 15px; height: 15px; flex-shrink: 0; }
+    @media (max-width: 480px) {
+      .lp-header { padding: 0 16px; }
+      .lp-logo { font-size: 1rem; }
+    }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+    @media (max-width: 600px) { .container { padding: 0 20px; } }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--dgreen);
+      padding: 72px 32px 64px;
+      text-align: center;
+      color: var(--white);
+    }
+    .hero-eyebrow {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--gold); border: 1px solid var(--gold);
+      padding: 5px 16px; border-radius: 2px; margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.4rem);
+      font-weight: 600; line-height: 1.1; letter-spacing: -0.01em;
+      margin-bottom: 20px;
+    }
+    .hero-sub {
+      font-size: 1.05rem; color: rgba(255,255,255,0.78);
+      max-width: 600px; margin: 0 auto 36px; line-height: 1.7;
+    }
+    .hero-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .btn-gold {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--gold); color: var(--dgreen);
+      font-weight: 700; font-size: 0.95rem; padding: 13px 26px;
+      border-radius: 6px; border: none; cursor: pointer;
+      transition: transform .15s, background .15s;
+    }
+    .btn-gold:hover { transform: translateY(-1px); background: var(--gold-hover); color: var(--white); }
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: var(--white);
+      font-weight: 600; font-size: 0.95rem; padding: 12px 26px;
+      border-radius: 6px; border: 1px solid rgba(255,255,255,0.4);
+      cursor: pointer; transition: border-color .15s, background .15s;
+    }
+    .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+    /* ── SECTIONS ── */
+    section { padding: 64px 0; }
+    section + section { border-top: 1px solid var(--border); }
+
+    .section-label {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      color: var(--green); background: var(--lgreen);
+      padding: 5px 16px; border-radius: 2px; margin-bottom: 16px;
+    }
+    .section-title {
+      font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 600; line-height: 1.15; color: var(--dgreen); margin-bottom: 8px;
+    }
+    .section-sub { font-size: 1rem; color: var(--muted); margin-bottom: 40px; line-height: 1.7; }
+
+    /* ── THREE GUARANTEES ── */
+    .guarantee-list { display: flex; flex-direction: column; gap: 28px; }
+    .guarantee-item {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 10px; padding: 32px 36px;
+      display: flex; gap: 24px; align-items: flex-start;
+    }
+    .guarantee-icon {
+      flex-shrink: 0; width: 44px; height: 44px;
+      background: var(--lgreen); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .guarantee-icon svg { width: 22px; height: 22px; stroke: var(--green); fill: none; }
+    .guarantee-item h3 {
+      font-family: var(--font-display); font-size: 1.45rem;
+      font-weight: 600; color: var(--dgreen); margin-bottom: 8px;
+    }
+    .guarantee-item p { font-size: 0.95rem; color: var(--muted); line-height: 1.7; }
+    .guarantee-badge {
+      display: inline-block; font-size: 0.72rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--gold); background: var(--lgold);
+      padding: 4px 12px; border-radius: 2px; margin-bottom: 10px;
+    }
+    @media (max-width: 540px) {
+      .guarantee-item { flex-direction: column; gap: 16px; padding: 24px; }
+    }
+
+    /* ── HOW IT WORKS ── */
+    .steps { display: flex; flex-direction: column; gap: 0; counter-reset: steps; }
+    .step {
+      display: flex; gap: 24px; align-items: flex-start;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      flex-shrink: 0;
+      width: 40px; height: 40px; border-radius: 50%;
+      background: var(--dgreen); color: var(--gold);
+      font-family: var(--font-display); font-weight: 700; font-size: 1.2rem;
+      display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .step h4 { font-size: 1rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
+    .step p { font-size: 0.93rem; color: var(--muted); line-height: 1.65; }
+
+    /* ── LOGISTICS STRIP ── */
+    .logistics {
+      background: var(--lgreen2); border: 1px solid #D0E8D8;
+      border-radius: 10px; padding: 32px 36px;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px 32px;
+    }
+    .logistics-item { }
+    .logistics-label { font-size: 0.72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--green); margin-bottom: 4px; }
+    .logistics-value { font-size: 0.95rem; font-weight: 600; color: var(--dgreen); }
+
+    /* ── CTA FOOTER ── */
+    .cta-section {
+      background: var(--dgreen); text-align: center;
+      padding: 72px 32px; color: var(--white);
+    }
+    .cta-section h2 {
+      font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 600; margin-bottom: 12px; line-height: 1.15;
+    }
+    .cta-section p { font-size: 1rem; color: rgba(255,255,255,0.72); margin-bottom: 32px; line-height: 1.7; }
+    .cta-contacts { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-bottom: 32px; }
+    .cta-contact-item { font-size: 0.95rem; color: rgba(255,255,255,0.85); }
+    .cta-contact-item a { color: var(--gold); font-weight: 700; }
+    .cta-tagline {
+      font-size: 0.8rem; color: rgba(255,255,255,0.45);
+      letter-spacing: .06em; margin-top: 40px;
+    }
+
+    /* ── PRINT ── */
+    @media print {
+      .lp-header { position: relative; background: var(--dgreen) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .hero { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .cta-section { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .hero-actions, .no-print { display: none !important; }
+      .btn-gold, .btn-outline { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- STICKY HEADER -->
+<header class="lp-header">
+  <div class="lp-logo">Culinary Block <span>Collective</span></div>
+  <a href="tel:+14156994397" class="lp-phone">
+    <svg viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 6.75z"/></svg>
+    (415) 699-4397
+  </a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">For Office Managers &amp; Workplace Ops</div>
+  <h1>Catering that doesn't require<br>babysitting the morning of.</h1>
+  <p class="hero-sub">CBC delivers specialist Chef's Spreads to South Bay tech teams — with a written on-time guarantee, individual dietary labels on every item, and pricing you can copy-paste into a budget doc.</p>
+  <div class="hero-actions">
+    <a href="mailto:culinaryblockcatering@gmail.com?subject=Catering%20Quote%20Request" class="btn-gold">Get a Quote — 24hr Response</a>
+    <button onclick="window.print()" class="btn-outline no-print">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"/></svg>
+      Download PDF
+    </button>
+  </div>
+</section>
+
+<!-- THREE GUARANTEES -->
+<section>
+  <div class="container">
+    <div class="section-label">Three Guarantees</div>
+    <h2 class="section-title">Things your current vendor<br>probably won't put in writing.</h2>
+    <p class="section-sub">We put all three in the contract.</p>
+
+    <div class="guarantee-list">
+
+      <div class="guarantee-item">
+        <div class="guarantee-icon">
+          <svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div>
+          <div class="guarantee-badge">Written Guarantee</div>
+          <h3>On-Time. Guaranteed.</h3>
+          <p>If your Chef's Spread isn't staged and ready at the agreed time, your next order is automatically 10% off. That's in the contract — not a verbal promise.</p>
+        </div>
+      </div>
+
+      <div class="guarantee-item">
+        <div class="guarantee-icon">
+          <svg viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div>
+          <div class="guarantee-badge">Every Item, Every Order</div>
+          <h3>Every Item Labeled — No Guessing</h3>
+          <p>Vegan. Gluten-free. Nut-free. Dairy-free. Every tray, every item. Your team reads the label — not you. Dietary breakdown sheet included with every order.</p>
+        </div>
+      </div>
+
+      <div class="guarantee-item">
+        <div class="guarantee-icon">
+          <svg viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+        </div>
+        <div>
+          <div class="guarantee-badge">Effective July 1, 2026</div>
+          <h3>AB 660 Compliant — Before the Deadline</h3>
+          <p>California AB 660 requires individual food safety labeling on all catered items starting July 1, 2026. We're already compliant. Is your current vendor?</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section>
+  <div class="container">
+    <div class="section-label">How It Works</div>
+    <h2 class="section-title">Three steps. Nothing to manage.</h2>
+    <p class="section-sub">You send headcount. We handle everything else.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div>
+          <h4>Send us headcount, date, and dietary restrictions</h4>
+          <p>Text, email, or call. No intake form, no portal. We respond within 2 hours during business hours.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div>
+          <h4>Receive your quote within 24 hours</h4>
+          <p>All-in per-person pricing. No add-ons, no surprises. Safe to copy directly into your budget doc or forward to your manager.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div>
+          <h4>Your spread arrives staged and ready</h4>
+          <p>Chafing dishes, serving utensils, printed menu card, individual dietary labels — everything in place. You don't touch it until it's time to eat. Client handles cleanup.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOGISTICS -->
+<section>
+  <div class="container">
+    <div class="section-label">At a Glance</div>
+    <h2 class="section-title">The details worth knowing.</h2>
+    <p class="section-sub" style="margin-bottom:32px;">Everything you need to make a decision — no sales call required.</p>
+
+    <div class="logistics">
+      <div class="logistics-item">
+        <div class="logistics-label">Minimum Guests</div>
+        <div class="logistics-value">50 guests</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Maximum Guests</div>
+        <div class="logistics-value">500 guests</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Pricing</div>
+        <div class="logistics-value">$25–$40/person</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Format</div>
+        <div class="logistics-value">Self-serve Chef's Spread</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Tableware</div>
+        <div class="logistics-value">Compostable, included</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Service Area</div>
+        <div class="logistics-value">San Jose · Palo Alto · Mountain View · Sunnyvale · Santa Clara</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Quote Turnaround</div>
+        <div class="logistics-value">24 hours or less</div>
+      </div>
+      <div class="logistics-item">
+        <div class="logistics-label">Booking Lead Time</div>
+        <div class="logistics-value">48 hrs (under 150 guests)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FOOTER -->
+<section class="cta-section">
+  <h2>Ready to lock in a date?</h2>
+  <p>We respond within 2 hours. Quote in your inbox within 24.</p>
+
+  <div class="cta-contacts">
+    <div class="cta-contact-item">Text or call: <a href="tel:+14156994397">(415) 699-4397</a></div>
+    <div class="cta-contact-item">Email: <a href="mailto:culinaryblockcatering@gmail.com">culinaryblockcatering@gmail.com</a></div>
+  </div>
+
+  <a href="mailto:culinaryblockcatering@gmail.com?subject=Catering%20Quote%20Request" class="btn-gold no-print">Get a Quote</a>
+
+  <p class="cta-tagline">culinaryblockcollective.com &nbsp;·&nbsp; Independent specialist chefs. Dietary accuracy. On-time or it's on us.</p>
+</section>
+
+</body>
+</html>

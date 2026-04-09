@@ -79,7 +79,7 @@
 
     /* ── BIO ── */
     .bio-grid { display: grid; grid-template-columns: 340px 1fr; gap: 56px; align-items: start; }
-    .bio-photo-wrap { position: sticky; top: 80px; }
+    .bio-photo-wrap { position: sticky; top: 80px; margin: 0 auto; }
     .bio-photo {
       width: 100%; border-radius: 12px; object-fit: cover;
       aspect-ratio: 3/4; box-shadow: var(--shadow-lg);
@@ -105,7 +105,7 @@
     .value-chip .icon { font-size: 1.4rem; margin-bottom: 8px; }
     .value-chip h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
     .value-chip p { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
-    @media (max-width: 860px) { .bio-grid { grid-template-columns: 1fr; } .bio-photo-wrap { position: static; max-width: 320px; } .values-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 860px) { .bio-grid { grid-template-columns: 1fr; } .bio-photo-wrap { position: static; max-width: 320px; margin: 0 auto; } .values-grid { grid-template-columns: 1fr; } }
 
     /* ── MENU ── */
     .menu-header { text-align: center; margin-bottom: 48px; }
@@ -260,13 +260,14 @@
         </div>
       </a>
       <a class="concept-card" href="/chef-unique-cuisine-menu#sushi-rolls">
-        <img class="concept-card-photo" src="/images/unique-cuisine/sushi-platter.jpg" alt="Assorted sushi platter" loading="lazy" />
+        <img class="concept-card-photo" src="/images/unique-cuisine/sushi-rolls-closeup.jpg" alt="Assorted sushi rolls by Unique Cuisine" loading="lazy" />
         <div class="concept-card-body">
           <span class="concept-card-badge" style="background:var(--sushi-light);color:#4338CA;">Sushi · 4 pieces / guest</span>
           <h3>Assorted Sushi Rolls</h3>
           <ul class="concept-card-dishes">
             <li>California Roll</li><li>Spicy Tuna Roll</li><li>Shrimp Tempura Roll</li><li>Avocado Cucumber Roll (Vegan)</li>
           </ul>
+          <p style="font-size:0.75rem;color:var(--muted);margin-top:8px;margin-bottom:4px;"><strong>Custom sushi platters</strong> available by special request — ask when booking.</p>
           <span class="concept-card-link" style="color:#4338CA;">Browse Full Menu →</span>
         </div>
       </a>

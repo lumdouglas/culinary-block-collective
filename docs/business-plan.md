@@ -111,7 +111,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 2–3 cuisines, 150–300 guests, live chef station option. Custom quote.
 
 ### Premium Add-Ons
-- Premium Compostable Packaging upgrade: +$3/person (BPI-certified)
+- Premium Compostable Packaging upgrade: +$2.50/person (BPI-certified)
 - Premium utensils: $2/person
 - Station setup/coordinator: $100–$150/event
 - Organic ingredient tier: +15% on food cost

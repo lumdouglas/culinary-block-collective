@@ -121,7 +121,7 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 | Add-On | Price | Notes |
 |---|---|---|
 | Juice & Boba Bundle | $12/pack | Upsell during checkout and follow-up emails |
-| Premium Compostable Packaging | +$3/person | BPI-certified, branded napkins |
+| Premium Compostable Packaging | +$2.50/person | BPI-certified, branded napkins |
 | Organic Ingredient Tier | +15% on food cost | "Clean eating" positioning |
 | Carbon Offset | $50/event | ESG-reportable; vendor sustainability summary provided |
 | Chef's Table / Live Station | +$150/event | On-site chef for VIP events |

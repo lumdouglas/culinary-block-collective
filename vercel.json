@@ -1,17 +1,20 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/calendar",                    "destination": "/calendar.html" },
-    { "source": "/admin",                       "destination": "/admin.html" },
-    { "source": "/chef-john",                   "destination": "/chef-john.html" },
-    { "source": "/chef-john-menu",              "destination": "/chef-john-menu.html" },
-    { "source": "/chef-loulan",                 "destination": "/chef-loulan.html" },
-    { "source": "/chef-loulan-menu",            "destination": "/chef-loulan-menu.html" },
-    { "source": "/chef-unique-cuisine",         "destination": "/chef-unique-cuisine.html" },
-    { "source": "/chef-unique-cuisine-menu",    "destination": "/chef-unique-cuisine-menu.html" },
-    { "source": "/chef-partner",                "destination": "/chef-partner.html" },
-    { "source": "/programs",                    "destination": "/programs.html" },
-    { "source": "/proposal-corporate",          "destination": "/proposal-corporate.html" },
-    { "source": "/proposal-event",              "destination": "/proposal-event.html" }
+    { "source": "/admin",                       "destination": "/pages/internal/admin.html" },
+    { "source": "/calendar",                    "destination": "/pages/internal/calendar.html" },
+    { "source": "/chef-john",                   "destination": "/pages/chefs/chef-john.html" },
+    { "source": "/chef-john-menu",              "destination": "/pages/chefs/chef-john-menu.html" },
+    { "source": "/chef-loulan",                 "destination": "/pages/chefs/chef-loulan.html" },
+    { "source": "/chef-loulan-menu",            "destination": "/pages/chefs/chef-loulan-menu.html" },
+    { "source": "/chef-unique-cuisine",         "destination": "/pages/chefs/chef-unique-cuisine.html" },
+    { "source": "/chef-unique-cuisine-menu",    "destination": "/pages/chefs/chef-unique-cuisine-menu.html" },
+    { "source": "/chef-partner",                "destination": "/pages/partner/chef-partner.html" },
+    { "source": "/chef-onboarding",             "destination": "/pages/partner/chef-onboarding.html" },
+    { "source": "/programs",                    "destination": "/pages/client/programs.html" },
+    { "source": "/proposal-corporate",          "destination": "/pages/client/proposal-corporate.html" },
+    { "source": "/proposal-event",              "destination": "/pages/client/proposal-event.html" },
+    { "source": "/for-ops",                     "destination": "/pages/client/for-ops.html" },
+    { "source": "/for-people",                  "destination": "/pages/client/for-people.html" }
   ]
 }

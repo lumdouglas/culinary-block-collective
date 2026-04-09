@@ -40,6 +40,7 @@ These are the non-negotiable facts about this project. Do not deviate from these
 - Attended Service (Tier 2): **+$8/person** on top of any tier
 - **No separate service or coordination fee** — CBC's margin is built into the per-guest price
 - Client receives a **single per-guest line item** (plus any add-ons they choose)
+- Compostable tableware (plates, cutlery, napkins) is standard on all orders. Premium compostable upgrade available at +$2.50/person.
 
 ---
 
