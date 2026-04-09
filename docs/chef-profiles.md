@@ -25,7 +25,7 @@
 | **Cuisine** | Sushi & Japanese |
 | **Service Format** | Spread format only (no individual boxes) |
 | **Menu** | Rice · Chicken teriyaki · Tofu teriyaki · Edamame · Chicken gyoza · Vegetable gyoza · 4-piece assorted sushi (CA roll, spicy tuna roll, shrimp tempura roll, avocado cucumber roll) |
-| **Premium Tier** | $40/person · Chef $32 (80%) · CBC $8 (20%) · 50-person min · max 500 guests · Spread format only |
+| **Premium Tier** | Client price $30/person · Chef price to CBC $24 · CBC markup $6 (20%) · 50-person min · max 500 guests · Spread format only |
 | **Attended Service** | $48/person (Premium + $8/person for CBC on-site staff) |
 | **Min Order** | 50 guests / $2,000 |
 | **Max Capacity** | 500 guests |
@@ -62,7 +62,7 @@
 
 ## Chef 2 — Chef John (Five Course Provision)
 
-> **Commission: 12% CBC / 88% Chef John** — CBC is sales-only. Chef John handles all delivery, staging, dietary labeling, food safety labeling, and client-facing fulfillment. CC processing fees (~3%) absorbed by chef from his 88% share. Performance escalator: adjusts to 15% CBC if collected sales exceed $15K in any rolling 30-day period. Non-compete: 12–18 months on CBC-introduced clients.
+> **Pricing model: cost-plus markup** — CBC is sales-only. Chef John handles all delivery, staging, dietary labeling, food safety labeling, and client-facing fulfillment. Chef John's food price to CBC: $32/person (Standard) · $40/person (Premium). CBC sets client-facing price independently. CBC absorbs CC processing fees (~3%). No performance escalators. Non-compete: 12 months on CBC-introduced clients.
 
 ### Identity
 | Field | Detail |
@@ -71,8 +71,8 @@
 | **Cuisine** | Mexican Fusion + Italian |
 | **Concepts** | **The Tortilla Theory** (Modern Mexican) · **A Little Pasta Table** (Italian Lunch) |
 | **Signature Dishes** | Mexican: Pollo al Pastor, Chicken Tinga, Carnitas, Cochinita Pibil, salsas, sides, churros, tres leches · Italian: Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides · Premium (both): steak, salmon, short rib ragù |
-| **Price Tier(s)** | Standard $34/person (Chef gets $29.92, CBC gets $4.08) · Premium $40/person (Chef gets $35.20, CBC gets $4.80) · Plus $150/order Coordination & Service Fee (CBC revenue, not subject to commission split) |
-| **Commission** | **12% CBC / 88% chef** (negotiated sales-only agent rate — performance escalator to 15% CBC if collected sales exceed $15K in any rolling 30-day period) |
+| **Price Tier(s)** | Chef's food price to CBC: **$32.00/person** (Standard) · **$40.00/person** (Premium). CBC sets client-facing price independently. |
+| **Pricing Model** | Cost-plus markup — CBC adds ~20–25% to chef's food price to arrive at client price. No commission split. |
 | **Min Order** | 50 guests |
 | **Max Capacity** | 500 guests |
 | **Time at Commissary** | [TBD — confirm with John] |
@@ -90,8 +90,8 @@
 | Sales, marketing, client acquisition | CBC |
 | Invoicing & payment collection | CBC (CBC remains billing entity) |
 | Deposit collection | CBC |
-| CC processing fees (~3%) | Deducted from Chef John's 88% share before payout (chef absorbs, not CBC) |
-| Late delivery credit (10% off next order) | Deducted from Chef John's payout |
+| CC processing fees (~3%) | Absorbed by CBC — not deducted from Chef John's payout |
+| Late delivery credit (10% off next order) | Deducted from Chef John's payout (chef is responsible for on-time delivery) |
 
 ### Personality & Communication Style
 - **Overall vibe:** [TBD — Doug to fill in]
@@ -130,8 +130,8 @@
 | **Set A — "The Silk Road Classic"** | Braised Beef with Daikon · Sweet & Sour Meatballs · Stir-fried Shrimp & Eggs · Mapo Tofu (V) · Garlic Broccoli (V/GF) |
 | **Set B — "Bold & Aromatic"** | Cumin Beef Stir-fry (Xinjiang) · Three Cup Chicken · Sichuan Spicy Fish · Stir-fried Mixed Veg (V/GF) · Cucumber Salad (V/GF) |
 | **Set C — "Silk Road Southeast"** | Beef Rendang · Lemongrass Curry Chicken · Thai Herb Shrimp · Garlic Vegetables (V/GF) · Mango Salad (V/GF) |
-| **Price** | $30/person flat · Chef receives 75% · CBC 25% |
-| **Min Order** | 50 guests / $1,500 |
+| **Price** | Client price $25/person · Chef price to CBC $18.75 · CBC markup $6.25 (25%) |
+| **Min Order** | 50 guests / $1,250 |
 | **Max Capacity** | 500 guests |
 | **Time at Commissary** | [TBD — confirm with Chef Kun] |
 
@@ -215,9 +215,9 @@ His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
 | Sushi / Japanese | Unique Cuisine Sushi | Premium tier only ($40/person) · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · Attended Service: $48/person · 50-person min · max 500 guests · T2: Doug solo <100, 2 staff 100–200, confirm 200+ |
-| Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Standard $34/person · Premium $40/person · 12% commission · **Chef handles all delivery/staging/labeling** — CBC is sales-only · $150/order service fee · 50-person min · max 500 guests |
-| Italian | Chef John · Five Course Provision | **A Little Pasta Table** — Standard $34/person · Premium $40/person · 12% commission · same fulfillment model as Mexican · $150/order service fee · 50-person min · max 500 guests |
-| Chinese | Chef Kun · Loulan (楼兰) | Standard $25–$30/person · 25% commission · CBC handles delivery/labeling · 50-person min |
+| Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Chef price $32 standard / $40 premium · CBC sets client price · **Chef handles all delivery/staging/labeling** — CBC is sales-only · 50-person min · max 500 guests |
+| Italian | Chef John · Five Course Provision | **A Little Pasta Table** — Chef price $32 standard / $40 premium · CBC sets client price · same fulfillment model as Mexican · 50-person min · max 500 guests |
+| Chinese | Chef Kun · Loulan (楼兰) | Chef price $18.75/person · Client price $25/person · CBC gets $6.25 (25%) · CBC handles delivery/labeling · 50-person min |
 | Southeast Asian | Chef Kun · Loulan (楼兰) | Same pricing/commission as Chinese · Beef Rendang, Lemongrass Curry, Satay — strong diversity angle for Marcus avatar · Pair with Chinese for a multi-region Asian spread |
 | Large event 200+ | All active chefs | All support up to 500 guests · For Chef John orders, chef handles delivery; for Chef Kun (Loulan), CBC delivers |
 | Premium / VIP event | Chef John or Unique Cuisine | Both offer $40/person Premium tier · Different commission and fulfillment models |
@@ -234,4 +234,4 @@ His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (
 - [e.g., All three built their businesses out of the Culinary Block commissary — origin story]
 - [e.g., Shared value: X]
 - [What makes the three of them together a stronger pitch than any one alone?]
-- **Commission rates vary by chef — Chef John (Five Course) is 12% CBC / 88% chef (sales-only, chef handles fulfillment; CC fees deducted from chef's share; escalator to 15% above $15K/rolling 30 days); Chef Kun / Loulan is 25% CBC / 75% chef (standard, CBC handles delivery/labeling); Unique Cuisine is 20% CBC / 80% chef (negotiated exception). Commission rates are internal — not for client-facing materials.**
+- **Pricing model is cost-plus markup (not commission-based) — Chef John: food price $32 standard / $40 premium to CBC, CBC sets client price independently, chef handles all fulfillment, CBC absorbs CC fees; Chef Kun / Loulan: $18.75 → $25 client (25% markup), CBC handles delivery/labeling; Unique Cuisine: $24 → $30 client (20% markup), CBC handles delivery/labeling. Chef food prices and CBC markup are internal — not for client-facing materials.**
