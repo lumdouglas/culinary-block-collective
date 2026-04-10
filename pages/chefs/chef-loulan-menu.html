@@ -132,7 +132,7 @@
     .set-summary-line.bold { color: var(--loulan-dark); }
     .set-summary-line.sea { color: var(--green); }
     .dish-list { list-style: none; }
-    .dish-list li { padding: 13px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
+    .dish-list li { padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
     .dish-list li:last-child { border-bottom: none; }
     .dish-bullet { font-weight: 700; flex-shrink: 0; margin-top: 1px; font-size: 1rem; }
     .dish-bullet.classic { color: var(--loulan); }
@@ -140,13 +140,26 @@
     .dish-bullet.sea { color: var(--green); }
     .dish-content { flex: 1; }
     .dish-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
-    .dish-zh { font-size: 0.78rem; color: var(--muted); margin-top: 3px; font-style: italic; }
+    .dish-zh { font-size: 0.74rem; color: var(--muted); margin-top: 1px; font-style: italic; }
     .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 5px; vertical-align: middle; }
     .tag-v { background: var(--lgreen); color: var(--dgreen); }
     .tag-gf { background: #FEF3C7; color: #92400E; }
 
     /* ── CONCEPT DIVIDER ── */
     .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
+
+    /* ── SET PHOTOS ── */
+    .set-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+    .set-photos img { width: 100%; height: 200px; border-radius: var(--radius); object-fit: cover; display: block; }
+    @media (max-width: 600px) { .set-photos { grid-template-columns: 1fr; } }
+
+    /* ── INFO ROW (rice + dietary) ── */
+    .info-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+    .info-cell { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; display: flex; flex-direction: column; gap: 6px; }
+    .info-cell-icon { font-size: 1.2rem; }
+    .info-cell h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); }
+    .info-cell p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+    @media (max-width: 600px) { .info-row { grid-template-columns: 1fr; } }
 
     /* ── RICE NOTE ── */
     .rice-note {
@@ -268,12 +281,12 @@
       <p>Crowd-pleasing Chinese comfort food · 5 signature dishes · Strong vegan &amp; GF options built in</p>
     </div>
 
+    <div class="set-photos">
+      <img src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Braised beef, moo shu pork and cucumber salad" loading="lazy" />
+      <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu, spring rolls and minced pork combo" loading="lazy" />
+    </div>
+
     <div class="set-box classic">
-      <div class="set-price-row">
-        <span class="set-price">$25<sub>/person</sub></span>
-        <span class="set-meta">Drop-Off · Min 50 guests</span>
-      </div>
-      <div class="set-summary-line classic">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet classic">›</span>
@@ -316,12 +329,6 @@
   </div>
 </section>
 
-<!-- Photos: Silk Road Classic -->
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-  <img src="/images/loulan/braised_beef_moo_shu_pork_cucumber_salad.jpg" alt="Braised beef, moo shu pork and cucumber salad" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-  <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu, spring rolls and minced pork combo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-</div>
-
 <hr class="concept-divider" />
 
 <!-- ══════════════════════════════════
@@ -336,12 +343,12 @@
       <p>Bolder flavors rooted in northwestern Chinese cuisine · 5 signature dishes · Cumin, chili, and slow-braised depth</p>
     </div>
 
+    <div class="set-photos">
+      <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu" loading="lazy" />
+      <img src="/images/loulan/grilled_cumin_lamb_eggplant_1775316743039.jpg" alt="Grilled cumin lamb with eggplant — Xinjiang style" loading="lazy" />
+    </div>
+
     <div class="set-box bold">
-      <div class="set-price-row">
-        <span class="set-price">$25<sub>/person</sub></span>
-        <span class="set-meta">Drop-Off · Min 50 guests</span>
-      </div>
-      <div class="set-summary-line bold">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet bold">›</span>
@@ -384,12 +391,6 @@
   </div>
 </section>
 
-<!-- Photos: Bold & Aromatic -->
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-  <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-  <img src="/images/loulan/grilled_cumin_lamb_eggplant_1775316743039.jpg" alt="Grilled cumin lamb with eggplant — Xinjiang style" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-</div>
-
 <hr class="concept-divider" />
 
 <!-- ══════════════════════════════════
@@ -404,12 +405,12 @@
       <p>Thai, Malaysian &amp; Vietnamese-inspired · 5 signature dishes · Bold aromatics, coconut, fresh herbs, bright contrast</p>
     </div>
 
+    <div class="set-photos">
+      <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish" loading="lazy" />
+      <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" loading="lazy" />
+    </div>
+
     <div class="set-box sea">
-      <div class="set-price-row">
-        <span class="set-price">$25<sub>/person</sub></span>
-        <span class="set-meta">Drop-Off · Min 50 guests</span>
-      </div>
-      <div class="set-summary-line sea">5 dishes · white rice · CBC dietary labels</div>
       <ul class="dish-list">
         <li>
           <span class="dish-bullet sea">›</span>
@@ -452,12 +453,6 @@
   </div>
 </section>
 
-<!-- Photos: Silk Road Southeast -->
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-  <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-  <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-</div>
-
 <!-- ══════════════════════════════════
      RICE NOTE + DIETARY + PRICING
 ═══════════════════════════════════ -->
@@ -470,23 +465,16 @@
       <a class="menu-download-link" href="/docs/chef-menus/loulan/Loulan Western Style Cuisine.pdf" target="_blank">📄 Western Style Menu PDF</a>
     </div>
 
-    <div class="rice-note">
-      <div class="rice-icon">🍚</div>
-      <div>
+    <div class="info-row">
+      <div class="info-cell">
+        <div class="info-cell-icon">🍚</div>
         <h4>Rice Options</h4>
-        <p>Steamed white rice is included with every set — served in a separate chafing dish, buffet-style. Brown rice is available as an upgrade.</p>
-        <div class="rice-options">
-          <span class="rice-option">Steamed White Rice <span class="price">Included</span></span>
-          <span class="rice-option">Brown Rice Upgrade <span class="price">+$1 / person</span></span>
-        </div>
+        <p>Steamed white rice included with every set. Brown rice upgrade available at +$1/person.</p>
       </div>
-    </div>
-
-    <div class="dietary-banner">
-      <div class="db-icon">🌱</div>
-      <div>
+      <div class="info-cell">
+        <div class="info-cell-icon">🌱</div>
         <h4>Every item individually labeled at delivery</h4>
-        <p>CBC labels all dishes with dietary tags — Vegan, Vegetarian, Gluten-Free, and allergen callouts — before your team arrives. Every set includes built-in vegan and GF options. Additional dietary needs? Note them when booking and Chef Kun will confirm accommodations.</p>
+        <p>Vegan, GF, and allergen callouts labeled before your team arrives. Note dietary needs at booking.</p>
       </div>
     </div>
 
@@ -534,12 +522,6 @@
 <section class="book-section">
   <div class="container">
     <h2>Book Loulan for Your Team</h2>
-    <div class="book-detail-row">
-      <span class="book-detail"><strong>$25</strong> per person</span>
-      <span class="book-detail"><strong>50</strong> guest minimum</span>
-      <span class="book-detail"><strong>500</strong> guest maximum</span>
-      <span class="book-detail">Reply within <strong>24 hours</strong></span>
-    </div>
     <p>Tell us your event date, guest count, and cuisine preference — Chinese or Southeast Asian. We'll confirm Chef Kun's availability and send a quote.</p>
     <div class="book-ctas">
       <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Loulan — Chef Kun&body=Hi! I'd like to book Loulan (Chef Kun) for corporate catering.%0A%0AEvent date: %0AGuest count: %0ACuisine preference (Chinese / Southeast Asian / Either): %0ADietary needs or restrictions: %0ACompany and location: %0A">📧 Email to Book</a>
