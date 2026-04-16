@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chef Kun · Build Your Spread | Chinese &amp; Southeast Asian | Culinary Block Collective</title>
+  <meta name="description" content="Chef Kun's customizable Chinese and Southeast Asian spreads — choose your proteins and vegetables. $28/person · 50–500 guests · Dietary labeled." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.culinaryblockcollective.com/chef-kun-menu" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green:        #2D6A4F;
+      --dgreen:       #1B4332;
+      --lgreen:       #EAF2EB;
+      --gold:         #C9992A;
+      --gold-light:   #F0DFA0;
+      --lgold:        #FBF5E6;
+      --cream:        #FAF7F2;
+      --cream2:       #F3EDE4;
+      --border:       #E2D9CE;
+      --text:         #1C1814;
+      --muted:        #5C5349;
+      --white:        #FFFFFF;
+      --loulan:       #C4622D;
+      --loulan-dark:  #9B4520;
+      --loulan-light: #FBF0E8;
+      --loulan-mid:   #F5D5C0;
+      --radius:       10px;
+      --shadow:       0 4px 32px rgba(43,28,12,0.10);
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); color: var(--text); background: var(--cream); line-height: 1.6; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--dgreen); padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 62px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .nav-logo { font-family: var(--font-display); color: var(--white); font-weight: 600; font-size: 1.2rem; letter-spacing: .02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; align-items: center; gap: 4px; }
+    .nav-link { color: rgba(255,255,255,0.72); font-size: 0.85rem; font-weight: 500; padding: 6px 12px; border-radius: 4px; transition: background .15s, color .15s; }
+    .nav-link:hover { background: rgba(255,255,255,0.1); color: var(--white); }
+    .nav-link-back { color: var(--gold-light); font-weight: 600; }
+    .nav-phone { display: flex; align-items: center; gap: 8px; color: var(--gold); font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
+    @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
+
+    /* ── MENU HERO ── */
+    .menu-hero {
+      background:
+        linear-gradient(135deg, rgba(27,67,50,0.90) 0%, rgba(155,69,32,0.65) 100%),
+        url('/images/loulan/chef-kun-hero.jpg') center/cover no-repeat;
+      padding: 52px 24px 48px;
+    }
+    .menu-hero-inner { max-width: 860px; margin: 0 auto; }
+    .hero-breadcrumb { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+    .hero-breadcrumb a { color: rgba(255,255,255,0.55); font-size: 0.8rem; font-weight: 500; transition: color .15s; }
+    .hero-breadcrumb a:hover { color: var(--white); }
+    .hero-breadcrumb span { color: rgba(255,255,255,0.3); font-size: 0.8rem; }
+    .menu-hero-badge { display: inline-block; background: var(--loulan); color: var(--white); font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 4px 12px; border-radius: 4px; margin-bottom: 14px; }
+    .menu-hero h1 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 700; color: var(--white); line-height: 1.1; margin-bottom: 12px; }
+    .menu-hero h1 em { font-style: italic; color: var(--gold-light); }
+    .menu-hero-sub { color: rgba(255,255,255,0.82); font-size: 0.95rem; max-width: 640px; margin-bottom: 28px; line-height: 1.65; }
+    .menu-hero-meta { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 28px; }
+    .meta-chip { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 50px; padding: 5px 14px; font-size: 0.8rem; font-weight: 600; color: rgba(255,255,255,0.9); }
+    .menu-hero-ctas { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 8px; background: var(--gold); color: var(--dgreen); font-weight: 700; font-size: 0.9rem; padding: 12px 24px; border-radius: 50px; transition: background .15s; }
+    .btn-primary:hover { background: #b8891e; }
+    .btn-ghost { display: inline-flex; align-items: center; gap: 8px; border: 2px solid rgba(255,255,255,0.45); color: var(--white); font-weight: 600; font-size: 0.9rem; padding: 11px 22px; border-radius: 50px; transition: border-color .15s, background .15s; }
+    .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.08); }
+
+    /* ── CONCEPT NAV ── */
+    .concept-nav {
+      background: var(--white); border-bottom: 1px solid var(--border);
+      padding: 0 24px; position: sticky; top: 62px; z-index: 90;
+    }
+    .concept-nav-inner { max-width: 860px; margin: 0 auto; display: flex; gap: 0; overflow-x: auto; }
+    .concept-tab {
+      display: flex; align-items: center; gap: 8px;
+      padding: 16px 20px; font-size: 0.85rem; font-weight: 600; color: var(--muted);
+      border-bottom: 2px solid transparent; white-space: nowrap;
+      transition: color .15s, border-color .15s; text-decoration: none;
+    }
+    .concept-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .dot-chinese { background: var(--loulan); }
+    .dot-sea { background: var(--green); }
+    .concept-tab.chinese:hover { color: var(--loulan); border-color: var(--loulan); }
+    .concept-tab.sea:hover { color: var(--green); border-color: var(--green); }
+    .concept-tab.pricing:hover { color: var(--dgreen); border-color: var(--dgreen); }
+
+    /* ── SECTIONS ── */
+    .section { padding: 64px 24px; }
+    .section-alt { background: var(--cream2); }
+    .container { max-width: 860px; margin: 0 auto; }
+
+    /* ── CONCEPT HEADER ── */
+    .concept-header { margin-bottom: 32px; padding: 24px 28px; border-radius: 0 var(--radius) var(--radius) 0; }
+    .concept-header.chinese { background: var(--loulan-light); border-left: 4px solid var(--loulan); }
+    .concept-header.sea { background: var(--lgreen); border-left: 4px solid var(--green); }
+    .concept-num { font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
+    .concept-num.chinese { color: var(--loulan); }
+    .concept-num.sea { color: var(--green); }
+    .concept-header h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
+    .concept-header p { font-size: 0.88rem; color: var(--muted); }
+
+    /* ── SET PHOTOS ── */
+    .set-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+    .set-photos img { width: 100%; height: 200px; border-radius: var(--radius); object-fit: cover; display: block; }
+    .set-photo-placeholder {
+      grid-column: 1 / -1; height: 200px; border-radius: var(--radius);
+      background: var(--cream2); border: 2px dashed var(--border);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px; color: var(--muted); font-size: 0.82rem; font-weight: 500;
+    }
+    .set-photo-placeholder .ph-icon { font-size: 2rem; opacity: 0.4; }
+    @media (max-width: 600px) { .set-photos { grid-template-columns: 1fr; } }
+
+    /* ── SET CONTENT BOX ── */
+    .set-box { border-radius: var(--radius); padding: 28px 32px; margin-bottom: 16px; }
+    .set-box.chinese { background: var(--loulan-light); border: 1px solid rgba(196,98,45,0.22); }
+    .set-box.sea { background: var(--lgreen); border: 1px solid rgba(45,106,79,0.2); }
+
+    /* ── SPREAD SECTIONS ── */
+    .spread-section { margin-bottom: 22px; }
+    .spread-section:last-child { margin-bottom: 0; }
+    .spread-heading {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    .spread-heading.chinese { color: var(--loulan); }
+    .spread-heading.sea { color: var(--green); }
+    .spread-heading .choose-pill {
+      display: inline-flex; align-items: center;
+      background: rgba(0,0,0,0.06); border-radius: 20px;
+      padding: 2px 10px; font-size: 0.68rem; font-weight: 700;
+      letter-spacing: .05em; color: inherit; text-transform: uppercase;
+    }
+    .rice-included {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.78rem; font-weight: 600; color: var(--muted);
+      padding: 10px 0 0;
+    }
+    .rice-included .ri-icon { font-size: 1rem; }
+
+    /* ── DISH LIST ── */
+    .dish-list { list-style: none; }
+    .dish-list li { padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
+    .dish-list li:last-child { border-bottom: none; }
+    .dish-bullet { font-weight: 700; flex-shrink: 0; margin-top: 1px; font-size: 1rem; }
+    .dish-bullet.chinese { color: var(--loulan); }
+    .dish-bullet.sea { color: var(--green); }
+    .dish-content { flex: 1; }
+    .dish-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 5px; vertical-align: middle; }
+    .tag-v { background: var(--lgreen); color: var(--dgreen); }
+    .tag-gf { background: #FEF3C7; color: #92400E; }
+
+    /* ── ADD-ON BAR ── */
+    .addon-bar {
+      background: var(--white); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 14px 20px; margin-bottom: 32px;
+      display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center;
+    }
+    .addon-bar-label {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--muted); flex: 0 0 100%; margin-bottom: 2px;
+    }
+    .addon-item {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 0.82rem; font-weight: 600; color: var(--text);
+    }
+    .addon-price { color: var(--loulan); font-weight: 700; }
+
+    /* ── CONCEPT DIVIDER ── */
+    .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
+
+    /* ── INFO ROW ── */
+    .info-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+    .info-cell { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; display: flex; flex-direction: column; gap: 6px; }
+    .info-cell-icon { font-size: 1.2rem; }
+    .info-cell h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); }
+    .info-cell p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+    @media (max-width: 600px) { .info-row { grid-template-columns: 1fr; } }
+
+    /* ── DIETARY BANNER ── */
+    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; margin-bottom: 40px; }
+    .dietary-banner .db-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .dietary-banner h4 { font-size: 0.88rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
+    .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── PRICING SUMMARY ── */
+    .pricing-summary { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .pricing-summary-header { background: linear-gradient(135deg, var(--loulan-dark), var(--dgreen)); padding: 20px 28px; }
+    .pricing-summary-header h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--white); }
+    .pricing-summary-header p { color: rgba(255,255,255,0.7); font-size: 0.82rem; margin-top: 4px; }
+    .pricing-rows { padding: 4px 0; }
+    .pricing-row { display: flex; align-items: center; justify-content: space-between; padding: 16px 28px; border-bottom: 1px solid var(--border); }
+    .pricing-row:last-child { border-bottom: none; }
+    .pricing-row-label { font-size: 0.9rem; font-weight: 600; color: var(--text); }
+    .pricing-row-sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .pricing-row-price { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--loulan-dark); white-space: nowrap; }
+    .pricing-row-price span { font-family: var(--font-body); font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 2px; }
+
+    /* ── BOOK ── */
+    .book-section { background: linear-gradient(135deg, var(--loulan-dark) 0%, var(--dgreen) 100%); padding: 64px 24px; text-align: center; }
+    .book-section h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    .book-section p { color: rgba(255,255,255,0.8); font-size: 0.95rem; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
+    .book-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--dgreen); padding: 32px 24px; text-align: center; border-top: 1px solid rgba(255,255,255,0.08); }
+    .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 12px; }
+    .footer-links a { color: rgba(255,255,255,0.55); font-size: 0.82rem; transition: color .15s; }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { color: rgba(255,255,255,0.3); font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">Culinary Block <span>Collective</span></a>
+  <div class="nav-links">
+    <a class="nav-link nav-link-back" href="/chef-loulan">← Chef Profile</a>
+    <a class="nav-link" href="/#menus">All Partners</a>
+    <a class="nav-link" href="/#pricing">Pricing</a>
+    <a class="nav-link" href="/calendar">📅 Calendar</a>
+  </div>
+  <a class="nav-phone" href="tel:+14156994397">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    (415) 699-4397
+  </a>
+</nav>
+
+<!-- MENU HERO -->
+<div class="menu-hero">
+  <div class="menu-hero-inner">
+    <div class="hero-breadcrumb">
+      <a href="/#menus">All Chefs</a>
+      <span>/</span>
+      <a href="/chef-loulan">Chef Kun</a>
+      <span>/</span>
+      <span style="color:rgba(255,255,255,0.7);">Full Menu</span>
+    </div>
+    <span class="menu-hero-badge">Build Your Spread</span>
+    <h1>Chef Kun<br/><em>Full Menu</em></h1>
+    <p class="menu-hero-sub">Two customizable spreads — Chinese and Southeast Asian. Choose your proteins and vegetables to build a spread your team will love. White rice included with every order.</p>
+    <div class="menu-hero-meta">
+      <span class="meta-chip">from $28 / person</span>
+      <span class="meta-chip">50-guest minimum</span>
+      <span class="meta-chip">Dietary labeled</span>
+    </div>
+    <div class="menu-hero-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef Kun&body=Hi! I'd like to book Chef Kun for corporate catering.%0A%0AEvent date: %0AGuest count: %0ACuisine preference (Chinese / Southeast Asian / Either): %0AProtein selections: %0AVegetable selections: %0ADietary needs or restrictions: %0ACompany and location: %0A">Book This Team →</a>
+      <a class="btn-ghost" href="/chef-loulan">← Meet Chef Kun</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONCEPT NAV -->
+<div class="concept-nav">
+  <div class="concept-nav-inner">
+    <a class="concept-tab chinese" href="#chinese-spread"><span class="concept-dot dot-chinese"></span>Chinese Spread</a>
+    <a class="concept-tab sea" href="#sea-spread"><span class="concept-dot dot-sea"></span>Southeast Asian Spread</a>
+    <a class="concept-tab pricing" href="#pricing-summary" style="margin-left:auto;">Pricing</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     SET 1: CHINESE SPREAD
+═══════════════════════════════════ -->
+<section class="section" id="chinese-spread">
+  <div class="container">
+
+    <div class="concept-header chinese">
+      <div class="concept-num chinese">Set 1 · Chinese</div>
+      <h2>Chinese Spread</h2>
+      <p>Classic and bold Chinese flavors · Choose 3 proteins + 2 vegetables · All items gluten-free</p>
+    </div>
+
+    <div class="set-photos">
+      <img src="/images/loulan/sichuan_spicy_fish_mapo_tofu_1775316773628.jpg" alt="Sichuan spicy fish and mapo tofu" loading="lazy" />
+      <img src="/images/loulan/mapo_tofu_spring_rolls_minced_pork_combo.jpg" alt="Mapo tofu and minced pork combo" loading="lazy" />
+    </div>
+
+    <div class="set-box chinese">
+
+      <div class="spread-section">
+        <div class="spread-heading chinese">
+          Proteins <span class="choose-pill">Choose 3</span>
+        </div>
+        <ul class="dish-list">
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Braised Beef with Daikon <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Stir-fried Beef with Oyster Sauce <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Sichuan Spicy Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Sweet &amp; Sour Pork Ribs <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Braised Pork Ribs <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Three Cup Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Yuxiang Pork (Sichuan Garlic Sauce) <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Grilled Cumin Lamb <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Spicy Chicken Wings <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Twice Cooked Pork Belly <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Cantonese Curry Beef <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Steam Pork Ribs with Pickled Chilli <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Salt &amp; Pepper Shrimp <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Sichuan Spicy Fish <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="spread-section">
+        <div class="spread-heading chinese">
+          Vegetables <span class="choose-pill">Choose 2</span>
+        </div>
+        <ul class="dish-list">
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Mapo Tofu <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Garlic Broccoli <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Stir-fried Seasonal Vegetables <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Green Beans with Garlic <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Garlic Bok Choy <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Cucumber Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Shredded Potato with Green Pepper <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet chinese">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Celery &amp; Dried Tofu Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rice-included">
+        <span class="ri-icon">🍚</span>
+        <span>White rice included with every order</span>
+      </div>
+
+    </div><!-- /set-box -->
+
+    <div class="addon-bar">
+      <div class="addon-bar-label">Add-ons</div>
+      <div class="addon-item"><span class="addon-price">+$1/guest</span> — Half brown rice / half white rice</div>
+      <div class="addon-item"><span class="addon-price">+$5/guest</span> — Add a 4th protein</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="concept-divider" />
+
+<!-- ══════════════════════════════════
+     SET 2: SOUTHEAST ASIAN SPREAD
+═══════════════════════════════════ -->
+<section class="section section-alt" id="sea-spread">
+  <div class="container">
+
+    <div class="concept-header sea">
+      <div class="concept-num sea">Set 2 · Southeast Asian</div>
+      <h2>Southeast Asian Spread</h2>
+      <p>Thai, Malaysian &amp; Pacific-inspired · Choose 3 proteins + 2 vegetables · Bold aromatics, bright contrast</p>
+    </div>
+
+    <div class="set-photos">
+      <img src="/images/loulan/scallion_poached_chicken_fried_fish_combo.jpg" alt="Scallion poached chicken and fried fish" loading="lazy" />
+      <img src="/images/loulan/sweet_sour_pork_glass_noodles_1775316758856.jpg" alt="Sweet and sour pork with glass noodles" loading="lazy" />
+    </div>
+
+    <div class="set-box sea">
+
+      <div class="spread-section">
+        <div class="spread-heading sea">
+          Proteins <span class="choose-pill">Choose 3</span>
+        </div>
+        <ul class="dish-list">
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Beef Rendang <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Chicken Satay Skewers <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Lemongrass Curry Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Coconut Curry Shrimp <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Hawaiian Grilled Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Malaysian Fried Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Pad Krapao Beef (Thai Basil Beef) <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Grilled Pork Chop <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Basil Chicken <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Teriyaki Beef <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Thai Pork Ribs <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Pork Katsu</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="spread-section">
+        <div class="spread-heading sea">
+          Vegetables <span class="choose-pill">Choose 2</span>
+        </div>
+        <ul class="dish-list">
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Papaya Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Garlic Broccoli <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Stir-fried Eggplant with Basil <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Mango Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+          <li>
+            <span class="dish-bullet sea">›</span>
+            <div class="dish-content">
+              <div class="dish-name">Lettuce Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rice-included">
+        <span class="ri-icon">🍚</span>
+        <span>White rice included with every order</span>
+      </div>
+
+    </div><!-- /set-box -->
+
+    <div class="addon-bar">
+      <div class="addon-bar-label">Add-ons</div>
+      <div class="addon-item"><span class="addon-price">+$1/guest</span> — Half brown rice / half white rice</div>
+      <div class="addon-item"><span class="addon-price">+$5/guest</span> — Add a 4th protein</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     DIETARY + PRICING
+═══════════════════════════════════ -->
+<section class="section" id="pricing-summary">
+  <div class="container">
+
+    <div class="info-row">
+      <div class="info-cell">
+        <div class="info-cell-icon">🍚</div>
+        <h4>Rice Options</h4>
+        <p>Steamed white rice included with every set. Half brown / half white rice available at +$1/person.</p>
+      </div>
+      <div class="info-cell">
+        <div class="info-cell-icon">🌱</div>
+        <h4>Every item individually labeled at delivery</h4>
+        <p>Vegan, GF, and allergen callouts labeled before your team arrives. Note dietary needs at booking.</p>
+      </div>
+    </div>
+
+    <div class="dietary-banner">
+      <div class="db-icon">🏷️</div>
+      <div>
+        <h4>Dietary Labeling — Every Order, Every Item</h4>
+        <p>CBC provides printed dietary labels at delivery: Vegan, Gluten-Free, Contains Nuts, Contains Shellfish, and consume-by times for food safety. Please share any team dietary restrictions or allergies at booking so we can flag them clearly on-site.</p>
+      </div>
+    </div>
+
+    <div class="pricing-summary">
+      <div class="pricing-summary-header">
+        <h3>Pricing at a Glance</h3>
+        <p>All prices per person · Chef's Spread format · 50–500 guests · White rice included</p>
+      </div>
+      <div class="pricing-rows">
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Build Your Spread — Drop-Off (Tier 1)</div>
+            <div class="pricing-row-sub">Chinese or Southeast Asian · 3 proteins + 2 vegetables + white rice</div>
+          </div>
+          <div class="pricing-row-price">$28 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">4th Protein Add-on</div>
+            <div class="pricing-row-sub">Add to any set</div>
+          </div>
+          <div class="pricing-row-price">+$5 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Brown Rice Upgrade</div>
+            <div class="pricing-row-sub">Half brown rice / half white rice · Add to any set</div>
+          </div>
+          <div class="pricing-row-price">+$1 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Attended Service (Tier 2)</div>
+            <div class="pricing-row-sub">On-site CBC staff · setup, station management &amp; breakdown</div>
+          </div>
+          <div class="pricing-row-price">+$8 <span>/ person</span></div>
+        </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Minimum Order</div>
+            <div class="pricing-row-sub">50 guests minimum · 500 guests maximum</div>
+          </div>
+          <div class="pricing-row-price">$1,400 <span>min</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BOOK -->
+<section class="book-section">
+  <div class="container">
+    <h2>Book Chef Kun for Your Team</h2>
+    <p>Tell us your event date, guest count, cuisine preference, and protein picks — we'll confirm Chef Kun's availability and send a quote.</p>
+    <div class="book-ctas">
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef Kun&body=Hi! I'd like to book Chef Kun for corporate catering.%0A%0AEvent date: %0AGuest count: %0ACuisine preference (Chinese / Southeast Asian): %0AProtein selections (choose 3): %0AVegetable selections (choose 2): %0AAdd-ons (4th protein / brown rice): %0ADietary needs or restrictions: %0ACompany and location: %0A">📧 Email to Book</a>
+      <a class="btn-ghost" href="tel:+14156994397">📞 (415) 699-4397</a>
+      <a class="btn-ghost" href="/calendar">📅 Check Availability</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/chef-loulan">Chef Kun — Profile</a>
+    <a href="/#menus">All Chef Partners</a>
+    <a href="/chef-john-menu">Chef John Menu</a>
+    <a href="/chef-unique-cuisine-menu">Unique Cuisine Menu</a>
+    <a href="/calendar">Menu Calendar</a>
+    <a href="mailto:culinaryblockcatering@gmail.com">culinaryblockcatering@gmail.com</a>
+  </div>
+  <div class="footer-copy">© 2025 Culinary Block Collective · Chef Kun is an independent culinary partner, not an employee of Culinary Block Collective. Per AB 660, all food handler and food safety requirements are met.</div>
+</footer>
+
+</body>
+</html>

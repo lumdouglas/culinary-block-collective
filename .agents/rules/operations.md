@@ -6,8 +6,9 @@
 
 - **Chef's Spread (self-serve station) format only**
 - No individual box meals. No plated service. No exceptions.
-- Chef provides serving ware (chafing dishes, serving utensils, containers)
-- CBC (or chef, depending on agreement) provides dietary labels, food safety labels, printed menu card
+- **Chef provides food in covered, labeled aluminum or stainless steel trays only.**
+- **CBC provides all serving equipment**: chafing dishes, serving utensils, spread materials, linens, printed menu card
+- **CBC handles delivery and onsite setup for all chefs — no exceptions**
 
 ---
 
@@ -28,27 +29,37 @@
 
 ## Fulfillment Responsibilities by Chef
 
-### Chef John (Five Course Provision) — Chef Handles All Fulfillment
+**CBC handles delivery and onsite setup for ALL chefs.** The distinction between chef agreements is labeling — not delivery.
+
+### Chef John (Five Course Provision)
 
 **Chef John's responsibilities:**
-- Delivery from commissary to client site
-- Setup and staging at client site
-- All dietary labeling (per item)
-- All food safety labeling (consume-by times)
-- Maintaining food safety logs and temperature control
+- Food prep, sourcing, cooking — packaged in covered aluminum or stainless steel trays
+- Affixing CBC-printed dietary labels and food safety labels to all trays before CBC pickup
+- Providing manifest of all items and quantities at handoff
+- Food ready at agreed handoff time at commissary
+- Maintaining safe food temperature through handoff
 
 **CBC's responsibilities:**
 - Sales, marketing, client acquisition, website, CRM
-- Invoicing and payment collection (CBC is always the billing entity)
-- Collecting sales tax
-- Deposit collection
-- Coordinating event logistics with chef (address, access, on-site contact)
-- Paying Chef John his 88% share (after ~3% CC fee deduction)
+- Sending Chef John complete event details at least 5 days before the event
+- Printing dietary labels and food safety labels; sending to Chef John for final approval before each event
+- Providing all serving equipment (chafing dishes, serving utensils, spread materials, linens)
+- Printing menu cards and dietary breakdown sheets
+- Picking up food at commissary at agreed handoff time
+- Counting all portions against order manifest before loading (no short deliveries)
+- Delivering to client site within confirmed delivery window
+- Onsite setup and staging at client site
+- Confirming arrival with on-site contact
+- Invoicing, payment collection, deposit collection (CBC is always the billing entity)
+- Collecting and remitting sales tax
+- Absorbing credit card processing fees (~3%) — not deducted from Chef John's payout
+- Paying Chef John his per-person food price × confirmed guest count within Net 30
 
-### Kivi's Kitchen & Standard-Terms Chefs — CBC Handles Fulfillment
+### Loulan · Chef Kun & Standard-Terms Chefs
 
 **Chef's responsibilities:**
-- Food prep, sourcing, cooking in own serving ware
+- Food prep, sourcing, cooking — packaged in covered aluminum or stainless steel trays
 - Providing manifest of all items and quantities at handoff
 - Food ready at agreed handoff time at commissary
 - Maintaining safe food temperature through handoff
@@ -57,11 +68,13 @@
 - Creating and applying individual dietary labels to every item
 - Creating and applying food safety labels with consume-by times
 - Printing menu cards and dietary breakdown sheets
+- Providing all serving equipment (chafing dishes, serving utensils, spread materials, linens)
 - Picking up labeled, prepared food from commissary
 - Counting all portions against order manifest before loading (no short deliveries)
 - Delivering to client site within confirmed delivery window
+- Onsite setup and staging at client site
 - Confirming arrival with on-site contact
-- Collecting sales tax
+- Collecting and remitting sales tax
 
 ---
 
@@ -83,8 +96,8 @@
 
 - "Late" = order not staged and ready at agreed service time
 - **Penalty: 10% off client's next order, automatic, no questions asked**
-- For Chef John orders: 10% credit deducted from Chef John's payout
-- For Kivi/standard-terms orders: CBC absorbs cost (built into 25% commission margin)
+- For all chefs: if food is not ready at agreed handoff time and a client credit is issued, the credit amount is deducted from that chef's payout
+- CBC absorbs late delivery costs attributable to CBC's own transit/setup (not deducted from chef)
 - Log all late deliveries in HubSpot immediately with reason
 
 **Delivery prep:**
@@ -102,10 +115,10 @@
 |---|---|---|
 | 7+ days before event | Fully refunded | None |
 | Within 7 days (but 72+ hours) | Forfeited OR applied as credit (client's choice) | None |
-| Within 72 hours | Retained by CBC | Additional 25% of order value invoiced |
+| Within 72 hours | Retained by CBC | Additional 25% of food order value invoiced to cover contractor ingredient costs already incurred |
 
 Disclosure language for every booking confirmation:
-> "A 25% deposit is required to confirm your booking — it holds your date and chef, and is applied to your final invoice. If you need to cancel more than 7 days before your event, your deposit is fully refunded. Cancellations within 7 days forfeit the deposit, but we're happy to apply it as a credit toward a future order. For cancellations within 72 hours, a fee of 50% of the total order value applies."
+> "A 25% deposit is required to confirm your booking — it holds your date and chef, and is applied to your final invoice. If you need to cancel more than 7 days before your event, your deposit is fully refunded. Cancellations within 7 days forfeit the deposit, but we're happy to apply it as a credit toward a future order. For cancellations within 72 hours, an additional fee of 25% of the food order value applies to cover ingredients already prepared."
 
 ### Chef Cancellations
 
@@ -142,7 +155,7 @@ Rule: the client should never feel the cancellation is their problem. Doug owns 
 - CBC staff handles setup, station maintenance, breakdown, cleanup
 - Proper linen and labeled stations
 - Staffing: Doug solo under 100 guests; 2 staff 100–200; 200+ confirm at booking
-- For Chef John Tier 2 orders: attended staffing must be coordinated separately (chef handles his own delivery/staging — Tier 2 staffing is CBC-side only)
+- CBC handles delivery and setup for all chefs including Chef John — Tier 2 adds on-site staff presence through the event, not just setup
 
 ---
 
@@ -161,7 +174,8 @@ Rule: the client should never feel the cancellation is their problem. Doug owns 
 - 2–3 cuisines, 3–4 dishes each, 2–4 portions per dish
 - Same food safety and dietary labeling standards as full orders (no exceptions)
 - Delivery by CBC within confirmed time window
-- Chef reimbursed for food costs — itemized receipt within 7 days
+- Chef reimbursed for food costs — itemized receipt within 7 days; included in next payment cycle
+- **Tasting availability: at least once per month, by appointment through CBC**
 - **Follow up within 24 hours of delivery** — 72-hour post-tasting window is peak conversion moment
 - Tasting fee applied as credit toward first full order
 - Prerequisites: at least 2 active chefs with signed agreements before tasting goes live

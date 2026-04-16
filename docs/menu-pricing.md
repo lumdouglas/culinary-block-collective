@@ -1,7 +1,7 @@
 # CBC Menu & Pricing Reference
 
 > **Status:** Pre-launch — chef roster is dynamic based on current Culinary Block commissary tenants. Update this file when chefs join or leave.
-> **Last reviewed:** 2026-03
+> **Last reviewed:** 2026-04
 
 ---
 
@@ -16,70 +16,64 @@ CBC offers two service tiers. The same independent specialist chefs power both.
 #### Tier 1 — Drop-Off Spread
 *Best for: weekly team lunches, recurring orders, everyday team meals.*
 
-Chef sets up a full Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card, and dietary labels. Delivery and labeling responsibilities vary by chef agreement (see Spread Pricing Model below). Client handles cleanup. No on-site CBC staff. Prepared for your guest count, self-serve style. **Spread format only — no individual box meals.**
+Full Chef's Spread delivered and staged by CBC. Chefs provide food in covered, labeled aluminum or stainless steel trays. CBC delivers, provides all serving equipment (chafing dishes, serving utensils, spread materials, linens, printed menu card, dietary labels), and stages the spread at the client site. Client handles cleanup. No on-site CBC staff during the event. **Spread format only — no individual box meals.**
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese (Kivi)** | $25–$30/person | 50 | $1,250–$1,500 |
-| **Mexican Fusion + Italian (Five Course)** | $34/person | 50 | $1,700 |
+| **Chinese (Kivi)** | $25/person | 50 | $1,250 |
+| **Mexican Fusion + Italian (Five Course — Standard)** | $34/person | 50 | $1,700 |
 
 **What's included in Tier 1:**
-- ✓ Full Chef's Spread with chafing dishes & serving ware
+- ✓ Full Chef's Spread — CBC delivers and stages
+- ✓ Chafing dishes & all serving ware (provided by CBC)
 - ✓ Serving utensils
 - ✓ Printed menu card with dietary key
 - ✓ Individual item dietary labeling — vegan, GF, nut-free, dairy-free
-- ✓ Delivery (by chef or CBC depending on agreement)
-- ✗ On-site CBC staff (client sets up and cleans up)
+- ✗ On-site CBC staff during the event (client manages from setup onward)
 - ✗ Linen or upgraded station presentation
 
 ---
 
----
-
 #### Premium Tier — Drop-Off Spread
-*For events where the food is the centerpiece. $40/person.*
+*For events where the food is the centerpiece.*
 
-Full Chef's Spread with premium proteins or expanded sushi selection. Prepared for your guest count, self-serve style. Same Drop-Off format as Tier 1 but elevated ingredients.
+Full Chef's Spread with premium proteins or elevated menu. Same delivery and setup as Tier 1, elevated ingredients.
 
-| Chef | Offering | Min. Guests | Min. Order |
-|---|---|---|---|
-| **Five Course · Chef John** | Premium proteins — wagyu beef, whole fish, jumbo shrimp, seasonal market cuts. Full five-course spread. | 50 | $2,000 |
-| **Unique Cuisine · Sushi** | Full sushi spread — expanded roll selection, teriyaki mains, gyoza, edamame, rice. | 50 | $2,000 |
-
-**Commission notes (internal — not for client-facing materials):**
-- Five Course / Chef John: **12% CBC / 88% chef.** Standard ($34): Chef gets $29.92, CBC gets $4.08. Premium ($40): Chef gets $35.20, CBC gets $4.80. Chef handles all delivery, staging, and labeling. CC processing fees (~3%) deducted from chef's 88% share before payout.
-- Unique Cuisine: 20% agreed. Chef gets $32/person, CBC gets $8/person.
-- **All orders:** $150 Coordination & Service Fee added to every client invoice — CBC revenue, not subject to commission split.
-
-**Attended Service on Premium:** +$8/person = $48/person total.
+| Chef | Offering | Per-Head Price | Min. Guests | Min. Order |
+|---|---|---|---|---|
+| **Five Course · Chef John (Premium)** | Premium proteins — wagyu beef, whole fish, jumbo shrimp, seasonal market cuts. Full five-course spread. | $40/person | 50 | $2,000 |
+| **Unique Cuisine · Sushi** | Full sushi spread — expanded roll selection, teriyaki mains, gyoza, edamame, rice. | $30/person | 50 | $1,500 |
 
 ---
 
 #### Tier 2 — Attended Service
 *Best for: client-facing events, all-hands meetings, onboarding days, milestone celebrations.*
 
-Everything in Tier 1 plus 1–2 on-site CBC staff who set up, maintain the stations, and clean up. Proper linen and labeled stations.
+Everything in Tier 1 plus 1–2 on-site CBC staff who maintain stations, interact with guests, and handle full cleanup. Proper linen and labeled stations.
 
 | Cuisine | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese (Kivi)** | $33–$38/person | 50 | $1,650–$1,900 |
+| **Chinese (Kivi)** | $33/person | 50 | $1,650 |
 | **Mexican Fusion + Italian (Five Course) Standard** | $42/person | 50 | $2,100 |
-| **Mexican Fusion (Five Course) Premium** | $48/person | 50 | $2,400 |
-| **Sushi / Japanese (Unique) Premium** | $48/person | 50 | $2,400 |
-
-*Note: Unique Cuisine operates at Premium tier only ($40 base + $8 attended = $48). There is no Standard tier for Unique.*
+| **Five Course Premium** | $48/person | 50 | $2,400 |
+| **Sushi / Japanese (Unique) Premium** | $38/person | 50 | $1,900 |
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
-- ✓ 1–2 on-site CBC staff (setup, station maintenance, cleanup)
+- ✓ 1–2 on-site CBC staff (station maintenance, guest interaction, cleanup)
 - ✓ Proper linen and labeled stations
 - ✓ Elevated presentation and event floor management
+
+**Attended staffing:**
+- Doug solo: under 100 guests
+- 2 staff: 100–200 guests
+- 200+ guests: confirm at booking
 
 ---
 
 #### Mix & Match / Custom Events
 Choose 2–3 chef cuisines, live chef station option, branded signage. 150–300 guests. Custom quote.
 
-> All prices include delivery, dietary labeling, and a printed menu card (fulfillment handled by chef or CBC depending on agreement — transparent to the client). A **$150 Coordination & Service Fee** is added to every invoice — this covers deposit collection, scheduling, client communication, and order management, and is disclosed on every quote from day one. **Beverages, dessert courses, and alcohol are not included in either tier** — they can be quoted separately. No hidden fees.
+> All prices include delivery, onsite staging, dietary labeling, and a printed menu card — all handled by CBC. No hidden fees. **Beverages, dessert courses, and alcohol are not included in either tier** — they can be quoted separately.
 
 ### Booking Lead Times
 - Under 150 guests: 48 hours minimum
@@ -93,13 +87,13 @@ San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles o
 
 ## Tasting Package — "Meet the Chefs"
 
-> **Availability:** Always bookable on the CBC website. Available on specific scheduled days only — see site calendar for open dates. Designed to let corporate buyers try the food before committing to a full order.
+> **Availability:** By appointment — at least once per month per chef. Designed to let corporate buyers try the food before committing to a full order.
 
 A drop-off sampler delivered directly to the client's office. Showcases 2–3 CBC cuisines side by side, in the same branded packaging used for real orders. This is the product, not a demo.
 
 **What's included:**
 - 2–3 cuisines, 3–4 dishes each, 2–4 portions per dish (enough for the OM + 1–2 colleagues)
-- Served in CBC's standard compostable containers (tasting package only — full orders use chef-provided spread serving ware)
+- Served in CBC's standard compostable containers (tasting package only — full orders use chef-provided spread trays)
 - Individual dietary labels on every item
 - Printed menu card with chef names, dietary key, and a "how to order" insert
 - Branding via CBC sticker — applied to the container lid; functions as a tamper-evident seal on appropriate container form factors
@@ -112,7 +106,7 @@ A drop-off sampler delivered directly to the client's office. Showcases 2–3 CB
 
 **Follow-up:** Doug sends a follow-up email or text within 24 hours of delivery. This window is critical — the 72-hour post-tasting period is the highest-conversion moment in the sales funnel.
 
-> **Prerequisite:** At least 2 chefs must be active and available before the tasting SKU goes live on the site. Kivi and Five Course formal agreements still pending sign-off.
+> **Prerequisite:** At least 2 chefs must be active with signed agreements before the tasting SKU goes live on the site.
 
 ---
 
@@ -143,19 +137,21 @@ Recurring contracts include:
 - 90-day review clause (no long-term lock-in)
 - Formal program proposal with quarterly cost projections available on request
 
-> **⚠️ Future addition:** A 5% recurring account discount is planned but not active at launch. Will be introduced once orders are flowing and chef agreements are confirmed. Discuss with each chef at onboarding so they're aware it's coming — the discount would be applied to the customer total first, then the chef/CBC split applies to the discounted amount (both chef and CBC absorb proportionally).
+> **⚠️ Future addition:** A 5% recurring account discount is planned but not active at launch. Will be introduced once orders are flowing and chef agreements are confirmed. Discount applied to client total first; CBC absorbs the difference.
 
 ---
 
 ## Chef Roster & Cuisine Pricing
 
-> **Note:** The roster changes as chef-tenants rotate through the Culinary Block commissary. Update this section as chefs join or leave. The numbers below reflect current active chefs and their customer-facing price ranges.
+> **Note:** The roster changes as chef-tenants rotate through the Culinary Block commissary. Update this section as chefs join or leave. CBC handles delivery and onsite setup for all chefs.
 
 | Cuisine | Specialty Dishes | Standard Drop-Off Price | Attended Service Price |
 |---|---|---|---|
-| **Sushi & Japanese (Unique)** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $40/person Premium · 50-person min ($2,000) · max 500 guests · Spread format only | $48/person · 50-person min ($2,400) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese · Kivi** | Wok stir-fry, dumplings, noodles, spring rolls | $25–$30/person · 50-person min | $33–$38/person · 50-person min |
-| **Mexican Fusion + Italian · Five Course** | **The Tortilla Theory** (Mexican): Pollo al Pastor, Chicken Tinga, Carnitas, salsas, sides, churros, tres leches · **A Little Pasta Table** (Italian): Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, sides, garlic bread | $34/person Standard · $40/person Premium · 50-person min ($1,700–$2,000) · max 500 guests | $42/person Standard · $48/person Premium · 50-person min |
+| **Sushi & Japanese (Unique)** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person Premium · 50-person min ($1,500) · max 500 guests · Spread format only | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
+| **Chinese · Kivi** | Wok stir-fry, dumplings, noodles, spring rolls | $25/person · 50-person min ($1,250) | $33/person · 50-person min ($1,650) |
+| **Mexican Fusion + Italian · Five Course (Standard)** | **The Tortilla Theory** (Mexican): Pollo al Pastor, Chicken Tinga, Carnitas, salsas, sides, churros, tres leches · **A Little Pasta Table** (Italian): Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, sides, garlic bread | $34/person · 50-person min ($1,700) · max 500 guests | $42/person · 50-person min ($2,100) |
+| **Mediterranean · Five Course (Grill & Grain)** | Grilled proteins, seasonal sides, Mediterranean spreads | CBC sets independently · 50-person min · max 500 guests | CBC sets independently + $8/person |
+| **Five Course — Premium** | Premium proteins: wagyu beef, whole fish, jumbo shrimp, seasonal market cuts | $40/person · 50-person min ($2,000) · max 500 guests | $48/person · 50-person min ($2,400) |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |
 | **Vietnamese** *(when available)* | Pho, banh mi, rice noodle bowls | TBD — confirm at booking | TBD |
@@ -169,30 +165,31 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 ---
 
-## Spread Pricing Model
+## Spread Pricing Model (Internal — Not for Client-Facing Materials)
 
-*All service is self-serve spread format. Individual box meals are not currently offered (may be added later). Client-facing price is $25–$34/person (Standard) or $40/person (Premium). Commission varies by chef — see table below.*
+*All service is Chef's Spread format. Individual box meals are not offered. CBC handles delivery and onsite setup for all chefs. Each chef provides food in covered, labeled aluminum or stainless steel trays. CBC provides all serving equipment (chafing dishes, serving utensils, spread materials, linens).*
 
-| Chef / Cuisine | Client Price | Chef Payout | CBC Commission | Fulfillment |
+| Chef / Cuisine | Chef's Price (to CBC) | Client Price | CBC Markup | Labeling |
 |---|---|---|---|---|
-| **Five Course · Chef John (Standard — Mexican or Italian)** | $34/person | $29.92 (88%) | $4.08 (12%) | Chef delivers, stages, labels |
-| **Five Course · Chef John (Premium)** | $40/person | $35.20 (88%) | $4.80 (12%) | Chef delivers, stages, labels |
-| **Kivi · Chinese** | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) | CBC delivers, labels |
-| **Unique · Sushi & Japanese** | $40/person (Premium only) | $32 (80%) | $8 (20%) | CBC delivers, labels |
+| **Five Course · Chef John — Standard (Mexican/Italian)** | $32.00/person | CBC sets independently | ~20–25% | CBC prints; Chef John affixes before pickup |
+| **Five Course · Chef John — Premium** | $40.00/person | CBC sets independently | ~20–25% | CBC prints; Chef John affixes before pickup |
+| **Five Course · Chef John — Mediterranean (Grill & Grain)** | $42.00/person | CBC sets independently | ~20–25% | CBC prints; Chef John affixes before pickup |
+| **Kivi · Chinese** | $18.75/person | $25/person | $6.25 (25%) | CBC creates and applies all labels |
+| **Unique · Sushi & Japanese** | $24.00/person | $30/person | $6.00 (20%) | CBC creates and applies all labels |
 
-**Minimum order:** 50 guests.
+**Minimum order:** 50 guests across all chefs. Maximum: 500 guests.
 
-**Coordination & Service Fee:** $150 per order charged to the client on every invoice — CBC revenue, not subject to the commission split. Appears as a separate line item. Not a delivery fee (delivery responsibility varies by chef and is covered by the commission).
+**Credit card processing fees:** CBC absorbs CC fees (~3%) on all orders — not deducted from any chef's payout.
 
-**Revenue split:** Varies by chef. **Chef John (Five Course): 12% CBC / 88% chef** — CBC is sales-only, chef handles all fulfillment. Chef John absorbs CC processing fees (~3%) from his 88% share before CBC pays out. Performance escalator: adjusts to 15% CBC if collected sales exceed $15K in any rolling 30-day period. **Kivi: 25% CBC / 75% chef** — standard terms, CBC handles delivery and labeling. **Unique Cuisine: 20% CBC / 80% chef** (negotiated exception). Commission details are internal — not for client-facing materials. Tier 2 staff billing (the $8/guest attended service premium) is CBC revenue on top of commission — chef payout stays the same regardless of tier.
+**Sales tax:** Collected by CBC from clients and remitted separately — not deducted from chef payouts.
 
-**Packaging & Labeling:** Chef provides their own serving ware and chafing dishes for the spread. For Kivi/standard-terms chefs, CBC creates and applies dietary labels and prints menu cards. For Chef John, chef handles all labeling and menu presentation.
+**Payment terms:** Net 30 from service date. CBC invoices all clients — CBC is the sole billing entity.
 
-**Delivery:** Varies by chef. Chef John handles his own delivery, staging, and client-facing fulfillment. For Kivi/standard-terms chefs, CBC delivers from commissary to client site (funded within CBC's commission). Delivery is not a separate line item on client invoices.
+**Packaging:** Chefs provide food in covered aluminum or stainless steel trays. CBC provides all serving equipment for the spread.
 
-**Recurring account discount (future):** A 5% recurring discount is planned but not active at launch. When introduced, it will be applied to the customer total first, then the per-chef split applies to the discounted amount — both chef and CBC absorb proportionally.
+**Pricing revisions:** Require written amendment signed by both parties. If a chef offers revised pricing, CBC may choose whether to pass savings to the client or retain existing margin.
 
-**Payment terms:** Net 30 from service date. CBC invoices all clients (including Chef John orders) — CBC remains the billing entity.
+> No separate coordination fee, delivery fee, or service charge. CBC's margin is built entirely into the per-guest price. Every quote should reinforce: one price, no surprises.
 
 ---
 
@@ -200,12 +197,12 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Scenario | Guests | Format | Est. Revenue |
 |---|---|---|---|
-| Engineering weekly lunch | 75–100 | Chef's Spread · Drop-Off | $1,875–$3,000 |
-| Monthly all-hands | 150 | Chef's Spread · Drop-Off | $3,750–$4,500 |
-| All-hands (attended) | 150 | Chef's Spread · Attended | $4,950–$5,700 |
-| VIP client event | 50–75 | Chef's Spread · Attended + Chef's Table | $1,900–$2,850 |
-| Product launch | 200 | Mix & Match (2 cuisines) | $6,000–$7,600 |
-| Recurring weekly contract | 150/week | Chef's Spread · Drop-Off | $3,750–$4,500/week |
+| Engineering weekly lunch | 75–100 | Chef's Spread · Drop-Off | $1,875–$3,400 |
+| Monthly all-hands | 150 | Chef's Spread · Drop-Off | $3,750–$5,100 |
+| All-hands (attended) | 150 | Chef's Spread · Attended | $4,950–$6,300 |
+| VIP client event | 50–75 | Chef's Spread · Attended + Chef's Table | $1,900–$3,300 |
+| Product launch | 200 | Mix & Match (2 cuisines) | $6,000–$8,400 |
+| Recurring weekly contract | 150/week | Chef's Spread · Drop-Off | $3,750–$5,100/week |
 
 ---
 

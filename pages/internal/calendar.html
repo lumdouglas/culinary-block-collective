@@ -275,9 +275,47 @@
     }
 
     /* ── WEEKEND CELL ── */
-    .cal-cell.weekend { background: var(--cream2); cursor: default; }
-    .cal-cell.weekend:hover { background: var(--cream2); }
+    .cal-cell.weekend { background: var(--cream2); }
     .cal-cell.weekend .cal-date-num { opacity: 0.4; }
+    /* Saturdays with bookings become interactive */
+    .cal-cell.weekend.has-booking { cursor: pointer; }
+    .cal-cell.weekend.has-booking:hover { background: #EAF4F2; }
+
+    /* ── STATION BOOKING CHIPS ── */
+    .cal-station-chips { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 3px; }
+    .cal-station-chip {
+      display: inline-flex; align-items: center; gap: 3px;
+      background: #0E7490; color: #fff;
+      font-size: 0.58rem; font-weight: 700; letter-spacing: .04em;
+      padding: 1px 5px; border-radius: 3px;
+    }
+    .cal-station-chip.fmow { background: #0891B2; }
+    .cal-station-chip.loulan { background: #047857; }
+
+    /* ── STATION BOOKING PANEL SECTION ── */
+    .panel-station-section { margin-bottom: 18px; }
+    .panel-station-header {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: #0E7490;
+      padding: 6px 0 8px; border-bottom: 2px solid #CFFAFE; margin-bottom: 10px;
+    }
+    .panel-station-icon { font-size: 0.9rem; }
+    .booking-card {
+      background: #F0FDFA; border: 1px solid #99F6E4;
+      border-radius: 6px; padding: 10px 12px; margin-bottom: 8px;
+    }
+    .booking-card:last-child { margin-bottom: 0; }
+    .booking-card-name { font-weight: 700; font-size: 0.88rem; color: #134E4A; }
+    .booking-card-meta { font-size: 0.75rem; color: #0F766E; margin-top: 3px; line-height: 1.5; }
+    .booking-card-stations {
+      display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px;
+    }
+    .booking-card-station-tag {
+      display: inline-block; background: #0E7490; color: #fff;
+      font-size: 0.65rem; font-weight: 700; padding: 2px 7px;
+      border-radius: 4px;
+    }
 
     /* ── CHEF CARD (panel) ── */
     .chef-card {
@@ -532,6 +570,48 @@
 
 <script>
 // ══════════════════════════════════════════════
+// A0 — STATION BOOKING DATA
+// Recurring commissary kitchen station bookings.
+// days: JS day-of-week integers (0=Sun … 6=Sat)
+// end:  last date of recurrence (YYYY-MM-DD, inclusive)
+// ══════════════════════════════════════════════
+const STATION_BOOKINGS = [
+  {
+    id: 'fmow',
+    tenant: 'Free Meals on Wheels',
+    days: [6],            // Saturday
+    stations: ['3', '4'],
+    time: '7:00 AM – 11:00 AM',
+    note: 'Recurring weekly through end of 2026',
+    color: '#0891B2',
+    end: '2026-12-31',
+  },
+  {
+    id: 'loulan',
+    tenant: 'Loulan',
+    days: [1, 2, 3, 4, 5], // Mon – Fri
+    stations: ['4'],
+    time: '7:00 AM – 3:00 PM',
+    note: 'Recurring weekdays through end of 2026',
+    color: '#047857',
+    end: '2026-12-31',
+  },
+];
+
+/** Returns STATION_BOOKINGS entries that apply on the given date key. */
+function getBookingsForDate(dateKey) {
+  const date = parseDateKey(dateKey);
+  const dow  = date.getDay();
+  return STATION_BOOKINGS.filter(b => {
+    if (!b.days.includes(dow)) return false;
+    // Must be on or before the end date
+    const [ey, em, ed] = b.end.split('-').map(Number);
+    const endDate = new Date(ey, em - 1, ed);
+    return date <= endDate;
+  });
+}
+
+// ══════════════════════════════════════════════
 // A — CHEF DATA
 // ══════════════════════════════════════════════
 const CHEFS = [
@@ -621,7 +701,10 @@ function isToday(date) {
 function getChefsForDate(dateKey, filterCuisine) {
   const date = parseDateKey(dateKey);
   const dow = date.getDay();
-  if (dow === 0 || dow === 6) return [];
+  // Sundays are never bookable
+  if (dow === 0) return [];
+  // Saturdays: no catering chefs
+  if (dow === 6) return [];
   let chefs = CHEFS.filter(c => c.available_days.includes(dow));
   if (filterCuisine) {
     // filterCuisine may be a chef id (e.g. 'chef_john') or a concept tag (e.g. 'chinese', 'sushi')
@@ -683,23 +766,38 @@ function renderMonth() {
 }
 
 function renderCell(date, key, chefs, otherMonth) {
-  const isWeekend = date.getDay() === 0 || date.getDay() === 6;
-  const todayClass = isToday(date) ? ' today' : '';
+  const dow = date.getDay();
+  const isWeekend = dow === 0 || dow === 6;
+  const isSunday  = dow === 0;
+  const stationBookings = !otherMonth ? getBookingsForDate(key) : [];
+  const hasBooking = stationBookings.length > 0;
+
+  const todayClass    = isToday(date) ? ' today' : '';
   const selectedClass = key === selectedDateKey ? ' selected' : '';
-  const otherClass = otherMonth ? ' other-month' : '';
-  const weekendClass = (isWeekend && !otherMonth) ? ' weekend' : '';
+  const otherClass    = otherMonth ? ' other-month' : '';
+  // Only apply weekend greying if truly a no-activity day
+  const weekendClass  = (isWeekend && !otherMonth) ? ' weekend' : '';
+  const hasBookingClass = hasBooking ? ' has-booking' : '';
   const todayPill = isToday(date) ? '<span class="today-pill">TODAY</span>' : '';
+
   const dots = chefs.map(c =>
     `<div class="cal-dot" style="background:${c.dot};" title="${escHtml(c.name)}"></div>`
   ).join('');
+
+  // Station booking chips
+  const chips = stationBookings.map(b =>
+    `<span class="cal-station-chip ${b.id}" title="${escHtml(b.tenant)} · ${escHtml(b.time)}">Stn ${b.stations.join('+')} ${escHtml(b.tenant.replace('Free Meals on Wheels','FMOW'))}</span>`
+  ).join('');
+
   const subline = chefs.length > 0
     ? `<div class="cal-item-count">${chefs.length} chef${chefs.length!==1?'s':''} available</div>`
-    : (!otherMonth && isWeekend ? `<div class="cal-item-count" style="opacity:0.4;">Weekend</div>` : '');
+    : ((!otherMonth && isWeekend && !hasBooking) ? `<div class="cal-item-count" style="opacity:0.4;">${isSunday ? 'Sunday' : 'Weekend'}</div>` : '');
 
   return `
-    <div class="cal-cell${todayClass}${selectedClass}${otherClass}${weekendClass}" onclick="selectDay('${key}')">
+    <div class="cal-cell${todayClass}${selectedClass}${otherClass}${weekendClass}${hasBookingClass}" onclick="selectDay('${key}')">
       <div class="cal-date-num">${date.getDate()} ${todayPill}</div>
       ${dots ? `<div class="cal-dots">${dots}</div>` : ''}
+      ${chips ? `<div class="cal-station-chips">${chips}</div>` : ''}
       ${subline}
     </div>
   `;
@@ -769,21 +867,26 @@ function selectDay(dateKey) {
 function renderPanel(dateKey) {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
   const date = parseDateKey(dateKey);
-  const isWeekend = date.getDay() === 0 || date.getDay() === 6;
+  const dow = date.getDay();
+  const isSunday  = dow === 0;
+  const isSaturday = dow === 6;
+  const isWeekend = isSunday || isSaturday;
   const chefs = getChefsForDate(dateKey, filterCuisine);
+  const stationBookings = getBookingsForDate(dateKey);
   const panel = document.getElementById('cal-panel');
   const friendlyDate = date.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'});
 
-  if (isWeekend || chefs.length === 0) {
+  // If no catering chefs AND no station bookings → minimal panel
+  if ((isWeekend || chefs.length === 0) && stationBookings.length === 0) {
     panel.innerHTML = `
       <div class="panel-header">
         <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-        <div class="panel-meta">${isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
+        <div class="panel-meta">${isSunday ? 'Sunday — no activity' : isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
       </div>
       <div class="panel-body">
         <div class="panel-empty">
           <div class="empty-icon">${isWeekend ? '🌴' : '🔍'}</div>
-          ${isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
+          ${isSunday ? 'No activity scheduled.' : isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
         </div>
       </div>
     `;
@@ -833,12 +936,40 @@ function renderPanel(dateKey) {
     `;
   }).join('');
 
+  // Station bookings section
+  const stationHtml = stationBookings.length === 0 ? '' : `
+    <div class="panel-station-section">
+      <div class="panel-station-header">
+        <span class="panel-station-icon">🏢</span>
+        Station Bookings
+      </div>
+      ${stationBookings.map(b => `
+        <div class="booking-card">
+          <div class="booking-card-name">${escHtml(b.tenant)}</div>
+          <div class="booking-card-meta">
+            🕐 ${escHtml(b.time)}<br>
+            📅 ${escHtml(b.note)}
+          </div>
+          <div class="booking-card-stations">
+            ${b.stations.map(s => `<span class="booking-card-station-tag" style="background:${b.color};">Station ${escHtml(s)}</span>`).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  const chefCountMeta = isSaturday
+    ? (stationBookings.length + ' station booking' + (stationBookings.length !== 1 ? 's' : ''))
+    : (chefs.length + ' chef' + (chefs.length !== 1 ? 's' : '') + ' available'
+       + (stationBookings.length > 0 ? ` · ${stationBookings.length} station booking${stationBookings.length !== 1 ? 's' : ''}` : ''));
+
   panel.innerHTML = `
     <div class="panel-header">
       <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-      <div class="panel-meta">${chefs.length} chef${chefs.length!==1?'s':''} available</div>
+      <div class="panel-meta">${chefCountMeta}</div>
     </div>
     <div class="panel-body">
+      ${stationHtml}
       ${chefsHtml}
     </div>
   `;
@@ -856,12 +987,23 @@ function setView(mode) {
 }
 
 function renderLegend() {
-  document.getElementById('legend').innerHTML = CHEFS.map(chef =>
+  const chefItems = CHEFS.map(chef =>
     `<div class="legend-item">
       <div class="legend-dot" style="background:${chef.dot};"></div>
       ${escHtml(chef.name)} &mdash; ${escHtml(chef.concepts.map(c => c.cuisine).join(' / '))}
     </div>`
   ).join('');
+
+  const stationItems = STATION_BOOKINGS.map(b =>
+    `<div class="legend-item">
+      <div class="legend-dot" style="background:${b.color};"></div>
+      <strong>${escHtml(b.tenant)}</strong> &mdash; Station${b.stations.length > 1 ? 's' : ''} ${b.stations.join(' & ')} · ${escHtml(b.time)}
+    </div>`
+  ).join('');
+
+  document.getElementById('legend').innerHTML = chefItems +
+    `<div class="legend-item" style="width:100%;border-top:1px solid var(--border);padding-top:6px;margin-top:2px;color:var(--muted);font-size:0.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;">Station Bookings</div>` +
+    stationItems;
 }
 
 document.getElementById('btn-prev').addEventListener('click', () => {

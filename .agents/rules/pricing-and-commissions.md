@@ -21,13 +21,14 @@ CBC is the billing entity on all orders. Client pays CBC. CBC pays each chef the
 | Chef / Cuisine | Chef Price (to CBC) | Client Price | CBC Markup | Min Guests | Min Order |
 |---|---|---|---|---|---|
 | Loulan · Chef Kun · Chinese & Southeast Asian | $18.75/person | $25/person | $6.25 (25%) | 50 | $1,250 |
-| Five Course Provision · Mexican Fusion + Italian | $32.00/person | CBC sets independently | ~20–25% | 50 | $1,600 |
+| Five Course · Mexican/Italian (Standard) | $32.00/person | CBC sets independently | ~20–25% | 50 | $1,600 |
+| Five Course · Mediterranean (Grill & Grain) | $42.00/person | CBC sets independently | ~20–25% | 50 | $2,100 |
 
 ### Tier 1 — Premium Drop-Off Spread
 
 | Chef / Cuisine | Chef Price (to CBC) | Client Price | CBC Markup | Min Guests | Min Order |
 |---|---|---|---|---|---|
-| Five Course · Mexican Fusion (premium proteins) | $40.00/person | CBC sets independently | ~20–25% | 50 | $2,000 |
+| Five Course · Premium (premium proteins) | $40.00/person | CBC sets independently | ~20–25% | 50 | $2,000 |
 | Unique Cuisine · Sushi & Japanese | $24.00/person | $30/person | $6.00 (20%) | 50 | $1,500 |
 
 ### Tier 2 — Attended Service
@@ -68,24 +69,26 @@ Add **+$8/person** on top of any Standard or Premium client price.
 ### Chef John — Five Course Provision
 
 - **Model:** Cost-plus. Chef John quotes CBC his per-guest food price. CBC sets client price independently.
-- **Chef John's food price:** $32.00/person (Standard) · $40.00/person (Premium)
+- **Chef John's food prices:** $32.00/person (Standard — Mexican/Italian) · $40.00/person (Premium) · $42.00/person (Mediterranean — Grill & Grain)
 - **CBC's markup:** CBC's sole discretion — target ~20–25%
-- CBC is sales-only — Chef handles all delivery, staging, labeling, and client-site fulfillment
+- **Fulfillment:** Chef John prepares food in covered, labeled aluminum or stainless steel trays. CBC prints dietary and food safety labels (sends to Chef John for approval); Chef John affixes labels before CBC pickup. CBC provides all serving equipment and handles delivery, onsite setup, and staging.
 - CBC absorbs credit card processing fees (~3%) — not deducted from Chef John's payout
 - No performance escalators
 - Pricing revisions require written amendment signed by both parties; if Chef John offers revised pricing, CBC may choose whether to pass savings to client or retain margin
 
 | Price Point | Chef Gets | CBC Gets (at ~20% markup) |
 |---|---|---|
-| Standard ($32 chef price) | $32.00 | CBC client price − $32.00 |
+| Standard — Mexican/Italian ($32 chef price) | $32.00 | CBC client price − $32.00 |
 | Premium ($40 chef price) | $40.00 | CBC client price − $40.00 |
+| Mediterranean — Grill & Grain ($42 chef price) | $42.00 | CBC client price − $42.00 |
 
 ### Loulan · Chef Kun — Chinese & Southeast Asian
 
 - **Model:** Cost-plus. Chef Kun's food price to CBC: **$18.75/person**. Client price: **$25/person**.
 - **CBC markup:** $6.25/person (25%)
-- Standard terms — CBC handles delivery, labeling, food safety compliance
-- Late delivery credit absorbed in CBC's markup margin
+- CBC handles delivery, labeling, food safety compliance, onsite setup
+- Chef provides food in covered aluminum or stainless steel trays; CBC creates and applies all labels
+- Late delivery attributable to chef handoff: credit deducted from chef payout
 - White rice included · Brown rice +$1/person
 
 | Price Point | Chef Gets | CBC Gets |
@@ -98,7 +101,8 @@ Add **+$8/person** on top of any Standard or Premium client price.
 
 - **Model:** Cost-plus. Chef's food price to CBC: **$24.00/person**. Client price: **$30/person**.
 - **CBC markup:** $6.00/person (20%)
-- CBC handles delivery, labeling, food safety compliance
+- CBC handles delivery, labeling, food safety compliance, onsite setup
+- Chef provides food in covered aluminum or stainless steel trays; CBC creates and applies all labels
 
 | Price Point | Chef Gets | CBC Gets |
 |---|---|---|
