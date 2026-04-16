@@ -127,10 +127,11 @@
     .concept-header p { font-size: 0.88rem; color: var(--muted); }
 
     /* ── UNIFIED BOX HEADER ── */
-    .set-price-row { display:flex; align-items:baseline; justify-content:space-between; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
+    .set-price-row { display:flex; align-items:flex-start; flex-direction:column; gap:6px; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
     .set-price { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--dgreen); line-height:1; }
     .set-price sub { font-family:var(--font-body); font-size:0.72rem; font-weight:400; color:var(--muted); }
-    .set-meta { font-size:0.78rem; color:var(--muted); font-weight:500; }
+    .set-meta { font-size:0.82rem; color:var(--muted); font-weight:500; }
+    .set-meta strong { color:var(--dgreen); font-weight:700; }
     .set-summary-line { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
     .set-summary-line.mexican { color: var(--mexican); }
     .set-summary-line.italian { color: var(--italian); }
@@ -276,7 +277,7 @@
     <div class="concept-header mexican">
       <div class="concept-num mexican">Concept 1</div>
       <h2>The Tortilla Theory</h2>
-      <p>Modern Mexican · Choose 2 protein mains + 1 veg main · 2 sides · 2 salsas · Chips, tortillas &amp; full condiment set</p>
+      <p>Modern Mexican · Choose 2 protein mains + 1 veg main · 2 sides · Chef-paired salsas · Chips, tortillas &amp; full condiment set</p>
     </div>
 
     <div class="set-photos">
@@ -287,9 +288,9 @@
     <div class="selection-box mexican">
       <div class="set-price-row">
         <span class="set-price">$46<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · $38 for 100+</span>
+        <span class="set-meta">50–99 guests · <strong>$38/person for 100+</strong></span>
       </div>
-      <div class="set-summary-line mexican">Choose 3 mains (2 protein, 1 veg) · 2 sides · 2 salsas · chips, tortillas &amp; condiment set</div>
+      <div class="set-summary-line mexican">Choose 3 mains (2 protein, 1 veg) · 2 sides · chef-paired salsas included · chips, tortillas &amp; condiment set</div>
 
       <div class="selection-group">
         <div class="selection-group-label">Protein Mains — select 2</div>
@@ -323,7 +324,7 @@
       </div>
 
       <div class="selection-group">
-        <div class="selection-group-label">Salsas — select 2</div>
+        <div class="selection-group-label">Salsas — Chef's Pairing · Included</div>
         <ul class="dish-list">
           <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Roasted Tomato Salsa</div><div class="dish-desc">charred tomato, garlic</div></div></li>
           <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Salsa Verde</div><div class="dish-desc">tomatillo, jalapeño</div></div></li>
@@ -358,7 +359,7 @@
     <div class="concept-header med">
       <div class="concept-num med">Concept 2</div>
       <h2>Grill &amp; Grain</h2>
-      <p>Mediterranean Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · 2 sauces · Warm pita &amp; flatbread · Enhanced condiment set</p>
+      <p>Mediterranean Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · Chef-paired sauces · Warm pita &amp; flatbread · Enhanced condiment set</p>
     </div>
 
     <div class="set-photos">
@@ -369,9 +370,9 @@
     <div class="selection-box med">
       <div class="set-price-row">
         <span class="set-price">$50<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · $46 for 100+</span>
+        <span class="set-meta">50–99 guests · <strong>$46/person for 100+</strong></span>
       </div>
-      <div class="set-summary-line med">Choose 3 mains (2 protein, 1 veg) · 2 sides · 2 sauces · warm pita, flatbread &amp; mezze set</div>
+      <div class="set-summary-line med">Choose 3 mains (2 protein, 1 veg) · 2 sides · chef-paired sauces included · warm pita, flatbread &amp; mezze set</div>
 
       <div class="selection-group">
         <div class="selection-group-label">Protein Mains — select 2</div>
@@ -403,7 +404,7 @@
       </div>
 
       <div class="selection-group">
-        <div class="selection-group-label">Sauces — select 2</div>
+        <div class="selection-group-label">Sauces — Chef's Pairing · Included</div>
         <ul class="dish-list">
           <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tzatziki</div><div class="dish-desc">yogurt, cucumber, garlic</div></div></li>
           <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tahini Sauce</div><div class="dish-desc">tahini, lemon, garlic</div></div></li>
@@ -524,7 +525,7 @@
     <div class="selection-box italian">
       <div class="set-price-row">
         <span class="set-price">$46<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · $38 for 100+</span>
+        <span class="set-meta">50–99 guests · <strong>$38/person for 100+</strong></span>
       </div>
       <div class="set-summary-line italian">Choose 3 mains (2 protein, 1 veg) · 2 sides · garlic bread · parmesan &amp; condiment set</div>
 
