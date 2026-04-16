@@ -157,6 +157,26 @@
     .addon-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-top: 14px; margin-bottom: 8px; }
     .chip-price { font-size: 0.72rem; color: var(--muted); margin-left: 4px; font-weight: 500; }
 
+    /* ── DISH LIST ── */
+    .dish-list { list-style: none; margin: 0; }
+    .dish-list li { padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
+    .dish-list li:last-child { border-bottom: none; }
+    .dish-bullet { font-weight: 700; flex-shrink: 0; font-size: 1.1rem; line-height: 1.4; }
+    .dish-bullet.mexican { color: var(--mexican); }
+    .dish-bullet.med { color: var(--med); }
+    .dish-bullet.spice { color: var(--spice); }
+    .dish-bullet.italian { color: var(--italian); }
+    .dish-bullet.addon { color: var(--gold); }
+    .dish-content { flex: 1; }
+    .dish-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
+    .dish-desc { font-size: 0.78rem; color: var(--muted); margin-top: 1px; }
+    .addon-price { font-size: 0.75rem; color: var(--muted); font-weight: 500; margin-left: 6px; }
+
+    /* ── SET PHOTOS ── */
+    .set-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
+    .set-photos img { width: 100%; height: 200px; border-radius: var(--radius); object-fit: cover; display: block; }
+    @media (max-width: 600px) { .set-photos { grid-template-columns: 1fr; } }
+
     /* ── CONCEPT DIVIDER ── */
     .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
 
@@ -220,11 +240,11 @@
       <span>/</span>
       <span style="color:rgba(255,255,255,0.7);">Full Menu</span>
     </div>
-    <span class="menu-hero-badge">Three Concepts · One Chef</span>
+    <span class="menu-hero-badge">Four Concepts · One Chef</span>
     <h1>Five Course Provision<br/><em>Full Menu</em></h1>
     <p class="menu-hero-sub">Choose your concept — Modern Mexican, Italian, Mediterranean, or Indian. Each is a complete Chef's Spread, prepared for your guest count, self-serve style.</p>
     <div class="menu-hero-meta">
-      <span class="meta-chip">from $38 / person</span>
+      <span class="meta-chip">from $32 / person</span>
       <span class="meta-chip">50–500 guests</span>
       <span class="meta-chip">Chef's Spread format</span>
       <span class="meta-chip">Dietary labels included</span>
@@ -240,9 +260,9 @@
 <div class="concept-nav">
   <div class="concept-nav-inner">
     <a class="concept-tab mexican" href="#tortilla-theory"><span class="concept-dot dot-mexican"></span>The Tortilla Theory</a>
-    <a class="concept-tab italian" href="#pasta-table"><span class="concept-dot dot-italian"></span>A Little Pasta Table</a>
     <a class="concept-tab med" href="#grill-grain"><span class="concept-dot dot-med"></span>Grill &amp; Grain</a>
     <a class="concept-tab spice" href="#spice-route"><span class="concept-dot dot-spice"></span>Spice Route</a>
+    <a class="concept-tab italian" href="#pasta-table"><span class="concept-dot dot-italian"></span>A Little Pasta Table</a>
     <a class="concept-tab pricing" href="#pricing-summary" style="margin-left:auto;">Pricing</a>
   </div>
 </div>
@@ -256,7 +276,12 @@
     <div class="concept-header mexican">
       <div class="concept-num mexican">Concept 1</div>
       <h2>The Tortilla Theory</h2>
-      <p>Modern Mexican · Choice of 2 mains · Choice of 3 sides · Choice of 2 salsas · Full condiment set</p>
+      <p>Modern Mexican · Choose 2 protein mains + 1 veg main · 2 sides · 2 salsas · Chips, tortillas &amp; full condiment set</p>
+    </div>
+
+    <div class="set-photos">
+      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" loading="lazy" />
+      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" loading="lazy" />
     </div>
 
     <div class="selection-box mexican">
@@ -268,156 +293,77 @@
 
       <div class="selection-group">
         <div class="selection-group-label">Protein Mains — select 2</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🍗</span> Pollo al Pastor</div>
-          <div class="chip"><span class="icon">🍗</span> Chicken Tinga</div>
-          <div class="chip"><span class="icon">🥩</span> Carnitas</div>
-          <div class="chip"><span class="icon">🥩</span> Braised Pork Chile Verde</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pollo al Pastor</div><div class="dish-desc">achiote marinated chicken, pineapple, chili</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Chicken Tinga</div><div class="dish-desc">shredded chicken, tomato, chipotle</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Carnitas</div><div class="dish-desc">slow cooked pork, orange, garlic</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Braised Pork Chile Verde</div><div class="dish-desc">tomatillo, green chili</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🍄</span> Roasted Mushrooms</div>
-          <div class="chip"><span class="icon">🌽</span> Calabacitas</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Roasted Mushrooms</div><div class="dish-desc">mushrooms, garlic, chili</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Calabacitas</div><div class="dish-desc">zucchini, corn, peppers</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Sides — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Spanish Rice</div>
-          <div class="chip">Cilantro Lime Rice</div>
-          <div class="chip">Refried Pinto Beans</div>
-          <div class="chip">Black Beans</div>
-          <div class="chip">Mexican Street Corn</div>
-          <div class="chip">Shaved Cabbage Slaw</div>
-          <div class="chip">Chilled Quinoa Salad</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Spanish Rice</div><div class="dish-desc">tomato, garlic</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Cilantro Lime Rice</div><div class="dish-desc">lime, herbs</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Refried Pinto Beans</div><div class="dish-desc">slow cooked beans</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Black Beans</div><div class="dish-desc">garlic, herbs</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Mexican Street Corn</div><div class="dish-desc">cotija, chili, crema</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Shaved Cabbage Slaw</div><div class="dish-desc">red onion, carrot, serrano, cilantro, lime, oregano</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Chilled Quinoa Salad</div><div class="dish-desc">citrus, herbs</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Salsas — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Roasted Tomato Salsa</div>
-          <div class="chip">Salsa Verde</div>
-          <div class="chip">Pineapple Habanero Salsa</div>
-          <div class="chip">Pico de Gallo</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Roasted Tomato Salsa</div><div class="dish-desc">charred tomato, garlic</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Salsa Verde</div><div class="dish-desc">tomatillo, jalapeño</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pineapple Habanero Salsa</div><div class="dish-desc">sweet heat</div></div></li>
+          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pico de Gallo</div><div class="dish-desc">tomato, serrano, lime</div></div></li>
+        </ul>
       </div>
     </div>
 
     <div class="addon-box">
       <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
       <p>Upgrade one protein main or add enhancements to any order.</p>
-      <div class="chip-grid">
-        <div class="chip"><span class="icon">🥩</span> Carne Asada <span class="chip-price">+$5</span></div>
-        <div class="chip"><span class="icon">🦐</span> Chile Lime Shrimp <span class="chip-price">+$4</span></div>
-      </div>
-      <div class="addon-label">Add-Ons</div>
-      <div class="chip-grid">
-        <div class="chip">Guacamole <span class="chip-price">+$2.25</span></div>
-        <div class="chip">Cinnamon Sugar Churros <span class="chip-price">+$2</span></div>
-      </div>
+      <ul class="dish-list">
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Carne Asada <span class="addon-price">+$5</span></div><div class="dish-desc">grilled steak, citrus marinade</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Chile Lime Shrimp <span class="addon-price">+$4</span></div><div class="dish-desc">garlic, lime, chili</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Guacamole <span class="addon-price">+$2.25</span></div><div class="dish-desc">avocado, lime, salt</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Cinnamon Sugar Churros <span class="addon-price">+$2</span></div><div class="dish-desc">crispy pastry</div></div></li>
+      </ul>
     </div>
 
   </div>
 </section>
 
-    <!-- Food Photos: Tortilla Theory -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-      <img src="/images/five-course-provisions/chile_lime_shrimp_street_corn_slaw.jpg" alt="Chile lime shrimp with street corn and slaw" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-      <img src="/images/five-course-provisions/beef_birria_black_beans_quinoa_salad.jpg" alt="Beef birria with black beans and quinoa salad" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-    </div>
-
 <hr class="concept-divider" />
 
 <!-- ══════════════════════════════════
-     CONCEPT 2: A LITTLE PASTA TABLE
+     CONCEPT 2: GRILL & GRAIN
 ═══════════════════════════════════ -->
-<section class="section section-alt" id="pasta-table">
-  <div class="container">
-
-    <div class="concept-header italian">
-      <div class="concept-num italian">Concept 2</div>
-      <h2>A Little Pasta Table</h2>
-      <p>Italian Lunch Experience · Choice of 2 mains · Choice of 3 sides · Garlic bread · Condiments</p>
-    </div>
-
-    <div class="selection-box italian">
-      <div class="set-price-row">
-        <span class="set-price">$38<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · $32 for 100+</span>
-      </div>
-      <div class="set-summary-line italian">Choose 3 mains (2 protein, 1 veg) · 2 sides · garlic bread · parmesan &amp; condiment set</div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Protein Mains — select 2</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🍗</span> Chicken Parmesan</div>
-          <div class="chip"><span class="icon">🍋</span> Chicken Piccata</div>
-          <div class="chip"><span class="icon">🍝</span> Pasta Bolognese</div>
-          <div class="chip"><span class="icon">🌿</span> Sausage Bolognese</div>
-        </div>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🌿</span> Basil Pesto Pasta</div>
-          <div class="chip"><span class="icon">🧀</span> Spinach Ricotta Baked Pasta</div>
-          <div class="chip"><span class="icon">🧀</span> Penne Alfredo</div>
-          <div class="chip"><span class="icon">🍅</span> Creamy Tomato Basil Pasta</div>
-        </div>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Sides — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Caesar Salad</div>
-          <div class="chip">Caprese Salad</div>
-          <div class="chip">Roasted Potatoes</div>
-          <div class="chip">Sautéed Green Beans</div>
-          <div class="chip">Grilled Vegetables</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="addon-box">
-      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
-      <p>Upgrade one protein main or add a premium cut to any Italian spread.</p>
-      <div class="chip-grid">
-        <div class="chip"><span class="icon">🍝</span> Short Rib Ragù <span class="chip-price">+$4</span></div>
-        <div class="chip"><span class="icon">🥩</span> Steak with Chimichurri <span class="chip-price">+$5</span></div>
-        <div class="chip"><span class="icon">🐟</span> Lemon Herb Roasted Salmon <span class="chip-price">+$5</span></div>
-        <div class="chip"><span class="icon">🍝</span> Rigatoni alla Vodka <span class="chip-price">+$2</span></div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-    <!-- Food Photos: Pasta Table -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-      <img src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad and lemon orzo" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-      <img src="/images/five-course-provisions/chef-john-action.jpg" alt="Chef John Alvarez preparing Five Course Provision" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-    </div>
-
-<hr class="concept-divider" />
-
-<!-- ══════════════════════════════════
-     CONCEPT 3: GRILL & GRAIN
-═══════════════════════════════════ -->
-<section class="section" id="grill-grain">
+<section class="section section-alt" id="grill-grain">
   <div class="container">
 
     <div class="concept-header med">
-      <div class="concept-num med">Concept 3</div>
+      <div class="concept-num med">Concept 2</div>
       <h2>Grill &amp; Grain</h2>
-      <p>Mediterranean Kitchen · Choice of 2 mains · Choice of 3 sides · Choice of 2 sauces · Warm pita &amp; flatbread · Enhanced condiment set</p>
+      <p>Mediterranean Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · 2 sauces · Warm pita &amp; flatbread · Enhanced condiment set</p>
+    </div>
+
+    <div class="set-photos">
+      <img src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" loading="lazy" />
+      <img src="/images/five-course-provisions/harissa_salmon_saffron_rice_hummus.jpg" alt="Harissa roasted salmon with saffron rice and hummus" loading="lazy" />
     </div>
 
     <div class="selection-box med">
@@ -429,81 +375,76 @@
 
       <div class="selection-group">
         <div class="selection-group-label">Protein Mains — select 2</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🍗</span> Grilled Chicken Shawarma</div>
-          <div class="chip"><span class="icon">🍗</span> Grilled Herb Chicken</div>
-          <div class="chip"><span class="icon">🥩</span> Beef Kofta</div>
-          <div class="chip"><span class="icon">🥩</span> Braised Beef with Tomato &amp; Spice</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Grilled Chicken Shawarma</div><div class="dish-desc">spiced roasted chicken thigh, garlic, lemon</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Grilled Herb Chicken</div><div class="dish-desc">oregano, garlic, olive oil</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Beef Kofta</div><div class="dish-desc">ground beef, herbs, warm spices</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Braised Beef with Tomato &amp; Spice</div><div class="dish-desc">slow cooked beef, cumin, herbs</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🧆</span> Falafel</div>
-          <div class="chip"><span class="icon">🥦</span> Roasted Cauliflower</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Falafel</div><div class="dish-desc">chickpea, herbs, spices · vegan · GF</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Roasted Cauliflower</div><div class="dish-desc">olive oil, cumin, herbs</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Sides — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Saffron Rice</div>
-          <div class="chip">Mediterranean Couscous</div>
-          <div class="chip">Tabbouleh</div>
-          <div class="chip">Orzo, Farro &amp; Quinoa Grain Salad</div>
-          <div class="chip">Creamy Cucumber Yogurt Salad</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Saffron Rice</div><div class="dish-desc">turmeric, garlic, onion</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Mediterranean Couscous</div><div class="dish-desc">cucumber, tomato, herbs</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tabbouleh</div><div class="dish-desc">parsley, bulgur, lemon</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Orzo, Farro &amp; Quinoa Grain Salad</div><div class="dish-desc">herbs, cucumber, lemon vinaigrette</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Creamy Cucumber Yogurt Salad</div><div class="dish-desc">cucumber, yogurt, dill, garlic</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Sauces — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Tzatziki</div>
-          <div class="chip">Tahini Sauce</div>
-          <div class="chip">Harissa Yogurt</div>
-          <div class="chip">Whipped Garlic Sauce</div>
-          <div class="chip">Zhug</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tzatziki</div><div class="dish-desc">yogurt, cucumber, garlic</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tahini Sauce</div><div class="dish-desc">tahini, lemon, garlic</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Harissa Yogurt</div><div class="dish-desc">harissa, yogurt, lemon</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Whipped Garlic Sauce</div><div class="dish-desc">garlic, lemon, oil</div></div></li>
+          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Zhug</div><div class="dish-desc">herbs, chili, garlic</div></div></li>
+        </ul>
       </div>
     </div>
 
     <div class="addon-box">
       <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
       <p>Upgrade one protein main or add mezze enhancements to any order.</p>
-      <div class="chip-grid">
-        <div class="chip"><span class="icon">🐟</span> Harissa Roasted Salmon <span class="chip-price">+$5</span></div>
-        <div class="chip"><span class="icon">🥩</span> Grilled Steak with Chermoula <span class="chip-price">+$6</span></div>
-      </div>
-      <div class="addon-label">Mezze &amp; Dessert Add-Ons</div>
-      <div class="chip-grid">
-        <div class="chip">Hummus <span class="chip-price">+$2</span></div>
-        <div class="chip">Baba Ganoush <span class="chip-price">+$2</span></div>
-        <div class="chip">Baklava <span class="chip-price">+$3</span></div>
-      </div>
+      <ul class="dish-list">
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Harissa Roasted Salmon <span class="addon-price">+$5</span></div><div class="dish-desc">chile, citrus, herbs</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Grilled Steak with Chermoula <span class="addon-price">+$6</span></div><div class="dish-desc">herbs, garlic, olive oil</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Hummus <span class="addon-price">+$2</span></div><div class="dish-desc">chickpea, tahini, olive oil</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Baba Ganoush <span class="addon-price">+$2</span></div><div class="dish-desc">eggplant, tahini, garlic</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Baklava <span class="addon-price">+$3</span></div><div class="dish-desc">honey, nuts, phyllo</div></div></li>
+      </ul>
     </div>
 
   </div>
 </section>
 
-    <!-- Food Photos: Grill & Grain -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-      <img src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-      <img src="/images/five-course-provisions/harissa_salmon_saffron_rice_hummus.jpg" alt="Harissa roasted salmon with saffron rice and hummus" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
-    </div>
-
 <hr class="concept-divider" />
 
 <!-- ══════════════════════════════════
-     CONCEPT 4: SPICE ROUTE
+     CONCEPT 3: SPICE ROUTE
 ═══════════════════════════════════ -->
 <section class="section" id="spice-route">
   <div class="container">
 
     <div class="concept-header spice">
-      <div class="concept-num spice">Concept 4</div>
+      <div class="concept-num spice">Concept 3</div>
       <h2>Spice Route</h2>
-      <p>Indian Kitchen · Choice of 3 mains (2 protein, 1 veg) · Choice of 2 sides · Naan bread · Full condiment set</p>
+      <p>Indian Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · Naan bread · Full condiment &amp; chutney set</p>
+    </div>
+
+    <div class="set-photos" style="grid-template-columns:1fr;">
+      <img src="/images/five-course-provisions/chef-john-action.jpg" alt="Spice Route — Indian cuisine by Chef John Alvarez" loading="lazy" />
     </div>
 
     <div class="selection-box spice">
@@ -515,59 +456,123 @@
 
       <div class="selection-group">
         <div class="selection-group-label">Protein Mains — select 2</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🍗</span> Butter Chicken</div>
-          <div class="chip"><span class="icon">🍗</span> Chicken Tikka Masala</div>
-          <div class="chip"><span class="icon">🍗</span> Tandoori Chicken</div>
-          <div class="chip"><span class="icon">🥩</span> Lamb Keema</div>
-          <div class="chip"><span class="icon">🥩</span> Beef Curry</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Butter Chicken</div><div class="dish-desc">tomato, cream, fenugreek, garam masala</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Chicken Tikka Masala</div><div class="dish-desc">tomato, onion, cream, spices</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Tandoori Chicken</div><div class="dish-desc">yogurt, garlic, lemon, warm spices</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Lamb Keema</div><div class="dish-desc">ground lamb, peas, tomato, spices</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Beef Curry</div><div class="dish-desc">onion, tomato, ginger, garam masala</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <div class="chip-grid">
-          <div class="chip"><span class="icon">🧀</span> Palak Paneer</div>
-          <div class="chip"><span class="icon">🧀</span> Paneer Tikka Masala</div>
-          <div class="chip"><span class="icon">🌿</span> Chana Masala</div>
-          <div class="chip"><span class="icon">🥔</span> Aloo Gobi</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Palak Paneer</div><div class="dish-desc">spinach, paneer, garlic, cream · veg</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Paneer Tikka Masala</div><div class="dish-desc">tomato, cream, fenugreek, paneer · veg</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Chana Masala</div><div class="dish-desc">chickpeas, tomato, onion, spices · vegan · GF</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Aloo Gobi</div><div class="dish-desc">potato, cauliflower, turmeric, cumin</div></div></li>
+        </ul>
       </div>
 
       <div class="selection-group">
         <div class="selection-group-label">Sides — select 2</div>
-        <div class="chip-grid">
-          <div class="chip">Basmati Rice</div>
-          <div class="chip">Turmeric Potatoes</div>
-          <div class="chip">Kachumber Salad</div>
-          <div class="chip">Cucumber Raita</div>
-          <div class="chip">Vegetable Pulao</div>
-          <div class="chip">Saag Aloo</div>
-        </div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Basmati Rice</div><div class="dish-desc">ghee, cumin, herbs</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Turmeric Potatoes</div><div class="dish-desc">mustard seed, curry leaf, herbs</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Kachumber Salad</div><div class="dish-desc">cucumber, tomato, onion, lemon</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Cucumber Raita</div><div class="dish-desc">yogurt, cucumber, cumin, mint</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Vegetable Pulao</div><div class="dish-desc">basmati rice, peas, carrot, spices</div></div></li>
+          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Saag Aloo</div><div class="dish-desc">spinach, potato, garlic, cumin</div></div></li>
+        </ul>
       </div>
     </div>
 
     <div class="addon-box">
       <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
       <p>Upgrade one protein main to a premium cut, or add enhancements to any order.</p>
-      <div class="chip-grid">
-        <div class="chip"><span class="icon">🥩</span> Lamb Rogan Josh <span class="chip-price">+$6</span></div>
-        <div class="chip"><span class="icon">🐟</span> Salmon Tikka <span class="chip-price">+$6</span></div>
-      </div>
-      <div class="addon-label">Add-Ons</div>
-      <div class="chip-grid">
-        <div class="chip">Samosas <span class="chip-price">+$3</span></div>
-        <div class="chip">Mango Cardamom Cake <span class="chip-price">+$4</span></div>
-      </div>
+      <ul class="dish-list">
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Lamb Rogan Josh <span class="addon-price">+$6</span></div><div class="dish-desc">braised lamb, yogurt, chili, spices</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Salmon Tikka <span class="addon-price">+$6</span></div><div class="dish-desc">yogurt, ginger, garam masala</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Samosas <span class="addon-price">+$3</span></div><div class="dish-desc">potato, peas, spice</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Mango Cardamom Cake <span class="addon-price">+$4</span></div><div class="dish-desc">mango, yogurt, cardamom</div></div></li>
+      </ul>
     </div>
 
   </div>
 </section>
 
-    <!-- Food Photos: Spice Route (add photos when available) -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;max-width:860px;margin:0 auto 48px;padding:0 24px;">
-      <img src="/images/five-course-provisions/chef-john-action.jpg" alt="Spice Route — Indian cuisine by Chef John Alvarez" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:16/9;" loading="lazy" />
+<hr class="concept-divider" />
+
+<!-- ══════════════════════════════════
+     CONCEPT 4: A LITTLE PASTA TABLE
+═══════════════════════════════════ -->
+<section class="section section-alt" id="pasta-table">
+  <div class="container">
+
+    <div class="concept-header italian">
+      <div class="concept-num italian">Concept 4</div>
+      <h2>A Little Pasta Table</h2>
+      <p>Italian Lunch Experience · Choose 2 protein mains + 1 veg main · 2 sides · Garlic bread · Parmesan &amp; condiment set</p>
     </div>
+
+    <div class="set-photos">
+      <img src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad" loading="lazy" />
+      <img src="/images/five-course-provisions/chef-john-action.jpg" alt="Chef John Alvarez preparing Five Course Provision" loading="lazy" />
+    </div>
+
+    <div class="selection-box italian">
+      <div class="set-price-row">
+        <span class="set-price">$38<sub>/person</sub></span>
+        <span class="set-meta">50–99 guests · $32 for 100+</span>
+      </div>
+      <div class="set-summary-line italian">Choose 3 mains (2 protein, 1 veg) · 2 sides · garlic bread · parmesan &amp; condiment set</div>
+
+      <div class="selection-group">
+        <div class="selection-group-label">Protein Mains — select 2</div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Chicken Parmesan</div><div class="dish-desc">crispy chicken, tomato sauce, mozzarella</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Chicken Piccata</div><div class="dish-desc">lemon, capers, white wine</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Pasta Bolognese</div><div class="dish-desc">slow simmered beef ragù, tomato, parmesan</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Sausage Bolognese</div><div class="dish-desc">Italian sausage, tomato, fennel</div></div></li>
+        </ul>
+      </div>
+
+      <div class="selection-group">
+        <div class="selection-group-label">Vegetarian Main — select 1</div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Basil Pesto Pasta</div><div class="dish-desc">basil pesto, olive oil, parmesan · veg</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Spinach Ricotta Baked Pasta</div><div class="dish-desc">ricotta, spinach, mozzarella · veg</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Penne Alfredo</div><div class="dish-desc">cream, parmesan, garlic</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Creamy Tomato Basil Pasta</div><div class="dish-desc">tomato cream, basil, parmesan</div></div></li>
+        </ul>
+      </div>
+
+      <div class="selection-group">
+        <div class="selection-group-label">Sides — select 2</div>
+        <ul class="dish-list">
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Caesar Salad</div><div class="dish-desc">romaine, parmesan</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Caprese Salad</div><div class="dish-desc">tomato, mozzarella, basil</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Roasted Potatoes</div><div class="dish-desc">olive oil, herbs</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Sautéed Green Beans</div><div class="dish-desc">garlic, olive oil</div></div></li>
+          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Grilled Vegetables</div><div class="dish-desc">zucchini, peppers</div></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="addon-box">
+      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
+      <p>Upgrade one protein main or add a premium cut to any Italian spread.</p>
+      <ul class="dish-list">
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Short Rib Ragù <span class="addon-price">+$4</span></div><div class="dish-desc">slow braised beef, tomato, parmesan</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Steak with Chimichurri <span class="addon-price">+$5</span></div><div class="dish-desc">herbs, garlic, jus</div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Lemon Herb Roasted Salmon <span class="addon-price">+$5</span></div></div></li>
+        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Rigatoni alla Vodka <span class="addon-price">+$2</span></div><div class="dish-desc">grilled chicken, tomato cream, chili, parmesan</div></div></li>
+      </ul>
+    </div>
+
+  </div>
+</section>
 
 <!-- ══════════════════════════════════
      DIETARY + PRICING SUMMARY
@@ -578,7 +583,7 @@
     <div class="dietary-banner" style="margin-bottom:40px;">
       <div class="db-icon">🌱</div>
       <div>
-        <h4>Dietary accommodations across all three concepts</h4>
+        <h4>Dietary accommodations across all four concepts</h4>
         <p>Vegan, gluten-free, nut-free, and dairy-free options available. Every item individually labeled at delivery. Mention requirements when booking and Chef John will tailor the menu accordingly.</p>
       </div>
     </div>
