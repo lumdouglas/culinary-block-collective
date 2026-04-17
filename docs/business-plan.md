@@ -14,9 +14,9 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 
 **Core promise:** Fresh, dietary-friendly, eco-conscious meals delivered on time — with the culinary diversity a generic caterer can't offer.
 
-**Price point:** $28–$40/person (Standard and Premium Chef's Spread tiers) — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster. Service is Chef's Spread (self-serve station) format only — no individual box meals.
+**Price point:** $25–$40/person (Standard and Premium Chef's Spread tiers) — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster. Service is Chef's Spread (self-serve station) format only — no individual box meals.
 
-**Revenue target:** Break-even at 2 total orders; ~16% net margin at 6-month run rate (21 orders base scenario). CBC uses a cost-plus markup model — Chef John: CBC sets client price independently above chef's food price; Chef Kun · Loulan: $18.75 chef price → $28 client price (~33% CBC margin); Unique Cuisine: $24 chef price → $30 client price (20% CBC margin).
+**Revenue target:** Break-even at 2 total orders; ~16% net margin at 6-month run rate (21 orders base scenario). CBC uses a cost-plus markup model — Chef John: CBC sets client price independently above chef's food price; Chef Kun · Loulan: $18.75 chef price → $25 client price (25% CBC margin); Unique Cuisine: $24 chef price → $30 client price (20% CBC margin).
 
 > ⚠️ **Financial projections below reflect the old commission model — recalculate before investor presentations.**
 
@@ -25,7 +25,7 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 ## Market Analysis
 
 ### Target Market
-Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $28–$40/person for corporate catering.
+Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $25–$40/person for corporate catering.
 
 ### Market Size
 - Bay Area catering market: ~$1.2B annually
@@ -62,14 +62,14 @@ Local competitors (e.g., Fraiche Catering, Handheld Catering) offer similar even
 
 ### Service Tiers & Per-Chef Pricing
 
-CBC operates two service tiers plus a Premium price point. **All service is Chef's Spread (self-serve station) format — no individual box meals.** CBC uses a **cost-plus markup model**: each chef quotes CBC a per-guest food price; CBC adds markup to arrive at the client-facing price. Chef John: CBC sets client price independently above his food price ($32 standard / $40 premium / $42 Mediterranean); Chef Kun · Loulan: $18.75 → $28 client (~33% CBC margin), CBC handles delivery/labeling; Unique Cuisine: $24 → $30 client (20% CBC margin), CBC handles delivery/labeling. CBC absorbs CC processing fees (~3%) on all orders.
+CBC operates two service tiers plus a Premium price point. **All service is Chef's Spread (self-serve station) format — no individual box meals.** CBC uses a **cost-plus markup model**: each chef quotes CBC a per-guest food price; CBC adds markup to arrive at the client-facing price. Chef John: CBC sets client price independently above his food price ($32 standard / $40 premium / $42 Mediterranean); Chef Kun · Loulan: $18.75 → $25 client (25% CBC margin), CBC handles delivery/labeling; Unique Cuisine: $24 → $30 client (20% CBC margin), CBC handles delivery/labeling. CBC absorbs CC processing fees (~3%) on all orders.
 
 #### Standard Drop-Off Spread (Tier 1)
 Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff.
 
 | Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Chef Kun · Loulan · Chinese & Southeast Asian | $28/person | 50 | $1,400 |
+| Chef Kun · Loulan · Chinese & Southeast Asian | $25/person | 50 | $1,250 |
 | Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $38/person | 50 | $1,900 |
 | Five Course · Spice Route (Indian) | $40/person | 100 | $4,000 |
 | Five Course · Grill & Grain (Mediterranean) | $46/person | 50 | $2,300 |
@@ -95,7 +95,7 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 | Chef / Cuisine | Drop-Off + Attended (+$8/person) |
 |---|---|
-| Chef Kun · Loulan · Chinese & Southeast Asian | $36/person |
+| Chef Kun · Loulan · Chinese & Southeast Asian | $33/person |
 | Five Course · Mexican / Italian | $46/person |
 | Five Course · Spice Route (Indian) | $48/person |
 | Five Course · Grill & Grain (Mediterranean) | $54/person |
@@ -126,14 +126,14 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 
 ### Spread Pricing Model
 
-Client-facing price is $28/person (Chef Kun Standard), $30/person (Unique Cuisine Premium), or CBC-set price (Chef John). All prices are single per-guest line items — no separate fees.
+Client-facing price is $25/person (Chef Kun Standard), $30/person (Unique Cuisine Premium), or CBC-set price (Chef John). All prices are single per-guest line items — no separate fees.
 
 | Chef / Cuisine | Chef's Food Price (to CBC) | Client Price | CBC Net/Person* | Fulfillment |
 |---|---|---|---|---|
 | Five Course · Chef John — Mexican / Italian | $32.00/person | $38/person | ~$4.86 | CBC delivers, stages; Chef John affixes labels |
 | Five Course · Chef John — Spice Route (Indian) | TBD | $40/person | TBD | CBC delivers, stages; Chef John affixes labels |
 | Five Course · Chef John — Mediterranean | $42.00/person | $46/person | ~$2.62 | CBC delivers, stages; Chef John affixes labels |
-| Chef Kun · Loulan · Chinese & SEA | $18.75/person | $28/person | ~$8.41 | CBC creates/applies labels, delivers, stages |
+| Chef Kun · Loulan · Chinese & SEA | $18.75/person | $25/person | ~$8.41 | CBC creates/applies labels, delivers, stages |
 | Unique Cuisine · Sushi | $24.00/person | $30/person | ~$5.28 | CBC creates/applies labels, delivers, stages |
 
 *After absorbing ~3% CC fees. Excludes service kit costs (~$50–100/order). Mediterranean margin is thin — raise client price or deprioritize in outreach until reviewed.
@@ -205,7 +205,7 @@ Client-facing price is $28/person (Chef Kun Standard), $30/person (Unique Cuisin
 
 ## Financial Projections (6-Month)
 
-> Commission varies by chef: Chef John at 12% (+ $150/order service fee), Chef Kun · Loulan (~33%), Unique Cuisine at 20%. All orders include a $150 Coordination & Service Fee (CBC revenue, not subject to commission split). CC processing fees absorbed by Chef John from his 88% share — no longer a CBC cost. Projections below assume ~70% of early orders come through Chef John (lower commission rate but zero CBC fulfillment cost and no CC fee exposure).
+> Commission varies by chef: Chef John at 12% (+ $150/order service fee), Chef Kun · Loulan (25%), Unique Cuisine at 20%. All orders include a $150 Coordination & Service Fee (CBC revenue, not subject to commission split). CC processing fees absorbed by Chef John from his 88% share — no longer a CBC cost. Projections below assume ~70% of early orders come through Chef John (lower commission rate but zero CBC fulfillment cost and no CC fee exposure).
 
 ### Pricing & Volume Assumptions
 

@@ -47,7 +47,7 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 
 | Chef / Cuisine | Per-Person Price (client) | Chef's Price (to CBC) | Min. Guests | Min. Order |
 |---|---|---|---|---|
-| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $28/person | $18.75/person | 50 | $1,400 |
+| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $25/person | $18.75/person | 50 | $1,250 |
 | Five Course Provision · Mexican Fusion + Italian | TBD (CBC sets independently) | $32.00/person | 50 | $1,600 |
 
 **CBC service kit cost per order (all chefs):** ~$50–$100 (dietary labels, printed menu cards, dietary breakdown sheets, delivery fuel/vehicle, serving equipment). Chef John orders require slightly less label prep (chef affixes, CBC prints) but delivery and staging costs are the same across all chefs.
@@ -68,7 +68,7 @@ Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off for
 - Five Course / Chef John (Mediterranean — Grill & Grain): Chef price **$42.00/person**. CBC sets client price independently. CBC absorbs CC fees (~3%). CBC handles delivery and setup.
 - Five Course / Chef John (Premium): Chef price **$40.00/person**. CBC sets client price independently. CBC absorbs CC fees (~3%). CBC handles delivery and setup.
 - Unique Cuisine: Chef price **$24/person** → client price $30/person. CBC markup = $6/person (20%). CBC handles delivery, labeling, and setup.
-- Loulan / Chef Kun: Chef price **$18.75/person** → client price $28/person. CBC markup = $9.25/person (~33%). CBC handles delivery, labeling, and setup.
+- Loulan / Chef Kun: Chef price **$18.75/person** → client price $25/person. CBC markup = $6.25/person (25%). CBC handles delivery, labeling, and setup.
 
 ---
 
@@ -78,7 +78,7 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
-| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $36/person | — |
+| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $33/person | — |
 | Five Course · Mexican Fusion + Italian | $42/person | $48/person |
 | Unique Cuisine · Sushi | — | $38/person |
 
@@ -104,7 +104,7 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 | Five Course Provision (Chef John) — The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$32.00/person** | **$38/person** | **~$4.86/person** net after CC fees (~12.8%) | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up |
 | Five Course Provision (Chef John) — Grill & Grain (Mediterranean) | **$42.00/person** | **$46/person** | **~$2.62/person** net after CC fees (~5.7%) ⚠️ thin margin | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up |
 | Five Course Provision (Chef John) — Spice Route (Indian) | **TBD** | **$40/person** | TBD | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up · 100-guest min |
-| Loulan · Chef Kun | **$18.75/person** | **$28/person** | **~$8.41/person** net after CC fees (~30%) | Chef preps food in covered trays · CBC creates/applies labels, delivers, sets up |
+| Loulan · Chef Kun | **$18.75/person** | **$25/person** | **~$5.50/person** net after CC fees (25%) | Chef preps food in covered trays · CBC creates/applies labels, delivers, sets up |
 | Unique Cuisine | **$24.00/person** | **$30/person** | **~$5.28/person** net after CC fees (~17.6%) | Chef preps food in covered trays · CBC creates/applies labels, delivers, sets up |
 
 **Credit card processing fees:** CBC absorbs CC fees (~3%) on all orders — not deducted from any chef's payout.
@@ -239,7 +239,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 ## Known Inconsistencies to Resolve
 
 - **Chef count** varies across docs (5, 6, or 7) — the correct answer is that the roster is dynamic based on commissary tenants. Any doc that states a fixed number needs a disclaimer.
-- **Pricing model is cost-plus markup, not commission:** Each chef quotes CBC a per-guest food price; CBC adds a markup (20–25%) to set the client-facing price. Chef John: $32 standard (Mexican/Italian) / $40 premium / $42 Mediterranean (CBC sets client price independently). Loulan: $18.75 → $28 client. Unique Cuisine: $24 → $30 client. CBC absorbs CC fees (~3%) on all orders. No performance escalators. Do not discuss chef food prices or CBC markup publicly or in client-facing materials.
+- **Pricing model is cost-plus markup, not commission:** Each chef quotes CBC a per-guest food price; CBC adds a markup (20–25%) to set the client-facing price. Chef John: $32 standard (Mexican/Italian) / $40 premium / $42 Mediterranean (CBC sets client price independently). Loulan: $18.75 → $25 client. Unique Cuisine: $24 → $30 client. CBC absorbs CC fees (~3%) on all orders. No performance escalators. Do not discuss chef food prices or CBC markup publicly or in client-facing materials.
 - **`cbc-sales.plugin`** is a Claude Code plugin (ZIP archive) with 6 slash commands: `/daily`, `/pipeline`, `/draft-email`, `/quote`, `/content-week`, `/scorecard`. To activate, extract the `commands/` folder into `.claude/commands/`. See `CBC_Sales/setup/CBC_Cowork_Shortcuts_Setup.md` for full instructions.
 - **Scheduling is not available** — Claude Code has no native task scheduler. All plugin commands must be run manually. Gmail integration is planned but not yet implemented.
 
@@ -247,7 +247,7 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 
 ## Docs That Need to Be Created / Actions Still Pending
 
-1. **Loulan / Chef Kun formal sign-off** — Unique Cuisine confirmed: chef price $24 → client price $30, CBC gets $6/person. Chef John (Five Course) agreement drafted (`docs/vendors/contract-agreements/Vendor_Agreement_Five_Course_Chef_John.md`) — needs attorney review before presenting. Chef Kun / Loulan agreement drafted at `docs/vendors/contract-agreements/Vendor_Agreement_Loulan_Chef_Kun.md` — needs signature before launch. Terms: chef price $18.75/person → client price $28/person · CBC gets $9.25/person (~33%) · 3 proteins + 2 vegetables (Chinese sets) or 6 fixed SEA sets · white rice included · brown rice +$1/person · 4th protein +$5/person · CBC handles delivery and labeling.
+1. **Loulan / Chef Kun formal sign-off** — Unique Cuisine confirmed: chef price $24 → client price $30, CBC gets $6/person. Chef John (Five Course) agreement drafted (`docs/vendors/contract-agreements/Vendor_Agreement_Five_Course_Chef_John.md`) — needs attorney review before presenting. Chef Kun / Loulan agreement drafted at `docs/vendors/contract-agreements/Vendor_Agreement_Loulan_Chef_Kun.md` — needs signature before launch. Terms: chef price $18.75/person → client price $25/person · CBC gets $6.25/person (25%) · 3 proteins + 2 vegetables (Chinese sets) or 6 fixed SEA sets · white rice included · brown rice +$1/person · 4th protein +$5/person · CBC handles delivery and labeling.
 1. **Chef John contractor agreement** — Draft complete at `docs/vendors/contract-agreements/Vendor_Agreement_Five_Course_Chef_John.md`. Key terms: chef price $32 standard / $40 premium / $42 Mediterranean, CBC sets client price independently, chef preps food in covered labeled trays (CBC prints labels, chef affixes), CBC handles delivery and onsite setup, CBC provides all serving equipment, CBC absorbs CC fees (~3%), Net 30 payment, non-solicitation clause (12 months · 10% of revenue on CBC-introduced clients). **Get attorney review before presenting.**
 2. **Chef profiles** → `docs/chef-profiles.md` — structure exists, needs Doug to fill in names, personalities, stories, and operational details for the 3 active chefs
 3. **Install the sales plugin** — extract `CBC_Sales/setup/cbc-sales.plugin` into `.claude/commands/` to activate the 6 slash commands (see `CBC_Sales/setup/CBC_Cowork_Shortcuts_Setup.md`)

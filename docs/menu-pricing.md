@@ -20,7 +20,7 @@ Full Chef's Spread delivered and staged by CBC. Chefs provide food in covered, l
 
 | Cuisine / Concept | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $28/person | 50 | $1,400 |
+| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $25/person | 50 | $1,250 |
 | **Sushi & Japanese · Unique Cuisine** | $30/person | 50 | $1,500 |
 | **Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $46/person (50–99 guests) · $38/person (100+) | 50 | $1,900 |
 | **Five Course · Spice Route (Indian)** | $40/person | 100 | $4,000 |
@@ -50,7 +50,7 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who maintain stations, interac
 
 | Cuisine / Concept | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $36/person | 50 | $1,800 |
+| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $33/person | 50 | $1,650 |
 | **Sushi & Japanese · Unique Cuisine** | $38/person | 50 | $1,900 |
 | **Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $54/person (50–99 guests) · $46/person (100+) | 50 | $2,300 |
 | **Five Course · Spice Route (Indian)** | $48/person | 100 | $4,800 |
@@ -148,7 +148,7 @@ Recurring contracts include:
 | Cuisine | Specialty Dishes | Standard Drop-Off Price | Attended Service Price |
 |---|---|---|---|
 | **Sushi & Japanese · Unique Cuisine** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests · Spread format only | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese & Southeast Asian · Chef Kun · Loulan (楼兰)** | Chinese sets (3 proteins + 2 veg, choose from full menu) · Southeast Asian fixed sets (6 menus) · White rice included | $28/person · 50-person min ($1,400) · +$5/person 4th protein · +$1/person brown rice | $36/person · 50-person min ($1,800) |
+| **Chinese & Southeast Asian · Chef Kun · Loulan (楼兰)** | Chinese sets (3 proteins + 2 veg, choose from full menu) · Southeast Asian fixed sets (6 menus) · White rice included | $25/person · 50-person min ($1,250) · +$5/person 4th protein · +$1/person brown rice | $33/person · 50-person min ($1,650) |
 | **Five Course · The Tortilla Theory (Mexican)** | Pollo al Pastor, Chicken Tinga, Carnitas, chef-paired salsas, seasonal sides, churros, tres leches | $46/person (50–99) · $38/person (100+) · 50-person min · max 500 guests | $54 (50–99) / $46 (100+) · 50-person min |
 | **Five Course · A Little Pasta Table (Italian)** | Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides, garlic bread | $46/person (50–99) · $38/person (100+) · 50-person min · max 500 guests | $54 (50–99) / $46 (100+) · 50-person min |
 | **Five Course · Spice Route (Indian)** | Michelin-trained Indian cuisine — concept details on chef menu page | $40/person · 100-person min ($4,000) · max 500 guests | $48/person · 100-person min ($4,800) |
@@ -175,7 +175,7 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 | **Five Course · Chef John — Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $32.00/person | **$46/person (50–99) · $38/person (100+)** | ~$12.62 (27%) at 50–99 · ~$4.86 (12.8%) at 100+ | CBC prints; Chef John affixes before pickup |
 | **Five Course · Chef John — Spice Route (Indian)** | $32.00/person | **$40/person** (100-guest min) | ~$6.80 (~17%) | CBC prints; Chef John affixes before pickup |
 | **Five Course · Chef John — Grill & Grain (Mediterranean)** | $42.00/person | **$50/person (50–99) · $46/person (100+)** | ~$6.50 (13%) at 50–99 · ~$2.62 (5.7%) at 100+ | CBC prints; Chef John affixes before pickup |
-| **Chef Kun · Loulan · Chinese & Southeast Asian** | $18.75/person | **$28/person** | ~$8.41 (~22%) | CBC creates and applies all labels |
+| **Chef Kun · Loulan · Chinese & Southeast Asian** | $18.75/person | **$25/person** | ~$5.50 (~22%) | CBC creates and applies all labels |
 | **Unique Cuisine · Sushi & Japanese** | $24.00/person | **$30/person** | ~$5.28 (~17.6%) | CBC creates and applies all labels |
 
 *Net/person = client price minus chef price minus CC fees (~3% of client price). Does not include service kit costs (~$50–100/order). Grill & Grain at 100+ guests and Spice Route have thin margins — price increase recommended if volume grows. Chef John at 50–99 guests generates strong margin across all concepts.

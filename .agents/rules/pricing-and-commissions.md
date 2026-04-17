@@ -20,26 +20,31 @@ CBC is the billing entity on all orders. Client pays CBC. CBC pays each chef the
 
 | Chef / Cuisine | Chef Price (to CBC) | Client Price | CBC Markup | Min Guests | Min Order |
 |---|---|---|---|---|---|
-| Loulan · Chef Kun · Chinese & Southeast Asian | $18.75/person | $28/person | $9.25 (~33%) | 50 | $1,400 |
-| Five Course · Mexican/Italian (Standard) | $32.00/person | CBC sets independently | ~20–25% | 50 | $1,600 |
-| Five Course · Mediterranean (Grill & Grain) | $42.00/person | CBC sets independently | ~20–25% | 50 | $2,100 |
+| Loulan · Chef Kun · Chinese & Southeast Asian | $18.75/person | **$25/person** | $6.25 (~25%) | 50 | $1,250 |
+| Five Course · Tortilla Theory (Mexican) | $32.00/person | **$46/person (50–99) · $38/person (100+)** | ~27% / ~16% | 50 | $1,900 |
+| Five Course · A Little Pasta Table (Italian) | $32.00/person | **$46/person (50–99) · $38/person (100+)** | ~27% / ~16% | 50 | $1,900 |
+| Five Course · Grill & Grain (Mediterranean) | $42.00/person | **$50/person (50–99) · $46/person (100+)** | ~16% / ~9% | 50 | $2,300 |
+| Five Course · Spice Route (Indian) | $32.00/person | **$40/person** | ~20% | 100 | $4,000 |
 
-### Tier 1 — Premium Drop-Off Spread
+### Sushi Tier
 
 | Chef / Cuisine | Chef Price (to CBC) | Client Price | CBC Markup | Min Guests | Min Order |
 |---|---|---|---|---|---|
-| Five Course · Premium (premium proteins) | $40.00/person | CBC sets independently | ~20–25% | 50 | $2,000 |
-| Unique Cuisine · Sushi & Japanese | $24.00/person | $30/person | $6.00 (20%) | 50 | $1,500 |
+| Unique Cuisine · Sushi & Japanese | $24.00/person | **$30/person** | $6.00 (20%) | 50 | $1,500 |
+
+> **Note:** Five Course premium protein add-ons (e.g., Carne Asada, Harissa Salmon, Steak Chimichurri) are priced per-person on top of the base concept price — not a separate tier. See the menu page for current add-on prices.
 
 ### Tier 2 — Attended Service
 
 Add **+$8/person** on top of any Standard or Premium client price.
 
-| Chef / Cuisine | Standard + Attended | Premium + Attended |
+| Chef / Cuisine | Standard + Attended | Notes |
 |---|---|---|
-| Loulan · Chef Kun · Chinese & Southeast Asian | $36/person | — |
-| Five Course · Mexican Fusion + Italian | TBD (base + $8) | TBD (base + $8) |
-| Unique Cuisine · Sushi | — | $38/person |
+| Loulan · Chef Kun · Chinese & Southeast Asian | **$33/person** | +$8 on $25 base |
+| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$54/person (50–99) · $46/person (100+)** | +$8 on volume base |
+| Five Course · Grill & Grain (Mediterranean) | **$58/person (50–99) · $54/person (100+)** | +$8 on volume base |
+| Five Course · Spice Route (Indian) | **$48/person** (100-guest min) | +$8 on $40 base |
+| Unique Cuisine · Sushi | **$38/person** | +$8 on $30 base |
 
 ### Add-Ons
 
@@ -71,23 +76,26 @@ Add **+$8/person** on top of any Standard or Premium client price.
 ### Chef John — Five Course Provision
 
 - **Model:** Cost-plus. Chef John quotes CBC his per-guest food price. CBC sets client price independently.
-- **Chef John's food prices:** $32.00/person (Standard — Mexican/Italian) · $40.00/person (Premium) · $42.00/person (Mediterranean — Grill & Grain)
+- **Chef John's food prices:** $32.00/person (Tortilla Theory — Mexican) · $32.00/person (A Little Pasta Table — Italian) · $42.00/person (Grill & Grain — Mediterranean) · $32.00/person (Spice Route — Indian)
 - **CBC's markup:** CBC's sole discretion — target ~20–25%
 - **Fulfillment:** Chef John prepares food in covered, labeled aluminum or stainless steel trays. CBC prints dietary and food safety labels (sends to Chef John for approval); Chef John affixes labels before CBC pickup. CBC provides all serving equipment and handles delivery, onsite setup, and staging.
 - CBC absorbs credit card processing fees (~3%) — not deducted from Chef John's payout
 - No performance escalators
 - Pricing revisions require written amendment signed by both parties; if Chef John offers revised pricing, CBC may choose whether to pass savings to client or retain margin
 
-| Price Point | Chef Gets | CBC Gets (at ~20% markup) |
-|---|---|---|
-| Standard — Mexican/Italian ($32 chef price) | $32.00 | CBC client price − $32.00 |
-| Premium ($40 chef price) | $40.00 | CBC client price − $40.00 |
-| Mediterranean — Grill & Grain ($42 chef price) | $42.00 | CBC client price − $42.00 |
+| Concept | Chef Food Price | Client Price (50–99) | Client Price (100+) | CBC Net (50–99) | CBC Net (100+) |
+|---|---|---|---|---|---|
+| Tortilla Theory (Mexican) | $32.00 | $46 | $38 | ~$12.62 (~27%) | ~$4.86 (~13%) |
+| A Little Pasta Table (Italian) | $32.00 | $46 | $38 | ~$12.62 (~27%) | ~$4.86 (~13%) |
+| Grill & Grain (Mediterranean) | $42.00 | $50 | $46 | ~$6.50 (~13%) | ~$2.62 (~5.7%) ⚠️ thin |
+| Spice Route (Indian) | $32.00 | $40 (100-min) | $40 | — | ~$6.80 (~17%) |
+
+*CBC net = client price − chef price − CC fees (~3% of client price).*
 
 ### Loulan · Chef Kun — Chinese & Southeast Asian
 
-- **Model:** Cost-plus. Chef Kun's food price to CBC: **$18.75/person**. Client price: **$28/person**.
-- **CBC markup:** $9.25/person (~33% of client price)
+- **Model:** Cost-plus. Chef Kun's food price to CBC: **$18.75/person**. Client price: **$25/person**.
+- **CBC markup:** $6.25/person (~25% of client price)
 - CBC handles delivery, labeling, food safety compliance, onsite setup
 - Chef provides food in covered aluminum or stainless steel trays; CBC creates and applies all labels
 - Late delivery attributable to chef handoff: credit deducted from chef payout
@@ -96,7 +104,7 @@ Add **+$8/person** on top of any Standard or Premium client price.
 
 | Price Point | Chef Gets | CBC Gets |
 |---|---|---|
-| Base $28/person | $18.75 | $9.25 |
+| Base $25/person | $18.75 | $6.25 |
 | + Brown rice upgrade (+$1/person) | +$1.00 | — |
 | + 4th protein add-on (+$5/person) | TBD | TBD |
 

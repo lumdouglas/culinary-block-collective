@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Southeast Asian, Mexican fusion & more. On-time delivery, $28–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (415) 699-4397.`
+`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Southeast Asian, Mexican fusion & more. On-time delivery, $25–$50/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (415) 699-4397.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -44,7 +44,7 @@
 **Subheadline:**
 > CBC brings together the Bay Area's independent chef community — each chef a specialist
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
-> Food staged and ready for your team — guaranteed. Full dietary labeling. $28–$40/person. 50–500 guests.
+> Food staged and ready for your team — guaranteed. Full dietary labeling. $25–$50/person. 50–500 guests.
 
 **Primary CTA:** `📞 Call to Book  (415) 699-4397`
 **Secondary CTA:** `💬 Text Us a Menu Request`
@@ -68,7 +68,7 @@
 | Chef Card | Description | Price Tag |
 |---|---|---|
 | **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Full sushi spread, teriyaki mains, gyoza, and edamame made with the craft your team will taste the difference in. | $30/person |
-| **Chinese & Southeast Asian** | Real Chinese technique plus authentic Southeast Asian sets — six fixed SEA menus plus custom Chinese builds. Braised beef, Sichuan fish, Beef Rendang, Satay — not a generic "Asian food" menu. | $28/person |
+| **Chinese & Southeast Asian** | Real Chinese technique plus authentic Southeast Asian sets — six fixed SEA menus plus custom Chinese builds. Braised beef, Sichuan fish, Beef Rendang, Satay — not a generic "Asian food" menu. | From $25/person |
 | **Five Course · Chef John** | Four Michelin-trained concepts: The Tortilla Theory (Mexican), A Little Pasta Table (Italian), Grill & Grain (Mediterranean), and Spice Route (Indian). Something for every team, every event type. | From $38/person |
 | **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | TBD |
 | **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | TBD |
@@ -87,8 +87,8 @@
 
 | Package | Price | Guests | Key Features |
 |---|---|---|---|
-| **Standard Drop-Off Spread** | From $28/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
-| **Premium Drop-Off Spread** ⭐ Most Popular | $40/person | 50+ guests | Elevated Chef's Spread — premium proteins or full sushi spread, full dietary labeling, delivery included |
+| **Standard Drop-Off Spread** | From $25/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
+| **Premium Drop-Off Spread** ⭐ Most Popular | From $38/person | 50+ guests | Elevated Chef's Spread — premium proteins or full sushi spread, full dietary labeling, delivery included |
 | **Attended Service** | +$8/person | 50+ guests | Everything in Drop-Off Spread plus 1–2 on-site CBC staff — setup, station maintenance, and cleanup |
 | **Custom / Mix & Match** | Custom quote | 150+ guests | Choose 2–3 chef cuisines, live chef station option, branded signage |
 
@@ -104,7 +104,7 @@
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
 | **What's included** | Chef's Spread with chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
-| **Starting price** | From $28/person | Add $8/person to any tier |
+| **Starting price** | From $25/person | Add $8/person to any tier |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
 > Regardless of tier, the food comes from Michelin-caliber and specialty chefs. The difference is who handles the room.
@@ -183,7 +183,7 @@
 
 | Question | Answer Summary |
 |---|---|
-| How much does corporate catering in San Jose cost? | $25–$40/person for 50–500 guests. Standard Drop-Off Spread from $25/person, Premium Spread at $40/person, Attended Service adds $8/person. All-in pricing including delivery — no hidden fees. |
+| How much does corporate catering in San Jose cost? | $25–$50/person for 50–500 guests. Standard Drop-Off Spread from $25/person, Chef John concepts from $38–$50/person (volume pricing), Attended Service adds $8/person. All-in pricing including delivery — no hidden fees. |
 | What cuisines do you offer? | Sushi & Japanese, Chinese, Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
 | Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. Food safety labels with consume-by times on all items per California food safety standards. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |

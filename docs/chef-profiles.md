@@ -62,7 +62,7 @@
 
 ## Chef 2 — Chef John (Five Course Provision)
 
-> **Pricing model: cost-plus markup** — CBC handles delivery, onsite setup, and breakdown for all orders. Chef John's food price to CBC: $32/person (Mexican/Italian) · $42/person (Mediterranean) · Indian TBD. CBC sets client-facing prices: $38/person (Mexican/Italian) · $46/person (Mediterranean) · $40/person (Indian, 100-guest min). CBC prints dietary and food safety labels; Chef John affixes before CBC pickup. CBC absorbs CC processing fees (~3%). No performance escalators. Non-compete: 12 months on CBC-introduced clients.
+> **Pricing model: cost-plus markup** — CBC handles delivery, onsite setup, and breakdown for all orders. Chef John's food price to CBC: $32/person (Tortilla Theory / A Little Pasta Table) · $42/person (Grill & Grain) · $32/person (Spice Route). CBC sets client-facing prices: $46/$38 volume (Tortilla Theory + A Little Pasta Table, 50–99/100+) · $50/$46 volume (Grill & Grain, 50–99/100+) · $40/person (Spice Route, 100-guest min). CBC prints dietary and food safety labels; Chef John affixes before CBC pickup. CBC absorbs CC processing fees (~3%). No performance escalators. Non-compete: 12 months on CBC-introduced clients.
 
 ### Identity
 | Field | Detail |
@@ -71,7 +71,7 @@
 | **Cuisine** | Mexican Fusion · Italian · Mediterranean · Indian |
 | **Concepts** | **The Tortilla Theory** (Modern Mexican) · **A Little Pasta Table** (Italian) · **Grill & Grain** (Mediterranean) · **Spice Route** (Indian) |
 | **Signature Dishes** | Mexican: Pollo al Pastor, Chicken Tinga, Carnitas, Cochinita Pibil, salsas, sides, churros, tres leches · Italian: Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides · Mediterranean: grilled proteins, seasonal sides, Mediterranean spreads · Indian (Spice Route): TBD — confirm with Chef John |
-| **Price Tier(s)** | Chef's food price to CBC: **$32.00/person** (Mexican/Italian) · **$42.00/person** (Mediterranean) · Indian TBD. Client prices: **$38/person** (Mexican/Italian) · **$46/person** (Mediterranean) · **$40/person** (Indian, 100-guest min). |
+| **Price Tier(s)** | Chef's food price to CBC: **$32.00/person** (Tortilla Theory/A Little Pasta Table) · **$42.00/person** (Grill & Grain) · **$32.00/person** (Spice Route). Client prices: **$46/$38** volume (Tortilla/Pasta, 50–99/100+) · **$50/$46** volume (Grill & Grain, 50–99/100+) · **$40/person** (Spice Route, 100-guest min). |
 | **Pricing Model** | Cost-plus markup — CBC adds ~20–25% to chef's food price to arrive at client price. No commission split. |
 | **Min Order** | 50 guests |
 | **Max Capacity** | 500 guests |
@@ -130,7 +130,7 @@
 | **Set A — "The Silk Road Classic"** | Braised Beef with Daikon · Sweet & Sour Meatballs · Stir-fried Shrimp & Eggs · Mapo Tofu (V) · Garlic Broccoli (V/GF) |
 | **Set B — "Bold & Aromatic"** | Cumin Beef Stir-fry (Xinjiang) · Three Cup Chicken · Sichuan Spicy Fish · Stir-fried Mixed Veg (V/GF) · Cucumber Salad (V/GF) |
 | **Set C — "Silk Road Southeast"** | Beef Rendang · Lemongrass Curry Chicken · Thai Herb Shrimp · Garlic Vegetables (V/GF) · Mango Salad (V/GF) |
-| **Price** | Client price $28/person · Chef price to CBC $18.75 · CBC markup $9.25 (~33%) · +$5/person 4th protein add-on · +$1/person brown rice |
+| **Price** | Client price $25/person · Chef price to CBC $18.75 · CBC markup $6.25 (~25%) · +$5/person 4th protein add-on · +$1/person brown rice |
 | **Min Order** | 50 guests / $1,250 |
 | **Max Capacity** | 500 guests |
 | **Time at Commissary** | [TBD — confirm with Chef Kun] |
@@ -215,12 +215,12 @@ His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
 | Sushi / Japanese | Unique Cuisine | $30/person · Attended $38/person · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · 50-person min · max 500 guests · CBC handles delivery, labeling, setup |
-| Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — client price $38/person (chef price $32) · CBC delivers and sets up · CBC prints labels, Chef John affixes · 50-person min · max 500 guests |
+| Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Client price $46/$38 (50–99/100+) · Chef price $32 · CBC handles delivery, staging, labeling · 50-person min · max 500 guests |
 | Italian | Chef John · Five Course Provision | **A Little Pasta Table** — client price $38/person (chef price $32) · same pricing and fulfillment as Mexican · 50-person min · max 500 guests |
-| Mediterranean | Chef John · Five Course Provision | **Grill & Grain** — client price $46/person (chef price $42 — thin margin, ~$2.62/person net) · CBC delivers and sets up · 50-person min |
-| Indian | Chef John · Five Course Provision | **Spice Route** — client price $40/person · 100-person minimum · Chef price TBD — confirm before quoting |
-| Chinese | Chef Kun · Loulan (楼兰) | Chef price $18.75/person · Client price $28/person · CBC gets $9.25/person (~30% net) · CBC handles delivery/labeling · 50-person min ($1,400) · +$5/person 4th protein · +$1/person brown rice |
-| Southeast Asian | Chef Kun · Loulan (楼兰) | Same price as Chinese ($28/person) · 6 fixed SEA set menus · Beef Rendang, Lemongrass Curry — strong diversity angle for Marcus avatar · Pair with Chinese for a multi-region Asian spread |
+| Mediterranean (Grill & Grain) | Chef John · Five Course Provision | **Grill & Grain** — Client price $50/$46 (50–99/100+) · Chef price $42 · Thin margin at 100+ (~$2.62/person net) — promote primarily at 50–99 guest tier · CBC handles delivery, staging, labeling · 50-person min |
+| Indian (Spice Route) | Chef John · Five Course Provision | **Spice Route** — Client price $40/person · Chef price $32 · CBC handles delivery, staging, labeling · 100-guest minimum |
+| Chinese | Chef Kun · Loulan (楼兰) | Chef price $18.75/person · Client price $25/person · CBC gets $6.25/person (~25%) · CBC handles delivery/labeling · 50-person min ($1,250) · +$5/person 4th protein · +$1/person brown rice |
+| Southeast Asian | Chef Kun · Loulan (楼兰) | Same price as Chinese ($25/person) · 6 fixed SEA set menus · Beef Rendang, Lemongrass Curry — strong diversity angle for Marcus avatar · Pair with Chinese for a multi-region Asian spread |
 | Large event 200+ | All active chefs | All support up to 500 guests · CBC handles delivery and setup for all chefs |
 | Premium / VIP event | Chef John Mediterranean or Unique Cuisine Sushi | Best visual and food impact — Mediterranean $46 or Sushi $30 |
 | Last-minute order | [TBD — confirm who is most flexible on lead time] | |
@@ -236,4 +236,4 @@ His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (
 - [e.g., All three built their businesses out of the Culinary Block commissary — origin story]
 - [e.g., Shared value: X]
 - [What makes the three of them together a stronger pitch than any one alone?]
-- **Pricing model is cost-plus markup (not commission-based) — Chef John: food price $32 (Mexican/Italian) / $42 (Mediterranean) to CBC; client prices $38 / $46 / $40 (Indian, 100-guest min); CBC handles delivery, setup, and breakdown for all; CBC prints labels, Chef John affixes. Chef Kun / Loulan: $18.75 chef price → $28 client price (~30% net margin). Unique Cuisine: $24 → $30 client (20% margin). CBC absorbs CC fees (~3%) on all orders. Chef food prices and CBC margin are internal — not for client-facing materials.**
+- **Pricing model is cost-plus markup (not commission-based) — Chef John: food price $32 (Tortilla/Pasta/Spice Route) / $42 (Grill & Grain) to CBC; client prices $46/$38 volume (Tortilla/Pasta) · $50/$46 volume (G&G) · $40/person (Spice Route, 100-min); CBC handles delivery, setup, and breakdown for all orders; CBC prints labels, Chef John affixes. Chef Kun / Loulan: $18.75 chef price → $25 client price (~25% margin). Unique Cuisine: $24 → $30 client (20% margin). CBC absorbs CC fees (~3%) on all orders. Chef food prices and CBC margin are internal — not for client-facing materials.**
