@@ -8,6 +8,7 @@
     { "source": "/chef-loulan",                 "destination": "/pages/chefs/chef-loulan" },
     { "source": "/chef-loulan-menu",            "destination": "/pages/chefs/chef-loulan-menu" },
     { "source": "/chef-kun-menu",               "destination": "/pages/chefs/chef-kun-menu" },
+    { "source": "/chef-kun-full-menu",          "destination": "/docs/chef-menus/loulan/chef-kun-full-menu" },
     { "source": "/chef-unique-cuisine",         "destination": "/pages/chefs/chef-unique-cuisine" },
     { "source": "/chef-unique-cuisine-menu",    "destination": "/pages/chefs/chef-unique-cuisine-menu" },
     { "source": "/chef-partner",                "destination": "/pages/partner/chef-partner" },
