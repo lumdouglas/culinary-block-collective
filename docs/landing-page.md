@@ -12,7 +12,7 @@
 `Corporate Catering San Jose | Fresh Chef Menus | Culinary Block Collective`
 
 **Meta Description:**
-`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Mexican fusion & more. On-time delivery, $25–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (415) 699-4397.`
+`Fresh, diverse corporate catering for 50–500 guests. Independent specialist chefs — sushi/Japanese, Chinese, Southeast Asian, Mexican fusion & more. On-time delivery, $28–$40/person Chef's Spread. Serving Palo Alto, San Jose, Mountain View, Sunnyvale. Call (415) 699-4397.`
 
 **Target Keywords:**
 - corporate catering san jose
@@ -44,7 +44,7 @@
 **Subheadline:**
 > CBC brings together the Bay Area's independent chef community — each chef a specialist
 > in their cuisine, not a generalist — to deliver food your team actually gets excited about.
-> Food staged and ready for your team — guaranteed. Full dietary labeling. $25–$40/person. 50–500 guests.
+> Food staged and ready for your team — guaranteed. Full dietary labeling. $28–$40/person. 50–500 guests.
 
 **Primary CTA:** `📞 Call to Book  (415) 699-4397`
 **Secondary CTA:** `💬 Text Us a Menu Request`
@@ -67,9 +67,9 @@
 
 | Chef Card | Description | Price Tag |
 |---|---|---|
-| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Full sushi spread, teriyaki mains, gyoza, and edamame made with the craft your team will taste the difference in. | From $40/person |
-| **Chinese** | Real Chinese technique — not a generic "Asian food" menu. Wok stir-fry, hand-folded dumplings, noodles, and bold layered flavors built from method, not shortcuts. | From $25/person |
-| **Mexican Fusion** | Taqueria spirit with Bay Area creativity. Modern moles, wood-fire proteins, salsas, sides — made by someone who grew up cooking this food, not someone who learned it from a catering playbook. | From $30/person |
+| **Sushi & Japanese** | A trained sushi chef — not a line cook covering multiple stations. Full sushi spread, teriyaki mains, gyoza, and edamame made with the craft your team will taste the difference in. | $30/person |
+| **Chinese & Southeast Asian** | Real Chinese technique plus authentic Southeast Asian sets — six fixed SEA menus plus custom Chinese builds. Braised beef, Sichuan fish, Beef Rendang, Satay — not a generic "Asian food" menu. | $28/person |
+| **Five Course · Chef John** | Four Michelin-trained concepts: The Tortilla Theory (Mexican), A Little Pasta Table (Italian), Grill & Grain (Mediterranean), and Spice Route (Indian). Something for every team, every event type. | From $38/person |
 | **American / Comfort** | BBQ, sliders, and mac & cheese — done the right way. Not steam-table catering-event food. The version your team actually compliments. | TBD |
 | **Specialty & Seasonal** | Vegan, GF, and allergen-conscious menus from a chef who treats dietary constraints as creative opportunity — not an afterthought tacked onto the regular menu. | TBD |
 
@@ -87,7 +87,7 @@
 
 | Package | Price | Guests | Key Features |
 |---|---|---|---|
-| **Standard Drop-Off Spread** | $25–$30/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
+| **Standard Drop-Off Spread** | From $28/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
 | **Premium Drop-Off Spread** ⭐ Most Popular | $40/person | 50+ guests | Elevated Chef's Spread — premium proteins or full sushi spread, full dietary labeling, delivery included |
 | **Attended Service** | +$8/person | 50+ guests | Everything in Drop-Off Spread plus 1–2 on-site CBC staff — setup, station maintenance, and cleanup |
 | **Custom / Mix & Match** | Custom quote | 150+ guests | Choose 2–3 chef cuisines, live chef station option, branded signage |
@@ -104,7 +104,7 @@
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
 | **What's included** | Chef's Spread with chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
-| **Starting price** | From $25/person | Add $8/person to any tier |
+| **Starting price** | From $28/person | Add $8/person to any tier |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
 > Regardless of tier, the food comes from Michelin-caliber and specialty chefs. The difference is who handles the room.

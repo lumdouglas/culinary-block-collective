@@ -14,16 +14,18 @@ Culinary Block Collective (CBC) is a San Jose-based corporate catering operation
 
 **Core promise:** Fresh, dietary-friendly, eco-conscious meals delivered on time — with the culinary diversity a generic caterer can't offer.
 
-**Price point:** $25–$40/person (Standard and Premium Chef's Spread tiers) — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster. Service is Chef's Spread (self-serve station) format only — no individual box meals.
+**Price point:** $28–$40/person (Standard and Premium Chef's Spread tiers) — a deliberate premium positioning that reflects the specialist, chef-forward quality of the roster. Service is Chef's Spread (self-serve station) format only — no individual box meals.
 
-**Revenue target:** Break-even at 2 total orders; ~16% net margin at 6-month run rate (21 orders base scenario). Commission varies by chef — 12% for Chef John (sales-only, with escalator to 15% above $15K/rolling 30 days), 25% standard for Kivi, 20% for Unique Cuisine. A flat **$150/order Coordination & Service Fee** is charged to all clients (CBC revenue, not subject to commission split).
+**Revenue target:** Break-even at 2 total orders; ~16% net margin at 6-month run rate (21 orders base scenario). CBC uses a cost-plus markup model — Chef John: CBC sets client price independently above chef's food price; Chef Kun · Loulan: $18.75 chef price → $28 client price (~33% CBC margin); Unique Cuisine: $24 chef price → $30 client price (20% CBC margin).
+
+> ⚠️ **Financial projections below reflect the old commission model — recalculate before investor presentations.**
 
 ---
 
 ## Market Analysis
 
 ### Target Market
-Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $25–$40/person for corporate catering.
+Office managers and HR/People Ops leads at tech firms with 50–300 employees in the South Bay. Primary persona: books catering for team lunches, client dinners, and product launches; prioritizes healthy, sustainable, dietary-friendly options. Quality-focused clients in this segment routinely allocate $28–$40/person for corporate catering.
 
 ### Market Size
 - Bay Area catering market: ~$1.2B annually
@@ -60,15 +62,17 @@ Local competitors (e.g., Fraiche Catering, Handheld Catering) offer similar even
 
 ### Service Tiers & Per-Chef Pricing
 
-CBC operates two service tiers plus a Premium price point. **All service is Chef's Spread (self-serve station) format — no individual box meals.** Commission varies by chef: **12% CBC / 88% chef for Chef John (Five Course)** — chef handles all fulfillment, CC fees absorbed by chef from his 88% (escalator to 15% above $15K/rolling 30 days); **25% CBC / 75% chef for Kivi** — CBC handles delivery/labeling; **20% CBC / 80% chef for Unique Cuisine** (negotiated exception). A **$150/order Coordination & Service Fee** is charged to all clients on every invoice — CBC revenue, not subject to commission split.
+CBC operates two service tiers plus a Premium price point. **All service is Chef's Spread (self-serve station) format — no individual box meals.** CBC uses a **cost-plus markup model**: each chef quotes CBC a per-guest food price; CBC adds markup to arrive at the client-facing price. Chef John: CBC sets client price independently above his food price ($32 standard / $40 premium / $42 Mediterranean); Chef Kun · Loulan: $18.75 → $28 client (~33% CBC margin), CBC handles delivery/labeling; Unique Cuisine: $24 → $30 client (20% CBC margin), CBC handles delivery/labeling. CBC absorbs CC processing fees (~3%) on all orders.
 
 #### Standard Drop-Off Spread (Tier 1)
 Chef's Spread with chafing dishes, insulated trays, serving utensils, printed menu card (CBC), dietary labels (CBC). CBC delivers. Client handles cleanup. No on-site CBC staff.
 
 | Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Kivi's Kitchen · Chinese | $25–$30/person | 50 | $1,250–$1,500 |
-| Five Course Provision · Mexican Fusion | $34/person | 50 | $1,700 |
+| Chef Kun · Loulan · Chinese & Southeast Asian | $28/person | 50 | $1,400 |
+| Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $38/person | 50 | $1,900 |
+| Five Course · Spice Route (Indian) | $40/person | 100 | $4,000 |
+| Five Course · Grill & Grain (Mediterranean) | $46/person | 50 | $2,300 |
 
 **CBC service kit cost:** ~$50–$100/order (dietary labels, printed menu cards, delivery fuel/vehicle). Chef provides serving ware and chafing dishes.
 
@@ -89,11 +93,13 @@ Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off for
 #### Attended Service (Tier 2)
 Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$8/person** on top of Standard or Premium price.
 
-| Chef / Cuisine | Standard + Attended | Premium + Attended |
-|---|---|---|
-| Kivi · Chinese | $33–$38/person | — |
-| Five Course · Mexican Fusion | $42/person | $48/person |
-| Unique Cuisine · Sushi | — | $48/person |
+| Chef / Cuisine | Drop-Off + Attended (+$8/person) |
+|---|---|
+| Chef Kun · Loulan · Chinese & Southeast Asian | $36/person |
+| Five Course · Mexican / Italian | $46/person |
+| Five Course · Spice Route (Indian) | $48/person |
+| Five Course · Grill & Grain (Mediterranean) | $54/person |
+| Unique Cuisine · Sushi | $38/person |
 
 **Attended staffing:** Doug solo under 100 guests · 2 staff 100–200 guests · confirm 200+
 
@@ -120,22 +126,23 @@ Cold-pressed juice · Tacos · Thai food — pricing and minimums TBD
 
 ### Spread Pricing Model
 
-Client-facing price is $25–$30/person (Standard) or $40/person (Premium). Commission varies by chef.
+Client-facing price is $28/person (Chef Kun Standard), $30/person (Unique Cuisine Premium), or CBC-set price (Chef John). All prices are single per-guest line items — no separate fees.
 
-| Chef / Cuisine | Client Price | Chef Payout | CBC Commission | Fulfillment |
+| Chef / Cuisine | Chef's Food Price (to CBC) | Client Price | CBC Net/Person* | Fulfillment |
 |---|---|---|---|---|
-| Five Course · Chef John (Standard) | $34/person | $29.92 (88%) | $4.08 (12%) | Chef delivers, stages, labels |
-| Five Course · Chef John (Premium) | $40/person | $35.20 (88%) | $4.80 (12%) | Chef delivers, stages, labels |
-| Kivi · Chinese (Standard) | $25–$30/person | $18.75–$22.50 (75%) | $6.25–$7.50 (25%) | CBC delivers, labels |
-| Unique Cuisine · Sushi (Premium) | $40/person | $32.00 (80%) | $8.00 (20%) | CBC delivers, labels |
+| Five Course · Chef John — Mexican / Italian | $32.00/person | $38/person | ~$4.86 | CBC delivers, stages; Chef John affixes labels |
+| Five Course · Chef John — Spice Route (Indian) | TBD | $40/person | TBD | CBC delivers, stages; Chef John affixes labels |
+| Five Course · Chef John — Mediterranean | $42.00/person | $46/person | ~$2.62 | CBC delivers, stages; Chef John affixes labels |
+| Chef Kun · Loulan · Chinese & SEA | $18.75/person | $28/person | ~$8.41 | CBC creates/applies labels, delivers, stages |
+| Unique Cuisine · Sushi | $24.00/person | $30/person | ~$5.28 | CBC creates/applies labels, delivers, stages |
 
-**Note:** A $150/order Coordination & Service Fee is charged to clients on every invoice — CBC revenue on top of commission, not subject to the revenue split. Chef John absorbs CC processing fees (~3%) from his 88% share before CBC pays out.
+*After absorbing ~3% CC fees. Excludes service kit costs (~$50–100/order). Mediterranean margin is thin — raise client price or deprioritize in outreach until reviewed.
 
-**Revenue split per order:** Varies by chef — see table above. Document agreed rates per chef in `docs/chef-profiles.md`.
+**Note:** CBC absorbs CC processing fees (~3%) on all orders — not deducted from any chef payout. Chef food prices and CBC margin are internal — do not disclose in client-facing materials.
 
-**Packaging:** Chef provides their own serving ware and chafing dishes for the spread. For Kivi/standard-terms chefs, CBC creates and applies dietary labels. For Chef John, chef handles all labeling.
+**Packaging:** All chefs provide food in covered aluminum or stainless steel trays. CBC provides all serving equipment (chafing dishes, serving utensils, spread materials, linens) and delivers for all chefs.
 
-**Delivery:** Varies by chef. Chef John handles his own delivery. For Kivi/standard-terms chefs, CBC delivers from commissary to client site (funded within CBC's commission). Delivery is not a separate line item on client invoices. The $150 Coordination & Service Fee is not a delivery fee — it covers scheduling, coordination, and order management.
+> ⚠️ **Financial projections below use an older commission model — figures need recalculating based on current cost-plus pricing before use in investor or partner contexts.**
 
 ### Event Types
 - Weekly/bi-weekly recurring team lunches
@@ -185,9 +192,9 @@ Client-facing price is $25–$30/person (Standard) or $40/person (Premium). Comm
 | Area | Approach |
 |---|---|
 | Kitchen | Culinary Block commissary (existing facility) |
-| Delivery | **Varies by chef.** Chef John handles his own delivery, staging, and labeling. For Kivi/standard-terms chefs, CBC (Doug) picks up from commissary, labels, and delivers to client site |
-| Staff | Chef-tenants as independent contractors; Doug as sales lead and delivery/labeling coordinator (for standard-terms chefs) |
-| Packaging | Chef provides serving ware and chafing dishes for spread service · For standard-terms chefs, CBC provides dietary labels and menu cards · Chef John provides his own labeling |
+| Delivery | **CBC handles delivery for all chefs.** Chef John hands off food at commissary (affixes CBC-printed labels first); CBC delivers and stages. For Chef Kun · Loulan and Unique Cuisine, CBC picks up from commissary, creates/applies all labels, delivers, and stages. |
+| Staff | Chef-tenants as independent contractors; Doug as sales lead and delivery/labeling coordinator |
+| Packaging | All chefs provide food in covered aluminum or stainless steel trays. CBC provides all serving equipment (chafing dishes, utensils, linens). CBC creates and applies dietary labels for Chef Kun · Loulan and Unique Cuisine; CBC prints labels for Chef John who affixes them before pickup. |
 | Ingredients | Local farms for organic tier (+10–15% food cost) |
 | Order minimum | 50 guests per order |
 | Service radius | San Jose and surrounding South Bay (radius confirmed per chef at onboarding) |
@@ -198,7 +205,7 @@ Client-facing price is $25–$30/person (Standard) or $40/person (Premium). Comm
 
 ## Financial Projections (6-Month)
 
-> Commission varies by chef: Chef John at 12% (+ $150/order service fee), Kivi at 25%, Unique Cuisine at 20%. All orders include a $150 Coordination & Service Fee (CBC revenue, not subject to commission split). CC processing fees absorbed by Chef John from his 88% share — no longer a CBC cost. Projections below assume ~70% of early orders come through Chef John (lower commission rate but zero CBC fulfillment cost and no CC fee exposure).
+> Commission varies by chef: Chef John at 12% (+ $150/order service fee), Chef Kun · Loulan (~33%), Unique Cuisine at 20%. All orders include a $150 Coordination & Service Fee (CBC revenue, not subject to commission split). CC processing fees absorbed by Chef John from his 88% share — no longer a CBC cost. Projections below assume ~70% of early orders come through Chef John (lower commission rate but zero CBC fulfillment cost and no CC fee exposure).
 
 ### Pricing & Volume Assumptions
 
@@ -228,7 +235,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 
 ### Revenue & Cost Summary — Base Scenario (21 Orders)
 
-> Assumes ~70% of early orders come through Chef John (15 orders: 12% commission + $150 service fee, zero CBC fulfillment cost, CC fees absorbed by chef) and ~30% through Kivi/Unique (6 orders: 20–25% commission, ~$75 CBC fulfillment cost).
+> Assumes ~70% of early orders come through Chef John (15 orders: 12% commission + $150 service fee, zero CBC fulfillment cost, CC fees absorbed by chef) and ~30% through Chef Kun · Loulan / Unique (6 orders: ~33%/20% markup, ~$75 CBC fulfillment cost).
 
 | Item | Calculation | Amount |
 |---|---|---|
@@ -237,12 +244,12 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | **Total Client Revenue** | | **$55,650** |
 | | | |
 | Chef payouts — Chef John (15 orders × 88%) | $2,500 × 88% × 15 | $33,000 |
-| Chef payouts — Kivi/Unique (6 orders × ~77.5%) | $2,500 × 77.5% × 6 | $11,625 |
+| Chef payouts — Chef Kun · Loulan / Unique (6 orders × ~70% avg) | $2,500 × 77.5% × 6 | $11,625 |
 | **Total Chef Payouts** | | **$44,625** |
 | **CBC Gross Revenue** | Commission + service fees | **$11,025** |
 | | | |
 | *CBC Operating Costs:* | | |
-| Labeling, menu cards & delivery (Kivi/Unique orders only) | ~$75/order × 6 | $450 |
+| Labeling, menu cards & delivery (Chef Kun · Loulan / Unique orders only) | ~$75/order × 6 | $450 |
 | Coordination costs (Chef John orders) | ~$15/order × 15 | $225 |
 | ~~CC processing fees~~ | ~~Absorbed by Chef John from his 88%~~ | $0 |
 | LinkedIn Sales Navigator (months 1–6) | $79/month × 6 | $474 |
@@ -270,7 +277,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 
 ### Monthly Revenue Scenarios (At 3-Month Mark)
 
-*Illustrative only — actual CBC net per order depends on chef mix, Standard vs. Premium, and Tier 1 vs. Tier 2. Commission ranges from 12% (Chef John) to 25% (Kivi). All orders include $150 service fee.*
+*Illustrative only — actual CBC net per order depends on chef mix, Standard vs. Premium, and Tier 1 vs. Tier 2. Markup ranges — Chef John: ~20% margin; Chef Kun · Loulan: ~30%; Unique Cuisine: ~20%. All orders include $150 service fee.*
 
 | Scenario | Orders/Month | Avg CBC Net/Order | Est. Monthly CBC Revenue |
 |---|---|---|---|
@@ -278,13 +285,13 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | Base | 8 | ~$505 | ~$4,040 |
 | Bull | 15 | ~$700 | ~$10,500 |
 
-*Bear case: mostly Chef John Standard Drop-Off ($300 commission + $150 fee − $15 costs = ~$435/order). Base case: mixed chef roster. Bull case: Attended Service Premium orders at scale with Kivi/Unique mix, commission + staff billing + service fees. Key target: 2 recurring weekly clients through Chef John = ~$3,360/month CBC revenue (no CC fee drag).*
+*Bear case: mostly Chef John Standard Drop-Off ($300 commission + $150 fee − $15 costs = ~$435/order). Base case: mixed chef roster. Bull case: Attended Service Premium orders at scale with Chef Kun · Loulan / Unique mix, commission + staff billing + service fees. Key target: 2 recurring weekly clients through Chef John = ~$3,360/month CBC revenue (no CC fee drag).*
 
 ---
 
 ### Break-Even Analysis
 
-| Item | Chef John Orders | Kivi/Standard Orders |
+| Item | Chef John Orders | Chef Kun · Loulan / Unique Orders |
 |---|---|---|
 | Fixed costs per month | $79 (Sales Navigator only) | $79 |
 | Variable cost per order | ~$15 (coordination only — CC fees now chef's cost) | ~$75 (labeling + delivery) |
@@ -293,7 +300,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | **Monthly break-even** | **1 order/month** | **1 order/month** |
 | **Lifetime break-even (6-month fixed costs = $474)** | **2 orders total** | **1 order total** |
 
-*Fixed costs $79/month (Sales Navigator only — Squarespace $27, Canva Pro $15, Mailchimp $13 all dropped or deferred). CC fees no longer a CBC cost — removed from variable cost. At 2 Chef John orders total, CBC covers all 6-month fixed costs. Each additional Chef John order contributes ~$363; each Kivi order contributes ~$550.*
+*Fixed costs $79/month (Sales Navigator only — Squarespace $27, Canva Pro $15, Mailchimp $13 all dropped or deferred). CC fees no longer a CBC cost — removed from variable cost. At 2 Chef John orders total, CBC covers all 6-month fixed costs. Each additional Chef John order contributes ~$363; each Chef Kun · Loulan order contributes ~$550.*
 
 ---
 
@@ -311,7 +318,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | LinkedIn Ads (months 3–6) | +$150 | Paid awareness | Planned |
 | **Subtotal (months 3–6)** | **$229** | | |
 
-*Delivery varies by chef: Chef John handles his own delivery (CBC is sales-only at 15%). For Kivi/standard-terms chefs, delivery is handled by CBC, funded within the 25% commission.*
+*Delivery varies by chef: Chef John handles his own delivery (CBC is sales-only at 15%). For Chef Kun · Loulan / standard-terms chefs, delivery is handled by CBC.*
 
 ---
 
@@ -320,7 +327,7 @@ Cold outreach conversion assumed at **2–3%** (B2B industry baseline for cold e
 | Risk | Mitigation |
 |---|---|
 | Low lead conversion (<2%) | Increase LinkedIn ad spend; A/B test subject lines; prioritize tasting event pipeline over cold outreach |
-| Delivery reliability | For Chef John orders: chef handles all delivery — 10% late delivery credit is deducted from Chef John's payout per contractor agreement (not CBC's cost). For Kivi/standard orders: CBC handles delivery directly; Doug is primary driver. Backup delivery coordinator needed if Doug is unavailable |
+| Delivery reliability | For Chef John orders: chef handles all delivery — 10% late delivery credit is deducted from Chef John's payout per contractor agreement (not CBC's cost). For Chef Kun · Loulan / standard orders: CBC handles delivery directly; Doug is primary driver. Backup delivery coordinator needed if Doug is unavailable |
 | High ingredient costs | Chef absorbs ingredient and packaging costs; negotiate farm contracts quarterly |
 | Chef cancellations | $250 cancellation fee within 7-day window; maintain at least one backup option per active cuisine type |
 | Long sales cycle (3–6 weeks) | Build pipeline aggressively in month 1 — first revenue won't arrive until month 2 regardless of outreach start date |

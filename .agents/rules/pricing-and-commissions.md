@@ -20,7 +20,7 @@ CBC is the billing entity on all orders. Client pays CBC. CBC pays each chef the
 
 | Chef / Cuisine | Chef Price (to CBC) | Client Price | CBC Markup | Min Guests | Min Order |
 |---|---|---|---|---|---|
-| Loulan · Chef Kun · Chinese & Southeast Asian | $18.75/person | $25/person | $6.25 (25%) | 50 | $1,250 |
+| Loulan · Chef Kun · Chinese & Southeast Asian | $18.75/person | $28/person | $9.25 (~33%) | 50 | $1,400 |
 | Five Course · Mexican/Italian (Standard) | $32.00/person | CBC sets independently | ~20–25% | 50 | $1,600 |
 | Five Course · Mediterranean (Grill & Grain) | $42.00/person | CBC sets independently | ~20–25% | 50 | $2,100 |
 
@@ -37,22 +37,24 @@ Add **+$8/person** on top of any Standard or Premium client price.
 
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
-| Loulan · Chef Kun · Chinese | $33/person | — |
+| Loulan · Chef Kun · Chinese & Southeast Asian | $36/person | — |
 | Five Course · Mexican Fusion + Italian | TBD (base + $8) | TBD (base + $8) |
 | Unique Cuisine · Sushi | — | $38/person |
 
 ### Add-Ons
 
-| Item | Price |
-|---|---|
-| Juice & Boba Bundle | $12/pack |
-| Compostable Tableware (plates, cutlery, napkins) | Included — standard on all orders |
-| Premium Compostable Packaging | +$2.50/person |
-| Premium Utensils | +$2/person |
-| Organic Ingredient Tier | +15% on food cost |
-| Carbon Offset | $50/event |
-| Chef's Table / Live Station | +$150/event |
-| Station Setup Coordinator | $100–$150/event |
+| Item | Price | Notes |
+|---|---|---|
+| 4th Protein Add-on | +$5/person | Chef Kun · Loulan Chinese custom builds only |
+| Brown Rice Upgrade | +$1/person | Chef Kun · Loulan — half brown / half white |
+| Juice & Boba Bundle | $12/pack | |
+| Compostable Tableware (plates, cutlery, napkins) | Included | Standard on all orders |
+| Premium Compostable Packaging | +$2.50/person | |
+| Premium Utensils | +$2/person | |
+| Organic Ingredient Tier | +15% on food cost | |
+| Carbon Offset | $50/event | |
+| Chef's Table / Live Station | +$150/event | |
+| Station Setup Coordinator | $100–$150/event | |
 
 ### Attended Service Staffing
 
@@ -84,16 +86,19 @@ Add **+$8/person** on top of any Standard or Premium client price.
 
 ### Loulan · Chef Kun — Chinese & Southeast Asian
 
-- **Model:** Cost-plus. Chef Kun's food price to CBC: **$18.75/person**. Client price: **$25/person**.
-- **CBC markup:** $6.25/person (25%)
+- **Model:** Cost-plus. Chef Kun's food price to CBC: **$18.75/person**. Client price: **$28/person**.
+- **CBC markup:** $9.25/person (~33% of client price)
 - CBC handles delivery, labeling, food safety compliance, onsite setup
 - Chef provides food in covered aluminum or stainless steel trays; CBC creates and applies all labels
 - Late delivery attributable to chef handoff: credit deducted from chef payout
-- White rice included · Brown rice +$1/person
+- White rice included · Brown rice +$1/person · 4th protein add-on +$5/person (Chinese custom builds)
+- Cuisine: Chinese sets (3 proteins + 2 veg) and Southeast Asian fixed sets (6 menus)
 
 | Price Point | Chef Gets | CBC Gets |
 |---|---|---|
-| $25/person (flat) | $18.75 | $6.25 |
+| Base $28/person | $18.75 | $9.25 |
+| + Brown rice upgrade (+$1/person) | +$1.00 | — |
+| + 4th protein add-on (+$5/person) | TBD | TBD |
 
 > **CBC tableware cost (standard):** ~$0.33/person fully loaded with 1.5× buffer. Premium upgrade billed at +$2/person to client — ~$0.86–$1.24 margin on upgrade.
 

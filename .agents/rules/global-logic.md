@@ -35,9 +35,14 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 ## Pricing — Core Numbers
 
-- Standard Drop-Off: **$25–$34/person** depending on cuisine
-- Premium Drop-Off: **$30–$40/person** depending on cuisine (Unique Cuisine: $30; Five Course: $40)
-- Attended Service (Tier 2): **+$8/person** on top of any tier
+**Client-facing prices (what CBC charges clients):**
+- Loulan · Chef Kun (Chinese/Southeast Asian): **$25/person** · 50-guest min · +$5/person 4th protein (Chinese custom) · +$1/person brown rice
+- Unique Cuisine (Sushi/Japanese): **$30/person** · 50-guest min
+- Five Course · Chef John — The Tortilla Theory (Mexican): **$46/person** (50–99) · **$38/person** (100+) · 50-guest min
+- Five Course · Chef John — A Little Pasta Table (Italian): **$46/person** (50–99) · **$38/person** (100+) · 50-guest min
+- Five Course · Chef John — Grill & Grain (Mediterranean): **$50/person** (50–99) · **$46/person** (100+) · 50-guest min
+- Five Course · Chef John — Spice Route (Indian): **$40/person** · 100-guest minimum
+- Attended Service (Tier 2): **+$8/person** on top of any concept price
 - **No separate service or coordination fee** — CBC's margin is built into the per-guest price
 - Client receives a **single per-guest line item** (plus any add-ons they choose)
 - Compostable tableware (plates, cutlery, napkins) is standard on all orders. Premium compostable upgrade available at +$2.50/person.
@@ -46,11 +51,11 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 ## Commission — Internal Only
 
-- Commission rates **vary by chef** and are **strictly internal**
-- Never discuss, hint at, or disclose commission rates in client-facing materials
-- **Pricing model:** CBC receives each chef's per-guest price as cost, marks up to arrive at client price
-- Chef John (Five Course): 12% CBC / 88% chef
-- Kivi's Kitchen: 25% CBC / 75% chef
+- Markup rates **vary by chef** and are **strictly internal**
+- Never discuss, hint at, or disclose chef food prices or CBC markup in client-facing materials
+- **Pricing model:** Cost-plus markup. CBC receives each chef's per-guest food price, adds markup to arrive at client price
+- Chef John (Five Course): chef food prices $32 (Tortilla Theory / A Little Pasta Table) · $32 (Spice Route) · $42 (Grill & Grain). CBC sets client price independently. CBC earns spread between chef price and client price.
+- Chef Kun · Loulan (楼兰): chef price $18.75 → client price $25 (CBC gets $6.25/person = ~25%)
 - Unique Cuisine: chef price $24 → client price $30 (CBC gets $6/person = 20%)
 
 ---
@@ -66,7 +71,7 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 - Roster is **dynamic** — drawn from active Culinary Block commissary tenants
 - **Never state a fixed number of chefs** without a disclaimer that the roster is dynamic
-- Current active chefs (as of 2026-03): Chef John (Five Course), Kivi's Kitchen, Unique Cuisine
+- Current active chefs (as of 2026-03): Chef John (Five Course), Chef Kun · Loulan (楼兰), Unique Cuisine
 
 ---
 
@@ -101,4 +106,4 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 - Pre-launch: infrastructure built, outreach not yet started
 - No paying clients yet
-- Chef agreements: Chef John drafted (needs attorney review), Kivi and Unique Cuisine need formal sign-off before launch
+- Chef agreements: Chef John drafted (needs attorney review), Chef Kun · Loulan and Unique Cuisine need formal sign-off before launch
