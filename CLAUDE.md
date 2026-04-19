@@ -101,7 +101,7 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 
 | Chef | Chef's Price (to CBC) | Client Price | CBC Gets | Fulfillment |
 |---|---|---|---|---|
-| Five Course Provision (Chef John) — The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$32.00/person** | **$38/person** | **~$4.86/person** net after CC fees (~12.8%) | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up |
+| Five Course Provision (Chef John) — The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$38.00/person** | **$46/person (50–99 guests) · $38/person (100+)** | **~$6.62/person** net at 50–99 (~14.4%) · ~$0 at 100+ (volume concession) | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up |
 | Five Course Provision (Chef John) — Grill & Grain (Mediterranean) | **$42.00/person** | **$46/person** | **~$2.62/person** net after CC fees (~5.7%) ⚠️ thin margin | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up |
 | Five Course Provision (Chef John) — Spice Route (Indian) | **TBD** | **$40/person** | TBD | Chef preps food in covered trays, affixes CBC-printed labels · CBC delivers and sets up · 100-guest min |
 | Loulan · Chef Kun | **$18.75/person** | **$25/person** | **~$5.50/person** net after CC fees (25%) | Chef preps food in covered trays · CBC creates/applies labels, delivers, sets up |

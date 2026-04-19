@@ -172,9 +172,9 @@ All menus accommodate dietary needs (vegan, gluten-free, nut-free, dairy-free) a
 
 | Chef / Cuisine | Chef's Price (to CBC) | Client Price | CBC Net/Person* | Labeling |
 |---|---|---|---|---|
-| **Five Course · Chef John — Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $32.00/person | **$46/person (50–99) · $38/person (100+)** | ~$12.62 (27%) at 50–99 · ~$4.86 (12.8%) at 100+ | CBC prints; Chef John affixes before pickup |
-| **Five Course · Chef John — Spice Route (Indian)** | $32.00/person | **$40/person** (100-guest min) | ~$6.80 (~17%) | CBC prints; Chef John affixes before pickup |
-| **Five Course · Chef John — Grill & Grain (Mediterranean)** | $42.00/person | **$50/person (50–99) · $46/person (100+)** | ~$6.50 (13%) at 50–99 · ~$2.62 (5.7%) at 100+ | CBC prints; Chef John affixes before pickup |
+| **Five Course · Chef John — Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | **$38.00/person** | **$46/person (50–99 guests) · $38/person (100+)** | ~$6.62 (14.4%) at 50–99 · ~$0 at 100+ (volume concession) | CBC prints; Chef John affixes before pickup |
+| **Five Course · Chef John — Spice Route (Indian)** | TBD | **$40/person** (100-guest min) | TBD | CBC prints; Chef John affixes before pickup |
+| **Five Course · Chef John — Grill & Grain (Mediterranean)** | **$42.00/person** | **$50/person (50–99 guests) · $46/person (100+)** | ~$6.50 (13%) at 50–99 · ~$2.62 (5.7%) at 100+ | CBC prints; Chef John affixes before pickup |
 | **Chef Kun · Loulan · Chinese & Southeast Asian** | $18.75/person | **$25/person** | ~$5.50 (~22%) | CBC creates and applies all labels |
 | **Unique Cuisine · Sushi & Japanese** | $24.00/person | **$30/person** | ~$5.28 (~17.6%) | CBC creates and applies all labels |
 

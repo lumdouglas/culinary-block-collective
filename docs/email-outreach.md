@@ -37,7 +37,7 @@ Our kitchen brings together specialized chefs under one roof:
 - American — BBQ, sliders, comfort classics
 - Specialty / Seasonal — dietary-forward, globally inspired menus
 
-We serve 50–500 guests, $25–$40/person (Chef's Spread format), with full dietary labeling (vegan, GF, allergen-free).
+We serve 50–500 guests, $25–$50/person (Chef's Spread format), with full dietary labeling (vegan, GF, allergen-free).
 
 We deliver on time. No hidden fees. No generic menus.
 
@@ -106,13 +106,13 @@ Third and final note — I'll keep it short.
 
 Attached are our chef menus for your review. Highlights for corporate catering:
 
-**SUSHI & JAPANESE SPREAD — $40/person**
+**SUSHI & JAPANESE SPREAD — $30/person**
 Sushi rolls (CA roll, spicy tuna, shrimp tempura, avocado cucumber), chicken & tofu teriyaki, gyoza, edamame, rice
 
-**MEXICAN FUSION SPREAD — $30/person (Standard) · $40/person (Premium)**
-Modern moles, wood-fire proteins, salsas, sides — Standard or Premium with wagyu beef, whole fish, or jumbo shrimp
+**FIVE COURSE PROVISION — from $38/person**
+The Tortilla Theory (Mexican) · A Little Pasta Table (Italian) · Spice Route (Indian, $40/person, 100-guest min) · Grill & Grain (Mediterranean, $46–$50/person) — all Michelin-trained technique, self-serve Chef's Spread format
 
-**CHINESE SPREAD — $25–$30/person**
+**CHINESE SPREAD — $25/person**
 Wok stir-fry, dumplings, noodles, spring rolls, bold layered flavors
 
 50-guest minimum per order. Mix and match cuisines available. All spreads in self-serve Chef's Spread format.
@@ -147,7 +147,7 @@ I'm closing out my outreach to [Company] unless now is actually a better time to
 
 Quick version of who we are:
 - Specialized chefs: sushi/Japanese, Chinese, Mexican fusion, American, specialty
-- Corporate catering for 50–500 guests, $25–$40/person (Chef's Spread format)
+- Corporate catering for 50–500 guests, $25–$46/person drop-off · $33–$54/person attended (Chef's Spread format)
 - On-time delivery, dietary labeling on every item, transparent pricing
 - Free chef tasting available for corporate accounts (10 slots/month)
 

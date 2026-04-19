@@ -1,11 +1,11 @@
 # CBC Operations — Order Fulfillment Workflow
 
 > **Purpose:** How an order moves from first inquiry to delivery, payment, and follow-up. Reference this when coordinating events, onboarding a new chef, or troubleshooting any stage of the process.
-> **Responsibility split varies by chef:**
-> - **Chef John (Five Course Provision) — 12% commission + $150/order service fee:** CBC is sales-only. Chef John handles all delivery, staging, dietary labeling, food safety labeling, and client-facing fulfillment. CBC handles sales, marketing, client acquisition, invoicing, and deposit collection. Chef John absorbs CC processing fees (~3%) from his 88% share before payout. Performance escalator: adjusts to 15% if collected sales exceed $15K in any rolling 30-day period.
-> - **Kivi / standard-terms chefs — 25% commission:** CBC owns dietary labeling, food safety labeling, delivery, coordination, and invoicing. Chefs own food prep and spread serving ware. Doug assists with food staging only if needed.
-> - **Unique Cuisine — 20% commission:** Same operational model as Kivi/standard terms.
-> - **All orders:** A $150 Coordination & Service Fee is charged to the client on every invoice — CBC revenue, not subject to commission split. Must appear as a line item on every quote from day one.
+> **Pricing model: cost-plus markup.** CBC receives each chef's per-guest food price and sets the client-facing price independently. CBC is the billing entity on all orders. No separate commission split — CBC's margin is the spread between chef food price and client price.
+> **Responsibility split:**
+> - **Chef John (Five Course Provision):** CBC handles delivery, staging, dietary labeling (printed by CBC, affixed by Chef John before pickup), food safety labeling, and onsite setup for all orders. CBC absorbs CC processing fees (~3%) — not deducted from Chef John's payout. Chef John handles food prep and ingredient sourcing.
+> - **All other chefs (Loulan/Chef Kun, Unique Cuisine):** CBC handles delivery, dietary labeling, food safety labeling, onsite setup, and invoicing. Chefs handle food prep and handoff at commissary.
+> - **No separate Coordination & Service Fee** — CBC's margin is built entirely into the per-guest price. Single per-guest line item on every quote.
 
 ---
 
@@ -52,9 +52,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 2. Apply per-person rate for chosen cuisine (see `docs/menu-pricing.md`)
 3. Add any relevant add-ons
 4. Apply new client 10% discount if applicable
-5. Subtotal = guests × per-person rate + add-ons − discount
-6. Add **Coordination & Service Fee: $150** as a separate line item — standard on every order. This covers deposit collection, client communication, scheduling, dietary coordination, and order management. It is not a delivery fee. Disclose on every quote from day one — no exceptions.
-7. **Total = subtotal + $150 Coordination & Service Fee**
+5. **Total = guests × per-person rate + add-ons − discount**
 
 **Use `/quote` command** in the cbc-sales plugin to generate a formatted PDF automatically.
 
@@ -120,25 +118,25 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 - Providing spread serving ware (chafing dishes, serving utensils, containers — chef supplies their own)
 - Maintaining food safety logs and temperature control
 
-*Chef John (Five Course) — additional responsibilities:*
-- Delivery from commissary to client site
-- Staging and setup at client site
-- Creating and applying dietary labels and food safety labels (with consume-by times)
-- Printing menu cards and dietary breakdown sheets
-- Maintaining safe food temperature from prep through client service
+*Chef John (Five Course) — food prep responsibilities:*
+- Food prep, ingredient sourcing, cooking in covered aluminum or stainless steel trays
+- Affixing CBC-printed dietary labels and food safety labels before CBC pickup
 
 *Kivi / standard-terms chefs:*
 - Handing off prepared food at commissary at agreed time, ready for spread service, labeling, and delivery
 
 **CBC responsibilities:**
 
-*For Chef John orders (CBC is sales-only):*
+*For Chef John orders:*
 - Sales, marketing, client acquisition, website, CRM
+- Printing dietary labels and food safety labels (Chef John affixes before CBC pickup)
+- Delivering food from commissary to client site within the confirmed delivery window
+- Providing all serving equipment (chafing dishes, serving utensils, linens)
+- Staging the spread at the client site
 - Invoicing the client and collecting payment (CBC remains the billing entity)
-- Collecting applicable sales tax from the corporate client
+- Collecting and remitting applicable sales tax
 - Deposit collection
-- Coordinating event details between chef and client
-- Paying Chef John his 88% share (net of ~3% CC processing fees, which are deducted from chef's share before payout — not CBC's cost)
+- Paying Chef John his food price per confirmed guest count (Net 30 · CC fees absorbed by CBC — not deducted from Chef John's payout)
 
 *For Kivi / standard-terms orders:*
 - Creating and applying individual dietary labels to every item
@@ -174,10 +172,10 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 - [ ] Printed menu card and dietary breakdown sheet are prepared
 - [ ] Delivery vehicle and coordinator are briefed on event details
 
-*Chef John orders (chef delivers):*
-- [ ] Confirm Chef John has delivery route, access details, and on-site contact info
-- [ ] Confirm chef has label stock and printed menu card ready
-- [ ] No CBC delivery coordination needed — chef handles end-to-end
+*Chef John orders (CBC delivers after pickup):*
+- [ ] Confirm Chef John has labels printed and affixed before pickup time
+- [ ] Confirm pickup time and that food is ready in covered trays at commissary
+- [ ] Confirm CBC delivery route, vehicle, and timing
 
 **Labeling standards (non-negotiable — CBC responsibility):**
 - Every individual item gets a dietary label (applied by CBC after chef handoff)
@@ -200,33 +198,33 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 
 **Delivery method varies by chef:**
 
-### Chef John Orders (Chef Delivers)
+### Chef John Orders (CBC Delivers)
 
-Chef John handles all delivery, staging, labeling, and client-facing fulfillment. CBC's role is coordination and quality assurance only.
+CBC picks up Chef John's food at the commissary and handles all delivery, staging, and onsite setup. Chef John's food arrives in covered, labeled aluminum or stainless steel trays with CBC-printed dietary and food safety labels already affixed by Chef John.
 
-**Chef John's delivery responsibilities:**
-- Prepare and label all food (dietary labels + food safety labels with consume-by times)
-- Transport food from commissary to client site within the confirmed delivery window
-- Maintain safe food temperature from prep through client service
-- Stage the spread at the client site
-- Confirm arrival with the on-site contact
-- Report any delays or issues to Doug proactively so CBC can manage the client relationship
+**Chef John's pre-pickup responsibilities:**
+- Food fully prepared in covered serving trays
+- CBC-printed dietary labels and food safety labels affixed to all items before pickup
+- Provide item manifest to CBC at handoff
 
-**CBC's role on Chef John orders:**
-- Provide Chef John with delivery address, access details, and on-site contact info
-- Coordinate any Attended Service staff if booked (Tier 2)
-- Monitor delivery confirmation — check in with client post-delivery
-- Manage client communications if issues arise
+**CBC delivery responsibilities (Chef John orders):**
+- Pick up food from Chef John at commissary at agreed handoff time
+- Verify all items against the order manifest before loading
+- Transport food to client site within the confirmed delivery window
+- Maintain safe food temperature from commissary to client
+- Stage the spread (chafing dishes, serving utensils, linens — all provided by CBC)
+- Confirm arrival and setup with the on-site contact
+- Report any issues proactively
 
-**On-time delivery guarantee (Chef John orders):** Same client-facing guarantee applies — if the order is late, client receives 10% off next order. **The resulting credit is deducted from Chef John's payout for that order**, not CBC's commission. This is specified in the contractor agreement.
+**On-time delivery guarantee (Chef John orders):** If the order is late due to a CBC delivery failure, client receives 10% off next order. If the delay is caused by Chef John's late handoff, this is addressed directly with Chef John per the contractor agreement.
 
 ---
 
-### Kivi / Standard-Terms Orders (CBC Delivers)
+### Loulan / Unique Cuisine / Standard-Terms Orders (CBC Delivers)
 
 CBC (Doug or CBC delivery coordinator) picks up labeled, prepared food from the commissary and delivers to the client site.
 
-**Doug's role:** Primary delivery coordinator. Applies labels at the commissary, loads the vehicle, and delivers. Assists with food staging only if needed (e.g., chef's team is behind schedule). Coordination oversight on every order.
+**Doug's role:** Primary delivery coordinator. Picks up food from chef at commissary, applies labels (for Loulan/Unique Cuisine — labels already affixed for Chef John), loads the vehicle, and delivers. Coordination oversight on every order.
 
 **CBC delivery responsibilities (per delivery SOP — see Delivery Protocol below):**
 - Pick up prepared food from chef at commissary at the agreed handoff time
@@ -282,12 +280,12 @@ CBC (Doug or CBC delivery coordinator) picks up labeled, prepared food from the 
 - Accepted payment methods: [TBD — update when payment processing is set up]
 
 ### Chef / Contractor Payment
-- **Revenue split varies by chef:**
-  - Chef John (Five Course): **88% chef / 12% CBC** — CBC pays chef within [X] days of collection. CC processing fees (~3%) are deducted from chef's 88% share before payout (chef's net is ~85% after CC fees). Performance escalator: adjusts to 15% CBC / 85% chef if collected sales exceed $15K in any rolling 30-day period.
-  - Kivi: **75% chef / 25% CBC** — standard terms
-  - Unique Cuisine: **80% chef / 20% CBC** — negotiated exception
-- **Coordination & Service Fee:** $150 per order is charged to the client as a separate invoice line item. This is CBC revenue collected on top of the commission split — not deducted from chef payout.
-- **Payment flow:** Client pays CBC (food revenue + $150 service fee + sales tax) → CBC retains its commission share + service fee → CBC pays chef their agreed % of food revenue, less CC processing fees (Chef John only)
+- **Payment model: cost-plus markup.** CBC pays each chef their per-guest food price × confirmed guest count. CBC retains the markup spread.
+  - Chef John (Five Course): CBC pays Chef John his per-guest food price ($32 Tortilla/Pasta/Spice Route · $42 Grill & Grain) × confirmed guest count within Net 30. CC processing fees (~3%) absorbed by CBC — not deducted from Chef John's payout.
+  - Loulan / Chef Kun: CBC pays Chef Kun $18.75/person × confirmed guest count within Net 30.
+  - Unique Cuisine: CBC pays $24/person × confirmed guest count within Net 30.
+- **No separate service fee.** CBC's revenue is the spread between the client price and the chef's food price.
+- **Payment flow:** Client pays CBC (food revenue + sales tax) → CBC pays each chef their food price per confirmed guest count (Net 30)
 - **Payment terms:** Net 30 from service date
 - **CBC remains the billing entity for all orders** — clients pay CBC, not chefs directly. This is critical for non-compete enforceability and client relationship control.
 - Chef sets their own minimum revenue threshold per order — confirm before booking
@@ -297,7 +295,7 @@ CBC (Doug or CBC delivery coordinator) picks up labeled, prepared food from the 
 
 ## CBC Delivery Protocol
 
-> **Purpose:** Standard operating procedures for **Kivi / standard-terms orders where CBC handles delivery**. Chef John orders do not use this protocol — Chef John handles his own delivery end-to-end (see Stage 6 above). Doug reviews the chef handoff expectations with each chef at onboarding.
+> **Purpose:** Standard operating procedures for all CBC deliveries. CBC handles delivery and staging for all chefs. Chef John's food arrives pre-labeled (labels printed by CBC, affixed by Chef John). For all other chefs, CBC creates and applies labels after pickup. Doug reviews the chef handoff expectations with each chef at onboarding.
 
 ### Chef Handoff (Day Before)
 - [ ] Chef confirms food will be prepared and ready in serving ware at the agreed handoff time
@@ -442,7 +440,7 @@ Every order must meet:
 | Client inbound | (415) 699-4397 · culinaryblockcatering@gmail.com |
 | CRM / pipeline | HubSpot (free) — stages: New Lead → Contacted → Quote Sent → Won → Recurring |
 | Quote generation | `/quote` command (cbc-sales plugin) or manual |
-| Delivery | **Varies by chef.** Chef John: chef delivers end-to-end. Kivi/standard: CBC (Doug or coordinator) picks up, labels, and delivers |
+| Delivery | **CBC handles delivery and staging for all chefs.** Doug (or CBC delivery coordinator) picks up from chef at commissary and delivers to client site. Chef John: CBC picks up labeled food. Loulan/Unique Cuisine: CBC applies labels after pickup, then delivers. |
 | Delivery tracking | Trello delivery checklist (day-of) |
 | Packaging | Chef provides serving ware & chafing dishes · CBC provides dietary labels and menu cards |
 | Chef profiles & contacts | `docs/chef-profiles.md` |

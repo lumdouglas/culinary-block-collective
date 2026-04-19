@@ -222,7 +222,7 @@ Run this every weekday morning. Non-negotiable.
 ### Text Message Templates
 
 **First Text to a Warm Lead (LinkedIn → Text):**
-> "Hi [Name]! It's [Your Name] from Culinary Block — we connected on LinkedIn. We do diverse chef catering for tech teams in the Bay Area ($25–$40/person, Chef's Spread format, 50-guest minimum). Would love to send over our menus. Mind if I text them to you?"
+> "Hi [Name]! It's [Your Name] from Culinary Block — we connected on LinkedIn. We do diverse chef catering for tech teams in the Bay Area ($25–$50/person, Chef's Spread format, 50-guest minimum). Would love to send over our menus. Mind if I text them to you?"
 
 **Quote Follow-Up (Sent quote 2 days ago, no reply):**
 > "Hey [Name] — just checking in on the quote I sent for [Company]. Happy to adjust the menu or pricing if anything didn't fit. Should I hold that delivery slot or release it?"

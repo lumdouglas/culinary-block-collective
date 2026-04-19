@@ -70,25 +70,27 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 | Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
 | Chef Kun · Loulan · Chinese & Southeast Asian | $25/person | 50 | $1,250 |
-| Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $38/person | 50 | $1,900 |
+| Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $46/person (50–99) · $38/person (100+) | 50 | $1,900 |
 | Five Course · Spice Route (Indian) | $40/person | 100 | $4,000 |
-| Five Course · Grill & Grain (Mediterranean) | $46/person | 50 | $2,300 |
+| Five Course · Grill & Grain (Mediterranean) | $50/person (50–99) · $46/person (100+) | 50 | $2,300 |
 
 **CBC service kit cost:** ~$50–$100/order (dietary labels, printed menu cards, delivery fuel/vehicle). Chef provides serving ware and chafing dishes.
 
-#### Premium Drop-Off Spread
-Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off format, elevated ingredients.
+#### Sushi Tier
 
 | Chef / Cuisine | Per-Person Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| Five Course · Mexican Fusion (Chef John) | $40/person | 50 | $2,000 |
-| Unique Cuisine · Sushi & Japanese | $40/person | 50 | $2,000 |
+| Unique Cuisine · Sushi & Japanese | $30/person | 50 | $1,500 |
 
-**Commission notes (internal — not for client-facing materials):**
-- Five Course / Chef John (Standard): **12% CBC / 88% chef.** Chef gets $29.92/person, CBC gets $4.08/person. Chef handles all delivery, staging, and labeling. CC fees (~3%) deducted from chef's 88% share.
-- Five Course / Chef John (Premium): **12% CBC / 88% chef.** Chef gets $35.20/person, CBC gets $4.80/person. Chef handles all delivery, staging, and labeling.
-- Unique Cuisine: 20% (negotiated exception). Chef gets $32/person, CBC gets $8/person.
-- **All orders:** $150/order Coordination & Service Fee charged to client — CBC revenue on top of commission.
+> ⚠️ **Note:** The separate "Premium Drop-Off" tier and 12%/88% commission model are superseded. Current model is cost-plus markup (see intro paragraph above and `docs/menu-pricing.md`). Financial projections below still reference the old model — recalculate before use in investor or partner contexts.
+
+**Markup notes (internal — not for client-facing materials):**
+- Tortilla Theory / A Little Pasta Table: CBC client price $46/$38 (volume) · Chef price $32 · Net ~$12.62/$4.86/person after CC fees
+- Grill & Grain: CBC client price $50/$46 (volume) · Chef price $42 · Net ~$6.50/$2.62/person ⚠️ thin at 100+
+- Spice Route: CBC client price $40 · Chef price $32 · Net ~$6.80/person (100-guest min)
+- Chef Kun · Loulan: CBC client price $25 · Chef price $18.75 · Net ~$5.50/person
+- Unique Cuisine: CBC client price $30 · Chef price $24 · Net ~$5.28/person
+- CBC absorbs CC fees (~3%) on all orders — not deducted from any chef payout. No separate service fee.
 
 #### Attended Service (Tier 2)
 Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$8/person** on top of Standard or Premium price.
@@ -96,17 +98,17 @@ Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain statio
 | Chef / Cuisine | Drop-Off + Attended (+$8/person) |
 |---|---|
 | Chef Kun · Loulan · Chinese & Southeast Asian | $33/person |
-| Five Course · Mexican / Italian | $46/person |
-| Five Course · Spice Route (Indian) | $48/person |
-| Five Course · Grill & Grain (Mediterranean) | $54/person |
+| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $54/person (50–99) · $46/person (100+) |
+| Five Course · Spice Route (Indian) | $48/person (100-guest min) |
+| Five Course · Grill & Grain (Mediterranean) | $58/person (50–99) · $54/person (100+) |
 | Unique Cuisine · Sushi | $38/person |
 
 **Attended staffing:** Doug solo under 100 guests · 2 staff 100–200 guests · confirm 200+
 
 **CBC staff cost:** $30/hr fully loaded (taxes + workers comp) · Billed to client at $35–$45/hr
-**Staff contribution per event (2 staff × 4 hrs):** $40–$120 above labor cost, on top of commission
+**Staff contribution per event (2 staff × 4 hrs):** $40–$120 above labor cost — CBC revenue above staff wages
 
-**Strategic note:** Tier 2 is the margin engine. Target mix should shift toward Tier 2 as client relationships mature. Staff billings are additional CBC revenue on top of commission.
+**Strategic note:** Tier 2 is the margin engine. Target mix should shift toward Tier 2 as client relationships mature. Staff billings are additional CBC revenue above the per-guest markup.
 
 **Min. guests across all chefs:** 50. **Max:** 500 guests.
 

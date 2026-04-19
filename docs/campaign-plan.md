@@ -25,8 +25,8 @@ CBC is launching a 6-month brand awareness and sales growth campaign targeting t
 | Cuisine | Specialty | Price Range |
 |---|---|---|
 | Chinese (Kivi) | Wok dishes, dumplings, stir-fry, noodles | $25–$30/person (Standard Drop-Off Spread) |
-| Mexican Fusion (Five Course) | Modern moles, wood-fire proteins, salsas, sides | $30/person Standard · $40/person Premium |
-| Sushi / Japanese (Unique) | Sushi rolls, teriyaki, gyoza, edamame, rice | $40/person (Premium only) |
+| Five Course · Chef John | The Tortilla Theory (Mexican) / A Little Pasta Table (Italian) / Grill & Grain (Mediterranean) / Spice Route (Indian) | $38/person (Mexican/Italian) · $40/person (Indian) · $46/person (Mediterranean) |
+| Sushi / Japanese (Unique Cuisine) | Sushi rolls, teriyaki, gyoza, edamame, rice | $30/person |
 | American | BBQ, sandwiches, comfort classics, pub fare | TBD |
 | Specialty / Fusion | Dietary-forward, seasonal, global fusion | TBD |
 
@@ -43,7 +43,7 @@ All service is Chef's Spread (self-serve station) format — no individual box m
 | Role | Office Manager / Executive Assistant / HR Coordinator |
 | Company Size | 50–300 employees (tech startups & mid-size firms) |
 | Location | Palo Alto, San Jose, Mountain View, Sunnyvale |
-| Budget | $25–$40/person; 50-guest minimum; typical order $1,500–$3,000 |
+| Budget | $25–$46/person drop-off ($33–$54 attended); 50-guest minimum; typical order $1,250–$3,000 |
 | Events Booked | Team lunches, client dinners, product launches, all-hands |
 | Pain Points | Late deliveries, dietary errors, generic menus, hidden fees |
 | Priorities | Reliable vendor, dietary customization, sustainability, easy ordering |
@@ -158,7 +158,7 @@ All service is Chef's Spread (self-serve station) format — no individual box m
 | **TOTAL (months 3–6)** | **$179–$279/mo** | **+ LinkedIn Ads** | |
 | **6-month total** | | **~$870–$1,270** | |
 
-*Delivery varies by chef: Chef John handles his own delivery (CBC is sales-only at 12% commission + $150/order service fee). For Kivi/standard-terms chefs, delivery is handled by CBC (Doug), funded within CBC's 25% commission. No separate delivery subscription cost.*
+*CBC handles delivery and staging for all chefs. CBC's margin is built into the per-guest price — no separate delivery or service fee.*
 
 ---
 

@@ -3,7 +3,7 @@
 
 > **Purpose:** Updated cold outreach templates reflecting CBC's current positioning, pricing, and tone. These replace the Email 1 body copy in `docs/email-outreach.md` and should be used in its place. Emails 2–5 in the existing sequence remain valid as follow-ups.
 >
-> **Pricing:** $25–$40/person · **Minimum:** 50 guests · **Booking window:** 48 hours (under 150 guests)
+> **Pricing:** $25–$50/person · **Minimum:** 50 guests · **Booking window:** 48 hours (under 150 guests)
 >
 > **Attach to every Email 1:** `CBC_Sales_One_Pager_v2.pdf`
 >
@@ -61,7 +61,7 @@ We're a San Jose-based catering operation built around independent specialist ch
 - Every item individually labeled (vegan, GF, nut-free, dairy-free)
 - 48-hour booking turnaround for orders under 150 guests
 - One point of contact who knows your account — text us at 8am the morning of and you'll get a human
-- $25–$40/person, all-in — delivery, setup, and full dietary labeling included. No invoice surprises.
+- $25–$50/person, all-in — delivery, setup, and full dietary labeling included. No invoice surprises.
 
 We're booking **free tastings** for new corporate accounts this month — no commitment, just food. A handful of slots remain.
 
@@ -181,11 +181,11 @@ The full 5-email cold outreach sequence lives in `docs/email-outreach.md`. Here'
 |---|---|---|
 | **Email 1** | This file (Template A or B) | **Replaces** the Email 1 body in `email-outreach.md` — updated tone, pricing, chef positioning |
 | Email 2 (Day 4) | `docs/email-outreach.md` | Still valid — reliability + dietary labeling follow-up |
-| Email 3 (Day 10) | `docs/email-outreach.md` | Still valid — prices updated to spread format ($25–$40/person) |
+| Email 3 (Day 10) | `docs/email-outreach.md` | Still valid — prices updated to spread format ($25–$50/person) |
 | Email 4 (Day 31) | `docs/email-outreach.md` | Still valid — prices updated to spread format |
 | Email 5 (Post-event) | `docs/email-outreach.md` | Still valid — no pricing in this one |
 
-> **✅ Pricing updated (2026-03):** All emails in `email-outreach.md` have been updated to spread format pricing ($25–$40/person, 50-guest minimum). No individual box meals — Chef's Spread format only.
+> **✅ Pricing updated (2026-04):** All emails in `email-outreach.md` have been updated to spread format pricing ($25–$50/person, 50-guest minimum). Chef John concepts range $38–$50/person (volume pricing). No individual box meals — Chef's Spread format only.
 
 ---
 
@@ -199,7 +199,7 @@ These are the claims that convert. Use them specifically, not vaguely:
 | Specialist chefs | "A sushi chef who only makes sushi. A Chinese chef who only makes Chinese." |
 | 48-hour booking | "Under 150 guests, we can turn around an order in 48 hours." |
 | Dietary labeling | "Every individual item labeled — not just 'vegan option available.'" |
-| Pricing | "$25–$40/person all-in — delivery, setup, and labeling included. No hidden fees." *(Internal note: A $150 Coordination & Service Fee appears on every quote. The fee is disclosed at quote stage, so "all-in" and "no hidden fees" are still accurate in outreach — the fee is never a post-quote surprise. No change to email copy required.)* |
+| Pricing | "$25–$50/person all-in — delivery, setup, and labeling included. No hidden fees." *(Internal note: No separate service fee — The fee is disclosed at quote stage, so "all-in" and "no hidden fees" are still accurate in outreach — the fee is never a post-quote surprise. No change to email copy required.)* |
 | Minimum | "We start at 50 guests — no forcing you to overbuy." |
 | Single contact | "Text the same number before, during, and after every event." |
 | Recurring contracts | "Fixed pricing and rotating menus on a weekly or bi-weekly standing order." |
