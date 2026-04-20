@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chef John Alvarez Full Menu · Mexican · Italian · Mediterranean · Indian | Culinary Block Collective</title>
-  <meta name="description" content="Full menu for Chef John Alvarez (Five Course Provision) — four concepts: The Tortilla Theory (Mexican), A Little Pasta Table (Italian), Grill &amp; Grain (Mediterranean), and Spice Route (Indian). From $38/person. Bay Area corporate catering." />
+  <title>Chef John Alvarez · Menu Overview | Culinary Block Collective</title>
+  <meta name="description" content="Chef John Alvarez's four catering concepts — The Tortilla Theory (Mexican), Grill &amp; Grain (Mediterranean), Spice Route (Indian), A Little Pasta Table (Italian). Example spreads and pricing. Bay Area corporate catering from $38/person." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.culinaryblockcollective.com/chef-john-menu" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,16 +26,21 @@
       --muted:        #5C5349;
       --white:        #FFFFFF;
       --mexican:      #F97316;
+      --mexican-dark: #C2580D;
       --mexican-light:#FFF3E8;
+      --mexican-mid:  #FDE0C8;
       --italian:      #B5451B;
+      --italian-dark: #8B3414;
       --italian-light:#FDF0EC;
       --med:          #1B6B8A;
+      --med-dark:     #134E66;
       --med-light:    #EBF6FA;
+      --med-mid:      #B8D9E8;
       --spice:        #B45309;
+      --spice-dark:   #8A3F07;
       --spice-light:  #FFFBEB;
       --radius:       10px;
       --shadow:       0 4px 32px rgba(43,28,12,0.10);
-      --shadow-lg:    0 12px 48px rgba(43,28,12,0.14);
       --font-display: 'Cormorant Garamond', Georgia, serif;
       --font-body:    'Inter', system-ui, sans-serif;
     }
@@ -59,10 +64,10 @@
     .nav-phone { display: flex; align-items: center; gap: 8px; color: var(--gold); font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; padding: 8px 16px; border-radius: 4px; flex-shrink: 0; }
     @media (max-width: 700px) { .nav-links { display: none; } .nav-phone { font-size: 0; padding: 8px 10px; } }
 
-    /* ── MENU HERO ── */
+    /* ── HERO ── */
     .menu-hero {
       background:
-        linear-gradient(135deg, rgba(27,67,50,0.92) 0%, rgba(249,115,22,0.45) 100%),
+        linear-gradient(135deg, rgba(27,67,50,0.92) 0%, rgba(249,115,22,0.40) 100%),
         url('/images/five-course-provisions/chef-john-action.jpg') top center/cover no-repeat;
       padding: 52px 24px 48px;
     }
@@ -92,104 +97,160 @@
     .concept-tab {
       display: flex; align-items: center; gap: 8px;
       padding: 16px 20px; font-size: 0.85rem; font-weight: 600; color: var(--muted);
-      border-bottom: 2px solid transparent; white-space: nowrap; cursor: pointer;
+      border-bottom: 2px solid transparent; white-space: nowrap;
       transition: color .15s, border-color .15s; text-decoration: none;
     }
-    .concept-tab:hover { color: var(--dgreen); }
-    .concept-tab.mexican { border-color: transparent; }
-    .concept-tab.mexican:hover, .concept-tab.mexican.active { color: var(--mexican); border-color: var(--mexican); }
-    .concept-tab.italian:hover, .concept-tab.italian.active { color: var(--italian); border-color: var(--italian); }
-    .concept-tab.med:hover, .concept-tab.med.active { color: var(--med); border-color: var(--med); }
-    .concept-tab.spice:hover, .concept-tab.spice.active { color: var(--spice); border-color: var(--spice); }
     .concept-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .dot-mexican { background: var(--mexican); }
-    .dot-italian { background: var(--italian); }
     .dot-med { background: var(--med); }
     .dot-spice { background: var(--spice); }
+    .dot-italian { background: var(--italian); }
+    .concept-tab.mexican:hover { color: var(--mexican); border-color: var(--mexican); }
+    .concept-tab.med:hover { color: var(--med); border-color: var(--med); }
+    .concept-tab.spice:hover { color: var(--spice); border-color: var(--spice); }
+    .concept-tab.italian:hover { color: var(--italian); border-color: var(--italian); }
+    .concept-tab.pricing:hover { color: var(--dgreen); border-color: var(--dgreen); }
 
-    /* ── SECTIONS ── */
+    /* ── LAYOUT ── */
     .section { padding: 64px 24px; }
     .section-alt { background: var(--cream2); }
     .container { max-width: 860px; margin: 0 auto; }
+    .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
 
     /* ── CONCEPT HEADER ── */
-    .concept-header { margin-bottom: 32px; padding: 24px 28px; border-radius: 0 var(--radius) var(--radius) 0; }
+    .concept-header { margin-bottom: 12px; padding: 24px 28px; border-radius: 0 var(--radius) var(--radius) 0; }
     .concept-header.mexican { background: var(--mexican-light); border-left: 4px solid var(--mexican); }
+    .concept-header.med     { background: var(--med-light);     border-left: 4px solid var(--med); }
+    .concept-header.spice   { background: var(--spice-light);   border-left: 4px solid var(--spice); }
     .concept-header.italian { background: var(--italian-light); border-left: 4px solid var(--italian); }
-    .concept-header.med { background: var(--med-light); border-left: 4px solid var(--med); }
-    .concept-header.spice { background: var(--spice-light); border-left: 4px solid var(--spice); }
     .concept-num { font-size: 0.72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
     .concept-num.mexican { color: var(--mexican); }
+    .concept-num.med     { color: var(--med); }
+    .concept-num.spice   { color: var(--spice); }
     .concept-num.italian { color: var(--italian); }
-    .concept-num.med { color: var(--med); }
-    .concept-num.spice { color: var(--spice); }
     .concept-header h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 700; color: var(--dgreen); margin-bottom: 6px; }
     .concept-header p { font-size: 0.88rem; color: var(--muted); }
 
-    /* ── UNIFIED BOX HEADER ── */
-    .set-price-row { display:flex; align-items:flex-start; flex-direction:column; gap:6px; padding-bottom:14px; border-bottom:1px solid rgba(0,0,0,0.08); margin-bottom:14px; }
-    .set-price { font-family:var(--font-display); font-size:1.5rem; font-weight:700; color:var(--dgreen); line-height:1; }
-    .set-price sub { font-family:var(--font-body); font-size:0.72rem; font-weight:400; color:var(--muted); }
-    .set-meta { font-size:0.82rem; color:var(--muted); font-weight:500; }
-    .set-meta strong { color:var(--dgreen); font-weight:700; }
-    .set-summary-line { font-size:0.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; margin-bottom:18px; }
-    .set-summary-line.mexican { color: var(--mexican); }
-    .set-summary-line.italian { color: var(--italian); }
-    .set-summary-line.med { color: var(--med); }
-    .set-summary-line.spice { color: var(--spice); }
+    /* ── SECTION INTRO ── */
+    .section-intro { font-size: 0.85rem; color: var(--muted); margin-bottom: 28px; line-height: 1.65; padding: 0 2px; }
+    .section-intro strong { color: var(--text); }
 
-    /* ── SELECTION BOX ── */
-    .selection-box { border-radius: var(--radius); padding: 28px 32px; margin-bottom: 28px; }
-    .selection-box.mexican { background: var(--mexican-light); border: 1px solid rgba(249,115,22,0.25); }
-    .selection-box.italian { background: var(--italian-light); border: 1px solid rgba(181,69,27,0.2); }
-    .selection-box.med { background: var(--med-light); border: 1px solid rgba(27,107,138,0.2); }
-    .selection-box.spice { background: var(--spice-light); border: 1px solid rgba(180,83,9,0.2); }
-    .selection-box > p { color: var(--muted); font-size: 0.85rem; margin-bottom: 20px; line-height: 1.6; }
-    .selection-group { margin-top: 18px; }
-    .selection-group-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 10px; }
-    .chip-grid { display: flex; flex-wrap: wrap; gap: 8px; }
-    .chip { display: flex; align-items: center; gap: 7px; background: var(--white); border: 1.5px solid var(--border); border-radius: 50px; padding: 7px 16px; font-size: 0.83rem; font-weight: 600; color: var(--text); }
-    .chip .icon { font-size: 1rem; }
+    /* ── EXAMPLE SET CARDS — 3-col ── */
+    .example-sets-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 28px; }
+    @media (max-width: 720px) { .example-sets-grid { grid-template-columns: 1fr; } }
 
-    /* ── ADD-ONS ── */
-    .addon-box { background: var(--lgold); border: 1px solid var(--gold-light); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 40px; }
-    .addon-box h3 { font-size: 0.95rem; font-weight: 700; color: var(--gold); margin-bottom: 4px; }
-    .addon-box > p { color: var(--muted); font-size: 0.83rem; margin-bottom: 16px; }
-    .addon-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-top: 14px; margin-bottom: 8px; }
-    .chip-price { font-size: 0.72rem; color: var(--muted); margin-left: 4px; font-weight: 500; }
+    /* ── EXAMPLE SET CARDS — 2-col ── */
+    .example-sets-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 28px; }
+    @media (max-width: 680px) { .example-sets-2col { grid-template-columns: 1fr; } }
 
-    /* ── DISH LIST ── */
-    .dish-list { list-style: none; margin: 0; }
-    .dish-list li { padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.07); display: flex; align-items: flex-start; gap: 10px; }
-    .dish-list li:last-child { border-bottom: none; }
-    .dish-bullet { font-weight: 700; flex-shrink: 0; font-size: 1.1rem; line-height: 1.4; }
-    .dish-bullet.mexican { color: var(--mexican); }
-    .dish-bullet.med { color: var(--med); }
-    .dish-bullet.spice { color: var(--spice); }
-    .dish-bullet.italian { color: var(--italian); }
-    .dish-bullet.addon { color: var(--gold); }
-    .dish-content { flex: 1; }
-    .dish-name { font-size: 0.9rem; font-weight: 700; color: var(--text); }
-    .dish-desc { font-size: 0.78rem; color: var(--muted); margin-top: 1px; }
-    .addon-price { font-size: 0.75rem; color: var(--muted); font-weight: 500; margin-left: 6px; }
+    .example-set-card {
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      display: flex; flex-direction: column;
+    }
+    .example-set-card-photo { width: 100%; height: 155px; object-fit: cover; display: block; }
+    .example-set-card-body { padding: 18px 18px 16px; flex: 1; display: flex; flex-direction: column; }
 
-    /* ── SET PHOTOS ── */
-    .set-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
-    .set-photos img { width: 100%; height: 200px; border-radius: var(--radius); object-fit: cover; display: block; }
-    @media (max-width: 600px) { .set-photos { grid-template-columns: 1fr; } }
+    .set-type-chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 0.62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      padding: 3px 9px; border-radius: 20px; margin-bottom: 6px;
+    }
+    .set-type-chip.mexican { background: var(--mexican-light); color: var(--mexican-dark); }
+    .set-type-chip.med     { background: var(--med-light);     color: var(--med-dark); }
+    .set-type-chip.spice   { background: var(--spice-light);   color: var(--spice-dark); }
+    .set-type-chip.italian { background: var(--italian-light); color: var(--italian-dark); }
 
-    /* ── CONCEPT DIVIDER ── */
-    .concept-divider { border: none; border-top: 2px solid var(--border); margin: 0; }
+    .example-set-card h3 {
+      font-family: var(--font-display); font-size: 1.15rem; font-weight: 700;
+      color: var(--dgreen); margin-bottom: 14px; line-height: 1.2;
+    }
+    .dish-cat-label {
+      font-size: 0.62rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 6px; margin-top: 10px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .dish-cat-label:first-of-type { margin-top: 0; }
+    .dish-cat-line { flex: 1; height: 1px; background: var(--border); }
+
+    .set-dish-list { list-style: none; margin-bottom: 0; }
+    .set-dish-list li {
+      font-size: 0.82rem; color: var(--text);
+      padding: 4px 0; border-bottom: 1px solid rgba(0,0,0,0.05);
+      display: flex; align-items: flex-start; gap: 7px;
+    }
+    .set-dish-list li:last-child { border-bottom: none; }
+    .sdl-bullet { flex-shrink: 0; font-weight: 700; line-height: 1.6; }
+    .sdl-bullet.mx { color: var(--mexican); }
+    .sdl-bullet.md { color: var(--med); }
+    .sdl-bullet.sp { color: var(--spice); }
+    .sdl-bullet.it { color: var(--italian); }
+    .sdl-bullet.vg { color: var(--green); }
+    .sdl-name { flex: 1; }
+    .tag { display: inline-block; font-size: 0.58rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    .tag-v  { background: var(--lgreen); color: var(--dgreen); }
+    .tag-gf { background: #FEF3C7; color: #92400E; }
+
+    .set-included-note {
+      font-size: 0.74rem; color: var(--muted); margin-top: 12px; padding-top: 10px;
+      border-top: 1px solid var(--border); display: flex; align-items: center; gap: 5px;
+    }
+
+    /* ── BUILD YOUR OWN CTA BLOCK ── */
+    .build-own-block {
+      background: linear-gradient(135deg, var(--lgold) 0%, #FEF9EE 100%);
+      border: 1px solid var(--gold-light); border-radius: var(--radius);
+      padding: 24px 28px; display: flex; align-items: center;
+      justify-content: space-between; gap: 20px; flex-wrap: wrap;
+    }
+    .build-own-text h4 {
+      font-family: var(--font-display); font-size: 1.25rem; font-weight: 700;
+      color: var(--dgreen); margin-bottom: 6px;
+    }
+    .build-own-text p { font-size: 0.84rem; color: var(--muted); max-width: 460px; line-height: 1.6; }
+    .btn-build {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--dgreen); color: var(--white);
+      font-weight: 700; font-size: 0.88rem; padding: 12px 22px;
+      border-radius: 50px; transition: background .15s; white-space: nowrap; flex-shrink: 0;
+    }
+    .btn-build:hover { background: var(--green); }
+    .btn-build-alt {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      border: 1.5px solid var(--border); color: var(--muted);
+      font-weight: 600; font-size: 0.82rem; padding: 9px 18px;
+      border-radius: 50px; transition: border-color .15s, color .15s; white-space: nowrap;
+    }
+    .btn-build-alt:hover { border-color: var(--dgreen); color: var(--dgreen); }
+    .build-own-ctas { display: flex; flex-direction: column; gap: 8px; align-items: stretch; flex-shrink: 0; }
+
+    /* ── INFO ROW ── */
+    .info-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 28px; }
+    .info-cell { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; display: flex; flex-direction: column; gap: 6px; }
+    .info-cell-icon { font-size: 1.2rem; }
+    .info-cell h4 { font-size: 0.85rem; font-weight: 700; color: var(--dgreen); }
+    .info-cell p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+    @media (max-width: 600px) { .info-row { grid-template-columns: 1fr; } }
 
     /* ── DIETARY BANNER ── */
-    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; }
+    .dietary-banner { background: var(--lgreen); border-radius: var(--radius); padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; margin-bottom: 40px; }
     .dietary-banner .db-icon { font-size: 1.5rem; flex-shrink: 0; }
     .dietary-banner h4 { font-size: 0.88rem; font-weight: 700; color: var(--dgreen); margin-bottom: 4px; }
     .dietary-banner p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
 
-    /* ── PRICING SUMMARY ── */
+    /* ── MICHELIN CALLOUT ── */
+    .michelin-callout {
+      background: var(--lgold); border: 1px solid var(--gold-light); border-radius: var(--radius);
+      padding: 18px 24px; display: flex; gap: 14px; align-items: flex-start; margin-bottom: 28px;
+    }
+    .michelin-callout .mc-icon { font-size: 1.3rem; flex-shrink: 0; }
+    .michelin-callout .mc-label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gold); margin-bottom: 4px; }
+    .michelin-callout p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; margin: 0; }
+
+    /* ── PRICING TABLE ── */
     .pricing-summary { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
-    .pricing-summary-header { background: var(--dgreen); padding: 20px 28px; }
+    .pricing-summary-header { background: linear-gradient(135deg, var(--mexican-dark), var(--dgreen)); padding: 20px 28px; }
     .pricing-summary-header h3 { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--white); }
     .pricing-summary-header p { color: rgba(255,255,255,0.7); font-size: 0.82rem; margin-top: 4px; }
     .pricing-rows { padding: 4px 0; }
@@ -200,8 +261,8 @@
     .pricing-row-price { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--dgreen); white-space: nowrap; }
     .pricing-row-price span { font-family: var(--font-body); font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 2px; }
 
-    /* ── BOOK SECTION ── */
-    .book-section { background: linear-gradient(135deg, var(--dgreen) 0%, #2D6A4F 100%); padding: 64px 24px; text-align: center; }
+    /* ── BOOK ── */
+    .book-section { background: linear-gradient(135deg, var(--mexican-dark) 0%, var(--dgreen) 100%); padding: 64px 24px; text-align: center; }
     .book-section h2 { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 12px; }
     .book-section p { color: rgba(255,255,255,0.8); font-size: 0.95rem; max-width: 520px; margin: 0 auto 32px; line-height: 1.7; }
     .book-ctas { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
@@ -231,7 +292,7 @@
   </a>
 </nav>
 
-<!-- MENU HERO -->
+<!-- HERO -->
 <div class="menu-hero">
   <div class="menu-hero-inner">
     <div class="hero-breadcrumb">
@@ -239,11 +300,11 @@
       <span>/</span>
       <a href="/chef-john">Chef John Alvarez</a>
       <span>/</span>
-      <span style="color:rgba(255,255,255,0.7);">Full Menu</span>
+      <span style="color:rgba(255,255,255,0.7);">Menu Overview</span>
     </div>
     <span class="menu-hero-badge">Four Concepts · One Chef</span>
-    <h1>Five Course Provision<br/><em>Full Menu</em></h1>
-    <p class="menu-hero-sub">Choose your concept — Modern Mexican, Italian, Mediterranean, or Indian. Each is a complete Chef's Spread, prepared for your guest count, self-serve style.</p>
+    <h1>Five Course Provision<br/><em>Menu Overview</em></h1>
+    <p class="menu-hero-sub">Browse example spreads for each of Chef John's four cuisine concepts — Mexican, Mediterranean, Indian, and Italian. Pick a set as-is, or build your own from the full menu.</p>
     <div class="menu-hero-meta">
       <span class="meta-chip">from $38 / person</span>
       <span class="meta-chip">50–500 guests</span>
@@ -251,7 +312,7 @@
       <span class="meta-chip">Dietary labels included</span>
     </div>
     <div class="menu-hero-ctas">
-      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John Alvarez — Five Course Provision&body=Hi! I'd like to book Chef John Alvarez for corporate catering.%0A%0AEvent date: %0AGuest count: %0AConcept (Mexican — The Tortilla Theory / Italian — A Little Pasta Table / Mediterranean — Grill %26 Grain / Indian — Spice Route): %0AMain selections: %0ASide selections: %0ADietary needs: %0ACompany: %0A">Book Now →</a>
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John Alvarez — Five Course Provision&body=Hi! I'd like to book Chef John Alvarez for corporate catering.%0A%0AEvent date: %0AGuest count: %0AConcept (Mexican / Mediterranean / Indian / Italian): %0AExample set or custom selections: %0ADietary needs: %0ACompany: %0A">Book Now →</a>
       <a class="btn-ghost" href="/chef-john">← Meet Chef John</a>
     </div>
   </div>
@@ -268,6 +329,7 @@
   </div>
 </div>
 
+
 <!-- ══════════════════════════════════
      CONCEPT 1: THE TORTILLA THEORY
 ═══════════════════════════════════ -->
@@ -277,72 +339,98 @@
     <div class="concept-header mexican">
       <div class="concept-num mexican">Concept 1</div>
       <h2>The Tortilla Theory</h2>
-      <p>Modern Mexican · Choose 2 protein mains + 1 veg main · 2 sides · Chef-paired salsas · Chips, tortillas &amp; full condiment set</p>
+      <p>Modern Mexican · 2 protein mains + 1 vegetarian main + 2 sides · Chef-paired salsas · Chips, tortillas &amp; full condiment set</p>
     </div>
 
-    <div class="set-photos">
-      <img src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" loading="lazy" />
-      <img src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" loading="lazy" />
-    </div>
+    <p class="section-intro">
+      <strong>How it works:</strong> Pick one of the example spreads below, or tell us your selections when you book. Every Mexican spread comes with Chef John's rotating salsa trio, warm tortillas, chips, and a full condiment set.
+    </p>
 
-    <div class="selection-box mexican">
-      <div class="set-price-row">
-        <span class="set-price">$46<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · <strong>$38/person for 100+</strong></span>
-      </div>
-      <div class="set-summary-line mexican">Choose 3 mains (2 protein, 1 veg) · 2 sides · chef-paired salsas included · chips, tortillas &amp; condiment set</div>
+    <div class="example-sets-grid">
 
-      <div class="selection-group">
-        <div class="selection-group-label">Protein Mains — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pollo al Pastor</div><div class="dish-desc">achiote marinated chicken, pineapple, chili</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Chicken Tinga</div><div class="dish-desc">shredded chicken, tomato, chipotle</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Carnitas</div><div class="dish-desc">slow cooked pork, orange, garlic</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Braised Pork Chile Verde</div><div class="dish-desc">tomatillo, green chili</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Roasted Mushrooms</div><div class="dish-desc">mushrooms, garlic, chili</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Calabacitas</div><div class="dish-desc">zucchini, corn, peppers</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Sides — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Spanish Rice</div><div class="dish-desc">tomato, garlic</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Cilantro Lime Rice</div><div class="dish-desc">lime, herbs</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Refried Pinto Beans</div><div class="dish-desc">slow cooked beans</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Black Beans</div><div class="dish-desc">garlic, herbs</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Mexican Street Corn</div><div class="dish-desc">cotija, chili, crema</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Shaved Cabbage Slaw</div><div class="dish-desc">red onion, carrot, serrano, cilantro, lime, oregano</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Chilled Quinoa Salad</div><div class="dish-desc">citrus, herbs</div></div></li>
-        </ul>
+      <!-- SET 1 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/carnitas_pinto_beans_spanish_rice.jpg" alt="Carnitas with pinto beans and Spanish rice" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip mexican">Set 1 · Classic</span>
+          <h3>The Classic</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Carnitas</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Chicken Tinga</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Calabacitas <span class="tag tag-v">Vegan</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Spanish Rice</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Refried Pinto Beans</span></li>
+          </ul>
+          <div class="set-included-note">🫓 Chips, tortillas &amp; salsas included</div>
+        </div>
       </div>
 
-      <div class="selection-group">
-        <div class="selection-group-label">Salsas — Chef's Pairing · Included</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Roasted Tomato Salsa</div><div class="dish-desc">charred tomato, garlic</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Salsa Verde</div><div class="dish-desc">tomatillo, jalapeño</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pineapple Habanero Salsa</div><div class="dish-desc">sweet heat</div></div></li>
-          <li><span class="dish-bullet mexican">›</span><div class="dish-content"><div class="dish-name">Pico de Gallo</div><div class="dish-desc">tomato, serrano, lime</div></div></li>
-        </ul>
+      <!-- SET 2 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/pollo_al_pastor_street_corn_rice.jpg" alt="Pollo al Pastor with street corn and cilantro lime rice" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip mexican">Set 2 · Grill &amp; Street</span>
+          <h3>Al Pastor Feast</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Pollo al Pastor</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Braised Pork Chile Verde</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Roasted Mushrooms <span class="tag tag-v">Vegan</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Cilantro Lime Rice</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Mexican Street Corn</span></li>
+          </ul>
+          <div class="set-included-note">🫓 Chips, tortillas &amp; salsas included</div>
+        </div>
       </div>
-    </div>
 
-    <div class="addon-box">
-      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
-      <p>Upgrade one protein main or add enhancements to any order.</p>
-      <ul class="dish-list">
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Carne Asada <span class="addon-price">+$6</span></div><div class="dish-desc">grilled steak, citrus marinade</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Chile Lime Shrimp <span class="addon-price">+$5</span></div><div class="dish-desc">garlic, lime, chili</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Guacamole <span class="addon-price">+$3</span></div><div class="dish-desc">avocado, lime, salt</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Cinnamon Sugar Churros <span class="addon-price">+$2.50</span></div><div class="dish-desc">crispy pastry</div></div></li>
-      </ul>
+      <!-- SET 3 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/beef_birria_black_beans_quinoa_salad.jpg" alt="Taco bar spread with black beans and quinoa salad" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip mexican">Set 3 · Light &amp; Fresh</span>
+          <h3>The Taco Bar</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Pollo al Pastor</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Carnitas</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Calabacitas <span class="tag tag-v">Vegan</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Cilantro Lime Rice</span></li>
+            <li><span class="sdl-bullet mx">›</span><span class="sdl-name">Black Beans</span></li>
+          </ul>
+          <div class="set-included-note">🫓 Chips, tortillas &amp; salsas included</div>
+        </div>
+      </div>
+
+    </div><!-- /example-sets-grid -->
+
+    <div class="build-own-block">
+      <div class="build-own-text">
+        <h4>Want a Custom Spread?</h4>
+        <p>Mix and match from the full Mexican menu — choose any 2 protein mains, 1 vegetarian main, and 2 sides. Premium add-ons like Carne Asada (+$6) and Chile Lime Shrimp (+$5) available.</p>
+      </div>
+      <div class="build-own-ctas">
+        <a class="btn-build" href="/chef-john-full-menu#tortilla-theory">📋 Full Mexican Menu →</a>
+        <a class="btn-build-alt" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John — The Tortilla Theory&body=Hi! I'd like to book Chef John for The Tortilla Theory (Mexican).%0A%0AEvent date: %0AGuest count: %0AExample set (1 / 2 / 3) or custom selections: %0ADietary needs: %0ACompany: %0A">Email to Book</a>
+      </div>
     </div>
 
   </div>
@@ -359,72 +447,74 @@
     <div class="concept-header med">
       <div class="concept-num med">Concept 2</div>
       <h2>Grill &amp; Grain</h2>
-      <p>Mediterranean Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · Chef-paired sauces · Warm pita &amp; flatbread · Enhanced condiment set</p>
+      <p>Mediterranean Kitchen · 2 protein mains + 1 vegetarian main + 2 sides · Chef-paired sauces · Warm pita, flatbread &amp; mezze set</p>
     </div>
 
-    <div class="set-photos">
-      <img src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" loading="lazy" />
-      <img src="/images/five-course-provisions/harissa_salmon_saffron_rice_hummus.jpg" alt="Harissa roasted salmon with saffron rice and hummus" loading="lazy" />
-    </div>
+    <p class="section-intro">
+      <strong>How it works:</strong> Choose one of the example spreads below, or pick your mains and sides from the full menu. Every Mediterranean spread includes warm pita, flatbread, and Chef John's full sauce collection — tzatziki, tahini, harissa yogurt, and more.
+    </p>
 
-    <div class="selection-box med">
-      <div class="set-price-row">
-        <span class="set-price">$50<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · <strong>$46/person for 100+</strong></span>
-      </div>
-      <div class="set-summary-line med">Choose 3 mains (2 protein, 1 veg) · 2 sides · chef-paired sauces included · warm pita, flatbread &amp; mezze set</div>
+    <div class="example-sets-2col">
 
-      <div class="selection-group">
-        <div class="selection-group-label">Protein Mains — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Grilled Chicken Shawarma</div><div class="dish-desc">spiced roasted chicken thigh, garlic, lemon</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Grilled Herb Chicken</div><div class="dish-desc">oregano, garlic, olive oil</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Beef Kofta</div><div class="dish-desc">ground beef, herbs, warm spices</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Braised Beef with Tomato &amp; Spice</div><div class="dish-desc">slow cooked beef, cumin, herbs</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Falafel</div><div class="dish-desc">chickpea, herbs, spices · vegan · GF</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Roasted Cauliflower</div><div class="dish-desc">olive oil, cumin, herbs</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Sides — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Saffron Rice</div><div class="dish-desc">turmeric, garlic, onion</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Mediterranean Couscous</div><div class="dish-desc">cucumber, tomato, herbs</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tabbouleh</div><div class="dish-desc">parsley, bulgur, lemon</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Orzo, Farro &amp; Quinoa Grain Salad</div><div class="dish-desc">herbs, cucumber, lemon vinaigrette</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Creamy Cucumber Yogurt Salad</div><div class="dish-desc">cucumber, yogurt, dill, garlic</div></div></li>
-        </ul>
+      <!-- SET 1 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/chicken_shawarma_herb_rice_tzatziki.jpg" alt="Chicken Shawarma with herb rice and tzatziki" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip med">Set 1 · Classic Mezze</span>
+          <h3>Shawarma Night</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Grilled Chicken Shawarma</span></li>
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Beef Kofta</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Falafel <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Saffron Rice</span></li>
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Tabbouleh <span class="tag tag-v">Vegan</span></span></li>
+          </ul>
+          <div class="set-included-note">🫓 Warm pita, flatbread &amp; sauce collection included</div>
+        </div>
       </div>
 
-      <div class="selection-group">
-        <div class="selection-group-label">Sauces — Chef's Pairing · Included</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tzatziki</div><div class="dish-desc">yogurt, cucumber, garlic</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Tahini Sauce</div><div class="dish-desc">tahini, lemon, garlic</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Harissa Yogurt</div><div class="dish-desc">harissa, yogurt, lemon</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Whipped Garlic Sauce</div><div class="dish-desc">garlic, lemon, oil</div></div></li>
-          <li><span class="dish-bullet med">›</span><div class="dish-content"><div class="dish-name">Zhug</div><div class="dish-desc">herbs, chili, garlic</div></div></li>
-        </ul>
+      <!-- SET 2 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/harissa_salmon_saffron_rice_hummus.jpg" alt="Harissa roasted salmon with saffron rice and hummus" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip med">Set 2 · Garden &amp; Grain</span>
+          <h3>Mediterranean Garden</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Grilled Herb Chicken</span></li>
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Braised Beef with Tomato &amp; Spice</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Roasted Cauliflower <span class="tag tag-v">Vegan</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Mediterranean Couscous</span></li>
+            <li><span class="sdl-bullet md">›</span><span class="sdl-name">Creamy Cucumber Yogurt Salad</span></li>
+          </ul>
+          <div class="set-included-note">🫓 Warm pita, flatbread &amp; sauce collection included</div>
+        </div>
       </div>
-    </div>
 
-    <div class="addon-box">
-      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
-      <p>Upgrade one protein main or add mezze enhancements to any order.</p>
-      <ul class="dish-list">
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Harissa Roasted Salmon <span class="addon-price">+$6</span></div><div class="dish-desc">chile, citrus, herbs</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Grilled Steak with Chermoula <span class="addon-price">+$7</span></div><div class="dish-desc">herbs, garlic, olive oil</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Hummus <span class="addon-price">+$2.50</span></div><div class="dish-desc">chickpea, tahini, olive oil</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Baba Ganoush <span class="addon-price">+$2.50</span></div><div class="dish-desc">eggplant, tahini, garlic</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Baklava <span class="addon-price">+$3.50</span></div><div class="dish-desc">honey, nuts, phyllo</div></div></li>
-      </ul>
+    </div><!-- /example-sets-2col -->
+
+    <div class="build-own-block">
+      <div class="build-own-text">
+        <h4>Build Your Mediterranean Spread</h4>
+        <p>Choose from grilled chicken, beef kofta, braised beef, falafel, or roasted cauliflower. Premium add-ons include Harissa Roasted Salmon (+$6), Grilled Steak with Chermoula (+$7), and more.</p>
+      </div>
+      <div class="build-own-ctas">
+        <a class="btn-build" href="/chef-john-full-menu#grill-grain">📋 Full Mediterranean Menu →</a>
+        <a class="btn-build-alt" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John — Grill %26 Grain&body=Hi! I'd like to book Chef John for Grill %26 Grain (Mediterranean).%0A%0AEvent date: %0AGuest count: %0AExample set (1 / 2) or custom selections: %0ADietary needs: %0ACompany: %0A">Email to Book</a>
+      </div>
     </div>
 
   </div>
@@ -441,64 +531,74 @@
     <div class="concept-header spice">
       <div class="concept-num spice">Concept 3</div>
       <h2>Spice Route</h2>
-      <p>Indian Kitchen · Choose 2 protein mains + 1 veg main · 2 sides · Naan bread · Full condiment &amp; chutney set</p>
+      <p>Indian Kitchen · 2 protein mains + 1 vegetarian main + 2 sides · Naan bread · Full chutney &amp; raita set · 100-guest minimum</p>
     </div>
 
-    <div class="set-photos">
-      <img src="/images/five-course-provisions/spice_route_indian_spread.jpg" alt="Spice Route — butter chicken with basmati rice and naan" loading="lazy" />
-      <img src="/images/five-course-provisions/spice_route_indian_spread2.jpg" alt="Spice Route — palak paneer and tandoori chicken with basmati rice" loading="lazy" />
-    </div>
+    <p class="section-intro">
+      <strong>How it works:</strong> Choose one of the example spreads below, or select your own mains and sides from the full Indian menu. Every Spice Route spread includes warm naan and Chef John's chutney and raita set. <strong>100-guest minimum for this concept.</strong>
+    </p>
 
-    <div class="selection-box spice">
-      <div class="set-price-row">
-        <span class="set-price">$40<sub>/person</sub></span>
-        <span class="set-meta">100-guest minimum</span>
-      </div>
-      <div class="set-summary-line spice">Choose 3 mains (2 protein, 1 veg) · 2 sides · naan bread &amp; chutney set</div>
+    <div class="example-sets-2col">
 
-      <div class="selection-group">
-        <div class="selection-group-label">Protein Mains — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Butter Chicken</div><div class="dish-desc">tomato, cream, fenugreek, garam masala</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Chicken Tikka Masala</div><div class="dish-desc">tomato, onion, cream, spices</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Tandoori Chicken</div><div class="dish-desc">yogurt, garlic, lemon, warm spices</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Lamb Keema</div><div class="dish-desc">ground lamb, peas, tomato, spices</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Beef Curry</div><div class="dish-desc">onion, tomato, ginger, garam masala</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Palak Paneer</div><div class="dish-desc">spinach, paneer, garlic, cream · veg</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Paneer Tikka Masala</div><div class="dish-desc">tomato, cream, fenugreek, paneer · veg</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Chana Masala</div><div class="dish-desc">chickpeas, tomato, onion, spices · vegan · GF</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Aloo Gobi</div><div class="dish-desc">potato, cauliflower, turmeric, cumin</div></div></li>
-        </ul>
+      <!-- SET 1 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/spice_route_indian_spread.jpg" alt="Spice Route — butter chicken with basmati rice and naan" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip spice">Set 1 · North Indian</span>
+          <h3>North Indian Classics</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Butter Chicken</span></li>
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Lamb Keema</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Palak Paneer</span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Basmati Rice</span></li>
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Kachumber Salad <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span></li>
+          </ul>
+          <div class="set-included-note">🫓 Warm naan, chutneys &amp; raita included</div>
+        </div>
       </div>
 
-      <div class="selection-group">
-        <div class="selection-group-label">Sides — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Basmati Rice</div><div class="dish-desc">ghee, cumin, herbs</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Turmeric Potatoes</div><div class="dish-desc">mustard seed, curry leaf, herbs</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Kachumber Salad</div><div class="dish-desc">cucumber, tomato, onion, lemon</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Cucumber Raita</div><div class="dish-desc">yogurt, cucumber, cumin, mint</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Vegetable Pulao</div><div class="dish-desc">basmati rice, peas, carrot, spices</div></div></li>
-          <li><span class="dish-bullet spice">›</span><div class="dish-content"><div class="dish-name">Saag Aloo</div><div class="dish-desc">spinach, potato, garlic, cumin</div></div></li>
-        </ul>
+      <!-- SET 2 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/spice_route_indian_spread2.jpg" alt="Spice Route — palak paneer and tandoori chicken with basmati rice" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip spice">Set 2 · Tikka Night</span>
+          <h3>Tikka Night</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Chicken Tikka Masala</span></li>
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Tandoori Chicken</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Chana Masala <span class="tag tag-v">Vegan</span> <span class="tag tag-gf">GF</span></span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Basmati Rice</span></li>
+            <li><span class="sdl-bullet sp">›</span><span class="sdl-name">Cucumber Raita</span></li>
+          </ul>
+          <div class="set-included-note">🫓 Warm naan, chutneys &amp; raita included</div>
+        </div>
       </div>
-    </div>
 
-    <div class="addon-box">
-      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
-      <p>Upgrade one protein main to a premium cut, or add enhancements to any order.</p>
-      <ul class="dish-list">
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Lamb Rogan Josh <span class="addon-price">+$7</span></div><div class="dish-desc">braised lamb, yogurt, chili, spices</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Salmon Tikka <span class="addon-price">+$7</span></div><div class="dish-desc">yogurt, ginger, garam masala</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Samosas <span class="addon-price">+$3.50</span></div><div class="dish-desc">potato, peas, spice</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Mango Cardamom Cake <span class="addon-price">+$5</span></div><div class="dish-desc">mango, yogurt, cardamom</div></div></li>
-      </ul>
+    </div><!-- /example-sets-2col -->
+
+    <div class="build-own-block">
+      <div class="build-own-text">
+        <h4>Build Your Indian Spread</h4>
+        <p>Choose from Butter Chicken, Tikka Masala, Tandoori Chicken, Lamb Keema, or Beef Curry. Premium add-ons include Lamb Rogan Josh (+$7), Salmon Tikka (+$7), and Samosas (+$3.50).</p>
+      </div>
+      <div class="build-own-ctas">
+        <a class="btn-build" href="/chef-john-full-menu#spice-route">📋 Full Indian Menu →</a>
+        <a class="btn-build-alt" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John — Spice Route&body=Hi! I'd like to book Chef John for Spice Route (Indian).%0A%0AEvent date: %0AGuest count (100 minimum): %0AExample set (1 / 2) or custom selections: %0ADietary needs: %0ACompany: %0A">Email to Book</a>
+      </div>
     </div>
 
   </div>
@@ -515,93 +615,118 @@
     <div class="concept-header italian">
       <div class="concept-num italian">Concept 4</div>
       <h2>A Little Pasta Table</h2>
-      <p>Italian Lunch Experience · Choose 2 protein mains + 1 veg main · 2 sides · Garlic bread · Parmesan &amp; condiment set</p>
+      <p>Italian Lunch Experience · 2 protein mains + 1 vegetarian pasta main + 2 sides · Garlic bread · Parmesan &amp; condiment set</p>
     </div>
 
-    <div class="set-photos">
-      <img src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad" loading="lazy" />
-      <img src="/images/five-course-provisions/pasta-garlic-bread.jpg" alt="A Little Pasta Table — Italian pasta with garlic bread" loading="lazy" />
-    </div>
+    <p class="section-intro">
+      <strong>How it works:</strong> Choose one of the example Italian spreads below, or pick your selections from the full menu. Every spread includes fresh garlic bread and Chef John's parmesan and condiment station.
+    </p>
 
-    <div class="selection-box italian">
-      <div class="set-price-row">
-        <span class="set-price">$46<sub>/person</sub></span>
-        <span class="set-meta">50–99 guests · <strong>$38/person for 100+</strong></span>
-      </div>
-      <div class="set-summary-line italian">Choose 3 mains (2 protein, 1 veg) · 2 sides · garlic bread · parmesan &amp; condiment set</div>
+    <div class="example-sets-2col">
 
-      <div class="selection-group">
-        <div class="selection-group-label">Protein Mains — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Chicken Parmesan</div><div class="dish-desc">crispy chicken, tomato sauce, mozzarella</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Chicken Piccata</div><div class="dish-desc">lemon, capers, white wine</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Pasta Bolognese</div><div class="dish-desc">slow simmered beef ragù, tomato, parmesan</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Sausage Bolognese</div><div class="dish-desc">Italian sausage, tomato, fennel</div></div></li>
-        </ul>
-      </div>
-
-      <div class="selection-group">
-        <div class="selection-group-label">Vegetarian Main — select 1</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Basil Pesto Pasta</div><div class="dish-desc">basil pesto, olive oil, parmesan · veg</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Spinach Ricotta Baked Pasta</div><div class="dish-desc">ricotta, spinach, mozzarella · veg</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Penne Alfredo</div><div class="dish-desc">cream, parmesan, garlic</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Creamy Tomato Basil Pasta</div><div class="dish-desc">tomato cream, basil, parmesan</div></div></li>
-        </ul>
+      <!-- SET 1 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/chicken_parmesan_caesar_orzo.jpg" alt="Chicken Parmesan with Caesar salad" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip italian">Set 1 · Sunday Supper</span>
+          <h3>The Sunday Supper</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Chicken Parmesan</span></li>
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Pasta Bolognese</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Pasta Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Basil Pesto Pasta</span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Caesar Salad</span></li>
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Roasted Potatoes</span></li>
+          </ul>
+          <div class="set-included-note">🥖 Garlic bread &amp; parmesan station included</div>
+        </div>
       </div>
 
-      <div class="selection-group">
-        <div class="selection-group-label">Sides — select 2</div>
-        <ul class="dish-list">
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Caesar Salad</div><div class="dish-desc">romaine, parmesan</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Caprese Salad</div><div class="dish-desc">tomato, mozzarella, basil</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Roasted Potatoes</div><div class="dish-desc">olive oil, herbs</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Sautéed Green Beans</div><div class="dish-desc">garlic, olive oil</div></div></li>
-          <li><span class="dish-bullet italian">›</span><div class="dish-content"><div class="dish-name">Grilled Vegetables</div><div class="dish-desc">zucchini, peppers</div></div></li>
-        </ul>
+      <!-- SET 2 -->
+      <div class="example-set-card">
+        <img class="example-set-card-photo" src="/images/five-course-provisions/pasta-garlic-bread.jpg" alt="Italian pasta with garlic bread" loading="lazy" />
+        <div class="example-set-card-body">
+          <span class="set-type-chip italian">Set 2 · La Dolce Vita</span>
+          <h3>La Dolce Vita</h3>
+          <div class="dish-cat-label">Proteins <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Chicken Piccata</span></li>
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Sausage Bolognese</span></li>
+          </ul>
+          <div class="dish-cat-label">Vegetarian Pasta Main <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet vg">›</span><span class="sdl-name">Spinach Ricotta Baked Pasta</span></li>
+          </ul>
+          <div class="dish-cat-label">Sides <div class="dish-cat-line"></div></div>
+          <ul class="set-dish-list">
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Caprese Salad</span></li>
+            <li><span class="sdl-bullet it">›</span><span class="sdl-name">Sautéed Green Beans</span></li>
+          </ul>
+          <div class="set-included-note">🥖 Garlic bread &amp; parmesan station included</div>
+        </div>
       </div>
-    </div>
 
-    <div class="addon-box">
-      <h3>Premium Add-Ons <span style="font-family:var(--font-body);font-size:0.8rem;color:var(--muted);font-weight:400;">(+$/person)</span></h3>
-      <p>Upgrade one protein main or add a premium cut to any Italian spread.</p>
-      <ul class="dish-list">
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Short Rib Ragù <span class="addon-price">+$5</span></div><div class="dish-desc">slow braised beef, tomato, parmesan</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Steak with Chimichurri <span class="addon-price">+$6</span></div><div class="dish-desc">herbs, garlic, jus</div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Lemon Herb Roasted Salmon <span class="addon-price">+$6</span></div></div></li>
-        <li><span class="dish-bullet addon">›</span><div class="dish-content"><div class="dish-name">Rigatoni alla Vodka <span class="addon-price">+$2.50</span></div><div class="dish-desc">grilled chicken, tomato cream, chili, parmesan</div></div></li>
-      </ul>
+    </div><!-- /example-sets-2col -->
+
+    <div class="build-own-block">
+      <div class="build-own-text">
+        <h4>Build Your Italian Spread</h4>
+        <p>Choose from Chicken Parmesan, Chicken Piccata, Pasta Bolognese, or Sausage Bolognese. Premium add-ons include Short Rib Ragù (+$5), Lemon Herb Roasted Salmon (+$6), and Rigatoni alla Vodka (+$2.50).</p>
+      </div>
+      <div class="build-own-ctas">
+        <a class="btn-build" href="/chef-john-full-menu#pasta-table">📋 Full Italian Menu →</a>
+        <a class="btn-build-alt" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John — A Little Pasta Table&body=Hi! I'd like to book Chef John for A Little Pasta Table (Italian).%0A%0AEvent date: %0AGuest count: %0AExample set (1 / 2) or custom selections: %0ADietary needs: %0ACompany: %0A">Email to Book</a>
+      </div>
     </div>
 
   </div>
 </section>
 
 <!-- ══════════════════════════════════
-     DIETARY + PRICING SUMMARY
+     DIETARY + PRICING
 ═══════════════════════════════════ -->
-<section class="section section-alt" id="pricing-summary">
+<section class="section" id="pricing-summary">
   <div class="container">
 
-    <div class="dietary-banner" style="margin-bottom:40px;">
-      <div class="db-icon">🌱</div>
+    <div class="michelin-callout">
+      <div class="mc-icon">⭐</div>
       <div>
-        <h4>Dietary accommodations across all four concepts</h4>
-        <p>Vegan, gluten-free, nut-free, and dairy-free options available. Every item individually labeled at delivery. Mention requirements when booking and Chef John will tailor the menu accordingly.</p>
+        <div class="mc-label">Michelin-Trained · Premium Tier</div>
+        <p>Chef John trained at Quince (★★★), Providence (★★), and Gwen (★) before spending two years under Rick Bayless in Chicago. These prices reflect chef-driven menus with fine-dining technique — not a catering operation running the same playbook for every client.</p>
       </div>
     </div>
 
-    <div style="background:var(--lgold); border:1px solid var(--gold-light); border-radius:var(--radius); padding:18px 24px; margin-bottom:28px; display:flex; gap:14px; align-items:flex-start;">
-      <div style="font-size:1.3rem; flex-shrink:0;">⭐</div>
+    <div class="info-row">
+      <div class="info-cell">
+        <div class="info-cell-icon">🌱</div>
+        <h4>Dietary accommodations across all four concepts</h4>
+        <p>Vegan, gluten-free, nut-free, and dairy-free options available across all cuisines. Mention your team's needs at booking.</p>
+      </div>
+      <div class="info-cell">
+        <div class="info-cell-icon">🏷️</div>
+        <h4>Every item individually labeled at delivery</h4>
+        <p>Dietary tags, allergen callouts, and consume-by times on every tray — food safety included by default.</p>
+      </div>
+    </div>
+
+    <div class="dietary-banner">
+      <div class="db-icon">🌱</div>
       <div>
-        <div style="font-size:0.78rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--gold); margin-bottom:4px;">Michelin-Trained · Premium Tier</div>
-        <p style="font-size:0.85rem; color:var(--muted); line-height:1.6; margin:0;">Chef John trained at Quince (★★★), Providence (★★), and Gwen (★) before spending two years under Rick Bayless in Chicago. These prices reflect chef-driven menus with fine-dining technique — not a catering operation running the same playbook for every client.</p>
+        <h4>Dietary Labeling — Every Order, Every Item</h4>
+        <p>CBC prints and applies dietary labels at delivery: Vegan, Gluten-Free, Contains Nuts, Contains Dairy, and consume-by times for food safety. Share any team dietary restrictions at booking so we can flag them clearly on-site.</p>
       </div>
     </div>
 
     <div class="pricing-summary">
       <div class="pricing-summary-header">
         <h3>Pricing at a Glance</h3>
-        <p>All prices per person · Chef's Spread (self-serve) format · Volume discount at 100+ guests</p>
+        <p>All prices per person · Chef's Spread format · Volume discount at 100+ guests</p>
       </div>
       <div class="pricing-rows">
         <div class="pricing-row">
@@ -660,6 +785,13 @@
           </div>
           <div class="pricing-row-price">+$8 <span>/ person</span></div>
         </div>
+        <div class="pricing-row">
+          <div>
+            <div class="pricing-row-label">Minimum Order</div>
+            <div class="pricing-row-sub">50 guests minimum (100 for Spice Route) · 500 guests maximum</div>
+          </div>
+          <div class="pricing-row-price">$1,900 <span>min</span></div>
+        </div>
       </div>
     </div>
 
@@ -669,12 +801,12 @@
 <!-- BOOK -->
 <section class="book-section">
   <div class="container">
-    <h2>Ready to Book Chef John?</h2>
-    <p>Tell us your event date, guest count, and which concept (or concepts) you're interested in. We'll reply within 24 hours to confirm and send a quote.</p>
+    <h2>Book Chef John for Your Team</h2>
+    <p>Tell us your event date, guest count, and which concept — or share an example set number and we'll take it from there. We'll confirm Chef John's availability and send a quote within 24 hours.</p>
     <div class="book-ctas">
-      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John Alvarez — Five Course Provision&body=Hi! I'd like to book Chef John Alvarez for corporate catering.%0A%0AEvent date: %0AGuest count: %0AConcept (Mexican — The Tortilla Theory / Italian — A Little Pasta Table / Mediterranean — Grill %26 Grain / Indian — Spice Route): %0AMain selections: %0ASide selections: %0ADietary needs: %0ACompany: %0A">📧 Email to Book</a>
+      <a class="btn-primary" href="mailto:culinaryblockcatering@gmail.com?subject=Book Chef John Alvarez — Five Course Provision&body=Hi! I'd like to book Chef John Alvarez for corporate catering.%0A%0AEvent date: %0AGuest count: %0AConcept (Mexican / Mediterranean / Indian / Italian): %0AExample set or custom selections: %0ADietary needs: %0ACompany: %0A">📧 Email to Book</a>
       <a class="btn-ghost" href="tel:+14156994397">📞 (415) 699-4397</a>
-      <a class="btn-ghost" href="/calendar">📅 Check Calendar</a>
+      <a class="btn-ghost" href="/calendar">📅 Check Availability</a>
     </div>
   </div>
 </section>
@@ -683,8 +815,9 @@
   <div class="footer-links">
     <a href="/">Home</a>
     <a href="/chef-john">Chef John — Profile</a>
+    <a href="/chef-john-full-menu">Full Build-Your-Own Menu</a>
     <a href="/#menus">All Chef Partners</a>
-    <a href="/chef-loulan-menu">Loulan Menu</a>
+    <a href="/chef-kun-menu">Chef Kun Menu</a>
     <a href="/chef-unique-cuisine-menu">Unique Cuisine Menu</a>
     <a href="/calendar">Menu Calendar</a>
     <a href="mailto:culinaryblockcatering@gmail.com">culinaryblockcatering@gmail.com</a>

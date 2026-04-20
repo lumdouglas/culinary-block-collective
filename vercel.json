@@ -5,6 +5,7 @@
     { "source": "/calendar",                    "destination": "/pages/internal/calendar" },
     { "source": "/chef-john",                   "destination": "/pages/chefs/chef-john" },
     { "source": "/chef-john-menu",              "destination": "/pages/chefs/chef-john-menu" },
+    { "source": "/chef-john-full-menu",         "destination": "/pages/chefs/chef-john-full-menu" },
     { "source": "/chef-loulan",                 "destination": "/pages/chefs/chef-loulan" },
     { "source": "/chef-loulan-menu",            "destination": "/pages/chefs/chef-loulan-menu" },
     { "source": "/chef-kun-menu",               "destination": "/pages/chefs/chef-kun-menu" },
