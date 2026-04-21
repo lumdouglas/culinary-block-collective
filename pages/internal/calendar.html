@@ -277,45 +277,6 @@
     /* ── WEEKEND CELL ── */
     .cal-cell.weekend { background: var(--cream2); }
     .cal-cell.weekend .cal-date-num { opacity: 0.4; }
-    /* Saturdays with bookings become interactive */
-    .cal-cell.weekend.has-booking { cursor: pointer; }
-    .cal-cell.weekend.has-booking:hover { background: #EAF4F2; }
-
-    /* ── STATION BOOKING CHIPS ── */
-    .cal-station-chips { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 3px; }
-    .cal-station-chip {
-      display: inline-flex; align-items: center; gap: 3px;
-      background: #0E7490; color: #fff;
-      font-size: 0.58rem; font-weight: 700; letter-spacing: .04em;
-      padding: 1px 5px; border-radius: 3px;
-    }
-    .cal-station-chip.fmow { background: #0891B2; }
-    .cal-station-chip.loulan { background: #047857; }
-
-    /* ── STATION BOOKING PANEL SECTION ── */
-    .panel-station-section { margin-bottom: 18px; }
-    .panel-station-header {
-      display: flex; align-items: center; gap: 8px;
-      font-size: 0.72rem; font-weight: 700; letter-spacing: .08em;
-      text-transform: uppercase; color: #0E7490;
-      padding: 6px 0 8px; border-bottom: 2px solid #CFFAFE; margin-bottom: 10px;
-    }
-    .panel-station-icon { font-size: 0.9rem; }
-    .booking-card {
-      background: #F0FDFA; border: 1px solid #99F6E4;
-      border-radius: 6px; padding: 10px 12px; margin-bottom: 8px;
-    }
-    .booking-card:last-child { margin-bottom: 0; }
-    .booking-card-name { font-weight: 700; font-size: 0.88rem; color: #134E4A; }
-    .booking-card-meta { font-size: 0.75rem; color: #0F766E; margin-top: 3px; line-height: 1.5; }
-    .booking-card-stations {
-      display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px;
-    }
-    .booking-card-station-tag {
-      display: inline-block; background: #0E7490; color: #fff;
-      font-size: 0.65rem; font-weight: 700; padding: 2px 7px;
-      border-radius: 4px;
-    }
 
     /* ── CHEF CARD (panel) ── */
     .chef-card {
@@ -357,6 +318,29 @@
       transition: background .15s, color .15s;
     }
     .chef-cta-phone:hover { background: var(--green); color: var(--white); }
+    .chef-concept { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dashed var(--border); }
+    .chef-concept:last-of-type { margin-bottom: 8px; border-bottom: none; padding-bottom: 4px; }
+    .chef-concept .chef-pricing { background: var(--lgreen); border-radius: 6px; padding: 8px 10px; margin-top: 8px; }
+    .chef-concept .chef-pricing-row { padding: 2px 0; }
+    .chef-concept .chef-pricing-price { font-size: 1rem; }
+    .chef-concept .chef-pricing-label { font-size: 0.72rem; }
+    .chef-concept .chef-pricing-min { font-size: 0.66rem; margin-top: 4px; }
+    .chef-attended-note {
+      font-size: 0.74rem; color: var(--muted); padding: 8px 10px;
+      background: var(--lgold); border-radius: 5px; margin-top: 6px; line-height: 1.45;
+    }
+    .chef-attended-note strong { color: #7A5C0A; }
+    .chef-cta-profile {
+      display: block; text-align: center; margin-top: 10px;
+      color: var(--green); font-size: 0.8rem; font-weight: 700;
+      text-decoration: none; padding: 8px 10px; border-radius: 5px;
+      transition: background .12s;
+    }
+    .chef-cta-profile:hover { background: var(--lgreen2); }
+    .chef-pricing.tier2 { background: var(--lgold); }
+    .chef-pricing-tier2-orig { font-size: 0.68rem; color: var(--muted); font-family: var(--font-body); margin-left: 4px; }
+    .chef-attended-note.tier2-active { background: #FFF5D6; border: 1px solid var(--gold-light); color: #5E4A0A; }
+    .chef-attended-note.tier2-active strong { color: #5E4A0A; }
 
     /* ── BOOK BUTTON ── */
     .panel-book-wrap {
@@ -530,22 +514,24 @@
       <span class="filter-label">Filter:</span>
       <select class="ctrl-select" id="ctrl-cuisine">
         <option value="">All Cuisines</option>
-        <option value="chef_john">Chef John (Mexican / Mediterranean / Italian)</option>
-        <option value="chinese">Chef Kun — Chinese</option>
-        <option value="sushi">Unique Cuisine — Sushi</option>
+        <option value="mexican">Mexican — The Tortilla Theory</option>
+        <option value="mediterranean">Mediterranean — Grill &amp; Grain</option>
+        <option value="indian">Indian — Spice Route</option>
+        <option value="italian">Italian — A Little Pasta Table</option>
+        <option value="chinese">Chinese &amp; SE Asian — Loulan</option>
+        <option value="sushi">Sushi &amp; Japanese — Unique Cuisine</option>
       </select>
       <select class="ctrl-select" id="ctrl-tier">
         <option value="">All Tiers</option>
         <option value="tier1_dropoff">Tier 1 — Drop-Off</option>
-        <option value="premium">Premium</option>
-        <option value="tier2_attended">Tier 2 — Attended</option>
+        <option value="tier2_attended">Tier 2 — Attended (+$8/person)</option>
       </select>
     </div>
   </div>
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing: <strong>$25–$34/person</strong> (Drop-Off Spread) · <strong>$40/person</strong> (Premium) · <strong>+$8/person</strong> for Attended Service. 50-person minimum. <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain, 50–99 guests). Volume discounts at 100+ guests on Chef John concepts. <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -570,50 +556,10 @@
 
 <script>
 // ══════════════════════════════════════════════
-// A0 — STATION BOOKING DATA
-// Recurring commissary kitchen station bookings.
-// days: JS day-of-week integers (0=Sun … 6=Sat)
-// end:  last date of recurrence (YYYY-MM-DD, inclusive)
-// ══════════════════════════════════════════════
-const STATION_BOOKINGS = [
-  {
-    id: 'fmow',
-    tenant: 'Free Meals on Wheels',
-    days: [6],            // Saturday
-    stations: ['3', '4'],
-    time: '7:00 AM – 11:00 AM',
-    note: 'Recurring weekly through end of 2026',
-    color: '#0891B2',
-    end: '2026-12-31',
-  },
-  {
-    id: 'loulan',
-    tenant: 'Loulan',
-    days: [1, 2, 3, 4, 5], // Mon – Fri
-    stations: ['4'],
-    time: '7:00 AM – 3:00 PM',
-    note: 'Recurring weekdays through end of 2026',
-    color: '#047857',
-    end: '2026-12-31',
-  },
-];
-
-/** Returns STATION_BOOKINGS entries that apply on the given date key. */
-function getBookingsForDate(dateKey) {
-  const date = parseDateKey(dateKey);
-  const dow  = date.getDay();
-  return STATION_BOOKINGS.filter(b => {
-    if (!b.days.includes(dow)) return false;
-    // Must be on or before the end date
-    const [ey, em, ed] = b.end.split('-').map(Number);
-    const endDate = new Date(ey, em - 1, ed);
-    return date <= endDate;
-  });
-}
-
-// ══════════════════════════════════════════════
 // A — CHEF DATA
 // ══════════════════════════════════════════════
+// Pricing is PER CONCEPT — not per chef — because Chef John's concepts price
+// independently and Spice Route has its own 100-guest minimum.
 const CHEFS = [
   {
     id: 'chef_john',
@@ -623,44 +569,92 @@ const CHEFS = [
     bg: '#FFF7ED',
     text: '#9A3412',
     available_days: [1,2,3,4,5],
-    concepts: [
-      { name: 'The Tortilla Theory', cuisine: 'Mexican Fusion', tag: 'mexican', description: 'Al pastor, chicken tinga, carnitas, salsa station, churros & tres leches' },
-      { name: 'Mediterranean Grill & Grain', cuisine: 'Mediterranean', tag: 'mediterranean', description: 'Grilled proteins, grain salads, roasted veg, hummus, pita, and mezze spreads' },
-      { name: 'A Little Pasta Table', cuisine: 'Italian', tag: 'italian', description: 'Chicken parm, pasta bolognese, basil pesto pasta, penne alfredo, garlic bread' },
-    ],
-    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$34/person', min_guests: 50, min_order: '$1,700' },
-    premium: { label: 'Premium Drop-Off', price: '$40/person', min_guests: 50, min_order: '$2,000' },
     profile_url: '/chef-john',
+    concepts: [
+      {
+        name: 'The Tortilla Theory', cuisine: 'Mexican', tag: 'mexican',
+        description: 'Al pastor, chicken tinga, carnitas, salsa station, churros & tres leches',
+        pricing: {
+          tiers: [
+            { label: '50–99 guests', price: '$46/person' },
+            { label: '100+ guests',  price: '$38/person' },
+          ],
+          min_guests: 50, min_order: '$1,900',
+        },
+      },
+      {
+        name: 'Grill & Grain', cuisine: 'Mediterranean', tag: 'mediterranean',
+        description: 'Grilled proteins, grain salads, roasted veg, hummus, pita, and mezze spreads',
+        pricing: {
+          tiers: [
+            { label: '50–99 guests', price: '$50/person' },
+            { label: '100+ guests',  price: '$46/person' },
+          ],
+          min_guests: 50, min_order: '$1,900',
+        },
+      },
+      {
+        name: 'Spice Route', cuisine: 'Indian', tag: 'indian',
+        description: 'Butter chicken, palak paneer, tandoori chicken, basmati rice, warm naan, chutney & raita',
+        pricing: {
+          tiers: [
+            { label: '100+ guests only', price: '$40/person' },
+          ],
+          min_guests: 100, min_order: '$4,000',
+        },
+      },
+      {
+        name: 'A Little Pasta Table', cuisine: 'Italian', tag: 'italian',
+        description: 'Chicken parm, pasta bolognese, basil pesto pasta, penne alfredo, garlic bread',
+        pricing: {
+          tiers: [
+            { label: '50–99 guests', price: '$46/person' },
+            { label: '100+ guests',  price: '$38/person' },
+          ],
+          min_guests: 50, min_order: '$1,900',
+        },
+      },
+    ],
   },
   {
-    id: 'chef_kun',
+    id: 'loulan',
     name: 'Chef Kun',
-    business: 'Loulan Chinese Kitchen',
+    business: 'Loulan',
     dot: '#EF4444',
     bg: '#FEF2F2',
     text: '#991B1B',
     available_days: [1,2,3,4,5],
-    concepts: [
-      { name: 'Loulan Chinese Kitchen', cuisine: 'Chinese & SE Asian', tag: 'chinese', description: 'Wok stir-fry, dumplings, noodles, spring rolls, fried rice (white rice included)' },
-    ],
-    tier1: { label: 'Tier 1 — Drop-Off Spread', price: '$25/person', min_guests: 50, min_order: '$1,250' },
-    premium: null,
     profile_url: '/chef-loulan',
+    concepts: [
+      {
+        name: 'Loulan — Chinese & SE Asian', cuisine: 'Chinese & SE Asian', tag: 'chinese',
+        description: 'Two Chinese spreads (crowd-pleaser and Sichuan-spiced) plus Southeast Asian sets — 3 proteins + 2 vegetables + steamed white rice',
+        pricing: {
+          tiers: [{ label: 'Flat rate', price: '$25/person' }],
+          min_guests: 50, min_order: '$1,250',
+        },
+      },
+    ],
   },
   {
     id: 'unique_cuisine',
-    name: 'Unique Cuisine',
+    name: 'Billy & Jaclyn',
     business: 'Unique Cuisine',
     dot: '#6366F1',
     bg: '#EEF2FF',
     text: '#3730A3',
     available_days: [1,2,3,4,5],
-    concepts: [
-      { name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi', description: 'Assorted rolls, teriyaki, gyoza, edamame, steamed rice' },
-    ],
-    tier1: { label: 'Premium Drop-Off', price: '$30/person', min_guests: 50, min_order: '$1,500' },
-    premium: null,
     profile_url: '/chef-unique-cuisine',
+    concepts: [
+      {
+        name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi',
+        description: 'Assorted sushi rolls, chicken & tofu teriyaki, gyoza, edamame, steamed rice — every item labeled',
+        pricing: {
+          tiers: [{ label: 'Flat rate', price: '$30/person' }],
+          min_guests: 50, min_order: '$1,500',
+        },
+      },
+    ],
   },
 ];
 
@@ -769,35 +763,25 @@ function renderCell(date, key, chefs, otherMonth) {
   const dow = date.getDay();
   const isWeekend = dow === 0 || dow === 6;
   const isSunday  = dow === 0;
-  const stationBookings = !otherMonth ? getBookingsForDate(key) : [];
-  const hasBooking = stationBookings.length > 0;
 
   const todayClass    = isToday(date) ? ' today' : '';
   const selectedClass = key === selectedDateKey ? ' selected' : '';
   const otherClass    = otherMonth ? ' other-month' : '';
-  // Only apply weekend greying if truly a no-activity day
   const weekendClass  = (isWeekend && !otherMonth) ? ' weekend' : '';
-  const hasBookingClass = hasBooking ? ' has-booking' : '';
   const todayPill = isToday(date) ? '<span class="today-pill">TODAY</span>' : '';
 
   const dots = chefs.map(c =>
     `<div class="cal-dot" style="background:${c.dot};" title="${escHtml(c.name)}"></div>`
   ).join('');
 
-  // Station booking chips
-  const chips = stationBookings.map(b =>
-    `<span class="cal-station-chip ${b.id}" title="${escHtml(b.tenant)} · ${escHtml(b.time)}">Stn ${b.stations.join('+')} ${escHtml(b.tenant.replace('Free Meals on Wheels','FMOW'))}</span>`
-  ).join('');
-
   const subline = chefs.length > 0
     ? `<div class="cal-item-count">${chefs.length} chef${chefs.length!==1?'s':''} available</div>`
-    : ((!otherMonth && isWeekend && !hasBooking) ? `<div class="cal-item-count" style="opacity:0.4;">${isSunday ? 'Sunday' : 'Weekend'}</div>` : '');
+    : ((!otherMonth && isWeekend) ? `<div class="cal-item-count" style="opacity:0.4;">${isSunday ? 'Sunday' : 'Weekend'}</div>` : '');
 
   return `
-    <div class="cal-cell${todayClass}${selectedClass}${otherClass}${weekendClass}${hasBookingClass}" onclick="selectDay('${key}')">
+    <div class="cal-cell${todayClass}${selectedClass}${otherClass}${weekendClass}" onclick="selectDay('${key}')">
       <div class="cal-date-num">${date.getDate()} ${todayPill}</div>
       ${dots ? `<div class="cal-dots">${dots}</div>` : ''}
-      ${chips ? `<div class="cal-station-chips">${chips}</div>` : ''}
       ${subline}
     </div>
   `;
@@ -866,54 +850,68 @@ function selectDay(dateKey) {
 
 function renderPanel(dateKey) {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
+  const filterTier = document.getElementById('ctrl-tier').value;
   const date = parseDateKey(dateKey);
   const dow = date.getDay();
   const isSunday  = dow === 0;
-  const isSaturday = dow === 6;
-  const isWeekend = isSunday || isSaturday;
+  const isWeekend = dow === 0 || dow === 6;
   const chefs = getChefsForDate(dateKey, filterCuisine);
-  const stationBookings = getBookingsForDate(dateKey);
   const panel = document.getElementById('cal-panel');
-  const friendlyDate = date.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric', year:'numeric'});
 
-  // If no catering chefs AND no station bookings → minimal panel
-  if ((isWeekend || chefs.length === 0) && stationBookings.length === 0) {
+  if (isWeekend || chefs.length === 0) {
     panel.innerHTML = `
       <div class="panel-header">
         <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-        <div class="panel-meta">${isSunday ? 'Sunday — no activity' : isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
+        <div class="panel-meta">${isSunday ? 'Sunday — no catering' : isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
       </div>
       <div class="panel-body">
         <div class="panel-empty">
           <div class="empty-icon">${isWeekend ? '🌴' : '🔍'}</div>
-          ${isSunday ? 'No activity scheduled.' : isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
+          ${isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
         </div>
       </div>
     `;
     return;
   }
 
+  // If a cuisine filter is active, restrict each chef's visible concepts to the matching tag.
   const chefsHtml = chefs.map(chef => {
-    const conceptsHtml = chef.concepts.map(c => `
-      <div class="chef-concept">
-        <span class="chef-concept-tag" style="background:${chef.bg};color:${chef.text};">${escHtml(c.cuisine)}</span>
-        <span class="chef-concept-name">${escHtml(c.name)}</span>
-        <div class="chef-concept-desc">${escHtml(c.description)}</div>
-      </div>
-    `).join('');
+    const visibleConcepts = filterCuisine
+      ? chef.concepts.filter(c => c.tag === filterCuisine)
+      : chef.concepts;
 
-    const emailSubject = encodeURIComponent(`Catering Request – ${friendlyDate} – ${chef.name}`);
-    const emailBody = encodeURIComponent(`Hi!\n\nI'd like to get a quote for catering on ${friendlyDate}.\n\nChef: ${chef.name} (${chef.business})\nGuest count: \nService tier: \nDietary needs: \n\nLooking forward to hearing from you!`);
-    const mailtoHref = `mailto:culinaryblockcatering@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+    const showTier2 = filterTier === 'tier2_attended';
 
-    const premiumHtml = chef.premium ? `
-      <hr class="chef-pricing-divider"/>
-      <div class="chef-pricing-row">
-        <span class="chef-pricing-label">${escHtml(chef.premium.label)}</span>
-        <span class="chef-pricing-price">${escHtml(chef.premium.price)}</span>
-      </div>
-      <div class="chef-pricing-min">${chef.premium.min_guests}-person min · ${escHtml(chef.premium.min_order)} min order</div>
-    ` : '';
+    const conceptsHtml = visibleConcepts.map(c => {
+      const tiersHtml = c.pricing.tiers.map(t => {
+        const base = parseInt(String(t.price).replace(/[^0-9]/g, ''), 10);
+        const tier2Price = Number.isFinite(base) ? `$${base + 8}/person` : t.price;
+        const priceHtml = showTier2
+          ? `<span class="chef-pricing-price">${escHtml(tier2Price)}</span> <span class="chef-pricing-tier2-orig">(${escHtml(t.price)} + $8 attended)</span>`
+          : `<span class="chef-pricing-price">${escHtml(t.price)}</span>`;
+        return `
+          <div class="chef-pricing-row">
+            <span class="chef-pricing-label">${escHtml(t.label)}</span>
+            ${priceHtml}
+          </div>
+        `;
+      }).join('');
+      return `
+        <div class="chef-concept">
+          <span class="chef-concept-tag" style="background:${chef.bg};color:${chef.text};">${escHtml(c.cuisine)}</span>
+          <span class="chef-concept-name">${escHtml(c.name)}</span>
+          <div class="chef-concept-desc">${escHtml(c.description)}</div>
+          <div class="chef-pricing${showTier2 ? ' tier2' : ''}">
+            ${tiersHtml}
+            <div class="chef-pricing-min">${c.pricing.min_guests}-guest min · ${escHtml(c.pricing.min_order)} min order</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    const attendedNote = showTier2
+      ? `<div class="chef-attended-note tier2-active"><strong>Tier 2 — Attended Service</strong> selected. Prices shown include the +$8/person attended fee (on-site CBC staff, full cleanup).</div>`
+      : `<div class="chef-attended-note">Add <strong>+$8/person</strong> for Tier 2 — Attended Service (on-site CBC staff).</div>`;
 
     return `
       <div class="chef-card">
@@ -923,45 +921,14 @@ function renderPanel(dateKey) {
         </div>
         <div class="chef-card-body">
           ${conceptsHtml}
-          <div class="chef-pricing">
-            <div class="chef-pricing-row">
-              <span class="chef-pricing-label">${escHtml(chef.tier1.label)}</span>
-              <span class="chef-pricing-price">${escHtml(chef.tier1.price)}</span>
-            </div>
-            <div class="chef-pricing-min">${chef.tier1.min_guests}-person min · ${escHtml(chef.tier1.min_order)} min order</div>
-            ${premiumHtml}
-          </div>
+          ${attendedNote}
+          <a class="chef-cta-profile" href="${escHtml(chef.profile_url)}">View chef profile →</a>
         </div>
       </div>
     `;
   }).join('');
 
-  // Station bookings section
-  const stationHtml = stationBookings.length === 0 ? '' : `
-    <div class="panel-station-section">
-      <div class="panel-station-header">
-        <span class="panel-station-icon">🏢</span>
-        Station Bookings
-      </div>
-      ${stationBookings.map(b => `
-        <div class="booking-card">
-          <div class="booking-card-name">${escHtml(b.tenant)}</div>
-          <div class="booking-card-meta">
-            🕐 ${escHtml(b.time)}<br>
-            📅 ${escHtml(b.note)}
-          </div>
-          <div class="booking-card-stations">
-            ${b.stations.map(s => `<span class="booking-card-station-tag" style="background:${b.color};">Station ${escHtml(s)}</span>`).join('')}
-          </div>
-        </div>
-      `).join('')}
-    </div>
-  `;
-
-  const chefCountMeta = isSaturday
-    ? (stationBookings.length + ' station booking' + (stationBookings.length !== 1 ? 's' : ''))
-    : (chefs.length + ' chef' + (chefs.length !== 1 ? 's' : '') + ' available'
-       + (stationBookings.length > 0 ? ` · ${stationBookings.length} station booking${stationBookings.length !== 1 ? 's' : ''}` : ''));
+  const chefCountMeta = `${chefs.length} chef${chefs.length !== 1 ? 's' : ''} available`;
 
   panel.innerHTML = `
     <div class="panel-header">
@@ -969,7 +936,6 @@ function renderPanel(dateKey) {
       <div class="panel-meta">${chefCountMeta}</div>
     </div>
     <div class="panel-body">
-      ${stationHtml}
       ${chefsHtml}
     </div>
   `;
@@ -987,23 +953,15 @@ function setView(mode) {
 }
 
 function renderLegend() {
-  const chefItems = CHEFS.map(chef =>
-    `<div class="legend-item">
+  const chefItems = CHEFS.map(chef => {
+    const conceptList = chef.concepts.map(c => escHtml(c.cuisine)).join(' · ');
+    return `<div class="legend-item">
       <div class="legend-dot" style="background:${chef.dot};"></div>
-      ${escHtml(chef.name)} &mdash; ${escHtml(chef.concepts.map(c => c.cuisine).join(' / '))}
-    </div>`
-  ).join('');
+      <strong>${escHtml(chef.name)}</strong> <span style="color:var(--muted);">(${escHtml(chef.business)})</span> &mdash; ${conceptList}
+    </div>`;
+  }).join('');
 
-  const stationItems = STATION_BOOKINGS.map(b =>
-    `<div class="legend-item">
-      <div class="legend-dot" style="background:${b.color};"></div>
-      <strong>${escHtml(b.tenant)}</strong> &mdash; Station${b.stations.length > 1 ? 's' : ''} ${b.stations.join(' & ')} · ${escHtml(b.time)}
-    </div>`
-  ).join('');
-
-  document.getElementById('legend').innerHTML = chefItems +
-    `<div class="legend-item" style="width:100%;border-top:1px solid var(--border);padding-top:6px;margin-top:2px;color:var(--muted);font-size:0.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;">Station Bookings</div>` +
-    stationItems;
+  document.getElementById('legend').innerHTML = chefItems;
 }
 
 document.getElementById('btn-prev').addEventListener('click', () => {
@@ -1039,6 +997,10 @@ document.getElementById('btn-today').addEventListener('click', () => {
 document.getElementById('ctrl-cuisine').addEventListener('change', () => {
   if (viewMode === 'month') renderMonth();
   else renderWeek();
+  if (selectedDateKey) renderPanel(selectedDateKey);
+});
+
+document.getElementById('ctrl-tier').addEventListener('change', () => {
   if (selectedDateKey) renderPanel(selectedDateKey);
 });
 
