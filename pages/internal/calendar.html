@@ -341,6 +341,13 @@
     .chef-pricing-tier2-orig { font-size: 0.68rem; color: var(--muted); font-family: var(--font-body); margin-left: 4px; }
     .chef-attended-note.tier2-active { background: #FFF5D6; border: 1px solid var(--gold-light); color: #5E4A0A; }
     .chef-attended-note.tier2-active strong { color: #5E4A0A; }
+    .panel-monday-note {
+      font-size: 0.78rem; color: var(--muted); line-height: 1.5;
+      padding: 10px 12px; margin-top: 8px;
+      background: var(--cream2); border-radius: 5px;
+      border-left: 3px solid var(--border);
+    }
+    .panel-monday-note a { color: var(--green); font-weight: 600; text-decoration: underline; }
 
     /* ── BOOK BUTTON ── */
     .panel-book-wrap {
@@ -526,12 +533,17 @@
         <option value="tier1_dropoff">Tier 1 — Drop-Off</option>
         <option value="tier2_attended">Tier 2 — Attended (+$8/person)</option>
       </select>
+      <select class="ctrl-select" id="ctrl-meal">
+        <option value="">Lunch &amp; Dinner</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
     </div>
   </div>
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain, 50–99 guests). Volume discounts at 100+ guests on Chef John concepts. <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain, 50–99 guests). Volume discounts at 100+ guests on Chef John concepts. <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). Chef John available <strong>Mon–Fri</strong>; Loulan and Unique Cuisine available <strong>Tue–Fri</strong>. <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -560,6 +572,10 @@
 // ══════════════════════════════════════════════
 // Pricing is PER CONCEPT — not per chef — because Chef John's concepts price
 // independently and Spice Route has its own 100-guest minimum.
+// meal_types on a concept restricts it to specific service windows.
+// Concepts without meal_types are available for any meal.
+// Chef John: lunch = any concept; dinner = Italian only.
+// Loulan + Unique Cuisine: standard availability is Tue–Fri; Mon on request only.
 const CHEFS = [
   {
     id: 'chef_john',
@@ -573,6 +589,7 @@ const CHEFS = [
     concepts: [
       {
         name: 'The Tortilla Theory', cuisine: 'Mexican', tag: 'mexican',
+        meal_types: ['lunch'],
         description: 'Al pastor, chicken tinga, carnitas, salsa station, churros & tres leches',
         pricing: {
           tiers: [
@@ -584,6 +601,7 @@ const CHEFS = [
       },
       {
         name: 'Grill & Grain', cuisine: 'Mediterranean', tag: 'mediterranean',
+        meal_types: ['lunch'],
         description: 'Grilled proteins, grain salads, roasted veg, hummus, pita, and mezze spreads',
         pricing: {
           tiers: [
@@ -595,6 +613,7 @@ const CHEFS = [
       },
       {
         name: 'Spice Route', cuisine: 'Indian', tag: 'indian',
+        meal_types: ['lunch'],
         description: 'Butter chicken, palak paneer, tandoori chicken, basmati rice, warm naan, chutney & raita',
         pricing: {
           tiers: [
@@ -605,6 +624,7 @@ const CHEFS = [
       },
       {
         name: 'A Little Pasta Table', cuisine: 'Italian', tag: 'italian',
+        meal_types: ['lunch', 'dinner'],
         description: 'Chicken parm, pasta bolognese, basil pesto pasta, penne alfredo, garlic bread',
         pricing: {
           tiers: [
@@ -623,7 +643,7 @@ const CHEFS = [
     dot: '#EF4444',
     bg: '#FEF2F2',
     text: '#991B1B',
-    available_days: [1,2,3,4,5],
+    available_days: [2,3,4,5],   // Tue–Fri standard; Mon available on request
     profile_url: '/chef-loulan',
     concepts: [
       {
@@ -643,7 +663,7 @@ const CHEFS = [
     dot: '#6366F1',
     bg: '#EEF2FF',
     text: '#3730A3',
-    available_days: [1,2,3,4,5],
+    available_days: [2,3,4,5],   // Tue–Fri
     profile_url: '/chef-unique-cuisine',
     concepts: [
       {
@@ -692,17 +712,27 @@ function isToday(date) {
   return date.getFullYear()===now.getFullYear() && date.getMonth()===now.getMonth() && date.getDate()===now.getDate();
 }
 
-function getChefsForDate(dateKey, filterCuisine) {
+// Returns true if a concept is visible under the current meal filter.
+// Concepts without meal_types are available for any meal.
+function conceptMatchesMeal(concept, filterMeal) {
+  if (!filterMeal) return true;
+  if (!concept.meal_types) return true;
+  return concept.meal_types.includes(filterMeal);
+}
+
+function getChefsForDate(dateKey, filterCuisine, filterMeal) {
   const date = parseDateKey(dateKey);
   const dow = date.getDay();
-  // Sundays are never bookable
-  if (dow === 0) return [];
-  // Saturdays: no catering chefs
-  if (dow === 6) return [];
+  if (dow === 0 || dow === 6) return [];
   let chefs = CHEFS.filter(c => c.available_days.includes(dow));
   if (filterCuisine) {
-    // filterCuisine may be a chef id (e.g. 'chef_john') or a concept tag (e.g. 'chinese', 'sushi')
     chefs = chefs.filter(c => c.id === filterCuisine || c.concepts.some(co => co.tag === filterCuisine));
+  }
+  if (filterMeal) {
+    // Drop chefs who have no concepts visible under this meal filter
+    chefs = chefs.filter(c => c.concepts.some(co =>
+      (!filterCuisine || co.tag === filterCuisine) && conceptMatchesMeal(co, filterMeal)
+    ));
   }
   return chefs;
 }
@@ -712,6 +742,7 @@ function getChefsForDate(dateKey, filterCuisine) {
 // ══════════════════════════════════════════════
 function renderMonth() {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
+  const filterMeal    = document.getElementById('ctrl-meal').value;
   const today = new Date();
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
@@ -734,7 +765,7 @@ function renderMonth() {
     const d = daysInPrevMonth - firstDay + 1 + i;
     const date = new Date(year, month-1, d);
     const key = formatDateKey(date);
-    const chefs = getChefsForDate(key, filterCuisine);
+    const chefs = getChefsForDate(key, filterCuisine, filterMeal);
     html += renderCell(date, key, chefs, true);
   }
 
@@ -742,7 +773,7 @@ function renderMonth() {
   for (let d = 1; d <= daysInMonth; d++) {
     const date = new Date(year, month, d);
     const key = formatDateKey(date);
-    const chefs = getChefsForDate(key, filterCuisine);
+    const chefs = getChefsForDate(key, filterCuisine, filterMeal);
     html += renderCell(date, key, chefs, false);
   }
 
@@ -752,7 +783,7 @@ function renderMonth() {
   for (let i = 1; i <= trailingCells; i++) {
     const date = new Date(year, month+1, i);
     const key = formatDateKey(date);
-    const chefs = getChefsForDate(key, filterCuisine);
+    const chefs = getChefsForDate(key, filterCuisine, filterMeal);
     html += renderCell(date, key, chefs, true);
   }
 
@@ -792,6 +823,7 @@ function renderCell(date, key, chefs, otherMonth) {
 // ══════════════════════════════════════════════
 function renderWeek() {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
+  const filterMeal    = document.getElementById('ctrl-meal').value;
 
   // Find Sunday of current week
   const day = currentDate.getDay();
@@ -812,7 +844,7 @@ function renderWeek() {
     const isWeekend = date.getDay() === 0 || date.getDay() === 6;
     const todayClass = isToday(date) ? ' today' : '';
     const selectedClass = key === selectedDateKey ? ' selected' : '';
-    const chefs = getChefsForDate(key, filterCuisine);
+    const chefs = getChefsForDate(key, filterCuisine, filterMeal);
 
     const itemsHtml = chefs.length === 0
       ? `<div class="week-empty">${isWeekend ? 'Weekend' : 'No chefs'}</div>`
@@ -850,35 +882,45 @@ function selectDay(dateKey) {
 
 function renderPanel(dateKey) {
   const filterCuisine = document.getElementById('ctrl-cuisine').value;
-  const filterTier = document.getElementById('ctrl-tier').value;
+  const filterTier    = document.getElementById('ctrl-tier').value;
+  const filterMeal    = document.getElementById('ctrl-meal').value;
   const date = parseDateKey(dateKey);
   const dow = date.getDay();
+  const isMonday  = dow === 1;
   const isSunday  = dow === 0;
   const isWeekend = dow === 0 || dow === 6;
-  const chefs = getChefsForDate(dateKey, filterCuisine);
+  const chefs = getChefsForDate(dateKey, filterCuisine, filterMeal);
   const panel = document.getElementById('cal-panel');
 
   if (isWeekend || chefs.length === 0) {
+    const noMealMatch = !isWeekend && chefs.length === 0;
     panel.innerHTML = `
       <div class="panel-header">
         <div class="panel-date">${date.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'})}</div>
-        <div class="panel-meta">${isSunday ? 'Sunday — no catering' : isWeekend ? 'Weekend — no catering' : 'No chefs match filter'}</div>
+        <div class="panel-meta">${isWeekend ? 'No catering' : 'No chefs match filter'}</div>
       </div>
       <div class="panel-body">
         <div class="panel-empty">
           <div class="empty-icon">${isWeekend ? '🌴' : '🔍'}</div>
-          ${isWeekend ? 'CBC catering is available Monday–Friday.' : 'No chefs match the current filter.'}
+          ${isWeekend
+            ? 'CBC catering is available Monday–Friday.'
+            : filterMeal === 'dinner'
+              ? 'No chefs available for dinner on this day. Chef John (Italian) is available Mon–Fri for dinner.'
+              : 'No chefs match the current filter.'}
         </div>
       </div>
     `;
     return;
   }
 
-  // If a cuisine filter is active, restrict each chef's visible concepts to the matching tag.
+  // Restrict each chef's visible concepts by cuisine and meal filters.
   const chefsHtml = chefs.map(chef => {
-    const visibleConcepts = filterCuisine
+    let visibleConcepts = filterCuisine
       ? chef.concepts.filter(c => c.tag === filterCuisine)
       : chef.concepts;
+    if (filterMeal) {
+      visibleConcepts = visibleConcepts.filter(c => conceptMatchesMeal(c, filterMeal));
+    }
 
     const showTier2 = filterTier === 'tier2_attended';
 
@@ -928,7 +970,13 @@ function renderPanel(dateKey) {
     `;
   }).join('');
 
-  const chefCountMeta = `${chefs.length} chef${chefs.length !== 1 ? 's' : ''} available`;
+  const chefCountMeta = `${chefs.length} chef${chefs.length !== 1 ? 's' : ''} available`
+    + (filterMeal ? ` · ${filterMeal}` : '');
+
+  // Monday note: Loulan + Unique Cuisine are Tue–Fri standard; Mon on request.
+  const mondayNote = (isMonday && !filterCuisine)
+    ? `<div class="panel-monday-note">Loulan and Unique Cuisine are available <strong>Tuesday–Friday</strong>. To inquire about Monday availability, <a href="mailto:culinaryblockcatering@gmail.com">contact us</a>.</div>`
+    : '';
 
   panel.innerHTML = `
     <div class="panel-header">
@@ -937,6 +985,7 @@ function renderPanel(dateKey) {
     </div>
     <div class="panel-body">
       ${chefsHtml}
+      ${mondayNote}
     </div>
   `;
 }
@@ -1001,6 +1050,12 @@ document.getElementById('ctrl-cuisine').addEventListener('change', () => {
 });
 
 document.getElementById('ctrl-tier').addEventListener('change', () => {
+  if (selectedDateKey) renderPanel(selectedDateKey);
+});
+
+document.getElementById('ctrl-meal').addEventListener('change', () => {
+  if (viewMode === 'month') renderMonth();
+  else renderWeek();
   if (selectedDateKey) renderPanel(selectedDateKey);
 });
 
