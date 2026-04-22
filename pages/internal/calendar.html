@@ -349,6 +349,34 @@
     }
     .panel-monday-note a { color: var(--green); font-weight: 600; text-decoration: underline; }
 
+    /* ── HOVER TOOLTIP ── */
+    .cal-tooltip {
+      position: fixed; z-index: 200;
+      background: var(--white); border: 1px solid var(--border);
+      border-radius: 8px; box-shadow: var(--shadow-lg);
+      padding: 10px 12px; min-width: 190px; max-width: 240px;
+      pointer-events: auto;
+      opacity: 0; transform: translateY(4px);
+      transition: opacity .12s ease, transform .12s ease;
+    }
+    .cal-tooltip.visible { opacity: 1; transform: translateY(0); }
+    .cal-tooltip-date {
+      font-size: 0.68rem; font-weight: 700; letter-spacing: .07em;
+      text-transform: uppercase; color: var(--muted); margin-bottom: 8px;
+    }
+    .cal-tooltip-link {
+      display: flex; align-items: center; gap: 7px;
+      padding: 5px 0; text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: background .1s;
+    }
+    .cal-tooltip-link:last-child { border: none; padding-bottom: 0; }
+    .cal-tooltip-link:hover { color: var(--dgreen); }
+    .cal-tooltip-link:hover .cal-tooltip-chef { color: var(--dgreen); }
+    .cal-tooltip-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .cal-tooltip-chef { font-size: 0.82rem; font-weight: 700; color: var(--text); }
+    .cal-tooltip-cuisine { font-size: 0.7rem; color: var(--muted); margin-top: 1px; }
+
     /* ── BOOK BUTTON ── */
     .panel-book-wrap {
       padding: 16px 20px 20px;
@@ -564,6 +592,8 @@
     </div>
   </div>
 
+<div class="cal-tooltip" id="cal-tooltip"></div>
+
 </div>
 
 <script>
@@ -586,6 +616,7 @@ const CHEFS = [
     text: '#9A3412',
     available_days: [1,2,3,4,5],
     profile_url: '/chef-john',
+    menu_url: '/chef-john-menu',
     concepts: [
       {
         name: 'The Tortilla Theory', cuisine: 'Mexican', tag: 'mexican',
@@ -645,6 +676,7 @@ const CHEFS = [
     text: '#991B1B',
     available_days: [2,3,4,5],   // Tue–Fri standard; Mon available on request
     profile_url: '/chef-loulan',
+    menu_url: '/chef-loulan-menu',
     concepts: [
       {
         name: 'Loulan — Chinese & SE Asian', cuisine: 'Chinese & SE Asian', tag: 'chinese',
@@ -666,6 +698,7 @@ const CHEFS = [
     text: '#3730A3',
     available_days: [2,3,4,5],   // Tue–Fri
     profile_url: '/chef-unique-cuisine',
+    menu_url: '/chef-unique-cuisine-menu',
     concepts: [
       {
         name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi',
@@ -1070,6 +1103,89 @@ renderMonth();
 // Auto-select today
 const todayKey = formatDateKey(new Date());
 selectDay(todayKey);
+
+// ══════════════════════════════════════════════
+// I — HOVER TOOLTIP
+// ══════════════════════════════════════════════
+const calTooltip = document.getElementById('cal-tooltip');
+let tooltipHideTimer = null;
+let tooltipCurrentKey = null;
+
+function showTooltip(dateKey, cellEl) {
+  clearTimeout(tooltipHideTimer);
+  if (tooltipCurrentKey === dateKey && calTooltip.classList.contains('visible')) return;
+  tooltipCurrentKey = dateKey;
+
+  const filterMeal    = document.getElementById('ctrl-meal').value;
+  const filterCuisine = document.getElementById('ctrl-cuisine').value;
+  const chefs = getChefsForDate(dateKey, filterCuisine, filterMeal);
+  if (!chefs.length) return;
+
+  const date = parseDateKey(dateKey);
+  const dateLabel = date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+
+  const linksHtml = chefs.map(c => {
+    let concepts = filterCuisine
+      ? c.concepts.filter(co => co.tag === filterCuisine)
+      : c.concepts;
+    if (filterMeal) concepts = concepts.filter(co => conceptMatchesMeal(co, filterMeal));
+    const cuisineList = concepts.map(co => co.cuisine).join(' · ');
+    return `<a class="cal-tooltip-link" href="${escHtml(c.menu_url)}">
+      <span class="cal-tooltip-dot" style="background:${c.dot};"></span>
+      <span>
+        <div class="cal-tooltip-chef">${escHtml(c.name)}</div>
+        <div class="cal-tooltip-cuisine">${escHtml(cuisineList)}</div>
+      </span>
+    </a>`;
+  }).join('');
+
+  calTooltip.innerHTML = `<div class="cal-tooltip-date">${escHtml(dateLabel)}</div>${linksHtml}`;
+
+  // Position: below the cell by default, flip above if near viewport bottom
+  const rect = cellEl.getBoundingClientRect();
+  const ttW = 220;
+  let left = rect.left;
+  let top  = rect.bottom + 6;
+
+  if (rect.bottom + 160 > window.innerHeight) top = rect.top - calTooltip.offsetHeight - 6;
+  if (left + ttW > window.innerWidth - 8)     left = window.innerWidth - ttW - 8;
+  if (left < 8) left = 8;
+
+  calTooltip.style.left = left + 'px';
+  calTooltip.style.top  = top  + 'px';
+  calTooltip.classList.add('visible');
+}
+
+function hideTooltip(immediate) {
+  if (immediate) {
+    calTooltip.classList.remove('visible');
+    tooltipCurrentKey = null;
+  } else {
+    tooltipHideTimer = setTimeout(() => {
+      calTooltip.classList.remove('visible');
+      tooltipCurrentKey = null;
+    }, 140);
+  }
+}
+
+// Keep tooltip alive when the mouse moves into it (so links are clickable)
+calTooltip.addEventListener('mouseenter', () => clearTimeout(tooltipHideTimer));
+calTooltip.addEventListener('mouseleave', () => hideTooltip());
+
+// Event delegation on the grid wrapper
+const gridWrap = document.getElementById('cal-grid-wrap');
+gridWrap.addEventListener('mouseover', e => {
+  const cell = e.target.closest('.cal-cell');
+  if (!cell) return;
+  const match = cell.getAttribute('onclick')?.match(/'([^']+)'/);
+  if (!match) return;
+  const dateKey = match[1];
+  const dow = parseDateKey(dateKey).getDay();
+  if (dow === 0 || dow === 6) return; // no tooltip on weekends
+  showTooltip(dateKey, cell);
+});
+
+gridWrap.addEventListener('mouseleave', () => hideTooltip());
 </script>
 </body>
 </html>
