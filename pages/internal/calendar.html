@@ -1141,14 +1141,14 @@ function showTooltip(dateKey, cellEl) {
 
   calTooltip.innerHTML = `<div class="cal-tooltip-date">${escHtml(dateLabel)}</div>${linksHtml}`;
 
-  // Position: below the cell by default, flip above if near viewport bottom
+  // Position: centered above the cell; flip below only if not enough room above nav
   const rect = cellEl.getBoundingClientRect();
   const ttW = 220;
-  let left = rect.left;
-  let top  = rect.bottom + 6;
+  let left = rect.left + rect.width / 2 - ttW / 2;
+  let top  = rect.top - calTooltip.offsetHeight - 8;
 
-  if (rect.bottom + 160 > window.innerHeight) top = rect.top - calTooltip.offsetHeight - 6;
-  if (left + ttW > window.innerWidth - 8)     left = window.innerWidth - ttW - 8;
+  if (top < 80) top = rect.bottom + 8;          // flip below if too close to top/nav
+  if (left + ttW > window.innerWidth - 8) left = window.innerWidth - ttW - 8;
   if (left < 8) left = 8;
 
   calTooltip.style.left = left + 'px';
