@@ -18,6 +18,7 @@
     { "source": "/proposal-corporate",          "destination": "/pages/client/proposal-corporate" },
     { "source": "/proposal-event",              "destination": "/pages/client/proposal-event" },
     { "source": "/for-ops",                     "destination": "/pages/client/for-ops" },
-    { "source": "/for-people",                  "destination": "/pages/client/for-people" }
+    { "source": "/for-people",                  "destination": "/pages/client/for-people" },
+    { "source": "/quote-confirmed",             "destination": "/pages/client/quote-confirmed" }
   ]
 }
