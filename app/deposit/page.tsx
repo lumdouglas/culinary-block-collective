@@ -146,7 +146,7 @@ function DepositInner() {
     clientName && clientEmail && menuName && eventDate && guestCount > 0 && pricePerGuest > 0;
 
   const orderTotal = guestCount * pricePerGuest;
-  const depositAmount = orderTotal * 0.5;
+  const depositAmount = orderTotal * 0.25;
   const suggestACH = orderTotal > 1000;
 
   const [clientSecret, setClientSecret] = useState<string | null>(null);
@@ -244,7 +244,7 @@ function DepositInner() {
             lineHeight: 1.7,
           }}
         >
-          A 50% deposit secures your date. Balance invoiced after your event.
+          A 25% deposit secures your date. Balance invoiced after your event.
         </p>
       </div>
 
@@ -337,7 +337,7 @@ function DepositInner() {
                         color: css.dgreen,
                       }}
                     >
-                      Deposit Due Today (50%)
+                      Deposit Due Today (25%)
                     </td>
                     <td
                       style={{

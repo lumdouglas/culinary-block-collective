@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "eventDate is required" }, { status: 400 });
 
   const orderTotal = guestCount * pricePerGuest;
-  const depositAmount = orderTotal * 0.5;
+  const depositAmount = orderTotal * 0.25;
   const depositCents = Math.round(depositAmount * 100);
 
   try {
