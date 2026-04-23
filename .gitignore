@@ -3,4 +3,9 @@
 .claude/
 .vercel
 .env
+.env.local
+.env*.local
 .venv/
+node_modules/
+.next/
+*.tsbuildinfo
