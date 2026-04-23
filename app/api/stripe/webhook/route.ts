@@ -5,7 +5,6 @@ import stripe from "@/lib/stripe";
 // Stripe requires the raw body bytes for signature verification — do not parse as JSON.
 export async function POST(req: NextRequest) {
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
-  const hubspotToken = process.env.HUBSPOT_ACCESS_TOKEN;
 
   if (!webhookSecret) {
     console.error("STRIPE_WEBHOOK_SECRET is not set");
@@ -30,10 +29,50 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  if (event.type !== "invoice.paid") {
-    return NextResponse.json({ received: true });
+  switch (event.type) {
+    case "payment_intent.succeeded":
+      return handlePaymentIntentSucceeded(event);
+    case "invoice.paid":
+      return handleInvoicePaid(event);
+    default:
+      // Return 200 for unhandled events — non-2xx causes Stripe to retry indefinitely.
+      return NextResponse.json({ received: true });
   }
+}
 
+// ── payment_intent.succeeded ──────────────────────────────────────────────
+// Fired when a deposit PaymentIntent is completed.
+// TODO: Update HubSpot deal stage to "Deposit Received" once a CRM stage is defined.
+// Registration reminder: add https://<your-domain>/api/stripe/webhook to the
+// Stripe dashboard (Developers → Webhooks) listening for payment_intent.succeeded.
+
+function handlePaymentIntentSucceeded(event: Stripe.Event) {
+  const pi = event.data.object as Stripe.PaymentIntent;
+  const { clientName, clientEmail, menuName, eventDate, depositAmount, orderTotal } = pi.metadata;
+
+  console.log("[payment_intent.succeeded]", {
+    paymentIntentId: pi.id,
+    clientName,
+    clientEmail,
+    menuName,
+    eventDate,
+    depositAmount,
+    orderTotal,
+    amountReceived: `$${(pi.amount_received / 100).toFixed(2)}`,
+  });
+
+  // TODO: Update HubSpot deal to "Deposit Received" stage using clientEmail.
+  // See app/api/stripe/webhook/route.ts handleInvoicePaid for the HubSpot pattern.
+
+  return NextResponse.json({ received: true });
+}
+
+// ── invoice.paid ──────────────────────────────────────────────────────────
+// Fired when a final balance invoice is paid via the invoicing flow.
+// Updates the corresponding HubSpot deal to "Closed Won".
+
+async function handleInvoicePaid(event: Stripe.Event) {
+  const hubspotToken = process.env.HUBSPOT_ACCESS_TOKEN;
   const invoice = event.data.object as Stripe.Invoice;
   const customerEmail = invoice.customer_email;
 
@@ -74,6 +113,8 @@ export async function POST(req: NextRequest) {
   }
 }
 
+// ── HubSpot helpers ───────────────────────────────────────────────────────
+
 async function findContactByEmail(
   email: string,
   token: string
@@ -86,11 +127,7 @@ async function findContactByEmail(
     },
     body: JSON.stringify({
       filterGroups: [
-        {
-          filters: [
-            { propertyName: "email", operator: "EQ", value: email },
-          ],
-        },
+        { filters: [{ propertyName: "email", operator: "EQ", value: email }] },
       ],
       limit: 1,
     }),
