@@ -62,7 +62,6 @@ These are the non-negotiable facts about this project. Do not deviate from these
 
 ## Regulatory Compliance
 
-- **AB 660 (California):** Effective July 1, 2026. Requires individual dietary and food safety labeling. CBC's existing protocol already meets the standard — first-mover advantage over smaller operators who will scramble to comply.
 - **Santa Clara Catering Permit:** Required before any client-facing activity. ~$282+ fee; requires commissary agreement + SOPs + inspection. **Must be filed before launch.**
 
 ---
