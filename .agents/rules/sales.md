@@ -8,13 +8,13 @@
 - Title: Office Manager, Executive Assistant, Workplace Ops Coordinator
 - Company: Series B–C tech firms, **100–200 employees** (sweet spot validated by market research)
 - Pain: reliability failures, day-of surprises, wasted morning managing the caterer
-- Lead angle: on-time guarantee, dietary accuracy, transparent pricing, AB 660 compliance
+- Lead angle: on-time guarantee, dietary accuracy, transparent pricing, individual item labeling
 
 ### Persona B — Marcus (HR Director / Head of People)
 - Title: HR Director, Head of People, VP People Ops
 - Company: Series C–D or post-IPO tech firms, **150–250 employees**
 - Pain: food culture not reflecting team diversity, ESG gaps, eNPS drag
-- Lead angle: specialist chefs, diverse cuisines, sustainability, culture-forward program, AB 660 compliance
+- Lead angle: specialist chefs, diverse cuisines, sustainability, culture-forward program, menu fatigue relief
 
 **Targeting notes:** Sweet spot is **100–200 employees** ordering for Anchor Days (Tue–Thu). Firms under 75 rarely hit the 50-guest minimum. Firms 250+ often have managed dining. Do not waste outreach on sub-75 or post-IPO 500+ firms.
 
@@ -39,19 +39,11 @@
 
 | Touch | Timing | Content |
 |---|---|---|
-| Email 1 | Day 0 | Persona-specific template + CBC_Sales_One_Pager_v2.pdf + AB 660 compliance line |
-| Email 2 | Day 4 | Reliability + dietary labeling follow-up + "AB 660 ready before the July deadline" |
+| Email 1 | Day 0 | Persona-specific template + CBC_Sales_One_Pager_v2.pdf + menu fatigue hook |
+| Email 2 | Day 4 | Reliability + individual item labeling follow-up ("Every item labeled — not just 'vegan option available'") |
 | Email 3 | Day 10 | Menu drop + 10% first-order offer + Anchor Day hook ("Lock in your Tuesday spread") |
 | Email 4 | Day 31 | Re-engagement (TBD) |
 | Email 5 | Post-event | Thank you + referral ask + recurring contract offer |
-
-### AB 660 Regulatory Wedge (use in every outbound touch)
-
-California AB 660 takes effect July 1, 2026 — requiring individual dietary and food safety labeling on all catered items. CBC is already compliant. Use this in every outbound email, quote, cold call, and tasting follow-up:
-
-> **"We're AB 660-compliant before the July 2026 deadline — is your current vendor?"**
-
-Position CBC as the safe, de-risked choice. Buyers at regulated tech firms will respond to compliance certainty.
 
 ### Anchor Day Language (use in Email 3, quotes, follow-ups)
 
