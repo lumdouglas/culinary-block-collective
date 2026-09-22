@@ -528,7 +528,7 @@
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
       </svg>
-      Book a Tasting
+      Get a Quote
     </a>
   </div>
 </div>
@@ -571,7 +571,7 @@
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain, 50–99 guests). Volume discounts at 100+ guests on Chef John concepts. <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). Chef John available <strong>Mon–Fri</strong>; Loulan and Unique Cuisine available <strong>Tue–Fri</strong>. <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain). <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). Chef John available <strong>Mon–Fri</strong>; Loulan and Unique Cuisine available <strong>Tue–Fri</strong>. <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -607,6 +607,50 @@
 // Chef John: lunch = any concept; dinner = Italian only.
 // Loulan + Unique Cuisine: standard availability is Tue–Fri; Mon on request only.
 const CHEFS = [
+  {
+    id: 'loulan',
+    name: 'Chef Kun',
+    business: 'Loulan',
+    dot: '#EF4444',
+    bg: '#FEF2F2',
+    text: '#991B1B',
+    available_days: [2,3,4,5],   // Tue–Fri standard; Mon available on request
+    profile_url: '/chef-loulan',
+    menu_url: '/chef-loulan-menu',
+    concepts: [
+      {
+        name: 'Loulan — Chinese & SE Asian', cuisine: 'Chinese & SE Asian', tag: 'chinese',
+        meal_types: ['lunch'],
+        description: 'Two Chinese spreads (crowd-pleaser and Sichuan-spiced) plus Southeast Asian sets — 3 proteins + 2 vegetables + steamed white rice',
+        pricing: {
+          tiers: [{ label: 'Flat rate', price: '$25/person' }],
+          min_guests: 50, min_order: '$1,250',
+        },
+      },
+    ],
+  },
+  {
+    id: 'unique_cuisine',
+    name: 'Chef Billy',
+    business: 'Unique Cuisine',
+    dot: '#6366F1',
+    bg: '#EEF2FF',
+    text: '#3730A3',
+    available_days: [2,3,4,5],   // Tue–Fri
+    profile_url: '/chef-unique-cuisine',
+    menu_url: '/chef-unique-cuisine-menu',
+    concepts: [
+      {
+        name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi',
+        meal_types: ['lunch'],
+        description: 'Assorted sushi rolls, chicken & tofu teriyaki, gyoza, edamame, steamed rice — every item labeled',
+        pricing: {
+          tiers: [{ label: 'Flat rate', price: '$30/person' }],
+          min_guests: 50, min_order: '$1,500',
+        },
+      },
+    ],
+  },
   {
     id: 'chef_john',
     name: 'Chef John',
@@ -663,50 +707,6 @@ const CHEFS = [
             { label: '100+ guests',  price: '$38/person' },
           ],
           min_guests: 50, min_order: '$1,900',
-        },
-      },
-    ],
-  },
-  {
-    id: 'loulan',
-    name: 'Chef Kun',
-    business: 'Loulan',
-    dot: '#EF4444',
-    bg: '#FEF2F2',
-    text: '#991B1B',
-    available_days: [2,3,4,5],   // Tue–Fri standard; Mon available on request
-    profile_url: '/chef-loulan',
-    menu_url: '/chef-loulan-menu',
-    concepts: [
-      {
-        name: 'Loulan — Chinese & SE Asian', cuisine: 'Chinese & SE Asian', tag: 'chinese',
-        meal_types: ['lunch'],
-        description: 'Two Chinese spreads (crowd-pleaser and Sichuan-spiced) plus Southeast Asian sets — 3 proteins + 2 vegetables + steamed white rice',
-        pricing: {
-          tiers: [{ label: 'Flat rate', price: '$25/person' }],
-          min_guests: 50, min_order: '$1,250',
-        },
-      },
-    ],
-  },
-  {
-    id: 'unique_cuisine',
-    name: 'Billy & Jaclyn',
-    business: 'Unique Cuisine',
-    dot: '#6366F1',
-    bg: '#EEF2FF',
-    text: '#3730A3',
-    available_days: [2,3,4,5],   // Tue–Fri
-    profile_url: '/chef-unique-cuisine',
-    menu_url: '/chef-unique-cuisine-menu',
-    concepts: [
-      {
-        name: 'Sushi & Japanese Spread', cuisine: 'Sushi & Japanese', tag: 'sushi',
-        meal_types: ['lunch'],
-        description: 'Assorted sushi rolls, chicken & tofu teriyaki, gyoza, edamame, steamed rice — every item labeled',
-        pricing: {
-          tiers: [{ label: 'Flat rate', price: '$30/person' }],
-          min_guests: 50, min_order: '$1,500',
         },
       },
     ],

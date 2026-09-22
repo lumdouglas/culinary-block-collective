@@ -124,12 +124,26 @@
     .menu-items li::before { content: '›'; color: var(--sushi); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
     .menu-items .item-desc { font-size: 0.75rem; color: var(--muted); display: block; margin-top: 2px; }
     .menu-items .tag { display: inline-block; background: var(--lgreen); color: var(--dgreen); font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    .tag { display: inline-block; font-size: 0.6rem; font-weight: 700; padding: 1px 5px; border-radius: 3px; margin-left: 4px; vertical-align: middle; }
+    .tag-v { background: var(--lgreen); color: var(--dgreen); }
+    .tag-gf { background: #FEF3C7; color: #92400E; }
 
     /* Photo strip */
     .photo-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 40px; }
     .photo-strip img { width: 100%; border-radius: 8px; object-fit: cover; aspect-ratio: 1; }
     .photo-strip img.photo-main { aspect-ratio: 4/3; }
     @media (max-width: 640px) { .photo-strip { grid-template-columns: repeat(2, 1fr); } }
+
+    /* ── MENU BLOCK ── */
+    .menu-block { display: grid; grid-template-columns: 280px 1fr; background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+    .menu-block-photo { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 320px; }
+    .menu-block-body { padding: 28px 32px; display: flex; flex-direction: column; gap: 20px; }
+    .menu-block-section-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #4338CA; margin-bottom: 10px; }
+    .menu-block-pills { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; }
+    .menu-block-pills li { font-size: 0.82rem; color: var(--muted); background: var(--cream2); padding: 4px 10px; border-radius: 50px; border: 1px solid var(--border); }
+    .menu-block-btn { display: inline-flex; align-items: center; gap: 8px; background: #6366F1; color: var(--white); font-weight: 700; font-size: 0.9rem; padding: 12px 24px; border-radius: 50px; text-decoration: none; width: fit-content; margin-top: auto; transition: background .15s; }
+    .menu-block-btn:hover { background: #4338CA; }
+    @media (max-width: 680px) { .menu-block { grid-template-columns: 1fr; } .menu-block-photo { height: 220px; min-height: unset; } }
 
     /* Pricing badge */
     .price-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--sushi-light); border: 1px solid var(--sushi); border-radius: 6px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: var(--sushi); margin-bottom: 24px; }
@@ -243,48 +257,40 @@
 <section class="section section-alt" id="menu">
   <div class="container">
     <div class="menu-header">
-      <span class="menu-intro-badge">Premium Spread Menu</span>
-      <h2>Sushi &amp; Japanese Premium Spread</h2>
-      <p>Assorted sushi rolls, chicken &amp; tofu teriyaki, gyoza, edamame, and steamed rice — all in one seamless self-serve spread. Every item labeled. $30/person · 50–500 guests.</p>
+      <span class="menu-intro-badge">One Complete Spread</span>
+      <h2>The Live Sushi &amp; Teriyaki Spread</h2>
+      <p>Live-rolled sushi, teriyaki mains, gyoza &amp; sides — one complete spread. Every item labeled. $30/person · 50–500 guests.</p>
     </div>
-    <div class="concept-cards">
-      <a class="concept-card" href="/chef-unique-cuisine-menu#teriyaki">
-        <img class="concept-card-photo" src="/images/unique-cuisine/sushi-chicken-teriyaki.jpg" alt="Chicken teriyaki by Unique Cuisine" loading="lazy" />
-        <div class="concept-card-body">
-          <span class="concept-card-badge" style="background:var(--sushi-light);color:#4338CA;">Mains · Served Warm</span>
-          <h3>Teriyaki Mains</h3>
-          <ul class="concept-card-dishes">
-            <li>Chicken Teriyaki (GF)</li><li>Tofu Teriyaki (Vegan, GF)</li><li>Steamed White Rice</li>
+    <div class="menu-block">
+      <img class="menu-block-photo" src="/images/unique-cuisine/sushi-chicken-teriyaki.jpg" alt="Chicken teriyaki by Unique Cuisine" loading="lazy" />
+      <div class="menu-block-body">
+        <div>
+          <div class="menu-block-section-label">Mains · Served Warm</div>
+          <ul class="menu-block-pills">
+            <li>Chicken Teriyaki <span class="tag tag-gf">GF</span></li>
+            <li>Tofu Teriyaki <span class="tag tag-v">Vegan</span></li>
+            <li>Steamed White Rice</li>
           </ul>
-          <span class="concept-card-link" style="color:#4338CA;">Browse Full Menu →</span>
         </div>
-      </a>
-      <a class="concept-card" href="/chef-unique-cuisine-menu#sushi-rolls">
-        <img class="concept-card-photo" src="/images/unique-cuisine/sushi-rolls-closeup.jpg" alt="Assorted sushi rolls by Unique Cuisine" loading="lazy" />
-        <div class="concept-card-body">
-          <span class="concept-card-badge" style="background:var(--sushi-light);color:#4338CA;">Sushi · 4 pieces / guest</span>
-          <h3>Assorted Sushi Rolls</h3>
-          <ul class="concept-card-dishes">
-            <li>California Roll</li><li>Spicy Tuna Roll</li><li>Shrimp Tempura Roll</li><li>Avocado Cucumber Roll (Vegan)</li>
+        <div>
+          <div class="menu-block-section-label">Sushi Rolls · 4 pieces / guest</div>
+          <ul class="menu-block-pills">
+            <li>California Roll</li>
+            <li>Spicy Tuna Roll</li>
+            <li>Shrimp Tempura Roll</li>
+            <li>Avocado Cucumber Roll <span class="tag tag-v">Vegan</span></li>
           </ul>
-          <p style="font-size:0.75rem;color:var(--muted);margin-top:8px;margin-bottom:4px;"><strong>Custom sushi platters</strong> available by special request — ask when booking.</p>
-          <span class="concept-card-link" style="color:#4338CA;">Browse Full Menu →</span>
         </div>
-      </a>
-      <a class="concept-card" href="/chef-unique-cuisine-menu#sides">
-        <img class="concept-card-photo" src="/images/unique-cuisine/sushi-rolls-edamame.jpg" alt="Sushi rolls and edamame" loading="lazy" />
-        <div class="concept-card-body">
-          <span class="concept-card-badge" style="background:var(--sushi-light);color:#4338CA;">Sides · Pan-fried</span>
-          <h3>Gyoza &amp; Sides</h3>
-          <ul class="concept-card-dishes">
-            <li>Chicken Gyoza</li><li>Vegetable Gyoza (Vegan)</li><li>Edamame (Vegan, GF)</li>
+        <div>
+          <div class="menu-block-section-label">Gyoza &amp; Sides</div>
+          <ul class="menu-block-pills">
+            <li>Chicken Gyoza</li>
+            <li>Vegetable Gyoza <span class="tag tag-v">Vegan</span></li>
+            <li>Edamame <span class="tag tag-v">Vegan</span></li>
           </ul>
-          <span class="concept-card-link" style="color:#4338CA;">Browse Full Menu →</span>
         </div>
-      </a>
-    </div>
-    <div style="text-align:center;">
-      <a href="/chef-unique-cuisine-menu" style="display:inline-flex;align-items:center;gap:10px;background:#6366F1;color:var(--white);font-weight:700;font-size:1rem;padding:16px 36px;border-radius:50px;text-decoration:none;transition:background .15s;" onmouseover="this.style.background='#4338CA'" onmouseout="this.style.background='#6366F1'">Browse the Full Menu →</a>
+        <a class="menu-block-btn" href="/chef-unique-cuisine-menu">Browse the Full Menu →</a>
+      </div>
     </div>
   </div>
 </section>
