@@ -559,7 +559,7 @@
       <select class="ctrl-select" id="ctrl-tier">
         <option value="">All Tiers</option>
         <option value="tier1_dropoff">Tier 1 — Drop-Off</option>
-        <option value="tier2_attended">Tier 2 — Attended (+$8/person)</option>
+        <option value="tier2_attended">Tier 2 — Attended (+$5/person)</option>
       </select>
       <select class="ctrl-select" id="ctrl-meal">
         <option value="">Lunch &amp; Dinner</option>
@@ -571,7 +571,7 @@
 
   <!-- PRICING CONTEXT NOTE -->
   <div class="cal-pricing-note">
-    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain). <strong>+$8/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). Chef John available <strong>Mon–Fri</strong>; Loulan and Unique Cuisine available <strong>Tue–Fri</strong>. <a href="/#pricing">See full pricing →</a>
+    All spreads are <strong>Chef's Spread (self-serve station) format</strong>. Per-guest pricing ranges from <strong>$25/person</strong> (Loulan) to <strong>$50/person</strong> (Grill &amp; Grain). <strong>+$5/person</strong> for Attended Service. 50-guest minimum (100 for Spice Route). Chef John available <strong>Mon–Fri</strong>; Loulan and Unique Cuisine available <strong>Tue–Fri</strong>. <a href="/#pricing">See full pricing →</a>
   </div>
 
   <!-- LEGEND -->
@@ -962,9 +962,9 @@ function renderPanel(dateKey) {
     const conceptsHtml = visibleConcepts.map(c => {
       const tiersHtml = c.pricing.tiers.map(t => {
         const base = parseInt(String(t.price).replace(/[^0-9]/g, ''), 10);
-        const tier2Price = Number.isFinite(base) ? `$${base + 8}/person` : t.price;
+        const tier2Price = Number.isFinite(base) ? `$${base + 5}/person` : t.price;
         const priceHtml = showTier2
-          ? `<span class="chef-pricing-price">${escHtml(tier2Price)}</span> <span class="chef-pricing-tier2-orig">(${escHtml(t.price)} + $8 attended)</span>`
+          ? `<span class="chef-pricing-price">${escHtml(tier2Price)}</span> <span class="chef-pricing-tier2-orig">(${escHtml(t.price)} + $5 attended)</span>`
           : `<span class="chef-pricing-price">${escHtml(t.price)}</span>`;
         return `
           <div class="chef-pricing-row">
@@ -987,8 +987,8 @@ function renderPanel(dateKey) {
     }).join('');
 
     const attendedNote = showTier2
-      ? `<div class="chef-attended-note tier2-active"><strong>Tier 2 — Attended Service</strong> selected. Prices shown include the +$8/person attended fee (on-site CBC staff, full cleanup).</div>`
-      : `<div class="chef-attended-note">Add <strong>+$8/person</strong> for Tier 2 — Attended Service (on-site CBC staff).</div>`;
+      ? `<div class="chef-attended-note tier2-active"><strong>Tier 2 — Attended Service</strong> selected. Prices shown include the +$5/person attended fee (on-site CBC staff, full cleanup).</div>`
+      : `<div class="chef-attended-note">Add <strong>+$5/person</strong> for Tier 2 — Attended Service (on-site CBC staff).</div>`;
 
     return `
       <div class="chef-card">

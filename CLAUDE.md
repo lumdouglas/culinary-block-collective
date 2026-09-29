@@ -1,6 +1,6 @@
 # Culinary Block Collective — Project Context for Claude
 
-> **Last updated: 2026-04-08**
+> **Last updated: 2026-09-22**
 
 ## Who I Am
 
@@ -17,17 +17,17 @@ CBC serves two distinct customer segments:
 1. **Chef Entrepreneurs / Food Business Operators** — micro food businesses and independent chefs already operating out of the Culinary Block commissary, who gain access to corporate catering gigs, professional infrastructure, and a branded sales channel they couldn't build on their own
 2. **Corporate Buyers in the Bay Area** — office managers and HR/People Ops directors at tech firms (50–300 employees) who need reliable, diverse, dietary-friendly catering
 
-**Business model:** CBC acts as a sales and marketing agent, connecting chefs to corporate clients and earning a **markup margin built into the client-facing per-guest price**. Each chef quotes CBC a per-guest food price; CBC adds a markup (20–25%) to arrive at the client-facing price. The client sees a **single per-guest line item** — no separate fees. CBC is the billing entity, collects applicable **sales tax**, and pays each chef their per-guest food price after the event (Net 30). Sales tax and credit card processing fees are not deducted from chef payouts. **Operational responsibilities vary by chef agreement** — some chefs handle their own delivery, staging, and labeling; for others, CBC handles these. Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$8/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
+**Business model:** CBC acts as a sales and marketing agent, connecting chefs to corporate clients and earning a **markup margin built into the client-facing per-guest price**. Each chef quotes CBC a per-guest food price; CBC adds a markup (20–25%) to arrive at the client-facing price. The client sees a **single per-guest line item** — no separate fees. CBC is the billing entity, collects applicable **sales tax**, and pays each chef their per-guest food price after the event (Net 30). Sales tax and credit card processing fees are not deducted from chef payouts. **Operational responsibilities vary by chef agreement** — some chefs handle their own delivery, staging, and labeling; for others, CBC handles these. Two service tiers: **Tier 1 — Drop-Off Spread** (no on-site CBC staff) and **Tier 2 — Attended Service** (+$5/person, on-site CBC staff, full setup and breakdown). See *Service & Pricing Model* section below.
 
 **Chef roster:** Dynamic — drawn from current Culinary Block commissary tenants. Cuisines on offer at any time may include Chinese, sushi/Japanese, Vietnamese, Mexican fusion, American/pub fare, bakery, juices, and boba. The lineup shifts as tenants change.
 
-**Client-facing price (per person):** $30–$34/person (Standard) · $40/person (Premium) · +$8/person for Attended Service. CBC markup is 20–25% above chef's per-guest food price — see Pricing Summary below.
+**Client-facing price (per person):** $30–$34/person (Standard) · $40/person (Premium) · +$5/person for Attended Service. CBC markup is 20–25% above chef's per-guest food price — see Pricing Summary below.
 
 ---
 
 ## Service & Pricing Model
 
-> **Last updated:** 2026-03
+> **Last updated:** 2026-09
 
 CBC operates **two service tiers** plus a **Premium** price point. All service is **Chef's Spread (self-serve station) format** — no individual box meals.
 
@@ -74,13 +74,13 @@ Elevated Chef's Spread with premium proteins or expanded menu. Same Drop-Off for
 
 ### Attended Service (Tier 2)
 
-Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$8/person** on top of Standard or Premium price.
+Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$5/person** on top of Standard or Premium price.
 
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
-| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $33/person | — |
-| Five Course · Mexican Fusion + Italian | $42/person | $48/person |
-| Unique Cuisine · Sushi | — | $38/person |
+| Loulan · Chef Kun · Chinese &amp; Southeast Asian | $30/person | — |
+| Five Course · Mexican Fusion + Italian | $39/person | $45/person |
+| Unique Cuisine · Sushi | — | $35/person |
 
 **Attended staffing:**
 - Doug solo: under 100 guests

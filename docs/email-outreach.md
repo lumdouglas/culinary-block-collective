@@ -147,7 +147,7 @@ I'm closing out my outreach to [Company] unless now is actually a better time to
 
 Quick version of who we are:
 - Specialized chefs: sushi/Japanese, Chinese, Mexican fusion, American, specialty
-- Corporate catering for 50–500 guests, $25–$46/person drop-off · $33–$54/person attended (Chef's Spread format)
+- Corporate catering for 50–500 guests, $25–$46/person drop-off · $30–$51/person attended (Chef's Spread format)
 - On-time delivery, dietary labeling on every item, transparent pricing
 - Free chef tasting available for corporate accounts (10 slots/month)
 

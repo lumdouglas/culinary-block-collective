@@ -36,15 +36,15 @@ CBC is the billing entity on all orders. Client pays CBC. CBC pays each chef the
 
 ### Tier 2 — Attended Service
 
-Add **+$8/person** on top of any Standard or Premium client price.
+Add **+$5/person** on top of any Standard or Premium client price.
 
 | Chef / Cuisine | Standard + Attended | Notes |
 |---|---|---|
-| Loulan · Chef Kun · Chinese & Southeast Asian | **$33/person** | +$8 on $25 base |
-| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$54/person (50–99) · $46/person (100+)** | +$8 on volume base |
-| Five Course · Grill & Grain (Mediterranean) | **$58/person (50–99) · $54/person (100+)** | +$8 on volume base |
-| Five Course · Spice Route (Indian) | **$48/person** (100-guest min) | +$8 on $40 base |
-| Unique Cuisine · Sushi | **$38/person** | +$8 on $30 base |
+| Loulan · Chef Kun · Chinese & Southeast Asian | **$30/person** | +$5 on $25 base |
+| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | **$51/person (50–99) · $43/person (100+)** | +$5 on volume base |
+| Five Course · Grill & Grain (Mediterranean) | **$55/person (50–99) · $51/person (100+)** | +$5 on volume base |
+| Five Course · Spice Route (Indian) | **$45/person** (100-guest min) | +$5 on $40 base |
+| Unique Cuisine · Sushi | **$35/person** | +$5 on $30 base |
 
 ### Add-Ons
 
@@ -126,7 +126,7 @@ Add **+$8/person** on top of any Standard or Premium client price.
 ## Quote Building Rules
 
 1. Per-person client rate × guest count = food subtotal (single line item for client)
-2. Add applicable add-ons (attended service +$8/pp, juice/boba bundle, premium packaging, etc.)
+2. Add applicable add-ons (attended service +$5/pp, juice/boba bundle, premium packaging, etc.)
 3. Apply 10% first-order discount if new client (100+ guests only; valid through 2026-09-30)
 4. Sales tax collected by CBC on top of total — not deducted from chef payouts
 5. Quote valid for **14 days**

@@ -47,7 +47,7 @@ Inquiry → Quote → Booking Confirmation → Chef Assignment → Prep Day → 
 1. Choose package based on guest count and context:
    - Standard Drop-Off Spread ($25–$30/person) — team lunches, onboarding, informal events
    - Premium Drop-Off Spread ($40/person) — all-hands, product launches, client dinners, premium proteins/sushi
-   - Attended Service (+$8/person) — any tier with on-site CBC staff; add to Standard or Premium
+   - Attended Service (+$5/person) — any tier with on-site CBC staff; add to Standard or Premium
    - Mix & Match — 150+ guests wanting 2+ cuisines (custom pricing)
 2. Apply per-person rate for chosen cuisine (see `docs/menu-pricing.md`)
 3. Add any relevant add-ons

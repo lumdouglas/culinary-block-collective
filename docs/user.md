@@ -61,15 +61,15 @@ All service is **Chef's Spread (self-serve station) format** — no individual b
 | Five Course · Mexican Fusion (Premium) | $40/person |
 | Unique Cuisine · Sushi & Japanese (Premium) | $40/person |
 
-**Tier 2 — Attended Service** (+$8/person on top of Tier 1 price)
+**Tier 2 — Attended Service** (+$5/person on top of Tier 1 price)
 
 On-site CBC staff handle full setup, station maintenance, and cleanup. Linen and labeled stations included.
 
 | Chef / Cuisine | Standard + Attended | Premium + Attended |
 |---|---|---|
-| Kivi · Chinese | $33–$38/person | — |
-| Five Course · Mexican Fusion | $38/person | $48/person |
-| Unique Cuisine · Sushi | — | $48/person |
+| Kivi · Chinese | $30–$35/person | — |
+| Five Course · Mexican Fusion | $35/person | $45/person |
+| Unique Cuisine · Sushi | — | $45/person |
 
 Sales tax is collected from clients in addition to per-person rate.
 

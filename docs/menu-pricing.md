@@ -50,11 +50,11 @@ Everything in Tier 1 plus 1–2 on-site CBC staff who maintain stations, interac
 
 | Cuisine / Concept | Per-Head Price | Min. Guests | Min. Order |
 |---|---|---|---|
-| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $33/person | 50 | $1,650 |
-| **Sushi & Japanese · Unique Cuisine** | $38/person | 50 | $1,900 |
-| **Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $48/person (50–99 guests) · $38/person (100+) | 50 | $1,900 |
-| **Five Course · Spice Route (Indian)** | $48/person | 100 | $4,800 |
-| **Five Course · Grill & Grain (Mediterranean)** | $58/person (50–99 guests) · $54/person (100+) | 50 | $2,700 |
+| **Chinese & Southeast Asian · Loulan (Chef Kun)** | $30/person | 50 | $1,500 |
+| **Sushi & Japanese · Unique Cuisine** | $35/person | 50 | $1,750 |
+| **Five Course · The Tortilla Theory (Mexican) / A Little Pasta Table (Italian)** | $45/person (50–99 guests) · $35/person (100+) | 50 | $1,750 |
+| **Five Course · Spice Route (Indian)** | $45/person | 100 | $4,500 |
+| **Five Course · Grill & Grain (Mediterranean)** | $55/person (50–99 guests) · $51/person (100+) | 50 | $2,750 |
 
 **What's included in Tier 2 (everything in Tier 1, plus):**
 - ✓ 1–2 on-site CBC staff (station maintenance, guest interaction, cleanup)
@@ -147,12 +147,12 @@ Recurring contracts include:
 
 | Cuisine | Specialty Dishes | Standard Drop-Off Price | Attended Service Price |
 |---|---|---|---|
-| **Sushi & Japanese · Unique Cuisine** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests · Spread format only | $38/person · 50-person min ($1,900) · CBC-staffed · 2 staff for 100–200 guests |
-| **Chinese & Southeast Asian · Chef Kun · Loulan (楼兰)** | Chinese sets (3 proteins + 2 veg, choose from full menu) · Southeast Asian fixed sets (6 menus) · White rice included | $25/person · 50-person min ($1,250) · +$5/person 4th protein · +$1/person brown rice | $33/person · 50-person min ($1,650) |
-| **Five Course · The Tortilla Theory (Mexican)** | Pollo al Pastor, Chicken Tinga, Carnitas, chef-paired salsas, seasonal sides, churros, tres leches | $40/person (50–99) · $30/person (100+) · 50-person min · max 500 guests | $48 (50–99) / $38 (100+) · 50-person min |
-| **Five Course · A Little Pasta Table (Italian)** | Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides, garlic bread | $40/person (50–99) · $30/person (100+) · 50-person min · max 500 guests | $48 (50–99) / $38 (100+) · 50-person min |
-| **Five Course · Spice Route (Indian)** | Michelin-trained Indian cuisine — concept details on chef menu page | $40/person · 100-person min ($4,000) · max 500 guests | $48/person · 100-person min ($4,800) |
-| **Five Course · Grill & Grain (Mediterranean)** | Grilled proteins, grain bowls, Mediterranean spreads, chef-paired sauces | $50/person (50–99) · $46/person (100+) · 50-person min · max 500 guests | $58 (50–99) / $54 (100+) · 50-person min |
+| **Sushi & Japanese · Unique Cuisine** | Sushi rolls, chicken/tofu teriyaki, gyoza, edamame, rice | $30/person · 50-person min ($1,500) · max 500 guests · Spread format only | $35/person · 50-person min ($1,750) · CBC-staffed · 2 staff for 100–200 guests |
+| **Chinese & Southeast Asian · Chef Kun · Loulan (楼兰)** | Chinese sets (3 proteins + 2 veg, choose from full menu) · Southeast Asian fixed sets (6 menus) · White rice included | $25/person · 50-person min ($1,250) · +$5/person 4th protein · +$1/person brown rice | $30/person · 50-person min ($1,500) |
+| **Five Course · The Tortilla Theory (Mexican)** | Pollo al Pastor, Chicken Tinga, Carnitas, chef-paired salsas, seasonal sides, churros, tres leches | $40/person (50–99) · $30/person (100+) · 50-person min · max 500 guests | $45 (50–99) / $35 (100+) · 50-person min |
+| **Five Course · A Little Pasta Table (Italian)** | Chicken Parmesan, Pasta Bolognese, Basil Pesto Pasta, Penne Alfredo, seasonal sides, garlic bread | $40/person (50–99) · $30/person (100+) · 50-person min · max 500 guests | $45 (50–99) / $35 (100+) · 50-person min |
+| **Five Course · Spice Route (Indian)** | Michelin-trained Indian cuisine — concept details on chef menu page | $40/person · 100-person min ($4,000) · max 500 guests | $45/person · 100-person min ($4,500) |
+| **Five Course · Grill & Grain (Mediterranean)** | Grilled proteins, grain bowls, Mediterranean spreads, chef-paired sauces | $50/person (50–99) · $46/person (100+) · 50-person min · max 500 guests | $55 (50–99) / $51 (100+) · 50-person min |
 | **American / Comfort** | Smoked BBQ, sliders, mac & cheese, cornbread | TBD | TBD |
 | **Specialty & Seasonal** | Dietary-forward global fusion, vegan/GF-forward | TBD | TBD |
 | **Vietnamese** *(when available)* | Pho, banh mi, rice noodle bowls | TBD — confirm at booking | TBD |

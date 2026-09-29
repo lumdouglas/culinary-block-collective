@@ -43,7 +43,7 @@ All service is Chef's Spread (self-serve station) format — no individual box m
 | Role | Office Manager / Executive Assistant / HR Coordinator |
 | Company Size | 50–300 employees (tech startups & mid-size firms) |
 | Location | Palo Alto, San Jose, Mountain View, Sunnyvale |
-| Budget | $25–$46/person drop-off ($33–$54 attended); 50-guest minimum; typical order $1,250–$3,000 |
+| Budget | $25–$46/person drop-off ($30–$51 attended); 50-guest minimum; typical order $1,250–$3,000 |
 | Events Booked | Team lunches, client dinners, product launches, all-hands |
 | Pain Points | Late deliveries, dietary errors, generic menus, hidden fees |
 | Priorities | Reliable vendor, dietary customization, sustainability, easy ordering |

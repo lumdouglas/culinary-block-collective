@@ -93,15 +93,15 @@ Chef's Spread with chafing dishes, insulated trays, serving utensils, printed me
 - CBC absorbs CC fees (~3%) on all orders — not deducted from any chef payout. No separate service fee.
 
 #### Attended Service (Tier 2)
-Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$8/person** on top of Standard or Premium price.
+Everything in Drop-Off Spread plus on-site CBC staff who set up, maintain stations, and clean up. Proper linen and labeled stations. **+$5/person** on top of Standard or Premium price.
 
-| Chef / Cuisine | Drop-Off + Attended (+$8/person) |
+| Chef / Cuisine | Drop-Off + Attended (+$5/person) |
 |---|---|
-| Chef Kun · Loulan · Chinese & Southeast Asian | $33/person |
-| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $54/person (50–99) · $46/person (100+) |
-| Five Course · Spice Route (Indian) | $48/person (100-guest min) |
-| Five Course · Grill & Grain (Mediterranean) | $58/person (50–99) · $54/person (100+) |
-| Unique Cuisine · Sushi | $38/person |
+| Chef Kun · Loulan · Chinese & Southeast Asian | $30/person |
+| Five Course · Tortilla Theory (Mexican) / A Little Pasta Table (Italian) | $51/person (50–99) · $43/person (100+) |
+| Five Course · Spice Route (Indian) | $45/person (100-guest min) |
+| Five Course · Grill & Grain (Mediterranean) | $55/person (50–99) · $51/person (100+) |
+| Unique Cuisine · Sushi | $35/person |
 
 **Attended staffing:** Doug solo under 100 guests · 2 staff 100–200 guests · confirm 200+
 

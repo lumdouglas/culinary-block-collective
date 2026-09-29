@@ -26,7 +26,7 @@
 | **Service Format** | Spread format only (no individual boxes) |
 | **Menu** | Rice · Chicken teriyaki · Tofu teriyaki · Edamame · Chicken gyoza · Vegetable gyoza · 4-piece assorted sushi (CA roll, spicy tuna roll, shrimp tempura roll, avocado cucumber roll) |
 | **Premium Tier** | Client price $30/person · Chef price to CBC $24 · CBC markup $6 (20%) · 50-person min · max 500 guests · Spread format only |
-| **Attended Service** | $48/person (Premium + $8/person for CBC on-site staff) |
+| **Attended Service** | $35/person (Premium + $5/person for CBC on-site staff) |
 | **Min Order** | 50 guests / $2,000 |
 | **Max Capacity** | 500 guests |
 | **Time at Commissary** | [TBD] |
@@ -214,7 +214,7 @@ His company, Loulan, is named after the ancient Silk Road oasis city of Loulan (
 
 | Event Type | Best Chef(s) | Notes |
 |---|---|---|
-| Sushi / Japanese | Unique Cuisine | $30/person · Attended $38/person · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · 50-person min · max 500 guests · CBC handles delivery, labeling, setup |
+| Sushi / Japanese | Unique Cuisine | $30/person · Attended $35/person · Feature as specialty add-on or third cuisine for mix-and-match · Do not lead with Unique in cold outreach · 50-person min · max 500 guests · CBC handles delivery, labeling, setup |
 | Mexican Fusion | Chef John · Five Course Provision | **The Tortilla Theory** — Client price $46/$38 (50–99/100+) · Chef price $32 · CBC handles delivery, staging, labeling · 50-person min · max 500 guests |
 | Italian | Chef John · Five Course Provision | **A Little Pasta Table** — client price $38/person (chef price $32) · same pricing and fulfillment as Mexican · 50-person min · max 500 guests |
 | Mediterranean (Grill & Grain) | Chef John · Five Course Provision | **Grill & Grain** — Client price $50/$46 (50–99/100+) · Chef price $42 · Thin margin at 100+ (~$2.62/person net) — promote primarily at 50–99 guest tier · CBC handles delivery, staging, labeling · 50-person min |

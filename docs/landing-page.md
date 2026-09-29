@@ -89,7 +89,7 @@
 |---|---|---|---|
 | **Standard Drop-Off Spread** | From $25/person | 50+ guests | Full Chef's Spread with chafing dishes, serving utensils, dietary labels, printed menu card, delivery included |
 | **Premium Drop-Off Spread** ⭐ Most Popular | From $38/person | 50+ guests | Elevated Chef's Spread — premium proteins or full sushi spread, full dietary labeling, delivery included |
-| **Attended Service** | +$8/person | 50+ guests | Everything in Drop-Off Spread plus 1–2 on-site CBC staff — setup, station maintenance, and cleanup |
+| **Attended Service** | +$5/person | 50+ guests | Everything in Drop-Off Spread plus 1–2 on-site CBC staff — setup, station maintenance, and cleanup |
 | **Custom / Mix & Match** | Custom quote | 150+ guests | Choose 2–3 chef cuisines, live chef station option, branded signage |
 
 ---
@@ -104,7 +104,7 @@
 |---|---|---|
 | **Best for** | Recurring team lunches, everyday team meals | Client events, all-hands, milestone celebrations, onboarding days |
 | **What's included** | Chef's Spread with chafing dishes, serving utensils, printed menu card, dietary labels, CBC delivery | Everything in Tier 1 + 1–2 on-site CBC staff, setup, station maintenance, and cleanup |
-| **Starting price** | From $25/person | Add $8/person to any tier |
+| **Starting price** | From $25/person | Add $5/person to any tier |
 | **On-site staff** | No — client handles setup and cleanup | Yes — CBC staff owns the event floor |
 
 > Regardless of tier, the food comes from Michelin-caliber and specialty chefs. The difference is who handles the room.
@@ -183,7 +183,7 @@
 
 | Question | Answer Summary |
 |---|---|
-| How much does corporate catering in San Jose cost? | $25–$50/person for 50–500 guests. Standard Drop-Off Spread from $25/person, Chef John concepts from $38–$50/person (volume pricing), Attended Service adds $8/person. All-in pricing including delivery — no hidden fees. |
+| How much does corporate catering in San Jose cost? | $25–$50/person for 50–500 guests. Standard Drop-Off Spread from $25/person, Chef John concepts from $38–$50/person (volume pricing), Attended Service adds $5/person. All-in pricing including delivery — no hidden fees. |
 | What cuisines do you offer? | Sushi & Japanese, Chinese, Mexican Fusion, American BBQ, Specialty/Seasonal. Mix multiple for larger events. |
 | Do you accommodate dietary restrictions? | Yes — every item individually labeled (vegan, GF, nut-free, dairy-free). Full dietary breakdown sheet on every order. Food safety labels with consume-by times on all items per California food safety standards. |
 | What areas do you serve? | San Jose, Palo Alto, Mountain View, Sunnyvale, Santa Clara — within 20 miles of our San Jose kitchen. |

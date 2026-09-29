@@ -42,7 +42,7 @@ These are the non-negotiable facts about this project. Do not deviate from these
 - Five Course · Chef John — A Little Pasta Table (Italian): **$46/person** (50–99) · **$38/person** (100+) · 50-guest min
 - Five Course · Chef John — Grill & Grain (Mediterranean): **$50/person** (50–99) · **$46/person** (100+) · 50-guest min
 - Five Course · Chef John — Spice Route (Indian): **$40/person** · 100-guest minimum
-- Attended Service (Tier 2): **+$8/person** on top of any concept price
+- Attended Service (Tier 2): **+$5/person** on top of any concept price
 - **No separate service or coordination fee** — CBC's margin is built into the per-guest price
 - Client receives a **single per-guest line item** (plus any add-ons they choose)
 - Compostable tableware (plates, cutlery, napkins) is standard on all orders. Premium compostable upgrade available at +$2.50/person.
